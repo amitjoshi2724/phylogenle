@@ -1,0 +1,717 @@
+{
+  "human (homo sapiens)": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "chimpanzee (pan troglodytes)": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "gorilla (gorilla gorilla)": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "orangutan (pongo pygmaeus)": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "macaque (macaca mulatta)": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "baboon (papio anubis)": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "ring-tailed lemur (lemur catta)": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "philippine tarsier (carlito syrichta)": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "lion (panthera leo)": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "tiger (panthera tigris)": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "leopard (panthera pardus)": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "cheetah (acinonyx jubatus)": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "domestic cat (felis catus)": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "cougar (puma concolor)": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "jaguar (panthera onca)": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "snow leopard (panthera uncia)": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "lynx (lynx lynx)": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "gray wolf (canis lupus)": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "dog (canis lupus familiaris)": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "red fox (vulpes vulpes)": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "coyote (canis latrans)": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "brown bear (ursus arctos)": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "polar bear (ursus maritimus)": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "panda (ailuropoda melanoleuca)": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "raccoon (procyon lotor)": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "hyena (crocuta crocuta)": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "domestic horse (equus caballus)": {
+    "time": 11.1,
+    "rank": "Genus",
+    "lca_name": "Equus"
+  },
+  "plains zebra (equus quagga)": {
+    "time": 2.78,
+    "rank": "Genus",
+    "lca_name": "Equus"
+  },
+  "donkey (equus asinus)": {
+    "time": 0.0,
+    "rank": "Species",
+    "lca_name": "Equus asinus"
+  },
+  "domestic cow (bos taurus)": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "domestic pig (sus scrofa domesticus)": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "domestic sheep (ovis aries)": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "domestic goat (capra hircus)": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "white-tailed deer (odocoileus virginianus)": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "moose (alces alces)": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "dromedary camel (camelus dromedarius)": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "llama (lama glama)": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "giraffe (giraffa camelopardalis)": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "hippopotamus (hippopotamus amphibius)": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "rhinoceros (diceros bicornis)": {
+    "time": 55.0,
+    "rank": "Order",
+    "lca_name": "Perissodactyla"
+  },
+  "elephant (loxodonta africana)": {
+    "time": 99.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "kangaroo (macropus rufus)": {
+    "time": 160.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "koala (phascolarctos cinereus)": {
+    "time": 160.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "platypus (ornithorhynchus anatinus)": {
+    "time": 180.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "opossum (didelphis virginiana)": {
+    "time": 160.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "armadillo (dasypus novemcinctus)": {
+    "time": 99.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "sloth (bradypus tridactylus)": {
+    "time": 99.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "rabbit (oryctolagus cuniculus)": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "hare (lepus europaeus)": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "mouse (mus musculus)": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "rat (rattus norvegicus)": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "guinea pig (cavia porcellus)": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "squirrel (sciurus carolinensis)": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "beaver (castor canadensis)": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "porcupine (erethizon dorsatum)": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "bat (desmodus rotundus)": {
+    "time": 81.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "hedgehog (erinaceus europaeus)": {
+    "time": 86.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "mole (talpa europaea)": {
+    "time": 86.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "walrus (odobenus rosmarus)": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "seal (phoca vitulina)": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "bottlenose dolphin (tursiops truncatus)": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "orca (orcinus orca)": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "blue whale (balaenoptera musculus)": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "humpback whale (megaptera novaeangliae)": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "sperm whale (physeter macrocephalus)": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "manatee (trichechus manatus)": {
+    "time": 99.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "bald eagle (haliaeetus leucocephalus)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "red-tailed hawk (buteo jamaicensis)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "peregrine falcon (falco peregrinus)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "great horned owl (bubo virginianus)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "emperor penguin (aptenodytes forsteri)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "ostrich (struthio camelus)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "emu (dromaius novaehollandiae)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "kiwi (apteryx mantelli)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "domestic chicken (gallus gallus domesticus)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "turkey (meleagris gallopavo)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "mallard duck (anas platyrhynchos)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "greylag goose (anser anser)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "mute swan (cygnus olor)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "rock dove (columba livia)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "american crow (corvus brachyrhynchos)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "common raven (corvus corax)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "scarlet macaw (ara macao)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "ruby-throated hummingbird (archilochus colubris)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "greater flamingo (phoenicopterus roseus)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "indian peafowl (pavo cristatus)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "western diamondback rattlesnake (crotalus atrox)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "green iguana (iguana iguana)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "common chameleon (chamaeleo chamaeleon)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "tokay gecko (gekko gecko)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "nile crocodile (crocodylus niloticus)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "american alligator (alligator mississippiensis)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "painted turtle (chrysemys picta)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "galapagos tortoise (chelonoidis nigra)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "green sea turtle (chelonia mydas)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "komodo dragon (varanus komodoensis)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "cobra (ophiophagus hannah)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "python (python bivittatus)": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "common frog (rana temporaria)": {
+    "time": 352.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "common toad (bufo bufo)": {
+    "time": 352.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "fire salamander (salamandra salamandra)": {
+    "time": 352.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "smooth newt (lissotriton vulgaris)": {
+    "time": 352.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "axolotl (ambystoma mexicanum)": {
+    "time": 352.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "caecilian (gymnopis multiplicata)": {
+    "time": 352.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "great white shark (carcharodon carcharias)": {
+    "time": 462.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "atlantic bluefin tuna (thunnus thynnus)": {
+    "time": 429.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "atlantic salmon (salmo salar)": {
+    "time": 429.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "goldfish (carassius auratus)": {
+    "time": 429.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "common carp (cyprinus carpio)": {
+    "time": 429.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "rainbow trout (oncorhynchus mykiss)": {
+    "time": 429.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "largemouth bass (micropterus salmoides)": {
+    "time": 429.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "channel catfish (ictalurus punctatus)": {
+    "time": 429.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "green spotted puffer (tetraodon nigroviridis)": {
+    "time": 429.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "european eel (anguilla anguilla)": {
+    "time": 429.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "common stingray (dasyatis pastinaca)": {
+    "time": 462.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "estuary seahorse (hippocampus kuda)": {
+    "time": 429.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "common octopus (octopus vulgaris)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "european squid (loligo vulgaris)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "common cuttlefish (sepia officinalis)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "roman snail (helix pomatia)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "grey field slug (deroceras reticulatum)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "pacific oyster (crassostrea gigas)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "hard clam (mercenaria mercenaria)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "blue crab (callinectes sapidus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "american lobster (homarus americanus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "giant tiger prawn (penaeus monodon)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "black widow spider (latrodectus mactans)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "emperor scorpion (pandinus imperator)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "amazonian giant centipede (scolopendra gigantea)": {
+    "time": -1.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "giant african millipede (archispirostreptus gigas)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "red imported fire ant (solenopsis invicta)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "western honey bee (apis mellifera)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "common wasp (vespula vulgaris)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "monarch butterfly (danaus plexippus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "domestic silk moth (bombyx mori)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "seven-spot ladybird (coccinella septempunctata)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "housefly (musca domestica)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "african malaria mosquito (anopheles gambiae)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "american cockroach (periplaneta americana)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "common earthworm (lumbricus terrestris)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "moon jelly (aurelia aurita)": {
+    "time": 685.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "common starfish (asterias rubens)": {
+    "time": 619.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "purple sea urchin (strongylocentrotus purpuratus)": {
+    "time": 619.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  }
+}

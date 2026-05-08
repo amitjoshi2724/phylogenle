@@ -1,0 +1,717 @@
+{
+  "human (homo sapiens)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "chimpanzee (pan troglodytes)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "gorilla (gorilla gorilla)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "orangutan (pongo pygmaeus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "macaque (macaca mulatta)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "baboon (papio anubis)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "ring-tailed lemur (lemur catta)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "philippine tarsier (carlito syrichta)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "lion (panthera leo)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "tiger (panthera tigris)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "leopard (panthera pardus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "cheetah (acinonyx jubatus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "domestic cat (felis catus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "cougar (puma concolor)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "jaguar (panthera onca)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "snow leopard (panthera uncia)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "lynx (lynx lynx)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "gray wolf (canis lupus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "dog (canis lupus familiaris)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "red fox (vulpes vulpes)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "coyote (canis latrans)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "brown bear (ursus arctos)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "polar bear (ursus maritimus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "panda (ailuropoda melanoleuca)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "raccoon (procyon lotor)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "hyena (crocuta crocuta)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "domestic horse (equus caballus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "plains zebra (equus quagga)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "donkey (equus asinus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "domestic cow (bos taurus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "domestic pig (sus scrofa domesticus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "domestic sheep (ovis aries)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "domestic goat (capra hircus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "white-tailed deer (odocoileus virginianus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "moose (alces alces)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "dromedary camel (camelus dromedarius)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "llama (lama glama)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "giraffe (giraffa camelopardalis)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "hippopotamus (hippopotamus amphibius)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "rhinoceros (diceros bicornis)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "elephant (loxodonta africana)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "kangaroo (macropus rufus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "koala (phascolarctos cinereus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "platypus (ornithorhynchus anatinus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "opossum (didelphis virginiana)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "armadillo (dasypus novemcinctus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "sloth (bradypus tridactylus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "rabbit (oryctolagus cuniculus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "hare (lepus europaeus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "mouse (mus musculus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "rat (rattus norvegicus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "guinea pig (cavia porcellus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "squirrel (sciurus carolinensis)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "beaver (castor canadensis)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "porcupine (erethizon dorsatum)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "bat (desmodus rotundus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "hedgehog (erinaceus europaeus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "mole (talpa europaea)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "walrus (odobenus rosmarus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "seal (phoca vitulina)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "bottlenose dolphin (tursiops truncatus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "orca (orcinus orca)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "blue whale (balaenoptera musculus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "humpback whale (megaptera novaeangliae)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "sperm whale (physeter macrocephalus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "manatee (trichechus manatus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "bald eagle (haliaeetus leucocephalus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "red-tailed hawk (buteo jamaicensis)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "peregrine falcon (falco peregrinus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "great horned owl (bubo virginianus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "emperor penguin (aptenodytes forsteri)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "ostrich (struthio camelus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "emu (dromaius novaehollandiae)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "kiwi (apteryx mantelli)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "domestic chicken (gallus gallus domesticus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "turkey (meleagris gallopavo)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "mallard duck (anas platyrhynchos)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "greylag goose (anser anser)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "mute swan (cygnus olor)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "rock dove (columba livia)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "american crow (corvus brachyrhynchos)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "common raven (corvus corax)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "scarlet macaw (ara macao)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "ruby-throated hummingbird (archilochus colubris)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "greater flamingo (phoenicopterus roseus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "indian peafowl (pavo cristatus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "western diamondback rattlesnake (crotalus atrox)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "green iguana (iguana iguana)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "common chameleon (chamaeleo chamaeleon)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "tokay gecko (gekko gecko)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "nile crocodile (crocodylus niloticus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "american alligator (alligator mississippiensis)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "painted turtle (chrysemys picta)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "galapagos tortoise (chelonoidis nigra)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "green sea turtle (chelonia mydas)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "komodo dragon (varanus komodoensis)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "cobra (ophiophagus hannah)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "python (python bivittatus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "common frog (rana temporaria)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "common toad (bufo bufo)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "fire salamander (salamandra salamandra)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "smooth newt (lissotriton vulgaris)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "axolotl (ambystoma mexicanum)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "caecilian (gymnopis multiplicata)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "great white shark (carcharodon carcharias)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "atlantic bluefin tuna (thunnus thynnus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "atlantic salmon (salmo salar)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "goldfish (carassius auratus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "common carp (cyprinus carpio)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "rainbow trout (oncorhynchus mykiss)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "largemouth bass (micropterus salmoides)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "channel catfish (ictalurus punctatus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "green spotted puffer (tetraodon nigroviridis)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "european eel (anguilla anguilla)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "common stingray (dasyatis pastinaca)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "estuary seahorse (hippocampus kuda)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "common octopus (octopus vulgaris)": {
+    "time": 610.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "european squid (loligo vulgaris)": {
+    "time": 610.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "common cuttlefish (sepia officinalis)": {
+    "time": 610.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "roman snail (helix pomatia)": {
+    "time": 610.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "grey field slug (deroceras reticulatum)": {
+    "time": 610.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "pacific oyster (crassostrea gigas)": {
+    "time": 610.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "hard clam (mercenaria mercenaria)": {
+    "time": 610.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "blue crab (callinectes sapidus)": {
+    "time": 515.0,
+    "rank": "Phylum",
+    "lca_name": "Arthropoda"
+  },
+  "american lobster (homarus americanus)": {
+    "time": 515.0,
+    "rank": "Phylum",
+    "lca_name": "Arthropoda"
+  },
+  "giant tiger prawn (penaeus monodon)": {
+    "time": 515.0,
+    "rank": "Phylum",
+    "lca_name": "Arthropoda"
+  },
+  "black widow spider (latrodectus mactans)": {
+    "time": 548.0,
+    "rank": "Phylum",
+    "lca_name": "Arthropoda"
+  },
+  "emperor scorpion (pandinus imperator)": {
+    "time": 548.0,
+    "rank": "Phylum",
+    "lca_name": "Arthropoda"
+  },
+  "amazonian giant centipede (scolopendra gigantea)": {
+    "time": -1.0,
+    "rank": "Phylum",
+    "lca_name": "Arthropoda"
+  },
+  "giant african millipede (archispirostreptus gigas)": {
+    "time": 555.0,
+    "rank": "Phylum",
+    "lca_name": "Arthropoda"
+  },
+  "red imported fire ant (solenopsis invicta)": {
+    "time": 344.0,
+    "rank": "Class",
+    "lca_name": "Insecta"
+  },
+  "western honey bee (apis mellifera)": {
+    "time": 344.0,
+    "rank": "Class",
+    "lca_name": "Insecta"
+  },
+  "common wasp (vespula vulgaris)": {
+    "time": 344.0,
+    "rank": "Class",
+    "lca_name": "Insecta"
+  },
+  "monarch butterfly (danaus plexippus)": {
+    "time": 0.0,
+    "rank": "Species",
+    "lca_name": "Danaus plexippus"
+  },
+  "domestic silk moth (bombyx mori)": {
+    "time": 102.0,
+    "rank": "Order",
+    "lca_name": "Lepidoptera"
+  },
+  "seven-spot ladybird (coccinella septempunctata)": {
+    "time": 333.0,
+    "rank": "Class",
+    "lca_name": "Insecta"
+  },
+  "housefly (musca domestica)": {
+    "time": 286.0,
+    "rank": "Class",
+    "lca_name": "Insecta"
+  },
+  "african malaria mosquito (anopheles gambiae)": {
+    "time": 286.0,
+    "rank": "Class",
+    "lca_name": "Insecta"
+  },
+  "american cockroach (periplaneta americana)": {
+    "time": 383.0,
+    "rank": "Class",
+    "lca_name": "Insecta"
+  },
+  "common earthworm (lumbricus terrestris)": {
+    "time": 610.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "moon jelly (aurelia aurita)": {
+    "time": 685.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "common starfish (asterias rubens)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "purple sea urchin (strongylocentrotus purpuratus)": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  }
+}

@@ -2,10 +2,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const animalInput = document.getElementById('animal-input');
     const autocompleteList = document.getElementById('autocomplete-list');
     const guessBtn = document.getElementById('guess-btn');
+    const giveUpBtn = document.getElementById('give-up-btn');
     const guessesContainer = document.getElementById('guesses-container');
-    const gameOverModal = document.getElementById('game-over-modal');
-    const modalTitle = document.getElementById('modal-title');
-    const modalMessage = document.getElementById('modal-message');
+    const gameEndPanel = document.getElementById('game-end-panel');
+    const endTitle = document.getElementById('end-title');
+    const endMessage = document.getElementById('end-message');
     const playAgainBtn = document.getElementById('play-again-btn');
 
     let allSpecies = [];
@@ -14,6 +15,55 @@ document.addEventListener('DOMContentLoaded', () => {
     let selectedSpecies = "";
     let currentFocus = -1;
     let guesses = [];
+    let guessedSet = new Set();
+    
+    // Wikipedia Tooltip setup
+    const wikiTooltip = document.getElementById('wiki-tooltip');
+    const wikiTitle = wikiTooltip.querySelector('.wiki-title');
+    const wikiSnippet = wikiTooltip.querySelector('.wiki-snippet');
+    let tooltipTimeout;
+
+    async function showWikiTooltip(e, rankName) {
+        clearTimeout(tooltipTimeout);
+        wikiTooltip.classList.remove('hidden');
+        
+        let left = e.pageX + 15;
+        let top = e.pageY + 15;
+        
+        // Prevent tooltip from going off-screen
+        if (left + 300 > window.innerWidth) {
+            left = window.innerWidth - 320;
+        }
+        
+        wikiTooltip.style.left = left + 'px';
+        wikiTooltip.style.top = top + 'px';
+        wikiTooltip.style.pointerEvents = 'auto'; // Allow clicking inside
+        
+        wikiTitle.innerHTML = `<a href="https://en.wikipedia.org/wiki/${encodeURIComponent(rankName)}" target="_blank">${rankName} &#8594;</a>`;
+        wikiSnippet.textContent = "Loading summary...";
+
+        try {
+            const resp = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(rankName)}`);
+            const data = await resp.json();
+            if (data.extract) {
+                wikiSnippet.textContent = data.extract.substring(0, 180) + "...";
+            } else {
+                wikiSnippet.textContent = "No Wikipedia summary available.";
+            }
+        } catch (err) {
+            wikiSnippet.textContent = "Error loading summary.";
+        }
+    }
+
+    function hideWikiTooltip() {
+        tooltipTimeout = setTimeout(() => {
+            wikiTooltip.classList.add('hidden');
+            wikiTooltip.style.pointerEvents = 'none';
+        }, 150);
+    }
+
+    wikiTooltip.addEventListener('mouseenter', () => clearTimeout(tooltipTimeout));
+    wikiTooltip.addEventListener('mouseleave', hideWikiTooltip);
 
     // Taxonomy rank order for display (lower index = closer relative)
     const rankOrder = {
@@ -63,7 +113,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     const idx = species.toLowerCase().indexOf(val);
                     displayHtml = species.substring(0, idx) + "<strong>" + species.substring(idx, idx + val.length) + "</strong>" + species.substring(idx + val.length);
                 }
-                listHTML += `<li class="autocomplete-item" data-value="${species}">${displayHtml}</li>`;
+                
+                if (guessedSet.has(species.toLowerCase())) {
+                    listHTML += `<li class="autocomplete-item guessed-item" style="opacity: 0.5; pointer-events: none; cursor: default;" data-value="${species}">${displayHtml} (Already Guessed)</li>`;
+                } else {
+                    listHTML += `<li class="autocomplete-item" data-value="${species}">${displayHtml}</li>`;
+                }
             }
         });
         
@@ -155,24 +210,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const guessKey = validGuess.toLowerCase();
         
+        if (guessedSet.has(guessKey)) {
+            // Failsafe in case they hit enter on a disabled item
+            alert("You already guessed that organism!");
+            return;
+        }
+        
+        guessedSet.add(guessKey);
+        
         // Check if data exists for this guess
         if (!targetData[guessKey]) {
             alert("Error: No evolutionary data found for this comparison.");
             return;
         }
 
-        const data = targetData[guessKey];
-        const isMatch = guessKey === targetSpecies.toLowerCase();
+        const latinNameMatch = validGuess.match(/\((.*?)\)/);
+        const wikiTitle = latinNameMatch ? latinNameMatch[1] : validGuess;
         
         guesses.push({
             name: validGuess,
+            wikiTitle: wikiTitle,
             lca_rank: data.rank,
             lca_name: data.lca_name || data.rank,
             tmrca: data.time,
             isMatch: isMatch
         });
         
-        addGuessToBoard(validGuess, data, isMatch);
+        addGuessToBoard(validGuess, wikiTitle, data, isMatch);
         updateTree();
         
         // Clear input
@@ -185,7 +249,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    function addGuessToBoard(guessName, data, isMatch) {
+    function addGuessToBoard(guessName, wikiTitle, data, isMatch) {
         const row = document.createElement('div');
         row.className = 'guess-row';
         
@@ -196,32 +260,60 @@ document.addEventListener('DOMContentLoaded', () => {
         const lcaName = data.lca_name || data.rank;
         
         row.innerHTML = `
-            <div class="guess-name ${matchClass}">${guessName}</div>
+            <div class="guess-name ${matchClass} taxa-link">${guessName}</div>
             <div class="guess-feedback">
                 <span class="feedback-badge feedback-time ${matchClass}" title="TMRCA = Time to Most Recent Common Ancestor">TMRCA: ${timeStr}</span>
-                <span class="feedback-badge feedback-rank ${matchClass}">${data.rank}: ${lcaName}</span>
+                <span class="feedback-badge feedback-rank ${matchClass} taxa-link" data-taxa="${lcaName}">${data.rank}: ${lcaName}</span>
             </div>
         `;
+        
+        // Animal name link
+        const nameSpan = row.querySelector('.guess-name');
+        nameSpan.addEventListener('mouseenter', (e) => showWikiTooltip(e, wikiTitle));
+        nameSpan.addEventListener('mouseleave', hideWikiTooltip);
+        nameSpan.addEventListener('click', () => {
+            window.open(`https://en.wikipedia.org/wiki/${encodeURIComponent(wikiTitle)}`, '_blank');
+        });
+
+        // Taxa link
+        const taxaSpan = row.querySelector('.feedback-rank');
+        taxaSpan.addEventListener('mouseenter', (e) => showWikiTooltip(e, lcaName));
+        taxaSpan.addEventListener('mouseleave', hideWikiTooltip);
+        taxaSpan.addEventListener('click', () => {
+            window.open(`https://en.wikipedia.org/wiki/${encodeURIComponent(lcaName)}`, '_blank');
+        });
         
         // Prepend to show newest at top
         guessesContainer.prepend(row);
     }
 
     function showGameOver(win) {
-        modalTitle.textContent = win ? "You found it!" : "Game Over";
-        modalTitle.style.color = win ? "var(--success-color)" : "var(--danger-color)";
-        modalMessage.textContent = `The organism was ${targetSpecies}.`;
-        gameOverModal.classList.remove('hidden');
+        endTitle.textContent = win ? "You found it!" : "Game Over";
+        endTitle.style.color = win ? "var(--success-color)" : "var(--danger-color)";
+        endMessage.innerHTML = `The organism was <strong>${targetSpecies}</strong>.`;
+        
+        // Hide inputs and show inline end panel
+        animalInput.parentElement.style.display = 'none';
+        guessBtn.style.display = 'none';
+        giveUpBtn.style.display = 'none';
+        
+        gameEndPanel.classList.remove('hidden');
     }
 
     // Event Listeners
     guessBtn.addEventListener('click', handleGuess);
+    giveUpBtn.addEventListener('click', () => showGameOver(false));
     
     playAgainBtn.addEventListener('click', () => {
-        gameOverModal.classList.add('hidden');
+        gameEndPanel.classList.add('hidden');
+        animalInput.parentElement.style.display = 'block';
+        guessBtn.style.display = 'block';
+        giveUpBtn.style.display = 'block';
+        
         guessesContainer.innerHTML = '';
         animalInput.value = '';
         guesses = [];
+        guessedSet.clear();
         initGame();
     });
 
@@ -247,7 +339,8 @@ document.addEventListener('DOMContentLoaded', () => {
         sortedGuesses.forEach(g => {
             if (g.isMatch) return; // handled at the end
             
-            const guessNode = { name: g.name, isGuess: true };
+            const commonName = g.name.split(' (')[0];
+            const guessNode = { name: commonName, wikiTitle: g.wikiTitle, isGuess: true };
             
             if (!prevLCA || prevLCA.name !== g.lca_name) {
                 const newLCA = { name: g.lca_name, isTrunk: true, children: [guessNode] };
@@ -263,12 +356,20 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         
         const hasMatch = sortedGuesses.some(g => g.isMatch);
-        const mysteryNode = { name: hasMatch ? targetSpecies : "?", isMystery: true };
+        const mysteryName = hasMatch ? targetSpecies.split(' (')[0] : "?";
+        const latinMatch = targetSpecies.match(/\((.*?)\)/);
+        const mysteryWiki = latinMatch ? latinMatch[1] : mysteryName;
+        const mysteryNode = { name: mysteryName, wikiTitle: mysteryWiki, isMystery: true };
         
         if (!root) {
             root = { name: sortedGuesses[0].lca_name || "LCA", isTrunk: true, children: [mysteryNode] };
         } else {
             prevLCA.children.push(mysteryNode);
+        }
+        
+        // Ensure Animalia/Metazoa is always the absolute root
+        if (root.name !== "Metazoa" && root.name !== "Animalia") {
+            root = { name: "Animalia", isTrunk: true, children: [root] };
         }
         
         drawTree(root);
@@ -317,6 +418,20 @@ document.addEventListener('DOMContentLoaded', () => {
             .attr("dy", ".35em")
             .attr("y", d => d.data.isTrunk ? -20 : 20)
             .style("text-anchor", "middle")
-            .text(d => d.data.name);
+            .attr("class", "taxa-link")
+            .text(d => d.data.name)
+            .on("mouseenter", function(e, d) {
+                if (!d.data.isMystery || (d.data.isMystery && d.data.name !== "?")) {
+                    const query = d.data.wikiTitle || d.data.name;
+                    showWikiTooltip(e, query);
+                }
+            })
+            .on("mouseleave", hideWikiTooltip)
+            .on("click", function(e, d) {
+                if (!d.data.isMystery || (d.data.isMystery && d.data.name !== "?")) {
+                    const query = d.data.wikiTitle || d.data.name;
+                    window.open(`https://en.wikipedia.org/wiki/${encodeURIComponent(query)}`, '_blank');
+                }
+            });
     }
 });
