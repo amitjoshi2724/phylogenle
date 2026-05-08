@@ -224,6 +224,9 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
+        const data = targetData[guessKey];
+        const isMatch = guessKey === targetSpecies.toLowerCase();
+
         const latinNameMatch = validGuess.match(/\((.*?)\)/);
         const wikiTitle = latinNameMatch ? latinNameMatch[1] : validGuess;
         
