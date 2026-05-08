@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Data Generation Junk
+taxdump.tar.gz
+ete3_taxid_history.json
+time_cache.json
+ajax_*.html
+timetree_resp.html
+ajax_resp.html
+
+# OS
+.DS_Store
