@@ -1,0 +1,717 @@
+{
+  "human": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "chimpanzee": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "gorilla": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "orangutan": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "macaque": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "baboon": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "lemur": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "tarsier": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "lion": {
+    "time": 13.6,
+    "rank": "Family",
+    "lca_name": "Felidae"
+  },
+  "tiger": {
+    "time": 13.6,
+    "rank": "Family",
+    "lca_name": "Felidae"
+  },
+  "leopard": {
+    "time": 13.6,
+    "rank": "Family",
+    "lca_name": "Felidae"
+  },
+  "cheetah": {
+    "time": 8.9,
+    "rank": "Family",
+    "lca_name": "Felidae"
+  },
+  "domestic cat": {
+    "time": 11.9,
+    "rank": "Family",
+    "lca_name": "Felidae"
+  },
+  "cougar": {
+    "time": 8.9,
+    "rank": "Family",
+    "lca_name": "Felidae"
+  },
+  "jaguar": {
+    "time": 13.6,
+    "rank": "Family",
+    "lca_name": "Felidae"
+  },
+  "snow leopard": {
+    "time": 13.6,
+    "rank": "Family",
+    "lca_name": "Felidae"
+  },
+  "lynx": {
+    "time": 0.0,
+    "rank": "Species",
+    "lca_name": "Lynx lynx"
+  },
+  "wolf": {
+    "time": 55.0,
+    "rank": "Order",
+    "lca_name": "Carnivora"
+  },
+  "dog": {
+    "time": 55.0,
+    "rank": "Order",
+    "lca_name": "Carnivora"
+  },
+  "fox": {
+    "time": 55.0,
+    "rank": "Order",
+    "lca_name": "Carnivora"
+  },
+  "coyote": {
+    "time": 55.0,
+    "rank": "Order",
+    "lca_name": "Carnivora"
+  },
+  "bear": {
+    "time": 55.0,
+    "rank": "Order",
+    "lca_name": "Carnivora"
+  },
+  "polar bear": {
+    "time": 55.0,
+    "rank": "Order",
+    "lca_name": "Carnivora"
+  },
+  "panda": {
+    "time": 55.0,
+    "rank": "Order",
+    "lca_name": "Carnivora"
+  },
+  "raccoon": {
+    "time": 55.0,
+    "rank": "Order",
+    "lca_name": "Carnivora"
+  },
+  "hyena": {
+    "time": 37.0,
+    "rank": "Order",
+    "lca_name": "Carnivora"
+  },
+  "horse": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "zebra": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "donkey": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "cow": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "pig": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "sheep": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "goat": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "deer": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "moose": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "camel": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "llama": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "giraffe": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "hippopotamus": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "rhinoceros": {
+    "time": 71.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "elephant": {
+    "time": 99.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "kangaroo": {
+    "time": 160.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "koala": {
+    "time": 160.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "platypus": {
+    "time": 180.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "opossum": {
+    "time": 160.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "armadillo": {
+    "time": 99.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "sloth": {
+    "time": 99.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "rabbit": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "hare": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "mouse": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "rat": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "guinea pig": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "squirrel": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "beaver": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "porcupine": {
+    "time": 94.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "bat": {
+    "time": 81.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "hedgehog": {
+    "time": 86.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "mole": {
+    "time": 86.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "walrus": {
+    "time": 55.0,
+    "rank": "Order",
+    "lca_name": "Carnivora"
+  },
+  "seal": {
+    "time": 55.0,
+    "rank": "Order",
+    "lca_name": "Carnivora"
+  },
+  "dolphin": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "orca": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "blue whale": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "humpback whale": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "sperm whale": {
+    "time": 76.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "manatee": {
+    "time": 99.0,
+    "rank": "Class",
+    "lca_name": "Mammalia"
+  },
+  "eagle": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "hawk": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "falcon": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "owl": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "penguin": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "ostrich": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "emu": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "kiwi": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "chicken": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "turkey": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "duck": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "goose": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "swan": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "pigeon": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "crow": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "raven": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "parrot": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "hummingbird": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "flamingo": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "peacock": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "snake": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "lizard": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "chameleon": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "gecko": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "crocodile": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "alligator": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "turtle": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "tortoise": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "sea turtle": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "komodo dragon": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "cobra": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "python": {
+    "time": 319.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "frog": {
+    "time": 352.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "toad": {
+    "time": 352.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "salamander": {
+    "time": 352.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "newt": {
+    "time": 352.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "axolotl": {
+    "time": 352.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "caecilian": {
+    "time": 352.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "shark": {
+    "time": 462.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "tuna": {
+    "time": 429.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "salmon": {
+    "time": 429.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "goldfish": {
+    "time": 429.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "carp": {
+    "time": 429.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "trout": {
+    "time": 429.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "bass": {
+    "time": 429.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "catfish": {
+    "time": 429.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "pufferfish": {
+    "time": 429.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "eel": {
+    "time": 429.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "stingray": {
+    "time": 462.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "seahorse": {
+    "time": 429.0,
+    "rank": "Phylum",
+    "lca_name": "Chordata"
+  },
+  "octopus": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "squid": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "cuttlefish": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "snail": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "slug": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "oyster": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "clam": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "crab": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "lobster": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "shrimp": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "spider": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "scorpion": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "centipede": {
+    "time": -1.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "millipede": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "ant": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "bee": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "wasp": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "butterfly": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "moth": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "beetle": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "fly": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "mosquito": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "cockroach": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "earthworm": {
+    "time": 686.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "jellyfish": {
+    "time": 685.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "starfish": {
+    "time": 619.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  },
+  "sea urchin": {
+    "time": 619.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
+  }
+}

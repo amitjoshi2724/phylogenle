@@ -1,0 +1,122 @@
+{
+  "human": {
+    "time": 50.0,
+    "rank": "Class"
+  },
+  "chimpanzee": {
+    "time": 100.0,
+    "rank": "Class"
+  },
+  "gorilla": {
+    "time": 70.0,
+    "rank": "Class"
+  },
+  "orangutan": {
+    "time": 90.0,
+    "rank": "Class"
+  },
+  "macaque": {
+    "time": 70.0,
+    "rank": "Class"
+  },
+  "lion": {
+    "time": 60.0,
+    "rank": "Class"
+  },
+  "tiger": {
+    "time": 50.0,
+    "rank": "Class"
+  },
+  "leopard": {
+    "time": 70.0,
+    "rank": "Class"
+  },
+  "cheetah": {
+    "time": 70.0,
+    "rank": "Class"
+  },
+  "domestic cat": {
+    "time": 120.0,
+    "rank": "Class"
+  },
+  "wolf": {
+    "time": 60.0,
+    "rank": "Class"
+  },
+  "dog": {
+    "time": 70.0,
+    "rank": "Class"
+  },
+  "fox": {
+    "time": 70.0,
+    "rank": "Class"
+  },
+  "coyote": {
+    "time": 60.0,
+    "rank": "Class"
+  },
+  "bear": {
+    "time": 60.0,
+    "rank": "Class"
+  },
+  "eagle": {
+    "time": 50.0,
+    "rank": "Kingdom"
+  },
+  "hawk": {
+    "time": 60.0,
+    "rank": "Kingdom"
+  },
+  "falcon": {
+    "time": 60.0,
+    "rank": "Kingdom"
+  },
+  "owl": {
+    "time": 70.0,
+    "rank": "Kingdom"
+  },
+  "penguin": {
+    "time": 70.0,
+    "rank": "Kingdom"
+  },
+  "dolphin": {
+    "time": 70.0,
+    "rank": "Class"
+  },
+  "whale": {
+    "time": 0.0,
+    "rank": "Species"
+  },
+  "shark": {
+    "time": 50.0,
+    "rank": "Kingdom"
+  },
+  "tuna": {
+    "time": 60.0,
+    "rank": "Kingdom"
+  },
+  "salmon": {
+    "time": 60.0,
+    "rank": "Kingdom"
+  },
+  "frog": {
+    "time": 60.0,
+    "rank": "Kingdom"
+  },
+  "toad": {
+    "time": 60.0,
+    "rank": "Kingdom"
+  },
+  "salamander": {
+    "time": 100.0,
+    "rank": "Kingdom"
+  },
+  "snake": {
+    "time": 50.0,
+    "rank": "Kingdom"
+  },
+  "lizard": {
+    "time": 60.0,
+    "rank": "Kingdom"
+  }
+}
