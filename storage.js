@@ -245,6 +245,57 @@ export function clearActiveGuesses(dateStr) {
     } catch (e) { }
 }
 
+
+/**
+ * Reset / clear record and in-progress guesses for a specific date
+ */
+export function resetDateRecord(dateStr) {
+    if (memoryHistory[dateStr]) {
+        delete memoryHistory[dateStr];
+    }
+    try {
+        localStorage.setItem(HISTORY_KEY, JSON.stringify(memoryHistory));
+    } catch (e) {
+        console.error("Failed to update history locally:", e);
+    }
+    clearActiveGuesses(dateStr);
+
+    const stats = sanitizeStats({ ...DEFAULT_STATS }, memoryHistory);
+    stats.played = Object.keys(memoryHistory).length;
+    stats.won = Object.values(memoryHistory).filter(r => r && r.solved).length;
+    const { currentStreak, maxStreak } = computeStreaksFromHistory(memoryHistory);
+    stats.currentStreak = currentStreak;
+    stats.maxStreak = maxStreak;
+
+    saveLocalStats(stats);
+    notifyListeners();
+}
+
+/**
+ * Reset all puzzle history and active guesses across the archive
+ */
+export function resetAllHistory() {
+    memoryHistory = {};
+    try {
+        localStorage.removeItem(HISTORY_KEY);
+    } catch (e) { }
+
+    try {
+        const keysToRemove = [];
+        for (let i = 0; i < localStorage.length; i++) {
+            const key = localStorage.key(i);
+            if (key && key.startsWith(ACTIVE_PREFIX)) {
+                keysToRemove.push(key);
+            }
+        }
+        keysToRemove.forEach(k => localStorage.removeItem(k));
+    } catch (e) { }
+
+    const freshStats = { ...DEFAULT_STATS };
+    saveLocalStats(freshStats);
+    notifyListeners();
+}
+
 export function getStats() {
     return sanitizeStats(memoryStats, memoryHistory);
 }

@@ -64,6 +64,7 @@
 
                     <div style="display: flex; gap: 10px; flex-wrap: wrap;">
                         <button id="share-result-btn" class="primary-btn" style="flex: 1; min-width: 140px; background: #10b981;">Share Result 📋</button>
+                        <button id="reset-current-puzzle-btn" class="primary-btn replay-reset-btn" style="flex: 1; min-width: 140px; background: rgba(239, 68, 68, 0.2); border: 1px solid rgba(239, 68, 68, 0.5); color: #fca5a5;" title="Reset this date's score and replay fresh">🔄 Reset & Replay</button>
                         <button id="play-again-btn" class="primary-btn" style="flex: 1; min-width: 140px;">Play Again</button>
                     </div>
                 </div>
@@ -122,6 +123,18 @@
                 <div class="archive-view-tabs">
                     <button id="archive-tab-calendar" class="archive-tab-btn active">📅 Calendar View</button>
                     <button id="archive-tab-list" class="archive-tab-btn">📋 List View</button>
+                </div>
+
+                <!-- Archive Reset & Maintenance Toolbar -->
+                <div class="archive-management-bar">
+                    <div class="archive-management-text">
+                        <span class="archive-reset-icon">🔄</span>
+                        <span>Species pool updated? Reset stale puzzle records to replay:</span>
+                    </div>
+                    <div class="archive-management-buttons">
+                        <button id="archive-reset-current-btn" class="archive-btn-reset-secondary" title="Reset currently selected puzzle date to play fresh">🔄 Reset Selected Date</button>
+                        <button id="archive-reset-all-btn" class="archive-btn-reset-danger" title="Wipe all past archive history and reset streaks">⚠️ Reset All Archive</button>
+                    </div>
                 </div>
 
                 <!-- VIEW 1: Calendar View (Default) -->

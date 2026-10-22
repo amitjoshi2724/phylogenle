@@ -1,0 +1,2403 @@
+[
+  {
+    "display": "Human (Homo sapiens)",
+    "common": "Human",
+    "scientific": "Homo sapiens",
+    "clade": "Mammals",
+    "subclade": "Primates"
+  },
+  {
+    "display": "Chimpanzee (Pan troglodytes)",
+    "common": "Chimpanzee",
+    "scientific": "Pan troglodytes",
+    "clade": "Mammals",
+    "subclade": "Primates"
+  },
+  {
+    "display": "Gorilla (Gorilla gorilla)",
+    "common": "Gorilla",
+    "scientific": "Gorilla gorilla",
+    "clade": "Mammals",
+    "subclade": "Primates"
+  },
+  {
+    "display": "Orangutan (Pongo pygmaeus)",
+    "common": "Orangutan",
+    "scientific": "Pongo pygmaeus",
+    "clade": "Mammals",
+    "subclade": "Primates"
+  },
+  {
+    "display": "Macaque (Macaca mulatta)",
+    "common": "Macaque",
+    "scientific": "Macaca mulatta",
+    "clade": "Mammals",
+    "subclade": "Primates"
+  },
+  {
+    "display": "Baboon (Papio anubis)",
+    "common": "Baboon",
+    "scientific": "Papio anubis",
+    "clade": "Mammals",
+    "subclade": "Primates"
+  },
+  {
+    "display": "Ring-tailed Lemur (Lemur catta)",
+    "common": "Ring-tailed Lemur",
+    "scientific": "Lemur catta",
+    "clade": "Mammals",
+    "subclade": "Primates"
+  },
+  {
+    "display": "Philippine Tarsier (Carlito syrichta)",
+    "common": "Philippine Tarsier",
+    "scientific": "Carlito syrichta",
+    "clade": "Mammals",
+    "subclade": "Primates"
+  },
+  {
+    "display": "Lion (Panthera leo)",
+    "common": "Lion",
+    "scientific": "Panthera leo",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Tiger (Panthera tigris)",
+    "common": "Tiger",
+    "scientific": "Panthera tigris",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Leopard (Panthera pardus)",
+    "common": "Leopard",
+    "scientific": "Panthera pardus",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Cheetah (Acinonyx jubatus)",
+    "common": "Cheetah",
+    "scientific": "Acinonyx jubatus",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Domestic Cat (Felis catus)",
+    "common": "Domestic Cat",
+    "scientific": "Felis catus",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Cougar (Puma concolor)",
+    "common": "Cougar",
+    "scientific": "Puma concolor",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Jaguar (Panthera onca)",
+    "common": "Jaguar",
+    "scientific": "Panthera onca",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Snow Leopard (Panthera uncia)",
+    "common": "Snow Leopard",
+    "scientific": "Panthera uncia",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Lynx (Lynx lynx)",
+    "common": "Lynx",
+    "scientific": "Lynx lynx",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Gray Wolf (Canis lupus)",
+    "common": "Gray Wolf",
+    "scientific": "Canis lupus",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Dog (Canis lupus familiaris)",
+    "common": "Dog",
+    "scientific": "Canis lupus familiaris",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Red Fox (Vulpes vulpes)",
+    "common": "Red Fox",
+    "scientific": "Vulpes vulpes",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Coyote (Canis latrans)",
+    "common": "Coyote",
+    "scientific": "Canis latrans",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Brown Bear (Ursus arctos)",
+    "common": "Brown Bear",
+    "scientific": "Ursus arctos",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Polar Bear (Ursus maritimus)",
+    "common": "Polar Bear",
+    "scientific": "Ursus maritimus",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Panda (Ailuropoda melanoleuca)",
+    "common": "Panda",
+    "scientific": "Ailuropoda melanoleuca",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Raccoon (Procyon lotor)",
+    "common": "Raccoon",
+    "scientific": "Procyon lotor",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Hyena (Crocuta crocuta)",
+    "common": "Hyena",
+    "scientific": "Crocuta crocuta",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Domestic Horse (Equus caballus)",
+    "common": "Domestic Horse",
+    "scientific": "Equus caballus",
+    "clade": "Mammals",
+    "subclade": "Perissodactyla"
+  },
+  {
+    "display": "Plains Zebra (Equus quagga)",
+    "common": "Plains Zebra",
+    "scientific": "Equus quagga",
+    "clade": "Mammals",
+    "subclade": "Perissodactyla"
+  },
+  {
+    "display": "Donkey (Equus asinus)",
+    "common": "Donkey",
+    "scientific": "Equus asinus",
+    "clade": "Mammals",
+    "subclade": "Perissodactyla"
+  },
+  {
+    "display": "Domestic Cow (Bos taurus)",
+    "common": "Domestic Cow",
+    "scientific": "Bos taurus",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Domestic Pig (Sus scrofa domesticus)",
+    "common": "Domestic Pig",
+    "scientific": "Sus scrofa domesticus",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Domestic Sheep (Ovis aries)",
+    "common": "Domestic Sheep",
+    "scientific": "Ovis aries",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Domestic Goat (Capra hircus)",
+    "common": "Domestic Goat",
+    "scientific": "Capra hircus",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "White-tailed Deer (Odocoileus virginianus)",
+    "common": "White-tailed Deer",
+    "scientific": "Odocoileus virginianus",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Moose (Alces alces)",
+    "common": "Moose",
+    "scientific": "Alces alces",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Dromedary Camel (Camelus dromedarius)",
+    "common": "Dromedary Camel",
+    "scientific": "Camelus dromedarius",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Llama (Lama glama)",
+    "common": "Llama",
+    "scientific": "Lama glama",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Giraffe (Giraffa camelopardalis)",
+    "common": "Giraffe",
+    "scientific": "Giraffa camelopardalis",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Hippopotamus (Hippopotamus amphibius)",
+    "common": "Hippopotamus",
+    "scientific": "Hippopotamus amphibius",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Rhinoceros (Diceros bicornis)",
+    "common": "Rhinoceros",
+    "scientific": "Diceros bicornis",
+    "clade": "Mammals",
+    "subclade": "Perissodactyla"
+  },
+  {
+    "display": "Elephant (Loxodonta africana)",
+    "common": "Elephant",
+    "scientific": "Loxodonta africana",
+    "clade": "Mammals",
+    "subclade": "Proboscidea"
+  },
+  {
+    "display": "Kangaroo (Macropus rufus)",
+    "common": "Kangaroo",
+    "scientific": "Macropus rufus",
+    "clade": "Mammals",
+    "subclade": "Diprotodontia"
+  },
+  {
+    "display": "Koala (Phascolarctos cinereus)",
+    "common": "Koala",
+    "scientific": "Phascolarctos cinereus",
+    "clade": "Mammals",
+    "subclade": "Diprotodontia"
+  },
+  {
+    "display": "Platypus (Ornithorhynchus anatinus)",
+    "common": "Platypus",
+    "scientific": "Ornithorhynchus anatinus",
+    "clade": "Mammals",
+    "subclade": "Monotremata"
+  },
+  {
+    "display": "Opossum (Didelphis virginiana)",
+    "common": "Opossum",
+    "scientific": "Didelphis virginiana",
+    "clade": "Mammals",
+    "subclade": "Didelphimorphia"
+  },
+  {
+    "display": "Armadillo (Dasypus novemcinctus)",
+    "common": "Armadillo",
+    "scientific": "Dasypus novemcinctus",
+    "clade": "Mammals",
+    "subclade": "Cingulata"
+  },
+  {
+    "display": "Sloth (Bradypus tridactylus)",
+    "common": "Sloth",
+    "scientific": "Bradypus tridactylus",
+    "clade": "Mammals",
+    "subclade": "Pilosa"
+  },
+  {
+    "display": "Rabbit (Oryctolagus cuniculus)",
+    "common": "Rabbit",
+    "scientific": "Oryctolagus cuniculus",
+    "clade": "Mammals",
+    "subclade": "Lagomorpha"
+  },
+  {
+    "display": "Hare (Lepus europaeus)",
+    "common": "Hare",
+    "scientific": "Lepus europaeus",
+    "clade": "Mammals",
+    "subclade": "Lagomorpha"
+  },
+  {
+    "display": "Mouse (Mus musculus)",
+    "common": "Mouse",
+    "scientific": "Mus musculus",
+    "clade": "Mammals",
+    "subclade": "Rodentia"
+  },
+  {
+    "display": "Rat (Rattus norvegicus)",
+    "common": "Rat",
+    "scientific": "Rattus norvegicus",
+    "clade": "Mammals",
+    "subclade": "Rodentia"
+  },
+  {
+    "display": "Guinea Pig (Cavia porcellus)",
+    "common": "Guinea Pig",
+    "scientific": "Cavia porcellus",
+    "clade": "Mammals",
+    "subclade": "Rodentia"
+  },
+  {
+    "display": "Squirrel (Sciurus carolinensis)",
+    "common": "Squirrel",
+    "scientific": "Sciurus carolinensis",
+    "clade": "Mammals",
+    "subclade": "Rodentia"
+  },
+  {
+    "display": "Beaver (Castor canadensis)",
+    "common": "Beaver",
+    "scientific": "Castor canadensis",
+    "clade": "Mammals",
+    "subclade": "Rodentia"
+  },
+  {
+    "display": "Porcupine (Erethizon dorsatum)",
+    "common": "Porcupine",
+    "scientific": "Erethizon dorsatum",
+    "clade": "Mammals",
+    "subclade": "Rodentia"
+  },
+  {
+    "display": "Bat (Desmodus rotundus)",
+    "common": "Bat",
+    "scientific": "Desmodus rotundus",
+    "clade": "Mammals",
+    "subclade": "Chiroptera"
+  },
+  {
+    "display": "Hedgehog (Erinaceus europaeus)",
+    "common": "Hedgehog",
+    "scientific": "Erinaceus europaeus",
+    "clade": "Mammals",
+    "subclade": "Eulipotyphla"
+  },
+  {
+    "display": "Mole (Talpa europaea)",
+    "common": "Mole",
+    "scientific": "Talpa europaea",
+    "clade": "Mammals",
+    "subclade": "Eulipotyphla"
+  },
+  {
+    "display": "Walrus (Odobenus rosmarus)",
+    "common": "Walrus",
+    "scientific": "Odobenus rosmarus",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Seal (Phoca vitulina)",
+    "common": "Seal",
+    "scientific": "Phoca vitulina",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Bottlenose Dolphin (Tursiops truncatus)",
+    "common": "Bottlenose Dolphin",
+    "scientific": "Tursiops truncatus",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Orca (Orcinus orca)",
+    "common": "Orca",
+    "scientific": "Orcinus orca",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Blue Whale (Balaenoptera musculus)",
+    "common": "Blue Whale",
+    "scientific": "Balaenoptera musculus",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Humpback Whale (Megaptera novaeangliae)",
+    "common": "Humpback Whale",
+    "scientific": "Megaptera novaeangliae",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Sperm Whale (Physeter macrocephalus)",
+    "common": "Sperm Whale",
+    "scientific": "Physeter macrocephalus",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Manatee (Trichechus manatus)",
+    "common": "Manatee",
+    "scientific": "Trichechus manatus",
+    "clade": "Mammals",
+    "subclade": "Sirenia"
+  },
+  {
+    "display": "Bald Eagle (Haliaeetus leucocephalus)",
+    "common": "Bald Eagle",
+    "scientific": "Haliaeetus leucocephalus",
+    "clade": "Birds",
+    "subclade": "Accipitriformes"
+  },
+  {
+    "display": "Red-tailed Hawk (Buteo jamaicensis)",
+    "common": "Red-tailed Hawk",
+    "scientific": "Buteo jamaicensis",
+    "clade": "Birds",
+    "subclade": "Accipitriformes"
+  },
+  {
+    "display": "Peregrine Falcon (Falco peregrinus)",
+    "common": "Peregrine Falcon",
+    "scientific": "Falco peregrinus",
+    "clade": "Birds",
+    "subclade": "Falconiformes"
+  },
+  {
+    "display": "Great Horned Owl (Bubo virginianus)",
+    "common": "Great Horned Owl",
+    "scientific": "Bubo virginianus",
+    "clade": "Birds",
+    "subclade": "Strigiformes"
+  },
+  {
+    "display": "Emperor Penguin (Aptenodytes forsteri)",
+    "common": "Emperor Penguin",
+    "scientific": "Aptenodytes forsteri",
+    "clade": "Birds",
+    "subclade": "Sphenisciformes"
+  },
+  {
+    "display": "Ostrich (Struthio camelus)",
+    "common": "Ostrich",
+    "scientific": "Struthio camelus",
+    "clade": "Birds",
+    "subclade": "Struthioniformes"
+  },
+  {
+    "display": "Emu (Dromaius novaehollandiae)",
+    "common": "Emu",
+    "scientific": "Dromaius novaehollandiae",
+    "clade": "Birds",
+    "subclade": "Casuariiformes"
+  },
+  {
+    "display": "Kiwi (Apteryx mantelli)",
+    "common": "Kiwi",
+    "scientific": "Apteryx mantelli",
+    "clade": "Birds",
+    "subclade": "Apterygiformes"
+  },
+  {
+    "display": "Domestic Chicken (Gallus gallus domesticus)",
+    "common": "Domestic Chicken",
+    "scientific": "Gallus gallus domesticus",
+    "clade": "Birds",
+    "subclade": "Galliformes"
+  },
+  {
+    "display": "Turkey (Meleagris gallopavo)",
+    "common": "Turkey",
+    "scientific": "Meleagris gallopavo",
+    "clade": "Birds",
+    "subclade": "Galliformes"
+  },
+  {
+    "display": "Mallard Duck (Anas platyrhynchos)",
+    "common": "Mallard Duck",
+    "scientific": "Anas platyrhynchos",
+    "clade": "Birds",
+    "subclade": "Anseriformes"
+  },
+  {
+    "display": "Greylag Goose (Anser anser)",
+    "common": "Greylag Goose",
+    "scientific": "Anser anser",
+    "clade": "Birds",
+    "subclade": "Anseriformes"
+  },
+  {
+    "display": "Mute Swan (Cygnus olor)",
+    "common": "Mute Swan",
+    "scientific": "Cygnus olor",
+    "clade": "Birds",
+    "subclade": "Anseriformes"
+  },
+  {
+    "display": "Rock Dove (Columba livia)",
+    "common": "Rock Dove",
+    "scientific": "Columba livia",
+    "clade": "Birds",
+    "subclade": "Columbiformes"
+  },
+  {
+    "display": "American Crow (Corvus brachyrhynchos)",
+    "common": "American Crow",
+    "scientific": "Corvus brachyrhynchos",
+    "clade": "Birds",
+    "subclade": "Passeriformes"
+  },
+  {
+    "display": "Common Raven (Corvus corax)",
+    "common": "Common Raven",
+    "scientific": "Corvus corax",
+    "clade": "Birds",
+    "subclade": "Passeriformes"
+  },
+  {
+    "display": "Scarlet Macaw (Ara macao)",
+    "common": "Scarlet Macaw",
+    "scientific": "Ara macao",
+    "clade": "Birds",
+    "subclade": "Psittaciformes"
+  },
+  {
+    "display": "Ruby-throated Hummingbird (Archilochus colubris)",
+    "common": "Ruby-throated Hummingbird",
+    "scientific": "Archilochus colubris",
+    "clade": "Birds",
+    "subclade": "Apodiformes"
+  },
+  {
+    "display": "Greater Flamingo (Phoenicopterus roseus)",
+    "common": "Greater Flamingo",
+    "scientific": "Phoenicopterus roseus",
+    "clade": "Birds",
+    "subclade": "Phoenicopteriformes"
+  },
+  {
+    "display": "Indian Peafowl (Pavo cristatus)",
+    "common": "Indian Peafowl",
+    "scientific": "Pavo cristatus",
+    "clade": "Birds",
+    "subclade": "Galliformes"
+  },
+  {
+    "display": "Western Diamondback Rattlesnake (Crotalus atrox)",
+    "common": "Western Diamondback Rattlesnake",
+    "scientific": "Crotalus atrox",
+    "clade": "Reptiles",
+    "subclade": "Squamata - Serpentes (Snakes)"
+  },
+  {
+    "display": "Green Iguana (Iguana iguana)",
+    "common": "Green Iguana",
+    "scientific": "Iguana iguana",
+    "clade": "Reptiles",
+    "subclade": "Squamata (Lizards & Relatives)"
+  },
+  {
+    "display": "Common Chameleon (Chamaeleo chamaeleon)",
+    "common": "Common Chameleon",
+    "scientific": "Chamaeleo chamaeleon",
+    "clade": "Reptiles",
+    "subclade": "Squamata (Lizards & Relatives)"
+  },
+  {
+    "display": "Tokay Gecko (Gekko gecko)",
+    "common": "Tokay Gecko",
+    "scientific": "Gekko gecko",
+    "clade": "Reptiles",
+    "subclade": "Squamata (Lizards & Relatives)"
+  },
+  {
+    "display": "Nile Crocodile (Crocodylus niloticus)",
+    "common": "Nile Crocodile",
+    "scientific": "Crocodylus niloticus",
+    "clade": "Reptiles",
+    "subclade": "Crocodylia (Crocodiles & Alligators)"
+  },
+  {
+    "display": "American Alligator (Alligator mississippiensis)",
+    "common": "American Alligator",
+    "scientific": "Alligator mississippiensis",
+    "clade": "Reptiles",
+    "subclade": "Crocodylia (Crocodiles & Alligators)"
+  },
+  {
+    "display": "Painted Turtle (Chrysemys picta)",
+    "common": "Painted Turtle",
+    "scientific": "Chrysemys picta",
+    "clade": "Reptiles",
+    "subclade": "Testudines (Turtles & Tortoises)"
+  },
+  {
+    "display": "Galapagos Tortoise (Chelonoidis nigra)",
+    "common": "Galapagos Tortoise",
+    "scientific": "Chelonoidis nigra",
+    "clade": "Reptiles",
+    "subclade": "Testudines (Turtles & Tortoises)"
+  },
+  {
+    "display": "Green Sea Turtle (Chelonia mydas)",
+    "common": "Green Sea Turtle",
+    "scientific": "Chelonia mydas",
+    "clade": "Reptiles",
+    "subclade": "Testudines (Turtles & Tortoises)"
+  },
+  {
+    "display": "Komodo Dragon (Varanus komodoensis)",
+    "common": "Komodo Dragon",
+    "scientific": "Varanus komodoensis",
+    "clade": "Reptiles",
+    "subclade": "Squamata (Lizards & Relatives)"
+  },
+  {
+    "display": "Cobra (Ophiophagus hannah)",
+    "common": "Cobra",
+    "scientific": "Ophiophagus hannah",
+    "clade": "Reptiles",
+    "subclade": "Squamata - Serpentes (Snakes)"
+  },
+  {
+    "display": "Python (Python bivittatus)",
+    "common": "Python",
+    "scientific": "Python bivittatus",
+    "clade": "Reptiles",
+    "subclade": "Squamata - Serpentes (Snakes)"
+  },
+  {
+    "display": "Common Frog (Rana temporaria)",
+    "common": "Common Frog",
+    "scientific": "Rana temporaria",
+    "clade": "Amphibians",
+    "subclade": "Anura"
+  },
+  {
+    "display": "Common Toad (Bufo bufo)",
+    "common": "Common Toad",
+    "scientific": "Bufo bufo",
+    "clade": "Amphibians",
+    "subclade": "Anura"
+  },
+  {
+    "display": "Fire Salamander (Salamandra salamandra)",
+    "common": "Fire Salamander",
+    "scientific": "Salamandra salamandra",
+    "clade": "Amphibians",
+    "subclade": "Caudata"
+  },
+  {
+    "display": "Smooth Newt (Lissotriton vulgaris)",
+    "common": "Smooth Newt",
+    "scientific": "Lissotriton vulgaris",
+    "clade": "Amphibians",
+    "subclade": "Caudata"
+  },
+  {
+    "display": "Axolotl (Ambystoma mexicanum)",
+    "common": "Axolotl",
+    "scientific": "Ambystoma mexicanum",
+    "clade": "Amphibians",
+    "subclade": "Caudata"
+  },
+  {
+    "display": "Caecilian (Gymnopis multiplicata)",
+    "common": "Caecilian",
+    "scientific": "Gymnopis multiplicata",
+    "clade": "Amphibians",
+    "subclade": "Gymnophiona"
+  },
+  {
+    "display": "Great White Shark (Carcharodon carcharias)",
+    "common": "Great White Shark",
+    "scientific": "Carcharodon carcharias",
+    "clade": "Fishes",
+    "subclade": "Chondrichthyes (Sharks & Rays)"
+  },
+  {
+    "display": "Atlantic Bluefin Tuna (Thunnus thynnus)",
+    "common": "Atlantic Bluefin Tuna",
+    "scientific": "Thunnus thynnus",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Scombriformes)"
+  },
+  {
+    "display": "Atlantic Salmon (Salmo salar)",
+    "common": "Atlantic Salmon",
+    "scientific": "Salmo salar",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Salmoniformes)"
+  },
+  {
+    "display": "Goldfish (Carassius auratus)",
+    "common": "Goldfish",
+    "scientific": "Carassius auratus",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Cypriniformes)"
+  },
+  {
+    "display": "Common Carp (Cyprinus carpio)",
+    "common": "Common Carp",
+    "scientific": "Cyprinus carpio",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Cypriniformes)"
+  },
+  {
+    "display": "Rainbow Trout (Oncorhynchus mykiss)",
+    "common": "Rainbow Trout",
+    "scientific": "Oncorhynchus mykiss",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Salmoniformes)"
+  },
+  {
+    "display": "Largemouth Bass (Micropterus salmoides)",
+    "common": "Largemouth Bass",
+    "scientific": "Micropterus salmoides",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Centrarchiformes)"
+  },
+  {
+    "display": "Channel Catfish (Ictalurus punctatus)",
+    "common": "Channel Catfish",
+    "scientific": "Ictalurus punctatus",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Siluriformes)"
+  },
+  {
+    "display": "Green Spotted Puffer (Tetraodon nigroviridis)",
+    "common": "Green Spotted Puffer",
+    "scientific": "Tetraodon nigroviridis",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Tetraodontiformes)"
+  },
+  {
+    "display": "European Eel (Anguilla anguilla)",
+    "common": "European Eel",
+    "scientific": "Anguilla anguilla",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Anguilliformes)"
+  },
+  {
+    "display": "Common Stingray (Dasyatis pastinaca)",
+    "common": "Common Stingray",
+    "scientific": "Dasyatis pastinaca",
+    "clade": "Fishes",
+    "subclade": "Chondrichthyes (Sharks & Rays)"
+  },
+  {
+    "display": "Estuary Seahorse (Hippocampus kuda)",
+    "common": "Estuary Seahorse",
+    "scientific": "Hippocampus kuda",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Syngnathiformes)"
+  },
+  {
+    "display": "Common Octopus (Octopus vulgaris)",
+    "common": "Common Octopus",
+    "scientific": "Octopus vulgaris",
+    "clade": "Invertebrates",
+    "subclade": "Mollusca - Cephalopoda (Octopoda)"
+  },
+  {
+    "display": "European Squid (Loligo vulgaris)",
+    "common": "European Squid",
+    "scientific": "Loligo vulgaris",
+    "clade": "Invertebrates",
+    "subclade": "Mollusca - Cephalopoda (Myopsida)"
+  },
+  {
+    "display": "Common Cuttlefish (Sepia officinalis)",
+    "common": "Common Cuttlefish",
+    "scientific": "Sepia officinalis",
+    "clade": "Invertebrates",
+    "subclade": "Mollusca - Cephalopoda (Sepiida)"
+  },
+  {
+    "display": "Roman Snail (Helix pomatia)",
+    "common": "Roman Snail",
+    "scientific": "Helix pomatia",
+    "clade": "Invertebrates",
+    "subclade": "Mollusca - Gastropoda (Snails & Slugs)"
+  },
+  {
+    "display": "Grey Field Slug (Deroceras reticulatum)",
+    "common": "Grey Field Slug",
+    "scientific": "Deroceras reticulatum",
+    "clade": "Invertebrates",
+    "subclade": "Mollusca - Gastropoda (Snails & Slugs)"
+  },
+  {
+    "display": "Pacific Oyster (Crassostrea gigas)",
+    "common": "Pacific Oyster",
+    "scientific": "Crassostrea gigas",
+    "clade": "Invertebrates",
+    "subclade": "Mollusca - Bivalvia (Clams & Oysters)"
+  },
+  {
+    "display": "Hard Clam (Mercenaria mercenaria)",
+    "common": "Hard Clam",
+    "scientific": "Mercenaria mercenaria",
+    "clade": "Invertebrates",
+    "subclade": "Mollusca - Bivalvia (Clams & Oysters)"
+  },
+  {
+    "display": "Blue Crab (Callinectes sapidus)",
+    "common": "Blue Crab",
+    "scientific": "Callinectes sapidus",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Crustacea (Decapoda)"
+  },
+  {
+    "display": "American Lobster (Homarus americanus)",
+    "common": "American Lobster",
+    "scientific": "Homarus americanus",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Crustacea (Decapoda)"
+  },
+  {
+    "display": "Giant Tiger Prawn (Penaeus monodon)",
+    "common": "Giant Tiger Prawn",
+    "scientific": "Penaeus monodon",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Crustacea (Decapoda)"
+  },
+  {
+    "display": "Black Widow Spider (Latrodectus mactans)",
+    "common": "Black Widow Spider",
+    "scientific": "Latrodectus mactans",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Arachnida (Araneae)"
+  },
+  {
+    "display": "Emperor Scorpion (Pandinus imperator)",
+    "common": "Emperor Scorpion",
+    "scientific": "Pandinus imperator",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Arachnida (Scorpiones)"
+  },
+  {
+    "display": "Amazonian Giant Centipede (Scolopendra gigantea)",
+    "common": "Amazonian Giant Centipede",
+    "scientific": "Scolopendra gigantea",
+    "clade": "Invertebrates",
+    "subclade": "Scolopendromorpha"
+  },
+  {
+    "display": "Giant African Millipede (Archispirostreptus gigas)",
+    "common": "Giant African Millipede",
+    "scientific": "Archispirostreptus gigas",
+    "clade": "Invertebrates",
+    "subclade": "Spirostreptida"
+  },
+  {
+    "display": "Red Imported Fire Ant (Solenopsis invicta)",
+    "common": "Red Imported Fire Ant",
+    "scientific": "Solenopsis invicta",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Insecta (Hymenoptera)"
+  },
+  {
+    "display": "Western Honey Bee (Apis mellifera)",
+    "common": "Western Honey Bee",
+    "scientific": "Apis mellifera",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Insecta (Hymenoptera)"
+  },
+  {
+    "display": "Common Wasp (Vespula vulgaris)",
+    "common": "Common Wasp",
+    "scientific": "Vespula vulgaris",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Insecta (Hymenoptera)"
+  },
+  {
+    "display": "Monarch Butterfly (Danaus plexippus)",
+    "common": "Monarch Butterfly",
+    "scientific": "Danaus plexippus",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Insecta (Lepidoptera)"
+  },
+  {
+    "display": "Domestic Silk Moth (Bombyx mori)",
+    "common": "Domestic Silk Moth",
+    "scientific": "Bombyx mori",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Insecta (Lepidoptera)"
+  },
+  {
+    "display": "Seven-spot Ladybird (Coccinella septempunctata)",
+    "common": "Seven-spot Ladybird",
+    "scientific": "Coccinella septempunctata",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Insecta (Coleoptera)"
+  },
+  {
+    "display": "Housefly (Musca domestica)",
+    "common": "Housefly",
+    "scientific": "Musca domestica",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Insecta (Diptera)"
+  },
+  {
+    "display": "African Malaria Mosquito (Anopheles gambiae)",
+    "common": "African Malaria Mosquito",
+    "scientific": "Anopheles gambiae",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Insecta (Diptera)"
+  },
+  {
+    "display": "American Cockroach (Periplaneta americana)",
+    "common": "American Cockroach",
+    "scientific": "Periplaneta americana",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Insecta (Blattodea)"
+  },
+  {
+    "display": "Common Earthworm (Lumbricus terrestris)",
+    "common": "Common Earthworm",
+    "scientific": "Lumbricus terrestris",
+    "clade": "Invertebrates",
+    "subclade": "Annelida (Segmented Worms)"
+  },
+  {
+    "display": "Moon Jelly (Aurelia aurita)",
+    "common": "Moon Jelly",
+    "scientific": "Aurelia aurita",
+    "clade": "Invertebrates",
+    "subclade": "Cnidaria (Jellyfish, Corals, Anemones)"
+  },
+  {
+    "display": "Common Starfish (Asterias rubens)",
+    "common": "Common Starfish",
+    "scientific": "Asterias rubens",
+    "clade": "Invertebrates",
+    "subclade": "Echinodermata (Sea Stars & Urchins)"
+  },
+  {
+    "display": "Purple Sea Urchin (Strongylocentrotus purpuratus)",
+    "common": "Purple Sea Urchin",
+    "scientific": "Strongylocentrotus purpuratus",
+    "clade": "Invertebrates",
+    "subclade": "Echinodermata (Sea Stars & Urchins)"
+  },
+  {
+    "display": "Sea Otter (Enhydra lutris)",
+    "common": "Sea Otter",
+    "scientific": "Enhydra lutris",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "River Otter (Lontra canadensis)",
+    "common": "River Otter",
+    "scientific": "Lontra canadensis",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Giant Otter (Pteronura brasiliensis)",
+    "common": "Giant Otter",
+    "scientific": "Pteronura brasiliensis",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Red Panda (Ailurus fulgens)",
+    "common": "Red Panda",
+    "scientific": "Ailurus fulgens",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Meerkat (Suricata suricatta)",
+    "common": "Meerkat",
+    "scientific": "Suricata suricatta",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Wolverine (Gulo gulo)",
+    "common": "Wolverine",
+    "scientific": "Gulo gulo",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Honey Badger (Mellivora capensis)",
+    "common": "Honey Badger",
+    "scientific": "Mellivora capensis",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "European Badger (Meles meles)",
+    "common": "European Badger",
+    "scientific": "Meles meles",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Striped Skunk (Mephitis mephitis)",
+    "common": "Striped Skunk",
+    "scientific": "Mephitis mephitis",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Fennec Fox (Vulpes zerda)",
+    "common": "Fennec Fox",
+    "scientific": "Vulpes zerda",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Arctic Fox (Vulpes lagopus)",
+    "common": "Arctic Fox",
+    "scientific": "Vulpes lagopus",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "African Wild Dog (Lycaon pictus)",
+    "common": "African Wild Dog",
+    "scientific": "Lycaon pictus",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Dingo (Canis lupus dingo)",
+    "common": "Dingo",
+    "scientific": "Canis lupus dingo",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "American Black Bear (Ursus americanus)",
+    "common": "American Black Bear",
+    "scientific": "Ursus americanus",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Sun Bear (Helarctos malayanus)",
+    "common": "Sun Bear",
+    "scientific": "Helarctos malayanus",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Sloth Bear (Melursus ursinus)",
+    "common": "Sloth Bear",
+    "scientific": "Melursus ursinus",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Spectacled Bear (Tremarctos ornatus)",
+    "common": "Spectacled Bear",
+    "scientific": "Tremarctos ornatus",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Leopard Seal (Hydrurga leptonyx)",
+    "common": "Leopard Seal",
+    "scientific": "Hydrurga leptonyx",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "California Sea Lion (Zalophus californianus)",
+    "common": "California Sea Lion",
+    "scientific": "Zalophus californianus",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Ringed Seal (Pusa hispida)",
+    "common": "Ringed Seal",
+    "scientific": "Pusa hispida",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Striped Hyena (Hyaena hyaena)",
+    "common": "Striped Hyena",
+    "scientific": "Hyaena hyaena",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Binturong (Arctictis binturong)",
+    "common": "Binturong",
+    "scientific": "Arctictis binturong",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Caracal (Caracal caracal)",
+    "common": "Caracal",
+    "scientific": "Caracal caracal",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Serval (Leptailurus serval)",
+    "common": "Serval",
+    "scientific": "Leptailurus serval",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Ocelot (Leopardus pardalis)",
+    "common": "Ocelot",
+    "scientific": "Leopardus pardalis",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Clouded Leopard (Neofelis nebulosa)",
+    "common": "Clouded Leopard",
+    "scientific": "Neofelis nebulosa",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Jaguarundi (Herpailurus yagouaroundi)",
+    "common": "Jaguarundi",
+    "scientific": "Herpailurus yagouaroundi",
+    "clade": "Mammals",
+    "subclade": "Carnivora"
+  },
+  {
+    "display": "Bonobo (Pan paniscus)",
+    "common": "Bonobo",
+    "scientific": "Pan paniscus",
+    "clade": "Mammals",
+    "subclade": "Primates"
+  },
+  {
+    "display": "Mandrill (Mandrillus sphinx)",
+    "common": "Mandrill",
+    "scientific": "Mandrillus sphinx",
+    "clade": "Mammals",
+    "subclade": "Primates"
+  },
+  {
+    "display": "Proboscis Monkey (Nasalis larvatus)",
+    "common": "Proboscis Monkey",
+    "scientific": "Nasalis larvatus",
+    "clade": "Mammals",
+    "subclade": "Primates"
+  },
+  {
+    "display": "Golden Lion Tamarin (Leontopithecus rosalia)",
+    "common": "Golden Lion Tamarin",
+    "scientific": "Leontopithecus rosalia",
+    "clade": "Mammals",
+    "subclade": "Primates"
+  },
+  {
+    "display": "Pygmy Marmoset (Cebuella pygmaea)",
+    "common": "Pygmy Marmoset",
+    "scientific": "Cebuella pygmaea",
+    "clade": "Mammals",
+    "subclade": "Primates"
+  },
+  {
+    "display": "Aye-aye (Daubentonia madagascariensis)",
+    "common": "Aye-aye",
+    "scientific": "Daubentonia madagascariensis",
+    "clade": "Mammals",
+    "subclade": "Primates"
+  },
+  {
+    "display": "Slow Loris (Nycticebus coucang)",
+    "common": "Slow Loris",
+    "scientific": "Nycticebus coucang",
+    "clade": "Mammals",
+    "subclade": "Primates"
+  },
+  {
+    "display": "Gelada (Theropithecus gelada)",
+    "common": "Gelada",
+    "scientific": "Theropithecus gelada",
+    "clade": "Mammals",
+    "subclade": "Primates"
+  },
+  {
+    "display": "Siamang (Symphalangus syndactylus)",
+    "common": "Siamang",
+    "scientific": "Symphalangus syndactylus",
+    "clade": "Mammals",
+    "subclade": "Primates"
+  },
+  {
+    "display": "White-handed Gibbon (Hylobates lar)",
+    "common": "White-handed Gibbon",
+    "scientific": "Hylobates lar",
+    "clade": "Mammals",
+    "subclade": "Primates"
+  },
+  {
+    "display": "Spider Monkey (Ateles geoffroyi)",
+    "common": "Spider Monkey",
+    "scientific": "Ateles geoffroyi",
+    "clade": "Mammals",
+    "subclade": "Primates"
+  },
+  {
+    "display": "Howler Monkey (Alouatta palliata)",
+    "common": "Howler Monkey",
+    "scientific": "Alouatta palliata",
+    "clade": "Mammals",
+    "subclade": "Primates"
+  },
+  {
+    "display": "Narwhal (Monodon monoceros)",
+    "common": "Narwhal",
+    "scientific": "Monodon monoceros",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Beluga Whale (Delphinapterus leucas)",
+    "common": "Beluga Whale",
+    "scientific": "Delphinapterus leucas",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Bowhead Whale (Balaena mysticetus)",
+    "common": "Bowhead Whale",
+    "scientific": "Balaena mysticetus",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Harbor Porpoise (Phocoena phocoena)",
+    "common": "Harbor Porpoise",
+    "scientific": "Phocoena phocoena",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Gray Whale (Eschrichtius robustus)",
+    "common": "Gray Whale",
+    "scientific": "Eschrichtius robustus",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Fin Whale (Balaenoptera physalus)",
+    "common": "Fin Whale",
+    "scientific": "Balaenoptera physalus",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Dugong (Dugong dugon)",
+    "common": "Dugong",
+    "scientific": "Dugong dugon",
+    "clade": "Mammals",
+    "subclade": "Sirenia"
+  },
+  {
+    "display": "American Bison (Bison bison)",
+    "common": "American Bison",
+    "scientific": "Bison bison",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Cape Buffalo (Syncerus caffer)",
+    "common": "Cape Buffalo",
+    "scientific": "Syncerus caffer",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Okapi (Okapia johnstoni)",
+    "common": "Okapi",
+    "scientific": "Okapia johnstoni",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Bighorn Sheep (Ovis canadensis)",
+    "common": "Bighorn Sheep",
+    "scientific": "Ovis canadensis",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Mountain Goat (Oreamnos americanus)",
+    "common": "Mountain Goat",
+    "scientific": "Oreamnos americanus",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Muskox (Ovibos moschatus)",
+    "common": "Muskox",
+    "scientific": "Ovibos moschatus",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Reindeer (Rangifer tarandus)",
+    "common": "Reindeer",
+    "scientific": "Rangifer tarandus",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Red Deer (Cervus elaphus)",
+    "common": "Red Deer",
+    "scientific": "Cervus elaphus",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Common Warthog (Phacochoerus africanus)",
+    "common": "Common Warthog",
+    "scientific": "Phacochoerus africanus",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Wild Boar (Sus scrofa)",
+    "common": "Wild Boar",
+    "scientific": "Sus scrofa",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "White Rhinoceros (Ceratotherium simum)",
+    "common": "White Rhinoceros",
+    "scientific": "Ceratotherium simum",
+    "clade": "Mammals",
+    "subclade": "Perissodactyla"
+  },
+  {
+    "display": "Indian Rhinoceros (Rhinoceros unicornis)",
+    "common": "Indian Rhinoceros",
+    "scientific": "Rhinoceros unicornis",
+    "clade": "Mammals",
+    "subclade": "Perissodactyla"
+  },
+  {
+    "display": "Asian Elephant (Elephas maximus)",
+    "common": "Asian Elephant",
+    "scientific": "Elephas maximus",
+    "clade": "Mammals",
+    "subclade": "Proboscidea"
+  },
+  {
+    "display": "Aardvark (Orycteropus afer)",
+    "common": "Aardvark",
+    "scientific": "Orycteropus afer",
+    "clade": "Mammals",
+    "subclade": "Tubulidentata"
+  },
+  {
+    "display": "Giant Anteater (Myrmecophaga tridactyla)",
+    "common": "Giant Anteater",
+    "scientific": "Myrmecophaga tridactyla",
+    "clade": "Mammals",
+    "subclade": "Pilosa"
+  },
+  {
+    "display": "Malayan Tapir (Tapirus indicus)",
+    "common": "Malayan Tapir",
+    "scientific": "Tapirus indicus",
+    "clade": "Mammals",
+    "subclade": "Perissodactyla"
+  },
+  {
+    "display": "Pronghorn (Antilocapra americana)",
+    "common": "Pronghorn",
+    "scientific": "Antilocapra americana",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Alpaca (Vicugna pacos)",
+    "common": "Alpaca",
+    "scientific": "Vicugna pacos",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Vicu\u00f1a (Vicugna vicugna)",
+    "common": "Vicu\u00f1a",
+    "scientific": "Vicugna vicugna",
+    "clade": "Mammals",
+    "subclade": "Artiodactyla"
+  },
+  {
+    "display": "Short-beaked Echidna (Tachyglossus aculeatus)",
+    "common": "Short-beaked Echidna",
+    "scientific": "Tachyglossus aculeatus",
+    "clade": "Mammals",
+    "subclade": "Monotremata"
+  },
+  {
+    "display": "Tasmanian Devil (Sarcophilus harrisii)",
+    "common": "Tasmanian Devil",
+    "scientific": "Sarcophilus harrisii",
+    "clade": "Mammals",
+    "subclade": "Dasyuromorphia"
+  },
+  {
+    "display": "Common Wombat (Vombatus ursinus)",
+    "common": "Common Wombat",
+    "scientific": "Vombatus ursinus",
+    "clade": "Mammals",
+    "subclade": "Diprotodontia"
+  },
+  {
+    "display": "Sugar Glider (Petaurus breviceps)",
+    "common": "Sugar Glider",
+    "scientific": "Petaurus breviceps",
+    "clade": "Mammals",
+    "subclade": "Diprotodontia"
+  },
+  {
+    "display": "Quokka (Setonix brachyurus)",
+    "common": "Quokka",
+    "scientific": "Setonix brachyurus",
+    "clade": "Mammals",
+    "subclade": "Diprotodontia"
+  },
+  {
+    "display": "Common Brushtail Possum (Trichosurus vulpecula)",
+    "common": "Common Brushtail Possum",
+    "scientific": "Trichosurus vulpecula",
+    "clade": "Mammals",
+    "subclade": "Diprotodontia"
+  },
+  {
+    "display": "Eastern Grey Kangaroo (Macropus giganteus)",
+    "common": "Eastern Grey Kangaroo",
+    "scientific": "Macropus giganteus",
+    "clade": "Mammals",
+    "subclade": "Diprotodontia"
+  },
+  {
+    "display": "Numbat (Myrmecobius fasciatus)",
+    "common": "Numbat",
+    "scientific": "Myrmecobius fasciatus",
+    "clade": "Mammals",
+    "subclade": "Dasyuromorphia"
+  },
+  {
+    "display": "Tree Kangaroo (Dendrolagus matschiei)",
+    "common": "Tree Kangaroo",
+    "scientific": "Dendrolagus matschiei",
+    "clade": "Mammals",
+    "subclade": "Diprotodontia"
+  },
+  {
+    "display": "Capybara (Hydrochoerus hydrochaeris)",
+    "common": "Capybara",
+    "scientific": "Hydrochoerus hydrochaeris",
+    "clade": "Mammals",
+    "subclade": "Rodentia"
+  },
+  {
+    "display": "Groundhog (Marmota monax)",
+    "common": "Groundhog",
+    "scientific": "Marmota monax",
+    "clade": "Mammals",
+    "subclade": "Rodentia"
+  },
+  {
+    "display": "Black-tailed Prairie Dog (Cynomys ludovicianus)",
+    "common": "Black-tailed Prairie Dog",
+    "scientific": "Cynomys ludovicianus",
+    "clade": "Mammals",
+    "subclade": "Rodentia"
+  },
+  {
+    "display": "Chinchilla (Chinchilla lanigera)",
+    "common": "Chinchilla",
+    "scientific": "Chinchilla lanigera",
+    "clade": "Mammals",
+    "subclade": "Rodentia"
+  },
+  {
+    "display": "Naked Mole-rat (Heterocephalus glaber)",
+    "common": "Naked Mole-rat",
+    "scientific": "Heterocephalus glaber",
+    "clade": "Mammals",
+    "subclade": "Rodentia"
+  },
+  {
+    "display": "Eurasian Red Squirrel (Sciurus vulgaris)",
+    "common": "Eurasian Red Squirrel",
+    "scientific": "Sciurus vulgaris",
+    "clade": "Mammals",
+    "subclade": "Rodentia"
+  },
+  {
+    "display": "Giant Golden-crowned Flying Fox (Acerodon jubatus)",
+    "common": "Giant Golden-crowned Flying Fox",
+    "scientific": "Acerodon jubatus",
+    "clade": "Mammals",
+    "subclade": "Chiroptera"
+  },
+  {
+    "display": "Little Brown Bat (Myotis lucifugus)",
+    "common": "Little Brown Bat",
+    "scientific": "Myotis lucifugus",
+    "clade": "Mammals",
+    "subclade": "Chiroptera"
+  },
+  {
+    "display": "Harpy Eagle (Harpia harpyja)",
+    "common": "Harpy Eagle",
+    "scientific": "Harpia harpyja",
+    "clade": "Birds",
+    "subclade": "Accipitriformes"
+  },
+  {
+    "display": "Golden Eagle (Aquila chrysaetos)",
+    "common": "Golden Eagle",
+    "scientific": "Aquila chrysaetos",
+    "clade": "Birds",
+    "subclade": "Accipitriformes"
+  },
+  {
+    "display": "Osprey (Pandion haliaetus)",
+    "common": "Osprey",
+    "scientific": "Pandion haliaetus",
+    "clade": "Birds",
+    "subclade": "Accipitriformes"
+  },
+  {
+    "display": "Barn Owl (Tyto alba)",
+    "common": "Barn Owl",
+    "scientific": "Tyto alba",
+    "clade": "Birds",
+    "subclade": "Strigiformes"
+  },
+  {
+    "display": "Snowy Owl (Bubo scandiacus)",
+    "common": "Snowy Owl",
+    "scientific": "Bubo scandiacus",
+    "clade": "Birds",
+    "subclade": "Strigiformes"
+  },
+  {
+    "display": "Burrowing Owl (Athene cunicularia)",
+    "common": "Burrowing Owl",
+    "scientific": "Athene cunicularia",
+    "clade": "Birds",
+    "subclade": "Strigiformes"
+  },
+  {
+    "display": "Andean Condor (Vultur gryphus)",
+    "common": "Andean Condor",
+    "scientific": "Vultur gryphus",
+    "clade": "Birds",
+    "subclade": "Accipitriformes"
+  },
+  {
+    "display": "Secretarybird (Sagittarius serpentarius)",
+    "common": "Secretarybird",
+    "scientific": "Sagittarius serpentarius",
+    "clade": "Birds",
+    "subclade": "Accipitriformes"
+  },
+  {
+    "display": "Atlantic Puffin (Fratercula arctica)",
+    "common": "Atlantic Puffin",
+    "scientific": "Fratercula arctica",
+    "clade": "Birds",
+    "subclade": "Charadriiformes"
+  },
+  {
+    "display": "Wandering Albatross (Diomedea exulans)",
+    "common": "Wandering Albatross",
+    "scientific": "Diomedea exulans",
+    "clade": "Birds",
+    "subclade": "Procellariiformes"
+  },
+  {
+    "display": "Shoebill (Balaeniceps rex)",
+    "common": "Shoebill",
+    "scientific": "Balaeniceps rex",
+    "clade": "Birds",
+    "subclade": "Pelecaniformes"
+  },
+  {
+    "display": "King Penguin (Aptenodytes patagonicus)",
+    "common": "King Penguin",
+    "scientific": "Aptenodytes patagonicus",
+    "clade": "Birds",
+    "subclade": "Sphenisciformes"
+  },
+  {
+    "display": "Gentoo Penguin (Pygoscelis papua)",
+    "common": "Gentoo Penguin",
+    "scientific": "Pygoscelis papua",
+    "clade": "Birds",
+    "subclade": "Sphenisciformes"
+  },
+  {
+    "display": "Great Blue Heron (Ardea herodias)",
+    "common": "Great Blue Heron",
+    "scientific": "Ardea herodias",
+    "clade": "Birds",
+    "subclade": "Pelecaniformes"
+  },
+  {
+    "display": "Roseate Spoonbill (Platalea ajaja)",
+    "common": "Roseate Spoonbill",
+    "scientific": "Platalea ajaja",
+    "clade": "Birds",
+    "subclade": "Pelecaniformes"
+  },
+  {
+    "display": "Brown Pelican (Pelecanus occidentalis)",
+    "common": "Brown Pelican",
+    "scientific": "Pelecanus occidentalis",
+    "clade": "Birds",
+    "subclade": "Pelecaniformes"
+  },
+  {
+    "display": "Common Loon (Gavia immer)",
+    "common": "Common Loon",
+    "scientific": "Gavia immer",
+    "clade": "Birds",
+    "subclade": "Gaviiformes"
+  },
+  {
+    "display": "Great Cormorant (Phalacrocorax carbo)",
+    "common": "Great Cormorant",
+    "scientific": "Phalacrocorax carbo",
+    "clade": "Birds",
+    "subclade": "Suliformes"
+  },
+  {
+    "display": "Canada Goose (Branta canadensis)",
+    "common": "Canada Goose",
+    "scientific": "Branta canadensis",
+    "clade": "Birds",
+    "subclade": "Anseriformes"
+  },
+  {
+    "display": "Whooper Swan (Cygnus cygnus)",
+    "common": "Whooper Swan",
+    "scientific": "Cygnus cygnus",
+    "clade": "Birds",
+    "subclade": "Anseriformes"
+  },
+  {
+    "display": "Wood Duck (Aix sponsa)",
+    "common": "Wood Duck",
+    "scientific": "Aix sponsa",
+    "clade": "Birds",
+    "subclade": "Anseriformes"
+  },
+  {
+    "display": "Southern Cassowary (Casuarius casuarius)",
+    "common": "Southern Cassowary",
+    "scientific": "Casuarius casuarius",
+    "clade": "Birds",
+    "subclade": "Casuariiformes"
+  },
+  {
+    "display": "Ring-necked Pheasant (Phasianus colchicus)",
+    "common": "Ring-necked Pheasant",
+    "scientific": "Phasianus colchicus",
+    "clade": "Birds",
+    "subclade": "Galliformes"
+  },
+  {
+    "display": "California Quail (Callipepla californica)",
+    "common": "California Quail",
+    "scientific": "Callipepla californica",
+    "clade": "Birds",
+    "subclade": "Galliformes"
+  },
+  {
+    "display": "Common Kingfisher (Alcedo atthis)",
+    "common": "Common Kingfisher",
+    "scientific": "Alcedo atthis",
+    "clade": "Birds",
+    "subclade": "Coraciiformes"
+  },
+  {
+    "display": "Toco Toucan (Ramphastos toco)",
+    "common": "Toco Toucan",
+    "scientific": "Ramphastos toco",
+    "clade": "Birds",
+    "subclade": "Piciformes"
+  },
+  {
+    "display": "Pileated Woodpecker (Dryocopus pileatus)",
+    "common": "Pileated Woodpecker",
+    "scientific": "Dryocopus pileatus",
+    "clade": "Birds",
+    "subclade": "Piciformes"
+  },
+  {
+    "display": "Kakapo (Strigops habroptila)",
+    "common": "Kakapo",
+    "scientific": "Strigops habroptila",
+    "clade": "Birds",
+    "subclade": "Psittaciformes"
+  },
+  {
+    "display": "Kea (Nestor notabilis)",
+    "common": "Kea",
+    "scientific": "Nestor notabilis",
+    "clade": "Birds",
+    "subclade": "Psittaciformes"
+  },
+  {
+    "display": "Budgerigar (Melopsittacus undulatus)",
+    "common": "Budgerigar",
+    "scientific": "Melopsittacus undulatus",
+    "clade": "Birds",
+    "subclade": "Psittaciformes"
+  },
+  {
+    "display": "Cockatiel (Nymphicus hollandicus)",
+    "common": "Cockatiel",
+    "scientific": "Nymphicus hollandicus",
+    "clade": "Birds",
+    "subclade": "Psittaciformes"
+  },
+  {
+    "display": "Blue Jay (Cyanocitta cristata)",
+    "common": "Blue Jay",
+    "scientific": "Cyanocitta cristata",
+    "clade": "Birds",
+    "subclade": "Passeriformes"
+  },
+  {
+    "display": "Northern Cardinal (Cardinalis cardinalis)",
+    "common": "Northern Cardinal",
+    "scientific": "Cardinalis cardinalis",
+    "clade": "Birds",
+    "subclade": "Passeriformes"
+  },
+  {
+    "display": "Eurasian Magpie (Pica pica)",
+    "common": "Eurasian Magpie",
+    "scientific": "Pica pica",
+    "clade": "Birds",
+    "subclade": "Passeriformes"
+  },
+  {
+    "display": "European Robin (Erithacus rubecula)",
+    "common": "European Robin",
+    "scientific": "Erithacus rubecula",
+    "clade": "Birds",
+    "subclade": "Passeriformes"
+  },
+  {
+    "display": "House Sparrow (Passer domesticus)",
+    "common": "House Sparrow",
+    "scientific": "Passer domesticus",
+    "clade": "Birds",
+    "subclade": "Passeriformes"
+  },
+  {
+    "display": "Common Starling (Sturnus vulgaris)",
+    "common": "Common Starling",
+    "scientific": "Sturnus vulgaris",
+    "clade": "Birds",
+    "subclade": "Passeriformes"
+  },
+  {
+    "display": "Gila Monster (Heloderma suspectum)",
+    "common": "Gila Monster",
+    "scientific": "Heloderma suspectum",
+    "clade": "Reptiles",
+    "subclade": "Squamata (Lizards & Relatives)"
+  },
+  {
+    "display": "Leatherback Sea Turtle (Dermochelys coriacea)",
+    "common": "Leatherback Sea Turtle",
+    "scientific": "Dermochelys coriacea",
+    "clade": "Reptiles",
+    "subclade": "Testudines (Turtles & Tortoises)"
+  },
+  {
+    "display": "Hawksbill Sea Turtle (Eretmochelys imbricata)",
+    "common": "Hawksbill Sea Turtle",
+    "scientific": "Eretmochelys imbricata",
+    "clade": "Reptiles",
+    "subclade": "Testudines (Turtles & Tortoises)"
+  },
+  {
+    "display": "Loggerhead Sea Turtle (Caretta caretta)",
+    "common": "Loggerhead Sea Turtle",
+    "scientific": "Caretta caretta",
+    "clade": "Reptiles",
+    "subclade": "Testudines (Turtles & Tortoises)"
+  },
+  {
+    "display": "Alligator Snapping Turtle (Macrochelys temminckii)",
+    "common": "Alligator Snapping Turtle",
+    "scientific": "Macrochelys temminckii",
+    "clade": "Reptiles",
+    "subclade": "Testudines (Turtles & Tortoises)"
+  },
+  {
+    "display": "Eastern Box Turtle (Terrapene carolina)",
+    "common": "Eastern Box Turtle",
+    "scientific": "Terrapene carolina",
+    "clade": "Reptiles",
+    "subclade": "Testudines (Turtles & Tortoises)"
+  },
+  {
+    "display": "Green Anaconda (Eunectes murinus)",
+    "common": "Green Anaconda",
+    "scientific": "Eunectes murinus",
+    "clade": "Reptiles",
+    "subclade": "Squamata - Serpentes (Snakes)"
+  },
+  {
+    "display": "Black Mamba (Dendroaspis polylepis)",
+    "common": "Black Mamba",
+    "scientific": "Dendroaspis polylepis",
+    "clade": "Reptiles",
+    "subclade": "Squamata - Serpentes (Snakes)"
+  },
+  {
+    "display": "Corn Snake (Pantherophis guttatus)",
+    "common": "Corn Snake",
+    "scientific": "Pantherophis guttatus",
+    "clade": "Reptiles",
+    "subclade": "Squamata - Serpentes (Snakes)"
+  },
+  {
+    "display": "Ball Python (Python regius)",
+    "common": "Ball Python",
+    "scientific": "Python regius",
+    "clade": "Reptiles",
+    "subclade": "Squamata - Serpentes (Snakes)"
+  },
+  {
+    "display": "Copperhead (Agkistrodon contortrix)",
+    "common": "Copperhead",
+    "scientific": "Agkistrodon contortrix",
+    "clade": "Reptiles",
+    "subclade": "Squamata - Serpentes (Snakes)"
+  },
+  {
+    "display": "Inland Taipan (Oxyuranus microlepidotus)",
+    "common": "Inland Taipan",
+    "scientific": "Oxyuranus microlepidotus",
+    "clade": "Reptiles",
+    "subclade": "Squamata - Serpentes (Snakes)"
+  },
+  {
+    "display": "Central Bearded Dragon (Pogona vitticeps)",
+    "common": "Central Bearded Dragon",
+    "scientific": "Pogona vitticeps",
+    "clade": "Reptiles",
+    "subclade": "Squamata (Lizards & Relatives)"
+  },
+  {
+    "display": "Marine Iguana (Amblyrhynchus cristatus)",
+    "common": "Marine Iguana",
+    "scientific": "Amblyrhynchus cristatus",
+    "clade": "Reptiles",
+    "subclade": "Squamata (Lizards & Relatives)"
+  },
+  {
+    "display": "Thorny Devil (Moloch horridus)",
+    "common": "Thorny Devil",
+    "scientific": "Moloch horridus",
+    "clade": "Reptiles",
+    "subclade": "Squamata (Lizards & Relatives)"
+  },
+  {
+    "display": "Frilled Lizard (Chlamydosaurus kingii)",
+    "common": "Frilled Lizard",
+    "scientific": "Chlamydosaurus kingii",
+    "clade": "Reptiles",
+    "subclade": "Squamata (Lizards & Relatives)"
+  },
+  {
+    "display": "Leopard Gecko (Eublepharis macularius)",
+    "common": "Leopard Gecko",
+    "scientific": "Eublepharis macularius",
+    "clade": "Reptiles",
+    "subclade": "Squamata (Lizards & Relatives)"
+  },
+  {
+    "display": "Tuatara (Sphenodon punctatus)",
+    "common": "Tuatara",
+    "scientific": "Sphenodon punctatus",
+    "clade": "Reptiles",
+    "subclade": "Sphenodontia"
+  },
+  {
+    "display": "Saltwater Crocodile (Crocodylus porosus)",
+    "common": "Saltwater Crocodile",
+    "scientific": "Crocodylus porosus",
+    "clade": "Reptiles",
+    "subclade": "Crocodylia (Crocodiles & Alligators)"
+  },
+  {
+    "display": "Gharial (Gavialis gangeticus)",
+    "common": "Gharial",
+    "scientific": "Gavialis gangeticus",
+    "clade": "Reptiles",
+    "subclade": "Crocodylia (Crocodiles & Alligators)"
+  },
+  {
+    "display": "Dyeing Dart Frog (Dendrobates tinctorius)",
+    "common": "Dyeing Dart Frog",
+    "scientific": "Dendrobates tinctorius",
+    "clade": "Amphibians",
+    "subclade": "Anura"
+  },
+  {
+    "display": "Golden Poison Frog (Phyllobates terribilis)",
+    "common": "Golden Poison Frog",
+    "scientific": "Phyllobates terribilis",
+    "clade": "Amphibians",
+    "subclade": "Anura"
+  },
+  {
+    "display": "Goliath Frog (Conraua goliath)",
+    "common": "Goliath Frog",
+    "scientific": "Conraua goliath",
+    "clade": "Amphibians",
+    "subclade": "Anura"
+  },
+  {
+    "display": "American Bullfrog (Lithobates catesbeianus)",
+    "common": "American Bullfrog",
+    "scientific": "Lithobates catesbeianus",
+    "clade": "Amphibians",
+    "subclade": "Anura"
+  },
+  {
+    "display": "Red-eyed Tree Frog (Agalychnis callidryas)",
+    "common": "Red-eyed Tree Frog",
+    "scientific": "Agalychnis callidryas",
+    "clade": "Amphibians",
+    "subclade": "Anura"
+  },
+  {
+    "display": "Hellbender (Cryptobranchus alleganiensis)",
+    "common": "Hellbender",
+    "scientific": "Cryptobranchus alleganiensis",
+    "clade": "Amphibians",
+    "subclade": "Caudata"
+  },
+  {
+    "display": "Japanese Giant Salamander (Andrias japonicus)",
+    "common": "Japanese Giant Salamander",
+    "scientific": "Andrias japonicus",
+    "clade": "Amphibians",
+    "subclade": "Caudata"
+  },
+  {
+    "display": "Cane Toad (Rhinella marina)",
+    "common": "Cane Toad",
+    "scientific": "Rhinella marina",
+    "clade": "Amphibians",
+    "subclade": "Anura"
+  },
+  {
+    "display": "African Clawed Frog (Xenopus laevis)",
+    "common": "African Clawed Frog",
+    "scientific": "Xenopus laevis",
+    "clade": "Amphibians",
+    "subclade": "Anura"
+  },
+  {
+    "display": "Olm Salamander (Proteus anguinus)",
+    "common": "Olm Salamander",
+    "scientific": "Proteus anguinus",
+    "clade": "Amphibians",
+    "subclade": "Caudata"
+  },
+  {
+    "display": "Whale Shark (Rhincodon typus)",
+    "common": "Whale Shark",
+    "scientific": "Rhincodon typus",
+    "clade": "Fishes",
+    "subclade": "Chondrichthyes (Sharks & Rays)"
+  },
+  {
+    "display": "Great Hammerhead Shark (Sphyrna mokarran)",
+    "common": "Great Hammerhead Shark",
+    "scientific": "Sphyrna mokarran",
+    "clade": "Fishes",
+    "subclade": "Chondrichthyes (Sharks & Rays)"
+  },
+  {
+    "display": "Tiger Shark (Galeocerdo cuvier)",
+    "common": "Tiger Shark",
+    "scientific": "Galeocerdo cuvier",
+    "clade": "Fishes",
+    "subclade": "Chondrichthyes (Sharks & Rays)"
+  },
+  {
+    "display": "Basking Shark (Cetorhinus maximus)",
+    "common": "Basking Shark",
+    "scientific": "Cetorhinus maximus",
+    "clade": "Fishes",
+    "subclade": "Chondrichthyes (Sharks & Rays)"
+  },
+  {
+    "display": "Giant Oceanic Manta Ray (Mobula birostris)",
+    "common": "Giant Oceanic Manta Ray",
+    "scientific": "Mobula birostris",
+    "clade": "Fishes",
+    "subclade": "Chondrichthyes (Sharks & Rays)"
+  },
+  {
+    "display": "Coelacanth (Latimeria chalumnae)",
+    "common": "Coelacanth",
+    "scientific": "Latimeria chalumnae",
+    "clade": "Fishes",
+    "subclade": "Sarcopterygii (Coelacanth)"
+  },
+  {
+    "display": "Alligator Gar (Atractosteus spatula)",
+    "common": "Alligator Gar",
+    "scientific": "Atractosteus spatula",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Semionotiformes)"
+  },
+  {
+    "display": "Ocellaris Clownfish (Amphiprion ocellaris)",
+    "common": "Ocellaris Clownfish",
+    "scientific": "Amphiprion ocellaris",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Other)"
+  },
+  {
+    "display": "Deep-sea Anglerfish (Melanocetus johnsonii)",
+    "common": "Deep-sea Anglerfish",
+    "scientific": "Melanocetus johnsonii",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Lophiiformes)"
+  },
+  {
+    "display": "Great Barracuda (Sphyraena barracuda)",
+    "common": "Great Barracuda",
+    "scientific": "Sphyraena barracuda",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Other)"
+  },
+  {
+    "display": "Giant Moray (Gymnothorax javanicus)",
+    "common": "Giant Moray",
+    "scientific": "Gymnothorax javanicus",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Anguilliformes)"
+  },
+  {
+    "display": "Ocean Sunfish (Mola mola)",
+    "common": "Ocean Sunfish",
+    "scientific": "Mola mola",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Tetraodontiformes)"
+  },
+  {
+    "display": "Swordfish (Xiphias gladius)",
+    "common": "Swordfish",
+    "scientific": "Xiphias gladius",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Istiophoriformes)"
+  },
+  {
+    "display": "Atlantic Cod (Gadus morhua)",
+    "common": "Atlantic Cod",
+    "scientific": "Gadus morhua",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Gadiformes)"
+  },
+  {
+    "display": "Red Lionfish (Pterois volitans)",
+    "common": "Red Lionfish",
+    "scientific": "Pterois volitans",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Perciformes)"
+  },
+  {
+    "display": "Regal Blue Tang (Paracanthurus hepatus)",
+    "common": "Regal Blue Tang",
+    "scientific": "Paracanthurus hepatus",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Acanthuriformes)"
+  },
+  {
+    "display": "Red-bellied Piranha (Pygocentrus nattereri)",
+    "common": "Red-bellied Piranha",
+    "scientific": "Pygocentrus nattereri",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Characiformes)"
+  },
+  {
+    "display": "Arapaima (Arapaima gigas)",
+    "common": "Arapaima",
+    "scientific": "Arapaima gigas",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Osteoglossiformes)"
+  },
+  {
+    "display": "Northern Pike (Esox lucius)",
+    "common": "Northern Pike",
+    "scientific": "Esox lucius",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Esociformes)"
+  },
+  {
+    "display": "Electric Eel (Electrophorus electricus)",
+    "common": "Electric Eel",
+    "scientific": "Electrophorus electricus",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Gymnotiformes)"
+  },
+  {
+    "display": "Siamese Fighting Fish (Betta splendens)",
+    "common": "Siamese Fighting Fish",
+    "scientific": "Betta splendens",
+    "clade": "Fishes",
+    "subclade": "Actinopterygii (Anabantiformes)"
+  },
+  {
+    "display": "Peacock Mantis Shrimp (Odontodactylus scyllarus)",
+    "common": "Peacock Mantis Shrimp",
+    "scientific": "Odontodactylus scyllarus",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Crustacea (Stomatopoda)"
+  },
+  {
+    "display": "European Praying Mantis (Mantis religiosa)",
+    "common": "European Praying Mantis",
+    "scientific": "Mantis religiosa",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Insecta (Mantodea)"
+  },
+  {
+    "display": "Leafcutter Ant (Atta cephalotes)",
+    "common": "Leafcutter Ant",
+    "scientific": "Atta cephalotes",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Insecta (Hymenoptera)"
+  },
+  {
+    "display": "Buff-tailed Bumblebee (Bombus terrestris)",
+    "common": "Buff-tailed Bumblebee",
+    "scientific": "Bombus terrestris",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Insecta (Hymenoptera)"
+  },
+  {
+    "display": "Emperor Dragonfly (Anax imperator)",
+    "common": "Emperor Dragonfly",
+    "scientific": "Anax imperator",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Insecta (Odonata)"
+  },
+  {
+    "display": "Atlas Moth (Attacus atlas)",
+    "common": "Atlas Moth",
+    "scientific": "Attacus atlas",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Insecta (Lepidoptera)"
+  },
+  {
+    "display": "Periodical Cicada (Magicicada septendecim)",
+    "common": "Periodical Cicada",
+    "scientific": "Magicicada septendecim",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Insecta (Hemiptera)"
+  },
+  {
+    "display": "European Stag Beetle (Lucanus cervus)",
+    "common": "European Stag Beetle",
+    "scientific": "Lucanus cervus",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Insecta (Coleoptera)"
+  },
+  {
+    "display": "Goliath Beetle (Goliathus goliatus)",
+    "common": "Goliath Beetle",
+    "scientific": "Goliathus goliatus",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Insecta (Coleoptera)"
+  },
+  {
+    "display": "Mexican Redknee Tarantula (Brachypelma hamorii)",
+    "common": "Mexican Redknee Tarantula",
+    "scientific": "Brachypelma hamorii",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Arachnida (Araneae)"
+  },
+  {
+    "display": "Sydney Funnel-web Spider (Atrax robustus)",
+    "common": "Sydney Funnel-web Spider",
+    "scientific": "Atrax robustus",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Arachnida (Araneae)"
+  },
+  {
+    "display": "Atlantic Horseshoe Crab (Limulus polyphemus)",
+    "common": "Atlantic Horseshoe Crab",
+    "scientific": "Limulus polyphemus",
+    "clade": "Invertebrates",
+    "subclade": "Xiphosura"
+  },
+  {
+    "display": "Fiddler Crab (Uca pugilator)",
+    "common": "Fiddler Crab",
+    "scientific": "Uca pugilator",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Crustacea (Decapoda)"
+  },
+  {
+    "display": "Coconut Crab (Birgus latro)",
+    "common": "Coconut Crab",
+    "scientific": "Birgus latro",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Crustacea (Decapoda)"
+  },
+  {
+    "display": "Giant Pacific Octopus (Enteroctopus dofleini)",
+    "common": "Giant Pacific Octopus",
+    "scientific": "Enteroctopus dofleini",
+    "clade": "Invertebrates",
+    "subclade": "Mollusca - Cephalopoda (Octopoda)"
+  },
+  {
+    "display": "Blue-ringed Octopus (Hapalochlaena maculosa)",
+    "common": "Blue-ringed Octopus",
+    "scientific": "Hapalochlaena maculosa",
+    "clade": "Invertebrates",
+    "subclade": "Mollusca - Cephalopoda (Octopoda)"
+  },
+  {
+    "display": "Giant Squid (Architeuthis dux)",
+    "common": "Giant Squid",
+    "scientific": "Architeuthis dux",
+    "clade": "Invertebrates",
+    "subclade": "Mollusca - Cephalopoda (Oegopsida)"
+  },
+  {
+    "display": "Colossal Squid (Mesonychoteuthis hamiltoni)",
+    "common": "Colossal Squid",
+    "scientific": "Mesonychoteuthis hamiltoni",
+    "clade": "Invertebrates",
+    "subclade": "Mollusca - Cephalopoda (Oegopsida)"
+  },
+  {
+    "display": "Chambered Nautilus (Nautilus pompilius)",
+    "common": "Chambered Nautilus",
+    "scientific": "Nautilus pompilius",
+    "clade": "Invertebrates",
+    "subclade": "Mollusca - Cephalopoda (Nautilida)"
+  },
+  {
+    "display": "Giant Clam (Tridacna gigas)",
+    "common": "Giant Clam",
+    "scientific": "Tridacna gigas",
+    "clade": "Invertebrates",
+    "subclade": "Mollusca - Bivalvia (Clams & Oysters)"
+  },
+  {
+    "display": "Beadlet Anemone (Actinia equina)",
+    "common": "Beadlet Anemone",
+    "scientific": "Actinia equina",
+    "clade": "Invertebrates",
+    "subclade": "Cnidaria (Jellyfish, Corals, Anemones)"
+  },
+  {
+    "display": "Sea Wasp Box Jellyfish (Chironex fleckeri)",
+    "common": "Sea Wasp Box Jellyfish",
+    "scientific": "Chironex fleckeri",
+    "clade": "Invertebrates",
+    "subclade": "Cnidaria (Jellyfish, Corals, Anemones)"
+  },
+  {
+    "display": "Portuguese Man o War (Physalia physalis)",
+    "common": "Portuguese Man o War",
+    "scientific": "Physalia physalis",
+    "clade": "Invertebrates",
+    "subclade": "Cnidaria (Jellyfish, Corals, Anemones)"
+  },
+  {
+    "display": "Lions Mane Jellyfish (Cyanea capillata)",
+    "common": "Lions Mane Jellyfish",
+    "scientific": "Cyanea capillata",
+    "clade": "Invertebrates",
+    "subclade": "Cnidaria (Jellyfish, Corals, Anemones)"
+  },
+  {
+    "display": "Crown-of-thorns Starfish (Acanthaster planci)",
+    "common": "Crown-of-thorns Starfish",
+    "scientific": "Acanthaster planci",
+    "clade": "Invertebrates",
+    "subclade": "Echinodermata (Sea Stars & Urchins)"
+  },
+  {
+    "display": "Black Sea Cucumber (Holothuria atra)",
+    "common": "Black Sea Cucumber",
+    "scientific": "Holothuria atra",
+    "clade": "Invertebrates",
+    "subclade": "Echinodermata (Sea Stars & Urchins)"
+  },
+  {
+    "display": "Sea Walnut Comb Jelly (Mnemiopsis leidyi)",
+    "common": "Sea Walnut Comb Jelly",
+    "scientific": "Mnemiopsis leidyi",
+    "clade": "Invertebrates",
+    "subclade": "Lobata"
+  },
+  {
+    "display": "Yellow Tube Sponge (Aplysina fistularis)",
+    "common": "Yellow Tube Sponge",
+    "scientific": "Aplysina fistularis",
+    "clade": "Invertebrates",
+    "subclade": "Porifera (Sponges)"
+  },
+  {
+    "display": "Freshwater Planarian (Schmidtea mediterranea)",
+    "common": "Freshwater Planarian",
+    "scientific": "Schmidtea mediterranea",
+    "clade": "Invertebrates",
+    "subclade": "Platyhelminthes (Flatworms)"
+  },
+  {
+    "display": "Water Bear Tardigrade (Hypsibius exemplaris)",
+    "common": "Water Bear Tardigrade",
+    "scientific": "Hypsibius exemplaris",
+    "clade": "Invertebrates",
+    "subclade": "Tardigrada (Water Bears)"
+  }
+]

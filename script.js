@@ -18,7 +18,9 @@ import {
     getRecordForDate, 
     saveActiveGuesses, 
     loadActiveGuesses, 
-    clearActiveGuesses 
+    clearActiveGuesses,
+    resetDateRecord,
+    resetAllHistory
 } from './storage.js';
 import './auth.js'; // Initializes Google Auth singleton & UI
 
@@ -530,6 +532,18 @@ function bootPhylogenle() {
 
     shareResultBtn.addEventListener('click', () => shareScore());
 
+    const resetCurrentPuzzleBtn = document.getElementById('reset-current-puzzle-btn');
+    if (resetCurrentPuzzleBtn) {
+        resetCurrentPuzzleBtn.addEventListener('click', () => {
+            if (isUnlimited) {
+                initGame();
+                return;
+            }
+            resetDateRecord(currentDateStr);
+            initGame();
+        });
+    }
+
     // ==========================================================================
     // D3 Tree Rendering: Dynamic Scaling & Smart Vertical Staggering
     // ==========================================================================
@@ -779,6 +793,29 @@ function bootPhylogenle() {
     document.getElementById('stats-modal-btn')?.addEventListener('click', () => openModal(statsModal));
     document.getElementById('help-modal-btn')?.addEventListener('click', () => openModal(helpModal));
 
+    // Archive Reset Toolbar
+    const archiveResetCurrentBtn = document.getElementById('archive-reset-current-btn');
+    if (archiveResetCurrentBtn) {
+        archiveResetCurrentBtn.addEventListener('click', () => {
+            if (confirm("Reset puzzle record for " + currentDateStr + "? This allows you to replay with the updated species target.")) {
+                resetDateRecord(currentDateStr);
+                renderArchiveModal();
+                initGame();
+            }
+        });
+    }
+
+    const archiveResetAllBtn = document.getElementById('archive-reset-all-btn');
+    if (archiveResetAllBtn) {
+        archiveResetAllBtn.addEventListener('click', () => {
+            if (confirm("Are you sure you want to reset all past puzzle records and statistics? This will clear your archive history so all dates can be replayed freshly with the updated species dataset.")) {
+                resetAllHistory();
+                renderArchiveModal();
+                initGame();
+            }
+        });
+    }
+
     // Archive Tabs (Calendar vs List)
     const calTab = document.getElementById('archive-tab-calendar');
     const listTab = document.getElementById('archive-tab-list');
@@ -1009,13 +1046,23 @@ function bootPhylogenle() {
                 badgeHtml = `<span style="color: var(--text-secondary); font-size: 0.8rem;">Unplayed</span>`;
             }
 
+            let actionsHtml = `<button class="archive-play-btn" data-date="${dateStr}">Play</button>`;
+            if (record && record.completed) {
+                actionsHtml = `
+                    <div class="archive-item-actions">
+                        <button class="archive-play-btn" data-date="${dateStr}">View</button>
+                        <button class="archive-row-reset-btn" data-date="${dateStr}" title="Reset this puzzle to replay fresh">🔄 Reset</button>
+                    </div>
+                `;
+            }
+
             items.push(`
                 <div class="archive-item-card">
                     <div class="archive-card-info">
                         <span class="archive-card-date">Phylogenle #${pNum} • ${dateStr}</span>
                         <div class="archive-card-sub">${badgeHtml}</div>
                     </div>
-                    <button class="archive-play-btn" data-date="${dateStr}">Play</button>
+                    ${actionsHtml}
                 </div>
             `);
         }
@@ -1029,6 +1076,16 @@ function bootPhylogenle() {
                     const d = btn.getAttribute('data-date');
                     closeModal(archiveModal);
                     loadDatePuzzle(d);
+                });
+            });
+
+            listContainer.querySelectorAll('.archive-row-reset-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const d = btn.getAttribute('data-date');
+                    resetDateRecord(d);
+                    renderArchiveModal();
+                    if (d === currentDateStr) initGame();
                 });
             });
         }
