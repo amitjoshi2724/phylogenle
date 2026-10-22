@@ -417,7 +417,7 @@ function bootPhylogenle() {
     function getGuessRankEmoji(g) {
         if (g.isMatch || g.lca_rank === 'Species') return '🟩';
         const r = g.lca_rank;
-        if (r === 'Genus') return '🟢'; // Yellow-green / lime
+        if (r === 'Genus') return '🟩'; // Yellow-green / lime
         if (r === 'Family') return '🟨';
         if (r === 'Order') return '🟧';
         if (r === 'Class') return '🟥';
@@ -440,7 +440,7 @@ function bootPhylogenle() {
         if (r === 'Genus') {
             return {
                 rank: 'Genus',
-                emoji: '🟢',
+                emoji: '🟩',
                 label: 'Same Genus (Sister species)',
                 shortLabel: 'Genus',
                 cssClass: 'closeness-genus',
