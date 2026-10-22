@@ -1,84 +1,59 @@
-# 🧬 Phylogenle: Comprehensive Biodiversity Expansion Architecture & Blueprint
+# 🧬 Phylogenle: Systematic Biodiversity Expansion Architecture & Blueprint
 
 **Document Version:** 2.0 (Unbounded Maximum Harvesting Edition)  
-**Target Database Expansion:** 344 ➔ **1,000+ Fully Calibrated Species**  
-**Core Directive:** **NO UPPER BOUND ON CLUSTER SIZE.** Grab *every* recognizable, valid organism available from authoritative biodiversity sources. Eliminate artificial caps and capture the full breadth of animal diversity so players can explore deep phylogenetic branches without hitting dead ends.
+**Target Pool:** 344 ➔ **1,000+ Fully Calibrated Species**  
+**Purpose:** Technical specification for the automated web-scraping and API ingestion pipeline to expand the Phylogenle dictionary to 1,000+ organisms without artificial ceilings.
 
 ---
 
-## 1. Core Principles: Comprehensive Depth, Zero Artificial Ceilings
+## 1. Architectural Directives
 
-### Why Previous Limits Were Removed
-- **No Upper Bound:** Previous drafts suggested 3–8 species per cluster. This has been completely eliminated. If a family or genus has 15, 25, or 40 recognizable species (e.g., hummingbirds, butterflies, sharks, raptors, cetaceans, canids, wild cats), **we ingest every single one of them**.
-- **Minimum Cluster Threshold ($\ge 3$):** While there is no maximum, every family or genus must have at least 3 species to eliminate solitary "island species" where a player deduces a family but has no sister species to guess.
-- **Cultural & Educational Recognition Filter:** Every candidate must be a recognizable wild or domesticated animal with an established common name, supported by iNaturalist research-grade observation frequency and English Wikipedia pageviews. No unpronounceable micro-nematodes or microscopic mites.
-- **100% Cladistic & Temporal Integrity:** Every single species is cross-referenced with local NCBI Taxonomy (`NCBITaxa()`) and peer-reviewed TimeTree 5 divergence times.
-
----
-
-## 2. Shifted 8-Tier Taxonomic Color & Square Emoji System
-
-As requested, the rank colors and share squares have been shifted to an intuitive, high-contrast spectrum using solid square emojis:
-
-```
-[EXACT / HOT]                                                                        [DISTANT / COLD]
-🟩 Species  ➔  🟨 Genus  ➔  🟧 Family  ➔  🟥 Order  ➔  🟪 Class  ➔  🟦 Phylum  ➔  🟫 Kingdom  ➔  ⬛ Nothing
- (0 MYA)       (~5 MYA)     (~30 MYA)     (~80 MYA)    (~310 MYA)    (~550 MYA)    (~680 MYA)     (Out of Tree)
-```
-
-| Rank / Closeness | Square Emoji | Color Name | Hex Accent | Meaning |
-| :--- | :---: | :--- | :--- | :--- |
-| **Species (Exact)** | `🟩` | Emerald Green | `#10b981` | Direct match! You deduced the secret organism (0 MYA). |
-| **Genus** | `🟨` | Golden Yellow | `#eab308` | Direct sister species in the same genus (~2–10 MYA). |
-| **Family** | `🟧` | Vibrant Orange | `#f97316` | Same family (e.g., Felidae, Canidae, Trochilidae) (~15–35 MYA). |
-| **Order** | `🟥` | Crimson Red | `#ef4444` | Same order (e.g., Carnivora, Primates, Lepidoptera) (~60–90 MYA). |
-| **Class** | `🟪` | Royal Purple | `#a855f7` | Same class (e.g., Mammals, Birds, Reptiles, Insects) (~150–320 MYA). |
-| **Phylum** | `🟦` | Sapphire Blue | `#3b82f6` | Same phylum (e.g., Chordates, Arthropods, Mollusks) (~520–580 MYA). |
-| **Kingdom** | `🟫` | Earth Brown | `#8b5cf6` / `#854d0e` | Animalia root (shared common ancestor >650 MYA). |
-| **Nothing Match** | `⬛` | Jet Black | `#1e293b` | Complete miss / unrelated / out-of-tree organism. |
-
-### Incorporating the White Square (`⬜`)
-The Unicode standard provides the **White Large Square (`⬜`)**. Here are the three most natural, powerful ways to incorporate it into Phylogenle:
-
-1. **Option A: The Surrender / "Gave Up" Flag in the Share Grid (Recommended):**
-   - In Wordle, winning lines end in `🟩`. In Phylogenle, if a player gives up and reveals the organism, the share sequence ends with a **White Square (`⬜`)** representing waving the white surrender flag!
-   - Solved in 4: `🟦🟥🟧🟩` (Victory!)
-   - Gave up on 4th guess: `🟦🟥🟧🟫⬜` (Revealed!)
-2. **Option B: Domain (Eukaryota / Universal Life Root):**
-   - Above Kingdom (`🟫`) sits Domain (`⬜` Eukaryota >1000 MYA), while `⬛` is absolute zero relation.
-3. **Option C: Empty / Unused Attempt Slots:**
-   - If playing in standard daily view, unused guess slots render as `⬜` tiles.
+- **NO UPPER BOUND ON CLUSTER SIZE:**  
+  Previous drafts imposed an artificial cap of 8 species per cluster. This limit has been completely removed. If a family or genus contains 15, 25, 40, or more recognizable species (e.g., all hummingbirds, all butterflies, all sharks, all owls, all canids, all whales, all wild felines), **we scrape and ingest every single one of them**.
+- **Minimum Cluster Depth ($\ge 3$):**  
+  Every organism in the game must belong to a cluster of at least 3 recognizable species within the same Family or Genus. This guarantees that whenever a player deduces a family, they always have sister species available to test.
+- **Cultural & Educational Recognition Filter:**  
+  Every candidate must be a recognizable wild or domesticated animal with an established common name, supported by iNaturalist research-grade observation frequency and English Wikipedia pageviews. No obscure micro-nematodes or microscopic mites.
+- **100% Cladistic & Temporal Integrity:**  
+  Every single species is cross-referenced with local NCBI Taxonomy (`NCBITaxa()`) and peer-reviewed TimeTree 5 divergence times.
 
 ---
 
-## 3. Authoritative Scraping Sources: Maximizing Pool to 1,000+
+## 2. Authoritative Data Sources for Scraping & Ingestion
 
-Rather than manual guessing, an automated multi-threaded harvester will ingest from 5 global sources:
+Rather than relying on LLM memory or ad-hoc lists, candidates will be extracted programmatically from 5 authoritative biodiversity platforms:
 
-### A. iNaturalist Research-Grade API (`api.inaturalist.org/v1/observations/species_counts`)
-- **Query:** Top 5,000 research-grade observed species globally across Aves, Mammalia, Reptilia, Amphibia, Actinopterygii, Chondrichthyes, Insecta, Arachnida, Malacostraca, and Cephalopoda.
-- **Why:** Real wild observations by millions of naturalists ensure only recognizable, living, real-world species enter the dictionary.
+### A. iNaturalist Research-Grade API (`api.inaturalist.org/v1`)
+* **Endpoint:** `GET /observations/species_counts?quality_grade=research`
+* **Filtering:** Queries top-observed wild species worldwide across Aves, Mammalia, Reptilia, Amphibia, Actinopterygii, Chondrichthyes, Insecta, Arachnida, Malacostraca, and Cephalopoda.
+* **Why it matters:** Guarantees that every species has an official, widely used English common name and represents an animal that real people observe and recognize in the wild.
 
 ### B. Wikidata SPARQL Knowledge Graph (`query.wikidata.org`)
-- **Query:** All animal taxa (`wdt:P31 wd:Q16521` in `wdt:P171* wd:Q729`) with over 20 Wikipedia language sitelinks.
-- **Why:** Filters out obscure academic citations and selects culturally prominent animals with rich English Wikipedia articles for in-game hover cards.
+* **Query Mechanism:** SPARQL endpoint querying instances of Taxon (`wdt:P31 wd:Q16521`) within Kingdom Animalia (`wdt:P171* wd:Q729`).
+* **Filtering Criteria:**
+  - Must have an English Wikipedia sitelink (`wikibase:sitelinks > 15`).
+  - Must have a verified NCBI TaxID property (`wdt:P685`).
+  - Sorted by monthly pageview count to filter out obscure scientific papers.
 
-### C. IUCN Red List Global Species API (`apiv3.iucnredlist.org`)
-- **Query:** All Critically Endangered, Endangered, and Vulnerable mammals, birds, reptiles, and sharks.
-- **Why:** Captures famous global conservation icons (e.g., Axolotl, Pangolin, Vaquita, Kakapo, Mountain Gorilla, Gharial).
+### C. IUCN Red List Global Database API (`apiv3.iucnredlist.org`)
+* **Purpose:** Harvests high-profile, globally iconic species across conservation categories (Critically Endangered, Endangered, Vulnerable, and Least Concern).
+* **Why it matters:** Captures famous global conservation icons (e.g., Axolotl, Pangolin, Vaquita, Kakapo, Mountain Gorilla, Gharial).
 
-### D. Comprehensive Wikipedia Clade Tables
-- Systematic extraction of complete clade tables:
-  - Complete list of Hummingbirds (*Trochilidae* — all 30+ famous species)
-  - Complete list of Swallowtails, Monarchs, and Silk Moths (*Papilionidae, Nymphalidae, Saturniidae*)
-  - Complete list of Birds of Prey, Owls, and Falcons (*Accipitriformes, Strigiformes, Falconiformes*)
-  - Complete list of Whales, Dolphins, and Porpoises (*Cetacea*)
-  - Complete list of Sharks and Rays (*Selachimorpha, Batoidea*)
-  - Complete list of Wild Canids, Felids, Bears, and Mustelids (*Carnivora*)
+### D. Wikipedia Zoology Portals & Complete Family Tables
+* **Scraping Targets:**
+  - Wikipedia: *List of birds by common name* / *List of hummingbird species*
+  - Wikipedia: *List of butterflies of North America and Europe*
+  - Wikipedia: *List of canids / List of felids / List of cetaceans*
+  - Wikipedia: *List of sharks / List of snakes*
+* **Extraction:** Programmatic BeautifulSoup parser pulling `Common Name (Scientific Name)`.
+
+### E. Local NCBI Taxonomy & TimeTree Calibration (Already in Repository)
+* **Local NCBI Taxdump (`taxdump.tar.gz`):** Offline tree traversal via `ete3` to verify lineages, ranks (Kingdom, Phylum, Class, Order, Family, Genus), and Lowest Common Ancestor (LCA) nodes.
+* **TimeTree 5 (`timetree.org`):** Automated node-level retrieval of median evolutionary divergence times in Millions of Years Ago (MYA).
 
 ---
 
-## 4. Unbounded Deep-Dive Clade Targets
+## 3. Comprehensive Target Scope Across Clades (1,000+ Pool)
 
 | Clade | Current Pool | Target Pool | Comprehensive Harvesting Scope |
 | :--- | :---: | :---: | :--- |
@@ -92,12 +67,29 @@ Rather than manual guessing, an automated multi-threaded harvester will ingest f
 
 ---
 
-## 5. Automated Execution Pipeline
+## 4. Technical Ingestion Pipeline Architecture
 
-1. **`scripts/harvest_all.py`**: Automated async scraping of iNaturalist + Wikidata + Wikipedia.
-2. **`scripts/filter_validate.py`**: Validation through `ete3.NCBITaxa()` ensuring exact TaxID matches and active Wikipedia summaries.
-3. **`scripts/generate_all_shards.py`**: Automated node-level LCA grouping with TimeTree 5 calibration. Generates all symmetric pairwise JSON shards in `/data/` in seconds.
-4. **`scripts/update_catalog.py`**: Auto-generates updated `species_list.json` and human-readable `species_catalog.md`.
+```mermaid
+graph TD
+    A["iNaturalist & Wikidata APIs / Web Scrapers"] --> B["harvest_all.py<br>(Raw Candidate Pairs)"]
+    B --> C["Taxonomic & Common Name Validation<br>(NCBI Taxdump + Wikipedia Check)"]
+    C --> D["Cluster Balancer & Filter<br>(Verify Depth & Distinct Common Names)"]
+    D --> E["LCA Node Grouping<br>(~400 Unique Ancestor Nodes)"]
+    E --> F["TimeTree 5 Divergence Calibration<br>(Pairwise Median Times in MYA)"]
+    F --> G["Shard Generation Engine<br>(Symmetric JSON Shards in /data/)"]
+    G --> H["species_list.json & species_catalog.md Sync"]
+```
+
+### Script Workflow:
+
+1. **`harvest_all.py`:**  
+   Asynchronous scraper collecting candidates from iNaturalist, Wikidata SPARQL, and Wikipedia tables. Output: `raw_candidates.json`.
+2. **`filter_validate.py`:**  
+   Offline verification via `ete3.NCBITaxa()`. Resolves exact scientific names, ensures valid TaxID, verifies clean English common name, and confirms active Wikipedia slug.
+3. **`generate_all_shards.py`:**  
+   Groups pairs by Lowest Common Ancestor (LCA) node. Queries TimeTree once per unique LCA node with caching. Generates all symmetric pairwise JSON shards in `/data/`.
+4. **`update_catalog.py`:**  
+   Updates `data/species_list.json`, `data/time_cache.json`, and generates the human-readable markdown breakdown in `species_catalog.md`.
 
 ---
-*Blueprint approved for execution in Phylogenle codebase — Saved at: `/Users/amitjoshi2724/Desktop/phylogenle/SPECIES_EXPANSION_PLAN.md`*
+*For game manual, rules, and color square guide, see [`README.md`](README.md).*

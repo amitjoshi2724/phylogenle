@@ -502,12 +502,12 @@ function bootPhylogenle() {
             };
         }
         return {
-            rank: 'Nothing',
+            rank: 'Domain',
             emoji: '⬛',
-            label: 'No Match',
-            shortLabel: 'No Match',
-            cssClass: 'closeness-nothing',
-            squareClass: 'square-nothing'
+            label: 'Same Domain (Eukaryota)',
+            shortLabel: 'Domain',
+            cssClass: 'closeness-domain',
+            squareClass: 'square-domain'
         };
     }
 
