@@ -148,9 +148,25 @@ function bootPhylogenle() {
     // Initialize Game
     async function initGame() {
         try {
-            if (allSpecies.length === 0) {
-                const response = await fetch('data/species_list.json');
-                allSpecies = await response.json();
+            if (allSpecies.length === 0 || !phylogenyTree) {
+                if (guessesContainer && guessesContainer.children.length === 0) {
+                    guessesContainer.innerHTML = `<div class="loading-state" style="text-align: center; padding: 2rem; color: var(--text-secondary);"><span style="display:inline-block; font-size: 1.5rem; animation: spin 1.2s linear infinite; margin-bottom: 0.5rem;">🧬</span><br>Loading evolutionary tree of life...</div>`;
+                }
+
+                const [speciesResp, treeResp] = await Promise.all([
+                    allSpecies.length === 0 ? fetch('data/species_list.json') : Promise.resolve(null),
+                    !phylogenyTree ? fetch('data/phylogeny_tree.json') : Promise.resolve(null)
+                ]);
+
+                if (speciesResp) {
+                    if (!speciesResp.ok) throw new Error(`HTTP ${speciesResp.status} loading species list`);
+                    allSpecies = await speciesResp.json();
+                }
+
+                if (treeResp) {
+                    if (!treeResp.ok) throw new Error(`HTTP ${treeResp.status} loading phylogeny tree`);
+                    phylogenyTree = await treeResp.json();
+                }
             }
 
             if (isUnlimited) {
@@ -158,10 +174,6 @@ function bootPhylogenle() {
             } else {
                 targetSpecies = getDailyTargetSpecies(allSpecies, currentDateStr);
             }
-
-            const targetFilename = targetSpecies.toLowerCase().replace(/ /g, "_") + ".json";
-            const targetResponse = await fetch(`data/${targetFilename}`);
-            targetData = await targetResponse.json();
 
             // Reset round variables
             guesses = [];
