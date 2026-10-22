@@ -472,23 +472,7 @@ input[type="text"]:focus {
     min-width: 0;
 }
 
-/* In-game Solid Rank Square Icons */
-.rank-square-icon {
-    display: inline-block;
-    width: 9px;
-    height: 9px;
-    border-radius: 2px;
-    flex-shrink: 0;
-    vertical-align: middle;
-}
-.rank-square-icon.square-species { background: #10b981; box-shadow: 0 0 6px rgba(16, 185, 129, 0.7); }
-.rank-square-icon.square-genus   { background: #eab308; box-shadow: 0 0 6px rgba(234, 179, 8, 0.7); }
-.rank-square-icon.square-family  { background: #f97316; box-shadow: 0 0 6px rgba(249, 115, 22, 0.7); }
-.rank-square-icon.square-order   { background: #ef4444; box-shadow: 0 0 6px rgba(239, 68, 68, 0.7); }
-.rank-square-icon.square-class   { background: #a855f7; box-shadow: 0 0 6px rgba(168, 85, 247, 0.7); }
-.rank-square-icon.square-phylum  { background: #3b82f6; box-shadow: 0 0 6px rgba(59, 130, 246, 0.7); }
-.rank-square-icon.square-kingdom { background: #a16207; box-shadow: 0 0 6px rgba(161, 98, 7, 0.7); }
-.rank-square-icon.square-nothing { background: #475569; box-shadow: 0 0 6px rgba(71, 85, 105, 0.7); }
+/* Pure Unicode square emojis (🟩, 🟨, 🟧, 🟥, 🟪, 🟦, 🟫, ⬛, ⬜) are used directly across all UI */
 
 .closeness-pill {
     display: inline-flex;
