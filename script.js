@@ -525,11 +525,13 @@ function bootPhylogenle() {
         const timeStr = data.time === 0 ? "Exact Match" : (data.time === -1.0 ? "Unknown (>500 MYA)" : `${data.time.toFixed(1)} MYA`);
         const lcaName = data.lca_name || data.rank;
 
-        // Use literal square emojis (🟩, 🟨, 🟧, 🟥, 🟪, 🟦, 🟫, ⬛)
+        // Primary: Unicode square emoji; Fallback: CSS rank-square-icon
+        const iconHtml = closeness.emoji || `<span class="rank-square-icon ${closeness.squareClass}"></span>`;
+
         row.innerHTML = `
             <div class="guess-main-info">
                 <span class="closeness-pill ${closeness.cssClass}" title="${closeness.label}">
-                    ${closeness.emoji} ${closeness.shortLabel}
+                    ${iconHtml} ${closeness.shortLabel}
                 </span>
                 <span class="guess-name ${matchClass} taxa-link">${guessName}</span>
             </div>
