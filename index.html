@@ -55,14 +55,15 @@
                     <div id="end-emojis-container">
                         <div id="end-emojis-row" class="end-emojis-display"></div>
                         <div class="color-legend-guide">
-                            <span class="legend-chip"><span class="rank-square-icon square-nothing"></span> ⬛ Domain</span>
-                            <span class="legend-chip"><span class="rank-square-icon square-kingdom"></span> 🟫 Kingdom</span>
-                            <span class="legend-chip"><span class="rank-square-icon square-phylum"></span> 🟦 Phylum</span>
-                            <span class="legend-chip"><span class="rank-square-icon square-class"></span> 🟪 Class</span>
-                            <span class="legend-chip"><span class="rank-square-icon square-order"></span> 🟥 Order</span>
-                            <span class="legend-chip"><span class="rank-square-icon square-family"></span> 🟧 Family</span>
-                            <span class="legend-chip"><span class="rank-square-icon square-genus"></span> 🟨 Genus</span>
-                            <span class="legend-chip"><span class="rank-square-icon square-species"></span> 🟩 Exact</span>
+                            <span class="legend-chip">⬛ Domain</span>
+                            <span class="legend-chip">🟫 Kingdom</span>
+                            <span class="legend-chip">🟦 Phylum</span>
+                            <span class="legend-chip">🟪 Class</span>
+                            <span class="legend-chip">🟥 Order</span>
+                            <span class="legend-chip">🟧 Family</span>
+                            <span class="legend-chip">🟨 Genus</span>
+                            <span class="legend-chip">🟩 Exact</span>
+                            <span class="legend-chip">⬜ Surrender</span>
                         </div>
                     </div>
 
@@ -236,10 +237,15 @@
                 </div>
 
                 <div class="color-legend-guide" style="margin-top: 1rem;">
-                    <span class="legend-chip"><span>🟦</span> Distant (>100 MYA)</span>
-                    <span class="legend-chip"><span>🟧</span> Moderate (30–100 MYA)</span>
-                    <span class="legend-chip"><span>🟨</span> Close (≤30 MYA)</span>
-                    <span class="legend-chip"><span>🟩</span> Solved (0 MYA)</span>
+                    <span class="legend-chip">⬛ Domain</span>
+                    <span class="legend-chip">🟫 Kingdom</span>
+                    <span class="legend-chip">🟦 Phylum</span>
+                    <span class="legend-chip">🟪 Class</span>
+                    <span class="legend-chip">🟥 Order</span>
+                    <span class="legend-chip">🟧 Family</span>
+                    <span class="legend-chip">🟨 Genus</span>
+                    <span class="legend-chip">🟩 Exact</span>
+                    <span class="legend-chip">⬜ Surrender</span>
                 </div>
                 <div class="share-actions-row">
                     <button id="share-score-btn" class="share-btn">
@@ -366,6 +372,21 @@
                         A new daily organism appears every midnight! You can also practice endlessly in Practice mode or replay past puzzles in the Archive.
                     </p>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- In-App Confirmation Modal (Mobile-friendly, no ugly browser popups) -->
+    <div id="confirm-modal" class="modal-backdrop">
+        <div class="modal-dialog" style="max-width: 380px; text-align: center; padding: 1.5rem;">
+            <div id="confirm-modal-icon" style="font-size: 2.4rem; margin-bottom: 0.5rem;">🏳️</div>
+            <h3 id="confirm-modal-title" style="margin-bottom: 0.5rem; font-size: 1.25rem;">Give Up?</h3>
+            <p id="confirm-modal-message" style="color: var(--text-secondary); font-size: 0.88rem; margin-bottom: 1.25rem; line-height: 1.4;">
+                Are you sure you want to surrender and reveal the mystery organism?
+            </p>
+            <div style="display: flex; gap: 10px; justify-content: center;">
+                <button id="confirm-modal-cancel" class="nav-btn" style="flex: 1; padding: 0.65rem 1rem; font-size: 0.9rem;">Cancel</button>
+                <button id="confirm-modal-proceed" class="primary-btn" style="flex: 1; padding: 0.65rem 1rem; background: #ef4444; color: #ffffff; font-size: 0.9rem;">Reveal</button>
             </div>
         </div>
     </div>

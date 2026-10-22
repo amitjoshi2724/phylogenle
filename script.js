@@ -231,6 +231,9 @@ function bootPhylogenle() {
                 guesses.push(g);
                 addGuessToBoard(g.name, g.wikiTitle, { rank: g.lca_rank, lca_name: g.lca_name, time: g.tmrca }, g.isMatch);
             });
+            if (!record.solved) {
+                addSurrenderRow(record.targetSpecies || targetSpecies);
+            }
             updateTree();
         } else {
             const latinMatch = (record.targetSpecies || targetSpecies).match(/\((.*?)\)/);
@@ -238,12 +241,14 @@ function bootPhylogenle() {
             const wiki = latinMatch ? latinMatch[1] : name;
             drawTree({
                 name: "Animalia",
+                rank: "Kingdom",
                 isTrunk: true,
                 children: [{
                     name: name,
                     wikiTitle: wiki,
                     isMystery: true,
-                    isMatch: true
+                    isMatch: record.solved,
+                    emoji: record.solved ? '🟩' : '⬜'
                 }]
             });
         }
@@ -520,10 +525,11 @@ function bootPhylogenle() {
         const timeStr = data.time === 0 ? "Exact Match" : (data.time === -1.0 ? "Unknown (>500 MYA)" : `${data.time.toFixed(1)} MYA`);
         const lcaName = data.lca_name || data.rank;
 
+        // Use literal square emojis (🟩, 🟨, 🟧, 🟥, 🟪, 🟦, 🟫, ⬛)
         row.innerHTML = `
             <div class="guess-main-info">
                 <span class="closeness-pill ${closeness.cssClass}" title="${closeness.label}">
-                    <span class="rank-square-icon ${closeness.squareClass}"></span> ${closeness.shortLabel}
+                    ${closeness.emoji} ${closeness.shortLabel}
                 </span>
                 <span class="guess-name ${matchClass} taxa-link">${guessName}</span>
             </div>
@@ -550,12 +556,82 @@ function bootPhylogenle() {
         guessesContainer.prepend(row);
     }
 
+    function addSurrenderRow(species) {
+        const commonName = species.split(' (')[0];
+        const latinMatch = species.match(/\((.*?)\)/);
+        const wikiTitle = latinMatch ? latinMatch[1] : commonName;
+        const row = document.createElement('div');
+        row.className = 'guess-row closeness-surrender';
+        row.innerHTML = `
+            <div class="guess-main-info">
+                <span class="closeness-pill closeness-surrender" title="Organism Revealed">
+                    ⬜ Revealed
+                </span>
+                <span class="guess-name match-exact taxa-link">${species}</span>
+            </div>
+            <div class="guess-feedback">
+                <span class="feedback-badge feedback-time match-exact">Gave Up</span>
+                <span class="feedback-badge feedback-rank match-exact taxa-link" data-taxa="${commonName}">Target Organism</span>
+            </div>
+        `;
+        const nameSpan = row.querySelector('.guess-name');
+        nameSpan.addEventListener('mouseenter', (e) => showWikiTooltip(e, wikiTitle));
+        nameSpan.addEventListener('mouseleave', hideWikiTooltip);
+        nameSpan.addEventListener('click', () => {
+            window.open(`https://en.wikipedia.org/wiki/${encodeURIComponent(wikiTitle)}`, '_blank');
+        });
+        guessesContainer.prepend(row);
+    }
+
+    // In-App Confirmation Modal (Replaces browser confirm() popups for clean mobile UX)
+    function showInAppConfirm({ icon = '❓', title = 'Confirm Action', message = 'Are you sure?', proceedText = 'Confirm', proceedBg = '#ef4444', onProceed }) {
+        const modal = document.getElementById('confirm-modal');
+        if (!modal) {
+            if (onProceed) onProceed();
+            return;
+        }
+        const iconEl = document.getElementById('confirm-modal-icon');
+        const titleEl = document.getElementById('confirm-modal-title');
+        const msgEl = document.getElementById('confirm-modal-message');
+        const cancelBtn = document.getElementById('confirm-modal-cancel');
+        const proceedBtn = document.getElementById('confirm-modal-proceed');
+
+        if (iconEl) iconEl.textContent = icon;
+        if (titleEl) titleEl.textContent = title;
+        if (msgEl) msgEl.textContent = message;
+        if (proceedBtn) {
+            proceedBtn.textContent = proceedText;
+            proceedBtn.style.background = proceedBg;
+        }
+
+        const cleanup = () => {
+            closeModal(modal);
+            cancelBtn?.removeEventListener('click', handleCancel);
+            proceedBtn?.removeEventListener('click', handleProceed);
+        };
+
+        const handleCancel = () => cleanup();
+        const handleProceed = () => {
+            cleanup();
+            if (onProceed) onProceed();
+        };
+
+        cancelBtn?.addEventListener('click', handleCancel, { once: true });
+        proceedBtn?.addEventListener('click', handleProceed, { once: true });
+
+        openModal(modal);
+    }
+
     function finishGame(win) {
         isGameOver = true;
-        endTitle.textContent = win ? "You found it! 🏆" : "Organism Revealed";
-        endTitle.style.color = win ? "var(--success-color)" : "var(--danger-color)";
+        endTitle.textContent = win ? "You found it! 🏆" : "Organism Revealed 🏳️";
+        endTitle.style.color = win ? "var(--success-color)" : "#f87171";
         endMessage.innerHTML = `The organism was <strong>${targetSpecies}</strong>.<br>` +
-            `<span style="font-size: 0.9rem; color: var(--text-secondary);">${win ? `Solved in ${guesses.length} guess${guesses.length === 1 ? '' : 'es'}!` : 'Better luck next time!'}</span>`;
+            `<span style="font-size: 0.9rem; color: var(--text-secondary);">${win ? `Solved in ${guesses.length} guess${guesses.length === 1 ? '' : 'es'}!` : 'Surrendered & revealed.'}</span>`;
+
+        if (!win) {
+            addSurrenderRow(targetSpecies);
+        }
 
         const endEmojisRow = document.getElementById('end-emojis-row');
         if (endEmojisRow) {
@@ -571,6 +647,8 @@ function bootPhylogenle() {
         giveUpBtn.style.display = 'none';
         gameEndPanel.classList.remove('hidden');
 
+        updateTree();
+
         if (!isUnlimited) {
             recordDailyCompletion(currentDateStr, puzzleNum, win, guesses.length, guesses, targetSpecies);
             clearActiveGuesses(currentDateStr);
@@ -583,9 +661,14 @@ function bootPhylogenle() {
     guessBtn.addEventListener('click', handleGuess);
     giveUpBtn.addEventListener('click', () => {
         if (isGameOver) return;
-        if (confirm("Are you sure you want to give up and reveal the mystery organism?")) {
-            finishGame(false);
-        }
+        showInAppConfirm({
+            icon: '🏳️',
+            title: 'Give Up & Reveal?',
+            message: 'Are you sure you want to surrender and reveal the mystery organism?',
+            proceedText: 'Reveal Organism',
+            proceedBg: '#ef4444',
+            onProceed: () => finishGame(false)
+        });
     });
 
     playAgainBtn.addEventListener('click', () => {
@@ -626,6 +709,43 @@ function bootPhylogenle() {
     // ==========================================================================
     // D3 Tree Rendering: Dynamic Scaling & Smart Vertical Staggering
     // ==========================================================================
+    function getNodeDisplayEmoji(d) {
+        if (d.data.emoji) return d.data.emoji;
+        if (d.data.isMystery) {
+            if (d.data.isMatch) return '🟩';
+            if (isGameOver) return '⬜';
+            return '⬜';
+        }
+        if (d.data.isGuess) {
+            return d.data.emoji || '🟨';
+        }
+        // Clade ranks
+        const rank = d.data.rank;
+        if (rank) {
+            if (rank === 'Species') return '🟩';
+            if (rank === 'Genus') return '🟨';
+            if (rank === 'Family') return '🟧';
+            if (rank === 'Order') return '🟥';
+            if (rank === 'Class') return '🟪';
+            if (rank === 'Phylum') return '🟦';
+            if (rank === 'Kingdom') return '🟫';
+            if (rank === 'Domain') return '⬛';
+        }
+        // Clade names
+        const t = (d.data.name || '').toLowerCase();
+        const taxonMap = {
+            'animalia': '🟫', 'metazoa': '🟫', 'plantae': '🟫', 'fungi': '🟫',
+            'chordata': '🟦', 'arthropoda': '🟦', 'mollusca': '🟦', 'annelida': '🟦', 'cnidaria': '🟦', 'echinodermata': '🟦',
+            'mammalia': '🟪', 'aves': '🟪', 'reptilia': '🟪', 'amphibia': '🟪', 'insecta': '🟪', 'arachnida': '🟪', 'actinopterygii': '🟪',
+            'carnivora': '🟥', 'primates': '🟥', 'rodentia': '🟥', 'artiodactyla': '🟥', 'cetacea': '🟥', 'chiroptera': '🟥', 'lagomorpha': '🟥',
+            'lepidoptera': '🟥', 'coleoptera': '🟥', 'hymenoptera': '🟥', 'diptera': '🟥', 'passeriformes': '🟥',
+            'felidae': '🟧', 'canidae': '🟧', 'ursidae': '🟧', 'hominidae': '🟧', 'cercopithecidae': '🟧', 'mustelidae': '🟧',
+            'papilionidae': '🟧', 'nymphalidae': '🟧', 'apidae': '🟧', 'elephantidae': '🟧', 'equidae': '🟧', 'bovidae': '🟧'
+        };
+        if (taxonMap[t]) return taxonMap[t];
+        return '🟫';
+    }
+
     function updateTree() {
         const sortedGuesses = [...guesses].sort((a, b) => {
             const timeA = a.tmrca === -1 ? Infinity : a.tmrca;
@@ -633,8 +753,32 @@ function bootPhylogenle() {
             return timeB - timeA;
         });
 
+        const hasMatch = sortedGuesses.some(g => g.isMatch);
+        const isRevealed = hasMatch || isGameOver;
+        const mysteryName = isRevealed ? targetSpecies.split(' (')[0] : "?";
+        const latinMatch = targetSpecies.match(/\((.*?)\)/);
+        const mysteryWiki = latinMatch ? latinMatch[1] : mysteryName;
+        const mysteryEmoji = hasMatch ? '🟩' : (isGameOver ? '⬜' : '⬜');
+        const mysteryNode = {
+            name: mysteryName,
+            wikiTitle: mysteryWiki,
+            isMystery: true,
+            isMatch: hasMatch,
+            isRevealed: isRevealed,
+            emoji: mysteryEmoji
+        };
+
         if (sortedGuesses.length === 0) {
-            drawTree({ name: "?", children: [] });
+            if (isGameOver) {
+                drawTree({
+                    name: "Animalia",
+                    rank: "Kingdom",
+                    isTrunk: true,
+                    children: [mysteryNode]
+                });
+            } else {
+                drawTree({ name: "?", emoji: '⬜', isMystery: true, children: [] });
+            }
             return;
         }
 
@@ -644,10 +788,22 @@ function bootPhylogenle() {
         sortedGuesses.forEach(g => {
             if (g.isMatch) return;
             const commonName = g.name.split(' (')[0];
-            const guessNode = { name: commonName, wikiTitle: g.wikiTitle, isGuess: true };
+            const guessEmoji = getGuessRankEmoji(g);
+            const guessNode = {
+                name: commonName,
+                wikiTitle: g.wikiTitle,
+                isGuess: true,
+                rank: 'Species',
+                emoji: guessEmoji
+            };
 
             if (!prevLCA || prevLCA.name !== g.lca_name) {
-                const newLCA = { name: g.lca_name, isTrunk: true, children: [guessNode] };
+                const newLCA = {
+                    name: g.lca_name,
+                    rank: g.lca_rank,
+                    isTrunk: true,
+                    children: [guessNode]
+                };
                 if (prevLCA) {
                     prevLCA.children.push(newLCA);
                 } else {
@@ -659,20 +815,19 @@ function bootPhylogenle() {
             }
         });
 
-        const hasMatch = sortedGuesses.some(g => g.isMatch);
-        const mysteryName = hasMatch ? targetSpecies.split(' (')[0] : "?";
-        const latinMatch = targetSpecies.match(/\((.*?)\)/);
-        const mysteryWiki = latinMatch ? latinMatch[1] : mysteryName;
-        const mysteryNode = { name: mysteryName, wikiTitle: mysteryWiki, isMystery: true, isMatch: hasMatch };
-
         if (!root) {
-            root = { name: sortedGuesses[0].lca_name || "LCA", isTrunk: true, children: [mysteryNode] };
+            root = {
+                name: sortedGuesses[0].lca_name || "Animalia",
+                rank: sortedGuesses[0].lca_rank || "Kingdom",
+                isTrunk: true,
+                children: [mysteryNode]
+            };
         } else {
             prevLCA.children.push(mysteryNode);
         }
 
         if (root.name !== "Metazoa" && root.name !== "Animalia") {
-            root = { name: "Animalia", isTrunk: true, children: [root] };
+            root = { name: "Animalia", rank: "Kingdom", isTrunk: true, children: [root] };
         }
 
         drawTree(root);
@@ -682,18 +837,21 @@ function bootPhylogenle() {
         if (!treeContainer) return;
         treeContainer.innerHTML = '';
 
-        const margin = { top: 60, right: 40, bottom: 80, left: 40 };
+        const margin = { top: 45, right: 45, bottom: 95, left: 45 };
         const containerWidth = treeContainer.clientWidth || 600;
-        const containerHeight = Math.max(500, treeContainer.clientHeight || 500);
 
         // Count leaf nodes for dynamic minimum width
         const hierarchyData = d3.hierarchy(treeData, d => d.children);
         const leafNodes = hierarchyData.leaves();
-        const leafCount = leafNodes.length;
+        const leafCount = Math.max(leafNodes.length, 1);
+        const maxDepth = Math.max(hierarchyData.height || 1, 1);
 
-        // Dynamic width: allocates at least 85px per leaf so text never squeezes
-        const computedWidth = Math.max(containerWidth - margin.left - margin.right, leafCount * 85, 450);
-        const computedHeight = Math.max(containerHeight - margin.top - margin.bottom, (guesses.length + 2) * 55, 380);
+        // Dynamic width: allocates 145px per leaf so text and emojis NEVER collide
+        const computedWidth = Math.max(containerWidth - margin.left - margin.right, leafCount * 145, 480);
+
+        // Fixed taxonomic rank level height: ~75px per level so Animalia to Mammalia isn't huge!
+        const levelHeight = 75;
+        const computedHeight = Math.max(160, maxDepth * levelHeight);
 
         const svg = d3.select("#tree-container").append("svg")
             .attr("width", computedWidth + margin.left + margin.right)
@@ -705,9 +863,7 @@ function bootPhylogenle() {
         const treeNodes = treeMap(hierarchyData);
         const allDescendants = treeNodes.descendants();
 
-        // Calculate dynamic font size based on node horizontal density
-        const minSpacing = computedWidth / Math.max(leafCount, 1);
-        const dynamicFontSize = Math.max(9, Math.min(13, Math.floor(minSpacing / 7) + 2));
+        const dynamicFontSize = 11;
 
         // Draw Links
         svg.selectAll(".link")
@@ -726,11 +882,11 @@ function bootPhylogenle() {
         let currentChildTier = 0;
         let lastChildX = -999;
         let lastChildWidth = 0;
-        childNodes.forEach((node, idx) => {
-            const approxWidth = (node.data.name || "").length * (dynamicFontSize * 0.65) + 16;
+        childNodes.forEach((node) => {
+            const labelText = `${getNodeDisplayEmoji(node)} ${node.data.name}`;
+            const approxWidth = labelText.length * 7.5 + 24;
             const dist = node.x - lastChildX;
-            // Overlap check based on actual text bounding width
-            const minSafeDist = Math.max(110, (approxWidth + lastChildWidth) / 2 + 18);
+            const minSafeDist = (approxWidth + lastChildWidth) / 2 + 16;
             if (dist < minSafeDist) {
                 currentChildTier = (currentChildTier + 1) % 3;
             } else {
@@ -741,12 +897,12 @@ function bootPhylogenle() {
             lastChildWidth = approxWidth;
         });
 
-        // Smart Vertical Staggering for trunk nodes (d.data.isTrunk is true)
+        // Smart Vertical Staggering for trunk nodes
         const trunkNodes = allDescendants.filter(d => d.data.isTrunk).sort((a, b) => a.x - b.x);
         let currentTrunkTier = 0;
         let lastTrunkX = -999;
         trunkNodes.forEach(node => {
-            if (node.x - lastTrunkX < 75) {
+            if (node.x - lastTrunkX < 80) {
                 currentTrunkTier = (currentTrunkTier + 1) % 2;
             } else {
                 currentTrunkTier = 0;
@@ -765,11 +921,11 @@ function bootPhylogenle() {
         // Vertical Dashed Stagger Leader Lines for offset child nodes
         node.each(function(d) {
             if (!d.data.isTrunk && d.staggerTier > 0) {
-                const targetY = d.staggerTier === 1 ? 38 : 58;
+                const targetY = d.staggerTier === 1 ? 46 : 74;
                 d3.select(this).append("line")
                     .attr("class", "node-stagger-line")
                     .attr("x1", 0)
-                    .attr("y1", 8)
+                    .attr("y1", 9)
                     .attr("x2", 0)
                     .attr("y2", targetY - 10);
             }
@@ -779,12 +935,18 @@ function bootPhylogenle() {
         node.append("circle")
             .attr("r", d => d.data.isMystery ? 10 : 7)
             .style("fill", d => {
-                if (d.data.isMystery) return d.data.isMatch ? "var(--success-color)" : "#60a5fa";
+                if (d.data.isMystery) {
+                    if (d.data.isMatch) return "var(--success-color)";
+                    if (isGameOver) return "#ffffff";
+                    return "#60a5fa";
+                }
                 if (d.data.isGuess) return "var(--warning-color)";
                 return "var(--bg-primary)";
             })
             .style("stroke", d => {
-                if (d.data.isMystery) return "#ffffff";
+                if (d.data.isMystery) {
+                    return "#ffffff";
+                }
                 if (d.data.isGuess) return "#f59e0b";
                 return "var(--accent-color)";
             });
@@ -794,17 +956,18 @@ function bootPhylogenle() {
             if (d.data.isTrunk) {
                 return d.trunkTier === 1 ? -32 : -18;
             }
-            if (d.staggerTier === 1) return 38;
-            if (d.staggerTier === 2) return 58;
-            return 20;
+            if (d.staggerTier === 1) return 46;
+            if (d.staggerTier === 2) return 74;
+            return 22;
         }
 
         // Background Pill/Backdrop for maximum contrast and legibility
         node.append("rect")
             .attr("class", "node-label-bg")
-            .attr("height", dynamicFontSize + 8)
-            .attr("y", d => getNodeYOffset(d) - dynamicFontSize / 2 - 4)
-            .attr("opacity", 0.9);
+            .attr("rx", 6)
+            .attr("ry", 6)
+            .attr("height", dynamicFontSize + 10)
+            .attr("y", d => getNodeYOffset(d) - dynamicFontSize / 2 - 5);
 
         // Text Labels
         const textLabels = node.append("text")
@@ -813,7 +976,7 @@ function bootPhylogenle() {
             .style("text-anchor", "middle")
             .style("font-size", `${dynamicFontSize}px`)
             .attr("class", "taxa-link node-label-text")
-            .text(d => d.data.name)
+            .text(d => `${getNodeDisplayEmoji(d)} ${d.data.name}`)
             .on("mouseenter", function(e, d) {
                 if (!d.data.isMystery || (d.data.isMystery && d.data.name !== "?")) {
                     const query = d.data.wikiTitle || d.data.name;
@@ -834,8 +997,8 @@ function bootPhylogenle() {
             const rectEl = d3.select(this).select("rect");
             if (textEl && rectEl.node()) {
                 const bbox = textEl.getBBox();
-                rectEl.attr("x", bbox.x - 6)
-                      .attr("width", bbox.width + 12);
+                rectEl.attr("x", bbox.x - 10)
+                      .attr("width", bbox.width + 20);
             }
         });
     }
@@ -876,22 +1039,36 @@ function bootPhylogenle() {
     const archiveResetCurrentBtn = document.getElementById('archive-reset-current-btn');
     if (archiveResetCurrentBtn) {
         archiveResetCurrentBtn.addEventListener('click', () => {
-            if (confirm("Reset puzzle record for " + currentDateStr + "? This allows you to replay with the updated species target.")) {
-                resetDateRecord(currentDateStr);
-                renderArchiveModal();
-                initGame();
-            }
+            showInAppConfirm({
+                icon: '🔄',
+                title: 'Reset Puzzle Record?',
+                message: `Reset puzzle record for ${currentDateStr}? This allows you to replay with the updated species target.`,
+                proceedText: 'Reset Puzzle',
+                proceedBg: '#f59e0b',
+                onProceed: () => {
+                    resetDateRecord(currentDateStr);
+                    renderArchiveModal();
+                    initGame();
+                }
+            });
         });
     }
 
     const archiveResetAllBtn = document.getElementById('archive-reset-all-btn');
     if (archiveResetAllBtn) {
         archiveResetAllBtn.addEventListener('click', () => {
-            if (confirm("Are you sure you want to reset all past puzzle records and statistics? This will clear your archive history so all dates can be replayed freshly with the updated species dataset.")) {
-                resetAllHistory();
-                renderArchiveModal();
-                initGame();
-            }
+            showInAppConfirm({
+                icon: '⚠️',
+                title: 'Reset All History?',
+                message: 'Are you sure you want to reset all past puzzle records and statistics? This will clear your archive history so all dates can be replayed freshly.',
+                proceedText: 'Reset Everything',
+                proceedBg: '#dc2626',
+                onProceed: () => {
+                    resetAllHistory();
+                    renderArchiveModal();
+                    initGame();
+                }
+            });
         });
     }
 
@@ -1162,9 +1339,18 @@ function bootPhylogenle() {
                 btn.addEventListener('click', (e) => {
                     e.stopPropagation();
                     const d = btn.getAttribute('data-date');
-                    resetDateRecord(d);
-                    renderArchiveModal();
-                    if (d === currentDateStr) initGame();
+                    showInAppConfirm({
+                        icon: '🔄',
+                        title: 'Reset Puzzle?',
+                        message: `Reset puzzle record for ${d}?`,
+                        proceedText: 'Reset',
+                        proceedBg: '#f59e0b',
+                        onProceed: () => {
+                            resetDateRecord(d);
+                            renderArchiveModal();
+                            if (d === currentDateStr) initGame();
+                        }
+                    });
                 });
             });
         }
