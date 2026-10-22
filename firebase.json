@@ -1,0 +1,13 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "auth": {
+    "providers": {
+      "googleSignIn": {
+        "oAuthBrandDisplayName": "Phylogenle",
+        "supportEmail": "amit2724joshi@gmail.com"
+      }
+    }
+  }
+}

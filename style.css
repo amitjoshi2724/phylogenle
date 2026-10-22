@@ -111,10 +111,15 @@ h1 {
     height: 100%;
     backdrop-filter: blur(10px);
     overflow-x: auto;
-    overflow-y: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    overflow-y: auto;
+    display: block;
+    position: relative;
+}
+
+.tree-container svg {
+    display: block;
+    margin: 0 auto;
+    max-width: none;
 }
 
 /* D3 Tree Styles */
@@ -122,12 +127,17 @@ h1 {
     fill: var(--bg-primary);
     stroke: var(--accent-color);
     stroke-width: 3px;
+    transition: r 0.2s, stroke 0.2s;
+}
+.node circle:hover {
+    stroke-width: 4px;
+    stroke: #60a5fa;
 }
 .node text {
-    font-size: 14px;
     font-weight: 600;
     fill: var(--text-primary);
-    text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+    text-shadow: 0 1px 4px rgba(0,0,0,0.9);
+    user-select: none;
 }
 .link {
     fill: none;

@@ -2,24 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phylogenle - The Evolutionary Wordle</title>
-    <meta name="description" content="Guess the organism based on evolutionary distance and taxonomic rank.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Phylogenle - The Daily Evolutionary Puzzle</title>
+    <meta name="description" content="A daily biological puzzle game. Guess the mystery organism by evolutionary divergence time (TMRCA) and taxonomic hierarchy.">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="modals.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
 </head>
 <body>
     <div class="app-container">
+        <!-- Top Navigation Bar -->
+        <nav class="top-navbar" aria-label="Main Navigation">
+            <div class="nav-left">
+                <div class="nav-title-group">
+                    <span class="nav-game-title">PHYLOGENLE</span>
+                    <span id="puzzle-badge" class="nav-puzzle-badge">DAILY #1 • 2024-01-01</span>
+                </div>
+            </div>
+
+            <div class="nav-right">
+                <button id="mode-toggle-btn" class="nav-btn nav-mode-btn" title="Toggle Unlimited Practice / Daily Mode">PRACTICE</button>
+                <button id="archive-modal-btn" class="nav-btn" title="Past Puzzles Archive">📅 Archive</button>
+                <button id="stats-modal-btn" class="nav-btn" title="Statistics & Streaks">📊 Stats</button>
+                <button id="help-modal-btn" class="nav-btn" title="How to Play">❓ Help</button>
+                <div id="auth-container" class="auth-pill-container"></div>
+            </div>
+        </nav>
+
         <header>
             <h1>PHYLOGENLE</h1>
-            <p class="subtitle">Guess the organism by evolutionary distance</p>
+            <p class="subtitle">Deduce the mystery organism by evolutionary distance and taxonomy</p>
         </header>
 
         <main class="main-layout">
             <div class="left-panel">
                 <div class="input-section">
                     <div class="autocomplete-wrapper">
-                        <input type="text" id="animal-input" placeholder="Enter an organism..." autocomplete="off">
+                        <input type="text" id="animal-input" placeholder="Type or select an organism..." autocomplete="off">
                         <ul id="autocomplete-list" class="autocomplete-list"></ul>
                     </div>
                     <button id="guess-btn" class="primary-btn">Guess</button>
@@ -28,8 +50,11 @@
 
                 <div id="game-end-panel" class="game-end-panel hidden glass-panel" style="margin-bottom: 1.5rem; padding: 1.5rem;">
                     <h2 id="end-title" style="margin-bottom: 0.5rem; font-size: 1.8rem;">You found it!</h2>
-                    <p id="end-message" style="margin-bottom: 1.5rem; color: var(--text-secondary);"></p>
-                    <button id="play-again-btn" class="primary-btn" style="width: 100%;">Play Again</button>
+                    <p id="end-message" style="margin-bottom: 1rem; color: var(--text-secondary);"></p>
+                    <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                        <button id="share-result-btn" class="primary-btn" style="flex: 1; min-width: 140px; background: #10b981;">Share Result 📋</button>
+                        <button id="play-again-btn" class="primary-btn" style="flex: 1; min-width: 140px;">Play Again</button>
+                    </div>
                 </div>
                 
                 <div class="guesses-container" id="guesses-container">
@@ -38,9 +63,9 @@
                 
                 <div class="credits-section" style="margin: 15px 0 10px 0; display: flex; align-items: center; gap: 15px; flex-wrap: wrap;">
                     <div style="display: flex; flex-direction: column; gap: 2px;">
-                        <span style="font-size: 0.85rem; color: #555;">Developed by <strong>Amit Joshi</strong></span>
+                        <span style="font-size: 0.85rem; color: #94a3b8;">Developed by <strong>Amit Joshi</strong></span>
                         <a href="https://github.com/amitjoshi2724" target="_blank"
-                            style="color: #0366d6; text-decoration: none; font-size: 0.8rem;">GitHub: @amitjoshi2724</a>
+                            style="color: #60a5fa; text-decoration: none; font-size: 0.8rem;">GitHub: @amitjoshi2724</a>
                     </div>
                     <div id="kofi-widget-container" style="display: flex; align-items: center;">
                         <script src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
@@ -57,7 +82,7 @@
             </div>
 
             <div class="right-panel">
-                <p class="inspiration-note">Tree visualization inspired by <a href="https://metazooa.com/" target="_blank">Metazooa by Trainwreck Labs</a>.</p>
+                <p class="inspiration-note">Phylogenetic tree visualization inspired by <a href="https://metazooa.com/" target="_blank">Metazooa by Trainwreck Labs</a>.</p>
                 <div class="tree-container" id="tree-container">
                     <!-- Phylogenetic tree visualization will be rendered here -->
                 </div>
@@ -71,7 +96,176 @@
         </div>
     </div>
 
+    <!-- ==========================================================================
+         Modals
+         ========================================================================== -->
+    <!-- Archive Modal (Calendar & List View) -->
+    <div id="archive-modal" class="modal-backdrop">
+        <div class="modal-dialog archive-modal-dialog">
+            <div class="modal-header">
+                <h3 class="modal-title">📅 Phylogenle Archive</h3>
+                <button class="modal-close-btn" data-close="archive-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <!-- View Switcher Tabs -->
+                <div class="archive-view-tabs">
+                    <button id="archive-tab-calendar" class="archive-tab-btn active">📅 Calendar View</button>
+                    <button id="archive-tab-list" class="archive-tab-btn">📋 List View</button>
+                </div>
+
+                <!-- VIEW 1: Calendar View (Default) -->
+                <div id="archive-calendar-view">
+                    <div class="calendar-nav-bar">
+                        <button id="cal-prev-month-btn" class="calendar-nav-btn" title="Previous Month">◀ Prev</button>
+                        <div class="calendar-selectors-group">
+                            <select id="cal-month-select" class="calendar-select" aria-label="Select Month">
+                                <option value="0">January</option>
+                                <option value="1">February</option>
+                                <option value="2">March</option>
+                                <option value="3">April</option>
+                                <option value="4">May</option>
+                                <option value="5">June</option>
+                                <option value="6">July</option>
+                                <option value="7">August</option>
+                                <option value="8">September</option>
+                                <option value="9">October</option>
+                                <option value="10">November</option>
+                                <option value="11">December</option>
+                            </select>
+                            <select id="cal-year-select" class="calendar-select" aria-label="Select Year">
+                                <!-- Populated dynamically -->
+                            </select>
+                            <button id="cal-today-btn" class="calendar-nav-btn">Today</button>
+                        </div>
+                        <button id="cal-next-month-btn" class="calendar-nav-btn" title="Next Month">Next ▶</button>
+                    </div>
+
+                    <div class="calendar-weekdays-grid">
+                        <div>Sun</div>
+                        <div>Mon</div>
+                        <div>Tue</div>
+                        <div>Wed</div>
+                        <div>Thu</div>
+                        <div>Fri</div>
+                        <div>Sat</div>
+                    </div>
+
+                    <div id="calendar-days-container" class="calendar-days-grid">
+                        <!-- 42 slots populated dynamically in JS -->
+                    </div>
+                </div>
+
+                <!-- VIEW 2: List View -->
+                <div id="archive-list-view" style="display: none;">
+                    <div class="archive-controls">
+                        <input type="text" id="archive-search" class="archive-search-input" placeholder="Search by date (YYYY-MM-DD) or puzzle #...">
+                        <div class="archive-filter-group">
+                            <button class="archive-filter-btn active" data-filter="all">All</button>
+                            <button class="archive-filter-btn" data-filter="solved">Solved</button>
+                            <button class="archive-filter-btn" data-filter="unplayed">Unplayed</button>
+                        </div>
+                    </div>
+                    <div id="archive-list-container" class="archive-list">
+                        <!-- Populated dynamically -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Statistics Modal -->
+    <div id="stats-modal" class="modal-backdrop">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <h3 class="modal-title">📊 Player Statistics</h3>
+                <button class="modal-close-btn" data-close="stats-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span id="stat-played" class="stat-num">0</span>
+                        <span class="stat-label">Played</span>
+                    </div>
+                    <div class="stat-card">
+                        <span id="stat-win-pct" class="stat-num">0%</span>
+                        <span class="stat-label">Win %</span>
+                    </div>
+                    <div class="stat-card">
+                        <span id="stat-streak" class="stat-num">0</span>
+                        <span class="stat-label">Current Streak</span>
+                    </div>
+                    <div class="stat-card">
+                        <span id="stat-max-streak" class="stat-num">0</span>
+                        <span class="stat-label">Max Streak</span>
+                    </div>
+                </div>
+
+                <div class="distribution-section">
+                    <h4 class="section-title">Guess Distribution</h4>
+                    <div id="score-distribution-bars" class="dist-bars">
+                        <!-- Populated dynamically -->
+                    </div>
+                </div>
+
+                <div class="share-actions-row">
+                    <button id="share-score-btn" class="share-btn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92c0-1.61-1.31-2.92-2.92-2.92z"/>
+                        </svg>
+                        Share Daily Results
+                    </button>
+                </div>
+                <div id="share-toast" class="share-toast hidden">Results copied to clipboard! 🧬</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Help Modal -->
+    <div id="help-modal" class="modal-backdrop">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <h3 class="modal-title">❓ How to Play Phylogenle</h3>
+                <button class="modal-close-btn" data-close="help-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="help-section">
+                    <p><strong>Goal:</strong> Deduce the secret organism in as few guesses as possible using evolutionary lineage.</p>
+                    <p>Each time you guess an organism, Phylogenle calculates two key evolutionary clues:</p>
+                    
+                    <div style="background: rgba(15, 23, 42, 0.6); padding: 12px; border-radius: 8px; border: 1px solid var(--glass-border);">
+                        <p style="margin-bottom: 6px;"><strong style="color: #60a5fa;">1. TMRCA (Time to Most Recent Common Ancestor):</strong></p>
+                        <p style="color: var(--text-secondary); font-size: 0.82rem;">Measured in Millions of Years Ago (MYA). A smaller number means your guess is more closely related to the mystery organism!</p>
+                    </div>
+
+                    <div style="background: rgba(15, 23, 42, 0.6); padding: 12px; border-radius: 8px; border: 1px solid var(--glass-border);">
+                        <p style="margin-bottom: 6px;"><strong style="color: #34d399;">2. Lowest Common Ancestor Rank (LCA):</strong></p>
+                        <p style="color: var(--text-secondary); font-size: 0.82rem;">The most specific taxonomic rank shared between your guess and the secret organism:</p>
+                        <div class="help-rank-list">
+                            <span class="help-rank-pill" style="color: #10b981;">Species (Exact)</span>
+                            <span class="help-rank-pill">Genus</span>
+                            <span class="help-rank-pill">Family</span>
+                            <span class="help-rank-pill">Order</span>
+                            <span class="help-rank-pill">Class</span>
+                            <span class="help-rank-pill">Phylum</span>
+                            <span class="help-rank-pill">Kingdom</span>
+                        </div>
+                    </div>
+
+                    <div style="background: rgba(15, 23, 42, 0.6); padding: 12px; border-radius: 8px; border: 1px solid var(--glass-border);">
+                        <p style="margin-bottom: 6px;"><strong style="color: #fbbf24;">3. Dynamic Phylogenetic Tree:</strong></p>
+                        <p style="color: var(--text-secondary); font-size: 0.82rem;">Each guess branches dynamically onto the tree on the right. Hover or click on any organism or clade node to read its Wikipedia summary.</p>
+                    </div>
+
+                    <p style="font-size: 0.82rem; color: var(--text-secondary); margin-top: 4px;">
+                        A new daily organism appears every midnight! You can also practice endlessly in Practice mode or replay past puzzles in the Archive.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- D3.js and Application Logic -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
 </html>

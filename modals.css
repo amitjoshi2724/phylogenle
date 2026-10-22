@@ -1,0 +1,799 @@
+/**
+ * Phylogenle - Modals, Calendar Archive, Stats & Auth Stylesheet
+ */
+
+/* ==========================================================================
+   Header Navbar & Controls
+   ========================================================================== */
+.top-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 0.75rem 1.25rem;
+    backdrop-filter: blur(12px);
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.nav-title-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-game-title {
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    background: linear-gradient(135deg, #60a5fa, #34d399);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.2;
+}
+
+.nav-puzzle-badge {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    letter-spacing: 0.04em;
+}
+
+.nav-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    border-radius: 10px;
+    color: var(--text-primary);
+    padding: 0.45rem 0.85rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    line-height: 1;
+}
+
+.nav-btn:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(96, 165, 250, 0.5);
+    transform: translateY(-1px);
+}
+
+.nav-mode-btn {
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    border-color: rgba(96, 165, 250, 0.3);
+}
+
+.nav-mode-btn.unlimited-active {
+    background: rgba(245, 158, 11, 0.15);
+    border-color: #f59e0b;
+    color: #f59e0b;
+}
+
+/* Auth Pill Container */
+.auth-pill-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.auth-btn.google-btn {
+    background: #ffffff;
+    color: #1f2937;
+    border: none;
+    border-radius: 10px;
+    padding: 0.45rem 0.85rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s;
+}
+
+.auth-btn.google-btn:hover {
+    background: #f1f5f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.user-auth-widget {
+    position: relative;
+    display: inline-block;
+}
+
+.user-profile-badge {
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    padding: 0.3rem 0.75rem 0.3rem 0.35rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-primary);
+    cursor: pointer;
+    font-size: 0.82rem;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.user-profile-badge:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(96, 165, 250, 0.5);
+}
+
+.user-avatar-img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.user-display-name {
+    max-width: 110px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dropdown-caret {
+    font-size: 0.65rem;
+    color: var(--text-secondary);
+}
+
+.user-dropdown-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    background: #1e293b;
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    padding: 0.75rem;
+    min-width: 230px;
+    z-index: 1100;
+    display: none;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.user-dropdown-menu.active {
+    display: flex;
+}
+
+.account-title {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+    font-weight: 700;
+}
+
+.account-divider {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    margin: 0.15rem 0;
+}
+
+.account-email-row {
+    font-size: 0.8rem;
+    color: var(--text-primary);
+    word-break: break-all;
+}
+
+.account-status-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.75rem;
+    color: #10b981;
+    font-weight: 600;
+}
+
+.cloud-status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #10b981;
+    box-shadow: 0 0 6px rgba(16, 185, 129, 0.8);
+}
+
+.account-signout-btn {
+    background: rgba(239, 68, 68, 0.15);
+    border: 1px solid rgba(239, 68, 68, 0.4);
+    color: #f87171;
+    border-radius: 8px;
+    padding: 0.45rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 0.25rem;
+    transition: all 0.2s;
+}
+
+.account-signout-btn:hover {
+    background: rgba(239, 68, 68, 0.3);
+}
+
+/* ==========================================================================
+   Modals Backdrop & Container
+   ========================================================================== */
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(15, 23, 42, 0.82);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+    padding: 16px;
+}
+
+.modal-backdrop.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal-dialog {
+    background: #1e293b;
+    border: 1px solid var(--glass-border);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6), 0 0 30px rgba(96, 165, 250, 0.15);
+    border-radius: 16px;
+    width: 100%;
+    max-width: 540px;
+    max-height: 90vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transform: scale(0.96);
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.modal-backdrop.active .modal-dialog {
+    transform: scale(1);
+}
+
+.modal-header {
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-title {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.modal-close-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 1.6rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 2px 6px;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+
+.modal-close-btn:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.modal-body {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* ==========================================================================
+   Archive Modal (Calendar & List View)
+   ========================================================================== */
+.archive-modal-dialog {
+    max-width: 600px;
+}
+
+.archive-view-tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding-bottom: 0.75rem;
+}
+
+.archive-tab-btn {
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--text-secondary);
+    transition: all 0.2s;
+}
+
+.archive-tab-btn:hover {
+    color: #ffffff;
+    border-color: #60a5fa;
+}
+
+.archive-tab-btn.active {
+    background: rgba(96, 165, 250, 0.15);
+    color: #60a5fa;
+    border-color: #60a5fa;
+    box-shadow: 0 0 12px rgba(96, 165, 250, 0.25);
+}
+
+/* Calendar Navigation */
+.calendar-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(15, 23, 42, 0.7);
+    border: 1px solid var(--glass-border);
+    border-radius: 10px;
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 0.75rem;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.calendar-selectors-group {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.calendar-select {
+    background: #0f172a;
+    color: var(--text-primary);
+    border: 1px solid var(--glass-border);
+    border-radius: 6px;
+    padding: 0.35rem 0.6rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.calendar-nav-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    color: var(--text-primary);
+    border-radius: 6px;
+    padding: 0.35rem 0.7rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.calendar-nav-btn:hover:not(:disabled) {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: #60a5fa;
+}
+
+.calendar-nav-btn:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+}
+
+.calendar-weekdays-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+}
+
+.calendar-days-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 6px;
+}
+
+.calendar-day-cell {
+    background: rgba(15, 23, 42, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 8px;
+    min-height: 56px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.18s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.calendar-day-cell.is-empty {
+    background: transparent;
+    border-color: transparent;
+    cursor: default;
+    pointer-events: none;
+}
+
+.calendar-day-cell.is-future {
+    opacity: 0.25;
+    cursor: not-allowed;
+    background: rgba(15, 23, 42, 0.2);
+}
+
+.calendar-day-cell:hover:not(.is-future):not(.is-empty) {
+    border-color: #60a5fa;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.calendar-day-cell.is-today {
+    border-color: #3b82f6;
+    background: rgba(59, 130, 246, 0.1);
+}
+
+.cal-day-num {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1;
+}
+
+.cal-puzzle-num {
+    font-size: 0.62rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+}
+
+.cal-status-tag {
+    font-size: 0.62rem;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.1;
+}
+
+.status-solved .cal-status-tag {
+    background: rgba(16, 185, 129, 0.2);
+    color: #10b981;
+    border: 1px solid rgba(16, 185, 129, 0.4);
+}
+
+.status-revealed .cal-status-tag {
+    background: rgba(239, 68, 68, 0.2);
+    color: #ef4444;
+    border: 1px solid rgba(239, 68, 68, 0.4);
+}
+
+.status-pending .cal-status-tag {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-secondary);
+}
+
+.status-today .cal-status-tag {
+    background: rgba(59, 130, 246, 0.2);
+    color: #60a5fa;
+    border: 1px solid rgba(96, 165, 250, 0.4);
+}
+
+/* List View */
+.archive-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.archive-search-input {
+    background: #0f172a;
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    padding: 0.6rem 0.85rem;
+    color: var(--text-primary);
+    font-size: 0.85rem;
+}
+
+.archive-filter-group {
+    display: flex;
+    gap: 6px;
+}
+
+.archive-filter-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    border-radius: 6px;
+    padding: 0.35rem 0.75rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    cursor: pointer;
+}
+
+.archive-filter-btn.active {
+    background: rgba(96, 165, 250, 0.2);
+    border-color: #60a5fa;
+    color: #60a5fa;
+}
+
+.archive-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.archive-item-card {
+    background: rgba(15, 23, 42, 0.5);
+    border: 1px solid var(--glass-border);
+    border-radius: 10px;
+    padding: 0.65rem 0.85rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.archive-item-card:hover {
+    background: rgba(15, 23, 42, 0.8);
+    border-color: rgba(96, 165, 250, 0.5);
+}
+
+.archive-card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.archive-card-date {
+    font-size: 0.88rem;
+    font-weight: 700;
+}
+
+.archive-card-sub {
+    font-size: 0.72rem;
+    color: var(--text-secondary);
+}
+
+.archive-play-btn {
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.4rem 0.85rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.archive-play-btn:hover {
+    background: #2563eb;
+}
+
+/* ==========================================================================
+   Statistics Modal
+   ========================================================================== */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.stat-card {
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 0.85rem 0.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.stat-num {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #60a5fa;
+    line-height: 1;
+}
+
+.stat-label {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.section-title {
+    font-size: 0.88rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+    margin-bottom: 0.6rem;
+}
+
+.dist-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.dist-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.78rem;
+}
+
+.dist-label {
+    width: 44px;
+    font-weight: 700;
+    color: var(--text-secondary);
+    text-align: right;
+}
+
+.dist-bar-wrapper {
+    flex: 1;
+    background: rgba(15, 23, 42, 0.6);
+    border-radius: 4px;
+    overflow: hidden;
+    height: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.dist-bar {
+    background: linear-gradient(90deg, #3b82f6, #60a5fa);
+    height: 100%;
+    min-width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 6px;
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: white;
+    border-radius: 4px;
+    transition: width 0.5s ease-out;
+}
+
+.share-actions-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.share-btn {
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.35);
+    transition: all 0.2s;
+    width: 100%;
+    justify-content: center;
+}
+
+.share-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.5);
+}
+
+.share-toast {
+    background: #10b981;
+    color: white;
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    animation: fadeIn 0.2s ease-out;
+}
+
+.share-toast.hidden {
+    display: none;
+}
+
+/* ==========================================================================
+   Help Modal Content
+   ========================================================================== */
+.help-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    font-size: 0.88rem;
+    line-height: 1.5;
+    color: #e2e8f0;
+}
+
+.help-rank-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 4px 0;
+}
+
+.help-rank-pill {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--glass-border);
+    border-radius: 6px;
+    padding: 3px 8px;
+    font-size: 0.78rem;
+    font-weight: 600;
+}
+
+/* ==========================================================================
+   Tree Rendering Enhancements (Dynamic & Staggered)
+   ========================================================================== */
+.node-label-bg {
+    fill: rgba(15, 23, 42, 0.88);
+    stroke: rgba(255, 255, 255, 0.12);
+    stroke-width: 1px;
+    rx: 5px;
+    ry: 5px;
+}
+
+.node-label-text {
+    font-weight: 600;
+    fill: #ffffff;
+    pointer-events: none;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+
+.node-stagger-line {
+    stroke: rgba(255, 255, 255, 0.25);
+    stroke-width: 1.5px;
+    stroke-dasharray: 2, 2;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: translateY(0); }
+}
