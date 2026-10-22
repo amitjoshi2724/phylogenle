@@ -292,9 +292,11 @@ function bootPhylogenle() {
 
     animalInput.addEventListener('click', showDropdown);
     animalInput.addEventListener('input', showDropdown);
+    animalInput.addEventListener('keyup', showDropdown);
+    animalInput.addEventListener('focus', showDropdown);
 
     document.addEventListener('click', (e) => {
-        if (e.target !== animalInput && e.target !== autocompleteList) {
+        if (!animalInput.contains(e.target) && !autocompleteList.contains(e.target)) {
             closeDropdown();
         }
     });
@@ -338,7 +340,22 @@ function bootPhylogenle() {
         const guess = animalInput.value.trim();
         if (!guess) return;
 
-        const validGuess = allSpecies.find(s => s.toLowerCase() === guess.toLowerCase());
+        let validGuess = allSpecies.find(s => s.toLowerCase() === guess.toLowerCase());
+        if (!validGuess) {
+            // Also match common name, scientific name inside parentheses, or prefix
+            const g = guess.toLowerCase();
+            validGuess = allSpecies.find(s => {
+                const common = s.split(' (')[0].toLowerCase();
+                const sciMatch = s.match(/\((.*?)\)/);
+                const sci = sciMatch ? sciMatch[1].toLowerCase() : '';
+                return common === g || sci === g;
+            });
+        }
+        if (!validGuess) {
+            // Fallback: first species that starts with typed text
+            const g = guess.toLowerCase();
+            validGuess = allSpecies.find(s => s.toLowerCase().startsWith(g) || s.split(' (')[0].toLowerCase().startsWith(g));
+        }
         if (!validGuess) {
             alert("Please select a recognized organism from the list.");
             return;
