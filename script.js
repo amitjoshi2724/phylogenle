@@ -53,6 +53,7 @@ function bootPhylogenle() {
     let allSpecies = [];
     let targetSpecies = "";
     let targetData = {};
+    let phylogenyTree = null;
     let currentFocus = -1;
     let guesses = [];
     let guessedSet = new Set();
@@ -350,6 +351,40 @@ function bootPhylogenle() {
         }
     }
 
+    function getEvolutionaryComparison(guess, target) {
+        const guessKey = guess.toLowerCase();
+        const targetKey = target.toLowerCase();
+        if (guessKey === targetKey) {
+            const latinMatch = guess.match(/\((.*?)\)/);
+            return { time: 0.0, rank: "Species", lca_name: latinMatch ? latinMatch[1] : guess };
+        }
+        if (phylogenyTree && phylogenyTree.species && phylogenyTree.nodes) {
+            const linG = phylogenyTree.species[guessKey];
+            const linT = phylogenyTree.species[targetKey];
+            if (linG && linT) {
+                let lca = linG[0];
+                const maxLen = Math.min(linG.length, linT.length);
+                for (let i = 0; i < maxLen; i++) {
+                    if (linG[i] === linT[i]) {
+                        lca = linG[i];
+                    } else {
+                        break;
+                    }
+                }
+                const node = phylogenyTree.nodes[lca] || { time: 50.0, rank: "Class", name: "Chordata" };
+                return {
+                    time: node.time,
+                    rank: node.rank,
+                    lca_name: node.name
+                };
+            }
+        }
+        if (targetData && targetData[guessKey]) {
+            return targetData[guessKey];
+        }
+        return null;
+    }
+
     // Guess Handling
     async function handleGuess() {
         if (isGameOver) return;
@@ -385,12 +420,11 @@ function bootPhylogenle() {
 
         guessedSet.add(guessKey);
 
-        if (!targetData[guessKey]) {
+        const data = getEvolutionaryComparison(validGuess, targetSpecies);
+        if (!data) {
             alert("Evolutionary comparison data not available for this pair.");
             return;
         }
-
-        const data = targetData[guessKey];
         const isMatch = guessKey === targetSpecies.toLowerCase();
 
         const latinNameMatch = validGuess.match(/\((.*?)\)/);
