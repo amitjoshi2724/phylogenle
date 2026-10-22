@@ -208,6 +208,17 @@ function bootPhylogenle() {
         endTitle.style.color = record.solved ? "var(--success-color)" : "var(--danger-color)";
         endMessage.innerHTML = `The organism was <strong>${record.targetSpecies || targetSpecies}</strong>.<br>` +
             `<span style="font-size: 0.9rem; color: var(--text-secondary);">${record.solved ? `Solved in ${record.guessCount} guesses!` : 'Gave up.'}</span>`;
+
+        const endEmojisRow = document.getElementById('end-emojis-row');
+        if (endEmojisRow && record.guesses && record.guesses.length > 0) {
+            const emojis = record.guesses.map(g => {
+                if (g.isMatch) return '🟩';
+                if (g.lca_rank === 'Genus' || g.lca_rank === 'Family' || (g.tmrca > 0 && g.tmrca <= 30)) return '🟨';
+                if (g.lca_rank === 'Order' || g.lca_rank === 'Class' || (g.tmrca > 30 && g.tmrca <= 100)) return '🟧';
+                return '🟦';
+            }).join('');
+            endEmojisRow.textContent = emojis;
+        }
         gameEndPanel.classList.remove('hidden');
 
         if (record.guesses && record.guesses.length > 0) {
@@ -406,16 +417,33 @@ function bootPhylogenle() {
         }
     }
 
+    function getClosenessInfo(data, isMatch) {
+        if (isMatch) {
+            return { emoji: '🟩', label: 'Exact Match (0 MYA)', shortLabel: 'Exact', cssClass: 'closeness-exact' };
+        }
+        if (data.rank === 'Genus' || data.rank === 'Family' || (data.time > 0 && data.time <= 30)) {
+            return { emoji: '🟨', label: 'Close Relative (≤30 MYA • Genus/Family)', shortLabel: 'Close', cssClass: 'closeness-close' };
+        }
+        if (data.rank === 'Order' || data.rank === 'Class' || (data.time > 30 && data.time <= 100)) {
+            return { emoji: '🟧', label: 'Moderate Relative (30-100 MYA • Order/Class)', shortLabel: 'Moderate', cssClass: 'closeness-moderate' };
+        }
+        return { emoji: '🟦', label: 'Distant Relative (>100 MYA • Phylum/Kingdom)', shortLabel: 'Distant', cssClass: 'closeness-distant' };
+    }
+
     function addGuessToBoard(guessName, wikiTitle, data, isMatch) {
+        const closeness = getClosenessInfo(data, isMatch);
         const row = document.createElement('div');
-        row.className = 'guess-row';
+        row.className = `guess-row ${closeness.cssClass}`;
         const matchClass = isMatch ? 'match-exact' : '';
 
         const timeStr = data.time === 0 ? "Exact Match" : (data.time === -1.0 ? "Unknown (>500 MYA)" : `${data.time.toFixed(1)} MYA`);
         const lcaName = data.lca_name || data.rank;
 
         row.innerHTML = `
-            <div class="guess-name ${matchClass} taxa-link">${guessName}</div>
+            <div class="guess-main-info">
+                <span class="closeness-pill ${closeness.cssClass}" title="${closeness.label}">${closeness.emoji} ${closeness.shortLabel}</span>
+                <span class="guess-name ${matchClass} taxa-link">${guessName}</span>
+            </div>
             <div class="guess-feedback">
                 <span class="feedback-badge feedback-time ${matchClass}" title="TMRCA = Time to Most Recent Common Ancestor">TMRCA: ${timeStr}</span>
                 <span class="feedback-badge feedback-rank ${matchClass} taxa-link" data-taxa="${lcaName}">${data.rank}: ${lcaName}</span>
@@ -445,6 +473,17 @@ function bootPhylogenle() {
         endTitle.style.color = win ? "var(--success-color)" : "var(--danger-color)";
         endMessage.innerHTML = `The organism was <strong>${targetSpecies}</strong>.<br>` +
             `<span style="font-size: 0.9rem; color: var(--text-secondary);">${win ? `Solved in ${guesses.length} guess${guesses.length === 1 ? '' : 'es'}!` : 'Better luck next time!'}</span>`;
+
+        const endEmojisRow = document.getElementById('end-emojis-row');
+        if (endEmojisRow) {
+            const emojis = guesses.map(g => {
+                if (g.isMatch) return '🟩';
+                if (g.lca_rank === 'Genus' || g.lca_rank === 'Family' || (g.tmrca > 0 && g.tmrca <= 30)) return '🟨';
+                if (g.lca_rank === 'Order' || g.lca_rank === 'Class' || (g.tmrca > 30 && g.tmrca <= 100)) return '🟧';
+                return '🟦';
+            }).join('');
+            endEmojisRow.textContent = emojis;
+        }
 
         animalInput.parentElement.style.display = 'none';
         guessBtn.style.display = 'none';

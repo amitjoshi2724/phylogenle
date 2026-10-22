@@ -429,3 +429,95 @@ input[type="text"]:focus {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--accent-color);
 }
+
+/* --- Closeness Color System & Badges --- */
+.guess-row.closeness-exact {
+    border-left: 4px solid #10b981;
+    background: linear-gradient(90deg, rgba(16, 185, 129, 0.15) 0%, var(--glass-bg) 100%);
+}
+.guess-row.closeness-close {
+    border-left: 4px solid #eab308;
+    background: linear-gradient(90deg, rgba(234, 179, 8, 0.12) 0%, var(--glass-bg) 100%);
+}
+.guess-row.closeness-moderate {
+    border-left: 4px solid #f97316;
+    background: linear-gradient(90deg, rgba(249, 115, 22, 0.12) 0%, var(--glass-bg) 100%);
+}
+.guess-row.closeness-distant {
+    border-left: 4px solid #3b82f6;
+    background: linear-gradient(90deg, rgba(59, 130, 246, 0.08) 0%, var(--glass-bg) 100%);
+}
+
+.guess-main-info {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    flex: 1;
+    min-width: 0;
+}
+
+.closeness-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0.22rem 0.55rem;
+    border-radius: 6px;
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.closeness-pill.closeness-exact {
+    background: rgba(16, 185, 129, 0.2);
+    color: #34d399;
+    border: 1px solid rgba(16, 185, 129, 0.4);
+}
+.closeness-pill.closeness-close {
+    background: rgba(234, 179, 8, 0.2);
+    color: #fde047;
+    border: 1px solid rgba(234, 179, 8, 0.4);
+}
+.closeness-pill.closeness-moderate {
+    background: rgba(249, 115, 22, 0.2);
+    color: #fb923c;
+    border: 1px solid rgba(249, 115, 22, 0.4);
+}
+.closeness-pill.closeness-distant {
+    background: rgba(59, 130, 246, 0.2);
+    color: #93c5fd;
+    border: 1px solid rgba(59, 130, 246, 0.4);
+}
+
+.end-emojis-display {
+    font-size: 1.6rem;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 0.75rem 0 0.5rem 0;
+    user-select: all;
+}
+
+.color-legend-guide {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(15, 23, 42, 0.5);
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin: 8px 0 12px 0;
+}
+
+.legend-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.76rem;
+    color: var(--text-secondary);
+}
+
+.legend-chip strong {
+    color: var(--text-primary);
+}
