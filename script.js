@@ -213,7 +213,10 @@ function bootPhylogenle() {
 
         const endEmojisRow = document.getElementById('end-emojis-row');
         if (endEmojisRow && record.guesses && record.guesses.length > 0) {
-            const emojis = record.guesses.map(g => getGuessRankEmoji(g)).join('');
+            let emojis = record.guesses.map(g => getGuessRankEmoji(g)).join('');
+            if (!record.solved) {
+                emojis += ' ⬜'; // White square indicates surrendered / revealed
+            }
             endEmojisRow.textContent = emojis;
         }
         gameEndPanel.classList.remove('hidden');
@@ -417,12 +420,13 @@ function bootPhylogenle() {
     function getGuessRankEmoji(g) {
         if (g.isMatch || g.lca_rank === 'Species') return '🟩';
         const r = g.lca_rank;
-        if (r === 'Genus') return '🟩'; // Yellow-green / lime
-        if (r === 'Family') return '🟨';
-        if (r === 'Order') return '🟧';
-        if (r === 'Class') return '🟥';
-        if (r === 'Phylum') return '🟪';
-        return '🟦'; // Kingdom / Metazoa
+        if (r === 'Genus') return '🟨'; // yellow - genus match
+        if (r === 'Family') return '🟧'; // orange - family
+        if (r === 'Order') return '🟥'; // red - order
+        if (r === 'Class') return '🟪'; // purple - class
+        if (r === 'Phylum') return '🟦'; // blue - phylum
+        if (r === 'Kingdom') return '🟫'; // brown - kingdom
+        return '⬛'; // black - nothing match
     }
 
     function getClosenessInfo(data, isMatch) {
@@ -440,7 +444,7 @@ function bootPhylogenle() {
         if (r === 'Genus') {
             return {
                 rank: 'Genus',
-                emoji: '🟩',
+                emoji: '🟨',
                 label: 'Same Genus (Sister species)',
                 shortLabel: 'Genus',
                 cssClass: 'closeness-genus',
@@ -450,7 +454,7 @@ function bootPhylogenle() {
         if (r === 'Family') {
             return {
                 rank: 'Family',
-                emoji: '🟨',
+                emoji: '🟧',
                 label: 'Same Family',
                 shortLabel: 'Family',
                 cssClass: 'closeness-family',
@@ -460,7 +464,7 @@ function bootPhylogenle() {
         if (r === 'Order') {
             return {
                 rank: 'Order',
-                emoji: '🟧',
+                emoji: '🟥',
                 label: 'Same Order',
                 shortLabel: 'Order',
                 cssClass: 'closeness-order',
@@ -470,7 +474,7 @@ function bootPhylogenle() {
         if (r === 'Class') {
             return {
                 rank: 'Class',
-                emoji: '🟥',
+                emoji: '🟪',
                 label: 'Same Class',
                 shortLabel: 'Class',
                 cssClass: 'closeness-class',
@@ -480,20 +484,30 @@ function bootPhylogenle() {
         if (r === 'Phylum') {
             return {
                 rank: 'Phylum',
-                emoji: '🟪',
+                emoji: '🟦',
                 label: 'Same Phylum',
                 shortLabel: 'Phylum',
                 cssClass: 'closeness-phylum',
                 squareClass: 'square-phylum'
             };
         }
+        if (r === 'Kingdom') {
+            return {
+                rank: 'Kingdom',
+                emoji: '🟫',
+                label: 'Same Kingdom',
+                shortLabel: 'Kingdom',
+                cssClass: 'closeness-kingdom',
+                squareClass: 'square-kingdom'
+            };
+        }
         return {
-            rank: 'Kingdom',
-            emoji: '🟦',
-            label: 'Same Kingdom',
-            shortLabel: 'Kingdom',
-            cssClass: 'closeness-kingdom',
-            squareClass: 'square-kingdom'
+            rank: 'Nothing',
+            emoji: '⬛',
+            label: 'No Match',
+            shortLabel: 'No Match',
+            cssClass: 'closeness-nothing',
+            squareClass: 'square-nothing'
         };
     }
 
@@ -545,7 +559,10 @@ function bootPhylogenle() {
 
         const endEmojisRow = document.getElementById('end-emojis-row');
         if (endEmojisRow) {
-            const emojis = guesses.map(g => getGuessRankEmoji(g)).join('');
+            let emojis = guesses.map(g => getGuessRankEmoji(g)).join('');
+            if (!win) {
+                emojis += ' ⬜'; // White square indicates surrendered / revealed
+            }
             endEmojisRow.textContent = emojis;
         }
 
@@ -1208,7 +1225,10 @@ function bootPhylogenle() {
         const count = guesses.length;
 
         // Emoji feedback row
-        const emojis = guesses.slice(0, 10).map(g => getGuessRankEmoji(g)).join('');
+        let emojis = guesses.slice(0, 10).map(g => getGuessRankEmoji(g)).join('');
+        if (!isSolved) {
+            emojis += ' ⬜'; // Surrender / revealed indicator
+        }
 
         const shareText = `Phylogenle #${puzzleNum} 🧬\n` +
             `${isSolved ? `Solved in ${count} guess${count === 1 ? '' : 'es'}!` : 'Revealed'}\n` +

@@ -55,13 +55,14 @@
                     <div id="end-emojis-container">
                         <div id="end-emojis-row" class="end-emojis-display"></div>
                         <div class="color-legend-guide">
-                            <span class="legend-chip"><span class="rank-square-icon square-kingdom"></span> Kingdom</span>
-                            <span class="legend-chip"><span class="rank-square-icon square-phylum"></span> Phylum</span>
-                            <span class="legend-chip"><span class="rank-square-icon square-class"></span> Class</span>
-                            <span class="legend-chip"><span class="rank-square-icon square-order"></span> Order</span>
-                            <span class="legend-chip"><span class="rank-square-icon square-family"></span> Family</span>
-                            <span class="legend-chip"><span class="rank-square-icon square-genus"></span> Genus</span>
-                            <span class="legend-chip"><span class="rank-square-icon square-species"></span> Exact</span>
+                            <span class="legend-chip"><span class="rank-square-icon square-nothing"></span> ⬛ Nothing</span>
+                            <span class="legend-chip"><span class="rank-square-icon square-kingdom"></span> 🟫 Kingdom</span>
+                            <span class="legend-chip"><span class="rank-square-icon square-phylum"></span> 🟦 Phylum</span>
+                            <span class="legend-chip"><span class="rank-square-icon square-class"></span> 🟪 Class</span>
+                            <span class="legend-chip"><span class="rank-square-icon square-order"></span> 🟥 Order</span>
+                            <span class="legend-chip"><span class="rank-square-icon square-family"></span> 🟧 Family</span>
+                            <span class="legend-chip"><span class="rank-square-icon square-genus"></span> 🟨 Genus</span>
+                            <span class="legend-chip"><span class="rank-square-icon square-species"></span> 🟩 Exact</span>
                         </div>
                     </div>
 
@@ -274,20 +275,20 @@
                         <p style="margin-bottom: 6px;"><strong style="color: #34d399;">2. Lowest Common Ancestor Rank (LCA):</strong></p>
                         <p style="color: var(--text-secondary); font-size: 0.82rem;">The most specific taxonomic branch shared between your guess and the secret organism:</p>
                         <div class="help-rank-list">
-                            <span class="help-rank-pill" style="color: #10b981;">Species (Exact)</span>
-                            <span class="help-rank-pill" style="color: #84cc16;">Genus</span>
-                            <span class="help-rank-pill" style="color: #eab308;">Family</span>
-                            <span class="help-rank-pill" style="color: #f97316;">Order</span>
-                            <span class="help-rank-pill" style="color: #ef4444;">Class</span>
-                            <span class="help-rank-pill" style="color: #a855f7;">Phylum</span>
-                            <span class="help-rank-pill" style="color: #3b82f6;">Kingdom</span>
+                            <span class="help-rank-pill" style="color: #10b981;">🟩 Species (Exact)</span>
+                            <span class="help-rank-pill" style="color: #eab308;">🟨 Genus</span>
+                            <span class="help-rank-pill" style="color: #f97316;">🟧 Family</span>
+                            <span class="help-rank-pill" style="color: #ef4444;">🟥 Order</span>
+                            <span class="help-rank-pill" style="color: #a855f7;">🟪 Class</span>
+                            <span class="help-rank-pill" style="color: #3b82f6;">🟦 Phylum</span>
+                            <span class="help-rank-pill" style="color: #a16207;">🟫 Kingdom</span>
                         </div>
                     </div>
 
                     <div style="background: rgba(15, 23, 42, 0.6); padding: 14px; border-radius: 8px; border: 1px solid var(--glass-border);">
-                        <p style="margin-bottom: 6px;"><strong style="color: #38bdf8;">3. Taxonomic Rank Colors & Share Emojis:</strong></p>
+                        <p style="margin-bottom: 6px;"><strong style="color: #38bdf8;">3. Taxonomic Rank Colors & Solid Square Guide:</strong></p>
                         <p style="color: var(--text-secondary); font-size: 0.82rem; margin-bottom: 8px;">
-                            Every guess is color-coded by the exact taxonomic rank of its lowest common ancestor:
+                            Every guess is color-coded by the lowest common ancestor shared with the target organism:
                         </p>
                         <div style="display: flex; flex-direction: column; gap: 6px;">
                             <div style="display: flex; align-items: center; gap: 8px; background: rgba(16, 185, 129, 0.1); border-left: 3px solid #10b981; padding: 5px 10px; border-radius: 6px;">
@@ -297,46 +298,60 @@
                                     <div style="color: var(--text-secondary); font-size: 0.77rem;">Green Square — You correctly identified the mystery organism!</div>
                                 </div>
                             </div>
-                            <div style="display: flex; align-items: center; gap: 8px; background: rgba(132, 204, 22, 0.1); border-left: 3px solid #84cc16; padding: 5px 10px; border-radius: 6px;">
-                                <span style="font-size: 1.15rem;">🟩</span>
-                                <div>
-                                    <strong style="color: #84cc16; font-size: 0.84rem;">Genus (Sister Species)</strong>
-                                    <div style="color: var(--text-secondary); font-size: 0.77rem;">Yellow-Green Square in-game (🟩 in share) — Direct sister species (e.g. Lion vs Tiger).</div>
-                                </div>
-                            </div>
                             <div style="display: flex; align-items: center; gap: 8px; background: rgba(234, 179, 8, 0.1); border-left: 3px solid #eab308; padding: 5px 10px; border-radius: 6px;">
                                 <span style="font-size: 1.15rem;">🟨</span>
                                 <div>
-                                    <strong style="color: #eab308; font-size: 0.84rem;">Family</strong>
-                                    <div style="color: var(--text-secondary); font-size: 0.77rem;">Yellow Square — Same Family (e.g. Wolf vs Fox, Cat vs Cheetah).</div>
+                                    <strong style="color: #eab308; font-size: 0.84rem;">Genus Match</strong>
+                                    <div style="color: var(--text-secondary); font-size: 0.77rem;">Yellow Square — Direct sister species (e.g. Lion vs Tiger, Dog vs Wolf).</div>
                                 </div>
                             </div>
                             <div style="display: flex; align-items: center; gap: 8px; background: rgba(249, 115, 22, 0.1); border-left: 3px solid #f97316; padding: 5px 10px; border-radius: 6px;">
                                 <span style="font-size: 1.15rem;">🟧</span>
                                 <div>
-                                    <strong style="color: #f97316; font-size: 0.84rem;">Order</strong>
-                                    <div style="color: var(--text-secondary); font-size: 0.77rem;">Orange Square — Same Order (e.g. Dog vs Bear, Human vs Chimpanzee vs Lemur).</div>
+                                    <strong style="color: #f97316; font-size: 0.84rem;">Family Match</strong>
+                                    <div style="color: var(--text-secondary); font-size: 0.77rem;">Orange Square — Same Family (e.g. Cat vs Cheetah, Wolf vs Fox).</div>
                                 </div>
                             </div>
                             <div style="display: flex; align-items: center; gap: 8px; background: rgba(239, 68, 68, 0.1); border-left: 3px solid #ef4444; padding: 5px 10px; border-radius: 6px;">
                                 <span style="font-size: 1.15rem;">🟥</span>
                                 <div>
-                                    <strong style="color: #ef4444; font-size: 0.84rem;">Class</strong>
-                                    <div style="color: var(--text-secondary); font-size: 0.77rem;">Red Square — Same Class (e.g. Mammals, Birds, Reptiles, Amphibians, Insects).</div>
+                                    <strong style="color: #ef4444; font-size: 0.84rem;">Order Match</strong>
+                                    <div style="color: var(--text-secondary); font-size: 0.77rem;">Red Square — Same Order (e.g. Dog vs Bear, Human vs Chimpanzee vs Lemur).</div>
                                 </div>
                             </div>
                             <div style="display: flex; align-items: center; gap: 8px; background: rgba(168, 85, 247, 0.1); border-left: 3px solid #a855f7; padding: 5px 10px; border-radius: 6px;">
                                 <span style="font-size: 1.15rem;">🟪</span>
                                 <div>
-                                    <strong style="color: #a855f7; font-size: 0.84rem;">Phylum</strong>
-                                    <div style="color: var(--text-secondary); font-size: 0.77rem;">Purple Square — Same Phylum (e.g. Chordates, Arthropods, Mollusks).</div>
+                                    <strong style="color: #a855f7; font-size: 0.84rem;">Class Match</strong>
+                                    <div style="color: var(--text-secondary); font-size: 0.77rem;">Purple Square — Same Class (e.g. Mammals, Birds, Reptiles, Insects).</div>
                                 </div>
                             </div>
                             <div style="display: flex; align-items: center; gap: 8px; background: rgba(59, 130, 246, 0.1); border-left: 3px solid #3b82f6; padding: 5px 10px; border-radius: 6px;">
                                 <span style="font-size: 1.15rem;">🟦</span>
                                 <div>
-                                    <strong style="color: #3b82f6; font-size: 0.84rem;">Kingdom</strong>
-                                    <div style="color: var(--text-secondary); font-size: 0.77rem;">Blue Square — Animalia / Metazoa root.</div>
+                                    <strong style="color: #3b82f6; font-size: 0.84rem;">Phylum Match</strong>
+                                    <div style="color: var(--text-secondary); font-size: 0.77rem;">Blue Square — Same Phylum (e.g. Chordates, Arthropods, Mollusks).</div>
+                                </div>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 8px; background: rgba(161, 98, 7, 0.1); border-left: 3px solid #a16207; padding: 5px 10px; border-radius: 6px;">
+                                <span style="font-size: 1.15rem;">🟫</span>
+                                <div>
+                                    <strong style="color: #ca8a04; font-size: 0.84rem;">Kingdom Match</strong>
+                                    <div style="color: var(--text-secondary); font-size: 0.77rem;">Brown Square — Root of Kingdom Animalia.</div>
+                                </div>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 8px; background: rgba(71, 85, 105, 0.1); border-left: 3px solid #475569; padding: 5px 10px; border-radius: 6px;">
+                                <span style="font-size: 1.15rem;">⬛</span>
+                                <div>
+                                    <strong style="color: #94a3b8; font-size: 0.84rem;">Nothing / Out-of-Tree</strong>
+                                    <div style="color: var(--text-secondary); font-size: 0.77rem;">Black Square — No common animal relationship.</div>
+                                </div>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 8px; background: rgba(255, 255, 255, 0.05); border-left: 3px solid #ffffff; padding: 5px 10px; border-radius: 6px;">
+                                <span style="font-size: 1.15rem;">⬜</span>
+                                <div>
+                                    <strong style="color: #f8fafc; font-size: 0.84rem;">Surrender / Gave Up</strong>
+                                    <div style="color: var(--text-secondary); font-size: 0.77rem;">White Square — Appended to share row when organism was revealed instead of solved.</div>
                                 </div>
                             </div>
                         </div>

@@ -1,125 +1,103 @@
-# 🧬 Phylogenle: Systematic Biodiversity Expansion Architecture & Blueprint
+# 🧬 Phylogenle: Comprehensive Biodiversity Expansion Architecture & Blueprint
 
-**Document Version:** 1.0  
-**Target Database Expansion:** 344 ➔ ~600–700 Curated Species  
-**Objective:** Replace ad-hoc manual additions with an automated, data-driven pipeline that scrapes authoritative biological databases to eliminate "island species" and establish rich sister-species clusters.
-
----
-
-## 1. Problem Statement & Design Principles
-
-### Why Ad-Hoc / "LLM Memory" Additions Fail
-1. **Isolated "Island" Taxa:** Adding a single organism (e.g., only 1 hummingbird or 1 butterfly) breaks gameplay. When a player deduces the Family (e.g., *Trochilidae*), their logical next move is to guess another hummingbird. If no sister species exist in the dictionary, the game feels incomplete and frustrating.
-2. **Recognition Imbalance:** Uncurated taxonomy queries risk adding obscure micro-organisms (e.g., microscopic nematodes or deep-sea mites with no common names) that normal players cannot guess.
-3. **Nomenclature Inconsistencies:** Outdated synonyms or disputed common names break autocomplete and Wikipedia linking.
-
-### Core Architectural Principles
-- **The "No Island Species" Rule:** Every organism in the game must belong to a cluster of at least **3 to 8 recognizable species** within the same Family or Genus.
-- **Cultural & Educational Recognition:** Every candidate must pass a popularity filter (Wikipedia pageviews / iNaturalist observation counts).
-- **100% Cladistic & Temporal Integrity:** Every species must have a verified NCBI TaxID and peer-reviewed divergence time from TimeTree 5.
+**Document Version:** 2.0 (Unbounded Maximum Harvesting Edition)  
+**Target Database Expansion:** 344 ➔ **1,000+ Fully Calibrated Species**  
+**Core Directive:** **NO UPPER BOUND ON CLUSTER SIZE.** Grab *every* recognizable, valid organism available from authoritative biodiversity sources. Eliminate artificial caps and capture the full breadth of animal diversity so players can explore deep phylogenetic branches without hitting dead ends.
 
 ---
 
-## 2. Authoritative Data Sources for Scraping & Ingestion
+## 1. Core Principles: Comprehensive Depth, Zero Artificial Ceilings
 
-Instead of manual guessing, we will extract candidates programmatically from 5 authoritative biodiversity platforms:
-
-### A. iNaturalist Research API (`api.inaturalist.org/v1`)
-* **Endpoint:** `GET /observations/species_counts?taxon_id=35521&quality_grade=research`
-* **Purpose:** Queries the most observed wild animals in the world.
-* **Why it matters:** 
-  - Guarantees that every species has an official, widely used English common name.
-  - Ensures every animal is something real people observe and recognize (e.g., Blue Morpho, Anna's Hummingbird, Red-tailed Hawk).
-
-### B. Wikidata SPARQL Knowledge Graph (`query.wikidata.org`)
-* **Query Mechanism:** SPARQL endpoint querying instances of Taxon (`wdt:P31 wd:Q16521`) within Kingdom Animalia (`wdt:P171* wd:Q729`).
-* **Filtering Criteria:**
-  - Must have an English Wikipedia sitelink (`wikibase:sitelinks > 15`).
-  - Must have a verified NCBI TaxID property (`wdt:P685`).
-  - Sorted by monthly pageview count to filter out obscure scientific papers.
-
-### C. IUCN Red List Global Database API (`apiv3.iucnredlist.org`)
-* **Purpose:** Harvests high-profile, globally iconic species across conservation categories (Critically Endangered, Vulnerable, Least Concern).
-* **Why it matters:** Captures charismatic megafauna and famous conservation icons that players frequently search for (e.g., Axolotl, Snow Leopard, Vaquita, Leatherback Sea Turtle, Kakapo).
-
-### D. Wikipedia Zoology Portals & Featured Lists
-* **Scraping Targets:**
-  - Wikipedia: *List of birds by common name* / *List of hummingbird species*
-  - Wikipedia: *List of butterflies of North America and Europe*
-  - Wikipedia: *List of canids / List of felids / List of cetaceans*
-  - Wikipedia: *List of sharks / List of snakes*
-* **Extraction:** Programmatic regex/BeautifulSoup parser pulling `Common Name (Scientific Name)`.
-
-### E. Local NCBI Taxonomy & TimeTree Calibration (Already in Repository)
-* **Local NCBI Taxdump (`taxdump.tar.gz`):** Offline tree traversal via `ete3` to verify lineages, ranks (Kingdom, Phylum, Class, Order, Family, Genus), and Lowest Common Ancestor (LCA) nodes.
-* **TimeTree 5 (`timetree.org`):** Automated retrieval of median evolutionary divergence times in Millions of Years Ago (MYA).
+### Why Previous Limits Were Removed
+- **No Upper Bound:** Previous drafts suggested 3–8 species per cluster. This has been completely eliminated. If a family or genus has 15, 25, or 40 recognizable species (e.g., hummingbirds, butterflies, sharks, raptors, cetaceans, canids, wild cats), **we ingest every single one of them**.
+- **Minimum Cluster Threshold ($\ge 3$):** While there is no maximum, every family or genus must have at least 3 species to eliminate solitary "island species" where a player deduces a family but has no sister species to guess.
+- **Cultural & Educational Recognition Filter:** Every candidate must be a recognizable wild or domesticated animal with an established common name, supported by iNaturalist research-grade observation frequency and English Wikipedia pageviews. No unpronounceable micro-nematodes or microscopic mites.
+- **100% Cladistic & Temporal Integrity:** Every single species is cross-referenced with local NCBI Taxonomy (`NCBITaxa()`) and peer-reviewed TimeTree 5 divergence times.
 
 ---
 
-## 3. High-Priority Taxonomic Expansion Clusters
+## 2. Shifted 8-Tier Taxonomic Color & Square Emoji System
 
-The table below outlines the 10 core biodiversity clusters scheduled for expansion to achieve balanced gameplay:
+As requested, the rank colors and share squares have been shifted to an intuitive, high-contrast spectrum using solid square emojis:
 
-| Clade / Cluster | Current Count | Target Count | High-Priority Species to Harvest & Ingest |
-| :--- | :---: | :---: | :--- |
-| **1. Hummingbirds**<br>*(Trochilidae)* | 1 | **5** | • Anna's Hummingbird (*Calypte anna*)<br>• Rufous Hummingbird (*Selasphorus rufus*)<br>• Bee Hummingbird (*Mellisuga helenae*) [World's smallest bird]<br>• Sword-billed Hummingbird (*Ensifera ensifera*) |
-| **2. Butterflies & Moths**<br>*(Lepidoptera)* | 4 | **12** | • Blue Morpho (*Morpho peleides*)<br>• Painted Lady (*Vanessa cardui*)<br>• Peacock Butterfly (*Aglais io*)<br>• Zebra Longwing (*Heliconius charithonia*)<br>• Eastern Tiger Swallowtail (*Papilio glaucus*)<br>• Luna Moth (*Actias luna*)<br>• Death's-head Hawkmoth (*Acherontia atropos*)<br>• Peppered Moth (*Biston betularia*) |
-| **3. Birds of Prey & Owls**<br>*(Accipitriformes, Falconiformes, Strigiformes)* | 12 | **22** | • Harpy Eagle (*Harpia harpyja*)<br>• Golden Eagle (*Aquila chrysaetos*)<br>• Gyrfalcon (*Falco rusticolus*)<br>• Red-tailed Hawk (*Buteo jamaicensis*)<br>• Cooper's Hawk (*Accipiter cooperii*)<br>• Great Horned Owl (*Bubo virginianus*)<br>• Snowy Owl (*Bubo scandiacus*)<br>• Eurasian Eagle-Owl (*Bubo bubo*)<br>• Burrowing Owl (*Athene cunicularia*)<br>• Secretarybird (*Sagittarius serpentarius*) |
-| **4. Whales, Dolphins & Porpoises**<br>*(Cetacea)* | 9 | **18** | • Sperm Whale (*Physeter macrocephalus*)<br>• Narwhal (*Monodon monoceros*)<br>• Spinner Dolphin (*Stenella longirostris*)<br>• Amazon River Dolphin (*Inia geoffrensis*)<br>• Long-finned Pilot Whale (*Globicephala melas*)<br>• False Killer Whale (*Pseudorca crassidens*)<br>• Vaquita (*Phocoena sinus*)<br>• Commerson's Dolphin (*Cephalorhynchus commersonii*) |
-| **5. Bears & Canids**<br>*(Ursidae & Canidae)* | 13 | **22** | • Grizzly / Brown Bear (*Ursus arctos*)<br>• Polar Bear (*Ursus maritimus*)<br>• Gray Fox (*Urocyon cinereoargenteus*)<br>• Golden Jackal (*Canis aureus*)<br>• Maned Wolf (*Chrysocyon brachyurus*)<br>• Raccoon Dog / Tanuki (*Nyctereutes procyonoides*)<br>• Bush Dog (*Speothos venaticus*) |
-| **6. Wild Felines**<br>*(Felidae)* | 13 | **20** | • Snow Leopard (*Panthera uncia*)<br>• Bobcat (*Lynx rufus*)<br>• Canada Lynx (*Lynx canadensis*)<br>• Eurasian Lynx (*Lynx lynx*)<br>• Pallas's Cat (*Otocolobus manul*)<br>• Sand Cat (*Felis margarita*)<br>• Black-footed Cat (*Felis nigripes*) |
-| **7. Snakes**<br>*(Serpentes)* | 9 | **18** | • Black Mamba (*Dendroaspis polylepis*)<br>• Inland Taipan (*Oxyuranus microlepidotus*)<br>• Timber Rattlesnake (*Crotalus horridus*)<br>• Cottonmouth / Water Moccasin (*Agkistrodon piscivorus*)<br>• Copperhead (*Agkistrodon contortrix*)<br>• Boa Constrictor (*Boa constrictor*)<br>• Ball Python (*Python regius*)<br>• Eastern Milk Snake (*Lampropeltis triangulum*)<br>• Green Tree Python (*Morelia viridis*) |
-| **8. Sharks & Rays**<br>*(Chondrichthyes)* | 7 | **16** | • Tiger Shark (*Galeocerdo cuvier*)<br>• Bull Shark (*Carcharhinus leucas*)<br>• Shortfin Mako Shark (*Isurus oxyrinchus*)<br>• Thresher Shark (*Alopias vulpinus*)<br>• Basking Shark (*Cetorhinus maximus*)<br>• Greenland Shark (*Somniosus microcephalus*)<br>• Leopard Shark (*Triakis semifasciata*)<br>• Spotted Eagle Ray (*Aetobatus narinari*)<br>• Southern Stingray (*Hypanus americanus*) |
-| **9. Cephalopods & Marine Mollusks**<br>*(Cephalopoda)* | 8 | **15** | • Mimic Octopus (*Thaumoctopus mimicus*)<br>• Dumbo Octopus (*Grimpoteuthis*)<br>• Humboldt Squid (*Dosidicus gigas*)<br>• Bigfin Reef Squid (*Sepioteuthis lessoniana*)<br>• Flamboyant Cuttlefish (*Metasepia pfefferi*)<br>• Striped Pyjama Squid (*Sepioloidea lineolata*) |
-| **10. Primates**<br>*(Primates)* | 20 | **28** | • Hamadryas Baboon (*Papio hamadryas*)<br>• Olive Baboon (*Papio anubis*)<br>• White-faced Capuchin (*Cebus capucinus*)<br>• Cotton-top Tamarin (*Saguinus oedipus*)<br>• Ring-tailed Lemur (*Lemur catta*)<br>• Coquerel's Sifaka (*Propithecus coquereli*)<br>• Mouse Lemur (*Microcebus murinus*) |
-
----
-
-## 4. Technical Ingestion Pipeline Architecture
-
-```mermaid
-graph TD
-    A["iNaturalist & Wikidata APIs / Web Scrapers"] --> B["harvest_candidates.py<br>(Raw Candidate List)"]
-    B --> C["Taxonomic & Common Name Validation<br>(NCBI Taxdump + Wikipedia Check)"]
-    C --> D["Cluster Balancer & Filter<br>(Enforce 3-8 species per family)"]
-    D --> E["LCA Node Grouping<br>(~350 Unique Ancestor Nodes)"]
-    E --> F["TimeTree 5 Divergence Calibration<br>(Pairwise Median Times in MYA)"]
-    F --> G["Shard Generation Engine<br>(Symmetric JSON Shards in /data/)"]
-    G --> H["species_list.json & species_catalog.md Sync"]
+```
+[EXACT / HOT]                                                                        [DISTANT / COLD]
+🟩 Species  ➔  🟨 Genus  ➔  🟧 Family  ➔  🟥 Order  ➔  🟪 Class  ➔  🟦 Phylum  ➔  🟫 Kingdom  ➔  ⬛ Nothing
+ (0 MYA)       (~5 MYA)     (~30 MYA)     (~80 MYA)    (~310 MYA)    (~550 MYA)    (~680 MYA)     (Out of Tree)
 ```
 
-### Step-by-Step Implementation Workflow:
+| Rank / Closeness | Square Emoji | Color Name | Hex Accent | Meaning |
+| :--- | :---: | :--- | :--- | :--- |
+| **Species (Exact)** | `🟩` | Emerald Green | `#10b981` | Direct match! You deduced the secret organism (0 MYA). |
+| **Genus** | `🟨` | Golden Yellow | `#eab308` | Direct sister species in the same genus (~2–10 MYA). |
+| **Family** | `🟧` | Vibrant Orange | `#f97316` | Same family (e.g., Felidae, Canidae, Trochilidae) (~15–35 MYA). |
+| **Order** | `🟥` | Crimson Red | `#ef4444` | Same order (e.g., Carnivora, Primates, Lepidoptera) (~60–90 MYA). |
+| **Class** | `🟪` | Royal Purple | `#a855f7` | Same class (e.g., Mammals, Birds, Reptiles, Insects) (~150–320 MYA). |
+| **Phylum** | `🟦` | Sapphire Blue | `#3b82f6` | Same phylum (e.g., Chordates, Arthropods, Mollusks) (~520–580 MYA). |
+| **Kingdom** | `🟫` | Earth Brown | `#8b5cf6` / `#854d0e` | Animalia root (shared common ancestor >650 MYA). |
+| **Nothing Match** | `⬛` | Jet Black | `#1e293b` | Complete miss / unrelated / out-of-tree organism. |
 
-1. **Candidate Harvester (`scripts/harvest_candidates.py`):**
-   - Automatically hits iNaturalist and Wikipedia list pages.
-   - Extracts formatted pairs: `Common Name (Genus species)`.
-   - Filters by minimum Wikipedia article length and observation thresholds.
+### Incorporating the White Square (`⬜`)
+The Unicode standard provides the **White Large Square (`⬜`)**. Here are the three most natural, powerful ways to incorporate it into Phylogenle:
 
-2. **Taxonomic Validator (`scripts/validate_candidates.py`):**
-   - Resolves every scientific name against `NCBITaxa()`.
-   - Verifies the organism is an accepted species (rejects subspecies or fossil-only extinct taxa unless explicitly curated).
-   - Validates that a clean Wikipedia article exists with a valid thumbnail for tooltip preview.
+1. **Option A: The Surrender / "Gave Up" Flag in the Share Grid (Recommended):**
+   - In Wordle, winning lines end in `🟩`. In Phylogenle, if a player gives up and reveals the organism, the share sequence ends with a **White Square (`⬜`)** representing waving the white surrender flag!
+   - Solved in 4: `🟦🟥🟧🟩` (Victory!)
+   - Gave up on 4th guess: `🟦🟥🟧🟫⬜` (Revealed!)
+2. **Option B: Domain (Eukaryota / Universal Life Root):**
+   - Above Kingdom (`🟫`) sits Domain (`⬜` Eukaryota >1000 MYA), while `⬛` is absolute zero relation.
+3. **Option C: Empty / Unused Attempt Slots:**
+   - If playing in standard daily view, unused guess slots render as `⬜` tiles.
 
-3. **Cluster Balancer (`scripts/balance_clusters.py`):**
-   - Checks the distribution across Orders and Families.
-   - Flags any single-species "islands" and pulls sibling species from the same genus/family to reach minimum cluster depth.
+---
 
-4. **Tree Node Calibrator & Shard Generator (`scripts/build_shards.py`):**
-   - Groups all species pairs by their Lowest Common Ancestor (LCA) node.
-   - For any uncalibrated node, queries TimeTree API with reciprocal caching.
-   - Generates all `.json` shard files with symmetrical divergence times:
-     $$\text{Divergence}(A, B) \equiv \text{Divergence}(B, A)$$
-   - Updates `data/species_list.json`, `data/time_cache.json`, and `species_catalog.md`.
+## 3. Authoritative Scraping Sources: Maximizing Pool to 1,000+
+
+Rather than manual guessing, an automated multi-threaded harvester will ingest from 5 global sources:
+
+### A. iNaturalist Research-Grade API (`api.inaturalist.org/v1/observations/species_counts`)
+- **Query:** Top 5,000 research-grade observed species globally across Aves, Mammalia, Reptilia, Amphibia, Actinopterygii, Chondrichthyes, Insecta, Arachnida, Malacostraca, and Cephalopoda.
+- **Why:** Real wild observations by millions of naturalists ensure only recognizable, living, real-world species enter the dictionary.
+
+### B. Wikidata SPARQL Knowledge Graph (`query.wikidata.org`)
+- **Query:** All animal taxa (`wdt:P31 wd:Q16521` in `wdt:P171* wd:Q729`) with over 20 Wikipedia language sitelinks.
+- **Why:** Filters out obscure academic citations and selects culturally prominent animals with rich English Wikipedia articles for in-game hover cards.
+
+### C. IUCN Red List Global Species API (`apiv3.iucnredlist.org`)
+- **Query:** All Critically Endangered, Endangered, and Vulnerable mammals, birds, reptiles, and sharks.
+- **Why:** Captures famous global conservation icons (e.g., Axolotl, Pangolin, Vaquita, Kakapo, Mountain Gorilla, Gharial).
+
+### D. Comprehensive Wikipedia Clade Tables
+- Systematic extraction of complete clade tables:
+  - Complete list of Hummingbirds (*Trochilidae* — all 30+ famous species)
+  - Complete list of Swallowtails, Monarchs, and Silk Moths (*Papilionidae, Nymphalidae, Saturniidae*)
+  - Complete list of Birds of Prey, Owls, and Falcons (*Accipitriformes, Strigiformes, Falconiformes*)
+  - Complete list of Whales, Dolphins, and Porpoises (*Cetacea*)
+  - Complete list of Sharks and Rays (*Selachimorpha, Batoidea*)
+  - Complete list of Wild Canids, Felids, Bears, and Mustelids (*Carnivora*)
 
 ---
 
-## 5. Review & Sign-Off Checklist
+## 4. Unbounded Deep-Dive Clade Targets
 
-Before running the batch ingestion pipeline, review and approve:
-- [ ] **Cluster Targets:** Are the 10 selected groups balanced to your satisfaction?
-- [ ] **Exclusions:** Are there specific groups you want excluded (e.g. plants, fungi, bacteria remain excluded to keep game strictly animal-focused)?
-- [ ] **Target Pool Size:** Is 550–650 species the desired final database size?
-- [ ] **Square Emoji Scheme:** Selection of preferred emoji square mapping for the share grid.
+| Clade | Current Pool | Target Pool | Comprehensive Harvesting Scope |
+| :--- | :---: | :---: | :--- |
+| **Mammalia** | 148 | **~350+** | All Primates (apes, baboons, lemurs, tamarins, marmosets), all Carnivora (cats, dogs, bears, seals, otters, weasels, hyenas, civets), all Cetaceans (baleen whales, toothed whales, dolphins, porpoises), all Ungulates (deer, antelopes, cattle, horses, rhinos, tapirs), all Marsupials (kangaroos, wallabies, possums, bandicoots, quolls). |
+| **Aves (Birds)** | 57 | **~250+** | All Hummingbirds, all Birds of Prey (eagles, hawks, harriers, kites), all Owls (horned, barn, screech, snowy), all Waterfowl (ducks, geese, swans), all Parrots (macaws, cockatoos, lories, parakeets), all Seabirds (albatrosses, petrels, puffins, penguins), all Ratites (ostrich, emu, rhea, kiwi, cassowary), Corvid songbirds. |
+| **Reptiles** | 32 | **~120+** | All venomous snakes (cobras, mambas, vipers, rattlesnakes, taipans, kraits), all constrictors (anacondas, boas, pythons), all crocodilians (crocodiles, alligators, caimans, gharials), all sea turtles and tortoises, monitor lizards, chameleons, geckos, iguanas. |
+| **Fishes** | 33 | **~130+** | All major Sharks (Great White, Tiger, Bull, Hammerheads, Mako, Thresher, Basking, Whale, Greenland, Nurse, Leopard), all major Rays and Skates, pelagic game fish (tunas, billfish, marlins, swordfish), reef fish (angelfish, clownfish, tangs, butterflyfish), deep sea oddities (anglerfish, gulper eel, coelacanth). |
+| **Invertebrates** | 58 | **~150+** | Cephalopods (all octopuses, squids, cuttlefish, nautilus), Crustaceans (crabs, lobsters, shrimp, mantis shrimp), Insects (butterflies, moths, beetles, ants, bees, wasps, dragonflies, praying mantises), Arachnids (tarantulas, true spiders, scorpions), Cnidarians (jellyfish, anemones, corals), Echinoderms. |
+| **Amphibians** | 16 | **~50+** | Poison dart frogs, tree frogs, true toads, bullfrogs, glass frogs, axolotls, newts, giant salamanders, fire salamanders, hellbenders, caecilians. |
+| **TOTAL POOL** | **344** | **1,000+** | **Comprehensive, fully interconnected phylogenetic web.** |
 
 ---
-*Generated for Phylogenle development — Path: `/Users/amitjoshi2724/Desktop/phylogenle/SPECIES_EXPANSION_PLAN.md`*
+
+## 5. Automated Execution Pipeline
+
+1. **`scripts/harvest_all.py`**: Automated async scraping of iNaturalist + Wikidata + Wikipedia.
+2. **`scripts/filter_validate.py`**: Validation through `ete3.NCBITaxa()` ensuring exact TaxID matches and active Wikipedia summaries.
+3. **`scripts/generate_all_shards.py`**: Automated node-level LCA grouping with TimeTree 5 calibration. Generates all symmetric pairwise JSON shards in `/data/` in seconds.
+4. **`scripts/update_catalog.py`**: Auto-generates updated `species_list.json` and human-readable `species_catalog.md`.
+
+---
+*Blueprint approved for execution in Phylogenle codebase — Saved at: `/Users/amitjoshi2724/Desktop/phylogenle/SPECIES_EXPANSION_PLAN.md`*
