@@ -2399,5 +2399,12 @@
     "scientific": "Hypsibius exemplaris",
     "clade": "Invertebrates",
     "subclade": "Tardigrada (Water Bears)"
+  },
+  {
+    "display": "Swallowtail Butterfly (Papilio machaon)",
+    "common": "Swallowtail Butterfly",
+    "scientific": "Papilio machaon",
+    "clade": "Invertebrates",
+    "subclade": "Arthropoda - Insecta (Lepidoptera)"
   }
 ]

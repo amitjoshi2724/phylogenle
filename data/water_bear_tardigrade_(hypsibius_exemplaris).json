@@ -1713,5 +1713,10 @@
     "time": 0.0,
     "rank": "Species",
     "lca_name": "Hypsibius exemplaris"
+  },
+  "swallowtail butterfly (papilio machaon)": {
+    "time": 682.0,
+    "rank": "Kingdom",
+    "lca_name": "Metazoa"
   }
 }

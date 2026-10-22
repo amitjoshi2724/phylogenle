@@ -1713,5 +1713,10 @@
     "time": 682.0,
     "rank": "Kingdom",
     "lca_name": "Metazoa"
+  },
+  "swallowtail butterfly (papilio machaon)": {
+    "time": 383.0,
+    "rank": "Class",
+    "lca_name": "Insecta"
   }
 }

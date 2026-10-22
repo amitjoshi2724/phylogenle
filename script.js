@@ -213,12 +213,7 @@ function bootPhylogenle() {
 
         const endEmojisRow = document.getElementById('end-emojis-row');
         if (endEmojisRow && record.guesses && record.guesses.length > 0) {
-            const emojis = record.guesses.map(g => {
-                if (g.isMatch) return '🟩';
-                if (g.lca_rank === 'Genus' || g.lca_rank === 'Family' || (g.tmrca > 0 && g.tmrca <= 30)) return '🟨';
-                if (g.lca_rank === 'Order' || g.lca_rank === 'Class' || (g.tmrca > 30 && g.tmrca <= 100)) return '🟧';
-                return '🟦';
-            }).join('');
+            const emojis = record.guesses.map(g => getGuessRankEmoji(g)).join('');
             endEmojisRow.textContent = emojis;
         }
         gameEndPanel.classList.remove('hidden');
@@ -419,17 +414,87 @@ function bootPhylogenle() {
         }
     }
 
+    function getGuessRankEmoji(g) {
+        if (g.isMatch || g.lca_rank === 'Species') return '🟩';
+        const r = g.lca_rank;
+        if (r === 'Genus') return '🟢'; // Yellow-green / lime
+        if (r === 'Family') return '🟨';
+        if (r === 'Order') return '🟧';
+        if (r === 'Class') return '🟥';
+        if (r === 'Phylum') return '🟪';
+        return '🟦'; // Kingdom / Metazoa
+    }
+
     function getClosenessInfo(data, isMatch) {
-        if (isMatch) {
-            return { emoji: '🟩', label: 'Exact Match (0 MYA)', shortLabel: 'Exact', cssClass: 'closeness-exact' };
+        if (isMatch || data.rank === 'Species') {
+            return {
+                rank: 'Species',
+                emoji: '🟩',
+                label: 'Exact Match (0 MYA)',
+                shortLabel: 'Exact Match',
+                cssClass: 'closeness-species',
+                squareClass: 'square-species'
+            };
         }
-        if (data.rank === 'Genus' || data.rank === 'Family' || (data.time > 0 && data.time <= 30)) {
-            return { emoji: '🟨', label: 'Close Relative (≤30 MYA • Genus/Family)', shortLabel: 'Close', cssClass: 'closeness-close' };
+        const r = data.rank;
+        if (r === 'Genus') {
+            return {
+                rank: 'Genus',
+                emoji: '🟢',
+                label: 'Same Genus (Sister species)',
+                shortLabel: 'Genus',
+                cssClass: 'closeness-genus',
+                squareClass: 'square-genus'
+            };
         }
-        if (data.rank === 'Order' || data.rank === 'Class' || (data.time > 30 && data.time <= 100)) {
-            return { emoji: '🟧', label: 'Moderate Relative (30-100 MYA • Order/Class)', shortLabel: 'Moderate', cssClass: 'closeness-moderate' };
+        if (r === 'Family') {
+            return {
+                rank: 'Family',
+                emoji: '🟨',
+                label: 'Same Family',
+                shortLabel: 'Family',
+                cssClass: 'closeness-family',
+                squareClass: 'square-family'
+            };
         }
-        return { emoji: '🟦', label: 'Distant Relative (>100 MYA • Phylum/Kingdom)', shortLabel: 'Distant', cssClass: 'closeness-distant' };
+        if (r === 'Order') {
+            return {
+                rank: 'Order',
+                emoji: '🟧',
+                label: 'Same Order',
+                shortLabel: 'Order',
+                cssClass: 'closeness-order',
+                squareClass: 'square-order'
+            };
+        }
+        if (r === 'Class') {
+            return {
+                rank: 'Class',
+                emoji: '🟥',
+                label: 'Same Class',
+                shortLabel: 'Class',
+                cssClass: 'closeness-class',
+                squareClass: 'square-class'
+            };
+        }
+        if (r === 'Phylum') {
+            return {
+                rank: 'Phylum',
+                emoji: '🟪',
+                label: 'Same Phylum',
+                shortLabel: 'Phylum',
+                cssClass: 'closeness-phylum',
+                squareClass: 'square-phylum'
+            };
+        }
+        return {
+            rank: 'Kingdom',
+            emoji: '🟦',
+            label: 'Same Kingdom',
+            shortLabel: 'Kingdom',
+            cssClass: 'closeness-kingdom',
+            squareClass: 'square-kingdom'
+        };
     }
 
     function addGuessToBoard(guessName, wikiTitle, data, isMatch) {
@@ -443,11 +508,13 @@ function bootPhylogenle() {
 
         row.innerHTML = `
             <div class="guess-main-info">
-                <span class="closeness-pill ${closeness.cssClass}" title="${closeness.label}">${closeness.emoji} ${closeness.shortLabel}</span>
+                <span class="closeness-pill ${closeness.cssClass}" title="${closeness.label}">
+                    <span class="rank-square-icon ${closeness.squareClass}"></span> ${closeness.shortLabel}
+                </span>
                 <span class="guess-name ${matchClass} taxa-link">${guessName}</span>
             </div>
             <div class="guess-feedback">
-                <span class="feedback-badge feedback-time ${matchClass}" title="TMRCA = Time to Most Recent Common Ancestor">TMRCA: ${timeStr}</span>
+                <span class="feedback-badge feedback-time ${matchClass}" title="Estimated evolutionary divergence time">Diverged: ${timeStr}</span>
                 <span class="feedback-badge feedback-rank ${matchClass} taxa-link" data-taxa="${lcaName}">${data.rank}: ${lcaName}</span>
             </div>
         `;
@@ -478,12 +545,7 @@ function bootPhylogenle() {
 
         const endEmojisRow = document.getElementById('end-emojis-row');
         if (endEmojisRow) {
-            const emojis = guesses.map(g => {
-                if (g.isMatch) return '🟩';
-                if (g.lca_rank === 'Genus' || g.lca_rank === 'Family' || (g.tmrca > 0 && g.tmrca <= 30)) return '🟨';
-                if (g.lca_rank === 'Order' || g.lca_rank === 'Class' || (g.tmrca > 30 && g.tmrca <= 100)) return '🟧';
-                return '🟦';
-            }).join('');
+            const emojis = guesses.map(g => getGuessRankEmoji(g)).join('');
             endEmojisRow.textContent = emojis;
         }
 
@@ -1146,12 +1208,7 @@ function bootPhylogenle() {
         const count = guesses.length;
 
         // Emoji feedback row
-        const emojis = guesses.slice(0, 10).map(g => {
-            if (g.isMatch) return '🟩';
-            if (g.lca_rank === 'Genus' || g.lca_rank === 'Family' || (g.tmrca > 0 && g.tmrca <= 30)) return '🟨';
-            if (g.lca_rank === 'Order' || g.lca_rank === 'Class' || (g.tmrca > 30 && g.tmrca <= 100)) return '🟧';
-            return '🟦';
-        }).join('');
+        const emojis = guesses.slice(0, 10).map(g => getGuessRankEmoji(g)).join('');
 
         const shareText = `Phylogenle #${puzzleNum} 🧬\n` +
             `${isSolved ? `Solved in ${count} guess${count === 1 ? '' : 'es'}!` : 'Revealed'}\n` +

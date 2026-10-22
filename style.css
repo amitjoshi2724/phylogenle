@@ -430,22 +430,34 @@ input[type="text"]:focus {
     background: var(--accent-color);
 }
 
-/* --- Closeness Color System & Badges --- */
-.guess-row.closeness-exact {
+/* --- 7-Rank Taxonomic Color System & Badges --- */
+.guess-row.closeness-species, .guess-row.closeness-exact {
     border-left: 4px solid #10b981;
-    background: linear-gradient(90deg, rgba(16, 185, 129, 0.15) 0%, var(--glass-bg) 100%);
+    background: linear-gradient(90deg, rgba(16, 185, 129, 0.16) 0%, var(--glass-bg) 100%);
 }
-.guess-row.closeness-close {
+.guess-row.closeness-genus {
+    border-left: 4px solid #84cc16;
+    background: linear-gradient(90deg, rgba(132, 204, 22, 0.16) 0%, var(--glass-bg) 100%);
+}
+.guess-row.closeness-family, .guess-row.closeness-close {
     border-left: 4px solid #eab308;
-    background: linear-gradient(90deg, rgba(234, 179, 8, 0.12) 0%, var(--glass-bg) 100%);
+    background: linear-gradient(90deg, rgba(234, 179, 8, 0.14) 0%, var(--glass-bg) 100%);
 }
-.guess-row.closeness-moderate {
+.guess-row.closeness-order, .guess-row.closeness-moderate {
     border-left: 4px solid #f97316;
-    background: linear-gradient(90deg, rgba(249, 115, 22, 0.12) 0%, var(--glass-bg) 100%);
+    background: linear-gradient(90deg, rgba(249, 115, 22, 0.14) 0%, var(--glass-bg) 100%);
 }
-.guess-row.closeness-distant {
+.guess-row.closeness-class {
+    border-left: 4px solid #ef4444;
+    background: linear-gradient(90deg, rgba(239, 68, 68, 0.14) 0%, var(--glass-bg) 100%);
+}
+.guess-row.closeness-phylum {
+    border-left: 4px solid #a855f7;
+    background: linear-gradient(90deg, rgba(168, 85, 247, 0.14) 0%, var(--glass-bg) 100%);
+}
+.guess-row.closeness-kingdom, .guess-row.closeness-distant {
     border-left: 4px solid #3b82f6;
-    background: linear-gradient(90deg, rgba(59, 130, 246, 0.08) 0%, var(--glass-bg) 100%);
+    background: linear-gradient(90deg, rgba(59, 130, 246, 0.12) 0%, var(--glass-bg) 100%);
 }
 
 .guess-main-info {
@@ -456,10 +468,27 @@ input[type="text"]:focus {
     min-width: 0;
 }
 
+/* In-game Rank Square Icons */
+.rank-square-icon {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 2px;
+    flex-shrink: 0;
+    vertical-align: middle;
+}
+.rank-square-icon.square-species { background: #10b981; box-shadow: 0 0 6px rgba(16, 185, 129, 0.7); }
+.rank-square-icon.square-genus   { background: #84cc16; box-shadow: 0 0 6px rgba(132, 204, 22, 0.7); }
+.rank-square-icon.square-family  { background: #eab308; box-shadow: 0 0 6px rgba(234, 179, 8, 0.7); }
+.rank-square-icon.square-order   { background: #f97316; box-shadow: 0 0 6px rgba(249, 115, 22, 0.7); }
+.rank-square-icon.square-class   { background: #ef4444; box-shadow: 0 0 6px rgba(239, 68, 68, 0.7); }
+.rank-square-icon.square-phylum  { background: #a855f7; box-shadow: 0 0 6px rgba(168, 85, 247, 0.7); }
+.rank-square-icon.square-kingdom { background: #3b82f6; box-shadow: 0 0 6px rgba(59, 130, 246, 0.7); }
+
 .closeness-pill {
     display: inline-flex;
     align-items: center;
-    gap: 4px;
+    gap: 6px;
     padding: 0.22rem 0.55rem;
     border-radius: 6px;
     font-size: 0.74rem;
@@ -469,25 +498,40 @@ input[type="text"]:focus {
     text-transform: uppercase;
 }
 
-.closeness-pill.closeness-exact {
+.closeness-pill.closeness-species, .closeness-pill.closeness-exact {
     background: rgba(16, 185, 129, 0.2);
     color: #34d399;
-    border: 1px solid rgba(16, 185, 129, 0.4);
+    border: 1px solid rgba(16, 185, 129, 0.45);
 }
-.closeness-pill.closeness-close {
+.closeness-pill.closeness-genus {
+    background: rgba(132, 204, 22, 0.2);
+    color: #bef264;
+    border: 1px solid rgba(132, 204, 22, 0.45);
+}
+.closeness-pill.closeness-family, .closeness-pill.closeness-close {
     background: rgba(234, 179, 8, 0.2);
     color: #fde047;
-    border: 1px solid rgba(234, 179, 8, 0.4);
+    border: 1px solid rgba(234, 179, 8, 0.45);
 }
-.closeness-pill.closeness-moderate {
+.closeness-pill.closeness-order, .closeness-pill.closeness-moderate {
     background: rgba(249, 115, 22, 0.2);
     color: #fb923c;
-    border: 1px solid rgba(249, 115, 22, 0.4);
+    border: 1px solid rgba(249, 115, 22, 0.45);
 }
-.closeness-pill.closeness-distant {
+.closeness-pill.closeness-class {
+    background: rgba(239, 68, 68, 0.2);
+    color: #fca5a5;
+    border: 1px solid rgba(239, 68, 68, 0.45);
+}
+.closeness-pill.closeness-phylum {
+    background: rgba(168, 85, 247, 0.2);
+    color: #d8b4fe;
+    border: 1px solid rgba(168, 85, 247, 0.45);
+}
+.closeness-pill.closeness-kingdom, .closeness-pill.closeness-distant {
     background: rgba(59, 130, 246, 0.2);
     color: #93c5fd;
-    border: 1px solid rgba(59, 130, 246, 0.4);
+    border: 1px solid rgba(59, 130, 246, 0.45);
 }
 
 .end-emojis-display {
