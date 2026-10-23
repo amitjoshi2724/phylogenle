@@ -28833,3 +28833,5 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Long-tailed Silverfish | *Ctenolepisma longicaudatum* |
 
 ---
+
+| Dumbo Octopus | *Grimpoteuthis discoveryi* |
