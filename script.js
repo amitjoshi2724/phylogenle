@@ -154,8 +154,8 @@ function bootPhylogenle() {
                 }
 
                 const [speciesResp, treeResp] = await Promise.all([
-                    allSpecies.length === 0 ? fetch('data/species_list.json?v=tree_6') : Promise.resolve(null),
-                    !phylogenyTree ? fetch('data/phylogeny_tree.json?v=tree_6') : Promise.resolve(null)
+                    allSpecies.length === 0 ? fetch('data/species_list.json?v=tree_7') : Promise.resolve(null),
+                    !phylogenyTree ? fetch('data/phylogeny_tree.json?v=tree_7') : Promise.resolve(null)
                 ]);
 
                 if (speciesResp) {
@@ -399,27 +399,47 @@ function bootPhylogenle() {
         if (guessKey === targetKey) {
             const latinMatch = guess.match(/\((.*?)\)/);
             const sci = latinMatch ? latinMatch[1] : guess;
-            return { time: 0.0, rank: "Species", lca_name: sci, major_name: sci };
+            return { time: 0.0, rank: "Species", lca_name: sci, major_name: sci, major_rank: "Species", major_time: 0.0 };
         }
         if (phylogenyTree && phylogenyTree.species && phylogenyTree.nodes) {
             const linG = phylogenyTree.species[guessKey];
             const linT = phylogenyTree.species[targetKey];
             if (linG && linT) {
                 let lca = linG[0];
+                const common = [];
                 const maxLen = Math.min(linG.length, linT.length);
                 for (let i = 0; i < maxLen; i++) {
                     if (linG[i] === linT[i]) {
                         lca = linG[i];
+                        common.push(lca);
                     } else {
                         break;
                     }
                 }
                 const node = phylogenyTree.nodes[lca] || { time: 50.0, rank: "Class", name: "Chordata", major_name: "Chordata" };
+
+                let majorNode = null;
+                if (node.major_name && node.major_name !== node.name) {
+                    for (let i = common.length - 1; i >= 0; i--) {
+                        const anc = phylogenyTree.nodes[common[i]];
+                        if (anc && (anc.name === node.major_name || (anc.name === 'Metazoa' && node.major_name === 'Animalia'))) {
+                            majorNode = {
+                                name: node.major_name,
+                                rank: anc.rank,
+                                time: anc.time
+                            };
+                            break;
+                        }
+                    }
+                }
+
                 return {
                     time: node.time,
                     rank: node.rank,
                     lca_name: node.name,
-                    major_name: node.major_name || node.name
+                    major_name: node.major_name || node.name,
+                    major_rank: majorNode ? majorNode.rank : node.rank,
+                    major_time: majorNode ? majorNode.time : (node.time * 1.5)
                 };
             }
         }
@@ -429,7 +449,9 @@ function bootPhylogenle() {
                 time: td.time,
                 rank: td.rank,
                 lca_name: td.lca_name,
-                major_name: td.major_name || td.lca_name || td.rank
+                major_name: td.major_name || td.lca_name || td.rank,
+                major_rank: td.rank,
+                major_time: td.time * 1.5
             };
         }
         return null;
@@ -486,6 +508,8 @@ function bootPhylogenle() {
             lca_rank: data.rank,
             lca_name: data.lca_name || data.rank,
             major_name: data.major_name || data.lca_name || data.rank,
+            major_rank: data.major_rank || data.rank,
+            major_time: data.major_time !== undefined ? data.major_time : data.time,
             tmrca: data.time,
             isMatch: isMatch
         };
@@ -879,11 +903,34 @@ function bootPhylogenle() {
             return;
         }
 
-        let root = null;
-        let prevLCA = null;
+        const trunkMap = new Map();
 
         sortedGuesses.forEach(g => {
             if (g.isMatch) return;
+            // 1. Major Linnaean rank node (e.g. Mammalia, Carnivora, Chordata)
+            if (g.major_name && g.major_name !== g.lca_name && g.major_name !== 'Unknown' && g.major_name !== 'root') {
+                if (!trunkMap.has(g.major_name)) {
+                    trunkMap.set(g.major_name, {
+                        name: g.major_name,
+                        rank: g.major_rank || g.lca_rank,
+                        time: g.major_time !== undefined ? g.major_time : (g.tmrca * 1.5),
+                        isTrunk: true,
+                        guessChildren: []
+                    });
+                }
+            }
+
+            // 2. Specific LCA subclade node (e.g. Boreoeutheria, Caniformia)
+            if (!trunkMap.has(g.lca_name)) {
+                trunkMap.set(g.lca_name, {
+                    name: g.lca_name,
+                    rank: g.lca_rank,
+                    time: g.tmrca,
+                    isTrunk: true,
+                    guessChildren: []
+                });
+            }
+
             const commonName = g.name.split(' (')[0];
             const guessEmoji = getGuessRankEmoji(g);
             const guessNode = {
@@ -893,36 +940,36 @@ function bootPhylogenle() {
                 rank: 'Species',
                 emoji: guessEmoji
             };
-
-            if (!prevLCA || prevLCA.name !== g.lca_name) {
-                const newLCA = {
-                    name: g.lca_name,
-                    rank: g.lca_rank,
-                    isTrunk: true,
-                    children: [guessNode]
-                };
-                if (prevLCA) {
-                    prevLCA.children.push(newLCA);
-                } else {
-                    root = newLCA;
-                }
-                prevLCA = newLCA;
-            } else {
-                prevLCA.children.push(guessNode);
-            }
+            trunkMap.get(g.lca_name).guessChildren.push(guessNode);
         });
 
-        if (!root) {
-            root = {
-                name: sortedGuesses[0].lca_name || "Animalia",
-                rank: sortedGuesses[0].lca_rank || "Kingdom",
+        const trunkList = Array.from(trunkMap.values()).sort((a, b) => {
+            const tA = a.time === -1 ? Infinity : a.time;
+            const tB = b.time === -1 ? Infinity : b.time;
+            return tB - tA;
+        });
+
+        if (trunkList.length === 0) {
+            drawTree({
+                name: "Animalia",
+                rank: "Kingdom",
                 isTrunk: true,
                 children: [mysteryNode]
-            };
-        } else {
-            prevLCA.children.push(mysteryNode);
+            });
+            return;
         }
 
+        for (let i = 0; i < trunkList.length; i++) {
+            const cur = trunkList[i];
+            cur.children = [...cur.guessChildren];
+            if (i + 1 < trunkList.length) {
+                cur.children.push(trunkList[i + 1]);
+            } else {
+                cur.children.push(mysteryNode);
+            }
+        }
+
+        let root = trunkList[0];
         if (root.name !== "Metazoa" && root.name !== "Animalia") {
             root = { name: "Animalia", rank: "Kingdom", isTrunk: true, children: [root] };
         }
