@@ -506,8 +506,8 @@ function bootPhylogenle() {
             return {
                 rank: 'Species',
                 emoji: '🟩',
-                label: 'Exact Match (0 MYA)',
-                shortLabel: 'Exact Match',
+                label: 'Species (Match) (0 MYA)',
+                shortLabel: 'Species (Match)',
                 cssClass: 'closeness-species',
                 squareClass: 'square-species'
             };
@@ -589,22 +589,22 @@ function bootPhylogenle() {
         row.className = `guess-row ${closeness.cssClass}`;
         const matchClass = isMatch ? 'match-exact' : '';
 
-        const timeStr = data.time === 0 ? "Exact Match" : (data.time === -1.0 ? "Unknown (>500 MYA)" : `${data.time.toFixed(1)} MYA`);
+        const timeStr = data.time === 0 ? "0.0 MYA (Match)" : (data.time === -1.0 ? "Unknown (>500 MYA)" : `${data.time.toFixed(1)} MYA`);
         const lcaName = data.lca_name || data.rank;
 
         // Primary: Unicode square emoji; Fallback: CSS rank-square-icon
         const iconHtml = closeness.emoji || `<span class="rank-square-icon ${closeness.squareClass}"></span>`;
 
         row.innerHTML = `
-            <div class="guess-main-info">
+            <div class="guess-header">
+                <span class="guess-name ${matchClass} taxa-link">${guessName}</span>
+            </div>
+            <div class="guess-subrow">
                 <span class="closeness-pill ${closeness.cssClass}" title="${closeness.label}">
                     ${iconHtml} ${closeness.shortLabel}
                 </span>
-                <span class="guess-name ${matchClass} taxa-link">${guessName}</span>
-            </div>
-            <div class="guess-feedback">
-                <span class="feedback-badge feedback-time ${matchClass}" title="Estimated evolutionary divergence time">Diverged: ${timeStr}</span>
                 <span class="feedback-badge feedback-rank ${matchClass} taxa-link" data-taxa="${lcaName}">${data.rank}: ${lcaName}</span>
+                <span class="feedback-badge feedback-time ${matchClass}" title="Estimated evolutionary divergence time">Diverged: ${timeStr}</span>
             </div>
         `;
 
@@ -632,15 +632,15 @@ function bootPhylogenle() {
         const row = document.createElement('div');
         row.className = 'guess-row closeness-surrender';
         row.innerHTML = `
-            <div class="guess-main-info">
+            <div class="guess-header">
+                <span class="guess-name match-exact taxa-link">${species}</span>
+            </div>
+            <div class="guess-subrow">
                 <span class="closeness-pill closeness-surrender" title="Organism Revealed">
                     ⬜ Revealed
                 </span>
-                <span class="guess-name match-exact taxa-link">${species}</span>
-            </div>
-            <div class="guess-feedback">
-                <span class="feedback-badge feedback-time match-exact">Gave Up</span>
                 <span class="feedback-badge feedback-rank match-exact taxa-link" data-taxa="${commonName}">Target Organism</span>
+                <span class="feedback-badge feedback-time match-exact">Gave Up</span>
             </div>
         `;
         const nameSpan = row.querySelector('.guess-name');
