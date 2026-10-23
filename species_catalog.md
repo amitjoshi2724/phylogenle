@@ -174,6 +174,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Dama Gazelle | *Nanger dama* |
 | Desert Warthog | *Phacochoerus aethiopicus* |
 | Domestic Cow | *Bos taurus* |
+| Ox | *Bos taurus* |
 | Domestic Goat | *Capra hircus* |
 | Domestic Pig | *Sus scrofa domesticus* |
 | Domestic Sheep | *Ovis aries* |

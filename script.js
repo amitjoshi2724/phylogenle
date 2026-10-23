@@ -274,22 +274,43 @@ function bootPhylogenle() {
         let listHTML = '';
         let matchCount = 0;
         
-        for (const species of allSpecies) {
-            if (!val || species.toLowerCase().includes(val)) {
-                let displayHtml = species;
-                if (val) {
-                    const idx = species.toLowerCase().indexOf(val);
-                    displayHtml = species.substring(0, idx) + "<strong>" + species.substring(idx, idx + val.length) + "</strong>" + species.substring(idx + val.length);
+        if (!val) {
+            for (const species of allSpecies) {
+                listHTML += `<li class="autocomplete-item" data-value="${species}">${species}</li>`;
+                if (++matchCount >= 40) break;
+            }
+        } else {
+            const startsWith = [];
+            const wordMatch = [];
+            const subMatch = [];
+
+            for (const species of allSpecies) {
+                const sLower = species.toLowerCase();
+                const idx = sLower.indexOf(val);
+                if (idx === -1) continue;
+
+                if (idx === 0) {
+                    startsWith.push(species);
+                } else if (sLower[idx - 1] === ' ' || sLower[idx - 1] === '(' || sLower[idx - 1] === '-') {
+                    wordMatch.push(species);
+                } else {
+                    subMatch.push(species);
                 }
+            }
+
+            const candidates = [...startsWith, ...wordMatch, ...subMatch];
+            for (const species of candidates) {
+                const idx = species.toLowerCase().indexOf(val);
+                const displayHtml = species.substring(0, idx) + "<strong>" + species.substring(idx, idx + val.length) + "</strong>" + species.substring(idx + val.length);
                 
                 if (guessedSet.has(species.toLowerCase())) {
                     listHTML += `<li class="autocomplete-item guessed-item" style="opacity: 0.45; pointer-events: none; cursor: default;" data-value="${species}">${displayHtml} (Already Guessed)</li>`;
                 } else {
                     listHTML += `<li class="autocomplete-item" data-value="${species}">${displayHtml}</li>`;
                 }
-                matchCount++;
-                if (matchCount >= 40) break; // Keep list snappy
+                if (++matchCount >= 40) break;
             }
+        }
         }
         
         if (listHTML) {
