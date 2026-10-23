@@ -311,7 +311,6 @@ function bootPhylogenle() {
                 if (++matchCount >= 40) break;
             }
         }
-        }
         
         if (listHTML) {
             autocompleteList.innerHTML = listHTML;
