@@ -168,18 +168,23 @@ def add_species(common, scientific):
             found_rank = "Unknown"
             actual_name = ncbi.get_taxid_translator([nid]).get(nid, "Unknown")
             found_name = actual_name
+            major_name = actual_name
             lin_nid = ncbi.get_lineage(nid)
             for t in reversed(lin_nid):
                 r = ncbi.get_rank([t]).get(t, "")
                 if r in MAJOR_RANKS:
                     found_rank = r.capitalize()
+                    major_name = ncbi.get_taxid_translator([t]).get(t, major_name)
                     if found_name == "Unknown":
-                        found_name = ncbi.get_taxid_translator([t]).get(t, found_name)
+                        found_name = major_name
                     break
+            if major_name == "Metazoa":
+                major_name = "Animalia"
 
             tree["nodes"][nid_str] = {
                 "rank": found_rank,
                 "name": found_name,
+                "major_name": major_name,
                 "time": node_time
             }
             new_nodes_calibrated += 1

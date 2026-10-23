@@ -154,8 +154,8 @@ function bootPhylogenle() {
                 }
 
                 const [speciesResp, treeResp] = await Promise.all([
-                    allSpecies.length === 0 ? fetch('data/species_list.json') : Promise.resolve(null),
-                    !phylogenyTree ? fetch('data/phylogeny_tree.json') : Promise.resolve(null)
+                    allSpecies.length === 0 ? fetch('data/species_list.json?v=tree_6') : Promise.resolve(null),
+                    !phylogenyTree ? fetch('data/phylogeny_tree.json?v=tree_6') : Promise.resolve(null)
                 ]);
 
                 if (speciesResp) {
@@ -201,7 +201,12 @@ function bootPhylogenle() {
                         const guessKey = g.name.toLowerCase();
                         guessedSet.add(guessKey);
                         guesses.push(g);
-                        addGuessToBoard(g.name, g.wikiTitle, { rank: g.lca_rank, lca_name: g.lca_name, time: g.tmrca }, g.isMatch);
+                        addGuessToBoard(g.name, g.wikiTitle, {
+                    rank: g.lca_rank,
+                    lca_name: g.lca_name,
+                    major_name: g.major_name || g.lca_name,
+                    time: g.tmrca
+                }, g.isMatch);
                     });
                     updateTree();
                     return;
@@ -242,7 +247,12 @@ function bootPhylogenle() {
                 const guessKey = g.name.toLowerCase();
                 guessedSet.add(guessKey);
                 guesses.push(g);
-                addGuessToBoard(g.name, g.wikiTitle, { rank: g.lca_rank, lca_name: g.lca_name, time: g.tmrca }, g.isMatch);
+                addGuessToBoard(g.name, g.wikiTitle, {
+                    rank: g.lca_rank,
+                    lca_name: g.lca_name,
+                    major_name: g.major_name || g.lca_name,
+                    time: g.tmrca
+                }, g.isMatch);
             });
             if (!record.solved) {
                 addSurrenderRow(record.targetSpecies || targetSpecies);
@@ -277,7 +287,7 @@ function bootPhylogenle() {
         if (!val) {
             for (const species of allSpecies) {
                 listHTML += `<li class="autocomplete-item" data-value="${species}">${species}</li>`;
-                if (++matchCount >= 40) break;
+                if (++matchCount >= 60) break;
             }
         } else {
             const startsWith = [];
@@ -308,7 +318,7 @@ function bootPhylogenle() {
                 } else {
                     listHTML += `<li class="autocomplete-item" data-value="${species}">${displayHtml}</li>`;
                 }
-                if (++matchCount >= 40) break;
+                if (++matchCount >= 80) break;
             }
         }
         
@@ -388,7 +398,8 @@ function bootPhylogenle() {
         const targetKey = target.toLowerCase();
         if (guessKey === targetKey) {
             const latinMatch = guess.match(/\((.*?)\)/);
-            return { time: 0.0, rank: "Species", lca_name: latinMatch ? latinMatch[1] : guess };
+            const sci = latinMatch ? latinMatch[1] : guess;
+            return { time: 0.0, rank: "Species", lca_name: sci, major_name: sci };
         }
         if (phylogenyTree && phylogenyTree.species && phylogenyTree.nodes) {
             const linG = phylogenyTree.species[guessKey];
@@ -403,16 +414,23 @@ function bootPhylogenle() {
                         break;
                     }
                 }
-                const node = phylogenyTree.nodes[lca] || { time: 50.0, rank: "Class", name: "Chordata" };
+                const node = phylogenyTree.nodes[lca] || { time: 50.0, rank: "Class", name: "Chordata", major_name: "Chordata" };
                 return {
                     time: node.time,
                     rank: node.rank,
-                    lca_name: node.name
+                    lca_name: node.name,
+                    major_name: node.major_name || node.name
                 };
             }
         }
         if (targetData && targetData[guessKey]) {
-            return targetData[guessKey];
+            const td = targetData[guessKey];
+            return {
+                time: td.time,
+                rank: td.rank,
+                lca_name: td.lca_name,
+                major_name: td.major_name || td.lca_name || td.rank
+            };
         }
         return null;
     }
@@ -467,6 +485,7 @@ function bootPhylogenle() {
             wikiTitle: wikiTitle,
             lca_rank: data.rank,
             lca_name: data.lca_name || data.rank,
+            major_name: data.major_name || data.lca_name || data.rank,
             tmrca: data.time,
             isMatch: isMatch
         };
@@ -590,6 +609,16 @@ function bootPhylogenle() {
 
         const timeStr = data.time === 0 ? "0.0 MYA (Match)" : (data.time === -1.0 ? "Unknown (>500 MYA)" : `${data.time.toFixed(1)} MYA`);
         const lcaName = data.lca_name || data.rank;
+        const majorName = data.major_name || lcaName;
+
+        let rankBadgeText = `${data.rank}: ${lcaName}`;
+        if (isMatch || data.rank === 'Species') {
+            rankBadgeText = `Species: ${lcaName}`;
+        } else if (majorName && majorName !== lcaName && majorName !== 'Unknown' && lcaName !== 'Unknown') {
+            rankBadgeText = `${data.rank}: ${majorName} (${lcaName})`;
+        } else if (majorName && majorName !== 'Unknown') {
+            rankBadgeText = `${data.rank}: ${majorName}`;
+        }
 
         // Primary: Unicode square emoji; Fallback: CSS rank-square-icon
         const iconHtml = closeness.emoji || `<span class="rank-square-icon ${closeness.squareClass}"></span>`;
@@ -602,7 +631,7 @@ function bootPhylogenle() {
                 <span class="closeness-pill ${closeness.cssClass}" title="${closeness.label}">
                     ${iconHtml} ${closeness.shortLabel}
                 </span>
-                <span class="feedback-badge feedback-rank ${matchClass} taxa-link" data-taxa="${lcaName}">${data.rank}: ${lcaName}</span>
+                <span class="feedback-badge feedback-rank ${matchClass} taxa-link" data-taxa="${lcaName}">${rankBadgeText}</span>
                 <span class="feedback-badge feedback-time ${matchClass}" title="Estimated evolutionary divergence time">Diverged: ${timeStr}</span>
             </div>
         `;
@@ -901,31 +930,69 @@ function bootPhylogenle() {
         drawTree(root);
     }
 
+    let lastRenderedTreeData = null;
+
     function drawTree(treeData) {
         if (!treeContainer) return;
+        lastRenderedTreeData = treeData;
         treeContainer.innerHTML = '';
 
-        const margin = { top: 45, right: 45, bottom: 95, left: 45 };
-        const containerWidth = treeContainer.clientWidth || 600;
+        // Add Zoom & Pan Navigation Controls
+        const controlsDiv = document.createElement('div');
+        controlsDiv.className = 'tree-controls';
+        controlsDiv.innerHTML = `
+            <button id="tree-zoom-in" title="Zoom in" aria-label="Zoom in">+</button>
+            <button id="tree-zoom-out" title="Zoom out" aria-label="Zoom out">−</button>
+            <button id="tree-zoom-reset" title="Reset view and center tree" aria-label="Reset view">⟲</button>
+        `;
+        treeContainer.appendChild(controlsDiv);
 
-        // Count leaf nodes for dynamic minimum width
+        // Add interactive touch/mouse pan hint
+        const hintDiv = document.createElement('div');
+        hintDiv.className = 'tree-hint';
+        hintDiv.textContent = '✋ Drag to pan • Scroll / pinch to zoom';
+        treeContainer.appendChild(hintDiv);
+
+        const containerWidth = treeContainer.clientWidth || 550;
+        const containerHeight = treeContainer.clientHeight || 520;
+
+        // Count leaf nodes for dynamic allocation
         const hierarchyData = d3.hierarchy(treeData, d => d.children);
         const leafNodes = hierarchyData.leaves();
         const leafCount = Math.max(leafNodes.length, 1);
         const maxDepth = Math.max(hierarchyData.height || 1, 1);
 
-        // Dynamic width: allocates 145px per leaf so text and emojis NEVER collide
-        const computedWidth = Math.max(containerWidth - margin.left - margin.right, leafCount * 145, 480);
+        // Dynamically adjust leaf spacing so large trees stay compact
+        const leafSpacing = leafCount > 8 ? 115 : (leafCount > 4 ? 130 : 145);
+        const computedWidth = Math.max(leafCount * leafSpacing, 440);
 
-        // Fixed taxonomic rank level height: ~75px per level so Animalia to Mammalia isn't huge!
-        const levelHeight = 75;
-        const computedHeight = Math.max(160, maxDepth * levelHeight);
+        // Fixed taxonomic rank level height: ~72px per level
+        const levelHeight = 72;
+        const computedHeight = Math.max(180, maxDepth * levelHeight);
 
+        // Responsive SVG that fills container
         const svg = d3.select("#tree-container").append("svg")
-            .attr("width", computedWidth + margin.left + margin.right)
-            .attr("height", computedHeight + margin.top + margin.bottom)
-            .append("g")
-            .attr("transform", `translate(${margin.left}, ${margin.top})`);
+            .attr("width", "100%")
+            .attr("height", "100%")
+            .attr("class", "tree-svg");
+
+        // Master zoomable group
+        const g = svg.append("g").attr("class", "tree-zoom-group");
+
+        // D3 Zoom & Dragging Hand Behavior
+        const zoom = d3.zoom()
+            .scaleExtent([0.25, 2.5])
+            .on("start", () => {
+                treeContainer.classList.add("is-dragging");
+            })
+            .on("zoom", (event) => {
+                g.attr("transform", event.transform);
+            })
+            .on("end", () => {
+                treeContainer.classList.remove("is-dragging");
+            });
+
+        svg.call(zoom);
 
         const treeMap = d3.tree().size([computedWidth, computedHeight]);
         const treeNodes = treeMap(hierarchyData);
@@ -933,8 +1000,8 @@ function bootPhylogenle() {
 
         const dynamicFontSize = 11;
 
-        // Draw Links
-        svg.selectAll(".link")
+        // Draw Links inside zoom group
+        g.selectAll(".link")
             .data(treeNodes.descendants().slice(1))
             .enter().append("path")
             .attr("class", "link")
@@ -979,8 +1046,8 @@ function bootPhylogenle() {
             lastTrunkX = node.x;
         });
 
-        // Nodes Group
-        const node = svg.selectAll(".node")
+        // Nodes Group inside zoom group
+        const node = g.selectAll(".node")
             .data(allDescendants)
             .enter().append("g")
             .attr("class", "node")
@@ -1069,7 +1136,44 @@ function bootPhylogenle() {
                       .attr("width", bbox.width + 20);
             }
         });
+
+        // Initial Smart View Fitting: center and scale the tree to container
+        const padX = 45;
+        const padY = 50;
+        const fitScaleX = (containerWidth - padX * 2) / computedWidth;
+        const fitScaleY = (containerHeight - padY * 2) / computedHeight;
+        const initialScale = Math.min(1.0, Math.max(0.40, Math.min(fitScaleX, fitScaleY)));
+        const initialX = Math.max(padX, (containerWidth - computedWidth * initialScale) / 2);
+        const initialY = 36;
+        const initialTransform = d3.zoomIdentity.translate(initialX, initialY).scale(initialScale);
+
+        svg.call(zoom.transform, initialTransform);
+
+        // Zoom button event bindings
+        d3.select("#tree-zoom-in").on("click", (e) => {
+            e.stopPropagation();
+            svg.transition().duration(250).call(zoom.scaleBy, 1.3);
+        });
+        d3.select("#tree-zoom-out").on("click", (e) => {
+            e.stopPropagation();
+            svg.transition().duration(250).call(zoom.scaleBy, 0.77);
+        });
+        d3.select("#tree-zoom-reset").on("click", (e) => {
+            e.stopPropagation();
+            svg.transition().duration(350).call(zoom.transform, initialTransform);
+        });
     }
+
+    // Debounced window resize handler to maintain tree centering
+    let resizeTimer = null;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(() => {
+            if (lastRenderedTreeData) {
+                drawTree(lastRenderedTreeData);
+            }
+        }, 200);
+    });
 
     // ==========================================================================
     // Modals & Navigation Handling

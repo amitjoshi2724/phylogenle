@@ -281,17 +281,22 @@ def main():
         found_rank = "Unknown"
         actual_name = ncbi.get_taxid_translator([nid]).get(nid, "Unknown")
         found_name = actual_name
+        major_name = actual_name
         for t in reversed(lin):
             r = ncbi.get_rank([t]).get(t, "")
             if r in major_ranks:
                 found_rank = r.capitalize()
+                major_name = ncbi.get_taxid_translator([t]).get(t, major_name)
                 if found_name == "Unknown":
-                    found_name = ncbi.get_taxid_translator([t]).get(t, found_name)
+                    found_name = major_name
                 break
+        if major_name == "Metazoa":
+            major_name = "Animalia"
 
         nodes_meta[nid] = {
             "rank": found_rank,
             "name": found_name,
+            "major_name": major_name,
             "time": val
         }
 

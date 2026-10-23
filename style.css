@@ -64,23 +64,32 @@ h1 {
 
 .main-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(360px, 1fr) minmax(380px, 1.25fr);
     gap: 2rem;
     align-items: start;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .left-panel {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    min-width: 0;
+    width: 100%;
 }
 
 .right-panel {
     display: flex;
     flex-direction: column;
+    min-width: 0;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 860px) {
     .main-layout {
         grid-template-columns: 1fr;
     }
@@ -90,7 +99,7 @@ h1 {
     text-align: center;
     color: var(--text-secondary);
     font-size: 0.85rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
 }
 
 .inspiration-note a {
@@ -106,20 +115,90 @@ h1 {
     background: var(--glass-bg);
     border: 1px solid var(--glass-border);
     border-radius: 12px;
-    padding: 1rem;
-    min-height: 320px;
-    height: 100%;
+    padding: 0;
+    min-height: 380px;
+    height: 540px;
+    max-height: 72vh;
     backdrop-filter: blur(10px);
-    overflow-x: auto;
-    overflow-y: auto;
+    overflow: hidden;
     display: block;
     position: relative;
+    cursor: grab;
+    cursor: -webkit-grab;
+    user-select: none;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+}
+
+.tree-container.is-dragging,
+.tree-container:active {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
 }
 
 .tree-container svg {
     display: block;
-    margin: 0 auto;
-    max-width: none;
+    width: 100%;
+    height: 100%;
+    touch-action: none;
+}
+
+.tree-controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 6px;
+    z-index: 25;
+    background: rgba(15, 23, 42, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    padding: 4px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.tree-controls button {
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--text-primary);
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s, border-color 0.15s, color 0.15s, transform 0.1s;
+}
+
+.tree-controls button:hover {
+    background: var(--accent-color);
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+}
+
+.tree-controls button:active {
+    transform: scale(0.92);
+}
+
+.tree-hint {
+    position: absolute;
+    bottom: 8px;
+    left: 12px;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    opacity: 0.65;
+    pointer-events: none;
+    user-select: none;
+    z-index: 5;
+    background: rgba(15, 23, 42, 0.5);
+    padding: 2px 8px;
+    border-radius: 4px;
 }
 
 /* D3 Tree Styles */
@@ -223,12 +302,14 @@ h1 {
     display: flex;
     gap: 0.5rem;
     position: relative;
-    margin-top: auto;
+    width: 100%;
+    z-index: 100;
 }
 
 .autocomplete-wrapper {
     flex: 1;
     position: relative;
+    min-width: 0;
 }
 
 input[type="text"] {
@@ -250,31 +331,36 @@ input[type="text"]:focus {
 
 .autocomplete-list {
     position: absolute;
-    top: 100%;
+    top: calc(100% + 6px);
     left: 0;
-    right: 0;
-    margin-top: 0.5rem;
-    background: var(--bg-secondary);
-    border: 1px solid var(--glass-border);
+    width: 100%;
+    min-width: min(440px, 100vw - 40px);
+    max-width: min(650px, 92vw);
+    background: #0f172a;
+    border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 12px;
-    max-height: 200px;
+    max-height: 380px;
     overflow-y: auto;
-    z-index: 10;
+    overflow-x: hidden;
+    z-index: 9999;
     list-style: none;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.75), 0 0 0 1px rgba(96, 165, 250, 0.15);
     display: none;
 }
 
 .autocomplete-list.active {
     display: block;
-    animation: fadeIn 0.2s ease-out;
+    animation: fadeIn 0.15s ease-out;
 }
 
 .autocomplete-item {
-    padding: 0.75rem 1.5rem;
+    padding: 0.75rem 1.25rem;
     cursor: pointer;
-    transition: background-color 0.2s;
+    transition: background-color 0.15s, color 0.15s;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    font-size: 0.95rem;
+    line-height: 1.4;
+    word-break: break-word;
 }
 
 .autocomplete-item:last-child {
