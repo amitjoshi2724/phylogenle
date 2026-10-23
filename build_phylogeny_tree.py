@@ -279,12 +279,14 @@ def main():
         # Meta rank and name
         lin = ncbi.get_lineage(nid)
         found_rank = "Unknown"
-        found_name = ncbi.get_taxid_translator([nid]).get(nid, "Unknown")
+        actual_name = ncbi.get_taxid_translator([nid]).get(nid, "Unknown")
+        found_name = actual_name
         for t in reversed(lin):
             r = ncbi.get_rank([t]).get(t, "")
             if r in major_ranks:
                 found_rank = r.capitalize()
-                found_name = ncbi.get_taxid_translator([t]).get(t, found_name)
+                if found_name == "Unknown":
+                    found_name = ncbi.get_taxid_translator([t]).get(t, found_name)
                 break
 
         nodes_meta[nid] = {
