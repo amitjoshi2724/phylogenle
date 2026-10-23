@@ -1,24 +1,29 @@
-# 🧬 Phylogenle Active Species Directory (27223 Species)
+# 🧬 Phylogenle Universal Species Directory (30694 Species Across All Life)
 
-Complete organized breakdown of all currently loaded species in the game catalog, grouped by clade and taxonomic order.
+Complete organized breakdown of all currently active species in the game catalog across all kingdoms of life, grouped by clade and taxonomic order.
 
 ## 📊 Clade Distribution Overview
 
 | Clade | Species Count | Primary Orders / Key Representatives |
 | :--- | :--- | :--- |
-| **Mammals** | **4201** | Primates, Carnivora, Perissodactyla, Artiodactyla |
-| **Birds** | **4602** | Accipitriformes, Falconiformes, Strigiformes, Sphenisciformes |
-| **Reptiles** | **2565** | Squamata, Crocodylia, Testudines, Sphenodontia |
-| **Amphibians** | **3361** | Anura, Caudata, Gymnophiona |
-| **Fishes** | **9660** | Lamniformes, Scombriformes, Salmoniformes, Cypriniformes |
-| **Invertebrates** | **2834** | Octopoda, Myopsida, Sepiida, Stylommatophora |
-| **Total Active Pool** | **27223** | *Fully calibrated with TimeTree LCA divergence data* |
+| **Mammals** | **4603** | Tubulidentata, Carnivora, Chiroptera, Artiodactyla |
+| **Birds** | **4867** | Passeriformes, Ciconiiformes, Bucerotiformes, Coraciiformes |
+| **Reptiles** | **2689** | Squamata, Testudines, Crocodylia, Sphenodontia |
+| **Amphibians** | **3449** | Anura, Caudata, Gymnophiona |
+| **Fishes** | **10005** | Anguilliformes, Beloniformes, Gobiiformes, Mugiliformes |
+| **Invertebrates** | **3101** | Coleoptera, Hymenoptera, Lepidoptera, Hemiptera |
+| **Plants** | **1871** | Sapindales, Solanales, Apiales, Asparagales |
+| **Fungi** | **58** | Microascales, Pucciniales, Pleosporales, Thelephorales |
+| **Bacteria** | **21** | Acholeplasmatales, Rickettsiales, Caryophanales, Cellvibrionales |
+| **Protists** | **28** | Bangiales, Laminariales, Peronosporales, Other |
+| **Viruses** | **2** | Herpesvirales |
+| **Total Active Pool** | **30694** | *Fully calibrated with TimeTree LCA divergence data* |
 
 ---
 
-## 🐾 Mammals (4201 Species)
+## 🐾 Mammals (4603 Species)
 
-### • Afrosoricida (49)
+### • Afrosoricida (50)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -48,6 +53,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Least Shrew Tenrec | *Microgale pusilla* |
 | Lesser Long-tailed Shrew Tenrec | *Microgale longicaudata* |
 | Lowland Streaked Tenrec | *Hemicentetes semispinosus* |
+| Lowland Streaked Tenrec (Hemicentetes Semispinosus) | *Hemicentetes Semispinosus) (Hemicentetes semispinosus* |
 | Major's Long-tailed Shrew Tenrec | *Microgale majori* |
 | Marley's Golden Mole | *Amblysomus marleyi* |
 | Montane Tree Shew | *Microgale monticola* |
@@ -72,17 +78,21 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Van Zyl's Golden Mole | *Cryptochloris zyli* |
 | Yellow Golden Mole | *Calcochloris obtusirostris* |
 
-### • Artiodactyla (338)
+### • Artiodactyla (428)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Abbott's Duiker | *Cephalophus spadix* |
 | Aders's Duiker | *Leucocephalophus adersi* |
+| African Buffalo | *Syncerus caffer* |
 | Alpaca | *Vicugna pacos* |
 | Alpine Ibex | *Capra ibex* |
+| Alpine Ibex (Capra Ibex) | *Capra Ibex) (Capra ibex* |
 | Alpine Musk Deer | *Moschus chrysogaster* |
 | Amazon River Dolphin | *Inia geoffrensis* |
+| Amazon River Dolphin (Inia Geoffrensis) | *Inia Geoffrensis) (Inia geoffrensis* |
 | American Bison | *Bison bison* |
+| American Bison (Bison Bison) | *Bison Bison) (Bison bison* |
 | American Moose | *Alces americanus* |
 | Ancient Bison | *Bison antiquus* |
 | Andrew's Beaked Whale | *Mesoplodon bowdoini* |
@@ -90,6 +100,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Annamite Muntjac | *Muntiacus truongsonensis* |
 | Antarctic Minke Whale | *Balaenoptera bonaerensis* |
 | Aoudad | *Ammotragus lervia* |
+| Arabian Camel | *Camelus dromedarius* |
 | Arabian Common Dolphin | *Delphinus tropicalis* |
 | Arabian Gazelle | *Gazella arabica* |
 | Arabian Oryx | *Oryx leucoryx* |
@@ -105,6 +116,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Australian Snubfin Dolphin | *Orcaella heinsohni* |
 | Babirusa | *Babyrousa babyrussa* |
 | Bactrian Camel | *Camelus bactrianus* |
+| Bactrian Camel (Camelus Bactrianus) | *Camelus Bactrianus) (Camelus bactrianus* |
 | Baird's Beaked Whale | *Berardius bairdii* |
 | Balabac Chevrotain | *Tragulus napu* |
 | Balearic Islands Cave Goat | *Myotragus balearicus* |
@@ -114,29 +126,38 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Bawean Deer | *Axis kuhlii* |
 | Bay Duiker | *Cephalophus dorsalis* |
 | Bearded Pig | *Sus barbatus* |
+| Beefalo | *Bos taurus x Bison bison* |
 | Beira | *Dorcatragus megalotis* |
 | Beluga Whale | *Delphinapterus leucas* |
+| Beluga Whale (Delphinapterus Leucas) | *Delphinapterus Leucas) (Delphinapterus leucas* |
 | Bharal | *Pseudois nayaur* |
 | Bighorn Sheep | *Ovis canadensis* |
+| Bighorn Sheep (Ovis Canadensis) | *Ovis Canadensis) (Ovis canadensis* |
 | Black Baird's Beaked Whale | *Berardius minimus* |
 | Black Dolphin | *Cephalorhynchus eutropia* |
 | Black Duiker | *Cephalophorus niger* |
 | Black Muntjac | *Muntiacus crinifrons* |
 | Black Wildebeest | *Connochaetes gnou* |
+| Black Wildebeest (Connochaetes Gnou) | *Connochaetes Gnou) (Connochaetes gnou* |
 | Black-fronted Duiker | *Cephalophorus nigrifrons* |
 | Blackbuck | *Antilope cervicapra* |
+| Blackbuck (Antilope Cervicapra) | *Antilope Cervicapra) (Antilope cervicapra* |
 | Blainville's Beaked Whale | *Mesoplodon densirostris* |
 | Blue Antelope | *Hippotragus leucophaeus* |
 | Blue Duiker | *Philantomba monticola* |
 | Blue Whale | *Balaenoptera musculus* |
 | Blue Wildebeest | *Connochaetes taurinus* |
+| Blue Wildebeest (Connochaetes Taurinus) | *Connochaetes Taurinus) (Connochaetes taurinus* |
 | Bohar Reedbuck | *Redunca redunca* |
 | Bolivian Bufeo | *Inia boliviensis* |
 | Bongo | *Tragelaphus eurycerus* |
+| Bongo (Tragelaphus Eurycerus) | *Tragelaphus Eurycerus) (Tragelaphus eurycerus* |
 | Bornean Yellow Muntjac | *Muntiacus atherodes* |
 | Bottlenose Dolphin | *Tursiops truncatus* |
 | Bowhead Whale | *Balaena mysticetus* |
+| Bowhead Whale (Balaena Mysticetus) | *Balaena Mysticetus) (Balaena mysticetus* |
 | Bridled Dolphin | *Stenella attenuata* |
+| Brindled Gnu | *Connochaetes taurinus* |
 | Bryde's Whale | *Balaenoptera brydei* |
 | Burmeister's Porpoise | *Phocoena spinipinnis* |
 | Burrunan Dolphin | *Tursiops australis* |
@@ -144,6 +165,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Bushbuck | *Tragelaphus scriptus* |
 | Bushpig | *Potamochoerus larvatus* |
 | Cape Buffalo | *Syncerus caffer* |
+| Cape Buffalo (Syncerus Caffer) | *Syncerus Caffer) (Syncerus caffer* |
 | Cape Grysbok | *Raphicerus melanotis* |
 | Carabao | *Bubalus kerabau* |
 | Celebes Wild Boar | *Sus celebensis* |
@@ -151,6 +173,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Central Asian Red Deer | *Cervus hanglu* |
 | Chacoan Peccary | *Catagonus wagneri* |
 | Chamois | *Rupicapra rupicapra* |
+| Chamois (Rupicapra Rupicapra) | *Rupicapra Rupicapra) (Rupicapra rupicapra* |
 | Chilean Guemal | *Hippocamelus bisulcus* |
 | Chinese Forest Musk Deer | *Moschus berezovskii* |
 | Chinese Goral | *Naemorhedus griseus* |
@@ -161,20 +184,28 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Chital | *Axis axis* |
 | Clymene Dolphin | *Stenella clymene* |
 | Collared Peccary | *Dicotyles tajacu* |
+| Collared Peccary (Dicotyles Tajacu) | *Dicotyles Tajacu) (Dicotyles tajacu* |
 | Commerson's Dolphin | *Cephalorhynchus commersonii* |
+| Common Bottlenose Dolphin | *Tursiops truncatus* |
 | Common Eland | *Taurotragus oryx* |
+| Common Eland | *Tragelaphus oryx* |
+| Common Eland (Taurotragus Oryx) | *Taurotragus Oryx) (Taurotragus oryx* |
 | Common Minke Whale | *Balaenoptera acutorostrata* |
+| Common Minke Whale (Balaenoptera Acutorostrata) | *Balaenoptera Acutorostrata) (Balaenoptera acutorostrata* |
 | Common Rhebok | *Pelea capreolus* |
 | Common Warthog | *Phacochoerus africanus* |
+| Common Warthog (Phacochoerus Africanus) | *Phacochoerus Africanus) (Phacochoerus africanus* |
 | Cuvier's Beaked Whale | *Ziphius cavirostris* |
+| Cuvier's Beaked Whale (Ziphius Cavirostris) | *Ziphius Cavirostris) (Ziphius cavirostris* |
 | Cuvier's Gazelle | *Gazella cuvieri* |
 | Cyprus Dwarf Hippopotamus | *Hippopotamus minor* |
 | Dall Sheep | *Ovis dalli* |
+| Dall Sheep (Ovis Dalli) | *Ovis Dalli) (Ovis dalli* |
 | Dall's Porpoise | *Phocoenoides dalli* |
 | Dama Gazelle | *Nanger dama* |
 | Desert Warthog | *Phacochoerus aethiopicus* |
+| Domestic Cattle | *Bos taurus* |
 | Domestic Cow | *Bos taurus* |
-| Ox | *Bos taurus* |
 | Domestic Goat | *Capra hircus* |
 | Domestic Pig | *Sus scrofa domesticus* |
 | Domestic Sheep | *Ovis aries* |
@@ -186,6 +217,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Dwarf Bharal | *Pseudois schaeferi* |
 | Dwarf Brocket | *Mazama chunyi* |
 | Dwarf Sperm Whale | *Kogia sima* |
+| Dzo | *Bos grunniens x Bos taurus* |
 | East Asian Finless Porpoise | *Neophocaena sunameri* |
 | East Caucasian Tur | *Capra cylindricornis* |
 | Eastern Roe Deer | *Capreolus pygargus* |
@@ -193,11 +225,17 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Eden's Whale | *Balaenoptera edeni* |
 | Eld's Deer | *Rucervus eldii* |
 | Elk | *Cervus canadensis* |
+| Elk (Cervus Canadensis) | *Cervus Canadensis) (Cervus canadensis* |
+| Eurasian Elk | *Alces alces* |
 | European Bison | *Bison bonasus* |
+| European Bison (Bison Bonasus) | *Bison Bonasus) (Bison bonasus* |
 | Fallow Deer | *Dama dama* |
+| Fallow Deer (Dama Dama) | *Dama Dama) (Dama dama* |
 | False Killer Whale | *Pseudorca crassidens* |
+| False Killer Whale (Pseudorca Crassidens) | *Pseudorca Crassidens) (Pseudorca crassidens* |
 | Fea's Muntjac | *Muntiacus feae* |
 | Fin Whale | *Balaenoptera physalus* |
+| Fin Whale (Balaenoptera Physalus) | *Balaenoptera Physalus) (Balaenoptera physalus* |
 | Four-horned Antelope | *Tetracerus quadricornis* |
 | Franciscana | *Pontoporia blainvillei* |
 | Fraser's Dolphin | *Lagenodelphis hosei* |
@@ -205,25 +243,33 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Gaur | *Bos gaurus* |
 | Gayal | *Bos frontalis* |
 | Gemsbok | *Oryx gazella* |
+| Gemsbok (Oryx Gazella) | *Oryx Gazella) (Oryx gazella* |
 | Gerenuk | *Litocranius walleri* |
+| Gerenuk (Litocranius Walleri) | *Litocranius Walleri) (Litocranius walleri* |
 | Gervais' Beaked Whale | *Mesoplodon europaeus* |
 | Giant Eland | *Taurotragus derbianus* |
 | Giant Forest Hog | *Hylochoerus meinertzhageni* |
 | Giant Muntjac | *Muntiacus vuquangensis* |
 | Ginkgo-toothed Beaked Whale | *Mesoplodon ginkgodens* |
 | Giraffe | *Giraffa camelopardalis* |
+| Goat | *Capra hircus* |
 | Goitered Gazelle | *Gazella subgutturosa* |
 | Gongshanensis Muntjac | *Muntiacus gongshanensis* |
 | Grant's Gazelle | *Nanger granti* |
 | Gray Brocket | *Subulo gouazoubira* |
 | Gray Dolphin | *Sotalia fluviatilis* |
 | Gray Whale | *Eschrichtius robustus* |
+| Gray Whale (Eschrichtius Robustus) | *Eschrichtius Robustus) (Eschrichtius robustus* |
 | Gray's Beaked Whale | *Mesoplodon grayi* |
 | Greater Kudu | *Tragelaphus strepsiceros* |
+| Greater Kudu (Tragelaphus Strepsiceros) | *Tragelaphus Strepsiceros) (Tragelaphus strepsiceros* |
+| Grey Whale | *Eschrichtius robustus* |
 | Guanaco | *Lama guanicoe* |
+| Guanaco (Lama Guanicoe) | *Lama Guanicoe) (Lama guanicoe* |
 | Guenther's Dik-dik | *Madoqua guentheri* |
 | Guyana River Dolphin | *Sotalia guianensis* |
 | Harbor Porpoise | *Phocoena phocoena* |
+| Harbor Porpoise (Phocoena Phocoena) | *Phocoena Phocoena) (Phocoena phocoena* |
 | Hartebeest | *Alcelaphus buselaphus* |
 | Harvey's Duiker | *Cephalophus harveyi* |
 | Heaviside's Dolphin | *Cephalorhynchus heavisidii* |
@@ -234,10 +280,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Himalayan Tahr | *Hemitragus jemlahicus* |
 | Hippopotamus | *Hippopotamus amphibius* |
 | Hog Deer | *Axis porcinus* |
+| Hog Deer | *Hyelaphus porcinus* |
 | Hourglass Dolphin | *Sagmatias cruciger* |
 | Hubbs' Beaked Whale | *Mesoplodon carlhubbsi* |
 | Humpback Whale | *Megaptera novaeangliae* |
+| Hybrid Cattle | *Bos indicus x Bos taurus* |
 | Impala | *Aepyceros melampus* |
+| Impala (Aepyceros Melampus) | *Aepyceros Melampus) (Aepyceros melampus* |
 | Indian Ocean Humpback Dolphin | *Sousa plumbea* |
 | Indian Spotted Chevrotain | *Moschiola meminna* |
 | Indo-pacific Bottlenose Dolphin | *Tursiops aduncus* |
@@ -252,8 +301,10 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Javan Rusa | *Rusa timorensis* |
 | Jentink's Duiker | *Cephalophus jentinki* |
 | Kashmir Muskdeer | *Moschus cupreus* |
+| Killer Whale | *Orcinus orca* |
 | Kirk's Dik-dik | *Madoqua kirkii* |
 | Klipspringer | *Oreotragus oreotragus* |
+| Klipspringer (Oreotragus Oreotragus) | *Oreotragus Oreotragus) (Oreotragus oreotragus* |
 | Kob | *Kobus kob* |
 | Kouprey | *Bos sauveli* |
 | Leaf Deer | *Muntiacus putaoensis* |
@@ -261,35 +312,46 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Lesser Kudu | *Tragelaphus imberbis* |
 | Lichtenstein's Hartebeest | *Alcelaphus lichtensteini* |
 | Llama | *Lama glama* |
+| Llamanaco | *Lama glama x Lama guanicoe* |
 | Long-beaked Common Dolphin | *Delphinus capensis* |
 | Long-finned Pilot Whale | *Globicephala melas* |
+| Long-finned Pilot Whale (Globicephala Melas) | *Globicephala Melas) (Globicephala melas* |
 | Long-tailed Goral | *Naemorhedus caudatus* |
 | Longman's Beaked Whale | *Indopacetus pacificus* |
 | Lowland Anoa | *Bubalus depressicornis* |
 | Markhor | *Capra falconeri* |
+| Markhor (Capra Falconeri) | *Capra Falconeri) (Capra falconeri* |
 | Marsh Deer | *Blastocerus dichotomus* |
 | Maxwell's Duiker | *Philantomba maxwellii* |
 | Melon-headed Whale | *Peponocephala electra* |
 | Merida Brocket | *Mazama bricenii* |
 | Mesopotamian Fallow Deer | *Dama mesopotamica* |
+| Minke Whale | *Balaenoptera acutorostrata* |
 | Moose | *Alces alces* |
+| Moose (Alces Alces) | *Alces Alces) (Alces alces* |
 | Mountain Anoa | *Bubalus quarlesi* |
 | Mountain Gazelle | *Gazella gazella* |
 | Mountain Goat | *Oreamnos americanus* |
+| Mountain Goat (Oreamnos Americanus) | *Oreamnos Americanus) (Oreamnos americanus* |
 | Mountain Nyala | *Tragelaphus buxtoni* |
 | Mountain Reedbuck | *Redunca fulvorufula* |
 | Mule Deer | *Odocoileus hemionus* |
+| Mule Deer (Odocoileus Hemionus) | *Odocoileus Hemionus) (Odocoileus hemionus* |
 | Muntjak | *Muntiacus muntjak* |
 | Muskox | *Ovibos moschatus* |
+| Muskox (Ovibos Moschatus) | *Ovibos Moschatus) (Ovibos moschatus* |
 | Narwhal | *Monodon monoceros* |
+| Narwhal (Monodon Monoceros) | *Monodon Monoceros) (Monodon monoceros* |
 | Natal Duiker | *Cephalophorus natalensis* |
 | Neumann's Gazelle | *Gazella erlangeri* |
 | Nile Lechwe | *Kobus megaceros* |
 | Nilgai | *Boselaphus tragocamelus* |
 | Nilgiri Tahr | *Nilgiritragus hylocrius* |
 | North Atlantic Right Whale | *Eubalaena glacialis* |
+| North Atlantic Right Whale (Eubalaena Glacialis) | *Eubalaena Glacialis) (Eubalaena glacialis* |
 | North Pacific Right Whale | *Eubalaena japonica* |
 | North Sulawesi Babirusa | *Babyrousa celebensis* |
+| North Sulawesi Babirusa (Babyrousa Celebensis) | *Babyrousa Celebensis) (Babyrousa celebensis* |
 | Northern Bottlenose Whale | *Hyperoodon ampullatus* |
 | Northern Pudu | *Pudu mephistophiles* |
 | Northern Right Whale Dolphin | *Lissodelphis borealis* |
@@ -297,11 +359,15 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Nyala | *Tragelaphus angasii* |
 | Ogilby's Duiker | *Cephalophorus ogilbyi* |
 | Okapi | *Okapia johnstoni* |
+| Okapi (Okapia Johnstoni) | *Okapia Johnstoni) (Okapia johnstoni* |
 | Omura's Baleen Whale | *Balaenoptera omurai* |
 | Orca | *Orcinus orca* |
 | Oribi | *Ourebia ourebi* |
 | Orinoco River Dolphin | *Inia humboldtiana* |
+| Ox | *Bos taurus* |
 | Pacific White-sided Dolphin | *Lagenorhynchus obliquidens* |
+| Pacific White-sided Dolphin | *Sagmatias obliquidens* |
+| Pacific White-sided Dolphin (Lagenorhynchus Obliquidens) | *Lagenorhynchus Obliquidens) (Lagenorhynchus obliquidens* |
 | Pampas Deer | *Ozotoceros bezoarticus* |
 | Peale's Dolphin | *Sagmatias australis* |
 | Pere David's Deer | *Elaphurus davidianus* |
@@ -310,11 +376,15 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Peters' Duiker | *Cephalophorus callipygus* |
 | Philippine Sambar | *Rusa marianna* |
 | Philippine Warty Pig | *Sus philippensis* |
+| Pig | *Sus scrofa* |
 | Pronghorn | *Antilocapra americana* |
+| Pronghorn (Antilocapra Americana) | *Antilocapra Americana) (Antilocapra americana* |
 | Przewalski's Gazelle | *Procapra przewalskii* |
 | Puku | *Kobus vardonii* |
 | Pygmy Brocket | *Mazama nana* |
 | Pygmy Hippopotamus | *Choeropsis liberiensis* |
+| Pygmy Hippopotamus | *Hexaprotodon liberiensis* |
+| Pygmy Hippopotamus (Choeropsis Liberiensis) | *Choeropsis Liberiensis) (Choeropsis liberiensis* |
 | Pygmy Hog | *Porcula salvania* |
 | Pygmy Killer Whale | *Feresa attenuata* |
 | Pygmy Right Whale | *Caperea marginata* |
@@ -324,25 +394,33 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Red Brocket | *Mazama americana* |
 | Red Brocket Deer | *Mazama rufa* |
 | Red Deer | *Cervus elaphus* |
+| Red Deer (Cervus Elaphus) | *Cervus Elaphus) (Cervus elaphus* |
 | Red Goral | *Naemorhedus baileyi* |
 | Red Hartebeest | *Alcelaphus caama* |
 | Red River Hog | *Potamochoerus porcus* |
+| Red River Hog (Potamochoerus Porcus) | *Potamochoerus Porcus) (Potamochoerus porcus* |
 | Red Serow | *Capricornis rubidus* |
 | Red-flanked Duiker | *Cephalophorus rufilatus* |
 | Red-fronted Gazelle | *Eudorcas rufifrons* |
 | Reeves' Muntjac | *Muntiacus reevesi* |
 | Reindeer | *Rangifer tarandus* |
+| Reindeer (Rangifer Tarandus) | *Rangifer Tarandus) (Rangifer tarandus* |
 | Rhim Gazelle | *Gazella leptoceros* |
 | Rice's Whale | *Balaenoptera ricei* |
 | Risso's Dolphin | *Grampus griseus* |
+| Risso's Dolphin (Grampus Griseus) | *Grampus Griseus) (Grampus griseus* |
 | Roan Antelope | *Hippotragus equinus* |
 | Roe Deer | *Capreolus capreolus* |
+| Roe Deer (Capreolus Capreolus) | *Capreolus Capreolus) (Capreolus capreolus* |
 | Roosevelt Muntjac | *Muntiacus rooseveltorum* |
 | Rough-toothed Dolphin | *Steno bredanensis* |
 | Royal Antelope | *Neotragus pygmaeus* |
 | Ruwenzori Duiker | *Cephalophorus rubidus* |
 | Sable Antelope | *Hippotragus niger* |
+| Sable Antelope (Hippotragus Niger) | *Hippotragus Niger) (Hippotragus niger* |
+| Saddleback Dolphin | *Delphinus delphis* |
 | Saiga Antelope | *Saiga tatarica* |
+| Saiga Antelope (Saiga Tatarica) | *Saiga Tatarica) (Saiga tatarica* |
 | Salt's Dikdik | *Madoqua saltiana* |
 | Sambar | *Rusa unicolor* |
 | Sao Paulo Bororo | *Mazama bororo* |
@@ -350,10 +428,15 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Saudi Gazelle | *Gazella saudiya* |
 | Schomburgk's Deer | *Rucervus schomburgki* |
 | Scimitar Oryx | *Oryx dammah* |
+| Scimitar Oryx (Oryx Dammah) | *Oryx Dammah) (Oryx dammah* |
+| Scimitar-horned Oryx | *Oryx dammah* |
 | Sei Whale | *Balaenoptera borealis* |
+| Sei Whale (Balaenoptera Borealis) | *Balaenoptera Borealis) (Balaenoptera borealis* |
 | Sharpe's Grysbok | *Raphicerus sharpei* |
+| Sheep | *Ovis aries* |
 | Shepherd's Beaked Whale | *Tasmacetus shepherdi* |
 | Short-beaked Common Dolphin | *Delphinus delphis* |
+| Short-beaked Common Dolphin (Delphinus Delphis) | *Delphinus Delphis) (Delphinus delphis* |
 | Short-finned Pilot Whale | *Globicephala macrorhynchus* |
 | Siberian Ibex | *Capra sibirica* |
 | Siberian Musk Deer | *Moschus moschiferus* |
@@ -372,8 +455,10 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Spectacled Porpoise | *Phocoena dioptrica* |
 | Speke's Gazelle | *Gazella spekei* |
 | Sperm Whale | *Physeter macrocephalus* |
+| Sperm Whale (Physeter Macrocephalus) | *Physeter Macrocephalus) (Physeter macrocephalus* |
 | Spinner Dolphin | *Stenella longirostris* |
 | Springbok | *Antidorcas marsupialis* |
+| Springbok (Antidorcas Marsupialis) | *Antidorcas Marsupialis) (Antidorcas marsupialis* |
 | Steenbok | *Raphicerus campestris* |
 | Stejneger's Beaked Whale | *Mesoplodon stejnegeri* |
 | Steppe Bison | *Bison priscus* |
@@ -385,13 +470,17 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Takin | *Budorcas taxicolor* |
 | Tamaraw | *Bubalus mindorensis* |
 | Thomson's Gazelle | *Eudorcas thomsonii* |
+| Thomson's Gazelle (Eudorcas Thomsonii) | *Eudorcas Thomsonii) (Eudorcas thomsonii* |
 | Tibetan Gazelle | *Procapra picticaudata* |
 | Topi | *Damaliscus lunatus* |
 | True's Beaked Whale | *Mesoplodon mirus* |
 | Tufted Deer | *Elaphodus cephalophus* |
 | Urial | *Ovis vignei* |
 | Vaquita | *Phocoena sinus* |
+| Vaquita (Phocoena Sinus) | *Phocoena Sinus) (Phocoena sinus* |
+| Vicugna | *Vicugna vicugna* |
 | Vicuña | *Vicugna vicugna* |
+| Vicuña (Vicugna Vicugna) | *Vicugna Vicugna) (Vicugna vicugna* |
 | Visayan Spotted Deer | *Rusa alfredi* |
 | Visayan Warty Pig | *Sus cebifrons* |
 | Walia | *Capra walie* |
@@ -399,159 +488,225 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Water Chevrotain | *Hyemoschus aquaticus* |
 | Waterbuck | *Kobus ellipsiprymnus* |
 | West Caucasian Tur | *Capra caucasica* |
+| Western Roe Deer | *Capreolus capreolus* |
 | Weyns's Duiker | *Cephalophorus weynsi* |
 | White-beaked Dolphin | *Lagenorhynchus albirostris* |
 | White-bellied Duiker | *Cephalophorus leucogaster* |
 | White-lipped Deer | *Cervus albirostris* |
 | White-lipped Peccary | *Tayassu pecari* |
 | White-tailed Deer | *Odocoileus virginianus* |
+| White-tailed Deer (Odocoileus Virginianus) | *Odocoileus Virginianus) (Odocoileus virginianus* |
 | Wild Bactrian Camel | *Camelus ferus* |
+| Wild Bactrian Camel (Camelus Ferus) | *Camelus Ferus) (Camelus ferus* |
 | Wild Boar | *Sus scrofa* |
+| Wild Boar (Sus Scrofa) | *Sus Scrofa) (Sus scrofa* |
 | Wild Goat | *Capra aegagrus* |
 | Wild Water Buffalo | *Bubalus arnee* |
+| Wild Water Buffalo (Bubalus Arnee) | *Bubalus Arnee) (Bubalus arnee* |
 | Wild Yak | *Bos mutus* |
+| Wild Yak (Bos Mutus) | *Bos Mutus) (Bos mutus* |
 | Yangtze River Dolphin | *Lipotes vexillifer* |
 | Yellow-backed Duiker | *Cephalophus silvicultor* |
 | Yucatan Brown Brocket | *Odocoileus pandora* |
 | Zebra Duiker | *Cephalophula zebra* |
 | Zebu Cattle | *Bos indicus* |
 
-### • Carnivora (281)
+### • Carnivora (389)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Aardwolf | *Proteles cristata* |
+| Aardwolf (Proteles Cristata) | *Proteles Cristata) (Proteles cristata* |
 | African Civet | *Civettictis civetta* |
+| African Civet (Civettictis Civetta) | *Civettictis Civetta) (Civettictis civetta* |
 | African Clawless Otter | *Aonyx capensis* |
 | African Golden Cat | *Caracal auratus* |
 | African Golden Wolf | *Canis lupaster* |
+| African Hunting Dog | *Lycaon pictus* |
 | African Palm Civet | *Nandinia binotata* |
 | African Striped Weasel | *Poecilogale albinucha* |
 | African Wild Dog | *Lycaon pictus* |
+| African Wild Dog (Lycaon Pictus) | *Lycaon Pictus) (Lycaon pictus* |
 | Alexander's Cusimanse | *Crossarchus alexandri* |
 | Allen's Olingo | *Bassaricyon alleni* |
 | Amazon Weasel | *Neogale africana* |
 | American Badger | *Taxidea taxus* |
+| American Badger (Taxidea Taxus) | *Taxidea Taxus) (Taxidea taxus* |
 | American Black Bear | *Ursus americanus* |
+| American Black Bear (Ursus Americanus) | *Ursus Americanus) (Ursus americanus* |
 | American Cheetah-like Cat | *Miracinonyx trumani* |
 | American Ermine | *Mustela richardsonii* |
 | American Marten | *Martes americana* |
 | American Mink | *Neogale vison* |
+| Amur Leopard | *Panthera pardus orientalis* |
 | Andean Mountain Cat | *Leopardus jacobita* |
 | Angolan Genet | *Genetta angolensis* |
 | Angolan Kusimanse | *Crossarchus ansorgei* |
 | Antarctic Fur Seal | *Arctocephalus gazella* |
 | Arctic Fox | *Vulpes lagopus* |
+| Arctic Fox (Vulpes Lagopus) | *Vulpes Lagopus) (Vulpes lagopus* |
 | Asian Badger | *Meles leucurus* |
 | Asian Black Bear | *Ursus thibetanus* |
+| Asian Black Bear (Ursus Thibetanus) | *Ursus Thibetanus) (Ursus thibetanus* |
 | Asian Palm Civet | *Paradoxurus hermaphroditus* |
 | Asian Small-clawed Otter | *Aonyx cinereus* |
+| Asiatic Black Bear | *Ursus thibetanus* |
 | Asiatic Golden Cat | *Catopuma temminckii* |
 | Australian Sea Lion | *Neophoca cinerea* |
 | Baikal Seal | *Pusa sibirica* |
 | Banded Linsang | *Prionodon linsang* |
 | Banded Mongoose | *Mungos mungo* |
+| Banded Mongoose (Mungos Mungo) | *Mungos Mungo) (Mungos mungo* |
 | Banded Palm Civet | *Hemigalus derbyanus* |
+| Barbary Lion | *Panthera leo leo* |
 | Bat-eared Fox | *Otocyon megalotis* |
+| Bat-eared Fox (Otocyon Megalotis) | *Otocyon Megalotis) (Otocyon megalotis* |
 | Bay Cat | *Catopuma badia* |
 | Beach Marten | *Martes foina* |
+| Bear | *Ursus sp.* |
 | Bearded Seal | *Erignathus barbatus* |
 | Beddard's Olingo | *Bassaricyon beddardi* |
 | Bengal Fox | *Vulpes bengalensis* |
+| Bengal Tiger | *Panthera tigris tigris* |
 | Binturong | *Arctictis binturong* |
+| Binturong (Arctictis Binturong) | *Arctictis Binturong) (Arctictis binturong* |
 | Black Mongoose | *Galerella nigrata* |
+| Black-backed Jackal | *Canis mesomelas* |
+| Black-backed Jackal | *Lupulella mesomelas* |
 | Black-footed Cat | *Felis nigripes* |
+| Black-footed Cat (Felis Nigripes) | *Felis Nigripes) (Felis nigripes* |
 | Black-footed Ferret | *Mustela nigripes* |
+| Black-footed Ferret (Mustela Nigripes) | *Mustela Nigripes) (Mustela nigripes* |
 | Black-footed Mongoose | *Bdeogale nigripes* |
 | Black-striped Weasel | *Mustela strigidorsa* |
 | Blandford's Fox | *Vulpes cana* |
 | Bobcat | *Lynx rufus* |
+| Bobcat (Lynx Rufus) | *Lynx Rufus) (Lynx rufus* |
 | Bornean Ferret Badger | *Melogale everetti* |
 | Brown Bear | *Ursus arctos* |
 | Brown Hyena | *Parahyaena brunnea* |
+| Brown Hyena (Parahyaena Brunnea) | *Parahyaena Brunnea) (Parahyaena brunnea* |
 | Brown-tailed Mongoose | *Salanoia concolor* |
 | Burmese Ferret-badger | *Melogale personata* |
 | Bush Dog | *Speothos venaticus* |
+| Bush Dog (Speothos Venaticus) | *Speothos Venaticus) (Speothos venaticus* |
 | Bushy-tailed Mongoose | *Bdeogale crassicauda* |
 | Cacomistle | *Bassariscus sumichrasti* |
 | California Sea Lion | *Zalophus californianus* |
+| California Sea Lion (Zalophus Californianus) | *Zalophus Californianus) (Zalophus californianus* |
 | Canada Lynx | *Lynx canadensis* |
+| Canada Lynx (Lynx Canadensis) | *Lynx Canadensis) (Lynx canadensis* |
 | Cape Fox | *Vulpes chama* |
 | Cape Gray Mongoose | *Galerella pulverulenta* |
 | Caracal | *Caracal caracal* |
+| Caracal (Caracal Caracal) | *Caracal Caracal) (Caracal caracal* |
 | Caribbean Monk Seal | *Neomonachus tropicalis* |
 | Caspian Seal | *Pusa caspica* |
 | Cave Bear | *Ursus spelaeus* |
 | Cheetah | *Acinonyx jubatus* |
+| Cheetah (Acinonyx Jubatus) | *Acinonyx Jubatus) (Acinonyx jubatus* |
 | Chinese Ferret-badger | *Melogale moschata* |
 | Clouded Leopard | *Neofelis nebulosa* |
+| Clouded Leopard (Neofelis Nebulosa) | *Neofelis Nebulosa) (Neofelis nebulosa* |
 | Collared Mongoose | *Herpestes semitorquatus* |
 | Colocolo | *Leopardus colocola* |
 | Colombian Weasel | *Neogale felipei* |
 | Common Genet | *Genetta genetta* |
+| Common Genet (Genetta Genetta) | *Genetta Genetta) (Genetta genetta* |
 | Congo Clawless Otter | *Aonyx congicus* |
 | Corsac Fox | *Vulpes corsac* |
 | Cougar | *Puma concolor* |
+| Cougar (Puma Concolor) | *Puma Concolor) (Puma concolor* |
 | Coyote | *Canis latrans* |
+| Coyote (Canis Latrans) | *Canis Latrans) (Canis latrans* |
 | Cozumel Raccoon | *Procyon pygmaeus* |
 | Crab-eating Fox | *Cerdocyon thous* |
 | Crab-eating Mongoose | *Herpestes urva* |
 | Crab-eating Raccoon | *Procyon cancrivorus* |
 | Crabeater Seal | *Lobodon carcinophaga* |
+| Crabeater Seal (Lobodon Carcinophaga) | *Lobodon Carcinophaga) (Lobodon carcinophaga* |
 | Cuc Phuong Ferret-badger | *Melogale cucphuongensis* |
 | Culpeo | *Lycalopex culpaeus* |
 | Darwin's Zorro | *Lycalopex fulvipes* |
 | Deninger's Bear | *Ursus deningeri* |
 | Desert Dwarf Mongoose | *Helogale hirtula* |
 | Dhole | *Cuon alpinus* |
+| Dhole (Cuon Alpinus) | *Cuon Alpinus) (Cuon alpinus* |
 | Dingo | *Canis lupus dingo* |
 | Dire Wolf | *Aenocyon dirus* |
 | Dog | *Canis lupus familiaris* |
 | Domestic Cat | *Felis catus* |
+| Domestic Dog | *Canis lupus familiaris* |
+| Domestic Ferret | *Mustela putorius furo* |
 | Dwarf Mongoose | *Helogale parvula* |
 | Eastern Hog-nosed Skunk | *Conepatus leuconotus* |
 | Eastern Mountain Coati | *Nasuella meridensis* |
 | Eastern Spotted Skunk | *Spilogale putorius* |
 | Egyptian Mongoose | *Herpestes ichneumon* |
+| Egyptian Mongoose (Herpestes Ichneumon) | *Herpestes Ichneumon) (Herpestes ichneumon* |
+| Ermine | *Mustela erminea* |
 | Ethiopian Wolf | *Canis simensis* |
+| Ethiopian Wolf (Canis Simensis) | *Canis Simensis) (Canis simensis* |
+| Eurasian Badger | *Meles meles* |
 | Eurasian Cave Lion | *Panthera spelaea* |
+| Eurasian Lynx | *Lynx lynx* |
+| Eurasian Lynx (Lynx Lynx) | *Lynx Lynx) (Lynx lynx* |
+| Eurasian River Otter | *Lutra lutra* |
 | European Badger | *Meles meles* |
+| European Badger (Meles Meles) | *Meles Meles) (Meles meles* |
 | European Mink | *Mustela lutreola* |
 | European Otter | *Lutra lutra* |
+| European Otter (Lutra Lutra) | *Lutra Lutra) (Lutra lutra* |
 | European Pine Marten | *Martes martes* |
+| European Pine Marten (Martes Martes) | *Martes Martes) (Martes martes* |
 | European Polecat | *Mustela putorius* |
 | European Saber-tooth Cat | *Homotherium latidens* |
 | Falanouc | *Eupleres goudotii* |
 | Falkland Islands Wolf | *Dusicyon australis* |
 | Fennec Fox | *Vulpes zerda* |
+| Fennec Fox (Vulpes Zerda) | *Vulpes Zerda) (Vulpes zerda* |
 | Fisher | *Pekania pennanti* |
+| Fisher (Pekania Pennanti) | *Pekania Pennanti) (Pekania pennanti* |
 | Fishing Cat | *Prionailurus viverrinus* |
+| Fishing Cat (Prionailurus Viverrinus) | *Prionailurus Viverrinus) (Prionailurus viverrinus* |
 | Flat-headed Cat | *Prionailurus planiceps* |
 | Flat-headed Kusimanse | *Crossarchus platycephalus* |
 | Fossa | *Cryptoprocta ferox* |
+| Fossa (Cryptoprocta Ferox) | *Cryptoprocta Ferox) (Cryptoprocta ferox* |
 | Galapagos Fur Seal | *Arctocephalus galapagoensis* |
 | Galapagos Sea Lion | *Zalophus wollebaeki* |
 | Gamssulzen Cave Bear | *Ursus ingressus* |
 | Geoffroy's Cat | *Leopardus geoffroyi* |
 | Giant Genet | *Genetta victoriae* |
 | Giant Otter | *Pteronura brasiliensis* |
+| Giant Otter (Pteronura Brasiliensis) | *Pteronura Brasiliensis) (Pteronura brasiliensis* |
+| Giant Panda | *Ailuropoda melanoleuca* |
 | Giant Short-faced Bear | *Arctodus simus* |
 | Golden Jackal | *Canis aureus* |
+| Golden Jackal (Canis Aureus) | *Canis Aureus) (Canis aureus* |
 | Golden Palm Civet | *Paradoxurus zeylonensis* |
 | Gray Fox | *Urocyon cinereoargenteus* |
+| Gray Fox (Urocyon Cinereoargenteus) | *Urocyon Cinereoargenteus) (Urocyon cinereoargenteus* |
+| Gray Seal | *Halichoerus grypus* |
 | Gray Wolf | *Canis lupus* |
 | Greater Grison | *Galictis vittata* |
 | Greater Saber-toothed Cat | *Smilodon populator* |
 | Grey Seal | *Halichoerus grypus* |
+| Grey Seal (Halichoerus Grypus) | *Halichoerus Grypus) (Halichoerus grypus* |
 | Guadalupe Fur Seal | *Arctocephalus townsendi* |
 | Guadeloupe Raccoon | *Procyon minor* |
 | Haida Ermine | *Mustela haidarum* |
 | Hairy-nosed Otter | *Lutra sumatrana* |
+| Harbor Seal | *Phoca vitulina* |
+| Harbor Seal (Phoca Vitulina) | *Phoca Vitulina) (Phoca vitulina* |
 | Harp Seal | *Pagophilus groenlandicus* |
+| Harp Seal | *Phoca groenlandica* |
 | Hawaiian Monk Seal | *Neomonachus schauinslandi* |
+| Hawaiian Monk Seal (Neomonachus Schauinslandi) | *Neomonachus Schauinslandi) (Neomonachus schauinslandi* |
 | Himalayan Wolf | *Canis himalayensis* |
 | Hoary Fox | *Lycalopex vetulus* |
 | Honey Badger | *Mellivora capensis* |
+| Honey Badger (Mellivora Capensis) | *Mellivora Capensis) (Mellivora capensis* |
 | Hooded Seal | *Cystophora cristata* |
 | Hooded Skunk | *Mephitis macroura* |
 | Hooker's Sea Lion | *Phocarctos hookeri* |
@@ -563,6 +718,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Island Gray Fox | *Urocyon littoralis* |
 | Jaguar | *Panthera onca* |
 | Jaguarundi | *Herpailurus yagouaroundi* |
+| Jaguarundi (Herpailurus Yagouaroundi) | *Herpailurus Yagouaroundi) (Herpailurus yagouaroundi* |
 | Japanese Badger | *Meles anakuma* |
 | Japanese Marten | *Martes melampus* |
 | Japanese Sealion | *Zalophus japonicus* |
@@ -571,16 +727,22 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Juan Fernandez Fur Seal | *Arctocephalus philippii* |
 | Jungle Cat | *Felis chaus* |
 | Kinkajou | *Potos flavus* |
+| Kinkajou (Potos Flavus) | *Potos Flavus) (Potos flavus* |
 | Kit Fox | *Vulpes macrotis* |
+| Kodiak Bear | *Ursus arctos middendorffi* |
 | Kodkod | *Leopardus guigna* |
 | Kudaro Cave Bear | *Ursus kudarensis* |
 | Large Indian Civet | *Viverra zibetha* |
 | Large-spotted Genet | *Genetta tigrina* |
 | Least Weasel | *Mustela nivalis* |
+| Least Weasel (Mustela Nivalis) | *Mustela Nivalis) (Mustela nivalis* |
 | Leopard | *Panthera pardus* |
 | Leopard Cat | *Prionailurus bengalensis* |
+| Leopard Cat (Prionailurus Bengalensis) | *Prionailurus Bengalensis) (Prionailurus bengalensis* |
 | Leopard Seal | *Hydrurga leptonyx* |
+| Leopard Seal (Hydrurga Leptonyx) | *Hydrurga Leptonyx) (Hydrurga leptonyx* |
 | Lesser Grison | *Galictis cuja* |
+| Lesser Panda | *Ailurus fulgens* |
 | Liberian Mongoose | *Liberiictis kuhni* |
 | Lion | *Panthera leo* |
 | Little Spotted Cat | *Leopardus tigrinus* |
@@ -590,23 +752,31 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Lynx | *Lynx lynx* |
 | Malagasy Civet | *Fossa fossana* |
 | Malayan Civet | *Viverra tangalunga* |
+| Malayan Sun Bear | *Helarctos malayanus* |
 | Maned Wolf | *Chrysocyon brachyurus* |
+| Maned Wolf (Chrysocyon Brachyurus) | *Chrysocyon Brachyurus) (Chrysocyon brachyurus* |
 | Marbled Cat | *Pardofelis marmorata* |
 | Marbled Polecat | *Vormela peregusna* |
 | Margay | *Leopardus wiedii* |
+| Margay (Leopardus Wiedii) | *Leopardus Wiedii) (Leopardus wiedii* |
 | Marine Otter | *Lontra felina* |
 | Marsh Mongoose | *Atilax paludinosus* |
 | Masked Palm Civet | *Paguma larvata* |
 | Mediterranean Monk Seal | *Monachus monachus* |
 | Meerkat | *Suricata suricatta* |
+| Meerkat (Suricata Suricatta) | *Suricata Suricatta) (Suricata suricatta* |
 | Meller's Mongoose | *Rhynchogale melleri* |
 | Molina's Hog-nosed Skunk | *Conepatus chinga* |
 | Mountain Weasel | *Mustela altaica* |
 | Neotropical River Otter | *Lontra longicaudis* |
 | New Zealand Fur Seal | *Arctocephalus forsteri* |
+| North American River Otter (Lontra Canadensis) | *Lontra Canadensis) (Lontra canadensis* |
+| Northern American River Otter | *Lontra canadensis* |
 | Northern Elephant Seal | *Mirounga angustirostris* |
+| Northern Elephant Seal (Mirounga Angustirostris) | *Mirounga Angustirostris) (Mirounga angustirostris* |
 | Northern Fur Seal | *Callorhinus ursinus* |
 | Ocelot | *Leopardus pardalis* |
+| Ocelot (Leopardus Pardalis) | *Leopardus Pardalis) (Leopardus pardalis* |
 | Olingo | *Bassaricyon gabbii* |
 | Olinguito | *Bassaricyon neblina* |
 | Otter Civet | *Cynogale bennetti* |
@@ -614,22 +784,32 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Palawan Stink Badger | *Mydaus marchei* |
 | Pale Fox | *Vulpes pallida* |
 | Pallas's Cat | *Otocolobus manul* |
+| Pallas's Cat (Otocolobus Manul) | *Otocolobus Manul) (Otocolobus manul* |
 | Pampas Fox | *Lycalopex gymnocercus* |
 | Panda | *Ailuropoda melanoleuca* |
 | Panther Genet | *Genetta maculata* |
 | Patagonian Weasel | *Lyncodon patagonicus* |
 | Plains Spotted Skunk | *Spilogale interrupta* |
 | Polar Bear | *Ursus maritimus* |
+| Polecat-ferret Hybrid | *Mustela putorius x Mustela putorius furo* |
+| Puma | *Puma concolor* |
 | Raccoon | *Procyon lotor* |
+| Raccoon (Procyon Lotor) | *Procyon Lotor) (Procyon lotor* |
 | Raccoon Dog | *Nyctereutes procyonoides* |
+| Raccoon Dog (Nyctereutes Procyonoides) | *Nyctereutes Procyonoides) (Nyctereutes procyonoides* |
+| Ratel | *Mellivora capensis* |
 | Red Fox | *Vulpes vulpes* |
+| Red Fox (Vulpes Vulpes) | *Vulpes Vulpes) (Vulpes vulpes* |
 | Red Panda | *Ailurus fulgens* |
+| Red Panda (Ailurus Fulgens) | *Ailurus Fulgens) (Ailurus fulgens* |
 | Red Wolf | *Canis rufus* |
 | Ribbon Seal | *Phoca fasciata* |
 | Ring-tailed Coati | *Nasua nasua* |
 | Ring-tailed Mongoose | *Galidia elegans* |
 | Ringed Seal | *Pusa hispida* |
+| Ringed Seal (Pusa Hispida) | *Pusa Hispida) (Pusa hispida* |
 | Ringtail | *Bassariscus astutus* |
+| Ringtail (Bassariscus Astutus) | *Bassariscus Astutus) (Bassariscus astutus* |
 | River Otter | *Lontra canadensis* |
 | Ross Seal | *Ommatophoca rossii* |
 | Ruddy Mongoose | *Herpestes smithii* |
@@ -640,69 +820,92 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Saharan Striped Polecat | *Ictonyx libycus* |
 | Saimaa Ringed Seal | *Pusa saimensis* |
 | Sand Cat | *Felis margarita* |
+| Sand Cat (Felis Margarita) | *Felis Margarita) (Felis margarita* |
 | Scimitar-toothed Cat | *Homotherium serum* |
 | Sea Otter | *Enhydra lutris* |
+| Sea Otter (Enhydra Lutris) | *Enhydra Lutris) (Enhydra lutris* |
 | Seal | *Phoca vitulina* |
 | Sechura Desert Fox | *Lycalopex sechurae* |
 | Selous's Mongoose | *Paracynictis selousi* |
 | Serval | *Leptailurus serval* |
+| Serval (Leptailurus Serval) | *Leptailurus Serval) (Leptailurus serval* |
 | Short-tailed Mongoose | *Herpestes brachyurus* |
+| Siberian Tiger / Amur Tiger | *Panthera tigris altaica* |
 | Siberian Weasel | *Mustela sibirica* |
 | Side-striped Jackal | *Canis adustus* |
 | Slender Mongoose | *Herpestes sanguineus* |
 | Sloth Bear | *Melursus ursinus* |
+| Sloth Bear (Melursus Ursinus) | *Melursus Ursinus) (Melursus ursinus* |
 | Small Asian Mongoose | *Urva javanica* |
 | Small Cave Bear | *Ursus rossicus* |
 | Small Indian Civet | *Viverricula indica* |
 | Small Indian Mongoose | *Urva auropunctata* |
 | Small-eared Dog | *Atelocynus microtis* |
+| Small-spotted Genet | *Genetta genetta* |
 | Small-toothed Palm Civet | *Arctogalidia trivirgata* |
 | Smooth-coated Otter | *Lutrogale perspicillata* |
 | Snow Leopard | *Panthera uncia* |
+| Snow Leopard (Panthera Uncia) | *Panthera Uncia) (Panthera uncia* |
 | South American Fur Seal | *Arctocephalus australis* |
 | South American Gray Fox | *Lycalopex griseus* |
 | South American Sea Lion | *Otaria byronia* |
 | Southern Elephant Seal | *Mirounga leonina* |
+| Southern Elephant Seal (Mirounga Leonina) | *Mirounga Leonina) (Mirounga leonina* |
 | Southern Oncilla | *Leopardus guttulus* |
 | Southern River Otter | *Lontra provocax* |
 | Spanish Lynx | *Lynx pardinus* |
 | Spectacled Bear | *Tremarctos ornatus* |
+| Spectacled Bear (Tremarctos Ornatus) | *Tremarctos Ornatus) (Tremarctos ornatus* |
+| Spotted Hyena | *Crocuta crocuta* |
+| Spotted Hyena (Crocuta Crocuta) | *Crocuta Crocuta) (Crocuta crocuta* |
 | Spotted Seal | *Phoca largha* |
 | Spotted-necked Otter | *Hydrictis maculicollis* |
 | Sri Lankan Brown Palm Civet | *Paradoxurus montanus* |
 | Steller Sea Lion | *Eumetopias jubatus* |
+| Steller Sea Lion (Eumetopias Jubatus) | *Eumetopias Jubatus) (Eumetopias jubatus* |
 | Steppe Polecat | *Mustela eversmannii* |
 | Stoat | *Mustela erminea* |
+| Stoat (Mustela Erminea) | *Mustela Erminea) (Mustela erminea* |
 | Stripe-necked Mongoose | *Herpestes vitticollis* |
 | Striped Hog-nosed Skunk | *Conepatus semistriatus* |
 | Striped Hyena | *Hyaena hyaena* |
+| Striped Hyena (Hyaena Hyaena) | *Hyaena Hyaena) (Hyaena hyaena* |
 | Striped Polecat | *Ictonyx striatus* |
 | Striped Skunk | *Mephitis mephitis* |
+| Striped Skunk (Mephitis Mephitis) | *Mephitis Mephitis) (Mephitis mephitis* |
 | Subantarctic Fur Seal | *Arctocephalus tropicalis* |
 | Sulawesi Palm Civet | *Macrogalidia musschenbroekii* |
 | Sun Bear | *Helarctos malayanus* |
+| Sun Bear (Helarctos Malayanus) | *Helarctos Malayanus) (Helarctos malayanus* |
 | Sunda Clouded Leopard | *Neofelis diardi* |
+| Sunda Clouded Leopard (Neofelis Diardi) | *Neofelis Diardi) (Neofelis diardi* |
 | Sunda Stink Badger | *Mydaus javanensis* |
 | Swift Fox | *Vulpes velox* |
 | Tayra | *Eira barbara* |
+| Tayra (Eira Barbara) | *Eira Barbara) (Eira barbara* |
 | Tibetan Sand Fox | *Vulpes ferrilata* |
 | Tiger | *Panthera tigris* |
 | Walrus | *Odobenus rosmarus* |
+| Walrus (Odobenus Rosmarus) | *Odobenus Rosmarus) (Odobenus rosmarus* |
 | Weddell Seal | *Leptonychotes weddellii* |
+| Weddell Seal (Leptonychotes Weddellii) | *Leptonychotes Weddellii) (Leptonychotes weddellii* |
 | West African Genet | *Genetta pardina* |
 | Western Hog-nosed Skunk | *Conepatus mesoleucus* |
 | Western Lowland Olingo | *Bassaricyon medius* |
 | Western Mountain Coati | *Nasuella olivacea* |
 | Western Spotted Skunk | *Spilogale gracilis* |
 | White-nosed Coati | *Nasua narica* |
+| White-nosed Coati (Nasua Narica) | *Nasua Narica) (Nasua narica* |
 | White-tailed Mongoose | *Ichneumia albicauda* |
 | Wild Cat | *Felis silvestris* |
+| Wolf | *Canis lupus* |
 | Wolverine | *Gulo gulo* |
+| Wolverine (Gulo Gulo) | *Gulo Gulo) (Gulo gulo* |
 | Yellow Mongoose | *Cynictis penicillata* |
 | Yellow-bellied Weasel | *Mustela kathiah* |
 | Yellow-throated Marten | *Martes flavigula* |
 
-### • Chiroptera (774)
+### • Chiroptera (785)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -762,6 +965,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Bibundi Butterfly Bat | *Glauconycteris egeria* |
 | Big Bonneted Bat | *Eumops dabbenei* |
 | Big Brown Bat | *Eptesicus fuscus* |
+| Big Brown Bat (Eptesicus Fuscus) | *Eptesicus Fuscus) (Eptesicus fuscus* |
 | Big Crested Mastiff Bat | *Promops centralis* |
 | Big Free-tailed Bat | *Nyctinomops macrotis* |
 | Big-eared Brown Bat | *Histiotus macrotus* |
@@ -848,6 +1052,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Common Sword-nosed Bat | *Lonchorhina aurita* |
 | Common Thick-numbed Bat | *Glischropus tylopus* |
 | Common Tube-nosed Fruit Bat | *Nyctimene albiventer* |
+| Common Vampire Bat | *Desmodus rotundus* |
+| Common Vampire Bat (Desmodus Rotundus) | *Desmodus Rotundus) (Desmodus rotundus* |
 | Comoro Flying Fox | *Pteropus livingstonii* |
 | Comoro Rousette | *Rousettus obliviosus* |
 | Cooppery Sprite | *Arielulus cuprosus* |
@@ -947,6 +1153,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Ghost-faced Bat | *Mormoops megalophylla* |
 | Gianna's Yellow-shouldered Bat | *Sturnira giannae* |
 | Giant Golden-crowned Flying Fox | *Acerodon jubatus* |
+| Giant Golden-crowned Flying Fox (Acerodon Jubatus) | *Acerodon Jubatus) (Acerodon jubatus* |
 | Giant House Bat | *Scotophilus nigrita* |
 | Giant Noctule | *Nyctalus lasiopterus* |
 | Giant Red Bat | *Lasiurus egregius* |
@@ -956,6 +1163,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Gobi Big Brown Bat | *Cnephaeus gobiensis* |
 | Golden Myotis | *Myotis midastactus* |
 | Golden Short-palated Fruit Bat | *Casinycteris argynnis* |
+| Golden-capped Fruit Bat | *Acerodon jubatus* |
 | Goldman's Nectar Bat | *Lonchophylla mordax* |
 | Gomantong Myotis | *Myotis gomantongensis* |
 | Gould's Long-eared Bat | *Nyctophilus gouldi* |
@@ -981,6 +1189,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Greater Dog-like Bat | *Peropteryx kappleri* |
 | Greater Ghost Bat | *Diclidurus ingens* |
 | Greater Horseshoe Bat | *Rhinolophus ferrumequinum* |
+| Greater Horseshoe Bat (Rhinolophus Ferrumequinum) | *Rhinolophus Ferrumequinum) (Rhinolophus ferrumequinum* |
 | Greater Long-fingered Bat | *Miniopterus inflatus* |
 | Greater Mouse-tailed Bat | *Rhinopoma microphyllum* |
 | Greater Musky Fruit Bat | *Ptenochirus jagorii* |
@@ -1039,6 +1248,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Hutton's Tube-nosed Bat | *Murina huttoni* |
 | Indian False Vampire | *Lyroderma lyra* |
 | Indian Flying Fox | *Pteropus giganteus* |
+| Indian Flying Fox | *Pteropus medius* |
+| Indian Flying Fox (Pteropus Giganteus) | *Pteropus Giganteus) (Pteropus giganteus* |
 | Indian Leaf-nosed Bat | *Hipposideros lankadiva* |
 | Indian Pipistrelle | *Pipistrellus coromandra* |
 | Indian Short-nosed Fruit Bat | *Cynopterus sphinx* |
@@ -1078,6 +1289,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Large Asian Leaf-nosed Bat | *Hipposideros lekaguli* |
 | Large False Serotine | *Hesperoptenus tomesi* |
 | Large Flying Fox | *Pteropus vampyrus* |
+| Large Flying Fox (Pteropus Vampyrus) | *Pteropus Vampyrus) (Pteropus vampyrus* |
 | Large Forest Bat | *Vespadelus darlingtoni* |
 | Large Fruit-eating Bat | *Artibeus amplus* |
 | Large Melanesian Bent-wing Bat | *Miniopterus propitristis* |
@@ -1130,6 +1342,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Little Big-eyed Bat | *Chiroderma trinitatum* |
 | Little Black Serotine | *Neoeptesicus andinus* |
 | Little Brown Bat | *Myotis lucifugus* |
+| Little Brown Bat (Myotis Lucifugus) | *Myotis Lucifugus) (Myotis lucifugus* |
 | Little Collared Fruit Bat | *Myonycteris torquata* |
 | Little Epauletted Fruit Bat | *Epomophorus labiatus* |
 | Little Epauletted Fruit-bat | *Epomophorus minor* |
@@ -1233,6 +1446,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Northern Bat | *Cnephaeus nilssonii* |
 | Northern Black Mastiff Bat | *Molossus nigricans* |
 | Northern Long-eared Bat | *Nyctophilus arnhemensis* |
+| Northern Long-eared Bat | *Nyctophilus daedalus* |
 | Northern Long-eared Myotis | *Myotis septentrionalis* |
 | Northern Mastiff Bat | *Mops jobensis* |
 | Northern Woolly Horseshoe Bat | *Rhinolophus perniger* |
@@ -1481,27 +1695,31 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Zenker's Fruit Bat | *Scotonycteris zenkeri* |
 | Zulu Serotine | *Neoromicia zuluensis* |
 
-### • Cingulata (15)
+### • Cingulata (19)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Armadillo | *Dasypus novemcinctus* |
 | Chacoan Naked-tailed Armadillo | *Cabassous chacoensis* |
 | Giant Armadillo | *Priodontes maximus* |
+| Giant Armadillo (Priodontes Maximus) | *Priodontes Maximus) (Priodontes maximus* |
 | Great Long-nosed Armadillo | *Dasypus kappleri* |
 | Greater Fairy Armadillo | *Calyptophractus retusus* |
 | Greater Naked-tailed Armadillo | *Cabassous tatouay* |
 | Hairy Long-nosed Armadillo | *Dasypus pilosus* |
 | Large Hairy Armadillo | *Chaetophractus villosus* |
 | Llanos Long-nosed Armadillo | *Dasypus sabanicola* |
+| Nine-banded Armadillo | *Dasypus novemcinctus* |
+| Nine-banded Armadillo (Dasypus Novemcinctus) | *Dasypus Novemcinctus) (Dasypus novemcinctus* |
 | Northern Naked-tailed Armadillo | *Cabassous centralis* |
 | Pink Fairy Armadillo | *Chlamyphorus truncatus* |
+| Pink Fairy Armadillo (Chlamyphorus Truncatus) | *Chlamyphorus Truncatus) (Chlamyphorus truncatus* |
 | Screaming Hairy Armadillo | *Chaetophractus vellerosus* |
 | Seven-banded Armadillo | *Dasypus septemcinctus* |
 | Southern Long-nosed Armadillo | *Dasypus hybridus* |
 | Southern Naked-tailed Armadillo | *Cabassous unicinctus* |
 
-### • Dasyuromorphia (66)
+### • Dasyuromorphia (71)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -1524,6 +1742,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Fat-tailed Pseudantechinus | *Pseudantechinus macdonnellensis* |
 | Fawn Antechinus | *Antechinus bellus* |
 | Flat-skulled Marsupial Mouse | *Planigale gilesi* |
+| Flat-skulled Marsupial Mouse | *Planigale tenuirostris* |
 | Gilbert's Dunnart | *Sminthopsis gilberti* |
 | Gray-bellied Dunnart | *Sminthopsis fuliginosa* |
 | Habbema Dasyure | *Murexia habbema* |
@@ -1542,6 +1761,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Ningbing Antechinus | *Pseudantechinus ningbing* |
 | Northern Quoll | *Dasyurus hallucatus* |
 | Numbat | *Myrmecobius fasciatus* |
+| Numbat (Myrmecobius Fasciatus) | *Myrmecobius Fasciatus) (Myrmecobius fasciatus* |
 | Ooldea Dunnart | *Sminthopsis ooldea* |
 | Papuan Planigale | *Planigale novaeguineae* |
 | Pilbara Ningaui | *Ningaui timealeyi* |
@@ -1558,13 +1778,16 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Southern Dibbler | *Parantechinus apicalis* |
 | Southern Ningaui | *Ningaui yvonnae* |
 | Spotted-tailed Quoll | *Dasyurus maculatus* |
+| Spotted-tailed Quoll (Dasyurus Maculatus) | *Dasyurus Maculatus) (Dasyurus maculatus* |
 | Stripe-faced Dunnart | *Sminthopsis macroura* |
 | Subtropical Antechinus | *Antechinus subtropicus* |
 | Swamp Antechinus | *Antechinus minimus* |
 | Tasman Peninsula Dusky Antechinus | *Antechinus vandycki* |
 | Tasmanian Devil | *Sarcophilus harrisii* |
+| Tasmanian Devil (Sarcophilus Harrisii) | *Sarcophilus Harrisii) (Sarcophilus harrisii* |
 | Tasmanian Wolf | *Thylacinus cynocephalus* |
 | Three-striped Marsupial Mouse | *Myoictis melas* |
+| Thylacine / Tasmanian Tiger | *Thylacinus cynocephalus* |
 | Western Quoll | *Dasyurus geoffroii* |
 | White-footed Dunnart | *Sminthopsis leucopus* |
 | White-tailed Dunnart | *Sminthopsis granulipes* |
@@ -1579,7 +1802,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Philippine Flying Lemur | *Cynocephalus volans* |
 | Sunda Flying Lemur | *Galeopterus variegatus* |
 
-### • Didelphimorphia (80)
+### • Didelphimorphia (82)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -1630,6 +1853,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Long-tailed Fat-tailed Opossum | *Thylamys macrura* |
 | Mexican Mouse Opossum | *Marmosa mexicana* |
 | Murine Mouse Opossum | *Marmosa murina* |
+| North American Opossum | *Didelphis virginiana* |
 | Northern Gracile Opossum | *Gracilinanus marica* |
 | Northern Three-striped Opossum | *Monodelphis americana* |
 | Ojasti's Slender Mouse Opossum | *Marmosops ojastii* |
@@ -1656,6 +1880,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Theresa's Short-tailed Opossum | *Monodelphis theresa* |
 | Thick-tailed Opossum | *Lutreolina crassicaudata* |
 | Tyleria Mouse Opossum | *Marmosa tyleriana* |
+| Virginia Opossum (Didelphis Virginiana) | *Didelphis Virginiana) (Didelphis virginiana* |
 | Voss' Slender Opossum | *Marmosops creightoni* |
 | Water Opossum | *Chironectes minimus* |
 | Western Woolly Opossum | *Caluromys lanatus* |
@@ -1664,7 +1889,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | White-eared Opossum | *Didelphis albiventris* |
 | Yellow-sided Oppossum | *Monodelphis dimidiata* |
 
-### • Diprotodontia (106)
+### • Diprotodontia (124)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -1684,10 +1909,15 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Brown's Pademelon | *Thylogale browni* |
 | Brush-tailed Rock Wallaby | *Petrogale penicillata* |
 | Calaby's Pademelon | *Thylogale calabyi* |
+| Common Brushtail | *Trichosurus vulpecula* |
 | Common Brushtail Possum | *Trichosurus vulpecula* |
+| Common Brushtail Possum (Trichosurus Vulpecula) | *Trichosurus Vulpecula) (Trichosurus vulpecula* |
+| Common Ring-tailed Possum | *Pseudocheirus peregrinus* |
 | Common Ringtail Possum | *Pseudocheirus peregrinus* |
+| Common Ringtail Possum (Pseudocheirus Peregrinus) | *Pseudocheirus Peregrinus) (Pseudocheirus peregrinus* |
 | Common Wallaroo | *Osphranter robustus* |
 | Common Wombat | *Vombatus ursinus* |
+| Common Wombat (Vombatus Ursinus) | *Vombatus Ursinus) (Vombatus ursinus* |
 | Coppery Brushtail | *Trichosurus johnstonii* |
 | Coppery Ringtail Possum | *Pseudochirops cupreus* |
 | D'albertis' Ringtail | *Pseudochirops albertisii* |
@@ -1696,7 +1926,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Dingiso | *Dendrolagus mbaiso* |
 | Doria's Tree Kangaroo | *Dendrolagus dorianus* |
 | Dusky Pademelon | *Thylogale brunii* |
+| Eastern Gray Kangaroo | *Macropus giganteus* |
 | Eastern Grey Kangaroo | *Macropus giganteus* |
+| Eastern Grey Kangaroo (Macropus Giganteus) | *Macropus Giganteus) (Macropus giganteus* |
 | Gilbert's Potoroo | *Potorous gilbertii* |
 | Godman's Rock Wallaby | *Petrogale godmani* |
 | Golden Ringtail Possum | *Pseudochirops corinnae* |
@@ -1708,7 +1940,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Grizzled Tree Kangaroo | *Dendrolagus inustus* |
 | Herbert River Ringtail | *Pseudochirulus herbertensis* |
 | Honey Possum | *Tarsipes rostratus* |
+| Huon Tree Kangaroo | *Dendrolagus matschiei* |
 | Kangaroo | *Macropus rufus* |
+| Kangaroo | *Macropus sp.* |
 | Koala | *Phascolarctos cinereus* |
 | Leadbeater's Possum | *Gymnobelideus leadbeateri* |
 | Lemur-like Ringtail | *Hemibelideus lemuroides* |
@@ -1721,6 +1955,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Lowland Ringtail | *Pseudochirulus canescens* |
 | Lowland Tree Kangaroo | *Dendrolagus spadix* |
 | Mahogany Glider | *Petaurus gracilis* |
+| Matschie's Tree-kangaroo (Dendrolagus Matschiei) | *Dendrolagus Matschiei) (Dendrolagus matschiei* |
 | Monjon | *Petrogale burbidgei* |
 | Mountain Brushtail Opossum | *Trichosurus cunninghami* |
 | Mountain Brushtail Possum | *Trichosurus caninus* |
@@ -1740,11 +1975,14 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Purple-necked Rock-wallaby | *Petrogale purpureicollis* |
 | Pygmy Ringtail | *Pseudochirulus mayeri* |
 | Quokka | *Setonix brachyurus* |
+| Quokka (Setonix Brachyurus) | *Setonix Brachyurus) (Setonix brachyurus* |
 | Red Kangaroo | *Osphranter rufus* |
+| Red Kangaroo (Osphranter Rufus) | *Osphranter Rufus) (Osphranter rufus* |
 | Red-bellied Pademelon | *Thylogale billardierii* |
 | Red-legged Pademelon | *Thylogale stigmatica* |
 | Red-necked Pademelon | *Thylogale thetis* |
 | Red-necked Wallaby | *Notamacropus rufogriseus* |
+| Red-necked Wallaby (Notamacropus Rufogriseus) | *Notamacropus Rufogriseus) (Notamacropus rufogriseus* |
 | Ring-tailed Rock Wallaby | *Petrogale xanthopus* |
 | Rock-haunting Ringtail | *Pseudochirops dahlii* |
 | Rufous Hare-wallaby | *Lagorchestes hirsutus* |
@@ -1753,11 +1991,14 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Short-eared Rock Wallaby | *Petrogale brachyotis* |
 | Short-faced Kangaroo | *Simosthenurus occidentalis* |
 | Southern Hairy-nosed Wombat | *Lasiorhinus latifrons* |
+| Southern Hairy-nosed Wombat (Lasiorhinus Latifrons) | *Lasiorhinus Latifrons) (Lasiorhinus latifrons* |
 | Spectacled Hare-wallaby | *Lagorchestes conspicillatus* |
 | Squirrel Glider | *Petaurus norfolcensis* |
 | Striped Possum | *Dactylopsila trivirgata* |
 | Sugar Glider | *Petaurus breviceps* |
+| Sugar Glider (Petaurus Breviceps) | *Petaurus Breviceps) (Petaurus breviceps* |
 | Swamp Wallaby | *Wallabia bicolor* |
+| Swamp Wallaby (Wallabia Bicolor) | *Wallabia Bicolor) (Wallabia bicolor* |
 | Tammar Wallaby | *Notamacropus eugenii* |
 | Tasmanian Bettong | *Bettongia gaimardi* |
 | Tenkile Tree Kangaroo | *Dendrolagus scottae* |
@@ -1765,7 +2006,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Tree Kangaroo | *Dendrolagus matschiei* |
 | Unadorned Rock Wallaby | *Petrogale inornata* |
 | Western Bush Wallaby | *Notamacropus irma* |
+| Western Gray Kangaroo | *Macropus fuliginosus* |
 | Western Grey Kangaroo | *Macropus fuliginosus* |
+| Western Grey Kangaroo (Macropus Fuliginosus) | *Macropus Fuliginosus) (Macropus fuliginosus* |
 | Western Ringtail Oppossum | *Pseudocheirus occidentalis* |
 | Weyland Ringtail | *Pseudochirulus caroli* |
 | Whiptail Wallaby | *Notamacropus parryi* |
@@ -1775,7 +2018,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Woylie | *Bettongia penicillata* |
 | Yellow-bellied Glider | *Petaurus australis* |
 
-### • Eulipotyphla (297)
+### • Eulipotyphla (304)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -1836,6 +2079,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Cinereus Shrew | *Sorex cinereus* |
 | Climbing Shrew | *Suncus megalurus* |
 | Common Shrew | *Sorex araneus* |
+| Common Shrew (Sorex Araneus) | *Sorex Araneus) (Sorex araneus* |
 | Crosse's Shrew | *Crocidura crossei* |
 | Crowned Shrew | *Sorex coronatus* |
 | Cuban Solenodon | *Atopogale cubana* |
@@ -1861,6 +2105,10 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Elongated Shrew | *Crocidura elongata* |
 | Eurasian Pygmy Shrew | *Sorex minutus* |
 | Eurasian Water Shrew | *Neomys fodiens* |
+| European Hedgehog (Erinaceus Europaeus) | *Erinaceus Europaeus) (Erinaceus europaeus* |
+| European Mole | *Talpa europaea* |
+| European Mole (Talpa Europaea) | *Talpa Europaea) (Talpa europaea* |
+| European Shrew | *Sorex araneus* |
 | Even-toothed Shrew | *Sorex isodon* |
 | Flat-headed Water Shrew | *Chimarrogale platycephalus* |
 | Flat-skulled Shrew | *Sorex roboratus* |
@@ -2036,6 +2284,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Southern White-breasted Hedgehog | *Erinaceus concolor* |
 | Sri Lanka Shrew | *Suncus fellowesgordoni* |
 | Star-nosed Mole | *Condylura cristata* |
+| Star-nosed Mole (Condylura Cristata) | *Condylura Cristata) (Condylura cristata* |
 | Stripe-backed Shrew | *Sorex cylindricauda* |
 | Sulawesi Shrew | *Crocidura lea* |
 | Sunda Shrew | *Crocidura monticola* |
@@ -2069,6 +2318,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Voi Shrew | *Crocidura voi* |
 | Volcano Shrew | *Sylvisorex vulcanorum* |
 | Voracious Shrew | *Crocidura vorax* |
+| Western European Hedgehog | *Erinaceus europaeus* |
 | White-tailed Mole | *Parascaptor leucura* |
 | White-toothed Pygmy Shrew | *Suncus etruscus* |
 | White-toothed Shrew | *Crocidura russula* |
@@ -2077,16 +2327,18 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Zacatecas Shrew | *Sorex emarginatus* |
 | Zimmermann's Shrew | *Crocidura zimmermanni* |
 
-### • Hyracoidea (4)
+### • Hyracoidea (6)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
+| Cape Rock Hyrax | *Procavia capensis* |
 | Rock Hyrax | *Procavia capensis* |
+| Rock Hyrax (Procavia Capensis) | *Procavia Capensis) (Procavia capensis* |
 | Southern Tree Hyrax | *Dendrohyrax arboreus* |
 | Western Tree Hyrax | *Dendrohyrax dorsalis* |
 | Yellow-spotted Hyrax | *Heterohyrax brucei* |
 
-### • Lagomorpha (77)
+### • Lagomorpha (85)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -2095,6 +2347,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Alaskan Hare | *Lepus othus* |
 | Alpine Pika | *Ochotona alpina* |
 | American Pika | *Ochotona princeps* |
+| American Pika (Ochotona Princeps) | *Ochotona Princeps) (Ochotona princeps* |
 | Annamite Striped Rabbit | *Nesolagus timminsi* |
 | Antelope Jackrabbit | *Lepus alleni* |
 | Arctic Hare | *Lepus arcticus* |
@@ -2102,6 +2355,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Black Pika | *Ochotona nigritia* |
 | Black-lipped Pika | *Ochotona curzoniae* |
 | Black-tailed Jackrabbit | *Lepus californicus* |
+| Black-tailed Jackrabbit (Lepus Californicus) | *Lepus Californicus) (Lepus californicus* |
 | Broom Hare | *Lepus castroviejoi* |
 | Brown Hare | *Lepus capensis* |
 | Brush Rabbit | *Sylvilagus bachmani* |
@@ -2115,8 +2369,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Desert Hare | *Lepus tibetanus* |
 | Dice's Cottontail | *Sylvilagus dicei* |
 | Eastern Cottontail | *Sylvilagus floridanus* |
+| Eastern Cottontail (Sylvilagus Floridanus) | *Sylvilagus Floridanus) (Sylvilagus floridanus* |
 | Ethiopian Hare | *Lepus fagani* |
 | Ethiopian Highland Hare | *Lepus starcki* |
+| European Hare | *Lepus europaeus* |
+| European Hare (Lepus Europaeus) | *Lepus Europaeus) (Lepus europaeus* |
+| European Rabbit (Oryctolagus Cuniculus) | *Oryctolagus Cuniculus) (Oryctolagus cuniculus* |
 | Forrest's Pika | *Ochotona forresti* |
 | Gansu Pika | *Ochotona cansus* |
 | Gaoligong Pika | *Ochotona gaoligongensis* |
@@ -2140,6 +2398,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Mexican Cottontail | *Sylvilagus cunicularius* |
 | Mountain Cottontail | *Sylvilagus nuttallii* |
 | Mountain Hare | *Lepus timidus* |
+| Mountain Hare (Lepus Timidus) | *Lepus Timidus) (Lepus timidus* |
 | Moupin Pika | *Ochotona thibetana* |
 | New England Cottontail | *Sylvilagus transitionalis* |
 | Northern Pika | *Ochotona hyperborea* |
@@ -2154,6 +2413,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Scrub Hare | *Lepus saxatilis* |
 | Smith's Red Rock Rabbit | *Pronolagus rupestris* |
 | Snowshoe Hare | *Lepus americanus* |
+| Snowshoe Hare (Lepus Americanus) | *Lepus Americanus) (Lepus americanus* |
 | Steppe Pika | *Ochotona pusilla* |
 | Sumatran Rabbit | *Nesolagus netscheri* |
 | Swamp Rabbit | *Sylvilagus aquaticus* |
@@ -2200,16 +2460,19 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Monito Del Monte | *Dromiciops gliroides* |
 | Panchoss Monito Del Monte | *Dromiciops bozinovici* |
 
-### • Monotremata (6)
+### • Monotremata (9)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
+| Australian Echidna | *Tachyglossus aculeatus* |
 | Eastern Long-beaked Echidna | *Zaglossus bartoni* |
 | Long-beaked Echidna | *Zaglossus bruijni* |
 | Platypus | *Ornithorhynchus anatinus* |
 | Short-beaked Echidna | *Tachyglossus aculeatus* |
+| Short-beaked Echidna (Tachyglossus Aculeatus) | *Tachyglossus Aculeatus) (Tachyglossus aculeatus* |
 | Sir David's Long-beaked Echidna | *Zaglossus attenboroughi* |
 | Western Long-beaked Echidna | *Zaglossus bruijnii* |
+| Western Long-beaked Echidna (Zaglossus Bruijnii) | *Zaglossus Bruijnii) (Zaglossus bruijnii* |
 
 ### • Notoryctemorphia (1)
 
@@ -2228,19 +2491,22 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Sangay Shrew Opossum | *Caenolestes sangay* |
 | Silky Shrew Opossum | *Caenolestes fuliginosus* |
 
-### • Peramelemorphia (20)
+### • Peramelemorphia (23)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
+| Bilby | *Macrotis lagotis* |
 | Clara's Echymipera | *Echymipera clara* |
 | Desert Bandicoot | *Perameles eremiana* |
 | Eastern Barred Bandicoot | *Perameles gunnii* |
 | Giant Bandicoot | *Peroryctes broadbenti* |
 | Golden Bandicoot | *Isoodon auratus* |
 | Greater Bilby | *Macrotis lagotis* |
+| Greater Bilby (Macrotis Lagotis) | *Macrotis Lagotis) (Macrotis lagotis* |
 | Kalubu Echymipera | *Echymipera kalubu* |
 | Lesser Bilby | *Macrotis leucura* |
 | Long-nosed Bandicoot | *Perameles nasuta* |
+| Long-nosed Bandicoot (Perameles Nasuta) | *Perameles Nasuta) (Perameles nasuta* |
 | Long-nosed Echymipera | *Echymipera rufescens* |
 | Long-tailed Bandicoot | *Microperoryctes longicauda* |
 | New Guinean Mouse Bandicoot | *Microperoryctes murina* |
@@ -2253,35 +2519,56 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Striped Bandicoot | *Microperoryctes ornatus* |
 | Western Barred Bandicoot | *Perameles bougainville* |
 
-### • Perissodactyla (23)
+### • Perissodactyla (44)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | African Wild Ass | *Equus africanus* |
+| African Wild Ass (Equus Africanus) | *Equus Africanus) (Equus africanus* |
+| Asiatic Tapir | *Tapirus indicus* |
 | Baird's Tapir | *Tapirus bairdii* |
+| Baird's Tapir (Tapirus Bairdii) | *Tapirus Bairdii) (Tapirus bairdii* |
+| Black Rhinoceros | *Diceros bicornis* |
+| Black Rhinoceros (Diceros Bicornis) | *Diceros Bicornis) (Diceros bicornis* |
+| Brazilian Tapir | *Tapirus terrestris* |
 | Domestic Horse | *Equus caballus* |
 | Donkey | *Equus asinus* |
+| Greater Indian Rhinoceros | *Rhinoceros unicornis* |
 | Grevy's Zebra | *Equus grevyi* |
+| Grevy's Zebra (Equus Grevyi) | *Equus Grevyi) (Equus grevyi* |
+| Hinny | *Equus caballus x Equus asinus* |
+| Horse | *Equus caballus* |
 | Indian Rhinoceros | *Rhinoceros unicornis* |
+| Indian Rhinoceros (Rhinoceros Unicornis) | *Rhinoceros Unicornis) (Rhinoceros unicornis* |
 | Javan Rhinoceros | *Rhinoceros sondaicus* |
+| Javan Rhinoceros (Rhinoceros Sondaicus) | *Rhinoceros Sondaicus) (Rhinoceros sondaicus* |
 | Kiang | *Equus kiang* |
 | Little Black Tapir | *Tapirus kabomani* |
 | Malayan Tapir | *Tapirus indicus* |
+| Malayan Tapir (Tapirus Indicus) | *Tapirus Indicus) (Tapirus indicus* |
 | Mountain Tapir | *Tapirus pinchaque* |
 | Mountain Zebra | *Equus zebra* |
+| Mountain Zebra (Equus Zebra) | *Equus Zebra) (Equus zebra* |
+| Mule | *Equus asinus x Equus caballus* |
 | Onager | *Equus hemionus* |
+| Onager (Equus Hemionus) | *Equus Hemionus) (Equus hemionus* |
 | Plains Zebra | *Equus quagga* |
+| Plains Zebra (Equus Quagga) | *Equus Quagga) (Equus quagga* |
 | Pleistocene Cape Zebra | *Equus capensis* |
+| Przewalski's Horse | *Equus ferus przewalskii* |
 | Przewalski's Horse | *Equus przewalskii* |
 | Rhinoceros | *Diceros bicornis* |
 | South American Tapir | *Tapirus terrestris* |
+| South American Tapir (Tapirus Terrestris) | *Tapirus Terrestris) (Tapirus terrestris* |
 | Sumatran Rhinoceros | *Dicerorhinus sumatrensis* |
+| Sumatran Rhinoceros (Dicerorhinus Sumatrensis) | *Dicerorhinus Sumatrensis) (Dicerorhinus sumatrensis* |
 | Tarpan | *Equus ferus* |
 | White Rhinoceros | *Ceratotherium simum* |
+| White Rhinoceros (Ceratotherium Simum) | *Ceratotherium Simum) (Ceratotherium simum* |
 | Woolly Rhinoceros | *Coelodonta antiquitatis* |
 | Yukon Horse | *Equus lambei* |
 
-### • Pholidota (10)
+### • Pholidota (13)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -2289,32 +2576,41 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Chinese Pangolin | *Manis pentadactyla* |
 | Giant Pangolin | *Smutsia gigantea* |
 | Ground Pangolin | *Smutsia temminckii* |
+| Ground Pangolin (Smutsia Temminckii) | *Smutsia Temminckii) (Smutsia temminckii* |
 | Indian Pangolin | *Manis crassicaudata* |
 | Indo Burmese Pangolin | *Manis aurita* |
 | Long-tailed Pangolin | *Phataginus tetradactyla* |
+| Malayan Pangolin | *Manis javanica* |
 | Palawan Pangolin | *Manis culionensis* |
 | Sunda Pangolin | *Manis javanica* |
+| Sunda Pangolin (Manis Javanica) | *Manis Javanica) (Manis javanica* |
 | Tree Pangolin | *Phataginus tricuspis* |
 
-### • Pilosa (13)
+### • Pilosa (19)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Brown-throated Sloth | *Bradypus variegatus* |
+| Brown-throated Sloth (Bradypus Variegatus) | *Bradypus Variegatus) (Bradypus variegatus* |
 | Giant Anteater | *Myrmecophaga tridactyla* |
+| Giant Anteater (Myrmecophaga Tridactyla) | *Myrmecophaga Tridactyla) (Myrmecophaga tridactyla* |
 | Hoffmann's Two-fingered Sloth | *Choloepus hoffmanni* |
 | Jefferson's Ground Sloth | *Megalonyx jeffersonii* |
 | Linnaeus's Two-toed Sloth | *Choloepus didactylus* |
+| Linnaeus's Two-toed Sloth (Choloepus Didactylus) | *Choloepus Didactylus) (Choloepus didactylus* |
 | Maned Three-toed Sloth | *Bradypus torquatus* |
 | Mexican Collared Anteater | *Tamandua mexicana* |
+| Pale-throated Sloth | *Bradypus tridactylus* |
 | Pygmy Three-toed Sloth | *Bradypus pygmaeus* |
 | Shasta Ground Sloth | *Nothrotheriops shastensis* |
 | Silky Anteater | *Cyclopes didactylus* |
 | Sloth | *Bradypus tridactylus* |
 | Southern Maned Three-toed Sloth | *Bradypus crinitus* |
 | Southern Tamandua | *Tamandua tetradactyla* |
+| Southern Tamandua (Tamandua Tetradactyla) | *Tamandua Tetradactyla) (Tamandua tetradactyla* |
+| Southern Two-toed Sloth | *Choloepus didactylus* |
 
-### • Primates (384)
+### • Primates (445)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -2332,15 +2628,19 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Ashy Titi | *Plecturocebus cinerascens* |
 | Assam Macaque | *Macaca assamensis* |
 | Aye-aye | *Daubentonia madagascariensis* |
+| Aye-aye (Daubentonia Madagascariensis) | *Daubentonia Madagascariensis) (Daubentonia madagascariensis* |
 | Azara's Night Monkey | *Aotus azarai* |
 | Azaras's Capuchin | *Sapajus cay* |
 | Baboon | *Papio anubis* |
 | Bald Uakari | *Cacajao calvus* |
+| Bald Uakari (Cacajao Calvus) | *Cacajao Calvus) (Cacajao calvus* |
 | Bald-faced Saki | *Pithecia irrorata* |
 | Bale Mountains Vervet | *Chlorocebus djamdjamensis* |
 | Bamboo Lemur | *Hapalemur griseus* |
 | Banded Leaf Monkey | *Presbytis femoralis* |
+| Barbary Ape | *Macaca sylvanus* |
 | Barbary Macaque | *Macaca sylvanus* |
+| Barbary Macaque (Macaca Sylvanus) | *Macaca Sylvanus) (Macaca sylvanus* |
 | Bare-eared Squirrel Monkey | *Saimiri ustus* |
 | Bemanasy Mouse Lemur | *Microcebus manitatra* |
 | Bengal Slow Loris | *Nycticebus bengalensis* |
@@ -2355,6 +2655,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Black Lemur | *Eulemur macaco* |
 | Black Snub-nosed Monkey | *Rhinopithecus bieti* |
 | Black Spider Monkey | *Ateles chamek* |
+| Black Spider Monkey X Brown-headed Spider Monkey | *Ateles paniscus x Ateles fusciceps* |
 | Black Squirrel Monkey | *Saimiri vanzolinii* |
 | Black Sumatran Langur | *Presbytis sumatrana* |
 | Black Titi | *Cheracebus lugens* |
@@ -2362,8 +2663,10 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Black-and-red Tamarin | *Leontocebus nigricollis* |
 | Black-and-white Langur | *Presbytis bicolor* |
 | Black-bearded Saki | *Chiropotes satanas* |
+| Black-chinned Emperor Tamarin | *Saguinus imperator* |
 | Black-footed Gray Langur | *Semnopithecus hypoleucos* |
 | Black-fronted Titi | *Callicebus nigrifrons* |
+| Black-handed Spider Monkey | *Ateles geoffroyi* |
 | Black-handed Tamarin | *Saguinus niger* |
 | Black-handed Titi | *Cheracebus medemi* |
 | Black-headed Night Monkey | *Aotus nigriceps* |
@@ -2379,7 +2682,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Bolivian Titi | *Plecturocebus donacophilus* |
 | Bonnet Macaque | *Macaca radiata* |
 | Bonobo | *Pan paniscus* |
+| Bonobo (Pan Paniscus) | *Pan Paniscus) (Pan paniscus* |
 | Booted Macaque | *Macaca ochreata* |
+| Bornean Orangutan | *Pongo pygmaeus* |
 | Bornean Slow Loris | *Nycticebus borneanus* |
 | Bornean White-bearded Gibbon | *Hylobates albibarbis* |
 | Brazilian Bare-faced Tamarin | *Saguinus bicolor* |
@@ -2392,12 +2697,14 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Brown-headed Tamarin | *Leontocebus fuscicollis* |
 | Buffy-headed Marmoset | *Callithrix flaviceps* |
 | Burmese Snub-nosed Monkey | *Rhinopithecus strykeri* |
+| Bush Baby | *Galago sp.* |
 | Calabar Angwantibo | *Arctocebus calabarensis* |
 | Campbell's Monkey | *Cercopithecus campbelli* |
 | Celebes Crested Macaque | *Macaca nigra* |
 | Central African Red Colobus | *Piliocolobus foai* |
 | Central American Squirrel Monkey | *Saimiri oerstedii* |
 | Chacma Baboon | *Papio ursinus* |
+| Chacma Baboon (Papio Ursinus) | *Papio Ursinus) (Papio ursinus* |
 | Chestnut Capuchin | *Cebus castaneus* |
 | Chestnut-bellied Titi | *Plecturocebus caligatus* |
 | Chimpanzee | *Pan troglodytes* |
@@ -2406,8 +2713,11 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Collared Mangabey | *Cercocebus torquatus* |
 | Collared Titi | *Cheracebus torquatus* |
 | Colombian Woolly Monkey | *Lagothrix lugens* |
+| Common Gibbon | *Hylobates lar* |
 | Common Marmoset | *Callithrix jacchus* |
+| Common Marmoset (Callithrix Jacchus) | *Callithrix Jacchus) (Callithrix jacchus* |
 | Common Squirrel Monkey | *Saimiri sciureus* |
+| Common Squirrel Monkey (Saimiri Sciureus) | *Saimiri Sciureus) (Saimiri sciureus* |
 | Coppery Titi | *Plecturocebus cupreus* |
 | Coquerel's Mouse Lemur | *Mirza coquereli* |
 | Coquerel's Sifaka | *Propithecus coquereli* |
@@ -2419,6 +2729,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Crowned Lemur | *Eulemur coronatus* |
 | Cruz Lima's Saddle-back Tamarin | *Leontocebus cruzlimai* |
 | De Brazza's Monkey | *Cercopithecus neglectus* |
+| De Brazza's Monkey (Cercopithecus Neglectus) | *Cercopithecus Neglectus) (Cercopithecus neglectus* |
 | Delacour's Langur | *Trachypithecus delacouri* |
 | Demidoff's Galago | *Galagoides demidoff* |
 | Dent's Mona Monkey | *Cercopithecus denti* |
@@ -2427,9 +2738,11 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Diana Monkey | *Cercopithecus diana* |
 | Douroucouli | *Aotus trivirgatus* |
 | Drill | *Mandrillus leucophaeus* |
+| Drill (Mandrillus Leucophaeus) | *Mandrillus Leucophaeus) (Mandrillus leucophaeus* |
 | Dryas Monkey | *Chlorocebus dryas* |
 | Dusky Leaf-monkey | *Trachypithecus obscurus* |
 | Eastern Gorilla | *Gorilla beringei* |
+| Eastern Gorilla (Gorilla Beringei) | *Gorilla Beringei) (Gorilla beringei* |
 | Eastern Gray Gibbon | *Hylobates funereus* |
 | Eastern Hoolock Gibbon | *Hoolock leuconedys* |
 | Eastern Lesser Bamboo Lemur | *Hapalemur gilberti* |
@@ -2437,22 +2750,28 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Ecuadorian Squirrel Monkey | *Saimiri macrodon* |
 | Emilia's Marmoset | *Mico emiliae* |
 | Emperor Tamarin | *Saguinus imperator* |
+| Emperor Tamarin (Saguinus Imperator) | *Saguinus Imperator) (Saguinus imperator* |
 | Fork-marked Lemur | *Phaner furcifer* |
 | Francois's Langur | *Trachypithecus francoisi* |
 | Gabon Bushbaby | *Galago gabonensis* |
 | Gabon Talapoin | *Miopithecus ogouensis* |
 | Gelada | *Theropithecus gelada* |
+| Gelada (Theropithecus Gelada) | *Theropithecus Gelada) (Theropithecus gelada* |
 | Geoffroy's Marmoset | *Callithrix geoffroyi* |
+| Geoffroy's Spider Monkey (Ateles Geoffroyi) | *Ateles Geoffroyi) (Ateles geoffroyi* |
 | Geoffroy's Tamarin | *Saguinus geoffroyi* |
 | Gerp's Mouse Lemur | *Microcebus gerpi* |
 | Giant Sloth Lemur | *Palaeopropithecus maximus* |
+| Gibbon | *Hylobates sp.* |
 | Goeldi's Marmoset | *Callimico goeldii* |
 | Gold-and-white Marmoset | *Mico chrysoleucos* |
 | Golden Angwantibo | *Arctocebus aureus* |
 | Golden Bamboo Lemur | *Hapalemur aureus* |
 | Golden Lion Tamarin | *Leontopithecus rosalia* |
+| Golden Lion Tamarin (Leontopithecus Rosalia) | *Leontopithecus Rosalia) (Leontopithecus rosalia* |
 | Golden Monkey | *Cercopithecus kandti* |
 | Golden Snub-nosed Monkey | *Rhinopithecus roxellana* |
+| Golden Snub-nosed Monkey (Rhinopithecus Roxellana) | *Rhinopithecus Roxellana) (Rhinopithecus roxellana* |
 | Golden-bellied Mangabey | *Cercocebus chrysogaster* |
 | Golden-faced Saki | *Pithecia chrysocephala* |
 | Golden-headed Lion Tamarin | *Leontopithecus chrysomelas* |
@@ -2462,6 +2781,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Gorilla | *Gorilla gorilla* |
 | Grant's Bushbaby | *Paragalago granti* |
 | Gray Mouse Lemur | *Microcebus murinus* |
+| Gray Mouse Lemur (Microcebus Murinus) | *Microcebus Murinus) (Microcebus murinus* |
 | Gray Slender Loris | *Loris lydekkerianus* |
 | Gray Snub-nosed Monkey | *Rhinopithecus brelichi* |
 | Gray Woolly Monkey | *Lagothrix cana* |
@@ -2481,6 +2801,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Hairy Saki | *Pithecia hirsuta* |
 | Hairy-eared Dwarf Lemur | *Allocebus trichotus* |
 | Hamadryas Baboon | *Papio hamadryas* |
+| Hamadryas Baboon (Papio Hamadryas) | *Papio Hamadryas) (Papio hamadryas* |
 | Hanuman Langur | *Semnopithecus entellus* |
 | Hatinh Langur | *Trachypithecus hatinhensis* |
 | Heck's Macaque | *Macaca hecki* |
@@ -2492,15 +2813,20 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Hoolock Gibbon | *Hoolock hoolock* |
 | Horsfield's Tarsier | *Cephalopachus bancanus* |
 | Hose's Langur | *Presbytis hosei* |
+| Howler Monkey | *Alouatta guariba* |
 | Howler Monkey | *Alouatta palliata* |
+| Howler Monkey | *Alouatta seniculus* |
+| Howler Monkey | *Alouatta sp.* |
 | Hubbard's Sportive Lemur | *Lepilemur hubbardi* |
 | Human | *Homo sapiens* |
 | Humboldt's Squirrel Monkey | *Saimiri cassiquiarensis* |
 | Indochinese Lutung | *Trachypithecus germaini* |
 | Indri | *Indri indri* |
+| Indri (Indri Indri) | *Indri Indri) (Indri indri* |
 | Jamaican Monkey | *Xenothrix mcgregori* |
 | James' Sportive Lemur | *Lepilemur jamesi* |
 | Japanese Macaque | *Macaca fuscata* |
+| Japanese Macaque (Macaca Fuscata) | *Macaca Fuscata) (Macaca fuscata* |
 | Javan Fuscous Langur | *Presbytis fredericae* |
 | Javan Langur | *Trachypithecus auratus* |
 | Javan Slow Loris | *Nycticebus javanicus* |
@@ -2514,6 +2840,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Kloss's Gibbon | *Hylobates klossii* |
 | L'hoest's Monkey | *Allochrocebus lhoesti* |
 | Laotian Langur | *Trachypithecus laotum* |
+| Lar Gibbon (Hylobates Lar) | *Hylobates Lar) (Hylobates lar* |
 | Large Sloth Lemur | *Palaeopropithecus ingens* |
 | Lariang Tarsier | *Tarsius lariang* |
 | Lavasoa Dwarf Lemur | *Cheirogaleus lavasoensis* |
@@ -2525,7 +2852,11 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Macaque | *Macaca mulatta* |
 | Malbrouck | *Chlorocebus cynosuros* |
 | Mandrill | *Mandrillus sphinx* |
+| Mandrill (Mandrillus Sphinx) | *Mandrillus Sphinx) (Mandrillus sphinx* |
 | Mantled Guereza | *Colobus guereza* |
+| Mantled Guereza (Colobus Guereza) | *Colobus Guereza) (Colobus guereza* |
+| Mantled Howler (Alouatta Palliata) | *Alouatta Palliata) (Alouatta palliata* |
+| Mantled Howler Monkey | *Alouatta palliata* |
 | Maranhao Red-handed Howler | *Alouatta ululata* |
 | Marca's Marmoset | *Mico marcai* |
 | Margot Marsh's Mouse Lemur | *Microcebus margotmarshae* |
@@ -2559,6 +2890,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Northern Sportive Lemur | *Lepilemur septentrionalis* |
 | Northern White-cheeked Gibbon | *Nomascus leucogenys* |
 | Nosy Boraha Mouse Lemur | *Microcebus boraha* |
+| Olive Baboon | *Papio anubis* |
 | Olive Colobus | *Procolobus verus* |
 | Orangutan | *Pongo pygmaeus* |
 | Ornate Titi | *Callicebus ornatus* |
@@ -2573,6 +2905,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Phayre's Leaf Monkey | *Trachypithecus phayrei* |
 | Philippine Slow Loris | *Nycticebus menagensis* |
 | Philippine Tarsier | *Carlito syrichta* |
+| Philippine Tarsier (Carlito Syrichta) | *Carlito Syrichta) (Carlito syrichta* |
 | Pig-tailed Macaque | *Macaca nemestrina* |
 | Pileated Gibbon | *Hylobates pileatus* |
 | Pissinatti's Bald-faced Saki | *Pithecia pissinatti* |
@@ -2581,13 +2914,17 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Preuss's Red Colobus | *Piliocolobus preussi* |
 | Prince Bernhard's Titi | *Plecturocebus bernhardi* |
 | Proboscis Monkey | *Nasalis larvatus* |
+| Proboscis Monkey (Nasalis Larvatus) | *Nasalis Larvatus) (Nasalis larvatus* |
 | Purple-faced Leaf Monkey | *Trachypithecus vetulus* |
+| Pygmy Chimpanzee | *Pan paniscus* |
 | Pygmy Marmoset | *Cebuella pygmaea* |
+| Pygmy Marmoset (Cebuella Pygmaea) | *Cebuella Pygmaea) (Cebuella pygmaea* |
 | Pygmy Slow Loris | *Xanthonycticebus pygmaeus* |
 | Pygmy Tarsier | *Tarsius pumilus* |
 | Randrianasolo's Sportive Lemur | *Lepilemur randrianasoloi* |
 | Red Guenon | *Erythrocebus patas* |
 | Red Ruffed Lemur | *Varecia rubra* |
+| Red Ruffed Lemur (Varecia Rubra) | *Varecia Rubra) (Varecia rubra* |
 | Red Shanked Douc Langur | *Pygathrix nemaeus* |
 | Red-backed Bearded Saki | *Chiropotes chiropotes* |
 | Red-bearded Titi | *Callicebus caquetensis* |
@@ -2600,7 +2937,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Red-fronted Lemur | *Eulemur rufus* |
 | Red-tailed Monkey | *Cercopithecus ascanius* |
 | Red-tailed Sportive Lemur | *Lepilemur ruficaudatus* |
+| Rhesus Monkey | *Macaca mulatta* |
 | Ring-tailed Lemur | *Lemur catta* |
+| Ring-tailed Lemur (Lemur Catta) | *Lemur Catta) (Lemur catta* |
 | Rio Purus Titi | *Cheracebus purinus* |
 | Rondo Bushbaby | *Galagoides rondoensis* |
 | Rondon's Marmoset | *Mico rondoni* |
@@ -2616,11 +2955,15 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Sclater's Guenon | *Cercopithecus sclateri* |
 | Sclater's Lemur | *Eulemur flavifrons* |
 | Senegal Bushbaby | *Galago senegalensis* |
+| Senegal Bushbaby (Galago Senegalensis) | *Galago Senegalensis) (Galago senegalensis* |
+| Senegal Galago | *Galago senegalensis* |
 | Shortridge's Langur | *Trachypithecus shortridgei* |
 | Siamang | *Symphalangus syndactylus* |
+| Siamang (Symphalangus Syndactylus) | *Symphalangus Syndactylus) (Symphalangus syndactylus* |
 | Siberut Langur | *Presbytis siberu* |
 | Siberut Macaque | *Macaca siberu* |
 | Sibree's Dwarf Lemur | *Cheirogaleus sibreei* |
+| Sifaka | *Propithecus sp.* |
 | Silky Sifaka | *Propithecus candidus* |
 | Silver Monkey | *Cercopithecus doggetti* |
 | Silvery Gibbon | *Hylobates moloch* |
@@ -2643,10 +2986,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Southern Wooly Lemur | *Avahi meridionalis* |
 | Spectral Tarsier | *Tarsius tarsier* |
 | Spider Monkey | *Ateles geoffroyi* |
+| Spider Monkey | *Ateles sp.* |
 | Spix's Red-handed Howler | *Alouatta discolor* |
 | Stump-tailed Macaque | *Macaca arctoides* |
 | Sumatran Orangutan | *Pongo abelii* |
+| Sumatran Orangutan (Pongo Abelii) | *Pongo Abelii) (Pongo abelii* |
 | Sun-tailed Monkey | *Allochrocebus solatus* |
+| Sunda Slow Loris (Nycticebus Coucang) | *Nycticebus Coucang) (Nycticebus coucang* |
 | Sykes' Monkey | *Cercopithecus albogularis* |
 | Taiwan Macaque | *Macaca cyclopis* |
 | Talapoin | *Miopithecus talapoin* |
@@ -2664,6 +3010,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Tonkin Snub-nosed Monkey | *Rhinopithecus avunculus* |
 | Toque Macaque | *Macaca sinica* |
 | Tufted Capuchin | *Sapajus apella* |
+| Tufted Capuchin (Sapajus Apella) | *Sapajus Apella) (Sapajus apella* |
 | Tufted Gray Langur | *Semnopithecus priam* |
 | Ugandan Red Colobus | *Piliocolobus tephrosceles* |
 | Uta Hick's Bearded Saki | *Chiropotes utahickae* |
@@ -2671,22 +3018,31 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Van Der Decken's Sifaka | *Propithecus deckenii* |
 | Vanzolini's Bald-faced Saki | *Pithecia vanzolinii* |
 | Verreaux's Sifaka | *Propithecus verreauxi* |
+| Verreaux's Sifaka (Propithecus Verreauxi) | *Propithecus Verreauxi) (Propithecus verreauxi* |
+| Vervet | *Chlorocebus pygerythrus* |
 | Vervet Monkey | *Chlorocebus pygerythrus* |
+| Vervet Monkey (Chlorocebus Pygerythrus) | *Chlorocebus Pygerythrus) (Chlorocebus pygerythrus* |
 | Weasel Lemur | *Lepilemur mustelinus* |
 | Weeper Capuchin Monkey | *Cebus olivaceus* |
+| Western Gorilla | *Gorilla gorilla* |
+| Western Gorilla (Gorilla Gorilla) | *Gorilla Gorilla) (Gorilla gorilla* |
 | Western Needle-clawed Galago | *Euoticus elegantulus* |
 | Western Red Colobus | *Piliocolobus badius* |
 | White Marmoset | *Mico leucippe* |
+| White Sifaka | *Propithecus verreauxi* |
 | White-bellied Spider Monkey | *Ateles belzebuth* |
 | White-cheeked Spider Monkey | *Ateles marginatus* |
 | White-eared Marmoset | *Callithrix aurita* |
 | White-faced Saki | *Pithecia pithecia* |
+| White-faced Saki (Pithecia Pithecia) | *Pithecia Pithecia) (Pithecia pithecia* |
+| White-faced Sapajou | *Cebus capucinus* |
 | White-footed Saki | *Pithecia albicans* |
 | White-footed Sportive Lemur | *Lepilemur leucopus* |
 | White-fronted Capuchin | *Cebus albifrons* |
 | White-fronted Langur | *Presbytis frontata* |
 | White-handed Gibbon | *Hylobates lar* |
 | White-headed Capuchin | *Cebus capucinus* |
+| White-headed Capuchin (Cebus Capucinus) | *Cebus Capucinus) (Cebus capucinus* |
 | White-headed Langur | *Trachypithecus poliocephalus* |
 | White-headed Lemur | *Eulemur albifrons* |
 | White-mantled Tamarin | *Saguinus melanoleucus* |
@@ -2694,6 +3050,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | White-nosed Guenon | *Cercopithecus nictitans* |
 | White-tailed Titi | *Plecturocebus discolor* |
 | White-throated Guenon | *Cercopithecus erythrogaster* |
+| White-tufted-ear Marmoset | *Callithrix jacchus* |
 | Wied's Marmoset | *Callithrix kuhlii* |
 | Wolf's Monkey | *Cercopithecus wolfi* |
 | Woolly Lemur | *Avahi laniger* |
@@ -2703,19 +3060,24 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Zanzibar Galago | *Paragalago zanzibaricus* |
 | Zanzibar Red Colobus | *Piliocolobus kirkii* |
 
-### • Proboscidea (7)
+### • Proboscidea (12)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
+| African Bush Elephant (Loxodonta Africana) | *Loxodonta Africana) (Loxodonta africana* |
 | African Forest Elephant | *Loxodonta cyclotis* |
+| African Forest Elephant (Loxodonta Cyclotis) | *Loxodonta Cyclotis) (Loxodonta cyclotis* |
+| African Savanna Elephant | *Loxodonta africana* |
 | American Mastodon | *Mammut americanum* |
 | Asian Elephant | *Elephas maximus* |
+| Asian Elephant (Elephas Maximus) | *Elephas Maximus) (Elephas maximus* |
+| Asiatic Elephant | *Elephas maximus* |
 | Channel Islands Mammoth | *Mammuthus exilis* |
 | Columbian Mammoth | *Mammuthus columbi* |
 | Elephant | *Loxodonta africana* |
 | Woolly Mammoth | *Mammuthus primigenius* |
 
-### • Rodentia (1595)
+### • Rodentia (1634)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -2749,11 +3111,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Alpine Chipmunk | *Neotamias alpinus* |
 | Alpine Field Mouse | *Apodemus alpicola* |
 | Alpine Marmot | *Marmota marmota* |
+| Alpine Marmot (Marmota Marmota) | *Marmota Marmota) (Marmota marmota* |
 | Alston's Brown Mouse | *Scotinomys teguina* |
 | Altai Birch Mouse | *Sicista napaea* |
 | Altai Voie | *Microtus obscurus* |
 | Amami-oshima Island Spiny Rat | *Tokudaia osimensis* |
 | Amazon Bamboo Rat | *Dactylomys dactylinus* |
+| American Beaver | *Castor canadensis* |
 | American Red Squirrel | *Tamiasciurus hudsonicus* |
 | Ammodile | *Ammodillus imbellis* |
 | Amur Brown Lemming | *Lemmus amurensis* |
@@ -2794,6 +3158,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Armenian Hamster | *Nothocricetulus migratorius* |
 | Armored Rat | *Hoplomys gymnurus* |
 | Arnhem Land Rock Rat | *Zyzomys maini* |
+| Arvicanthis Somalicus | *Arvicanthis neumanni* |
+| Arvicanthis Somalicus Thomas, 1903 | *Arvicanthis neumanni* |
 | Ash-gray Pseudomys | *Pseudomys albocinereus* |
 | Ashaninka Arboreal Chinchilla Rat | *Cuscomys ashaninka* |
 | Ashy Chinchilla Rat | *Abrocoma cinerea* |
@@ -2819,6 +3185,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Baluchistan Gerbil | *Gerbillus nanus* |
 | Bangs's Mountain Squirrel | *Syntheosciurus brochus* |
 | Bank Vole | *Myodes glareolus* |
+| Bank Vole (Myodes Glareolus) | *Myodes Glareolus) (Myodes glareolus* |
 | Banner-tailed Kangaroo Rat | *Dipodomys spectabilis* |
 | Baoule's Mouse | *Mus baoulei* |
 | Barbary Ground Squirrel | *Atlantoxerus getulus* |
@@ -2866,6 +3233,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Black-tailed Hutia | *Mesocapromys melanurus* |
 | Black-tailed Melomys | *Melomys rufescens* |
 | Black-tailed Prairie Dog | *Cynomys ludovicianus* |
+| Black-tailed Prairie Dog (Cynomys Ludovicianus) | *Cynomys Ludovicianus) (Cynomys ludovicianus* |
 | Black-tailed Tree Rat | *Thallomys nigricauda* |
 | Black-tailed Uromys | *Uromys anak* |
 | Black-wristed Deermouse | *Peromyscus melanocarpus* |
@@ -2911,6 +3279,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Brown Deer Mouse | *Peromyscus megalops* |
 | Brown Desert Mouse | *Pseudomys desertor* |
 | Brown Lemming | *Lemmus sibiricus* |
+| Brown Rat (Rattus Norvegicus) | *Rattus Norvegicus) (Rattus norvegicus* |
 | Brukkaros Pygmy Rock Mouse | *Petromyscus monticularis* |
 | Brush Mouse | *Peromyscus boylii* |
 | Brush-tailed Hairy-footed Gerbil | *Gerbillurus vallinus* |
@@ -2961,6 +3330,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Cape York Melomys | *Melomys capensis* |
 | Capricorn Pericote | *Phyllotis caprinus* |
 | Capybara | *Hydrochoerus hydrochaeris* |
+| Capybara (Hydrochoerus Hydrochaeris) | *Hydrochoerus Hydrochaeris) (Hydrochoerus hydrochaeris* |
 | Caribbean Spiny Pocket Mouse | *Heteromys anomalus* |
 | Carol Patton's Deermouse | *Peromyscus carolpattonae* |
 | Carpentarian Rock Rat | *Zyzomys palatalis* |
@@ -3035,6 +3405,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Comb-toed Jerboa | *Paradipus ctenodactylus* |
 | Common Bunomys | *Bunomys chrysocomus* |
 | Common Degu | *Octodon degus* |
+| Common Degu (Octodon Degus) | *Octodon Degus) (Octodon degus* |
 | Common Lowland Paramelomys | *Paramelomys platyops* |
 | Common Pine Vole | *Microtus subterraneus* |
 | Common Punare | *Thrichomys apereoides* |
@@ -3085,6 +3456,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Day's Grass Mouse | *Akodon dayi* |
 | De Vis's Mallomys | *Mallomys aroaensis* |
 | Defua Dephomys | *Dephomys defua* |
+| Degu | *Octodon degus* |
 | Delany's Swamp Mouse | *Delanymys brooksi* |
 | Delectable Soft-furred Mouse | *Montemys delectorum* |
 | Delicate Deermouse | *Habromys delicatulus* |
@@ -3111,6 +3483,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Diurnal Sulawesian Shrew Rat | *Melasmothrix naso* |
 | Dollman's Spiny Rat | *Maxomys dollmani* |
 | Dolorous Grass Mouse | *Akodon dolores* |
+| Domestic Guinea Pig | *Cavia porcellus* |
 | Dormouse Tufted-tailed Rat | *Eliurus myoxinus* |
 | Douglas Squirrel | *Tamiasciurus douglasii* |
 | Drab Atlantic Tree-rat | *Phyllomys dasythrix* |
@@ -3134,6 +3507,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | East European Vole | *Microtus levis* |
 | Eastern Chestnut Pseudomys | *Pseudomys gracilicaudatus* |
 | Eastern Chipmunk | *Tamias striatus* |
+| Eastern Chipmunk (Tamias Striatus) | *Tamias Striatus) (Tamias striatus* |
+| Eastern Gray Squirrel (Sciurus Carolinensis) | *Sciurus Carolinensis) (Sciurus carolinensis* |
 | Eastern Harvest Mouse | *Reithrodontomys humulis* |
 | Eastern Heather Mole | *Phenacomys ungava* |
 | Eastern New Guinea Mountain Rat | *Rattus niobe* |
@@ -3162,11 +3537,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Ethiopian Thicket Rat | *Grammomys polionops* |
 | Euphrates Jerboa | *Scarturus euphraticus* |
 | Eurasian Beaver | *Castor fiber* |
+| Eurasian Beaver (Castor Fiber) | *Castor Fiber) (Castor fiber* |
 | Eurasian Field Mouse | *Apodemus agrarius* |
 | Eurasian Red Squirrel | *Sciurus vulgaris* |
 | Eurasian Water Vole | *Arvicola amphibius* |
 | European Ground Squirrel | *Spermophilus citellus* |
 | European Harvest Mouse | *Micromys minutus* |
+| European Marmot | *Marmota marmota* |
 | European Snow Vole | *Chionomys nivalis* |
 | European Woodmouse | *Apodemus sylvaticus* |
 | Eversmann's Hamster | *Allocricetulus eversmanni* |
@@ -3213,6 +3590,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Four-striped Ground Squirrel | *Lariscus hosei* |
 | Four-toed Jerboa | *Scarturus tetradactyla* |
 | Fox Squirrel | *Sciurus niger* |
+| Fox Squirrel (Sciurus Niger) | *Sciurus Niger) (Sciurus niger* |
 | Franklin's Ground Squirrel | *Poliocitellus franklinii* |
 | Fraternal Hill Rat | *Frateromys fratrorum* |
 | Fraternal Squirrel | *Sundasciurus fraterculus* |
@@ -3243,6 +3621,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Golan Heights Blind Mole Rat | *Nannospalax golani* |
 | Golden Atlantic Tree Rat | *Phyllomys blainvillii* |
 | Golden Hamster | *Mesocricetus auratus* |
+| Golden Hamster (Mesocricetus Auratus) | *Mesocricetus Auratus) (Mesocricetus auratus* |
 | Golden Oldfield Mouse | *Thomasomys aureus* |
 | Golden Spiny Mouse | *Acomys russatus* |
 | Golden-backed Mesembriomys | *Mesembriomys macrurus* |
@@ -3263,6 +3642,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Gray Marmot | *Marmota baibacina* |
 | Gray Red-backed Vole | *Myodes rufocanus* |
 | Gray Rice Rat | *Eremoryzomys polius* |
+| Gray Squirrel | *Sciurus carolinensis* |
 | Gray-bellied Akodont | *Brucepattersonius griserufescens* |
 | Gray-bellied Mouse | *Mus triton* |
 | Gray-bellied Pogonomys | *Pogonomys sylvestris* |
@@ -3292,6 +3672,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Griselda's Lemniscomys | *Lemniscomys griselda* |
 | Grizzled Giant Squirrel | *Ratufa macroura* |
 | Groundhog | *Marmota monax* |
+| Groundhog (Marmota Monax) | *Marmota Monax) (Marmota monax* |
 | Guatemalan Deermouse | *Peromyscus guatemalensis* |
 | Guayaquil Squirrel | *Simosciurus stramineus* |
 | Gudaur Snow Vole | *Chionomys gud* |
@@ -3300,6 +3681,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Guiara | *Euryzygomatomys spinosus* |
 | Guinea Multimammate Mouse | *Mastomys erythroleucus* |
 | Guinea Pig | *Cavia porcellus* |
+| Guinea Pig (Cavia Porcellus) | *Cavia Porcellus) (Cavia porcellus* |
 | Guinean Gerbil | *Gerbilliscus guineae* |
 | Gulf Coast Kangaroo Rat | *Dipodomys compactus* |
 | Gunnison's Prairie Dog | *Cynomys gunnisoni* |
@@ -3356,6 +3738,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Hotson's Calomyscus | *Calomyscus hotsoni* |
 | Hotson's Jerboa | *Scarturus hotsoni* |
 | Hottentot Mole-rat | *Cryptomys hottentotus* |
+| House Mouse | *Mus musculus* |
+| House Mouse (Mus Musculus) | *Mus Musculus) (Mus musculus* |
 | Humboldt's Flying Squirrel | *Glaucomys oregonensis* |
 | Hungarian Birch Mouse | *Sicista trizona* |
 | Hyrcanian Field Mouse | *Apodemus hyrcanicus* |
@@ -3519,6 +3903,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Long-nosed Luzon Forest Mouse | *Apomys sacobianus* |
 | Long-tailed Armored Tree-rat | *Makalata macrura* |
 | Long-tailed Birch Mouse | *Sicista caudata* |
+| Long-tailed Chinchilla | *Chinchilla lanigera* |
+| Long-tailed Chinchilla (Chinchilla Lanigera) | *Chinchilla Lanigera) (Chinchilla lanigera* |
 | Long-tailed Climbing Mouse | *Rhipidomys mastacalis* |
 | Long-tailed Giant Rat | *Leopoldamys sabanus* |
 | Long-tailed Ground Squirrel | *Urocitellus undulatus* |
@@ -3623,6 +4009,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Monckton's Paramelomys | *Paramelomys moncktoni* |
 | Mongolian Five-toed Jerboa | *Orientallactaga sibirica* |
 | Mongolian Gerbil | *Meriones unguiculatus* |
+| Mongolian Gerbil (Meriones Unguiculatus) | *Meriones Unguiculatus) (Meriones unguiculatus* |
 | Mongolian Hamster | *Allocricetulus curtatus* |
 | Mongolian Three-toed Jerboa | *Stylodipus sungorus* |
 | Mongolian Vole | *Alexandromys mongolicus* |
@@ -3658,6 +4045,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Mountain Spiny Pocket Mouse | *Heteromys oresterus* |
 | Mountain Water Rat | *Baiyankamys habbema* |
 | Mouse | *Mus musculus* |
+| Mouse-like Hamster | *Calomyscus sp.* |
 | Mozambique Thicket Rat | *Grammomys cometes* |
 | Mt Carmel Blind Mole Rat | *Spalax carmeli* |
 | Mt. Hermon Field Mouse | *Apodemus hermonensis* |
@@ -3666,10 +4054,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Mueller's Giant Sunda Rat | *Sundamys muelleri* |
 | Mullah Spiny Mouse | *Acomys mullah* |
 | Muskrat | *Ondatra zibethicus* |
+| Muskrat (Ondatra Zibethicus) | *Ondatra Zibethicus) (Ondatra zibethicus* |
 | Musschenbroek's Sulawesi Maxomys | *Maxomys musschenbroekii* |
 | Mzab Gundi | *Massoutiera mzabi* |
 | Nairobi Grass Rat | *Arvicanthis nairobae* |
 | Naked Mole-rat | *Heterocephalus glaber* |
+| Naked Mole-rat (Heterocephalus Glaber) | *Heterocephalus Glaber) (Heterocephalus glaber* |
 | Naked-eared Deermouse | *Peromyscus gymnotis* |
 | Naked-nosed Pocket Gopher | *Cratogeomys tylorhinus* |
 | Naked-soled Conyrat | *Reithrodon typicus* |
@@ -3703,7 +4093,10 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Niobe Ground Squirrel | *Lariscus niobe* |
 | North African Gerbil | *Dipodillus campestris* |
 | North Amazonan Red Squirrel | *Hadrosciurus igniventris* |
+| North American Beaver (Castor Canadensis) | *Castor Canadensis) (Castor canadensis* |
 | North American Deer Mouse | *Peromyscus maniculatus* |
+| North American Porcupine | *Erethizon dorsatum* |
+| North American Porcupine (Erethizon Dorsatum) | *Erethizon Dorsatum) (Erethizon dorsatum* |
 | North Chinese Flying Squirrel | *Aeretes melanopterus* |
 | Northeastern Xanthurus Rat | *Rattus xanthurus* |
 | Northern Birch Mouse | *Sicista betulina* |
@@ -3726,7 +4119,10 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Northern Three-toed Jerboa | *Dipus sagitta* |
 | Northern Viscacha | *Lagidium peruanum* |
 | Norway Lemming | *Lemmus lemmus* |
+| Norway Lemming (Lemmus Lemmus) | *Lemmus Lemmus) (Lemmus lemmus* |
+| Norway Rat | *Rattus norvegicus* |
 | Nutria | *Myocastor coypus* |
+| Nutria (Myocastor Coypus) | *Myocastor Coypus) (Myocastor coypus* |
 | Nyika Climbing Mouse | *Dendromus nyikae* |
 | Nyika Rock Rat | *Aethomys nyikae* |
 | Oaxaca Giant Deer Mouse | *Megadontomys cryophilus* |
@@ -3786,8 +4182,10 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Parana Akodont | *Akodon paranaensis* |
 | Parguayan Punare | *Thrichomys pachyurus* |
 | Particolored Flying Squirrel | *Hylopetes alboniger* |
+| Patagonian Cavy | *Dolichotis patagonum* |
 | Patagonian Chinchilla Mouse | *Euneomys chinchilloides* |
 | Patagonian Mara | *Dolichotis patagonum* |
+| Patagonian Mara (Dolichotis Patagonum) | *Dolichotis Patagonum) (Dolichotis patagonum* |
 | Paulina's Limestone Rat | *Saxatilomys paulinae* |
 | Pearson's Chaco Mouse | *Andalgalomys pearsoni* |
 | Pearson's Long-clawed Mole Mouse | *Geoxus annectens* |
@@ -3865,6 +4263,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Red Giant Flying Squirrel | *Petaurista petaurista* |
 | Red Hocicudo | *Oxymycterus rufus* |
 | Red Rock Rat | *Aethomys chrysophilus* |
+| Red Squirrel (Sciurus Vulgaris) | *Sciurus Vulgaris) (Sciurus vulgaris* |
 | Red Tree Vole | *Arborimus longicaudus* |
 | Red-bellied Squirrel | *Sciurus aureogaster* |
 | Red-cheeked Flying Squirrel | *Hylopetes spadiceus* |
@@ -4042,6 +4441,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Southern Bog Lemming | *Synaptomys cooperi* |
 | Southern Climbing Mouse | *Rhipidomys austrinus* |
 | Southern Flying Squirrel | *Glaucomys volans* |
+| Southern Flying Squirrel (Glaucomys Volans) | *Glaucomys Volans) (Glaucomys volans* |
 | Southern Giant Pouched Rat | *Cricetomys ansorgei* |
 | Southern Grasshopper Mouse | *Onychomys torridus* |
 | Southern Idaho Ground Squirrel | *Urocitellus endemicus* |
@@ -4274,6 +4674,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Wolffsohn's Leaf-eared Mouse | *Phyllotis wolffsohni* |
 | Wolffsohn's Viscacha | *Lagidium wolffsohni* |
 | Wood Lemming | *Myopus schisticolor* |
+| Woodchuck | *Marmota monax* |
 | Woodland Dormouse | *Graphiurus murinus* |
 | Woodland Jumping Mouse | *Napaeozapus insignis* |
 | Woodland Vole | *Microtus pinetorum* |
@@ -4339,27 +4740,32 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Slender Tree Shrew | *Tupaia gracilis* |
 | Striped Tree Shrew | *Tupaia dorsalis* |
 
-### • Sirenia (5)
+### • Sirenia (9)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | African Manatee | *Trichechus senegalensis* |
+| African Manatee (Trichechus Senegalensis) | *Trichechus Senegalensis) (Trichechus senegalensis* |
 | Amazon Manatee | *Trichechus inunguis* |
 | Dugong | *Dugong dugon* |
+| Dugong (Dugong Dugon) | *Dugong Dugon) (Dugong dugon* |
 | Manatee | *Trichechus manatus* |
 | Steller's Sea Cow | *Hydrodamalis gigas* |
+| West Indian Manatee | *Trichechus manatus* |
+| West Indian Manatee (Trichechus Manatus) | *Trichechus Manatus) (Trichechus manatus* |
 
-### • Tubulidentata (1)
+### • Tubulidentata (2)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Aardvark | *Orycteropus afer* |
+| Aardvark (Orycteropus Afer) | *Orycteropus Afer) (Orycteropus afer* |
 
 ---
 
-## 🦅 Birds (4602 Species)
+## 🦅 Birds (4867 Species)
 
-### • Accipitriformes (139)
+### • Accipitriformes (161)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -4368,19 +4774,23 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | African Marsh-harrier | *Circus ranivorus* |
 | African Tawny-eagle | *Aquila rapax* |
 | Andean Condor | *Vultur gryphus* |
+| Andean Condor (Vultur Gryphus) | *Vultur Gryphus) (Vultur gryphus* |
 | Arabian Lappet-faced Vulture | *Torgos negevensis* |
 | Archer's Buzzard | *Buteo archeri* |
 | Augur Buzzard | *Buteo augur* |
 | Ayres's Hawk-eagle | *Hieraaetus ayresii* |
 | Bald Eagle | *Haliaeetus leucocephalus* |
+| Bald Eagle (Haliaeetus Leucocephalus) | *Haliaeetus Leucocephalus) (Haliaeetus leucocephalus* |
 | Barred Honey-buzzard | *Pernis celebensis* |
 | Bearded Vulture | *Gypaetus barbatus* |
+| Bearded Vulture (Gypaetus Barbatus) | *Gypaetus Barbatus) (Gypaetus barbatus* |
 | Besra | *Accipiter virgatus* |
 | Black Eagle | *Ictinaetus malaiensis* |
 | Black Goshawk | *Accipiter melanoleucus* |
 | Black Hawk-eagle | *Spizaetus tyrannus* |
 | Black Honey-buzzard | *Henicopernis infuscatus* |
 | Black Kite | *Milvus migrans* |
+| Black Kite (Milvus Migrans) | *Milvus Migrans) (Milvus migrans* |
 | Black Vulture | *Coragyps atratus* |
 | Black-and-chestnut Eagle | *Spizaetus isidori* |
 | Black-chested Buzzard-eagle | *Geranoaetus melanoleucus* |
@@ -4390,6 +4800,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Brahminy Kite | *Haliastur indus* |
 | Broad-winged Hawk | *Buteo platypterus* |
 | California Condor | *Gymnogyps californianus* |
+| California Condor (Gymnogyps Californianus) | *Gymnogyps Californianus) (Gymnogyps californianus* |
 | Cape Verde Buzzard | *Buteo bannermani* |
 | Cape Vulture | *Gyps coprotheres* |
 | Changeable Hawk-eagle | *Nisaetus cirrhatus* |
@@ -4397,6 +4808,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Chinese Goshawk | *Accipiter soloensis* |
 | Cinereous Vulture | *Aegypius monachus* |
 | Common Buzzard | *Buteo buteo* |
+| Common Buzzard (Buteo Buteo) | *Buteo Buteo) (Buteo buteo* |
 | Cooper's Hawk | *Accipiter cooperii* |
 | Crested Eagle | *Morphnus guianensis* |
 | Crested Goshawk | *Accipiter trivirgatus* |
@@ -4406,7 +4818,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Doria's Goshawk | *Megatriorchis doriae* |
 | Eastern Marsh-harrier | *Circus spilonotus* |
 | Egyptian Vulture | *Neophron percnopterus* |
+| Eurasian Griffon | *Gyps fulvus* |
 | Eurasian Sparrowhawk | *Accipiter nisus* |
+| Eurasian Sparrowhawk (Accipiter Nisus) | *Accipiter Nisus) (Accipiter nisus* |
 | European Honey-buzzard | *Pernis apivorus* |
 | Eyles's Harrier | *Circus teauteensis* |
 | Ferruginous Hawk | *Buteo regalis* |
@@ -4414,13 +4828,16 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Gabar Goshawk | *Micronisus gabar* |
 | Galapagos Hawk | *Buteo galapagoensis* |
 | Golden Eagle | *Aquila chrysaetos* |
+| Golden Eagle (Aquila Chrysaetos) | *Aquila Chrysaetos) (Aquila chrysaetos* |
 | Great Black-hawk | *Buteogallus urubitinga* |
 | Greater Spotted Eagle | *Clanga clanga* |
 | Grey-backed Hawk | *Pseudastur occidentalis* |
 | Grey-faced Buzzard | *Butastur indicus* |
 | Grey-lined Hawk | *Buteo nitidus* |
 | Griffon Vulture | *Gyps fulvus* |
+| Griffon Vulture (Gyps Fulvus) | *Gyps Fulvus) (Gyps fulvus* |
 | Harpy Eagle | *Harpia harpyja* |
+| Harpy Eagle (Harpia Harpyja) | *Harpia Harpyja) (Harpia harpyja* |
 | Harris's Hawk | *Parabuteo unicinctus* |
 | Hawaiian Hawk | *Buteo solitarius* |
 | Hen Harrier | *Circus cyaneus* |
@@ -4430,6 +4847,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Jackal Buzzard | *Buteo rufofuscus* |
 | Japanese Sparrowhawk | *Accipiter gularis* |
 | King Vulture | *Sarcoramphus papa* |
+| King Vulture (Sarcoramphus Papa) | *Sarcoramphus Papa) (Sarcoramphus papa* |
+| Lammergeier | *Gypaetus barbatus* |
 | Lappet-faced Vulture | *Torgos tracheliotos* |
 | Lesser Spotted Eagle | *Clanga pomarina* |
 | Lesser Yellow-headed Vulture | *Cathartes burrovianus* |
@@ -4447,24 +4866,30 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Mountain Hawk-eagle | *Nisaetus nipalensis* |
 | New Zealand Giant Eagle | *Harpagornis moorei* |
 | Northern Goshawk | *Accipiter gentilis* |
+| Northern Goshawk | *Astur gentilis* |
+| Northern Goshawk (Accipiter Gentilis) | *Accipiter Gentilis) (Accipiter gentilis* |
 | Northern Harrier | *Circus hudsonius* |
 | Oriental Honey-buzzard | *Pernis ptilorhynchus* |
 | Ornate Hawk-eagle | *Spizaetus ornatus* |
 | Osprey | *Pandion haliaetus* |
+| Osprey (Pandion Haliaetus) | *Pandion Haliaetus) (Pandion haliaetus* |
 | Papuan Harrier | *Circus spilothorax* |
 | Philippine Hawk-eagle | *Nisaetus philippensis* |
 | Pied Harrier | *Circus melanoleucos* |
 | Puna Hawk | *Geranoaetus poecilochrous* |
 | Red Goshawk | *Erythrotriorchis radiatus* |
 | Red Kite | *Milvus milvus* |
+| Red Kite (Milvus Milvus) | *Milvus Milvus) (Milvus milvus* |
 | Red-backed Hawk | *Geranoaetus polyosoma* |
 | Red-chested Goshawk | *Aerospiza toussenelii* |
 | Red-headed Vulture | *Sarcogyps calvus* |
 | Red-necked Buzzard | *Buteo auguralis* |
 | Red-shouldered Hawk | *Buteo lineatus* |
 | Red-tailed Hawk | *Buteo jamaicensis* |
+| Red-tailed Hawk (Buteo Jamaicensis) | *Buteo Jamaicensis) (Buteo jamaicensis* |
 | Ridgway's Hawk | *Buteo ridgwayi* |
 | Roadside Hawk | *Rupornis magnirostris* |
+| Rough-legged Buzzard | *Buteo lagopus* |
 | Rough-legged Hawk | *Buteo lagopus* |
 | Rueppell's Griffon | *Gyps rueppelli* |
 | Rufous Crab-hawk | *Buteogallus aequinoctialis* |
@@ -4476,6 +4901,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Savanna Hawk | *Buteogallus meridionalis* |
 | Scissor-tailed Kite | *Chelictinia riocourii* |
 | Secretarybird | *Sagittarius serpentarius* |
+| Secretarybird (Sagittarius Serpentarius) | *Sagittarius Serpentarius) (Sagittarius serpentarius* |
 | Sharp-shinned Hawk | *Accipiter striatus* |
 | Shikra | *Accipiter badius* |
 | Short-tailed Hawk | *Buteo brachyurus* |
@@ -4486,6 +4912,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Swainson's Hawk | *Buteo swainsoni* |
 | Swamp Harrier | *Circus approximans* |
 | Turkey Vulture | *Cathartes aura* |
+| Turkey Vulture (Cathartes Aura) | *Cathartes Aura) (Cathartes aura* |
 | Upland Buzzard | *Buteo hemilasius* |
 | Verreaux's Eagle | *Aquila verreauxii* |
 | Wahlberg's Eagle | *Hieraaetus wahlbergi* |
@@ -4499,11 +4926,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | White-rumped Hawk | *Parabuteo leucorrhous* |
 | White-rumped Vulture | *Gyps bengalensis* |
 | White-tailed Eagle | *Haliaeetus albicilla* |
+| White-tailed Eagle (Haliaeetus Albicilla) | *Haliaeetus Albicilla) (Haliaeetus albicilla* |
 | White-tailed Hawk | *Geranoaetus albicaudatus* |
 | White-throated Hawk | *Buteo albigula* |
 | Zone-tailed Hawk | *Buteo albonotatus* |
 
-### • Anseriformes (126)
+### • Anseriformes (148)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -4520,9 +4948,11 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Baikal Teal | *Sibirionetta formosa* |
 | Bar-headed Goose | *Anser indicus* |
 | Barnacle Goose | *Branta leucopsis* |
+| Barnacle Goose (Branta Leucopsis) | *Branta Leucopsis) (Branta leucopsis* |
 | Barrow's Goldeneye | *Bucephala islandica* |
 | Bewick's Swan | *Cygnus bewickii* |
 | Black Swan | *Cygnus atratus* |
+| Black Swan (Cygnus Atratus) | *Cygnus Atratus) (Cygnus atratus* |
 | Black-bellied Whistling-duck | *Dendrocygna autumnalis* |
 | Black-billed Whistling-duck | *Dendrocygna arborea* |
 | Black-necked Swan | *Cygnus melancoryphus* |
@@ -4534,7 +4964,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Cackling Goose | *Branta hutchinsii* |
 | Campbell Teal | *Anas nesiotis* |
 | Canada Goose | *Branta canadensis* |
+| Canada Goose (Branta Canadensis) | *Branta Canadensis) (Branta canadensis* |
 | Canvasback | *Aythya valisineria* |
+| Canvasback (Aythya Valisineria) | *Aythya Valisineria) (Aythya valisineria* |
 | Cape Barren Goose | *Cereopsis novaehollandiae* |
 | Cape Teal | *Anas capensis* |
 | Chatham Duck | *Pachyanas chathamica* |
@@ -4542,18 +4974,24 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Chiloe Wigeon | *Mareca sibilatrix* |
 | Cinnamon Teal | *Spatula cyanoptera* |
 | Common Eider | *Somateria mollissima* |
+| Common Eider (Somateria Mollissima) | *Somateria Mollissima) (Somateria mollissima* |
 | Common Goldeneye | *Bucephala clangula* |
 | Common Merganser | *Mergus merganser* |
 | Common Pochard | *Aythya ferina* |
 | Common Shelduck | *Tadorna tadorna* |
+| Common Teal | *Anas crecca* |
+| Common Whooper | *Cygnus cygnus* |
 | Coscoroba Swan | *Coscoroba coscoroba* |
 | Cotton Pygmy Goose | *Nettapus coromandelianus* |
 | Crested Duck | *Lophonetta specularioides* |
 | Crested Shelduck | *Tadorna cristata* |
+| Domestic Duck X Muscovy Duck | *Anas platyrhynchos x Cairina moschata* |
+| Domestic Goose | *Anser anser* |
 | Eastern Spot-billed Duck | *Anas zonorhyncha* |
 | Egyptian Goose | *Alopochen aegyptiaca* |
 | Emperor Goose | *Anser canagicus* |
 | Eurasian Teal | *Anas crecca* |
+| Eurasian Teal (Anas Crecca) | *Anas Crecca) (Anas crecca* |
 | Eurasian Wigeon | *Mareca penelope* |
 | European Common Scoter | *Melanitta nigra* |
 | Falcated Duck | *Mareca falcata* |
@@ -4561,16 +4999,20 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Fulvous Whistling-duck | *Dendrocygna bicolor* |
 | Gadwall | *Mareca strepera* |
 | Garganey | *Spatula querquedula* |
+| Giant Hawaiian Goose | *Branta sp. giant Hawaiian goose* |
+| Goose | *Anser sp.* |
 | Greater Scaup | *Aythya marila* |
 | Green Pygmy Goose | *Nettapus pulchellus* |
 | Green-winged Teal | *Anas carolinensis* |
 | Grey Teal | *Anas gracilis* |
 | Greylag Goose | *Anser anser* |
+| Greylag Goose (Anser Anser) | *Anser Anser) (Anser anser* |
 | Hardhead Duck | *Aythya australis* |
 | Harlequin Duck | *Histrionicus histrionicus* |
 | Hartlaub's Duck | *Pteronetta hartlaubii* |
 | Hawaiian Duck | *Anas wyvilliana* |
 | Horned Screamer | *Anhima cornuta* |
+| Horned Screamer (Anhima Cornuta) | *Anhima Cornuta) (Anhima cornuta* |
 | Indian Spot-billed Duck | *Anas poecilorhyncha* |
 | King Eider | *Somateria spectabilis* |
 | Knob-billed Duck | *Sarkidiornis melanotos* |
@@ -4581,8 +5023,11 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Lesser White-fronted Goose | *Anser erythropus* |
 | Long-tailed Duck | *Clangula hyemalis* |
 | Magpie Goose | *Anseranas semipalmata* |
+| Mallard | *Anas platyrhynchos* |
+| Mallard (Anas Platyrhynchos) | *Anas Platyrhynchos) (Anas platyrhynchos* |
 | Mallard Duck | *Anas platyrhynchos* |
 | Mandarin Duck | *Aix galericulata* |
+| Mandarin Duck (Aix Galericulata) | *Aix Galericulata) (Aix galericulata* |
 | Maned Duck | *Chenonetta jubata* |
 | Marbled Teal | *Marmaronetta angustirostris* |
 | Masked Duck | *Nomonyx dominicus* |
@@ -4590,8 +5035,10 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Muscovy Duck | *Cairina moschata* |
 | Musk Duck | *Biziura lobata* |
 | Mute Swan | *Cygnus olor* |
+| Mute Swan (Cygnus Olor) | *Cygnus Olor) (Cygnus olor* |
 | New Zealand Scaup | *Aythya novaeseelandiae* |
 | Northern Pintail | *Anas acuta* |
+| Northern Pintail (Anas Acuta) | *Anas Acuta) (Anas acuta* |
 | Northern Screamer | *Chauna chavaria* |
 | Northern Shoveler | *Spatula clypeata* |
 | Orinoco Goose | *Neochen jubata* |
@@ -4610,6 +5057,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Scaly-sided Merganser | *Mergus squamatus* |
 | Smew | *Mergellus albellus* |
 | Snow Goose | *Anser caerulescens* |
+| Snow Goose (Anser Caerulescens) | *Anser Caerulescens) (Anser caerulescens* |
 | South American Comb Duck | *Sarkidiornis sylvicola* |
 | Southern Screamer | *Chauna torquata* |
 | Spectacled Eider | *Somateria fischeri* |
@@ -4630,15 +5078,18 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | White-fronted Goose | *Anser albifrons* |
 | White-headed Shelduck | *Radjah radjah* |
 | Whooper Swan | *Cygnus cygnus* |
+| Whooper Swan (Cygnus Cygnus) | *Cygnus Cygnus) (Cygnus cygnus* |
 | Wood Duck | *Aix sponsa* |
+| Wood Duck (Aix Sponsa) | *Aix Sponsa) (Aix sponsa* |
 | Yellow-billed Pintail | *Anas georgica* |
 | Yellow-billed Teal | *Anas flavirostris* |
 
-### • Apodiformes (102)
+### • Apodiformes (106)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Anna's Hummingbird | *Calypte anna* |
+| Anna's Hummingbird (Calypte Anna) | *Calypte Anna) (Calypte anna* |
 | Asian Palm-swift | *Cypsiurus balasiensis* |
 | Azure-crowned Hummingbird | *Saucerottia cyanocephala* |
 | Band-tailed Barbthroat | *Threnetes ruckeri* |
@@ -4666,6 +5117,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Cinnamon Hummingbird | *Amazilia rutila* |
 | Collared Inca | *Coeligena torquata* |
 | Common Swift | *Apus apus* |
+| Common Swift (Apus Apus) | *Apus Apus) (Apus apus* |
 | Copper-rumped Hummingbird | *Saucerottia tobaci* |
 | Edible-nest Swiftlet | *Aerodramus fuciphagus* |
 | Escudo Hummingbird | *Amazilia handleyi* |
@@ -4710,7 +5162,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Purple-bibbed Whitetip | *Urosticte benjamini* |
 | Pygmy Swiftlet | *Collocalia troglodytes* |
 | Ruby-throated Hummingbird | *Archilochus colubris* |
+| Ruby-throated Hummingbird (Archilochus Colubris) | *Archilochus Colubris) (Archilochus colubris* |
 | Rufous Hummingbird | *Selasphorus rufus* |
+| Rufous Hummingbird (Selasphorus Rufus) | *Selasphorus Rufus) (Selasphorus rufus* |
 | Rufous-tailed Hummingbird | *Amazilia tzacatl* |
 | Rufous-vented Whitetip | *Urosticte ruficrissa* |
 | Satin Swiftlet | *Collocalia uropygialis* |
@@ -4741,17 +5195,19 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | White-whiskered Hermit | *Phaethornis yaruqui* |
 | Wine-throated Hummingbird | *Selasphorus ellioti* |
 
-### • Apterygiformes (5)
+### • Apterygiformes (7)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Great Spotted Kiwi | *Apteryx haastii* |
 | Kiwi | *Apteryx mantelli* |
 | Little Spotted Kiwi | *Apteryx owenii* |
+| North Island Brown Kiwi | *Apteryx mantelli* |
+| North Island Brown Kiwi (Apteryx Mantelli) | *Apteryx Mantelli) (Apteryx mantelli* |
 | Okarito Brown Kiwi | *Apteryx rowi* |
 | Southern Brown Kiwi | *Apteryx australis* |
 
-### • Bucerotiformes (50)
+### • Bucerotiformes (52)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -4770,7 +5226,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Crowned Hornbill | *Tockus alboterminatus* |
 | Eastern Yellow-billed Hornbill | *Tockus flavirostris* |
 | Eurasian Hoopoe | *Upupa epops* |
+| Eurasian Hoopoe (Upupa Epops) | *Upupa Epops) (Upupa epops* |
 | Great Hornbill | *Buceros bicornis* |
+| Great Hornbill (Buceros Bicornis) | *Buceros Bicornis) (Buceros bicornis* |
 | Green Woodhoopoe | *Phoeniculus purpureus* |
 | Helmeted Hornbill | *Rhinoplax vigil* |
 | Hemprich's Hornbill | *Lophoceros hemprichii* |
@@ -4806,7 +5264,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Wrinkled Hornbill | *Rhabdotorrhinus corrugatus* |
 | Yellow-casqued Hornbill | *Ceratogymna elata* |
 
-### • Caprimulgiformes (52)
+### • Caprimulgiformes (57)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -4820,10 +5278,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Chuck-will's-widow | *Antrostomus carolinensis* |
 | Collared Nightjar | *Gactornis enarratus* |
 | Common Nighthawk | *Chordeiles minor* |
+| Common Nighthawk (Chordeiles Minor) | *Chordeiles Minor) (Chordeiles minor* |
 | Dusky Nightjar | *Antrostomus saturatus* |
 | Eared Poorwill | *Nyctiphrynus mcleodii* |
 | Egyptian Mightjar | *Caprimulgus aegyptius* |
+| Eurasian Nightjar | *Caprimulgus europaeus* |
 | European Nightjar | *Caprimulgus europaeus* |
+| European Nightjar (Caprimulgus Europaeus) | *Caprimulgus Europaeus) (Caprimulgus europaeus* |
 | Fiery-necked Nightjar | *Caprimulgus pectoralis* |
 | Golden Nightjar | *Caprimulgus eximius* |
 | Great Eared-nightjar | *Lyncornis macrotis* |
@@ -4843,6 +5304,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | New Zealand Owlet-nightjar | *Aegotheles novaezealandiae* |
 | Nubian Nightjar | *Caprimulgus nubicus* |
 | Oilbird | *Steatornis caripensis* |
+| Oilbird (Steatornis Caripensis) | *Steatornis Caripensis) (Steatornis caripensis* |
 | Pauraque | *Nyctidromus albicollis* |
 | Philippine Nightjar | *Caprimulgus manillensis* |
 | Roraiman Nightjar | *Setopagis whitelyi* |
@@ -4858,6 +5320,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Swallow-tailed Nightjar | *Uropsalis segmentata* |
 | Sykes's Nightjar | *Caprimulgus mahrattensis* |
 | Tawny Frogmouth | *Podargus strigoides* |
+| Tawny Frogmouth (Podargus Strigoides) | *Podargus Strigoides) (Podargus strigoides* |
 | Tawny-collared Nightjar | *Antrostomus salvini* |
 | White-tailed Nightjar | *Hydropsalis cayennensis* |
 | White-winged Nightjar | *Eleothreptus candicans* |
@@ -4870,17 +5333,19 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Black-legged Seriema | *Chunga burmeisteri* |
 | Red-legged Seriema | *Cariama cristata* |
 
-### • Casuariiformes (5)
+### • Casuariiformes (7)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Emu | *Dromaius novaehollandiae* |
+| Emu (Dromaius Novaehollandiae) | *Dromaius Novaehollandiae) (Dromaius novaehollandiae* |
 | Kangaroo Island Emu | *Dromaius baudinianus* |
 | King Island Emu | *Dromaius ater* |
 | Northern Cassowary | *Casuarius unappendiculatus* |
 | Southern Cassowary | *Casuarius casuarius* |
+| Southern Cassowary (Casuarius Casuarius) | *Casuarius Casuarius) (Casuarius casuarius* |
 
-### • Charadriiformes (200)
+### • Charadriiformes (216)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -4891,13 +5356,16 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | American Golden-plover | *Pluvialis dominica* |
 | American Herring Gull | *Larus smithsonianus* |
 | American Oystercatcher | *Haematopus palliatus* |
+| American Oystercatcher (Haematopus Palliatus) | *Haematopus Palliatus) (Haematopus palliatus* |
 | Ancient Murrelet | *Synthliboramphus antiquus* |
 | Andalusian Buttonquail | *Turnix sylvaticus* |
 | Andean Lapwing | *Vanellus resplendens* |
 | Antarctic Tern | *Sterna vittata* |
 | Arctic Tern | *Sterna paradisaea* |
+| Arctic Tern (Sterna Paradisaea) | *Sterna Paradisaea) (Sterna paradisaea* |
 | Armenian Gull | *Larus armenicus* |
 | Atlantic Puffin | *Fratercula arctica* |
+| Atlantic Puffin (Fratercula Arctica) | *Fratercula Arctica) (Fratercula arctica* |
 | Baird's Sandpiper | *Calidris bairdii* |
 | Bar-tailed Godwit | *Limosa lapponica* |
 | Barred Buttonquail | *Turnix suscitator* |
@@ -4912,11 +5380,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Black-fronted Dotterel | *Elseyornis melanops* |
 | Black-fronted Tern | *Chlidonias albostriatus* |
 | Black-headed Gull | *Chroicocephalus ridibundus* |
+| Black-headed Gull (Chroicocephalus Ridibundus) | *Chroicocephalus Ridibundus) (Chroicocephalus ridibundus* |
 | Black-legged Kittiwake | *Rissa tridactyla* |
 | Black-naped Tern | *Sterna sumatrana* |
 | Black-necked Stilt | *Himantopus mexicanus* |
 | Black-tailed Godwit | *Limosa limosa* |
 | Black-winged Stilt | *Himantopus himantopus* |
+| Black-winged Stilt (Himantopus Himantopus) | *Himantopus Himantopus) (Himantopus himantopus* |
 | Blackish Oystercatcher | *Haematopus ater* |
 | Blacksmith Lapwing | *Vanellus armatus* |
 | Blue Noddy | *Anous ceruleus* |
@@ -4939,10 +5409,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Collared Plover | *Anarhynchus collaris* |
 | Comb-crested Jacana | *Irediparra gallinacea* |
 | Common Murre | *Uria aalge* |
+| Common Murre (Uria Aalge) | *Uria Aalge) (Uria aalge* |
 | Common Ringed Plover | *Charadrius hiaticula* |
 | Common Sandpiper | *Actitis hypoleucos* |
 | Common Snipe | *Gallinago gallinago* |
 | Common Tern | *Sterna hirundo* |
+| Common Tern (Sterna Hirundo) | *Sterna Hirundo) (Sterna hirundo* |
 | Common White-tern | *Gygis alba* |
 | Crocodile Bird | *Pluvianus aegyptius* |
 | Curlew Sandpiper | *Calidris ferruginea* |
@@ -4955,6 +5427,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Eurasian Curlew | *Numenius arquata* |
 | Eurasian Dotterel | *Charadrius morinellus* |
 | Eurasian Oystercatcher | *Haematopus ostralegus* |
+| Eurasian Oystercatcher (Haematopus Ostralegus) | *Haematopus Ostralegus) (Haematopus ostralegus* |
 | Eurasian Thick-knee | *Burhinus oedicnemus* |
 | Fairy Tern | *Sternula nereis* |
 | Far Eastern Curlew | *Numenius madagascariensis* |
@@ -4976,6 +5449,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Grey-tailed Tattler | *Tringa brevipes* |
 | Hawaiian Stilt | *Himantopus knudseni* |
 | Herring Gull | *Larus argentatus* |
+| Herring Gull (Larus Argentatus) | *Larus Argentatus) (Larus argentatus* |
 | Hottentot Buttonquail | *Turnix hottentotta* |
 | Imperial Snipe | *Gallinago imperialis* |
 | Inca Tern | *Larosterna inca* |
@@ -4983,6 +5457,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Javan Plover | *Anarhynchus javanicus* |
 | Kentish Plover | *Anarhynchus alexandrinus* |
 | Killdeer | *Charadrius vociferus* |
+| Killdeer (Charadrius Vociferus) | *Charadrius Vociferus) (Charadrius vociferus* |
 | King Gull | *Chroicocephalus hartlaubii* |
 | Large-billed Tern | *Phaetusa simplex* |
 | Latham's Snipe | *Gallinago hardwickii* |
@@ -5010,11 +5485,14 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Pectoral Sandpiper | *Calidris melanotos* |
 | Pheasant-tailed Jacana | *Hydrophasianus chirurgus* |
 | Pied Avocet | *Recurvirostra avosetta* |
+| Pied Avocet (Recurvirostra Avosetta) | *Recurvirostra Avosetta) (Recurvirostra avosetta* |
 | Pintail Snipe | *Gallinago stenura* |
 | Piping Plover | *Charadrius melodus* |
+| Piping Plover (Charadrius Melodus) | *Charadrius Melodus) (Charadrius melodus* |
 | Plains-wanderer | *Pedionomus torquatus* |
 | Puna Plover | *Anarhynchus alticola* |
 | Razorbill | *Alca torda* |
+| Razorbill (Alca Torda) | *Alca Torda) (Alca torda* |
 | Red Knot | *Calidris canutus* |
 | Red Phalarope | *Phalaropus fulicarius* |
 | Red-breasted Plover | *Anarhynchus obscurus* |
@@ -5025,6 +5503,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Relict Gull | *Ichthyaetus relictus* |
 | Rhinoceros Auklet | *Cerorhinca monocerata* |
 | Ring-billed Gull | *Larus delawarensis* |
+| Ring-billed Gull (Larus Delawarensis) | *Larus Delawarensis) (Larus delawarensis* |
 | Rock Pratincole | *Glareola nuchalis* |
 | Rock Sandpiper | *Calidris ptilocnemis* |
 | Royal Tern | *Thalasseus maximus* |
@@ -5032,6 +5511,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Ruff | *Calidris pugnax* |
 | Rufous-necked Stint | *Calidris ruficollis* |
 | Sanderling | *Calidris alba* |
+| Sanderling (Calidris Alba) | *Calidris Alba) (Calidris alba* |
 | Sandwich Tern | *Thalasseus sandvicensis* |
 | Saunders's Gull | *Chroicocephalus saundersi* |
 | Semipalmated Sandpiper | *Calidris pusilla* |
@@ -5064,6 +5544,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Thick-billed Guillemot | *Uria lomvia* |
 | Three-banded Plover | *Charadrius tricollaris* |
 | Tufted Puffin | *Fratercula cirrhata* |
+| Tufted Puffin (Fratercula Cirrhata) | *Fratercula Cirrhata) (Fratercula cirrhata* |
 | Two-banded Plover | *Anarhynchus falklandicus* |
 | Upland Sandpiper | *Bartramia longicauda* |
 | Vega Gull | *Larus vegae* |
@@ -5085,7 +5566,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellow-legged Buttonquail | *Turnix tanki* |
 | Yellow-legged Gull | *Larus michahellis* |
 
-### • Ciconiiformes (11)
+### • Ciconiiformes (15)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -5094,10 +5575,14 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Greater Adjutant | *Leptoptilos dubius* |
 | Jabiru Stork | *Jabiru mycteria* |
 | Marabou Stork | *Leptoptilos crumenifer* |
+| Marabou Stork (Leptoptilos Crumenifer) | *Leptoptilos Crumenifer) (Leptoptilos crumenifer* |
+| Maribou Stork | *Leptoptilos crumenifer* |
 | Oriental Stork | *Ciconia boyciana* |
 | Rufous-bellied Seedsnipe | *Attagis gayi* |
 | Saddle-billed Stork | *Ephippiorhynchus senegalensis* |
+| Saddle-billed Stork (Ephippiorhynchus Senegalensis) | *Ephippiorhynchus Senegalensis) (Ephippiorhynchus senegalensis* |
 | White Stork | *Ciconia ciconia* |
+| White Stork (Ciconia Ciconia) | *Ciconia Ciconia) (Ciconia ciconia* |
 | Wood Stork | *Mycteria americana* |
 | Yellow-billed Stork | *Mycteria ibis* |
 
@@ -5107,7 +5592,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | :--- | :--- |
 | Speckled Mousebird | *Colius striatus* |
 
-### • Columbiformes (131)
+### • Columbiformes (140)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -5147,7 +5632,10 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Ecuadorian Ground-dove | *Columbina buckleyi* |
 | Emerald-spotted Wood-dove | *Turtur chalcospilos* |
 | Eurasian Collared Dove | *Streptopelia decaocto* |
+| Eurasian Collared Dove (Streptopelia Decaocto) | *Streptopelia Decaocto) (Streptopelia decaocto* |
+| Eurasian Collared-dove | *Streptopelia decaocto* |
 | European Turtle Dove | *Streptopelia turtur* |
+| European Turtle Dove (Streptopelia Turtur) | *Streptopelia Turtur) (Streptopelia turtur* |
 | Flame-breasted Fruit-dove | *Ptilinopus marchei* |
 | Forest Dove | *Aplopelia simplex* |
 | Galapagos Dove | *Zenaida galapagoensis* |
@@ -5170,9 +5658,11 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Maroon-chested Ground-dove | *Paraclaravis mondetoura* |
 | Mountain Imperial-pigeon | *Ducula badia* |
 | Mourning Dove | *Zenaida macroura* |
+| Mourning Dove (Zenaida Macroura) | *Zenaida Macroura) (Zenaida macroura* |
 | Namaqua Dove | *Oena capensis* |
 | New Zealand Pigeon | *Hemiphaga novaeseelandiae* |
 | Nicobar Pigeon | *Caloenas nicobarica* |
+| Nicobar Pigeon (Caloenas Nicobarica) | *Caloenas Nicobarica) (Caloenas nicobarica* |
 | Nilgiri Wood-pigeon | *Columba elphinstonii* |
 | Olive-backed Quail-dove | *Leptotrygon veraguensis* |
 | Orange-bellied Fruit-dove | *Ptilinopus iozonus* |
@@ -5199,6 +5689,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Ring-necked Dove | *Streptopelia capicola* |
 | Ringneck Dove | *Streptopelia risoria* |
 | Rock Dove | *Columba livia* |
+| Rock Dove (Columba Livia) | *Columba Livia) (Columba livia* |
+| Rock Pigeon | *Columba livia* |
 | Ruddy Ground Dove | *Columbina talpacoti* |
 | Ruddy Pigeon | *Patagioenas subvinacea* |
 | Ruddy Quail-dove | *Geotrygon montana* |
@@ -5224,6 +5716,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Tanna Fruit-dove | *Ptilinopus tannensis* |
 | Thick-billed Ground-dove | *Pampusana salamonis* |
 | Victoria Crowned Pigeon | *Goura victoria* |
+| Victoria Crowned Pigeon (Goura Victoria) | *Goura Victoria) (Goura victoria* |
+| Victoria Crowned-pigeon | *Goura victoria* |
 | Violaceous Quail-dove | *Geotrygon violacea* |
 | Western Bronze Ground-dove | *Pampusana beccarii* |
 | Western Bronze-naped Pigeon | *Columba iriditorques* |
@@ -5243,7 +5737,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Zebra Dove | *Geopelia striata* |
 | Zenaida Dove | *Zenaida aurita* |
 
-### • Coraciiformes (83)
+### • Coraciiformes (89)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -5254,6 +5748,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Banded Kingfisher | *Lacedo pulchella* |
 | Beach Kingfisher | *Todiramphus saurophagus* |
 | Belted Kingfisher | *Megaceryle alcyon* |
+| Belted Kingfisher (Megaceryle Alcyon) | *Megaceryle Alcyon) (Megaceryle alcyon* |
 | Biak Paradise-kingfisher | *Tanysiptera riedelii* |
 | Black Bee-eater | *Merops gularis* |
 | Black-backed Kingfisher | *Ceyx erithaca* |
@@ -5278,19 +5773,24 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Cinnamon-banded Kingfisher | *Todiramphus australasia* |
 | Collared Kingfisher | *Todiramphus chloris* |
 | Common Kingfisher | *Alcedo atthis* |
+| Common Kingfisher (Alcedo Atthis) | *Alcedo Atthis) (Alcedo atthis* |
 | Common Paradise-kingfisher | *Tanysiptera galatea* |
 | Crested Kingfisher | *Megaceryle lugubris* |
 | Dwarf Kingfisher | *Ispidina lecontei* |
 | European Bee-eater | *Merops apiaster* |
+| European Bee-eater (Merops Apiaster) | *Merops Apiaster) (Merops apiaster* |
 | European Roller | *Coracias garrulus* |
+| European Roller (Coracias Garrulus) | *Coracias Garrulus) (Coracias garrulus* |
 | Flat-billed Kingfisher | *Todiramphus recurvirostris* |
 | Forrest Kingfisher | *Todiramphus macleayii* |
 | Green Kingfisher | *Chloroceryle americana* |
 | Indian Roller | *Coracias benghalensis* |
 | Indigo-banded Kingfisher | *Ceyx cyanopectus* |
 | Laughing Kookaburra | *Dacelo novaeguineae* |
+| Laughing Kookaburra (Dacelo Novaeguineae) | *Dacelo Novaeguineae) (Dacelo novaeguineae* |
 | Lazuli Kingfisher | *Todiramphus lazuli* |
 | Lilac-breasted Roller | *Coracias caudatus* |
+| Lilac-breasted Roller (Coracias Caudatus) | *Coracias Caudatus) (Coracias caudatus* |
 | Little Paradise-kingfisher | *Tanysiptera hydrocharis* |
 | Malachite Kingfisher | *Corythornis cristatus* |
 | Mangaia Kingfisher | *Todiramphus ruficollaris* |
@@ -5331,7 +5831,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | White-rumped Kingfisher | *Caridonax fulgidus* |
 | Yellow-billed Kingfisher | *Syma torotoro* |
 
-### • Cuculiformes (33)
+### • Cuculiformes (35)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -5341,12 +5841,14 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Banded Bay Cuckoo | *Cacomantis sonneratii* |
 | Black-billed Cuckoo | *Coccyzus erythropthalmus* |
 | Common Cuckoo | *Cuculus canorus* |
+| Common Cuckoo (Cuculus Canorus) | *Cuculus Canorus) (Cuculus canorus* |
 | Common Hawk-cuckoo | *Hierococcyx varius* |
 | Coral-billed Ground-cuckoo | *Carpococcyx renauldi* |
 | Cuban Lizard-cuckoo | *Coccyzus merlini* |
 | Dusky Long-tailed Cuckoo | *Cercococcyx mechowi* |
 | Greater Coucal | *Centropus sinensis* |
 | Greater Roadrunner | *Geococcyx californianus* |
+| Greater Roadrunner (Geococcyx Californianus) | *Geococcyx Californianus) (Geococcyx californianus* |
 | Groove-billed Ani | *Crotophaga sulcirostris* |
 | Hispaniolan Lizard-cuckoo | *Saurothera longirostris* |
 | Hodgson's Hawk-cuckoo | *Hierococcyx nisicolor* |
@@ -5393,20 +5895,26 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Kagu | *Rhynochetos jubatus* |
 | Sunbittern | *Eurypyga helias* |
 
-### • Falconiformes (22)
+### • Falconiformes (28)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | American Kestrel | *Falco sparverius* |
+| American Kestrel (Falco Sparverius) | *Falco Sparverius) (Falco sparverius* |
 | Barbary Falcon | *Falco pelegrinoides* |
 | Black-thighed Falconet | *Microhierax fringillarius* |
 | Collared Falconet | *Microhierax caerulescens* |
 | Common Kestrel | *Falco tinnunculus* |
+| Common Kestrel (Falco Tinnunculus) | *Falco Tinnunculus) (Falco tinnunculus* |
 | Crested Caracara | *Caracara plancus* |
+| Crested Caracara (Caracara Plancus) | *Caracara Plancus) (Caracara plancus* |
 | Gyrfalcon | *Falco rusticolus* |
+| Gyrfalcon (Falco Rusticolus) | *Falco Rusticolus) (Falco rusticolus* |
 | Lanner Falcon | *Falco biarmicus* |
 | Lesser Kestrel | *Falco naumanni* |
+| Merlin | *Falco columbarius* |
 | Peregrine Falcon | *Falco peregrinus* |
+| Peregrine Falcon (Falco Peregrinus) | *Falco Peregrinus) (Falco peregrinus* |
 | Philippine Falconet | *Microhierax erythrogenys* |
 | Pied Falconet | *Microhierax melanoleucos* |
 | Prairie Falcon | *Falco mexicanus* |
@@ -5420,7 +5928,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | White-fronted Falconet | *Microhierax latifrons* |
 | White-rumped Falcon | *Polihierax insignis* |
 
-### • Galliformes (174)
+### • Galliformes (186)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -5451,6 +5959,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Brown Quail | *Coturnix australis* |
 | Bulwer's Pheasant | *Lophura bulweri* |
 | California Quail | *Callipepla californica* |
+| California Quail (Callipepla Californica) | *Callipepla Californica) (Callipepla californica* |
 | Caucasian Grouse | *Lyrurus mlokosiewiczi* |
 | Ceylon Junglefowl | *Gallus lafayettii* |
 | Cheer Pheasant | *Catreus wallichii* |
@@ -5461,6 +5970,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Chestnut-naped Francolin | *Pternistis castaneicollis* |
 | Chestnut-necklaced Partridge | *Tropicoperdix charltonii* |
 | Chestnut-winged Chachalaca | *Ortalis garrula* |
+| Chicken | *Gallus gallus* |
 | Chinese Bamboo-partridge | *Bambusicola thoracicus* |
 | Chinese Francolin | *Francolinus pintadeanus* |
 | Chinese Grouse | *Tetrastes sewerzowi* |
@@ -5488,6 +5998,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Finsch's Francolin | *Scleroptila finschi* |
 | Gambel's Quail | *Callipepla gambelii* |
 | Golden Pheasant | *Chrysolophus pictus* |
+| Golden Pheasant (Chrysolophus Pictus) | *Chrysolophus Pictus) (Chrysolophus pictus* |
 | Gorgeted Wood Quail | *Odontophorus strophium* |
 | Gray Francolin | *Francolinus pondicerianus* |
 | Gray Junglefowl | *Gallus sonneratii* |
@@ -5506,17 +6017,20 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Harlequin Quail | *Coturnix delegorguei* |
 | Hazel Grouse | *Tetrastes bonasia* |
 | Helmeted Guineafowl | *Numida meleagris* |
+| Helmeted Guineafowl (Numida Meleagris) | *Numida Meleagris) (Numida meleagris* |
 | Hill Partridge | *Arborophila torqueola* |
 | Himalayan Monal | *Lophophorus impejanus* |
 | Himalayan Snowcock | *Tetraogallus himalayensis* |
 | Horned Curassow | *Pauxi unicornis* |
 | Hume's Pheasant | *Syrmaticus humiae* |
 | Indian Peafowl | *Pavo cristatus* |
+| Indian Peafowl (Pavo Cristatus) | *Pavo Cristatus) (Pavo cristatus* |
 | Japanese Quail | *Coturnix japonica* |
 | Jungle Bush-quail | *Perdicula asiatica* |
 | Kenya Guineafowl | *Guttera pucherani* |
 | Kirk's Francolin | *Dendroperdix rovuma* |
 | Lady Amherst's Pheasant | *Chrysolophus amherstiae* |
+| Lady Amherst's Pheasant (Chrysolophus Amherstiae) | *Chrysolophus Amherstiae) (Chrysolophus amherstiae* |
 | Lesser Prairie-chicken | *Tympanuchus pallidicinctus* |
 | Little Chachalaca | *Ortalis motmot* |
 | Madagascar Partridge | *Margaroperdix madagarensis* |
@@ -5530,6 +6044,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Mountain Quail | *Oreortyx pictus* |
 | Nahan's Partridge | *Ptilopachus nahani* |
 | Northern Bobwhite | *Colinus virginianus* |
+| Northern Bobwhite (Colinus Virginianus) | *Colinus Virginianus) (Colinus virginianus* |
 | Ocellated Turkey | *Meleagris ocellata* |
 | Orange River Francolin | *Francolinus levaillantoides* |
 | Painted Bush-quail | *Perdicula erythrorhyncha* |
@@ -5538,6 +6053,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Przewalski's Partridge | *Alectoris magna* |
 | Rain Quail | *Coturnix coromandelica* |
 | Red Junglefowl | *Gallus gallus* |
+| Red Junglefowl (Gallus Gallus) | *Gallus Gallus) (Gallus gallus* |
 | Red Spurfowl | *Galloperdix spadicea* |
 | Red-billed Francolin | *Pternistis adspersus* |
 | Red-billed Partridge | *Arborophila rubrirostris* |
@@ -5549,10 +6065,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Red-winged Francolin | *Scleroptila levaillantii* |
 | Reeves's Pheasant | *Syrmaticus reevesii* |
 | Ring-necked Pheasant | *Phasianus colchicus* |
+| Ring-necked Pheasant (Phasianus Colchicus) | *Phasianus Colchicus) (Phasianus colchicus* |
 | Rock Partridge | *Alectoris graeca* |
 | Rock Ptarmigan | *Lagopus muta* |
 | Rubeho Forest Partridge | *Xenoperdix obscuratus* |
 | Ruffed Grouse | *Bonasa umbellus* |
+| Ruffed Grouse (Bonasa Umbellus) | *Bonasa Umbellus) (Bonasa umbellus* |
 | Rufous-breasted Wood Quail | *Odontophorus speciosus* |
 | Rufous-fronted Wood Quail | *Odontophorus erythrops* |
 | Rufous-headed Chachalaca | *Ortalis erythroptera* |
@@ -5593,21 +6111,25 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Wattled Brush Turkey | *Aepypodius arfakianus* |
 | West Mexican Chachalaca | *Ortalis poliocephala* |
 | Western Capercaillie | *Tetrao urogallus* |
+| Western Capercaillie (Tetrao Urogallus) | *Tetrao Urogallus) (Tetrao urogallus* |
 | White-bellied Chachalaca | *Ortalis leucogastra* |
 | White-browed Guan | *Penelope jacucaca* |
 | White-eared Pheasant | *Crossoptilon crossoptilon* |
 | White-tailed Ptarmigan | *Lagopus leucura* |
+| Wild Turkey (Meleagris Gallopavo) | *Meleagris Gallopavo) (Meleagris gallopavo* |
 | Willow Ptarmigan | *Lagopus lagopus* |
 
-### • Gaviiformes (3)
+### • Gaviiformes (5)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Common Loon | *Gavia immer* |
+| Common Loon (Gavia Immer) | *Gavia Immer) (Gavia immer* |
+| Great Northern Loon | *Gavia immer* |
 | Pacific Loon | *Gavia pacifica* |
 | Red-throated Loon | *Gavia stellata* |
 
-### • Gruiformes (94)
+### • Gruiformes (103)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -5636,7 +6158,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Chestnut-headed Crake | *Anurolimnas castaneiceps* |
 | Clapper Rail | *Rallus crepitans* |
 | Common Crane | *Grus grus* |
+| Common Crane (Grus Grus) | *Grus Grus) (Grus grus* |
 | Common Gallinule | *Gallinula galeata* |
+| Common Gallinule (Gallinula Galeata) | *Gallinula Galeata) (Gallinula galeata* |
 | Common Moorhen | *Gallinula chloropus* |
 | Common Trumpeter | *Psophia crepitans* |
 | Corn Crake | *Crex crex* |
@@ -5644,10 +6168,14 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Demoiselle Crane | *Anthropoides virgo* |
 | Dieffenbach's Rail | *Hypotaenidia dieffenbachii* |
 | Eurasian Coot | *Fulica atra* |
+| Eurasian Coot (Fulica Atra) | *Fulica Atra) (Fulica atra* |
+| Eurasian Crane | *Grus grus* |
 | Galapagos Rail | *Laterallus spilonota* |
 | Giant Chatham Island Rail | *Diaphorapteryx hawkinsi* |
 | Giant Wood-rail | *Aramides ypecaha* |
 | Grey Crowned Crane | *Balearica regulorum* |
+| Grey Crowned Crane (Balearica Regulorum) | *Balearica Regulorum) (Balearica regulorum* |
+| Grey Crowned-crane | *Balearica regulorum* |
 | Grey-headed Swamphen | *Porphyrio poliocephalus* |
 | Grey-necked Wood-rail | *Aramides cajaneus* |
 | Grey-throated Rail | *Canirallus oculeus* |
@@ -5678,6 +6206,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Purple Swamphen | *Porphyrio porphyrio* |
 | Red-chested Flufftail | *Sarothrura rufa* |
 | Red-crowned Crane | *Grus japonensis* |
+| Red-crowned Crane (Grus Japonensis) | *Grus Japonensis) (Grus japonensis* |
 | Red-fronted Coot | *Fulica rufifrons* |
 | Red-legged Crake | *Rallina fasciata* |
 | Red-necked Crake | *Rallina tricolor* |
@@ -5687,6 +6216,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Russet-crowned Crake | *Rufirallus viridis* |
 | Sakalava Rail | *Zapornia olivieri* |
 | Sandhill Crane | *Antigone canadensis* |
+| Sandhill Crane (Antigone Canadensis) | *Antigone Canadensis) (Antigone canadensis* |
 | Sarus Crane | *Antigone antigone* |
 | Siberian Crane | *Leucogeranus leucogeranus* |
 | Sora | *Porzana carolina* |
@@ -5704,6 +6234,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | White-throated Rail | *Dryolimnas cuvieri* |
 | White-winged Flufftail | *Sarothrura ayresi* |
 | Whooping Crane | *Grus americana* |
+| Whooping Crane (Grus Americana) | *Grus Americana) (Grus americana* |
 | Yellow Rail | *Coturnicops noveboracensis* |
 
 ### • Leptosomiformes (1)
@@ -5762,7 +6293,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Macqueen's Bustard | *Chlamydotis macqueenii* |
 | Stanley Bustard | *Neotis denhami* |
 
-### • Passeriformes (2504)
+### • Passeriformes (2559)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -5801,10 +6332,14 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Amazonian Barred-woodcreeper | *Dendrocolaptes certhia* |
 | Amazonian Umbrellabird | *Cephalopterus ornatus* |
 | American Crow | *Corvus brachyrhynchos* |
+| American Crow (Corvus Brachyrhynchos) | *Corvus Brachyrhynchos) (Corvus brachyrhynchos* |
 | American Goldfinch | *Spinus tristis* |
+| American Goldfinch (Spinus Tristis) | *Spinus Tristis) (Spinus tristis* |
 | American Pipit | *Anthus rubescens* |
 | American Redstart | *Setophaga ruticilla* |
+| American Redstart (Setophaga Ruticilla) | *Setophaga Ruticilla) (Setophaga ruticilla* |
 | American Robin | *Turdus migratorius* |
+| American Robin (Turdus Migratorius) | *Turdus Migratorius) (Turdus migratorius* |
 | American Tree Sparrow | *Spizelloides arborea* |
 | Amethyst Sunbird | *Chalcomitra amethystina* |
 | Andean Cock-of-the-rock | *Rupicola peruvianus* |
@@ -5840,6 +6375,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Atherton Scrubwren | *Sericornis keri* |
 | Athi Short-toed Lark | *Calandrella athensis* |
 | Atlantic Canary | *Serinus canaria* |
+| Atlantic Canary (Serinus Canaria) | *Serinus Canaria) (Serinus canaria* |
 | Audubon's Warbler | *Setophaga auduboni* |
 | Austral Blackbird | *Curaeus curaeus* |
 | Austral Canastero | *Asthenes anthoides* |
@@ -5868,6 +6404,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Balicassiao | *Dicrurus balicassius* |
 | Balkan's Warbler | *Phylloscopus orientalis* |
 | Baltimore Oriole | *Icterus galbula* |
+| Baltimore Oriole (Icterus Galbula) | *Icterus Galbula) (Icterus galbula* |
 | Bamboo Scrub-warbler | *Locustella alfredi* |
 | Bananal Antbird | *Cercomacra ferdinandi* |
 | Bananaquit | *Coereba flaveola* |
@@ -5892,6 +6429,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Bare-throated Bellbird | *Procnias nudicollis* |
 | Barlow's Lark | *Calendulauda barlowi* |
 | Barn Swallow | *Hirundo rustica* |
+| Barn Swallow (Hirundo Rustica) | *Hirundo Rustica) (Hirundo rustica* |
 | Barred Antithrush | *Chamaeza mollissima* |
 | Barred Antshrike | *Thamnophilus doliatus* |
 | Barred Becard | *Pachyramphus versicolor* |
@@ -5975,6 +6513,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Black-capped Bulbul | *Rubigula melanictera* |
 | Black-capped Catbird | *Ailuroedus melanocephalus* |
 | Black-capped Chickadee | *Poecile atricapillus* |
+| Black-capped Chickadee (Poecile Atricapillus) | *Poecile Atricapillus) (Poecile atricapillus* |
 | Black-capped Siskin | *Spinus atriceps* |
 | Black-capped Sparrow | *Arremon abeillei* |
 | Black-capped Warbling Finch | *Microspingus melanoleucus* |
@@ -6066,6 +6605,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Black-whiskered Vireo | *Vireo altiloquus* |
 | Black-winged Bishop | *Euplectes hordeaceus* |
 | Black-winged Snowfinch | *Montifringilla adamsi* |
+| Blackbird | *Turdus merula* |
 | Blackburnian Warbler | *Setophaga fusca* |
 | Blackcap | *Sylvia atricapilla* |
 | Blackcap Illadopsis | *Illadopsis cleaveri* |
@@ -6079,6 +6619,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Blue Bird Of Paradise | *Paradisaea rudolphi* |
 | Blue Cuckooshrike | *Cyanograucalus azureus* |
 | Blue Jay | *Cyanocitta cristata* |
+| Blue Jay (Cyanocitta Cristata) | *Cyanocitta Cristata) (Cyanocitta cristata* |
 | Blue Jewel-babbler | *Ptilorrhoa caerulescens* |
 | Blue Magpie | *Urocissa erythroryncha* |
 | Blue Mockingbird | *Melanotis caerulescens* |
@@ -6086,6 +6627,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Blue Nuthatch | *Sitta azurea* |
 | Blue Rock Thrush | *Monticola solitarius* |
 | Blue Saw-wing | *Psalidoprocne pristoptera* |
+| Blue Tit | *Cyanistes caeruleus* |
 | Blue-and-black Tanager | *Tangara vassorii* |
 | Blue-and-yellow Tanager | *Pipraeidea bonariensis* |
 | Blue-black Grassquit | *Volatinia jacarina* |
@@ -6252,6 +6794,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Cassin's Vireo | *Vireo cassinii* |
 | Cayenne Jay | *Cyanocorax cayanus* |
 | Cedar Waxwing | *Bombycilla cedrorum* |
+| Cedar Waxwing (Bombycilla Cedrorum) | *Bombycilla Cedrorum) (Bombycilla cedrorum* |
 | Cerulean Paradise-flycatcher | *Eutrichomyias rowleyi* |
 | Cerulean Warbler | *Setophaga cerulea* |
 | Ceylon Bush-warbler | *Elaphrornis palliseri* |
@@ -6341,6 +6884,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Cinnamon-breated Bunting | *Emberiza tahapisi* |
 | Cinnamon-throated Woodcreeper | *Dendrexetastes rufigula* |
 | Clark's Nutcracker | *Nucifraga columbiana* |
+| Clark's Nutcracker (Nucifraga Columbiana) | *Nucifraga Columbiana) (Nucifraga columbiana* |
 | Clay-colored Robin | *Turdus grayi* |
 | Clay-colored Sparrow | *Spizella pallida* |
 | Cliff Swallow | *Petrochelidon pyrrhonota* |
@@ -6364,21 +6908,27 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Colombian Antwren | *Myrmotherula ignota* |
 | Common Babbler | *Argya caudata* |
 | Common Blackbird | *Turdus merula* |
+| Common Blackbird (Turdus Merula) | *Turdus Merula) (Turdus merula* |
 | Common Bristlebill | *Bleda syndactylus* |
 | Common Bush-tanager | *Chlorospingus flavopectus* |
+| Common Canary | *Serinus canaria* |
 | Common Grackle | *Quiscalus quiscula* |
 | Common House Martin | *Delichon urbicum* |
+| Common House Martin (Delichon Urbicum) | *Delichon Urbicum) (Delichon urbicum* |
 | Common Iora | *Aegithina tiphia* |
 | Common Miner | *Geositta cunicularia* |
 | Common Myna | *Acridotheres tristis* |
 | Common Raven | *Corvus corax* |
+| Common Raven (Corvus Corax) | *Corvus Corax) (Corvus corax* |
 | Common Redpoll | *Acanthis flammea* |
 | Common Redstart | *Phoenicurus phoenicurus* |
 | Common Rosefinch | *Carpodacus erythrinus* |
 | Common Starling | *Sturnus vulgaris* |
+| Common Starling (Sturnus Vulgaris) | *Sturnus Vulgaris) (Sturnus vulgaris* |
 | Common Stonechat | *Saxicola torquatus* |
 | Common Tody Flycatcher | *Todirostrum cinereum* |
 | Common Yellowthroat | *Geothlypis trichas* |
+| Common Yellowthroat (Geothlypis Trichas) | *Geothlypis Trichas) (Geothlypis trichas* |
 | Comoro Bulbul | *Hypsipetes parvirostris* |
 | Compact Weaver | *Plocepasser superciliosus* |
 | Concolor Woodcreeper | *Dendrocolaptes concolor* |
@@ -6436,6 +6986,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Dark-brown Honeyeater | *Lichmera incana* |
 | Dark-eared Myza | *Myza celebensis* |
 | Dark-eyed Junco | *Junco hyemalis* |
+| Dark-eyed Junco (Junco Hyemalis) | *Junco Hyemalis) (Junco hyemalis* |
 | Dark-grey Flycatcher | *Myiagra galeata* |
 | Dark-grey Tit | *Periparus rufonuchalis* |
 | Dark-rumped Rosefinch | *Carpodacus edwardsii* |
@@ -6472,10 +7023,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Dwarf Tyrant-manakin | *Tyranneutes stolzmanni* |
 | Dybowski's Twinspot | *Euschistospiza dybowskii* |
 | Eastern Bluebird | *Sialia sialis* |
+| Eastern Bluebird (Sialia Sialis) | *Sialia Sialis) (Sialia sialis* |
 | Eastern Bristlebird | *Dasyornis brachypterus* |
 | Eastern Double-collared Sunbird | *Cinnyris mediocris* |
 | Eastern Kingbird | *Tyrannus tyrannus* |
 | Eastern Meadowlark | *Sturnella magna* |
+| Eastern Meadowlark (Sturnella Magna) | *Sturnella Magna) (Sturnella magna* |
 | Eastern Mountain Greenbul | *Arizelocichla nigriceps* |
 | Eastern Olivaceous Warbler | *Iduna opaca* |
 | Eastern Orphean Warbler | *Curruca crassirostris* |
@@ -6503,22 +7056,29 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Erlanger's Lark | *Calandrella erlangeri* |
 | Eungella Honeyeater | *Bolemoreus hindwoodi* |
 | Eurasian Blue Tit | *Cyanistes caeruleus* |
+| Eurasian Blue Tit (Cyanistes Caeruleus) | *Cyanistes Caeruleus) (Cyanistes caeruleus* |
 | Eurasian Bullfinch | *Pyrrhula pyrrhula* |
 | Eurasian Chiffchaff | *Phylloscopus collybita* |
 | Eurasian Golden-oriole | *Oriolus oriolus* |
+| Eurasian Goldfinch | *Carduelis carduelis* |
 | Eurasian Jay | *Garrulus glandarius* |
+| Eurasian Jay (Garrulus Glandarius) | *Garrulus Glandarius) (Garrulus glandarius* |
 | Eurasian Linnet | *Linaria cannabina* |
 | Eurasian Magpie | *Pica pica* |
+| Eurasian Magpie (Pica Pica) | *Pica Pica) (Pica pica* |
 | Eurasian Penduline-tit | *Remiz pendulinus* |
 | Eurasian River Warbler | *Locustella fluviatilis* |
 | Eurasian Siskin | *Spinus spinus* |
 | Eurasian Skylark | *Alauda arvensis* |
 | Eurasian Tree Sparrow | *Passer montanus* |
+| Eurasian Tree Sparrow (Passer Montanus) | *Passer Montanus) (Passer montanus* |
 | Eurasian Tree-creeper | *Certhia familiaris* |
 | Eurasian Wren | *Troglodytes troglodytes* |
 | European Goldfinch | *Carduelis carduelis* |
+| European Goldfinch (Carduelis Carduelis) | *Carduelis Carduelis) (Carduelis carduelis* |
 | European Greenfinch | *Chloris chloris* |
 | European Robin | *Erithacus rubecula* |
+| European Robin (Erithacus Rubecula) | *Erithacus Rubecula) (Erithacus rubecula* |
 | European Serin | *Serinus serinus* |
 | European Stonechat | *Saxicola rubicola* |
 | Everett's White-eye | *Zosterops everetti* |
@@ -6675,6 +7235,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Great Shortwing | *Heinrichia calligyna* |
 | Great Thrush | *Turdus fuscater* |
 | Great Tit | *Parus major* |
+| Great Tit (Parus Major) | *Parus Major) (Parus major* |
 | Great-billed Seed-finch | *Sporophila maximiliani* |
 | Great-tailed Grackle | *Quiscalus mexicanus* |
 | Greater Antillean Elaenia | *Elaenia fallax* |
@@ -6812,8 +7373,11 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | House Bunting | *Emberiza sahari* |
 | House Crow | *Corvus splendens* |
 | House Finch | *Haemorhous mexicanus* |
+| House Finch (Haemorhous Mexicanus) | *Haemorhous Mexicanus) (Haemorhous mexicanus* |
 | House Sparrow | *Passer domesticus* |
+| House Sparrow (Passer Domesticus) | *Passer Domesticus) (Passer domesticus* |
 | House Wren | *Troglodytes aedon* |
+| House Wren (Troglodytes Aedon) | *Troglodytes Aedon) (Troglodytes aedon* |
 | Huia | *Heteralocha acutirostris* |
 | Hume's Bush-warbler | *Horornis brunnescens* |
 | Hume's Lark | *Calandrella acutirostris* |
@@ -6946,6 +7510,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Long-billed Antwren | *Stymphalornis acutirostris* |
 | Long-billed Crow | *Corvus validus* |
 | Long-billed Gnatwren | *Ramphocaenus rufiventris* |
+| Long-billed Greenbul (Bernieria madagascariensis (Gmelin, 1789)) | *Bernieria madagascariensis (Gmelin, 1789)* |
 | Long-billed Honeyeater | *Melilestes megarhynchus* |
 | Long-billed Pipit | *Anthus similis* |
 | Long-billed Sunbird | *Cinnyris lotenius* |
@@ -7064,6 +7629,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Moroccan Wagtail | *Motacilla subpersonata* |
 | Mottled Munia | *Lonchura hunsteini* |
 | Mountain Bluebird | *Sialia currucoides* |
+| Mountain Bluebird (Sialia Currucoides) | *Sialia Currucoides) (Sialia currucoides* |
 | Mountain Bulbul | *Ixos mcclellandii* |
 | Mountain Firetail | *Oreostruthus fuliginosus* |
 | Mountain Leaf Warbler | *Phylloscopus nigrorum* |
@@ -7086,6 +7652,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Mrs. Benson's Brush-warbler | *Nesillas mariae* |
 | Mrs. Moreau's Warbler | *Scepomycter winifredae* |
 | Musician Wren | *Cyphorhinus arada* |
+| Myrtle Warbler | *Setophaga coronata coronata* |
 | Narcissus Flycatcher | *Ficedula narcissina* |
 | Narosky's Seedeater | *Sporophila zelichi* |
 | Narrow-billed Woodcreeper | *Lepidocolaptes angustirostris* |
@@ -7118,14 +7685,17 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | North Island Robin | *Petroica longipes* |
 | Northern Black-flycatcher | *Melaenornis edolioides* |
 | Northern Cardinal | *Cardinalis cardinalis* |
+| Northern Cardinal (Cardinalis Cardinalis) | *Cardinalis Cardinalis) (Cardinalis cardinalis* |
 | Northern Catbird | *Ailuroedus jobiensis* |
 | Northern Chowchilla | *Orthonyx spaldingii* |
 | Northern Crombec | *Sylvietta brachyura* |
 | Northern Double-collared Sunbird | *Cinnyris reichenowi* |
+| Northern House-martin | *Delichon urbicum* |
 | Northern Long-tailed Tit | *Aegithalos caudatus* |
 | Northern Marquesan Reed-warbler | *Acrocephalus percernis* |
 | Northern Masked-weaver | *Ploceus taeniopterus* |
 | Northern Mockingbird | *Mimus polyglottos* |
+| Northern Mockingbird (Mimus Polyglottos) | *Mimus Polyglottos) (Mimus polyglottos* |
 | Northern Mountain Greenbul | *Arizelocichla fusciceps* |
 | Northern Olive Thrush | *Turdus abyssinicus* |
 | Northern Paradise-whydah | *Vidua orientalis* |
@@ -7197,6 +7767,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Oriental White-eye | *Zosterops palpebrosus* |
 | Oriole Blackbird | *Gymnomystax mexicanus* |
 | Orphean Warbler | *Curruca hortensis* |
+| Ou | *Psittirostra psittacea* |
 | Ovenbird | *Seiurus aurocapilla* |
 | Pacific Antwren | *Myrmotherula pacifica* |
 | Pacific Leaf Warbler | *Phylloscopus xanthodryas* |
@@ -7343,7 +7914,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Rachel's Malimbe | *Malimbus racheliae* |
 | Racket-tailed Treepie | *Crypsirina temia* |
 | Radde's Accentor | *Prunella ocularis* |
+| Raggiana Bird of Paradise | *Paradisaea raggiana* |
 | Raggiana Bird-of-paradise | *Paradisaea raggiana* |
+| Raggiana Bird-of-paradise (Paradisaea Raggiana) | *Paradisaea Raggiana) (Paradisaea raggiana* |
 | Rarotonga Monarch | *Pomarea dimidiata* |
 | Ratchet-tailed Treepie | *Temnurus temnurus* |
 | Razo Lark | *Alauda razae* |
@@ -7411,6 +7984,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Red-vented Bulbul | *Pycnonotus cafer* |
 | Red-whiskered Bulbul | *Pycnonotus jocosus* |
 | Red-winged Blackbird | *Agelaius phoeniceus* |
+| Red-winged Blackbird (Agelaius Phoeniceus) | *Agelaius Phoeniceus) (Agelaius phoeniceus* |
 | Red-winged Fairywren | *Malurus elegans* |
 | Red-winged Pytilia | *Pytilia phoenicoptera* |
 | Red-winged Warbler | *Prinia erythroptera* |
@@ -7437,6 +8011,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Roosevelt Antwren | *Epinecrophylla dentei* |
 | Rose Robin | *Petroica rosea* |
 | Rose-breasted Grosbeak | *Pheucticus ludovicianus* |
+| Rose-breasted Grosbeak (Pheucticus Ludovicianus) | *Pheucticus Ludovicianus) (Pheucticus ludovicianus* |
 | Rose-collared Piha | *Lipaugus streptophorus* |
 | Rose-throated Tanager | *Piranga roseogularis* |
 | Rosy Pipit | *Anthus roseatus* |
@@ -7563,6 +8138,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Sardinian Warbler | *Curruca melanocephala* |
 | Satin Berrypecker | *Melanocharis citreola* |
 | Satin Bowerbird | *Ptilonorhynchus violaceus* |
+| Satin Bowerbird (Ptilonorhynchus Violaceus) | *Ptilonorhynchus Violaceus) (Ptilonorhynchus violaceus* |
 | Savannah Sparrow | *Passerculus sandwichensis* |
 | Savi's Warbler | *Locustella luscinioides* |
 | Sayaca Tanager | *Thraupis sayaca* |
@@ -7581,6 +8157,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Scaly-crowned Babbler | *Malacopteron cinereum* |
 | Scarlet Robin | *Petroica boodang* |
 | Scarlet Tanager | *Piranga olivacea* |
+| Scarlet Tanager (Piranga Olivacea) | *Piranga Olivacea) (Piranga olivacea* |
 | Scarlet-headed Blackbird | *Amblyramphus holosericeus* |
 | Scarlet-rumped Tanager | *Ramphocelus passerinii* |
 | Scarlet-tufted Sunbird | *Anthreptes fraseri* |
@@ -7693,6 +8270,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Somali Sparrow | *Passer castanopterus* |
 | Song Sparrow | *Melospiza melodia* |
 | Song Thrush | *Turdus philomelos* |
+| Song Thrush (Turdus Philomelos) | *Turdus Philomelos) (Turdus philomelos* |
 | Songar Tit | *Poecile songarus* |
 | Sooty Chat | *Myrmecocichla nigra* |
 | Sooty Flycatcher | *Muscicapa infuscata* |
@@ -7806,6 +8384,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Sunda Warbler | *Phylloscopus grammiceps* |
 | Superb Bird Of Paradise | *Lophorina superba* |
 | Superb Fairywren | *Malurus cyaneus* |
+| Superb Fairywren (Malurus Cyaneus) | *Malurus Cyaneus) (Malurus cyaneus* |
 | Superb Lyrebird | *Menura novaehollandiae* |
 | Superb Sunbird | *Cinnyris superbus* |
 | Superciliated Wren | *Cantorchilus superciliaris* |
@@ -7904,6 +8483,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Tufted Jay | *Cyanocorax dickeyi* |
 | Tufted Olive Sunbird | *Cyanomitra obscura* |
 | Tufted Titmouse | *Baeolophus bicolor* |
+| Tufted Titmouse (Baeolophus Bicolor) | *Baeolophus Bicolor) (Baeolophus bicolor* |
 | Turkestan Tit | *Parus bokharensis* |
 | Turquoise Cotinga | *Cotinga ridgwayi* |
 | Twelve-wired Bird Of Paradise | *Seleucidis melanoleucus* |
@@ -7980,6 +8560,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Western Gerygone | *Gerygone fusca* |
 | Western Grasswren | *Amytornis textilis* |
 | Western Meadowlark | *Sturnella neglecta* |
+| Western Meadowlark (Sturnella Neglecta) | *Sturnella Neglecta) (Sturnella neglecta* |
 | Western Scrub-jay | *Aphelocoma californica* |
 | Western Subalpine Warbler | *Curruca inornata* |
 | Western Tanager | *Piranga ludoviciana* |
@@ -8015,6 +8596,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | White-breasted Monarch | *Symposiachrus menckei* |
 | White-breasted Negrofinch | *Nigrita fusconotus* |
 | White-breasted Nuthatch | *Sitta carolinensis* |
+| White-breasted Nuthatch (Sitta Carolinensis) | *Sitta Carolinensis) (Sitta carolinensis* |
 | White-breasted Sunbird | *Cinnyris talatala* |
 | White-breasted Tapaculo | *Eleoscytalopus indigoticus* |
 | White-breasted Thrasher | *Ramphocinclus brachyurus* |
@@ -8160,6 +8742,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Wood Lark | *Lullula arborea* |
 | Wood Nuthatch | *Sitta europaea* |
 | Wood Thrush | *Hylocichla mustelina* |
+| Wood Thrush (Hylocichla Mustelina) | *Hylocichla Mustelina) (Hylocichla mustelina* |
 | Woodhouse's Scrub-jay | *Aphelocoma woodhouseii* |
 | Woodpecker Finch | *Camarhynchus pallidus* |
 | Worm-eating Warbler | *Helmitheros vermivorum* |
@@ -8179,6 +8762,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellow Thornbill | *Acanthiza nana* |
 | Yellow Tit | *Machlolophus holsti* |
 | Yellow Warbler | *Setophaga petechia* |
+| Yellow Warbler (Setophaga Petechia) | *Setophaga Petechia) (Setophaga petechia* |
 | Yellow-bearded Bulbul | *Criniger olivaceus* |
 | Yellow-bellied Bulbul | *Alophoixus phaeocephalus* |
 | Yellow-bellied Chat-tyrant | *Silvicultrix diadema* |
@@ -8234,6 +8818,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellow-rumped Tanager | *Ramphocelus icteronotus* |
 | Yellow-rumped Thornbill | *Acanthiza chrysorrhoa* |
 | Yellow-rumped Warbler | *Setophaga coronata* |
+| Yellow-rumped Warbler (Setophaga Coronata) | *Setophaga Coronata) (Setophaga coronata* |
 | Yellow-shouldered Widowbird | *Euplectes macroura* |
 | Yellow-sided Flowerpecker | *Dicaeum aureolimbatum* |
 | Yellow-streaked Warbler | *Phylloscopus armandii* |
@@ -8270,8 +8855,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Zanzibar Bishop | *Euplectes nigroventris* |
 | Zapata Sparrow | *Torreornis inexpectata* |
 | Zebra Finch | *Taeniopygia guttata* |
+| Zebra Finch (Taeniopygia Guttata) | *Taeniopygia Guttata) (Taeniopygia guttata* |
 
-### • Pelecaniformes (58)
+### • Pelecaniformes (73)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -8283,10 +8869,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Australian Pelican | *Pelecanus conspicillatus* |
 | Black Bittern | *Ixobrychus flavicollis* |
 | Black-crowned Night Heron | *Nycticorax nycticorax* |
+| Black-crowned Night Heron (Nycticorax Nycticorax) | *Nycticorax Nycticorax) (Nycticorax nycticorax* |
+| Black-crowned Night-heron | *Nycticorax nycticorax* |
 | Black-faced Spoonbill | *Platalea minor* |
 | Black-headed Heron | *Ardea melanocephala* |
 | Boat-billed Heron | *Cochlearius cochlearius* |
 | Brown Pelican | *Pelecanus occidentalis* |
+| Brown Pelican (Pelecanus Occidentalis) | *Pelecanus Occidentalis) (Pelecanus occidentalis* |
 | Cattle Egret | *Bubulcus ibis* |
 | Chinese Egret | *Egretta eulophotes* |
 | Chinese Pond Heron | *Ardeola bacchus* |
@@ -8296,13 +8885,20 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Dalmatian Pelican | *Pelecanus crispus* |
 | Eastern Great Egret | *Ardea modesta* |
 | Eurasian Spoonbill | *Platalea leucorodia* |
+| Eurasian Spoonbill (Platalea Leucorodia) | *Platalea Leucorodia) (Platalea leucorodia* |
 | Glossy Ibis | *Plegadis falcinellus* |
+| Glossy Ibis (Plegadis Falcinellus) | *Plegadis Falcinellus) (Plegadis falcinellus* |
 | Great Blue Heron | *Ardea herodias* |
+| Great Blue Heron (Ardea Herodias) | *Ardea Herodias) (Ardea herodias* |
 | Great Egret | *Ardea alba* |
+| Great Egret (Ardea Alba) | *Ardea Alba) (Ardea alba* |
 | Great White Pelican | *Pelecanus onocrotalus* |
+| Great White Pelican (Pelecanus Onocrotalus) | *Pelecanus Onocrotalus) (Pelecanus onocrotalus* |
 | Green Heron | *Butorides virescens* |
+| Green Heron (Butorides Virescens) | *Butorides Virescens) (Butorides virescens* |
 | Green-backed Heron | *Butorides striata* |
 | Grey Heron | *Ardea cinerea* |
+| Grey Heron (Ardea Cinerea) | *Ardea Cinerea) (Ardea cinerea* |
 | Hadada Ibis | *Bostrychia hagedash* |
 | Hamerkop | *Scopus umbretta* |
 | Indian Pond-heron | *Ardeola grayii* |
@@ -8311,6 +8907,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Least Bittern | *Ixobrychus exilis* |
 | Little Blue Heron | *Egretta caerulea* |
 | Little Egret | *Egretta garzetta* |
+| Little Egret (Egretta Garzetta) | *Egretta Garzetta) (Egretta garzetta* |
 | Malayan Night-heron | *Gorsachius melanolophus* |
 | Northern Bald Ibis | *Geronticus eremita* |
 | Pacific Reef-egret | *Egretta sacra* |
@@ -8320,11 +8917,15 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Red-naped Ibis | *Pseudibis papillosa* |
 | Reddish Egret | *Egretta rufescens* |
 | Roseate Spoonbill | *Platalea ajaja* |
+| Roseate Spoonbill (Platalea Ajaja) | *Platalea Ajaja) (Platalea ajaja* |
 | Royal Spoonbill | *Platalea regia* |
 | Sacred Ibis | *Threskiornis aethiopicus* |
 | Scarlet Ibis | *Eudocimus ruber* |
+| Scarlet Ibis (Eudocimus Ruber) | *Eudocimus Ruber) (Eudocimus ruber* |
 | Shoebill | *Balaeniceps rex* |
+| Shoebill (Balaeniceps Rex) | *Balaeniceps Rex) (Balaeniceps rex* |
 | Snowy Egret | *Egretta thula* |
+| Snowy Egret (Egretta Thula) | *Egretta Thula) (Egretta thula* |
 | Southern Bald Ibis | *Geronticus calvus* |
 | Tricolored Heron | *Egretta tricolor* |
 | Von Schrenck's Bittern | *Ixobrychus eurhythmus* |
@@ -8341,18 +8942,20 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Red-tailed Tropicbird | *Phaethon rubricauda* |
 | White-tailed Tropicbird | *Phaethon lepturus* |
 
-### • Phoenicopteriformes (6)
+### • Phoenicopteriformes (8)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | American Flamingo | *Phoenicopterus ruber* |
+| American Flamingo (Phoenicopterus Ruber) | *Phoenicopterus Ruber) (Phoenicopterus ruber* |
 | Andean Flamingo | *Phoenicoparrus andinus* |
 | Chilean Flamingo | *Phoenicopterus chilensis* |
 | Greater Flamingo | *Phoenicopterus roseus* |
+| Greater Flamingo (Phoenicopterus Roseus) | *Phoenicopterus Roseus) (Phoenicopterus roseus* |
 | Lesser Flamingo | *Phoeniconaias minor* |
 | Puna Flamingo | *Phoenicoparrus jamesi* |
 
-### • Piciformes (200)
+### • Piciformes (207)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -8416,6 +9019,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Darjeeling Woodpecker | *Dendrocopos darjellensis* |
 | Dot-fronted Woodpecker | *Veniliornis frontalis* |
 | Downy Woodpecker | *Dryobates pubescens* |
+| Downy Woodpecker (Dryobates Pubescens) | *Dryobates Pubescens) (Dryobates pubescens* |
 | Ecuadorian Piculet | *Picumnus sclateri* |
 | Eurasian Green Woodpecker | *Picus viridis* |
 | Eurasian Wryneck | *Jynx torquilla* |
@@ -8433,7 +9037,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Gray-crowned Woodpecker | *Colaptes auricularis* |
 | Gray-headed Woodpecker | *Dendropicos spodocephalus* |
 | Great Barbet | *Psilopogon virens* |
+| Great Rufous Woodcreeper | *Dendrocopos major* |
 | Great Spotted Woodpecker | *Dendrocopos major* |
+| Great Spotted Woodpecker (Dendrocopos Major) | *Dendrocopos Major) (Dendrocopos major* |
 | Greater Flameback | *Chrysocolaptes lucidus* |
 | Greater Yellownape | *Chrysophlegma flavinucha* |
 | Green Aracari | *Pteroglossus viridis* |
@@ -8453,6 +9059,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Imperial Woodpecker | *Campephilus imperialis* |
 | Ivory-billed Woodpecker | *Campephilus principalis* |
 | Keel-billed Toucan | *Ramphastos sulfuratus* |
+| Keel-billed Toucan (Ramphastos Sulfuratus) | *Ramphastos Sulfuratus) (Ramphastos sulfuratus* |
 | Knysna Woodpecker | *Campethera notata* |
 | Ladder-backed Woodpecker | *Dryobates scalaris* |
 | Lanceolated Monklet | *Micromonacha lanceolata* |
@@ -8483,6 +9090,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Philippine Woodpecker | *Yungipicus maculatus* |
 | Pied Barbet | *Tricholaema leucomelas* |
 | Pileated Woodpecker | *Dryocopus pileatus* |
+| Pileated Woodpecker (Dryocopus Pileatus) | *Dryocopus Pileatus) (Dryocopus pileatus* |
 | Plain-breasted Piculet | *Picumnus castelnau* |
 | Pygmy Woodpecker | *Yungipicus kizuki* |
 | Red-and-yellow Barbet | *Trachyphonus erythrocephalus* |
@@ -8491,6 +9099,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Red-fronted Tinkerbird | *Pogoniulus pusillus* |
 | Red-headed Barbet | *Eubucco bourcierii* |
 | Red-headed Woodpecker | *Melanerpes erythrocephalus* |
+| Red-headed Woodpecker (Melanerpes Erythrocephalus) | *Melanerpes Erythrocephalus) (Melanerpes erythrocephalus* |
 | Red-necked Aracari | *Pteroglossus bitorquatus* |
 | Red-rumped Tinkerbird | *Pogoniulus atroflavus* |
 | Red-rumped Woodpecker | *Veniliornis kirkii* |
@@ -8524,6 +9133,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Tawny-tufted Toucanet | *Selenidera nattereri* |
 | Three-toed Jacamar | *Jacamaralcyon tridactyla* |
 | Toco Toucan | *Ramphastos toco* |
+| Toco Toucan (Ramphastos Toco) | *Ramphastos Toco) (Ramphastos toco* |
 | Tullberg's Woodpecker | *Campethera tullbergi* |
 | Usambiro Barbet | *Trachyphonus usambiro* |
 | Varzea Piculet | *Picumnus varzeae* |
@@ -8557,18 +9167,19 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellow-vented Woodpecker | *Veniliornis dignus* |
 | Yucatan Woodpecker | *Melanerpes pygmaeus* |
 
-### • Podicipediformes (6)
+### • Podicipediformes (7)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Australasian Grebe | *Tachybaptus novaehollandiae* |
 | Black-necked Grebe | *Podiceps nigricollis* |
 | Great Crested Grebe | *Podiceps cristatus* |
+| Great Crested Grebe (Podiceps Cristatus) | *Podiceps Cristatus) (Podiceps cristatus* |
 | Little Grebe | *Tachybaptus ruficollis* |
 | New Zealand Grebe | *Poliocephalus rufopectus* |
 | Western Grebe | *Aechmophorus occidentalis* |
 
-### • Procellariiformes (73)
+### • Procellariiformes (76)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -8604,9 +9215,11 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Hawaiian Black-footed Albatross | *Phoebastria nigripes* |
 | Imber's Petrel | *Pterodroma imberi* |
 | Indian Yellow-nosed Albatross | *Thalassarche carteri* |
+| Japanese Black-footed Albatross | *Phoebastria sp. 'nihonus'* |
 | Kerguelen Petrel | *Aphrodroma brevirostris* |
 | Lava Shearwater | *Puffinus olsoni* |
 | Laysan Albatross | *Phoebastria immutabilis* |
+| Laysan Albatross (Phoebastria Immutabilis) | *Phoebastria Immutabilis) (Phoebastria immutabilis* |
 | Leach's Storm-petrel | *Oceanodroma leucorhoa* |
 | Least Storm-petrel | *Oceanodroma microsoma* |
 | Lesser Snow-petrel | *Pagodroma nivea* |
@@ -8639,6 +9252,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Tristram's Storm-petrel | *Oceanodroma tristrami* |
 | Tropical Shearwater | *Puffinus bailloni* |
 | Wandering Albatross | *Diomedea exulans* |
+| Wandering Albatross (Diomedea Exulans) | *Diomedea Exulans) (Diomedea exulans* |
 | Wedge-rumped Storm-petrel | *Oceanodroma tethys* |
 | White-bellied Storm-petrel | *Fregetta grallaria* |
 | White-faced Storm-petrel | *Pelagodroma marina* |
@@ -8646,11 +9260,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | White-vented Storm-petrel | *Oceanites gracilis* |
 | Wilson's Storm-petrel | *Oceanites oceanicus* |
 
-### • Psittaciformes (258)
+### • Psittaciformes (279)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | African Grey Parrot | *Psittacus erithacus* |
+| African Grey Parrot (Psittacus Erithacus) | *Psittacus Erithacus) (Psittacus erithacus* |
 | Alexandrine Parakeet | *Psittacula eupatria* |
 | Andean Parakeet | *Bolborhynchus orbygnesius* |
 | Antipodes Island Green Parakeet | *Cyanoramphus unicolor* |
@@ -8667,6 +9282,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Black-winged Lory | *Eos cyanogenia* |
 | Blossom-headed Parakeet | *Psittacula roseata* |
 | Blue-and-yellow Macaw | *Ara ararauna* |
+| Blue-and-yellow Macaw (Ara Ararauna) | *Ara Ararauna) (Ara ararauna* |
 | Blue-backed Parrot | *Tanygnathus sumatranus* |
 | Blue-cheeked Parrot | *Amazona dufresniana* |
 | Blue-crowned Parakeet | *Thectocercus acuticaudatus* |
@@ -8690,6 +9306,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Brown-necked Parrot | *Poicephalus fuscicollis* |
 | Brown-throated Parakeet | *Eupsittula pertinax* |
 | Budgerigar | *Melopsittacus undulatus* |
+| Budgerigar (Melopsittacus Undulatus) | *Melopsittacus Undulatus) (Melopsittacus undulatus* |
 | Buff-faced Pygmy Parrot | *Micropsitta pusio* |
 | Burrowing Parakeet | *Cyanoliseus patagonus* |
 | Cactus Parakeet | *Eupsittula cactorum* |
@@ -8704,6 +9321,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Citron-crested Cockatoo | *Cacatua citrinocristata* |
 | Cobalt-winged Parakeet | *Brotogeris jugularis* |
 | Cockatiel | *Nymphicus hollandicus* |
+| Cockatiel (Nymphicus Hollandicus) | *Nymphicus Hollandicus) (Nymphicus hollandicus* |
 | Coconut Lorikeet | *Trichoglossus haematodus* |
 | Crimson Rosella | *Platycercus elegans* |
 | Crimson-bellied Parakeet | *Pyrrhura rhodogaster* |
@@ -8720,15 +9338,18 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Dusky-billed Parrotlet | *Forpus modestus* |
 | Eastern Rosella | *Platycercus eximius* |
 | Eclectus Parrot | *Eclectus roratus* |
+| Eclectus Parrot (Eclectus Roratus) | *Eclectus Roratus) (Eclectus roratus* |
 | Edward's Fig-parrot | *Psittaculirostris edwardsii* |
 | Emma's Parakeet | *Pyrrhura emma* |
 | Fairy Lorikeet | *Charmosyna pulchella* |
 | Festive Parrot | *Amazona festiva* |
 | Fiery-shouldered Parakeet | *Pyrrhura egregia* |
 | Fischer's Lovebird | *Agapornis fischeri* |
+| Fischer's Lovebird (Agapornis Fischeri) | *Agapornis Fischeri) (Agapornis fischeri* |
 | Flores Lorikeet | *Trichoglossus weberi* |
 | Forbes' Parakeet | *Cyanoramphus forbesi* |
 | Galah | *Eolophus roseicapilla* |
+| Galah (Eolophus Roseicapilla) | *Eolophus Roseicapilla) (Eolophus roseicapilla* |
 | Garlepp's Parakeet | *Pyrrhura parvifrons* |
 | Golden-capped Parakeet | *Aratinga auricapillus* |
 | Golden-mantled Racquet-tail | *Prioniturus platurus* |
@@ -8741,6 +9362,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Green Parakeet | *Psittacara holochlorus* |
 | Green-cheeked Parakeet | *Pyrrhura molinae* |
 | Green-rumped Parrotlet | *Forpus passerinus* |
+| Grey Parrot | *Psittacus erithacus* |
 | Grey-cheeked Parakeet | *Brotogeris pyrrhoptera* |
 | Grey-headed Parakeet | *Psittacula finschii* |
 | Grey-hooded Parakeet | *Psilopsiagon aymara* |
@@ -8749,6 +9371,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Hooded Parrot | *Psephotellus dissimilis* |
 | Horned Parakeet | *Eunymphicus cornutus* |
 | Hyacinth Macaw | *Anodorhynchus hyacinthinus* |
+| Hyacinth Macaw (Anodorhynchus Hyacinthinus) | *Anodorhynchus Hyacinthinus) (Anodorhynchus hyacinthinus* |
 | Imperial Parrot | *Amazona imperialis* |
 | Indigo Macaw | *Anodorhynchus leari* |
 | Iris Lorikeet | *Saudareos iris* |
@@ -8756,8 +9379,10 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Josephine's Lorikeet | *Charmosyna josefinae* |
 | Kaka | *Nestor meridionalis* |
 | Kakapo | *Strigops habroptila* |
+| Kakapo (Strigops Habroptila) | *Strigops Habroptila) (Strigops habroptila* |
 | Kawall's Parrot | *Amazona kawalli* |
 | Kea | *Nestor notabilis* |
+| Kea (Nestor Notabilis) | *Nestor Notabilis) (Nestor notabilis* |
 | Kuhl's Lorikeet | *Vini kuhlii* |
 | Large Fig-parrot | *Psittaculirostris desmarestii* |
 | Layard's Parakeet | *Psittacula calthrapae* |
@@ -8787,6 +9412,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Moluccan Hanging Parrot | *Loriculus amabilis* |
 | Moluccan King-parrot | *Alisterus amboinensis* |
 | Monk Parakeet | *Myiopsitta monachus* |
+| Monk Parakeet (Myiopsitta Monachus) | *Myiopsitta Monachus) (Myiopsitta monachus* |
 | Mountain Parakeet | *Psilopsiagon aurifrons* |
 | Mulga Parrot | *Psephotellus varius* |
 | Nanday Parakeet | *Aratinga nenday* |
@@ -8804,6 +9430,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Pacific Parakeet | *Psittacara strenuus* |
 | Pacific Parrotlet | *Forpus coelestis* |
 | Palm Cockatoo | *Probosciger aterrimus* |
+| Palm Cockatoo (Probosciger Aterrimus) | *Probosciger Aterrimus) (Probosciger aterrimus* |
 | Papuan King-parrot | *Alisterus chloropterus* |
 | Paradise Parrot | *Psephotellus pulcherrimus* |
 | Peach-faced Lovebird | *Agapornis roseicollis* |
@@ -8818,10 +9445,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Purple-bellied Lory | *Lorius hypoinochrous* |
 | Purple-naped Lory | *Lorius domicella* |
 | Rainbow Lorikeet | *Trichoglossus moluccanus* |
+| Rainbow Lorikeet (Trichoglossus Moluccanus) | *Trichoglossus Moluccanus) (Trichoglossus moluccanus* |
 | Red Lory | *Eos bornea* |
 | Red Shining-parrot | *Prosopeia tabuensis* |
 | Red-and-blue Lory | *Eos histrio* |
 | Red-and-green Macaw | *Ara chloropterus* |
+| Red-and-green Macaw (Ara Chloropterus) | *Ara Chloropterus) (Ara chloropterus* |
 | Red-bellied Macaw | *Orthopsittaca manilatus* |
 | Red-billed Hanging-parrot | *Loriculus exilis* |
 | Red-breasted Parakeet | *Psittacula alexandri* |
@@ -8847,6 +9476,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Reunion Parakeet | *Psittacula eques* |
 | Rose-faced Parrot | *Pyrilia pulchra* |
 | Rose-ringed Parakeet | *Psittacula krameri* |
+| Rose-ringed Parakeet (Psittacula Krameri) | *Psittacula Krameri) (Psittacula krameri* |
 | Rueppell's Parrot | *Poicephalus rueppellii* |
 | Saffron-headed Parrot | *Pyrilia pyrilia* |
 | Salmon-crested Cockatoo | *Cacatua moluccensis* |
@@ -8854,6 +9484,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Santarem Parakeet | *Pyrrhura amazonum* |
 | Scaly-naped Parrot | *Amazona mercenarius* |
 | Scarlet Macaw | *Ara macao* |
+| Scarlet Macaw (Ara Macao) | *Ara Macao) (Ara macao* |
 | Scarlet-breasted Lorikeet | *Trichoglossus forsteni* |
 | Scarlet-fronted Parakeet | *Psittacara wagleri* |
 | Scarlet-shouldered Parrotlet | *Touit huetii* |
@@ -8870,10 +9501,14 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Stephen's Lorikeet | *Vini stepheni* |
 | Striated Lorikeet | *Charmosyna multistriata* |
 | Sula Hanging-parrot | *Loriculus sclateri* |
+| Sulfur-crested Cockatoo | *Cacatua galerita* |
 | Sulphur-breasted Parakeet | *Aratinga maculata* |
 | Sulphur-crested Cockatoo | *Cacatua galerita* |
+| Sulphur-crested Cockatoo (Cacatua Galerita) | *Cacatua Galerita) (Cacatua galerita* |
 | Sulphur-winged Parakeet | *Pyrrhura hoffmanni* |
 | Sun Conure | *Aratinga solstitialis* |
+| Sun Conure (Aratinga Solstitialis) | *Aratinga Solstitialis) (Aratinga solstitialis* |
+| Sun Parakeet | *Aratinga solstitialis* |
 | Superb Parrot | *Polytelis swainsonii* |
 | Swift Parrot | *Lathamus discolor* |
 | Tanimbar Cockatoo | *Cacatua goffiniana* |
@@ -8924,39 +9559,56 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Pin-tailed Sandgrouse | *Pterocles alchata* |
 | Yellow-throated Sandgrouse | *Pterocles gutturalis* |
 
-### • Rheiformes (2)
+### • Rheiformes (3)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Darwin's Rhea | *Pterocnemia darwinii* |
 | Greater Rhea | *Rhea americana* |
+| Greater Rhea (Rhea Americana) | *Rhea Americana) (Rhea americana* |
 
-### • Sphenisciformes (20)
+### • Sphenisciformes (36)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
+| Adelie Penguin | *Pygoscelis adeliae* |
 | Adélie Penguin | *Pygoscelis adeliae* |
+| Adélie Penguin (Pygoscelis Adeliae) | *Pygoscelis Adeliae) (Pygoscelis adeliae* |
 | African Penguin | *Spheniscus demersus* |
+| African Penguin (Spheniscus Demersus) | *Spheniscus Demersus) (Spheniscus demersus* |
 | Chinstrap Penguin | *Pygoscelis antarcticus* |
+| Chinstrap Penguin (Pygoscelis Antarcticus) | *Pygoscelis Antarcticus) (Pygoscelis antarcticus* |
 | Emperor Penguin | *Aptenodytes forsteri* |
+| Emperor Penguin (Aptenodytes Forsteri) | *Aptenodytes Forsteri) (Aptenodytes forsteri* |
 | Erect-crested Penguin | *Eudyptes sclateri* |
 | Fiordland Penguin | *Eudyptes pachyrhynchus* |
 | Galapagos Penguin | *Spheniscus mendiculus* |
+| Galapagos Penguin (Spheniscus Mendiculus) | *Spheniscus Mendiculus) (Spheniscus mendiculus* |
 | Gentoo Penguin | *Pygoscelis papua* |
+| Gentoo Penguin (Pygoscelis Papua) | *Pygoscelis Papua) (Pygoscelis papua* |
 | Humboldt's Penguin | *Spheniscus humboldti* |
+| Jackass Penguin | *Spheniscus demersus* |
 | King Penguin | *Aptenodytes patagonicus* |
+| King Penguin (Aptenodytes Patagonicus) | *Aptenodytes Patagonicus) (Aptenodytes patagonicus* |
+| Little Blue Penguin | *Eudyptula minor* |
 | Little Penguin | *Eudyptula minor* |
+| Little Penguin (Eudyptula Minor) | *Eudyptula Minor) (Eudyptula minor* |
 | Macaroni Penguin | *Eudyptes chrysolophus* |
+| Macaroni Penguin (Eudyptes Chrysolophus) | *Eudyptes Chrysolophus) (Eudyptes chrysolophus* |
 | Magellanic Penguin | *Spheniscus magellanicus* |
+| Magellanic Penguin (Spheniscus Magellanicus) | *Spheniscus Magellanicus) (Spheniscus magellanicus* |
 | Northern Rockhopper Penguin | *Eudyptes moseleyi* |
+| Rockhopper Penguin | *Eudyptes chrysocome* |
 | Royal Penguin | *Eudyptes schlegeli* |
 | Snares Penguin | *Eudyptes robustus* |
 | Southern Rockhopper Penguin | *Eudyptes chrysocome* |
+| Southern Rockhopper Penguin | *Eudyptes filholi* |
+| Southern Rockhopper Penguin (Eudyptes Chrysocome) | *Eudyptes Chrysocome) (Eudyptes chrysocome* |
 | Waitaha Penguin | *Megadyptes waitaha* |
 | White-flippered Penguin | *Eudyptula albosignata* |
 | Yellow-eyed Penguin | *Megadyptes antipodes* |
 
-### • Strigiformes (111)
+### • Strigiformes (125)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -8970,13 +9622,16 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Australian Masked-owl | *Tyto novaehollandiae* |
 | Barking Owl | *Ninox connivens* |
 | Barn Owl | *Tyto alba* |
+| Barn Owl (Tyto Alba) | *Tyto Alba) (Tyto alba* |
 | Barred Owl | *Strix varia* |
+| Barred Owl (Strix Varia) | *Strix Varia) (Strix varia* |
 | Bismarck Hawk-owl | *Ninox variegata* |
 | Bismarck Masked-owl | *Tyto aurantia* |
 | Blakiston's Fish-owl | *Bubo blakistoni* |
 | Boreal Owl | *Aegolius funereus* |
 | Buff-fronted Owl | *Aegolius harrisii* |
 | Burrowing Owl | *Athene cunicularia* |
+| Burrowing Owl (Athene Cunicularia) | *Athene Cunicularia) (Athene cunicularia* |
 | Chaco Owl | *Strix chacoensis* |
 | Choco Screech-owl | *Megascops centralis* |
 | Christmas Island Hawk-owl | *Ninox natalis* |
@@ -8985,20 +9640,27 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Collared Owlet | *Taenioptynx brodiei* |
 | Collared Scops Owl | *Otus lettia* |
 | Colombian Screech-owl | *Megascops colombianus* |
+| Common Barn Owl | *Tyto alba* |
 | Crested Owl | *Lophostrix cristata* |
 | Desert Tawny Owl | *Strix hadorami* |
 | Eastern Barn Owl | *Tyto javanica* |
 | Eastern Grass-owl | *Tyto longimembris* |
 | Eastern Screech Owl | *Megascops asio* |
+| Eastern Screech Owl (Megascops Asio) | *Megascops Asio) (Megascops asio* |
+| Eastern Screech-owl | *Megascops asio* |
 | Elegant Scops-owl | *Otus elegans* |
 | Elf Owl | *Micrathene whitneyi* |
+| Elf Owl (Micrathene Whitneyi) | *Micrathene Whitneyi) (Micrathene whitneyi* |
 | Eurasian Eagle-owl | *Bubo bubo* |
+| Eurasian Eagle-owl (Bubo Bubo) | *Bubo Bubo) (Bubo bubo* |
 | Eurasian Pygmy-owl | *Glaucidium passerinum* |
 | Ferruginous Pygmy-owl | *Glaucidium brasilianum* |
 | Flammulated Owl | *Psiloscops flammeolus* |
 | Forest Owl | *Athene blewitti* |
 | Great Grey Owl | *Strix nebulosa* |
+| Great Grey Owl (Strix Nebulosa) | *Strix Nebulosa) (Strix nebulosa* |
 | Great Horned Owl | *Bubo virginianus* |
+| Great Horned Owl (Bubo Virginianus) | *Bubo Virginianus) (Bubo virginianus* |
 | Greater Sooty-owl | *Tyto tenebricosa* |
 | Guatemala Barred Owl | *Strix fulvescens* |
 | Halmahera Hawk-owl | *Ninox hypogramma* |
@@ -9012,6 +9674,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Lesser Masked-owl | *Tyto sororcula* |
 | Lesser Sooty-owl | *Tyto multipunctata* |
 | Little Owl | *Athene noctua* |
+| Little Owl (Athene Noctua) | *Athene Noctua) (Athene noctua* |
 | Little Sumba Hawk-owl | *Ninox sumbaensis* |
 | Long-eared Owl | *Asio otus* |
 | Luzon Hawk-owl | *Ninox philippensis* |
@@ -9027,6 +9690,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Mountain Pygmy-owl | *Glaucidium gnoma* |
 | Mountain Scops Owl | *Otus spilocephalus* |
 | Nduk Eagle-owl | *Bubo vosseleri* |
+| Northern Barred Owl | *Strix varia* |
 | Northern Boobook | *Ninox japonica* |
 | Northern Hawk-owl | *Surnia ulula* |
 | Northern Saw-whet Owl | *Aegolius acadicus* |
@@ -9051,6 +9715,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Short-eared Owl | *Asio flammeus* |
 | Sichuan Wood-owl | *Strix davidi* |
 | Snowy Owl | *Bubo scandiacus* |
+| Snowy Owl (Bubo Scandiacus) | *Bubo Scandiacus) (Bubo scandiacus* |
 | Solomon Hawk-owl | *Ninox jacquinoti* |
 | Southern Boobook | *Ninox boobook* |
 | Spectacled Owl | *Pulsatrix perspicillata* |
@@ -9063,6 +9728,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Taliabu Masked-owl | *Tyto nigrobrunnea* |
 | Tasmanian Masked-owl | *Tyto castanops* |
 | Tawny Owl | *Strix aluco* |
+| Tawny Owl (Strix Aluco) | *Strix Aluco) (Strix aluco* |
 | Tawny-bellied Screech-owl | *Megascops watsonii* |
 | Tropical Screech Owl | *Megascops choliba* |
 | Ural Owl | *Strix uralensis* |
@@ -9072,13 +9738,15 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | White-throated Screech Owl | *Megascops albogularis* |
 | Xingu Screech-owl | *Megascops stangiae* |
 
-### • Struthioniformes (1)
+### • Struthioniformes (3)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
+| African Ostrich | *Struthio camelus* |
+| Common Ostrich (Struthio Camelus) | *Struthio Camelus) (Struthio camelus* |
 | Ostrich | *Struthio camelus* |
 
-### • Suliformes (52)
+### • Suliformes (55)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -9091,6 +9759,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Bank Cormorant | *Phalacrocorax neglectus* |
 | Black-faced Cormorant | *Phalacrocorax fuscescens* |
 | Blue-footed Booby | *Sula nebouxii* |
+| Blue-footed Booby (Sula Nebouxii) | *Sula Nebouxii) (Sula nebouxii* |
 | Bounty Island Shag | *Leucocarbo ranfurlyi* |
 | Brandt's Cormorant | *Phalacrocorax penicillatus* |
 | Campbell Island Shag | *Leucocarbo campbelli* |
@@ -9103,6 +9772,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Foveaux Shag | *Leucocarbo stewarti* |
 | Galapagos Flightless Cormorant | *Phalacrocorax harrisi* |
 | Great Cormorant | *Phalacrocorax carbo* |
+| Great Cormorant (Phalacrocorax Carbo) | *Phalacrocorax Carbo) (Phalacrocorax carbo* |
 | Guanay Shag | *Leucocarbo bougainvillii* |
 | Heard Island Shag | *Leucocarbo nivalis* |
 | Imperial Shag | *Leucocarbo atriceps* |
@@ -9117,6 +9787,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Macquarie Island Shag | *Leucocarbo purpurascens* |
 | Magellan Cormorant | *Phalacrocorax magellanicus* |
 | Magnificent Frigatebird | *Fregata magnificens* |
+| Magnificent Frigatebird (Fregata Magnificens) | *Fregata Magnificens) (Fregata magnificens* |
 | Masked Booby | *Sula dactylatra* |
 | Nazca Booby | *Sula granti* |
 | Neotropic Cormorant | *Phalacrocorax brasilianus* |
@@ -9168,51 +9839,65 @@ Complete organized breakdown of all currently loaded species in the game catalog
 
 ---
 
-## 🦎 Reptiles (2565 Species)
+## 🦎 Reptiles (2689 Species)
 
-### • Crocodylia (25)
+### • Crocodylia (37)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | African Slender-snouted Crocodile | *Mecistops cataphractus* |
 | American Alligator | *Alligator mississippiensis* |
+| American Alligator (Alligator Mississippiensis) | *Alligator Mississippiensis) (Alligator mississippiensis* |
 | American Crocodile | *Crocodylus acutus* |
+| American Crocodile (Crocodylus Acutus) | *Crocodylus Acutus) (Crocodylus acutus* |
+| Australian Saltwater Crocodile | *Crocodylus porosus* |
 | Black Caiman | *Melanosuchus niger* |
+| Black Caiman (Melanosuchus Niger) | *Melanosuchus Niger) (Melanosuchus niger* |
 | Broad-snouted Caiman | *Caiman latirostris* |
 | Chinese Alligator | *Alligator sinensis* |
+| Chinese Alligator (Alligator Sinensis) | *Alligator Sinensis) (Alligator sinensis* |
 | Cuban Crocodile | *Crocodylus rhombifer* |
 | Cuvier's Dwarf Caiman | *Paleosuchus palpebrosus* |
+| Cuvier's Dwarf Caiman (Paleosuchus Palpebrosus) | *Paleosuchus Palpebrosus) (Paleosuchus palpebrosus* |
 | Dwarf Crocodile | *Osteolaemus tetraspis* |
 | False Gharial | *Tomistoma schlegelii* |
 | Gharial | *Gavialis gangeticus* |
+| Gharial (Gavialis Gangeticus) | *Gavialis Gangeticus) (Gavialis gangeticus* |
 | Johnstone River Crocodile | *Crocodylus johnstoni* |
+| Marsh Crocodile | *Crocodylus palustris* |
 | Morelet's Crocodile | *Crocodylus moreletii* |
 | Mugger Crocodile | *Crocodylus palustris* |
+| Mugger Crocodile (Crocodylus Palustris) | *Crocodylus Palustris) (Crocodylus palustris* |
 | New Guinea Crocodile | *Crocodylus novaeguineae* |
 | Nile Crocodile | *Crocodylus niloticus* |
+| Nile Crocodile (Crocodylus Niloticus) | *Crocodylus Niloticus) (Crocodylus niloticus* |
 | Orinoco Crocodile | *Crocodylus intermedius* |
 | Philippine Crocodile | *Crocodylus mindorensis* |
 | Pleistocene Horned Crocodile | *Voay robustus* |
 | Saltwater Crocodile | *Crocodylus porosus* |
+| Saltwater Crocodile (Crocodylus Porosus) | *Crocodylus Porosus) (Crocodylus porosus* |
 | Schneider's Dwarf Caiman | *Paleosuchus trigonatus* |
 | Siamese Crocodile | *Crocodylus siamensis* |
 | Spectacled Caiman | *Caiman crocodilus* |
+| Spectacled Caiman (Caiman Crocodilus) | *Caiman Crocodilus) (Caiman crocodilus* |
 | West African Crocodile | *Crocodylus suchus* |
 | Yacare Caiman | *Caiman yacare* |
 
-### • Sphenodontia (2)
+### • Sphenodontia (3)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Brothers Island Tuatara | *Sphenodon guntheri* |
 | Tuatara | *Sphenodon punctatus* |
+| Tuatara (Sphenodon Punctatus) | *Sphenodon Punctatus) (Sphenodon punctatus* |
 
-### • Squamata (2333)
+### • Squamata (2415)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Abaco Island Boa | *Chilabothrus exsul* |
 | Abbott's Anglehead Lizard | *Gonocephalus abbotti* |
+| Adder | *Vipera berus* |
 | Aden Kukri Snake | *Rhynchocalamus arabicus* |
 | Adis Day Gecko | *Cnemaspis adii* |
 | Adler's Gecko | *Gekko adleri* |
@@ -9289,7 +9974,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Arafura Sea Snake | *Aipysurus tenuis* |
 | Aralo-caspian Racerunner | *Eremias intermedia* |
 | Argentine Anole | *Pristidactylus achalensis* |
-| Argentine Black and White Tegu | *Salvator merianae* |
+| Argentine Black And White Tegu | *Salvator merianae* |
+| Argentine Black and White Tegu (Salvator Merianae) | *Salvator Merianae) (Salvator merianae* |
 | Argentine Marked Gecko | *Homonota whitii* |
 | Arizona Black Rattlesnake | *Crotalus cerberus* |
 | Arizona Coral Snake | *Micruroides euryxanthus* |
@@ -9301,6 +9987,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Asian Grass Lizard | *Takydromus sexlineatus* |
 | Asian Slug Snake | *Asthenodipsas vertebralis* |
 | Asian Water Monitor | *Varanus salvator* |
+| Asian Water Monitor (Varanus Salvator) | *Varanus Salvator) (Varanus salvator* |
 | Asiatic Annulate Keelback | *Trimerodytes aequifasciatus* |
 | Aspic Viper | *Vipera aspis* |
 | Assam Keelback | *Herpetoreas pealii* |
@@ -9331,6 +10018,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Baker's Cat-eyed Snake | *Leptodeira bakeri* |
 | Baleh Water Skink | *Tropidophorus sebi* |
 | Ball Python | *Python regius* |
+| Ball Python (Python Regius) | *Python Regius) (Python regius* |
 | Baluch Ground Agama | *Trapelus ruderatus* |
 | Bambouto's Skink | *Trachylepis mekuana* |
 | Banded Anole | *Anolis fasciatus* |
@@ -9341,6 +10029,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Banded Iguana | *Brachylophus fasciatus* |
 | Banded Japalure | *Diploderma fasciatum* |
 | Banded Krait | *Bungarus fasciatus* |
+| Banded Krait (Bungarus Fasciatus) | *Bungarus Fasciatus) (Bungarus fasciatus* |
 | Banded Leaf-toed Gecko | *Hemidactylus fasciatus* |
 | Banded Malaysian Coral Snake | *Calliophis intestinalis* |
 | Banded Pit Viper | *Trimeresurus fasciatus* |
@@ -9352,6 +10041,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Banks' Wolf Snake | *Lycodon banksi* |
 | Bar-sided Forest-skink | *Concinnia tenuis* |
 | Bara Ground Skink | *Scincella baraensis* |
+| Barba Amarilla | *Bothrops atrox* |
 | Barbour's Montane Pit Viper | *Mixcoatlus barbouri* |
 | Barbour's Worm Lizard | *Amphisbaena anomala* |
 | Bark Anole | *Anolis distichus* |
@@ -9374,6 +10064,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Bayon's Skink | *Trachylepis bayonii* |
 | Beach Scaly-toed Gecko | *Lepidodactylus pantai* |
 | Beaded Gecko | *Lucasium damaeum* |
+| Beaded Lizard | *Heloderma sp.* |
 | Beaked Blind Snake | *Anilios waitii* |
 | Beaked Sea Snake | *Hydrophis schistosus* |
 | Beaked Worm Snake | *Grypotyphlops acutus* |
@@ -9429,6 +10120,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Black Iguana | *Ctenosaura similis* |
 | Black Kingsnake | *Lampropeltis nigra* |
 | Black Mamba | *Dendroaspis polylepis* |
+| Black Mamba (Dendroaspis Polylepis) | *Dendroaspis Polylepis) (Dendroaspis polylepis* |
 | Black Mountain Rainbow-skink | *Liburnascincus scirtetis* |
 | Black Odd-scaled Snake | *Achalinus niger* |
 | Black Snake-eyed Skink | *Cryptoblepharus ater* |
@@ -9486,7 +10178,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Blue-tailed Skink | *Emoia cyanura* |
 | Blunthead Tree Snake | *Imantodes cenchoa* |
 | Blyth's Reticulate Snake | *Blythia reticulata* |
+| Boa | *Boa constrictor* |
 | Boa Constrictor | *Boa constrictor* |
+| Boa Constrictor (Boa Constrictor) | *Boa Constrictor) (Boa constrictor* |
 | Bobrovs Bent-toed Gecko | *Cyrtodactylus bobrovi* |
 | Bocage's Sand Lizard | *Pedioplanis benguelensis* |
 | Bocourt's Spiny Lizard | *Sceloporus acanthinus* |
@@ -9507,6 +10201,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Bonkowski's Gecko | *Gekko bonkowskii* |
 | Bonkowski's Slender Gecko | *Hemiphyllodactylus bonkowskii* |
 | Boomslang | *Dispholidus typus* |
+| Boomslang (Dispholidus Typus) | *Dispholidus Typus) (Dispholidus typus* |
 | Borelli's Marked Gecko | *Homonota borellii* |
 | Borneo Earless Monitor | *Lanthanotus borneensis* |
 | Borneo Forest Dragon | *Gonocephalus bornensis* |
@@ -9587,6 +10282,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Burmese Glass Lizard | *Dopasia gracilis* |
 | Burmese Green Crested Lizard | *Bronchocela burmana* |
 | Burmese Krait | *Bungarus magnimaculatus* |
+| Burmese Python | *Python bivittatus* |
+| Burmese Python (Python Bivittatus) | *Python Bivittatus) (Python bivittatus* |
 | Burmese White-barred Keelback | *Xenochrophis bellulus* |
 | Bushmaster | *Lachesis muta* |
 | Butler's Wolf Snake | *Lycodon butleri* |
@@ -9651,6 +10348,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Central Asian Pitviper | *Gloydius intermedius* |
 | Central Australian Earless Dragon | *Tympanocryptis centralis* |
 | Central Bearded Dragon | *Pogona vitticeps* |
+| Central Bearded Dragon (Pogona Vitticeps) | *Pogona Vitticeps) (Pogona vitticeps* |
 | Central Indian Leaf-toed Gecko | *Hemidactylus chipkali* |
 | Central Plains Milksnake | *Lampropeltis gentilis* |
 | Central Pygmy Spiny-tailed Skink | *Egernia eos* |
@@ -9716,6 +10414,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Coastal Leaf-toed Gecko | *Phyllodactylus kofordi* |
 | Coastal Legless Skink | *Acontias litoralis* |
 | Coastal Taipan | *Oxyuranus scutellatus* |
+| Coastal Taipan (Oxyuranus Scutellatus) | *Oxyuranus Scutellatus) (Oxyuranus scutellatus* |
 | Coastal Viper | *Montivipera xanthina* |
 | Cobra | *Ophiophagus hannah* |
 | Cochran's Caribbean Gecko | *Aristelliger cochranae* |
@@ -9735,21 +10434,26 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Comb-toed Gecko | *Crossobamon eversmanni* |
 | Common Ameiva | *Pholidoscelis chrysolaemus* |
 | Common Basilisk | *Basiliscus basiliscus* |
+| Common Basilisk (Basiliscus Basiliscus) | *Basiliscus Basiliscus) (Basiliscus basiliscus* |
 | Common Brown Water Snake | *Lycodonomorphus rufulus* |
 | Common Chameleon | *Chamaeleo chamaeleon* |
 | Common Checkered Whiptail | *Aspidoscelis tesselatus* |
 | Common Dotted Garden Skink | *Riopa punctata* |
 | Common Eurasian Lizard | *Phoenicolacerta kulzeri* |
 | Common European Adder | *Vipera berus* |
+| Common European Adder (Vipera Berus) | *Vipera Berus) (Vipera berus* |
 | Common Flat-tail Gecko | *Uroplatus fimbriatus* |
 | Common Flying Dragon | *Draco volans* |
 | Common Garter Snake | *Thamnophis sirtalis* |
+| Common Garter Snake (Thamnophis Sirtalis) | *Thamnophis Sirtalis) (Thamnophis sirtalis* |
 | Common Gliding Lizard | *Draco sumatranus* |
+| Common Green Iguana | *Iguana iguana* |
 | Common Green Racer | *Chlorosoma viridissimum* |
 | Common Green Tree Skink | *Prasinohaema flavipes* |
 | Common House Gecko | *Hemidactylus frenatus* |
 | Common Keelback | *Tropidonophis mairii* |
 | Common Lancehead | *Bothrops atrox* |
+| Common Lancehead (Bothrops Atrox) | *Bothrops Atrox) (Bothrops atrox* |
 | Common Lizard | *Zootoca vivipara* |
 | Common Monkey Lizard | *Polychrus marmoratus* |
 | Common Neckband Snake | *Scaphiodontophis venustissimus* |
@@ -9774,19 +10478,23 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Cope's Veracruz Anole | *Anolis cymbops* |
 | Copper Skink | *Oligosoma aeneum* |
 | Copperhead | *Agkistrodon contortrix* |
+| Copperhead (Agkistrodon Contortrix) | *Agkistrodon Contortrix) (Agkistrodon contortrix* |
 | Coral Earth Snake | *Geophis semidoliatus* |
 | Coral Red Kukri Snake | *Oligodon kheriensis* |
 | Corfu Wall Lizard | *Podarcis ionicus* |
 | Corn Snake | *Pantherophis guttatus* |
+| Corn Snake (Pantherophis Guttatus) | *Pantherophis Guttatus) (Pantherophis guttatus* |
 | Costa Rica Montane Pitviper | *Cerrophidion sasai* |
 | Costa Rican Four-lined Skink | *Marisora alliacea* |
 | Cotiara | *Bothrops cotiara* |
 | Cottonmouth | *Agkistrodon piscivorus* |
+| Cottonmouth (Agkistrodon Piscivorus) | *Agkistrodon Piscivorus) (Agkistrodon piscivorus* |
 | Cozumel Racerunner | *Aspidoscelis cozumela* |
 | Crawford-cabral's Bushveld Lizard | *Heliobolus crawfordi* |
 | Crayfish Snake | *Liodytes rigida* |
 | Cregoe's Legless Skink | *Acontias cregoi* |
 | Crested Gecko | *Correlophus ciliatus* |
+| Crested Gecko (Correlophus Ciliatus) | *Correlophus Ciliatus) (Correlophus ciliatus* |
 | Crested Iguana | *Brachylophus vitiensis* |
 | Crevice Rainbow-skink | *Lygisaurus rimula* |
 | Crimean Wall Lizard | *Podarcis tauricus* |
@@ -9891,16 +10599,22 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | East-african Snake-eyed Skink | *Cryptoblepharus africanus* |
 | Eastern Bandy-bandy | *Vermicella annulata* |
 | Eastern Blue-tongued Lizard | *Tiliqua scincoides* |
+| Eastern Blue-tongued Lizard (Tiliqua Scincoides) | *Tiliqua Scincoides) (Tiliqua scincoides* |
 | Eastern Brown Snake | *Pseudonaja textilis* |
+| Eastern Brown Snake (Pseudonaja Textilis) | *Pseudonaja Textilis) (Pseudonaja textilis* |
 | Eastern China Slug-eating Snake | *Pareas orientalis* |
 | Eastern Congo White-bellied Water-snake | *Boaedon upembae* |
 | Eastern Coral Snake | *Micrurus fulvius* |
 | Eastern Diamondback Rattlesnake | *Crotalus adamanteus* |
+| Eastern Diamondback Rattlesnake (Crotalus Adamanteus) | *Crotalus Adamanteus) (Crotalus adamanteus* |
 | Eastern Fox Snake | *Pantherophis vulpinus* |
 | Eastern Green Mamba | *Dendroaspis angusticeps* |
+| Eastern Green Mamba (Dendroaspis Angusticeps) | *Dendroaspis Angusticeps) (Dendroaspis angusticeps* |
 | Eastern Hognose Snake | *Heterodon platirhinos* |
+| Eastern Hognose Snake (Heterodon Platirhinos) | *Heterodon Platirhinos) (Heterodon platirhinos* |
 | Eastern Indigo Snake | *Drymarchon couperi* |
 | Eastern Kingsnake | *Lampropeltis getula* |
+| Eastern Kingsnake (Lampropeltis Getula) | *Lampropeltis Getula) (Lampropeltis getula* |
 | Eastern Mallee Dragon | *Ctenophorus spinodomus* |
 | Eastern Montpellier Snake | *Malpolon insignitus* |
 | Eastern Pilbara Spiny-tailed Skink | *Egernia epsisolus* |
@@ -9932,6 +10646,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Elliot's Earth Snake | *Uropeltis ellioti* |
 | Elongate Leaf Chameleon | *Palleon nasus* |
 | Emerald Tree Boa | *Corallus caninus* |
+| Emerald Tree Boa (Corallus Caninus) | *Corallus Caninus) (Corallus caninus* |
 | Emily's Burrowing Snake | *Achalinus emilyae* |
 | Erawan Rock Gecko | *Cnemaspis auriventralis* |
 | Erica's Worm Snake | *Antillotyphlops naugus* |
@@ -9941,8 +10656,10 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Eurasian Blind Snake | *Xerotyphlops vermicularis* |
 | European Grass Snake | *Natrix natrix* |
 | European Green Lizard | *Lacerta viridis* |
+| European Green Lizard (Lacerta Viridis) | *Lacerta Viridis) (Lacerta viridis* |
 | Exmouth Spiny-tailed Gecko | *Strophurus rankini* |
 | Eyelash Viper | *Bothriechis schlegelii* |
+| Eyelash Viper (Bothriechis Schlegelii) | *Bothriechis Schlegelii) (Bothriechis schlegelii* |
 | Eyespot Gecko | *Gonatodes ocellatus* |
 | Fahimi's Ground Snake | *Persiophis fahimii* |
 | Fahimi's Racerunner | *Eremias fahimii* |
@@ -9995,13 +10712,17 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Four-lined Ameiva | *Holcosus quadrilineatus* |
 | Four-lined Ratsnake | *Elaphe quatuorlineata* |
 | Four-striped Emo Skink | *Emoia tetrataenia* |
+| Frilled Dragon | *Chlamydosaurus kingii* |
 | Frilled Lizard | *Chlamydosaurus kingii* |
+| Frilled Lizard (Chlamydosaurus Kingii) | *Chlamydosaurus Kingii) (Chlamydosaurus kingii* |
 | Fringe-toed Velvet Gecko | *Oedura filicipoda* |
 | Frog-eating Rat Snake | *Oocatochus rufodorsatus* |
 | Frontier Bow-fingered Gecko | *Altiphylax stoliczkai* |
 | Gaboon Viper | *Bitis gabonica* |
+| Gaboon Viper (Bitis Gabonica) | *Bitis Gabonica) (Bitis gabonica* |
 | Gadow's Anole | *Anolis gadovii* |
 | Galapagos Land Iguana | *Conolophus subcristatus* |
+| Galapagos Land Iguana (Conolophus Subcristatus) | *Conolophus Subcristatus) (Conolophus subcristatus* |
 | Galapagos Leaf-toed Gecko | *Phyllodactylus galapagensis* |
 | Gallagher's Gecko | *Asaccus gallagheri* |
 | Gallagher's Rock Gecko | *Pristurus gallagheri* |
@@ -10018,6 +10739,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Giant Gecko | *Gekko gigante* |
 | Giant Plated Lizard | *Matobosaurus validus* |
 | Gila Monster | *Heloderma suspectum* |
+| Gila Monster (Heloderma Suspectum) | *Heloderma Suspectum) (Heloderma suspectum* |
 | Gilbert's Lashtail | *Lophognathus gilberti* |
 | Gilbert's Leaf-toed Gecko | *Phyllodactylus gilberti* |
 | Giris Day Gecko | *Cnemaspis girii* |
@@ -10075,13 +10797,17 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Greeffs Giant Gecko | *Hemidactylus greeffii* |
 | Greek Slow Worm | *Anguis graeca* |
 | Green Anaconda | *Eunectes murinus* |
+| Green Anaconda (Eunectes Murinus) | *Eunectes Murinus) (Eunectes murinus* |
 | Green Anole | *Anolis carolinensis* |
+| Green Anole (Anolis Carolinensis) | *Anolis Carolinensis) (Anolis carolinensis* |
 | Green Bamboo Leaf Pit Viper | *Trimeresurus medoensis* |
 | Green Cat Snake | *Boiga cyanea* |
 | Green Crested Lizard | *Bronchocela cristatella* |
 | Green Iguana | *Iguana iguana* |
+| Green Iguana (Iguana Iguana) | *Iguana Iguana) (Iguana iguana* |
 | Green Jararaca | *Bothrops bilineatus* |
 | Green Keelback | *Rhabdophis nigrocinctus* |
+| Green Lizard | *Lacerta viridis* |
 | Green Tree Gecko | *Naultinus elegans* |
 | Green Tree Python | *Morelia viridis* |
 | Green Tree Snake | *Dendrelaphis punctulatus* |
@@ -10195,12 +10921,15 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Indawgyi Bent-toed Gecko | *Cyrtodactylus mombergi* |
 | Indian Chameleon | *Chamaeleo zeylanicus* |
 | Indian Cobra | *Naja naja* |
+| Indian Cobra (Naja Naja) | *Naja Naja) (Naja naja* |
 | Indian Day Gecko | *Phelsuma pasteuri* |
 | Indian Desert Tiger Snake | *Telescopus rhinopoma* |
 | Indian Fringe-fingered Lizard | *Acanthodactylus cantoris* |
 | Indian Green Tree Viper | *Craspedocephalus gramineus* |
 | Indian Kangaroo Lizard | *Agasthyagama beddomei* |
 | Indian Python | *Python molurus* |
+| Indian Python (Python Molurus) | *Python Molurus) (Python molurus* |
+| Indian Rock Python | *Python molurus* |
 | Indian Smooth Snake | *Wallophis brachyura* |
 | Indian Spiny-tailed Lizard | *Saara hardwickii* |
 | Indian Wolf Snake | *Lycodon aulicus* |
@@ -10215,6 +10944,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Inland Rock Gecko | *Afroedura halli* |
 | Inland Snake-eyed Skink | *Cryptoblepharus australis* |
 | Inland Taipan | *Oxyuranus microlepidotus* |
+| Inland Taipan (Oxyuranus Microlepidotus) | *Oxyuranus Microlepidotus) (Oxyuranus microlepidotus* |
 | Interior Blind Snake | *Anilios endoterus* |
 | Iranian Short-fingered Gecko | *Stenodactylus affinis* |
 | Iraqui Gecko | *Mediodactylus heteropholis* |
@@ -10229,6 +10959,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Italian Wall Lizard | *Podarcis siculus* |
 | Itombwe Forest Chameleon | *Kinyongia itombwensis* |
 | Jackson's Chameleon | *Trioceros jacksonii* |
+| Jackson's Chameleon (Trioceros Jacksonii) | *Trioceros Jacksonii) (Trioceros jacksonii* |
 | Jacquelines Bush Anole | *Polychrus jacquelinae* |
 | Jade Tree Snake | *Gonyosoma iadinum* |
 | Jaeger's Ground Snake | *Erythrolamprus jaegeri* |
@@ -10289,6 +11020,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Kimberley Deep-soil Blind Snake | *Anilios howi* |
 | Kimberley Karst Gecko | *Gehyra girloorloo* |
 | Kimberley Shallow-soil Blind Snake | *Anilios kimberleyensis* |
+| King Cobra | *Ophiophagus hannah* |
+| King Cobra (Ophiophagus Hannah) | *Ophiophagus Hannah) (Ophiophagus hannah* |
 | King Dwarf Gecko | *Lygodactylus rex* |
 | King's Seasnake | *Hydrophis kingii* |
 | King's Worm Lizard | *Amphisbaena kingii* |
@@ -10301,6 +11034,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Kolhapur Day Gecko | *Cnemaspis kolhapurensis* |
 | Kolli Rock Gecko | *Hemidactylus kolliensis* |
 | Komodo Dragon | *Varanus komodoensis* |
+| Komodo Dragon (Varanus Komodoensis) | *Varanus Komodoensis) (Varanus komodoensis* |
 | Koopmans Anole | *Anolis koopmani* |
 | Kopet Dagh Racerunner | *Eremias kopetdaghica* |
 | Kosempo Keelback | *Hebius sauteri* |
@@ -10370,6 +11104,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Leonard's Forest Gecko | *Gekko coi* |
 | Leonard's Keelback | *Rhabdophis leonardi* |
 | Leopard Gecko | *Eublepharis macularius* |
+| Leopard Gecko (Eublepharis Macularius) | *Eublepharis Macularius) (Eublepharis macularius* |
 | Leopard Iguana | *Diplolaemus leopardinus* |
 | Leopard Keelback | *Helicops leopardinus* |
 | Leopard Snake | *Zamenis situla* |
@@ -10391,6 +11126,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Lined Tolucan Ground Snake | *Conopsis lineata* |
 | Lingnan Reed Snake | *Calamaria arcana* |
 | Linnaeus' Lance Skink | *Acontias meleagris* |
+| Liolaemus Thomasi Laurent 1998 | *Liolaemus thomasi* |
 | Little File Snake | *Acrochordus granulatus* |
 | Little Spotted Snake | *Suta punctata* |
 | Little Striped Whiptail | *Aspidoscelis inornatus* |
@@ -10424,6 +11160,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Macrinius' Anole | *Anolis macrinii* |
 | Madagascar Day Gecko | *Phelsuma madagascariensis* |
 | Madagascar Giant Day Gecko | *Phelsuma grandis* |
+| Madagascar Giant Day Gecko (Phelsuma Grandis) | *Phelsuma Grandis) (Phelsuma grandis* |
 | Madagascar Iguana | *Chalarodon madagascariensis* |
 | Madeira Wall Lizard | *Teira dugesii* |
 | Madura Earth Snake | *Uropeltis madurensis* |
@@ -10467,6 +11204,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | March's Palm-pitviper | *Bothriechis marchi* |
 | Mares Leaf-toed Gecko | *Phyllodactylus maresi* |
 | Marine Iguana | *Amblyrhynchus cristatus* |
+| Marine Iguana (Amblyrhynchus Cristatus) | *Amblyrhynchus Cristatus) (Amblyrhynchus cristatus* |
 | Marshall's Stumptail Chameleon | *Rhampholeon marshalli* |
 | Martaban Water Snake | *Homalopsis semizonata* |
 | Martin's Desert Racer | *Mesalina martini* |
@@ -10492,6 +11230,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Meadow Skink | *Lubuya ivensii* |
 | Mediterranean House Gecko | *Hemidactylus turcicus* |
 | Mediterranean Thin-toed Gecko | *Mediodactylus oertzeni* |
+| Mediterranean Thin-toed Gecko | *Mediodactylus orientalis* |
 | Mediterranean Worm Lizard | *Blanus cinereus* |
 | Medog Himalayas Keelback | *Herpetoreas tpser* |
 | Meller's Chameleon | *Trioceros melleri* |
@@ -10500,6 +11239,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Menorca Wall Lizard | *Scelarcis perspicillata* |
 | Merkers Thread Snake | *Leptotyphlops merkeri* |
 | Mexican Beaded Lizard | *Heloderma horridum* |
+| Mexican Beaded Lizard (Heloderma Horridum) | *Heloderma Horridum) (Heloderma horridum* |
 | Mexican Brown Snake | *Storeria storerioides* |
 | Mexican Dusky Rattlesnake | *Crotalus armstrongi* |
 | Mexican Ground Snake | *Sonora mutabilis* |
@@ -10518,6 +11258,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Midget Faded Rattlesnake | *Crotalus concolor* |
 | Military Ground Snake | *Erythrolamprus miliaris* |
 | Milk Snake | *Lampropeltis triangulum* |
+| Milk Snake (Lampropeltis Triangulum) | *Lampropeltis Triangulum) (Lampropeltis triangulum* |
 | Miller's Anole | *Anolis milleri* |
 | Milne Bay Ground Snake | *Stegonotus guentheri* |
 | Milos Wall Lizard | *Podarcis milensis* |
@@ -10630,6 +11371,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Nidua Fringe-fingered Lizard | *Acanthodactylus scutellatus* |
 | Night Snake | *Hypsiglena torquata* |
 | Nile Monitor | *Varanus niloticus* |
+| Nile Monitor (Varanus Niloticus) | *Varanus Niloticus) (Varanus niloticus* |
 | Nilgiri Burrowing Snake | *Plectrurus perroteti* |
 | Nilgiri Dwarf Gecko | *Cnemaspis indica* |
 | Nilson's Spiny-toed Lizard | *Acanthodactylus nilsoni* |
@@ -10639,6 +11381,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Norman's Keelback | *Helicops polylepis* |
 | North Philippine Temple Pitviper | *Tropidolaemus subannulatus* |
 | North-african Mastigure | *Uromastyx acanthinura* |
+| North-eastern Plain-nosed Burrowing Snake | *Antaioserpens warro* |
 | North-western Mangrove Seasnake | *Ephalophis greyae* |
 | North-western Shovel-nosed Snake | *Brachyurophis approximans* |
 | Northern Bandy Bandy | *Vermicella multifasciata* |
@@ -10736,6 +11479,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Panchi Mountain Dragon | *Diploderma panchi* |
 | Panther Anole | *Anolis leachii* |
 | Panther Chameleon | *Furcifer pardalis* |
+| Panther Chameleon (Furcifer Pardalis) | *Furcifer Pardalis) (Furcifer pardalis* |
 | Panther Tree Iguana | *Liolaemus islugensis* |
 | Papenfuss Rock Agama | *Laudakia papenfussi* |
 | Papuan Olive Python | *Liasis papuanus* |
@@ -10752,10 +11496,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Peak Tree Iguana | *Liolaemus chillanensis* |
 | Pegu Kukri Snake | *Oligodon cruentatus* |
 | Peking Gecko | *Gekko swinhonis* |
+| Pelagic Sea Snake | *Hydrophis platurus* |
 | Peloponnese Wall Lizard | *Podarcis peloponnesiacus* |
 | Peninsula Anole | *Anolis quadriocellifer* |
 | Pere David's Rat Snake | *Elaphe davidi* |
 | Perentie | *Varanus giganteus* |
+| Perentie (Varanus Giganteus) | *Varanus Giganteus) (Varanus giganteus* |
 | Perhentian Island Forest Skink | *Tytthoscincus perhentianensis* |
 | Peron's Snake-eyed Skink | *Cryptoblepharus plagiocephalus* |
 | Persia Sand Gecko | *Microgecko persicus* |
@@ -10821,6 +11567,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Puerto Rican Coastal Blindsnake | *Antillotyphlops hypomethes* |
 | Puerto Rican Racer | *Borikenophis portoricensis* |
 | Puff Adder | *Bitis arietans* |
+| Puff Adder (Bitis Arietans) | *Bitis Arietans) (Bitis arietans* |
 | Puffing Snake | *Phrynonax poecilonotus* |
 | Pukuma Skink | *Oligosoma hoparatea* |
 | Purple Anole | *Anolis purpurescens* |
@@ -10872,12 +11619,15 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Reticulate Racerunner | *Eremias grammica* |
 | Reticulate Worm Snake | *Amerotyphlops reticulatus* |
 | Reticulated Python | *Malayopython reticulatus* |
+| Reticulated Python (Malayopython Reticulatus) | *Malayopython Reticulatus) (Malayopython reticulatus* |
 | Reticulated Toad-headed Agama | *Phrynocephalus reticulatus* |
 | Reticulated Velvet Gecko | *Hesperoedura reticulata* |
 | Reyes' Carribian Gecko | *Aristelliger reyesi* |
 | Rhinoceros Iguana | *Cyclura cornuta* |
+| Rhinoceros Iguana (Cyclura Cornuta) | *Cyclura Cornuta) (Cyclura cornuta* |
 | Rhinoceros Ratsnake | *Gonyosoma boulengeri* |
 | Rhinoceros Viper | *Bitis nasicornis* |
+| Rhinocerus Iguana | *Cyclura cornuta* |
 | Rice Paddy Snake | *Hypsiscopus plumbea* |
 | Richard's Worm Snake | *Antillotyphlops richardi* |
 | Richardson's Least Gecko | *Sphaerodactylus richardsonii* |
@@ -10981,6 +11731,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Savages Groundsnake | *Atractus savagei* |
 | Savigny's Fringe-fingered Lizard | *Acanthodactylus savignyi* |
 | Saw-scaled Viper | *Echis carinatus* |
+| Saw-scaled Viper (Echis Carinatus) | *Echis Carinatus) (Echis carinatus* |
 | Scaled Sandveld Lizard | *Nucras scalaris* |
 | Scaly Gecko | *Hemidactylus scabriceps* |
 | Scarlet Kingsnake | *Lampropeltis elapsoides* |
@@ -11045,6 +11796,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Sichuan Odd-scaled Snake | *Achalinus meiguensis* |
 | Sichuan Pitviper | *Trimeresurus sichuanensis* |
 | Sidewinder | *Crotalus cerastes* |
+| Sidewinder (Crotalus Cerastes) | *Crotalus Cerastes) (Crotalus cerastes* |
 | Siebold's Water Snake | *Ferania sieboldii* |
 | Siebolds Keelback | *Herpetoreas sieboldii* |
 | Sierra Curlytail Lizard | *Leiocephalus onaneyi* |
@@ -11071,6 +11823,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Slight Skink | *Oligosoma levidensum* |
 | Slim Velvet Gecko | *Amalosia obscura* |
 | Slow Worm | *Anguis fragilis* |
+| Slow Worm (Anguis Fragilis) | *Anguis Fragilis) (Anguis fragilis* |
 | Slowinski's Corn Snake | *Pantherophis slowinskii* |
 | Small Forest Lizard | *Calotes paulus* |
 | Small-eyed File Snake | *Mehelya stenophthalmus* |
@@ -11261,6 +12014,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Terciopelo | *Bothrops asper* |
 | Texas Coral Snake | *Micrurus tener* |
 | Texas Horned Lizard | *Phrynosoma cornutum* |
+| Texas Horned Lizard (Phrynosoma Cornutum) | *Phrynosoma Cornutum) (Phrynosoma cornutum* |
 | Tha Chana Rock Gecko | *Cnemaspis thachanaensis* |
 | Thackeray's Dwarf Gecko | *Cnemaspis thackerayi* |
 | Thai False Bloodsucker | *Pseudocalotes floweri* |
@@ -11273,6 +12027,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Thomazeau Curlytail Lizard | *Leiocephalus semilineatus* |
 | Thornscrub Hooknose Snake | *Gyalopion quadrangulare* |
 | Thorny Devil | *Moloch horridus* |
+| Thorny Devil (Moloch Horridus) | *Moloch Horridus) (Moloch horridus* |
 | Three Horned-scaled Pitviper | *Protobothrops sieversorum* |
 | Three-banded Mabuya | *Eutropis trivittata* |
 | Three-clawed Worm-skink | *Anomalopus verreauxii* |
@@ -11283,6 +12038,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Tilbury's Fringe-fingered Lizard | *Acanthodactylus tilburyi* |
 | Tim's Burrowing Snake | *Achalinus timi* |
 | Timber Rattlesnake | *Crotalus horridus* |
+| Timber Rattlesnake (Crotalus Horridus) | *Crotalus Horridus) (Crotalus horridus* |
 | Timor Flying Dragon | *Draco timoriensis* |
 | Timor Python | *Malayopython timoriensis* |
 | Tiny Anole | *Anolis microtus* |
@@ -11293,7 +12049,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Toad-headed Agama | *Phrynocephalus axillaris* |
 | Tokara Habu | *Protobothrops tokarensis* |
 | Tokashiki Gecko | *Goniurosaurus kuroiwae* |
+| Tokay | *Gekko gecko* |
 | Tokay Gecko | *Gekko gecko* |
+| Tokay Gecko (Gekko Gecko) | *Gekko Gecko) (Gekko gecko* |
 | Tolleys Forest Chameleon | *Kinyongia tolleyae* |
 | Tolucan Bunchgrass Lizard | *Sceloporus subniger* |
 | Tonkin Forest Skink | *Sphenomorphus tonkinensis* |
@@ -11368,6 +12126,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Variable Skink | *Trachylepis laevigata* |
 | Variegated Snail-eater | *Dipsas temporalis* |
 | Veiled Chameleon | *Chamaeleo calyptratus* |
+| Veiled Chameleon (Chamaeleo Calyptratus) | *Chamaeleo Calyptratus) (Chamaeleo calyptratus* |
 | Vellore Day Gecko | *Cnemaspis otai* |
 | Venezuela Lancehead | *Bothrops venezuelensis* |
 | Venezuelan Coastal Skink | *Marisora falconensis* |
@@ -11395,6 +12154,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Warm-temperate Water-skink | *Eulamprus heatwolei* |
 | Warty Thick-toed Gecko | *Elasmodactylus tuberculosus* |
 | Water Anole | *Anolis aquaticus* |
+| Water Monitor | *Varanus salvator* |
 | Wayanad Shieldtail | *Melanophidium wynaudense* |
 | Wayne's Pygmy Chameleon | *Rhampholeon waynelotteri* |
 | Weasel Skink | *Saproscincus mustelinus* |
@@ -11411,8 +12171,10 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Western Cat-eyed Snake | *Leptodeira punctata* |
 | Western Crowned Snake | *Meizodon coronatus* |
 | Western Diamondback Rattlesnake | *Crotalus atrox* |
+| Western Diamondback Rattlesnake (Crotalus Atrox) | *Crotalus Atrox) (Crotalus atrox* |
 | Western Dwarf Skink | *Menetia surda* |
 | Western Fence Lizard | *Sceloporus occidentalis* |
+| Western Fence Lizard (Sceloporus Occidentalis) | *Sceloporus Occidentalis) (Sceloporus occidentalis* |
 | Western Forest File Snake | *Mehelya poensis* |
 | Western Foxsnake | *Pantherophis ramspotti* |
 | Western Girdled Lizard | *Zonosaurus laticaudatus* |
@@ -11425,7 +12187,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Western Mindanao Slender Skink | *Brachymeles tiboliorum* |
 | Western Mourning Skink | *Lissolepis luctuosa* |
 | Western Patchnose Snake | *Salvadora hexalepis* |
+| Western Rat Snake | *Pantherophis obsoletus* |
 | Western Ratsnake | *Pantherophis obsoletus* |
+| Western Ratsnake (Pantherophis Obsoletus) | *Pantherophis Obsoletus) (Pantherophis obsoletus* |
 | Western Rattlesnake | *Crotalus viridis* |
 | Western Rock Skink | *Trachylepis sulcata* |
 | Western Serpentiform Skink | *Eumecia anchietae* |
@@ -11470,6 +12234,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Wolfgang's Wall Gecko | *Tarentola fascicularis* |
 | Woma Python | *Aspidites ramsayi* |
 | Woodbrush Dwarf Gecko | *Lygodactylus methueni* |
+| Woodlark Or Fergusson Island Forest Snake | *Toxicocalamus longissimus* |
 | Woodslave | *Aristelliger praesignis* |
 | Wuis Rock Agama | *Laudakia wui* |
 | Wynad Day Gecko | *Cnemaspis wynadensis* |
@@ -11490,6 +12255,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellow-backed Spiny Lizard | *Sceloporus uniformis* |
 | Yellow-bellied House Snake | *Lamprophis fuscus* |
 | Yellow-bellied Sea Snake | *Hydrophis platurus* |
+| Yellow-bellied Sea Snake (Hydrophis Platurus) | *Hydrophis Platurus) (Hydrophis platurus* |
 | Yellow-blotched Forest-skink | *Concinnia tigrina* |
 | Yellow-faced Whipsnake | *Demansia psammophis* |
 | Yellow-fanned Pallid Anole | *Anolis terueli* |
@@ -11545,22 +12311,27 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Zweifel's Beaked Seasnake | *Hydrophis zweifeli* |
 | Zweifel's Ground Snake | *Erythrolamprus zweifeli* |
 
-### • Testudines (205)
+### • Testudines (234)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Abingdon Island Giant Tortoise | *Chelonoidis abingdonii* |
 | African Softshell Turtle | *Trionyx triunguis* |
 | African Spurred Tortoise | *Centrochelys sulcata* |
+| African Spurred Tortoise (Centrochelys Sulcata) | *Centrochelys Sulcata) (Centrochelys sulcata* |
+| Agassiz's Desert Tortoise | *Gopherus agassizii* |
 | Alamos Mud Turtle | *Kinosternon alamosae* |
 | Albury's Tortoise | *Chelonoidis alburyorum* |
 | Alcedo Volcano Giant Tortoise | *Chelonoidis vandenburghi* |
 | Aldabra Giant Tortoise | *Aldabrachelys gigantea* |
+| Aldabra Giant Tortoise (Aldabrachelys Gigantea) | *Aldabrachelys Gigantea) (Aldabrachelys gigantea* |
 | Alligator Snapping Turtle | *Macrochelys temminckii* |
+| Alligator Snapping Turtle (Macrochelys Temminckii) | *Macrochelys Temminckii) (Macrochelys temminckii* |
 | Amboina Box Turtle | *Cuora amboinensis* |
 | Annam Leaf Turtle | *Mauremys annamensis* |
 | Asian Leaf Turtle | *Cyclemys dentata* |
 | Assam Roofed Turtle | *Pangshura sylhetensis* |
+| Atlantic Ridley | *Lepidochelys kempii* |
 | Barbour's Map Turtle | *Graptemys barbouri* |
 | Beal's-eyed Turtle | *Sacalia bealei* |
 | Bellinger River Turtle | *Myuchelys georgesi* |
@@ -11591,30 +12362,37 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Coahuilan Box Turtle | *Terrapene coahuila* |
 | Cochin Forest Cane Turtle | *Vijayachelys silvatica* |
 | Colombian Mud Turtle | *Kinosternon dunni* |
+| Common Box Turtle | *Terrapene carolina* |
 | Common Mud Turtle | *Kinosternon subrubrum* |
 | Common Padloper | *Homopus areolatus* |
 | Common Snapping Turtle | *Chelydra serpentina* |
+| Common Snapping Turtle (Chelydra Serpentina) | *Chelydra Serpentina) (Chelydra serpentina* |
 | Cora Mud Turtle | *Kinosternon cora* |
 | Cotinga River Toadhead Turtle | *Phrynops tuberosus* |
 | Creaser's Mud Turtle | *Kinosternon creaseri* |
 | Cuatro Cienegas Slider | *Trachemys taylori* |
 | Darwin Volcano Giant Tortoise | *Chelonoidis microphyes* |
 | Desert Tortoise | *Gopherus agassizii* |
+| Desert Tortoise (Gopherus Agassizii) | *Gopherus Agassizii) (Gopherus agassizii* |
 | Diamondback Terrapin | *Malaclemys terrapin* |
+| Diamondback Terrapin (Malaclemys Terrapin) | *Malaclemys Terrapin) (Malaclemys terrapin* |
 | Donner-weer Tortoise | *Chersobius boulengeri* |
 | Duncan Island Giant Tortoise | *Chelonoidis duncanensis* |
 | Durango Mud Turtle | *Kinosternon durangoense* |
 | East African Black Mud Turtle | *Pelusios subniger* |
 | Eastern Black-bridged Leaf Turtle | *Cyclemys pulchristriata* |
 | Eastern Box Turtle | *Terrapene carolina* |
+| Eastern Box Turtle (Terrapene Carolina) | *Terrapene Carolina) (Terrapene carolina* |
 | Eastern Santa Cruz Tortoise | *Chelonoidis donfaustoi* |
 | Egyptian Tortoise | *Testudo kleinmanni* |
 | Elongated Tortoise | *Indotestudo elongata* |
 | Eroded Hingeback Tortoise | *Kinixys erosa* |
 | Euphrates Soft-shelled Turtle | *Rafetus euphraticus* |
 | European Pond Turtle | *Emys orbicularis* |
+| European Pond Turtle (Emys Orbicularis) | *Emys Orbicularis) (Emys orbicularis* |
 | False Map Turtle | *Graptemys pseudogeographica* |
 | Flatback Sea Turtle | *Natator depressus* |
+| Flatback Sea Turtle (Natator Depressus) | *Natator Depressus) (Natator depressus* |
 | Florida Cooter | *Pseudemys floridana* |
 | Florida Gopher Tortoise | *Gopherus polyphemus* |
 | Florida Softshell Turtle | *Apalone ferox* |
@@ -11622,12 +12400,15 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Four-eyed Turtle | *Sacalia quadriocellata* |
 | Four-toed Terrapin | *Batagur baska* |
 | Galapagos Giant Tortoise | *Chelonoidis niger* |
+| Galapagos Giant Tortoise (Chelonoidis Niger) | *Chelonoidis Niger) (Chelonoidis niger* |
 | Galapagos Tortoise | *Chelonoidis nigra* |
 | Geoffroy's Toadhead Turtle | *Phrynops geoffroanus* |
 | Geometric Tortoise | *Psammobates geometricus* |
 | Goodes Thornscrub Tortoise | *Gopherus evgoodei* |
 | Green Sea Turtle | *Chelonia mydas* |
+| Green Sea Turtle (Chelonia Mydas) | *Chelonia Mydas) (Chelonia mydas* |
 | Hawksbill Sea Turtle | *Eretmochelys imbricata* |
+| Hawksbill Sea Turtle (Eretmochelys Imbricata) | *Eretmochelys Imbricata) (Eretmochelys imbricata* |
 | Herrara's Mud Turtle | *Kinosternon herrerai* |
 | Hoge's Toadhead Turtle | *Ranacephala hogei* |
 | Homes Hingeback Tortoise | *Kinixys homeana* |
@@ -11644,19 +12425,26 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Karroo Tortoise | *Homopus femoralis* |
 | Keeled Box Turtle | *Cuora mouhotii* |
 | Kemp's Ridley Sea Turtle | *Lepidochelys kempii* |
+| Kemp's Ridley Sea Turtle (Lepidochelys Kempii) | *Lepidochelys Kempii) (Lepidochelys kempii* |
 | Khorat Snail-eating Turtle | *Malayemys khoratensis* |
 | Leatherback Sea Turtle | *Dermochelys coriacea* |
+| Leatherback Sea Turtle (Dermochelys Coriacea) | *Dermochelys Coriacea) (Dermochelys coriacea* |
 | Leopard Tortoise | *Stigmochelys pardalis* |
+| Leopard Tortoise (Stigmochelys Pardalis) | *Stigmochelys Pardalis) (Stigmochelys pardalis* |
 | Lobatse Hingeback Tortoise | *Kinixys lobatsiana* |
 | Loggerhead Musk Turtle | *Sternotherus minor* |
 | Loggerhead Sea Turtle | *Caretta caretta* |
+| Loggerhead Sea Turtle (Caretta Caretta) | *Caretta Caretta) (Caretta caretta* |
+| Loggerhead Turtle | *Caretta caretta* |
 | Madagascan Plowshare Tortoise | *Astrochelys yniphora* |
 | Malayan Giant Turtle | *Orlitia borneensis* |
 | Malayan Snail-eating Turtle | *Malayemys macrocephala* |
 | Manning River Turtle | *Myuchelys purvisi* |
 | Map Turtle | *Graptemys geographica* |
 | Mary River Turtle | *Elusor macrurus* |
+| Mata Mata | *Chelus fimbriata* |
 | Matamata | *Chelus fimbriata* |
+| Matamata (Chelus Fimbriata) | *Chelus Fimbriata) (Chelus fimbriata* |
 | Mauritius Giant Domed Tortoise | *Cylindraspis inepta* |
 | Mauritius Giant Flat-shelled Tortoise | *Cylindraspis triserrata* |
 | Mccord's Box Turtle | *Cuora mccordi* |
@@ -11673,6 +12461,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Narrow-bridged Musk Turtle | *Claudius angustatus* |
 | Natal Hingeback Tortoise | *Kinixys natalensis* |
 | New Guinea Snapping Turtle | *Elseya branderhorsti* |
+| New Guinea Snapping Turtle | *Elseya novaeguineae* |
 | North Australian Snake-necked Turtle | *Chelodina oblonga* |
 | Northern Australian Snapping Turtle | *Myuchelys latisternum* |
 | Northern Red-faced Turtle | *Emydura victoriae* |
@@ -11680,15 +12469,20 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Oaxaca Mud Turtle | *Kinosternon oaxacae* |
 | Oldham's Leaf Turtle | *Cyclemys oldhamii* |
 | Olive Ridley Sea Turtle | *Lepidochelys olivacea* |
+| Olive Ridley Sea Turtle (Lepidochelys Olivacea) | *Lepidochelys Olivacea) (Lepidochelys olivacea* |
 | Ornate Box Turtle | *Terrapene ornata* |
 | Ornate Slider | *Trachemys ornata* |
+| Pacific Ridley | *Lepidochelys olivacea* |
 | Painted Turtle | *Chrysemys picta* |
+| Painted Turtle (Chrysemys Picta) | *Chrysemys Picta) (Chrysemys picta* |
 | Painted Wood Turtle | *Rhinoclemmys pulcherrima* |
 | Pan's Box Turtle | *Cuora pani* |
 | Parker's Snake-necked Turtle | *Chelodina parkeri* |
 | Pitted-shelled Turtle | *Carettochelys insculpta* |
 | Pond Slider | *Trachemys scripta* |
+| Pond Slider (Trachemys Scripta) | *Trachemys Scripta) (Trachemys scripta* |
 | Radiated Tortoise | *Astrochelys radiata* |
+| Radiated Tortoise (Astrochelys Radiata) | *Astrochelys Radiata) (Astrochelys radiata* |
 | Razorback Musk Turtle | *Sternotherus carinatus* |
 | Red-crowned Roofed Turtle | *Batagur kachuga* |
 | Red-footed Tortoise | *Chelonoidis carbonarius* |
@@ -11713,6 +12507,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Speckled Padloper | *Chersobius signatus* |
 | Speks Hinged-back Tortoise | *Kinixys spekii* |
 | Spiny Softshell Turtle | *Apalone spinifera* |
+| Spiny Softshell Turtle (Apalone Spinifera) | *Apalone Spinifera) (Apalone spinifera* |
 | Spotted Box Turtle | *Terrapene nelsoni* |
 | Spotted Turtle | *Clemmys guttata* |
 | Sri Lankan Flapshell Turtle | *Lissemys ceylonensis* |
@@ -11757,9 +12552,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 
 ---
 
-## 🐸 Amphibians (3361 Species)
+## 🐸 Amphibians (3449 Species)
 
-### • Anura (2886)
+### • Anura (2946)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -11770,7 +12565,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Achala Four-eyed Frog | *Pleurodema kriegi* |
 | African Banana Frog | *Hoplophryne uluguruensis* |
 | African Bullfrog | *Pyxicephalus adspersus* |
+| African Bullfrog (Pyxicephalus Adspersus) | *Pyxicephalus Adspersus) (Pyxicephalus adspersus* |
 | African Clawed Frog | *Xenopus laevis* |
+| African Clawed Frog (Xenopus Laevis) | *Xenopus Laevis) (Xenopus laevis* |
 | African Egg Frog | *Leptodactylodon polyacanthus* |
 | African Foam-nest Treefrog | *Chiromantis rufescens* |
 | African Gray Treefrog | *Chiromantis xerampelina* |
@@ -11803,6 +12600,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Alsco Long-fingered Frog | *Cardioglossa alsco* |
 | Alto Maranon Toad | *Rhinella vellardi* |
 | Amani Screeching Frog | *Arthroleptis affinis* |
+| Amani Screeching Frog | *Arthroleptis xenodactylus* |
 | Amapa Treefrog | *Boana dentei* |
 | Amargosa Toad | *Anaxyrus nelsoni* |
 | Amatola Toad | *Vandijkophrynus amatolicus* |
@@ -11812,9 +12610,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Ambatoharanana Giant Treefrog | *Platypelis tuberifera* |
 | Amboli Leaping Frog | *Indirana chiravasi* |
 | Ambrana Madagascar Frog | *Blommersia blommersae* |
+| American Bullfrog | *Aquarana catesbeiana* |
 | American Bullfrog | *Lithobates catesbeianus* |
+| American Bullfrog (Lithobates Catesbeianus) | *Lithobates Catesbeianus) (Lithobates catesbeianus* |
 | American Green Tree Frog | *Dryophytes cinereus* |
+| American Green Tree Frog (Dryophytes Cinereus) | *Dryophytes Cinereus) (Dryophytes cinereus* |
 | American Toad | *Anaxyrus americanus* |
+| American Toad (Anaxyrus Americanus) | *Anaxyrus Americanus) (Anaxyrus americanus* |
 | Amiet's Long-fingered Frog | *Cardioglossa melanogaster* |
 | Amiet's Puddle Frog | *Phrynobatrachus amieti* |
 | Amira's Dink Frog | *Diasporus amirae* |
@@ -11889,6 +12691,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Australian Frog | *Crinia georgiana* |
 | Australian Giant Treefrog | *Sandyrana infrafrenata* |
 | Australian Green Tree Frog | *Ranoidea caerulea* |
+| Australian Green Tree Frog (Ranoidea Caerulea) | *Ranoidea Caerulea) (Ranoidea caerulea* |
 | Australian Rocketfrog | *Litoria nasuta* |
 | Australian Water-holding Frog | *Cyclorana australis* |
 | Australian Wood Frog | *Papurana daemeli* |
@@ -12022,6 +12825,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Blood Rain Frog | *Pristimantis erythros* |
 | Bloody Bay Poison Frog | *Mannophryne olmonae* |
 | Blue Mountains Treefrog | *Dryopsophus citropa* |
+| Blue Poison Dart Frog | *Dendrobates tinctorius azureus* |
 | Blue-breasted Poison Frog | *Ameerega pulchripecta* |
 | Blue-eyed Yellow Bush Frog | *Philautus neelanethrus* |
 | Blue-sided Leaf Frog | *Agalychnis annae* |
@@ -12031,6 +12835,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Bluebelly Poison Frog | *Andinobates minutus* |
 | Blunt-headed Burrowing Frog | *Glyphoglossus molossus* |
 | Bob's Robber Frog | *Craugastor punctariolus* |
+| Bobiri Reed Frog | *Hyperolius bobirensis* |
 | Bobiri Reed Frog | *Hyperolius sylvaticus* |
 | Bocage's Burrowing Frog | *Leptopelis bocagii* |
 | Bocage's Sharp-nosed Reed Frog | *Hyperolius benguellensis* |
@@ -12119,6 +12924,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Broadley's Ridged Frog | *Ptychadena broadleyi* |
 | Bromeliad Robber Frog | *Pristimantis bromeliaceus* |
 | Bromeliad Treefrog | *Bromeliohyla bromeliacia* |
+| Bronze Frog | *Lithobates clamitans* |
 | Brown Ball Frog | *Aubria subsigillata* |
 | Brown Banana Frog | *Afrixalus dorsalis* |
 | Brown Bullfrog | *Kaloula baleata* |
@@ -12134,6 +12940,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Brown-bordered Snouted Treefrog | *Scinax fuscomarginatus* |
 | Brown-eyed Treefrog | *Nyctimantis rugiceps* |
 | Brown-spotted Dwarf Frog | *Physalaemus fuscomaculatus* |
+| Brown-spotted Dwarf Frog | *Physalaemus marmoratus* |
 | Brown-spotted Treefrog | *Spicicalyx genimaculata* |
 | Brownbelly Leaf Frog | *Phyllomedusa tarsius* |
 | Brownberg Robber Frog | *Pristimantis chiastonotus* |
@@ -12193,7 +13000,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Canchaque Andes Frog | *Lynchius nebulanastes* |
 | Canchaque Robber Frog | *Pristimantis rhodoplichus* |
 | Cane Toad | *Rhinella marina* |
+| Cane Toad (Rhinella Marina) | *Rhinella Marina) (Rhinella marina* |
 | Canebreak Treefrog | *Aplastodiscus cochranae* |
+| Canebreak Treefrog | *Aplastodiscus perviridis* |
 | Canelos Robber Frog | *Pristimantis acuminatus* |
 | Cape Chirping Frog | *Arthroleptella lightfooti* |
 | Cape Clawed Frog | *Xenopus gilli* |
@@ -12249,6 +13058,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Chaco Horned Frog | *Chacophrys pierottii* |
 | Chaco Treefrog | *Boana raniceps* |
 | Chaco Water Frog | *Telmatobius verrucosus* |
+| Chameleon Treefrog | *Dryophytes versicolor* |
 | Changyang Horned Toad | *Boulenophrys changyangensis* |
 | Chaochin's Torrent Frog | *Amolops chaochin* |
 | Chapa Spadefoot Toad | *Leptobrachium chapaense* |
@@ -12276,6 +13086,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Chinese Narrowmouth Toad | *Kaloula verrucosa* |
 | Chinese Spiny Frog | *Quasipaa spinosa* |
 | Chinese Sucker Frog | *Amolops ricketti* |
+| Chinese Torrent Frog | *Amolops sp. 'jingdongensis'* |
 | Chinese Tree Toad | *Hyla chinensis* |
 | Chinese Whipping Frog | *Zhangixalus chenfui* |
 | Chinting Alpine Toad | *Scutiger chintingensis* |
@@ -12303,6 +13114,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Cinnamon-bellied Reed Frog | *Hyperolius cinnamomeoventris* |
 | Clarendon Parish Robber Frog | *Eleutherodactylus grabhami* |
 | Clark's Banana Frog | *Afrixalus clarkei* |
+| Clawed Frog | *Xenopus sp.* |
 | Clay Robber Frog | *Haddadus binotatus* |
 | Cliff Chirping Frog | *Eleutherodactylus marnockii* |
 | Cloaked Moss Frog | *Theloderma palliatum* |
@@ -12324,14 +13136,17 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Colombian Robber Frog | *Pristimantis erythropleura* |
 | Colorado Dwarf Frog | *Engystomops coloradorum* |
 | Colorado River Toad | *Incilius alvarius* |
+| Colorado River Toad (Incilius Alvarius) | *Incilius Alvarius) (Incilius alvarius* |
 | Common Big-eyed Treefrog | *Nyctimystes narinosus* |
 | Common Big-headed Frog | *Oreobates quixensis* |
 | Common Frog | *Rana temporaria* |
+| Common Frog (Rana Temporaria) | *Rana Temporaria) (Rana temporaria* |
 | Common Giant Treefrog | *Cophyla pollicaris* |
 | Common Lazy Toad | *Oreolalax major* |
 | Common Leaf-litter Frog | *Craugastor loki* |
 | Common Marsupial Frog | *Gastrotheca marsupiata* |
 | Common Midwife Toad | *Alytes obstetricans* |
+| Common Midwife Toad (Alytes Obstetricans) | *Alytes Obstetricans) (Alytes obstetricans* |
 | Common Mist Frog | *Mosleyia rheocola* |
 | Common Oval Frog | *Elachistocleis ovalis* |
 | Common Reed Frog | *Hyperolius viridiflavus* |
@@ -12339,6 +13154,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Common Spadefoot Toad | *Pelobates fuscus* |
 | Common Squeaker | *Arthroleptis stenodactylus* |
 | Common Toad | *Bufo bufo* |
+| Common Toad (Bufo Bufo) | *Bufo Bufo) (Bufo bufo* |
 | Common Tree Toad | *Rentapia hosii* |
 | Common Treefrog | *Osteopilus pulchrilineatus* |
 | Common Walking Leaf Frog | *Phyllomedusa burmeisteri* |
@@ -12377,6 +13193,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Counou Robber Frog | *Eleutherodactylus counouspeus* |
 | Crab-eating Frog | *Fejervarya cancrivora* |
 | Cranwell's Horned Frog | *Ceratophrys cranwelli* |
+| Cranwell's Horned Frog (Ceratophrys Cranwelli) | *Ceratophrys Cranwelli) (Ceratophrys cranwelli* |
 | Crater Mountain Treehole Frog | *Hyalotos naispela* |
 | Crawfish Frog | *Lithobates areolatus* |
 | Crawling Toadlet | *Pseudophryne guentheri* |
@@ -12505,13 +13322,17 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Dwarf Toad | *Incilius canaliferus* |
 | Dwarf Treefrog | *Dendropsophus nanus* |
 | Dyeing Dart Frog | *Dendrobates tinctorius* |
+| Dyeing Dart Frog (Dendrobates Tinctorius) | *Dendrobates Tinctorius) (Dendrobates tinctorius* |
+| Dyeing Poison Frog | *Dendrobates tinctorius* |
 | Eared River Frog | *Phrynobatrachus auritus* |
 | East Japan Tree Frog | *Dryophytes leopardus* |
+| East Texas Toad | *Anaxyrus sp. 'velatus'* |
 | Eastern Dwarf Tree Frog | *Drymomantis fallax* |
 | Eastern Giant Glass Frog | *Centrolene hybrida* |
 | Eastern Glass Frog | *Hyalinobatrachium orientale* |
 | Eastern Leopard Toad | *Sclerophrys pardalis* |
 | Eastern Narrow-mouthed Toad | *Gastrophryne carolinensis* |
+| Eastern Spadefoot Toad | *Pelobates syriacus* |
 | Eastern Spadefoot Toad | *Scaphiopus holbrookii* |
 | Ecuador Cochran Frog | *Nymphargus griffithsi* |
 | Ecuador Horned Treefrog | *Hemiphractus bubalus* |
@@ -12566,8 +13387,11 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Ethiopia Grassland Frog | *Ptychadena porosissima* |
 | Ethiopian Burrowing Tree Frog | *Leptopelis gramineus* |
 | European Fire-bellied Toad | *Bombina bombina* |
+| European Fire-bellied Toad (Bombina Bombina) | *Bombina Bombina) (Bombina bombina* |
 | European Green Toad | *Bufotes viridis* |
+| European Green Toad (Bufotes Viridis) | *Bufotes Viridis) (Bufotes viridis* |
 | European Tree Frog | *Hyla arborea* |
+| European Tree Frog (Hyla Arborea) | *Hyla Arborea) (Hyla arborea* |
 | Evangelista's Foam Froglet | *Physalaemus evangelistai* |
 | Everett's Timor Treefrog | *Pengilleyia everetti* |
 | Everett's Tree Frog | *Philautus everetti* |
@@ -12596,6 +13420,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Finch's Wart Frog | *Limnonectes finchi* |
 | Fine-lined Treefrog | *Boana leptolineata* |
 | Fine-spined Frog | *Sylvirana spinulosa* |
+| Fire-bellied Toad | *Bombina bombina* |
 | Fischberg's Clawed Frog | *Xenopus fischbergi* |
 | Fitzinger's Robber Frog | *Craugastor fitzingeri* |
 | Five-striped Reed Frog | *Hyperolius quinquevittatus* |
@@ -12690,11 +13515,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Golden Arrow Poison Frog | *Atelopus zeteki* |
 | Golden Crossband Frog | *Odorrana andersonii* |
 | Golden Poison Frog | *Phyllobates terribilis* |
+| Golden Poison Frog (Phyllobates Terribilis) | *Phyllobates Terribilis) (Phyllobates terribilis* |
 | Golden Rock Slender Toad | *Ansonia kyaiktiyoensis* |
 | Golden Shrub Frog | *Pseudophilautus auratus* |
 | Golden-capped Boulder-frog | *Cophixalus pakayakulangun* |
 | Golden-eyed Reed Frog | *Hyperolius ocellatus* |
 | Goliath Frog | *Conraua goliath* |
+| Goliath Frog (Conraua Goliath) | *Conraua Goliath) (Conraua goliath* |
 | Golondrinas Leaflitter Frog | *Phyllonastes cerrogolondrinas* |
 | Gongshan Cat-eyed Toad | *Scutiger gongshanensis* |
 | Gordon's Bug-eyed Frog | *Theloderma gordoni* |
@@ -12712,6 +13539,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Gray Four-eyed Frog | *Pleurodema bufoninum* |
 | Gray Toad | *Rhinella poeppigii* |
 | Gray Treefrog | *Dryophytes versicolor* |
+| Gray Treefrog (Dryophytes Versicolor) | *Dryophytes Versicolor) (Dryophytes versicolor* |
 | Gray Wood Frog | *Batrachyla leptopus* |
 | Gray's Stream Frog | *Strongylopus grayii* |
 | Gray-eyed Frog | *Opisthothylax immaculatus* |
@@ -12735,6 +13563,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Green Reed Frog | *Hyperolius viridis* |
 | Green Robber Frog | *Pristimantis chloronotus* |
 | Green Toad | *Anaxyrus debilis* |
+| Green Tree Frog | *Dryophytes cinereus* |
 | Green Tree Frog | *Ghatixalus variabilis* |
 | Green-back Treefrog | *Zhangixalus dorsoviridis* |
 | Green-eyed Bush Frog | *Raorchestes chlorosomma* |
@@ -13075,6 +13904,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | La Hotte Robber Frog | *Eleutherodactylus ventrilineatus* |
 | La Loma Treefrog | *Hyloscirtus colymba* |
 | La Marca's Robber Frog | *Pristimantis vanadise* |
+| La Palma Glass Frog | *Hyalinobatrachium valerioi* |
 | La Palma Robber Frog | *Pristimantis caprifer* |
 | La Parva Spiny-chest Frog | *Alsodes tumultuosus* |
 | La Paz Robber Frog | *Oreobates cruralis* |
@@ -13152,6 +13982,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Limosa Harlequin Frog | *Atelopus limosus* |
 | Linda's Treefrog | *Hyloscirtus lindae* |
 | Linhares Dwarf Frog | *Physalaemus aguirrei* |
+| Linhares Dwarf Frog | *Physalaemus obtectus* |
 | Linhares Smooth Horned Frog | *Proceratophrys laticeps* |
 | Lisa's Treefrog | *Kallistobatrachus lisae* |
 | Little Grass Frog | *Pseudacris ocularis* |
@@ -13301,6 +14132,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Marbled Treefrog | *Dendropsophus marmoratus* |
 | Marbled Water Frog | *Telmatobius marmoratus* |
 | Marbled Wood Frog | *Batrachyla antartandica* |
+| Marine Toad | *Rhinella marina* |
 | Mark's Bush Frog | *Raorchestes marki* |
 | Maromandia Stump-toed Frog | *Stumpffia tetradactyla* |
 | Marsh Frog | *Pelophylax ridibundus* |
@@ -13363,6 +14195,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Mexican Treefrog | *Smilisca baudinii* |
 | Michoacan Toad | *Incilius pisinnus* |
 | Micro Frog | *Microbatrachella capensis* |
+| Midwife Toad | *Alytes obstetricans* |
 | Mihintale Red Narrow-mouthed Frog | *Microhyla mihintalei* |
 | Mimic Poison Frog | *Ranitomeya imitator* |
 | Mimic Toadlet | *Uperoleia mimula* |
@@ -13493,6 +14326,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Natal Ghost Frog | *Hadromophryne natalensis* |
 | Natal Puddle Frog | *Phrynobatrachus natalensis* |
 | Natterjack Toad | *Epidalea calamita* |
+| Natterjack Toad (Epidalea Calamita) | *Epidalea Calamita) (Epidalea calamita* |
 | Naturetrek Leaf Frog | *Phyllonastes naturetrekii* |
 | Nauta Robber Frog | *Strabomantis sulcatus* |
 | Neblina Frog | *Adelastes hylonomos* |
@@ -13539,6 +14373,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Norhayati's Gliding Frog | *Rhacophorus norhayatii* |
 | Norma Ewing Rain Frog | *Pristimantis normaewingae* |
 | North American Green Frog | *Lithobates clamitans* |
+| North American Green Frog (Lithobates Clamitans) | *Lithobates Clamitans) (Lithobates clamitans* |
 | North Borneo Stream Toad | *Ansonia fuliginea* |
 | North Shore Marsupial Frog | *Gastrotheca espeletia* |
 | Northeast China Rough-skinned Frog | *Glandirana emeljanovi* |
@@ -13551,6 +14386,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Northern Flinders Ranges Froglet | *Crinia flindersensis* |
 | Northern Glassfrog | *Hyalinobatrachium fleischmanni* |
 | Northern Leopard Frog | *Lithobates pipiens* |
+| Northern Leopard Frog (Lithobates Pipiens) | *Lithobates Pipiens) (Lithobates pipiens* |
 | Northern Rough-gland Toad | *Incilius cycladen* |
 | Northern Territory Frog | *Austrochaperina adelphe* |
 | Northern Toadlet | *Uperoleia borealis* |
@@ -13598,10 +14434,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Orejas-miranda Redbelly Toad | *Melanophryniscus orejasmirandai* |
 | Orellana's Collared Frog | *Mannophryne orellana* |
 | Oriental Fire-bellied Toad | *Bombina orientalis* |
+| Oriental Fire-bellied Toad (Bombina Orientalis) | *Bombina Orientalis) (Bombina orientalis* |
 | Orinoco Lime Treefrog | *Sphaenorhynchus lacteus* |
 | Orissa Frog | *Fejervarya orissaensis* |
 | Ornate Chorus Frog | *Microhyla fissipes* |
+| Ornate Chorus Frog | *Pseudacris ornata* |
 | Ornate Egg Frog | *Leptodactylodon ornatus* |
+| Ornate Frog | *Cophixalus ornatus* |
 | Ornate Frog | *Hildebrandtia ornata* |
 | Ornate Horned Frog | *Ceratophrys ornata* |
 | Ornate Rice Frog | *Microhyla ornata* |
@@ -13734,6 +14573,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Pig Frog | *Lithobates grylio* |
 | Pig-nosed Frog | *Nasikabatrachus sahyadrensis* |
 | Pigmy Wrinkled Frog | *Nyctibatrachus beddomii* |
+| Pignose Frog | *Nasikabatrachidae sp. WII-657* |
 | Pilalo Treefrog | *Hyloscirtus ptychodactylus* |
 | Pilbara Toadlet | *Uperoleia saxatilis* |
 | Pimocha White-lipped Frog | *Leptodactylus labrosus* |
@@ -13826,7 +14666,10 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Red-banded Poison Frog | *Oophaga lehmanni* |
 | Red-bellied Treefrog | *Kallistobatrachus haematogaster* |
 | Red-crowned Toadlet | *Pseudophryne australis* |
+| Red-eyed Leaf Frog | *Agalychnis callidryas* |
 | Red-eyed Tree Frog | *Agalychnis callidryas* |
+| Red-eyed Tree Frog | *Chlorohyla chloris* |
+| Red-eyed Tree Frog (Agalychnis Callidryas) | *Agalychnis Callidryas) (Agalychnis callidryas* |
 | Red-headed Flying Frog | *Buergeria oxycephala* |
 | Red-headed Poison Frog | *Ranitomeya fantastica* |
 | Red-legged Frog | *Rana aurora* |
@@ -13846,6 +14689,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Restinga Toadlet | *Melanophryniscus setiba* |
 | Reticulate Leaf Frog | *Pithecopus ayeaye* |
 | Reticulated Glass Frog | *Hyalinobatrachium valerioi* |
+| Reticulated Glass Frog (Hyalinobatrachium Valerioi) | *Hyalinobatrachium Valerioi) (Hyalinobatrachium valerioi* |
 | Rhodes' Robber Frog | *Eleutherodactylus rhodesi* |
 | Rhythmic Dainty Frog | *Cacosternum rhythmum* |
 | Richmond's Robber Frog | *Eleutherodactylus richmondi* |
@@ -14099,6 +14943,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Small Rough-armed Tree Frog | *Kurixalus verrucosus* |
 | Small Toadlet | *Uperoleia minima* |
 | Small Torrent Frog | *Amolops minutus* |
+| Small Torrent Frog | *Micrixalus saxicola* |
 | Small Tree Frog | *Rhacophorus lateralis* |
 | Small Wood Frog | *Indosylvirana aurantiaca* |
 | Small-eared Treefrog | *Rheohyla miotympanum* |
@@ -14137,6 +14982,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Southern Stuttering Frog | *Mixophyes australis* |
 | Southern Toad | *Anaxyrus terrestris* |
 | Southern Toadlet | *Pseudophryne dendyi* |
+| Southern Toadlet | *Pseudophryne semimarmorata* |
 | Southern Torrent Frog | *Arthroleptides yakusini* |
 | Southern Walking Leaf Frog | *Phyllomedusa iheringii* |
 | Southern Whipping Frog | *Taruga longinasus* |
@@ -14146,6 +14992,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Spadefoot Toad | *Leptobrachium banae* |
 | Spaldings Robber Frog | *Eleutherodactylus gossei* |
 | Spanish Painted Frog | *Discoglossus jeanneae* |
+| Speckle-bellied Metacarpal-tubercled Toad | *Leptobrachella ventripunctata* |
 | Speckled Egg Frog | *Leptodactylodon ventrimarmoratus* |
 | Speckled Treefrog | *Boana semiguttata* |
 | Spencer's Treefrog | *Dryopsophus spenceri* |
@@ -14184,6 +15031,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Spotted Reed Frog | *Hyperolius puncticulatus* |
 | Spotted Ridged Frog | *Ptychadena subpunctata* |
 | Spotted Rocket Frog | *Hyloxalus bocagei* |
+| Spotted Rocket Frog | *Hyloxalus maculosus* |
 | Spotted Running Frog | *Kassina cochranae* |
 | Spotted Treefrog | *Boana albopunctata* |
 | Spotted Whipping Frog | *Polypedates maculatus* |
@@ -14216,6 +15064,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Stonemason's Toadlet | *Uperoleia lithomoda* |
 | Stony Creek Frog | *Rhyaconastes lesueuri* |
 | Strawberry Poison Frog | *Oophaga pumilio* |
+| Strawberry Poison Frog (Oophaga Pumilio) | *Oophaga Pumilio) (Oophaga pumilio* |
 | Strawberry Rain Frog | *Breviceps acutirostris* |
 | Strecker's Chorus Frog | *Pseudacris streckeri* |
 | Striped Asian Treefrog | *Feihyla vittatus* |
@@ -14248,6 +15097,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Surinam Horned Frog | *Ceratophrys cornuta* |
 | Surinam Oval Frog | *Elachistocleis surinamensis* |
 | Surinam Toad | *Pipa pipa* |
+| Surinam Toad (Pipa Pipa) | *Pipa Pipa) (Pipa pipa* |
 | Susan's Tree Frog | *Leptopelis susanae* |
 | Sushil's Bush Frog | *Raorchestes sushili* |
 | Suweon Treefrog | *Dryophytes suweonensis* |
@@ -14515,6 +15365,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Western Night Frog | *Astylosternus occidentalis* |
 | Western Nimba Toad | *Nimbaphrynoides occidentalis* |
 | Western Olive Toad | *Sclerophrys poweri* |
+| Western Spadefoot Toad | *Pelobates cultripes* |
 | Western Spadefoot Toad | *Spea hammondii* |
 | Western Spotted Frog | *Heleioporus albopunctatus* |
 | Western Trickle Frog | *Ingerana occidens* |
@@ -14564,6 +15415,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Wokan Cannibal Frog | *Platyplectrum melanopyga* |
 | Wolf's Sticky-toed Frog | *Cornufer wolfi* |
 | Wood Frog | *Lithobates sylvaticus* |
+| Wood Frog (Lithobates Sylvaticus) | *Lithobates Sylvaticus) (Lithobates sylvaticus* |
 | Woodhouse's Toad | *Anaxyrus woodhousii* |
 | Woodworth's Wart Frog | *Limnonectes woodworthi* |
 | Wrinkled Toadlet | *Uperoleia rugosa* |
@@ -14597,12 +15449,15 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellow Toad | *Incilius luetkenii* |
 | Yellow Treefrog | *Dendropsophus microcephalus* |
 | Yellow-banded Poison Dart Frog | *Dendrobates leucomelas* |
+| Yellow-banded Poison Dart Frog (Dendrobates Leucomelas) | *Dendrobates Leucomelas) (Dendrobates leucomelas* |
 | Yellow-bellied Ridged Frog | *Ptychadena chrysogaster* |
 | Yellow-bellied Toad | *Bombina variegata* |
 | Yellow-bellied Treefrog | *Dryophytes flaviventris* |
+| Yellow-headed Poison Frog | *Dendrobates leucomelas* |
 | Yellow-legged Frog | *Rana boylii* |
 | Yellow-spotted Andes Frog | *Lynchius flavomaculatus* |
 | Yellow-spotted Cochran Frog | *Rulyrana flavopunctata* |
+| Yellow-spotted Frog | *Ameerega flavopicta* |
 | Yellow-spotted Frog | *Pulchrana signata* |
 | Yellow-spotted Tree Frog | *Litoria castanea* |
 | Yellow-striped Frog | *Hylarana tytleri* |
@@ -14650,7 +15505,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Zweifel's Papua Frogs | *Barygenys exsul* |
 | Zweifel's Rainforest Frog | *Cophixalus cryptotympanum* |
 
-### • Caudata (448)
+### • Caudata (474)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -14663,6 +15518,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Allegheny Mountain Salamander | *Desmognathus ochrophaeus* |
 | Alpine Newt | *Ichthyosaura alpestris* |
 | Alpine Salamander | *Salamandra atra* |
+| Alpine Salamander (Salamandra Atra) | *Salamandra Atra) (Salamandra atra* |
 | Alvarado's Salamander | *Bolitoglossa alvaradoi* |
 | Alvarez Del Toro's Salamander | *Cryptotriton alvarezdeltoroi* |
 | Amber-colored Salamander | *Hynobius stejnegeri* |
@@ -14681,6 +15537,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Atoyac Minute Salamander | *Thorius infernalis* |
 | Atzalan Golden Salamander | *Chiropterotriton aureus* |
 | Axolotl | *Ambystoma mexicanum* |
+| Axolotl (Ambystoma Mexicanum) | *Ambystoma Mexicanum) (Ambystoma mexicanum* |
 | Baja Verapaz Salamander | *Cryptotriton veraepacis* |
 | Balkan Newt | *Triturus karelinii* |
 | Balsam Mountains Salamander | *Plethodon oconaluftee* |
@@ -14705,6 +15562,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Blue Ridge Gray-cheeked Salamander | *Plethodon amplus* |
 | Blue Ridge Mountain Salamander | *Desmognathus carolinensis* |
 | Blue-spotted Salamander | *Ambystoma laterale* |
+| Blue-spotted X Jefferson Salamander | *Ambystoma laterale x Ambystoma jeffersonianum* |
 | Blue-tailed Fire-bellied Newt | *Cynops cyanurus* |
 | Blunthead Salamander | *Ambystoma amblycephalum* |
 | Boreal Thorius | *Thorius boreas* |
@@ -14736,6 +15594,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Chiala Mountain Salamander | *Batrachuperus karlschmidti* |
 | Chinateca Salamander | *Bolitoglossa chinanteca* |
 | Chinese Giant Salamander | *Andrias davidianus* |
+| Chinese Giant Salamander (Andrias Davidianus) | *Andrias Davidianus) (Andrias davidianus* |
 | Chinese Salamander | *Hynobius chinensis* |
 | Chinese Warty Newt | *Paramesotriton chinensis* |
 | Chinhai Spiny Newt | *Echinotriton chinhaiensis* |
@@ -14751,6 +15610,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Columbia Torrent Salamander | *Rhyacotriton kezeri* |
 | Common Ensatina | *Ensatina eschscholtzii* |
 | Common Mudpuppy | *Necturus maculosus* |
+| Common Mudpuppy (Necturus Maculosus) | *Necturus Maculosus) (Necturus maculosus* |
+| Common Newt | *Lissotriton vulgaris* |
 | Conant's False Brook Salamander | *Pseudoeurycea conanti* |
 | Conant's Mushroomtongue Salamander | *Bolitoglossa conanti* |
 | Continental Divide Salamander | *Bolitoglossa jugivagans* |
@@ -14776,7 +15637,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Dwarf Splayfoot Salamander | *Chiropterotriton dimidiatus* |
 | Dwarf Waterdog | *Necturus punctatus* |
 | Eastern Newt | *Notophthalmus viridescens* |
+| Eastern Newt (Notophthalmus Viridescens) | *Notophthalmus Viridescens) (Notophthalmus viridescens* |
 | Eastern Red-backed Salamander | *Plethodon cinereus* |
+| Eastern Red-backed Salamander (Plethodon Cinereus) | *Plethodon Cinereus) (Plethodon cinereus* |
 | Ecuador Mushroomtongue Salamander | *Bolitoglossa equatoriana* |
 | El Cielo Salamander | *Chiropterotriton cieloensis* |
 | Engelhardt's Mushroomtongue Salamander | *Bolitoglossa engelhardti* |
@@ -14784,6 +15647,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Fairview Slender Salamander | *Batrachoseps bramei* |
 | Finca Chiblac Salamander | *Bradytriton silus* |
 | Fire Salamander | *Salamandra salamandra* |
+| Fire Salamander (Salamandra Salamandra) | *Salamandra Salamandra) (Salamandra salamandra* |
 | Firschein's False Brook Salamander | *Pseudoeurycea firscheini* |
 | Fischer's Clawed Salamander | *Onychodactylus fischeri* |
 | Flat-headed Salamander | *Desmognathus planiceps* |
@@ -14808,6 +15672,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Grand Minute Salamander | *Thorius grandis* |
 | Granular Salamander | *Ambystoma granulosum* |
 | Greater Siren | *Siren lacertina* |
+| Greater Siren (Siren Lacertina) | *Siren Lacertina) (Siren lacertina* |
 | Greek Newt | *Lissotriton graecus* |
 | Green-flecked Salamander | *Pseudoeurycea tlahcuiloh* |
 | Greenhorn Mountains Slender Salamander | *Batrachoseps altasierrae* |
@@ -14823,6 +15688,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Hainan Knobby Newt | *Tylototriton hainanensis* |
 | Hell Hollow Slender Salamander | *Batrachoseps diabolicus* |
 | Hellbender | *Cryptobranchus alleganiensis* |
+| Hellbender (Cryptobranchus Alleganiensis) | *Cryptobranchus Alleganiensis) (Cryptobranchus alleganiensis* |
 | Hickory Nut Gorge Green Salamander | *Aneides caryaensis* |
 | Hida Salamander | *Hynobius kimurae* |
 | Hokkaido Salamander | *Hynobius retardatus* |
@@ -14830,6 +15696,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Hong Kong Warty Newt | *Paramesotriton hongkongensis* |
 | Honshu Salamander | *Hynobius takedai* |
 | Huanggangshan Fire-bellied Newt | *Hypselotriton huanggangensis* |
+| Iberian Ribbed Newt | *Pleurodeles waltl* |
 | Idaho Giant Salamander | *Dicamptodon aterrimus* |
 | Imitator Salamander | *Desmognathus imitator* |
 | Imperial Salamander | *Pseudoeurycea ahuitzotl* |
@@ -14842,6 +15709,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Japanese Clawed Salamander | *Onychodactylus japonicus* |
 | Japanese Firebelly Newt | *Cynops pyrrhogaster* |
 | Japanese Giant Salamander | *Andrias japonicus* |
+| Japanese Giant Salamander (Andrias Japonicus) | *Andrias Japonicus) (Andrias japonicus* |
 | Jefferson Salamander | *Ambystoma jeffersonianum* |
 | Jemez Mountains Salamander | *Plethodon neomexicanus* |
 | Junaluska Salamander | *Eurycea junaluska* |
@@ -14897,6 +15765,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Mountain Stream Siredon | *Ambystoma altamirani* |
 | Mt. Dabien Crocodile Salamander | *Tylototriton dabienicus* |
 | Mud Salamander | *Pseudotriton montanus* |
+| Mudpuppy | *Necturus maculosus* |
 | Mueller's Mushroomtongue Salamander | *Bolitoglossa mulleri* |
 | Muisca Salamander | *Bolitoglossa muisca* |
 | Muralla Worm Salamander | *Oedipina kasios* |
@@ -14911,6 +15780,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | North African Fire Salamander | *Salamandra algira* |
 | Northern Banded Newt | *Ommatotriton ophryticus* |
 | Northern Crested Newt | *Triturus cristatus* |
+| Northern Crested Newt (Triturus Cristatus) | *Triturus Cristatus) (Triturus cristatus* |
 | Northern Gray-cheeked Salamander | *Plethodon montanus* |
 | Northern Pygmy Salamander | *Desmognathus organi* |
 | Northern Ravine Salamander | *Plethodon electromorphus* |
@@ -14924,6 +15794,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Ocoee Salamander | *Desmognathus ocoee* |
 | Oki Salamander | *Hynobius okiensis* |
 | Oklahoma Salamander | *Eurycea tynerensis* |
+| Olm | *Proteus anguinus* |
 | Olm Salamander | *Proteus anguinus* |
 | Olympic Salamander | *Rhyacotriton olympicus* |
 | One-toed Salamander | *Amphiuma pholeter* |
@@ -14954,6 +15825,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Ravine Salamander | *Plethodon richmondi* |
 | Red Hills Salamander | *Phaeognathus hubrichti* |
 | Red Salamander | *Pseudotriton ruber* |
+| Red-backed Salamander | *Plethodon cinereus* |
 | Red-bellied Newt | *Taricha rivularis* |
 | Red-legged False Brook Salamander | *Aquiloeurycea rubrimembris* |
 | Red-legged Salamander | *Plethodon shermani* |
@@ -14967,6 +15839,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Rio Santa Rosa Mushroomtongue Salamander | *Bolitoglossa digitigrada* |
 | Robust Mushroomtongue Salamander | *Bolitoglossa robusta* |
 | Rough-skinned Newt | *Taricha granulosa* |
+| Rough-skinned Newt (Taricha Granulosa) | *Taricha Granulosa) (Taricha granulosa* |
 | Royal False Brook Salamander | *Pseudoeurycea rex* |
 | Ryukyu Spiny Newt | *Echinotriton andersoni* |
 | Sacramento Mountain Salamander | *Aneides hardii* |
@@ -14992,6 +15865,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Shenandoah Salamander | *Plethodon shenandoah* |
 | Shikoku Clawed Salamander | *Onychodactylus kinneburi* |
 | Siberian Salamander | *Ranodon sibiricus* |
+| Siberian Salamander | *Salamandrella keyserlingii* |
 | Sierra De Juarez Worm Salamander | *Pseudoeurycea orchileucos* |
 | Sierra De Las Minas Hidden Salamander | *Cryptotriton sierraminensis* |
 | Sierra De Xucaneb Hidden Salamander | *Cryptotriton xucaneborum* |
@@ -15003,6 +15877,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Smith's False Brook Salamander | *Pseudoeurycea smithi* |
 | Smith's Thorius | *Thorius smithi* |
 | Smooth Newt | *Lissotriton vulgaris* |
+| Smooth Newt (Lissotriton Vulgaris) | *Lissotriton Vulgaris) (Lissotriton vulgaris* |
 | Sonoran False Brook Salamander | *Isthmura sierraoccidentalis* |
 | South Carolina Slimy Salamander | *Plethodon variolatus* |
 | South China Giant Salamander | *Andrias sligoi* |
@@ -15021,10 +15896,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Southern Two-lined Salamander | *Eurycea cirrigera* |
 | Southern Zigzag Salamander | *Plethodon ventralis* |
 | Spanish Ribbed Newt | *Pleurodeles waltl* |
+| Spanish Ribbed Newt (Pleurodeles Waltl) | *Pleurodeles Waltl) (Pleurodeles waltl* |
 | Spectacled Salamander | *Salamandrina terdigitata* |
 | Spot-bellied Salamander | *Plethodon welleri* |
 | Spotless Stout Newt | *Paramesotriton labiatus* |
 | Spotted Salamander | *Ambystoma maculatum* |
+| Spotted Salamander (Ambystoma Maculatum) | *Ambystoma Maculatum) (Ambystoma maculatum* |
 | Spotted Thorius | *Thorius spilogaster* |
 | Spring Salamander | *Gyrinophilus porphyriticus* |
 | Streamside Salamander | *Ambystoma barbouri* |
@@ -15057,6 +15934,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Tibetan Mountain Salamander | *Batrachuperus tibetanus* |
 | Tico Salamander | *Bolitoglossa tica* |
 | Tiger Salamander | *Ambystoma tigrinum* |
+| Tiger Salamander (Ambystoma Tigrinum) | *Ambystoma Tigrinum) (Ambystoma tigrinum* |
 | Tilley's Dusky Salamander | *Desmognathus tilleyi* |
 | Tokyo Salamander | *Hynobius tokyoensis* |
 | Toothy Splayfoot Salamander | *Chiropterotriton multidentatus* |
@@ -15066,6 +15944,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Turkish Smooth Newt | *Lissotriton kosswigi* |
 | Two-lined Salamander | *Eurycea bislineata* |
 | Two-toed Amphiuma | *Amphiuma means* |
+| Two-toed Amphiuma (Amphiuma Means) | *Amphiuma Means) (Amphiuma means* |
+| Unisexual Mole Salamanders | *Ambystoma 'unisexual hybrid complex'* |
 | Valle Alegre Salamander | *Chiropterotriton perotensis* |
 | Valley And Ridge Salamander | *Plethodon hoffmani* |
 | Veracruz Pigmy Salamander | *Thorius pennatulus* |
@@ -15074,6 +15954,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Volcan Tajumulco Bromelidad Salamander | *Dendrotriton bromeliacius* |
 | Wandering Salamander | *Aneides vagrans* |
 | Wanggao Warty Newt | *Paramesotriton fuzhongensis* |
+| Warty Newt | *Triturus cristatus* |
 | Washington Salamander | *Plethodon vandykei* |
 | Webster's Salamander | *Plethodon websteri* |
 | Wehrle's Salamander | *Plethodon wehrlei* |
@@ -15103,7 +15984,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Zigzag Salamander | *Plethodon dorsalis* |
 | Zoquitlan Pigmy Salamander | *Thorius maxillabrochus* |
 
-### • Gymnophiona (27)
+### • Gymnophiona (29)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -15125,7 +16006,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Manipur Moustached Ichthyophis | *Ichthyophis moustakius* |
 | Marbled Caecilian | *Epicrionops marmoratus* |
 | Mexican Burrowing Caecilian | *Dermophis mexicanus* |
+| Mexican Burrowing Caecilian (Dermophis Mexicanus) | *Dermophis Mexicanus) (Dermophis mexicanus* |
 | Rio Cauca Caecilian | *Typhlonectes natans* |
+| Rio Cauca Caecilian (Typhlonectes Natans) | *Typhlonectes Natans) (Typhlonectes natans* |
 | Supachai's Caecilian | *Ichthyophis supachaii* |
 | Taita Mountains Caecilian | *Boulengerula taitana* |
 | Tenmalai Caecilian | *Gegeneophis ramaswamii* |
@@ -15137,9 +16020,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 
 ---
 
-## 🐟 Fishes (9660 Species)
+## 🐟 Fishes (10005 Species)
 
-### • Acanthuriformes (70)
+### • Acanthuriformes (74)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -15181,14 +16064,17 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Luvar | *Luvarus imperialis* |
 | Monrovia Doctorfish | *Acanthurus monroviae* |
 | Moorish Idol | *Zanclus cornutus* |
+| Moorish Idol (Zanclus Cornutus) | *Zanclus Cornutus) (Zanclus cornutus* |
 | Ocean Surgeon | *Acanthurus bahianus* |
 | Oneknife Unicornfish | *Naso thynnoides* |
 | Orange-socket Surgeonfish | *Acanthurus auranticavus* |
 | Orangespine Unicornfish | *Naso lituratus* |
 | Orangespot Surgeonfish | *Acanthurus olivaceus* |
 | Palelipped Surgeonfish | *Acanthurus leucocheilus* |
+| Palette Surgeonfish | *Paracanthurus hepatus* |
 | Razor Surgeonfish | *Prionurus laticlavius* |
 | Regal Blue Tang | *Paracanthurus hepatus* |
+| Regal Blue Tang (Paracanthurus Hepatus) | *Paracanthurus Hepatus) (Paracanthurus hepatus* |
 | Ringtail Surgeonfish | *Acanthurus blochii* |
 | Sailfin Tang | *Zebrasoma velifer* |
 | Scalpel Sawtail | *Prionurus scalprum* |
@@ -15210,27 +16096,34 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Whitespotted Surgeonfish | *Acanthurus guttatus* |
 | Whitetail Bristletooth Tang | *Ctenochaetus flavicauda* |
 | Yellow Tang | *Zebrasoma flavescens* |
+| Yellow Tang (Zebrasoma Flavescens) | *Zebrasoma Flavescens) (Zebrasoma flavescens* |
 | Yellowfin Surgeonfish | *Acanthurus xanthopterus* |
 | Yellowspotted Sawtail | *Prionurus maculatus* |
 | Yellowtail Surgeonfish | *Prionurus punctatus* |
 
-### • Acipenseriformes (26)
+### • Acipenseriformes (33)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Adriatic Sturgeon | *Acipenser naccarii* |
 | Alabama Sturgeon | *Scaphirhynchus suttkusi* |
 | American Paddlefish | *Polyodon spathula* |
+| American Paddlefish (Polyodon Spathula) | *Polyodon Spathula) (Polyodon spathula* |
 | Amu Darya Sturgeon | *Pseudoscaphirhynchus kaufmanni* |
 | Amur Sturgeon | *Acipenser schrenckii* |
 | Atlantic Sturgeon | *Acipenser oxyrinchus* |
+| Atlantic Sturgeon (Acipenser Oxyrinchus) | *Acipenser Oxyrinchus) (Acipenser oxyrinchus* |
+| Beluga | *Huso huso* |
 | Beluga Sturgeon | *Huso huso* |
+| Beluga Sturgeon (Huso Huso) | *Huso Huso) (Huso huso* |
+| Bester | *Acipenser ruthenus x Huso huso* |
 | Chinese Sturgeon | *Acipenser sinensis* |
 | Chinese Swordfish | *Psephurus gladius* |
 | Dwarf Sturgeon | *Pseudoscaphirhynchus hermanni* |
 | Fringebarbel Sturgeon | *Acipenser nudiventris* |
 | Green Sturgeon | *Acipenser medirostris* |
 | Lake Sturgeon | *Acipenser fulvescens* |
+| Mississippi Paddlefish | *Polyodon spathula* |
 | Pallid Sturgeon | *Scaphirhynchus albus* |
 | Persian Sturgeon | *Acipenser persicus* |
 | Russian Sturgeon | *Acipenser gueldenstaedtii* |
@@ -15243,6 +16136,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Sturgeon | *Acipenser sturio* |
 | Syr Darya Sturgeon | *Pseudoscaphirhynchus fedtschenkoi* |
 | White Sturgeon | *Acipenser transmontanus* |
+| White Sturgeon (Acipenser Transmontanus) | *Acipenser Transmontanus) (Acipenser transmontanus* |
 | Yangtze Sturgeon | *Acipenser dabryanus* |
 
 ### • Acropomatiformes (46)
@@ -15296,11 +16190,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Westralian Jewfish | *Glaucosoma hebraicum* |
 | Wreckfish | *Polyprion americanus* |
 
-### • Albuliformes (9)
+### • Albuliformes (10)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Bonefish | *Albula vulpes* |
+| Bonefish (Albula Vulpes) | *Albula Vulpes) (Albula vulpes* |
 | Eastern Pacific Bonefish | *Albula esuncula* |
 | Japanese Gissu | *Pterothrissus gissu* |
 | Longjaw Bonefish | *Albula argentea* |
@@ -15355,13 +16250,14 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Triangulate Slickhead | *Alepocephalus triangularis* |
 | Tusked Tubeshoulder | *Holtbyrnia laticauda* |
 
-### • Amiiformes (1)
+### • Amiiformes (2)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Bowfin | *Amia calva* |
+| Bowfin (Amia Calva) | *Amia Calva) (Amia calva* |
 
-### • Anabantiformes (66)
+### • Anabantiformes (67)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -15416,6 +16312,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Roundtail Paradisefish | *Macropodus chinensis* |
 | Sanggau Betta | *Betta antoni* |
 | Siamese Fighting Fish | *Betta splendens* |
+| Siamese Fighting Fish (Betta Splendens) | *Betta Splendens) (Betta splendens* |
 | Slender Betta | *Betta bellica* |
 | Small Snakehead | *Channa asiatica* |
 | Snakehead Murrel | *Channa striata* |
@@ -15432,7 +16329,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Twospot Climbing Perch | *Ctenopoma nigropannosum* |
 | Walking Snakehead | *Channa orientalis* |
 
-### • Anguilliformes (226)
+### • Anguilliformes (234)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -15493,7 +16390,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Dwarf Moray | *Gymnothorax melatremus* |
 | Elegant Moray | *Gymnothorax elegans* |
 | European Conger | *Conger conger* |
+| European Conger (Conger Conger) | *Conger Conger) (Conger conger* |
 | European Eel | *Anguilla anguilla* |
+| European Eel (Anguilla Anguilla) | *Anguilla Anguilla) (Anguilla anguilla* |
 | Facciola's Sorcerer | *Facciolella oxyrhyncha* |
 | False Moray | *Kaupichthys hyoproroides* |
 | Fangtooth Moray | *Enchelycore anatina* |
@@ -15508,11 +16407,14 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Fryer's False Moray | *Xenoconger fryeri* |
 | Ghost Moray | *Gymnothorax phasmatodes* |
 | Giant Moray | *Gymnothorax javanicus* |
+| Giant Moray (Gymnothorax Javanicus) | *Gymnothorax Javanicus) (Gymnothorax javanicus* |
 | Giant Mottled Eel | *Anguilla marmorata* |
 | Goldentail Moray | *Gymnothorax miliaris* |
 | Goldspotted Eel | *Myrichthys ocellatus* |
 | Graham's Conger | *Gnathophis grahami* |
 | Green Moray | *Gymnothorax funebris* |
+| Green Moray (Gymnothorax Funebris) | *Gymnothorax Funebris) (Gymnothorax funebris* |
+| Green Moray Eel | *Gymnothorax funebris* |
 | Grey Conger | *Conger esculentus* |
 | Grey Cutthroat | *Synaphobranchus affinis* |
 | Greyface Moray | *Gymnothorax thyrsoideus* |
@@ -15521,6 +16423,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Guinean Conger | *Paraconger notialis* |
 | Gulper Eel | *Saccopharynx ampullaceus* |
 | Hairy Conger | *Bassanago hirsutus* |
+| Hairy Conger | *Pseudoxenomystax albescens* |
 | Hardtail Conger | *Gnathophis cinctus* |
 | Harlequin Snake Eel | *Myrichthys colubrinus* |
 | Highfin Moray | *Gymnothorax pseudothyrsoideus* |
@@ -15539,6 +16442,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Kidako Moray | *Gymnothorax kidako* |
 | King Snake Eel | *Ophichthus rex* |
 | Korean Snake Eel | *Ophichthus sangjuensis* |
+| Labichthys Carinatus | *Labichthys carinatus* |
+| Labichthys Carinatus Gill & Ryder, 1883 | *Labichthys carinatus* |
 | Laced Moray | *Gymnothorax favagineus* |
 | Large-toothed Conger | *Bathyuroconger vicinus* |
 | Leopard Moray Eel | *Enchelycore pardalis* |
@@ -15707,7 +16612,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Loppe's Tadpole Fish | *Ijimaia loppei* |
 | Pacific Jellynose Fish | *Ateleopus japonicus* |
 
-### • Atheriniformes (176)
+### • Atheriniformes (177)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -15801,6 +16706,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Lorentz's Rainbowfish | *Chilatherina lorentzii* |
 | Macculloch's Rainbowfish | *Melanotaenia maccullochi* |
 | Madagascar Rainbowfish | *Bedotia geayi* |
+| Madagascar Rainbowfish | *Bedotia madagascariensis* |
 | Magela Hardyhead | *Craterocephalus marianae* |
 | Mancuernas Silverside | *Atherinella pellosemeion* |
 | Marine Sailfin Silverside | *Kalyptatherina helodes* |
@@ -15888,7 +16794,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Wide-banded Hardyhead Silverside | *Atherinomorus lacunosus* |
 | Yapen Rainbowfish | *Melanotaenia japenensis* |
 
-### • Aulopiformes (91)
+### • Aulopiformes (92)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -15954,6 +16860,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Sand Diver | *Synodus intermedius* |
 | Scaly Paperbone | *Scopelosaurus harryi* |
 | Sewell's Spiderfish | *Bathytyphlops sewelli* |
+| Sharpchin Barracudina | *Paralepis coregonoides* |
 | Sharpchin Barracudina | *Stemonosudis macrura* |
 | Short Fin Pearleye | *Scopelarchus analis* |
 | Shortfin Lizardfish | *Saurida micropectoralis* |
@@ -15984,12 +16891,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Ventrad Spiderfish | *Bathypterois ventralis* |
 | Waneso Lizardfish | *Saurida wanieso* |
 
-### • Batrachoidiformes (27)
+### • Batrachoidiformes (29)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Arabian Toadfish | *Colletteichthys occidentalis* |
 | Atlantic Midshipman | *Porichthys plectrodon* |
+| Atlantic Midshipman | *Porichthys porosissimus* |
 | Banded Toadfish | *Aphos porosus* |
 | Bocon Toadfish | *Amphichthys cryptocentrus* |
 | Cano Toadfish | *Thalassophryne maculosa* |
@@ -16014,9 +16922,10 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Snakehead Toadfish | *Batrichthys apiatus* |
 | Specklefin Midshipman | *Porichthys myriaster* |
 | Three-spined Frogfish | *Batrachomoeus trispinosus* |
+| Toadfish | *Batrachoididae gen. sp.* |
 | Whitelined Toadfish | *Sanopus greenfieldorum* |
 
-### • Beloniformes (100)
+### • Beloniformes (103)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -16039,6 +16948,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Blacksail Flyingfish | *Cheilopogon nigricans* |
 | Blackspot Flyingfish | *Cheilopogon dorsomacula* |
 | Bluntnose Flyingfish | *Prognichthys gibbifrons* |
+| Bluntnose Flyingfish | *Prognichthys occidentalis* |
 | Buffon's River-garfish | *Zenarchopterus buffonis* |
 | Californian Needlefish | *Strongylura exilis* |
 | Cape Halfbeak | *Hyporhamphus capensis* |
@@ -16065,6 +16975,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Hound Needlefish | *Tylosurus crocodilus* |
 | Indian Medaka | *Oryzias melastigma* |
 | Intermediate Flyingfish | *Cheilopogon intermedius* |
+| Japanese Flyingfish | *Cheilopogon agoo* |
 | Japanese Flyingfish | *Cypselurus hiraii* |
 | Japanese Halfbeak | *Hyporhamphus sajori* |
 | Japanese Medaka | *Oryzias latipes* |
@@ -16099,6 +17010,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Senegal Needlefish | *Strongylura senegalensis* |
 | Sharp-jawed Buntingi | *Oryzias orthognathus* |
 | Sharpchin Flyingfish | *Fodiator acutus* |
+| Sharpchin Flyingfish | *Fodiator rostratus* |
 | Shortfin Flyingfish | *Prognichthys brevipinnis* |
 | Shoulderspot Needlefish | *Strongylura scapularis* |
 | Smallhead Flyingfish | *Cheilopogon altipennis* |
@@ -16121,11 +17033,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellow-wing Flyingfish | *Cypselurus poecilopterus* |
 | Yellowtip Halfbeak | *Hemiramphus marginatus* |
 
-### • Beryciformes (22)
+### • Beryciformes (23)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Alfonsino | *Beryx decadactylus* |
+| Alfonsino | *Beryx mollis* |
 | Bight Redfish | *Centroberyx gerrardi* |
 | Crested Bigscale | *Poromitra crassiceps* |
 | Festive Ribbonfish | *Eutaeniophorus festivus* |
@@ -16148,7 +17061,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yawning | *Poromitra oscitans* |
 | Yelloweye Nannygai | *Centroberyx australis* |
 
-### • Blenniiformes (354)
+### • Blenniiformes (360)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -16187,6 +17100,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Blackline Fangblenny | *Meiacanthus nigrolineatus* |
 | Blackstripe Clingfish | *Tomicodon myersi* |
 | Blacktail Triplefin | *Enneapterygius nigricauda* |
+| Blue-dashed Rockskipper | *Blenniella paula* |
 | Blue-dashed Rockskipper | *Blenniella periophthalmus* |
 | Blue-spotted Blenny | *Blenniella caudolineata* |
 | Bluefin Fangblenny | *Meiacanthus cyanopterus* |
@@ -16198,6 +17112,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Breast-spot Blenny | *Salarias guttatus* |
 | Broad Clingfish | *Creocele cardinalis* |
 | Brown Coral Blenny | *Atrosalarias fuscus* |
+| Brown Coral Blenny | *Atrosalarias holomelas* |
 | Brown Sabretooth Blenny | *Petroscirtes lupus* |
 | Brown-spotted Blenny | *Starksia posthon* |
 | Browncheek Blenny | *Acanthemblemaria crockeri* |
@@ -16307,6 +17222,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Leaping Blenny | *Alticus saliens* |
 | Leopard Blenny | *Exallias brevis* |
 | Linear Blenny | *Ecsenius lineatus* |
+| Lined Rockskipper | *Blenniella bilitonensis* |
 | Lined Rockskipper | *Istiblennius lineatus* |
 | Little Clingfish | *Parvicrepis parvipinnis* |
 | Little Weedfish | *Heteroclinus puellarum* |
@@ -16317,6 +17233,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Manyscaled Blenny | *Starksia multilepis* |
 | Marbled Blenny | *Paraclinus marmoratus* |
 | Medusa Blenny | *Acanthemblemaria medusa* |
+| Medusa Blenny | *Cirrisalarias bunares* |
 | Mexican Blenny | *Paraclinus mexicanus* |
 | Mexican Triplefin | *Enneanectes macrops* |
 | Mexican Worm Blenny | *Stathmonotus lugubris* |
@@ -16393,6 +17310,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Rock Blenny | *Entomacrodus chiostictus* |
 | Rock-pool Blenny | *Parablennius parvicornis* |
 | Rockpool Blenny | *Entomacrodus vomerinus* |
+| Rockpool Blenny | *Hypsoblennius gilberti* |
 | Rocksucker | *Chorisochismus dentex* |
 | Rosy Blenny | *Malacoctenus macropus* |
 | Rosy Weedfish | *Heteroclinus roseus* |
@@ -16440,6 +17358,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Spotcheek Blenny | *Brockius nigricinctus* |
 | Spotjaw Blenny | *Acanthemblemaria rivasi* |
 | Spotted And Barred Blenny | *Mimoblennius atrocinctus* |
+| Spotted Blenny | *Cirripectes fuscoguttatus* |
 | Spotted Blenny | *Starksia guttata* |
 | Spotted Kelpfish | *Gibbonsia elegans* |
 | Spotted Robust Triplefin | *Forsterygion capito* |
@@ -16507,16 +17426,17 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Zaca Blenny | *Malacoctenus zacae* |
 | Zebra Clingfish | *Tomicodon zebra* |
 
-### • Caproiformes (4)
+### • Caproiformes (5)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Boarfish | *Capros aper* |
 | Deepbody Boarfish | *Antigonia capros* |
+| Deepbody Boarfish | *Antigonia steindachneri* |
 | Indo-pacific Boarfish | *Antigonia rubescens* |
 | Shortspine Boarfish | *Antigonia combatia* |
 
-### • Carangiformes (137)
+### • Carangiformes (146)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -16557,22 +17477,28 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Cleftbelly Trevally | *Atropus atropos* |
 | Coachwhip Trevally | *Carangoides oblongus* |
 | Coastal Trevally | *Carangoides uii* |
+| Coastal Trevally | *Turrum coeruleopinnatum* |
 | Cobia | *Rachycentron canadum* |
 | Cocinero | *Caranx vinctus* |
+| Common Dolphinfish | *Coryphaena hippurus* |
 | Common Remora | *Remora remora* |
 | Cottonmouth Jack | *Uraspis secunda* |
 | Crevalle Jack | *Caranx hippos* |
+| Crevalle Jack (Caranx Hippos) | *Caranx Hippos) (Caranx hippos* |
 | Crozet Scad | *Trachurus longimanus* |
 | Derbio | *Trachinotus ovatus* |
 | Doublespotted Queenfish | *Scomberoides lysan* |
 | Duskyshoulder Trevally | *Carangichthys humerosus* |
 | False Scad | *Caranx rhonchus* |
 | Florida Pompano | *Trachinotus carolinus* |
+| Florida Pompano (Trachinotus Carolinus) | *Trachinotus Carolinus) (Trachinotus carolinus* |
 | Fringefin Trevally | *Pantolabus radiatus* |
 | Gafftopsail Pompano | *Trachinotus rhodopus* |
 | Giant Trevally | *Caranx ignobilis* |
+| Giant Trevally (Caranx Ignobilis) | *Caranx Ignobilis) (Caranx ignobilis* |
 | Golden Trevally | *Gnathanodon speciosus* |
 | Greater Amberjack | *Seriola dumerili* |
+| Greater Amberjack (Seriola Dumerili) | *Seriola Dumerili) (Seriola dumerili* |
 | Green Jack | *Caranx caballus* |
 | Greenback Horse Mackerel | *Trachurus declivis* |
 | Guinean Amberjack | *Seriola carpenteri* |
@@ -16601,6 +17527,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Lookdown | *Selene vomer* |
 | Mackerel Scad | *Decapterus macarellus* |
 | Mahi-mahi | *Coryphaena hippurus* |
+| Mahi-mahi (Coryphaena Hippurus) | *Coryphaena Hippurus) (Coryphaena hippurus* |
 | Malabar Trevally | *Platycaranx malabaricus* |
 | Marlinsucker | *Remora osteochir* |
 | Mediterranean Horse Mackerel | *Trachurus mediterraneus* |
@@ -16617,6 +17544,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Palometa | *Trachinotus goodei* |
 | Parona Leatherjacket | *Parona signata* |
 | Permit | *Trachinotus falcatus* |
+| Permit (Trachinotus Falcatus) | *Trachinotus Falcatus) (Trachinotus falcatus* |
 | Rainbow Runner | *Elagatis bipinnulata* |
 | Razorbelly Scad | *Alepes kleinii* |
 | Redtail Scad | *Decapterus kurroides* |
@@ -16646,6 +17574,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Torpedo Scad | *Megalaspis cordyla* |
 | Whalesucker | *Remora australis* |
 | White Suckerfish | *Remorina albescens* |
+| Whitefin Sharksucker | *Echeneis naucratoides* |
 | Whitefin Sharksucker | *Echeneis neucratoides* |
 | Whitefin Trevally | *Carangoides equula* |
 | Whitemouth Jack | *Uraspis helvola* |
@@ -16658,7 +17587,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellowtail Amberjack | *Seriola lalandi* |
 | Yellowtail Horse Mackerel | *Trachurus novaezelandiae* |
 
-### • Carcharhiniformes (171)
+### • Carcharhiniformes (183)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -16688,11 +17617,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Blackspotted Catshark | *Halaelurus buergeri* |
 | Blackspotted Smooth-hound | *Mustelus punctulatus* |
 | Blacktip Reef Shark | *Carcharhinus melanopterus* |
+| Blacktip Reef Shark (Carcharhinus Melanopterus) | *Carcharhinus Melanopterus) (Carcharhinus melanopterus* |
 | Blacktip Sawtail Catshark | *Galeus sauteri* |
 | Blacktip Shark | *Carcharhinus limbatus* |
 | Blacktip Tope | *Hypogaleus hyugaensis* |
 | Blotchy Swell Shark | *Cephaloscyllium umbratile* |
 | Blue Shark | *Prionace glauca* |
+| Blue Shark (Prionace Glauca) | *Prionace Glauca) (Prionace glauca* |
 | Bonnethead | *Sphyrna tiburo* |
 | Borneo Catshark | *Apristurus platyrhynchus* |
 | Borneo River Shark | *Glyphis fowlerae* |
@@ -16706,6 +17637,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Brown Shyshark | *Haploblepharus fuscus* |
 | Brown Smooth-hound | *Mustelus henlei* |
 | Bull Shark | *Carcharhinus leucas* |
+| Bull Shark (Carcharhinus Leucas) | *Carcharhinus Leucas) (Carcharhinus leucas* |
 | Caribbean Reef Shark | *Carcharhinus perezii* |
 | Caribbean Sharpnose Shark | *Rhizoprionodon porosus* |
 | Chain Catshark | *Scyliorhinus retifer* |
@@ -16730,9 +17662,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Ghost Catshark | *Apristurus manis* |
 | Graceful Catshark | *Proscyllium habereri* |
 | Graceful Shark | *Carcharhinus amblyrhynchoides* |
+| Great Hammerhead | *Sphyrna mokarran* |
+| Great Hammerhead (Sphyrna Mokarran) | *Sphyrna Mokarran) (Sphyrna mokarran* |
 | Great Hammerhead Shark | *Sphyrna mokarran* |
 | Grey Gummy Shark | *Mustelus ravidus* |
 | Grey Reef Shark | *Carcharhinus amblyrhynchos* |
+| Grey Reef Shark (Carcharhinus Amblyrhynchos) | *Carcharhinus Amblyrhynchos) (Carcharhinus amblyrhynchos* |
 | Grey Sharpnose Shark | *Rhizoprionodon oligolinx* |
 | Gummy Shark | *Mustelus antarcticus* |
 | Hardnose Shark | *Carcharhinus macloti* |
@@ -16763,6 +17698,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Northern River Shark | *Glyphis garricki* |
 | Nursehound | *Scyliorhinus stellaris* |
 | Oceanic Whitetip Shark | *Carcharhinus longimanus* |
+| Oceanic Whitetip Shark (Carcharhinus Longimanus) | *Carcharhinus Longimanus) (Carcharhinus longimanus* |
 | Ornate Topeshark | *Hemitriakis complicofasciata* |
 | Pacific Sharpnose Shark | *Rhizoprionodon longurio* |
 | Pacific Smalltail Shark | *Carcharhinus cerdale* |
@@ -16786,6 +17722,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Sarawak Pygmy Swell Shark | *Cephaloscyllium sarawakense* |
 | Scalloped Bonnethead | *Sphyrna corona* |
 | Scalloped Hammerhead | *Sphyrna lewini* |
+| Scalloped Hammerhead (Sphyrna Lewini) | *Sphyrna Lewini) (Sphyrna lewini* |
 | Scoophead | *Sphyrna media* |
 | Sharptooth Houndshark | *Triakis megalopterus* |
 | Sickefin Lemon Shark | *Negaprion acutidens* |
@@ -16821,20 +17758,24 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Swellshark | *Cephaloscyllium ventriosum* |
 | Tiger Catshark | *Halaelurus natalensis* |
 | Tiger Shark | *Galeocerdo cuvier* |
+| Tiger Shark (Galeocerdo Cuvier) | *Galeocerdo Cuvier) (Galeocerdo cuvier* |
 | Tope Shark | *Galeorhinus galeus* |
 | Western Spotted Gummy Shark | *Mustelus stevensi* |
 | Whiskery Shark | *Furgaleus macki* |
 | White-fin Smooth-hound | *Mustelus widodoi* |
 | White-margin Fin Hound Shark | *Mustelus albipinnis* |
+| Whitecheek Shark | *Carcharhinus coatesi* |
 | Whitecheek Shark | *Carcharhinus dussumieri* |
+| Whitecheek Shark | *Carcharhinus tjutjot* |
 | Whitefin Swellshark | *Cephaloscyllium albipinnum* |
 | Whitefin Topeshark | *Hemitriakis leucoperiptera* |
 | Whitenose Shark | *Nasolamia velox* |
 | Whitespotted Smooth-hound | *Mustelus palumbes* |
 | Whitetip Reef Shark | *Triaenodon obesus* |
+| Whitetip Reef Shark (Triaenodon Obesus) | *Triaenodon Obesus) (Triaenodon obesus* |
 | Yellowspotted Catshark | *Scyliorhinus capensis* |
 
-### • Centrarchiformes (144)
+### • Centrarchiformes (149)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -16849,6 +17790,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Barred Flagtail | *Kuhlia mugil* |
 | Barred Grunter | *Amniataba percoides* |
 | Barred Knifejaw | *Oplegnathus fasciatus* |
+| Bartram's Bass | *Micropterus cf. coosae MRB-2014* |
 | Bastard Trumpeter | *Latridopsis forsteri* |
 | Bermuda Sea Chub | *Kyphosus sectatrix* |
 | Bidyan Perch | *Bidyanus bidyanus* |
@@ -16865,6 +17807,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Blue-bronze Sea Chub | *Kyphosus analogus* |
 | Bluebarred Pygmy Sunfish | *Elassoma okatie* |
 | Bluegill | *Lepomis macrochirus* |
+| Bluegill (Lepomis Macrochirus) | *Lepomis Macrochirus) (Lepomis macrochirus* |
 | Brassy Chub | *Kyphosus vaigiensis* |
 | Brown Chub | *Kyphosus bigibbus* |
 | Butler's Grunter | *Syncomistes butleri* |
@@ -16902,6 +17845,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Khaki Grunter | *Hephaestus tulliensis* |
 | Knifejaw | *Oplegnathus woodwardi* |
 | Largemouth Bass | *Micropterus salmoides* |
+| Largemouth Bass (Micropterus Salmoides) | *Micropterus Salmoides) (Micropterus salmoides* |
 | Largescale Blackfish | *Girella punctata* |
 | Largescaled Terapon | *Terapon theraps* |
 | Leathery Grunter | *Scortum hillii* |
@@ -16944,12 +17888,14 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Silver Bream | *Bidyanus welchi* |
 | Silver Drummer | *Kyphosus sydneyanus* |
 | Silver Grunter | *Mesopristes argenteus* |
+| Silver Perch | *Leiopotherapon plumbeus* |
 | Silver Sweep | *Scorpis lineolata* |
 | Six-lined Trumpeter | *Pelates sexlineatus* |
 | Sixband Hawkfish | *Isocirrhitus sexfasciatus* |
 | Small-headed Grunter | *Scortum parviceps* |
 | Small-scaled Terapon | *Terapon puta* |
 | Smallmouth Bass | *Micropterus dolomieu* |
+| Smallmouth Bass (Micropterus Dolomieu) | *Micropterus Dolomieu) (Micropterus dolomieu* |
 | Sooty Grunter | *Hephaestus fuliginosus* |
 | Spangled Perch | *Leiopotherapon unicolor* |
 | Spotted Bass | *Micropterus punctulatus* |
@@ -16983,18 +17929,20 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Zebra Fish | *Girella zebra* |
 | Zebra-perch Sea Chub | *Kyphosus azureus* |
 
-### • Ceratodontiformes (6)
+### • Ceratodontiformes (8)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Australian Lungfish | *Neoceratodus forsteri* |
+| Australian Lungfish (Neoceratodus Forsteri) | *Neoceratodus Forsteri) (Neoceratodus forsteri* |
 | Gilled Lungfish | *Protopterus amphibius* |
 | Marbled Lungfish | *Protopterus aethiopicus* |
+| Marbled Lungfish (Protopterus Aethiopicus) | *Protopterus Aethiopicus) (Protopterus aethiopicus* |
 | Slender Lungfish | *Protopterus dolloi* |
 | South American Lungfish | *Lepidosiren paradoxa* |
 | West African Lungfish | *Protopterus annectens* |
 
-### • Chaetodontiformes (133)
+### • Chaetodontiformes (135)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -17023,6 +17971,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Chevron Butterflyfish | *Chaetodon trifascialis* |
 | Common Ponyfish | *Leiognathus equula* |
 | Copperband Butterflyfish | *Chelmon rostratus* |
+| Copperband Butterflyfish (Chelmon Rostratus) | *Chelmon Rostratus) (Chelmon rostratus* |
 | Crochet Butterflyfish | *Chaetodon guentheri* |
 | Decorated Ponyfish | *Nuchequula decora* |
 | Deep Pugnose Ponyfish | *Deveximentum ruconius* |
@@ -17100,6 +18049,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Slender Ponyfish | *Equulites elongatus* |
 | Smalltoothed Ponyfish | *Gazza achlamys* |
 | Speckled Butterflyfish | *Chaetodon citrinellus* |
+| Splendid Ponyfish | *Eubleekeria splendens* |
 | Splendid Ponyfish | *Leiognathus philippinus* |
 | Spot-nape Butterflyfish | *Chaetodon oxycephalus* |
 | Spot-tail Butterflyfish | *Chaetodon ocellicaudus* |
@@ -17132,7 +18082,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellowhead Butterflyfish | *Chaetodon xanthocephalus* |
 | Yellowspotted Ponyfish | *Nuchequula flavaxilla* |
 
-### • Characiformes (122)
+### • Characiformes (133)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -17157,6 +18107,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Buenos Aires Tetra | *Psalidodon anisitsi* |
 | Calmon's Piranha | *Pristobrycon calmoni* |
 | Cardinal Tetra | *Paracheirodon axelrodi* |
+| Cardinal Tetra (Paracheirodon Axelrodi) | *Paracheirodon Axelrodi) (Paracheirodon axelrodi* |
 | Carp Headstander | *Cyphocharax magdalenae* |
 | Catemaco Characin | *Astyanax caballeroi* |
 | Characin | *Alestes dentex* |
@@ -17166,6 +18117,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Darter Characin | *Characidium fasciatum* |
 | Darter Characine | *Apareiodon affinis* |
 | Disk Tetra | *Myleus schomburgkii* |
+| Dorado | *Salminus brasiliensis* |
 | Dragonfin Tetra | *Pseudocorynopoma doriae* |
 | Elongate Hatchetfish | *Triportheus elongatus* |
 | Elongate Tigerfish | *Hydrocynus forskahlii* |
@@ -17178,6 +18130,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Glass Tetra | *Bario oligolepis* |
 | Glowlight Tetra | *Hemigrammus erythrozonus* |
 | Golden Dorado | *Salminus brasiliensis* |
+| Golden Dorado (Salminus Brasiliensis) | *Salminus Brasiliensis) (Salminus brasiliensis* |
 | Golden Mylossoma | *Mylossoma aureum* |
 | Golden Pencilfish | *Nannostomus beckfordi* |
 | Green Neon Tetra | *Paracheirodon simulans* |
@@ -17191,10 +18144,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Mexican Tetra | *Astyanax mexicanus* |
 | Mimic Scale-eating Tetra | *Deuterodon heterostomus* |
 | Moon Fish | *Citharinus citharus* |
+| Moon Fish | *Citharinus latus* |
 | Mountain Stream Sardine | *Hemibrycon taeniurus* |
 | Muckfish | *Tarumania walkerae* |
 | Naked Characin | *Gymnocharacinus bergii* |
 | Neon Tetra | *Paracheirodon innesi* |
+| Neon Tetra (Paracheirodon Innesi) | *Paracheirodon Innesi) (Paracheirodon innesi* |
 | Netted Prochilod | *Prochilodus reticulatus* |
 | Niger Tetra | *Arnoldichthys spilopterus* |
 | Nurse Tetra | *Brachyalestes nurse* |
@@ -17206,11 +18161,15 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Payara | *Hydrolycus scomberoides* |
 | Penguinfish | *Thayeria obliqua* |
 | Pike Characin | *Acestrorhynchus microlepis* |
+| Pike Characin | *Oligosarcus hepsetus* |
+| Pike Characin | *Oligosarcus jenynsii* |
 | Pinktail Chalceus | *Chalceus macrolepidotus* |
 | Pirambeba | *Serrasalmus humeralis* |
 | Pirapitinga | *Piaractus brachypomus* |
+| Pirapitinga (Piaractus Brachypomus) | *Piaractus Brachypomus) (Piaractus brachypomus* |
 | Rainbow Tetra | *Nematobrycon lacortei* |
 | Red-bellied Piranha | *Pygocentrus nattereri* |
+| Red-bellied Piranha (Pygocentrus Nattereri) | *Pygocentrus Nattereri) (Pygocentrus nattereri* |
 | Redeye Piranha | *Serrasalmus rhombeus* |
 | Redeye Tetra | *Bario sanctaefilomenae* |
 | Redfin Robber | *Brachyalestes affinis* |
@@ -17241,11 +18200,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Striped Headstander | *Anostomus anostomus* |
 | Striped Pike-characin | *Boulengerella lateristriga* |
 | Striped Robber | *Brycinus lateralis* |
+| Tambacu | *Piaractus mesopotamicus x Colossoma macropomum* |
 | Tambaqui | *Colossoma macropomum* |
 | Tanzanian Tigerfish | *Hydrocynus tanzaniae* |
 | Threespot Leporinus | *Leporinus friderici* |
 | Tiger-fish | *Hydrocynus brevis* |
 | Tigerfish | *Hydrocynus vittatus* |
+| Tigerfish (Hydrocynus Vittatus) | *Hydrocynus Vittatus) (Hydrocynus vittatus* |
 | Torpedo Robber | *Alestes macrophthalmus* |
 | Trahira | *Hoplias malabaricus* |
 | Triangle Glass Tetra | *Protocheirodon pi* |
@@ -17259,7 +18220,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yelow Tetra | *Hyphessobrycon bifasciatus* |
 | Yucatan Tetra | *Astyanax altior* |
 
-### • Chimaeriformes (27)
+### • Chimaeriformes (28)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -17288,10 +18249,11 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Southern Chimaera | *Chimaera fulva* |
 | Spookfish | *Hydrolagus mitsukurii* |
 | Spotted Ratfish | *Hydrolagus colliei* |
+| Spotted Ratfish (Hydrolagus Colliei) | *Hydrolagus Colliei) (Hydrolagus colliei* |
 | Supap's Shortnose Chimaera | *Chimaera supapae* |
 | The Falkor Chimaera | *Chimaera didierae* |
 
-### • Cichliformes (168)
+### • Cichliformes (176)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -17316,6 +18278,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Blackthroat Cichlid | *Amphilophus macracanthus* |
 | Bloyet's Haplo | *Astatotilapia bloyeti* |
 | Blue Acara | *Andinoacara pulcher* |
+| Blue Discus | *Symphysodon aequifasciata* |
 | Blue Discus | *Symphysodon aequifasciatus* |
 | Blue Mbuna | *Labeotropheus fuelleborni* |
 | Blue Streak Hap | *Labidochromis caeruleus* |
@@ -17346,8 +18309,10 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Fissi | *Sarotherodon caroli* |
 | Flavescent Peacock Cichlid | *Aulonocara stuartgranti* |
 | Flier Cichlid | *Archocentrus centrarchus* |
+| Flowerhorn Cichlid | *Cichlasomatinae hybrid sp. 'flowerhorn'* |
 | Freckled Cichlid | *Rheoheros lentiginosus* |
 | Freshwater Angelfish | *Pterophyllum scalare* |
+| Freshwater Angelfish (Pterophyllum Scalare) | *Pterophyllum Scalare) (Pterophyllum scalare* |
 | Giant Cichlid | *Boulengerochromis microlepis* |
 | Giant Haplochromis | *Hemitilapia oxyrhynchus* |
 | Golden Julie | *Julidochromis ornatus* |
@@ -17400,6 +18365,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Orange Chromide | *Pseudetroplus maculatus* |
 | Orinoco Eartheater | *Biotodoma wavrini* |
 | Oscar | *Astronotus ocellatus* |
+| Oscar (Astronotus Ocellatus) | *Astronotus Ocellatus) (Astronotus ocellatus* |
 | Otjikoto Tilapia | *Tilapia guinasana* |
 | Pantanal Eartheater | *Satanoperca pappaterra* |
 | Pantano Cichlid | *Cincelichthys pearsei* |
@@ -17416,6 +18382,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Rainbow Krib | *Pelvicachromis pulcher* |
 | Red Devil | *Amphilophus labiatus* |
 | Red Empress Cichlid | *Protomelas similis* |
+| Red Tilapia | *Oreochromis sp. YC-2004* |
+| Red Tilapia | *Oreochromis sp. YCC-2008* |
 | Redbelly Tilapia | *Coptodon zillii* |
 | Redbreast Tilapia | *Coptodon rendalli* |
 | Redhead Cichlid | *Vieja melanura* |
@@ -17423,6 +18391,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Redstriped Eartheater | *Geophagus surinamensis* |
 | River Patwa | *Chaetobranchus flavescens* |
 | Royal Blue Hap | *Otopharynx heterodon* |
+| Ruby Red Peacock | *Aulonocara sp. 'Rubescens'* |
 | Rufigi Tilapia | *Oreochromis urolepis* |
 | Saddle Cichlid | *Aequidens tetramerus* |
 | San Domingo Cichlid | *Thorichthys callolepis* |
@@ -17449,6 +18418,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Three Spotted Tilapia | *Oreochromis andersonii* |
 | Threespot Eartheater | *Satanoperca daemon* |
 | Threespot Torpedo | *Exochochromis anagenys* |
+| Tigerfish | *Rhamphochromis longiceps* |
 | Topaz Cichlid | *Amatitlania myrnae* |
 | Turquoise Severum | *Heros efasciatus* |
 | Twoband Cichlid | *Vieja bifasciata* |
@@ -17464,7 +18434,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellowjacket Cichlid | *Parachromis friedrichsthalii* |
 | Zebra Mbuna | *Maylandia zebra* |
 
-### • Clupeiformes (225)
+### • Clupeiformes (228)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -17484,6 +18454,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Argentine Menhaden | *Brevoortia pectinata* |
 | Atlantic Anchoveta | *Cetengraulis edentulus* |
 | Atlantic Herring | *Clupea harengus* |
+| Atlantic Herring (Clupea Harengus) | *Clupea Harengus) (Clupea harengus* |
 | Atlantic Menhaden | *Brevoortia tyrannus* |
 | Atlantic Sabretooth Anchovy | *Lycengraulis grossidens* |
 | Atlantic Thread Herring | *Opisthonema oglinum* |
@@ -17552,6 +18523,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Elongate Ilisha | *Ilisha elongata* |
 | European Anchovy | *Engraulis encrasicolus* |
 | European Pilchard | *Sardina pilchardus* |
+| European Pilchard (Sardina Pilchardus) | *Sardina Pilchardus) (Sardina pilchardus* |
+| European Sardine | *Sardina pilchardus* |
 | European Sprat | *Sprattus sprattus* |
 | Falkland Sprat | *Sprattus fuegensis* |
 | False Herring | *Harengula clupeola* |
@@ -17694,14 +18667,16 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellowfin River Pellona | *Pellona flavipinnis* |
 | Zabaleta Anchovy | *Anchovia clupeoides* |
 
-### • Coelacanthiformes (2)
+### • Coelacanthiformes (4)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Coelacanth | *Latimeria chalumnae* |
+| Indonesian Coelacanth | *Latimeria menadoensis* |
 | Menado Coelacanth | *Latimeria menadoensis* |
+| West Indian Ocean Coelacanth (Latimeria Chalumnae) | *Latimeria Chalumnae) (Latimeria chalumnae* |
 
-### • Cypriniformes (851)
+### • Cypriniformes (894)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -17713,7 +18688,16 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Alabama Hog Sucker | *Hypentelium etowanum* |
 | Alabama Shiner | *Cyprinella callistia* |
 | Albanian Roach | *Pachychilon pictum* |
+| Algerian Barb | *Carasobarbus moulouyensis* |
+| Algerian Barb | *Luciobarbus antinorii* |
+| Algerian Barb | *Luciobarbus biscarensis* |
+| Algerian Barb | *Luciobarbus callensis* |
+| Algerian Barb | *Luciobarbus issenensis* |
+| Algerian Barb | *Luciobarbus ksibi* |
+| Algerian Barb | *Luciobarbus labiosus* |
 | Algerian Barb | *Luciobarbus lepineyi* |
+| Algerian Barb | *Luciobarbus massaensis* |
+| Algerian Barb | *Luciobarbus pallaryi* |
 | Almorha Loach | *Botia almorhae* |
 | Altai Osman | *Oreoleuciscus potanini* |
 | Alvord Chub | *Siphateles alvordensis* |
@@ -17742,6 +18726,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Assuan Labeo | *Labeo horie* |
 | Ataran Zipper Loach | *Paracanthocobitis pictilis* |
 | Attentive Carplet | *Amblypharyngodon chakaiensis* |
+| Attentive Carplet | *Amblypharyngodon melettinus* |
 | Aztec Shiner | *Aztecula sallaei* |
 | Balitora Minnow | *Psilorhynchus balitora* |
 | Balsas Shiner | *Graodus boucardi* |
@@ -17753,6 +18738,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Barbel Steed | *Hemibarbus labeo* |
 | Barna Baril | *Opsarius barna* |
 | Barred Baril | *Barilius barila* |
+| Barred Baril | *Opsarius barnoides* |
 | Bata | *Labeo bata* |
 | Bavispe Sucker | *Catostomus leopoldi* |
 | Beaked Dace | *Leuciscus burdigalensis* |
@@ -17811,6 +18797,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Blue Shiner | *Cyprinella caerulea* |
 | Blue Sucker | *Cycleptus elongatus* |
 | Bluefin Stoneroller | *Campostoma pauciradii* |
+| Bluehead Chub | *Nocomis bellicus* |
 | Bluehead Chub | *Nocomis leptocephalus* |
 | Bluehead Shiner | *Pteronotropis hubbsi* |
 | Bluehead Sucker | *Pantosteus discobolus* |
@@ -17829,6 +18816,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Borneo Algae-eater | *Gyrinocheilus pustulosus* |
 | Borneo Loach | *Pangio shelfordii* |
 | Bottego's Minnow | *Neobola bottegoi* |
+| Brassy Jumprock | *Moxostoma sp. 'brassy jumprock'* |
 | Brassy Minnow | *Hybognathus hankinsoni* |
 | Bridgelip Sucker | *Pantosteus columbianus* |
 | Brilliant Rasbora | *Rasbora einthovenii* |
@@ -17865,6 +18853,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Chameleon Loach | *Syncrossus beauforti* |
 | Channel Shiner | *Notropis wickliffi* |
 | Chapala Chub | *Yuriria chapalae* |
+| Cheat Minnow | *Nocomis micropogon x Rhinichthys cataractae* |
 | Checkered Barb | *Oliotius oligolepis* |
 | Cherry Barb | *Puntius titteya* |
 | Cherry-fin Loach | *Paracanthocobitis rubidipinnis* |
@@ -17872,6 +18861,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Chihuahua Chub | *Gila nigrescens* |
 | Chihuahua Shiner | *Notropis chihuahua* |
 | Chinese Barb | *Barbodes semifasciolatus* |
+| Chinese False Gudgeon | *Abbottina obtusirostris* |
 | Chinese False Gudgeon | *Abbottina rivularis* |
 | Chinese Lizard Gudgeon | *Saurogobio dabryi* |
 | Chinese Minnow | *Rhynchocypris oxycephala* |
@@ -17900,6 +18890,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Comely Shiner | *Notropis amoenus* |
 | Common Bream | *Abramis brama* |
 | Common Carp | *Cyprinus carpio* |
+| Common Carp (Cyprinus Carpio) | *Cyprinus Carpio) (Cyprinus carpio* |
 | Common Dace | *Leuciscus leuciscus* |
 | Common Marinka | *Schizothorax intermedius* |
 | Common Roach | *Rutilus frisii* |
@@ -17920,6 +18911,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Croatian Pijor | *Telestes croaticus* |
 | Crossed-fork Back Golden-line Fish | *Sinocyclocheilus furcodorsalis* |
 | Crucian Carp | *Carassius carassius* |
+| Crucian Carp (Carassius Carassius) | *Carassius Carassius) (Carassius carassius* |
 | Cuatro Cienegas Shiner | *Cyprinella xanthicara* |
 | Curmuca Barb | *Hypselobarbus curmuca* |
 | Cutlips Minnow | *Exoglossum maxillingua* |
@@ -17976,6 +18968,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Flagfin Shiner | *Pteronotropis signipinnis* |
 | Flannelmouth Sucker | *Catostomus latipinnis* |
 | Flatjaw Minnow | *Tampichthys mandibularis* |
+| Fluvial Eight-barbel Loach (Lefua sp. (sensu Hosoya 1993)) | *Lefua sp. (sensu Hosoya 1993)* |
 | Fluvial Shiner | *Notropis edwardraneyi* |
 | Flying Barb | *Esomus danrica* |
 | Flying Fox | *Epalzeorhynchos kalopterus* |
@@ -17990,6 +18983,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Giant Sharkminnow | *Osteochilus schlegelii* |
 | Gibbous Shiner | *Cyprinella garmani* |
 | Gila Chub | *Gila intermedia* |
+| Giraffe Devario | *Devario sp. 'giraffe'* |
 | Glass Barb | *Parachela oxygastroides* |
 | Glass-barb | *Pethia guganio* |
 | Glowlight Rasbora | *Trigonostigma hengeli* |
@@ -18004,8 +18998,10 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Goldfin Tinfoil Barb | *Hypsibarbus malcolmi* |
 | Goldfinned Barb | *Puntius sachsii* |
 | Goldfish | *Carassius auratus* |
+| Goldfish (Carassius Auratus) | *Carassius Auratus) (Carassius auratus* |
 | Gongota Loach | *Canthophrys gongota* |
 | Grass Carp | *Ctenopharyngodon idella* |
+| Grass Carp (Ctenopharyngodon Idella) | *Ctenopharyngodon Idella) (Ctenopharyngodon idella* |
 | Gravel Chub | *Erimystax x-punctatus* |
 | Gray Redhorse | *Moxostoma congestum* |
 | Gray's Stone Loach | *Balitora brucei* |
@@ -18033,6 +19029,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Highfin Shiner | *Notropis altipinnis* |
 | Highland Shiner | *Notropis micropteryx* |
 | Highscale Shiner | *Notropis hypsilepis* |
+| Hikari Danio | *Danio sp. 'Hikari'* |
 | Hina-ishi-doro | *Cobitis shikokuensis* |
 | Hitch | *Lavinia exilicauda* |
 | Hora Danio | *Devario shanensis* |
@@ -18065,6 +19062,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Kalabans | *Bangana dero* |
 | Kalbar Rasbora | *Rasbora kalbarensis* |
 | Kantaka Barb | *Kantaka brevidorsalis* |
+| Kap-ping Chub | *Opsariichthys sp. GP* |
 | Karasu Sha Kuli | *Alburnus timarensis* |
 | Kashgarian Loach | *Triplophysa yarkandensis* |
 | Kashmir Latia | *Tariqilabeo diplochilus* |
@@ -18096,6 +19094,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Kuban's Nase | *Chondrostoma kubanicum* |
 | Kunar Snowtrout | *Schizothorax labiatus* |
 | Kunming Snout Trout | *Schizothorax grahami* |
+| Kura Barbel | *Barbus cyri* |
 | Kura Barbel | *Barbus lacerta* |
 | Kura Bleak | *Alburnus filippii* |
 | Kura Nase | *Chondrostoma cyri* |
@@ -18200,7 +19199,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Mursa | *Luciobarbus mursa* |
 | Nakdong Nose Loach | *Koreocobitis naktongensis* |
 | Narayan Barb | *Pethia narayani* |
+| Narayan Barb | *Pethia setnai* |
 | Nash's Barb | *Osteochilus nashii* |
+| Natural Gynogenetic Red Crucian Carp | *natural gynogenetic Carassius auratus red var.* |
 | Nazas Chub | *Gila conspersa* |
 | Nazas Sucker | *Pantosteus nebuliferus* |
 | Neglected Bitterling | *Hemigrammocypris neglecta* |
@@ -18230,6 +19231,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Orangetail Shiner | *Pteronotropis merlini* |
 | Oregon Chub | *Oregonichthys crameri* |
 | Oriental Weatherfish | *Misgurnus anguillicaudatus* |
+| Ornamental Carp X Red Crucian Carp | *Cyprinus carpio x Carassius auratus red var.* |
 | Ouchita Mountain Shiner | *Lythrurus snelsoni* |
 | Owens Sucker | *Catostomus fumeiventris* |
 | Ozark Minnow | *Notropis nubilus* |
@@ -18258,6 +19260,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Pigmouth Carp | *Labeo kontius* |
 | Pike Asp | *Aspiolucius esocinus* |
 | Pinewoods Shiner | *Lythrurus matutinus* |
+| Pingtung Stripe Dace | *Candidia sp. FG* |
 | Plains Minnow | *Hybognathus placitus* |
 | Plateau Shiner | *Cyprinella lepida* |
 | Pool Barb | *Puntius sophore* |
@@ -18280,6 +19283,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Reba Carp | *Cirrhinus reba* |
 | Red Algae Eater | *Crossocheilus langei* |
 | Red Canarese Barb | *Hypselobarbus thomassi* |
+| Red Crucian Carp X Common Carp | *Carassius auratus red var. x Cyprinus carpio* |
 | Red River Shiner | *Notropis bairdi* |
 | Red Shiner | *Cyprinella lutrensis* |
 | Red Tailed Tinfoil | *Barbonymus altus* |
@@ -18296,6 +19300,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Redspot Barb | *Enteromius kerstenii* |
 | Redspot Chub | *Nocomis asper* |
 | Redtail Barb | *Discherodontus ashmeadi* |
+| Redtail Barb | *Enteromius gurneyi* |
 | Redtail Botia | *Yasuhikotakia modesta* |
 | Redtail Sharkminnow | *Epalzeorhynchos bicolor* |
 | Relict Dace | *Relictus solitarius* |
@@ -18323,6 +19328,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Robust Redhorse | *Moxostoma robustum* |
 | Rock Carp | *Procypris rabaudi* |
 | Rocky Shiner | *Notropis suttkusi* |
+| Rohu | *Labeo caeruleus* |
 | Rohu | *Labeo rohita* |
 | Rosefin Rasbora | *Rasbora dusonensis* |
 | Rosefin Shiner | *Lythrurus ardens* |
@@ -18370,6 +19376,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Shorttail Chub | *Gila brevicauda* |
 | Siamese Algae Eater | *Crossocheilus atrilimes* |
 | Siamese Algae-eater | *Gyrinocheilus aymonieri* |
+| Siamese Flying Fox | *Crossocheilus oblongus* |
 | Siamese Flying Fox | *Crossocheilus siamensis* |
 | Siamese Mud Carp | *Henicorhynchus siamensis* |
 | Siberian Dace | *Leuciscus baicalensis* |
@@ -18377,6 +19384,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Siberian Spiny Loach | *Cobitis sinensis* |
 | Siberian Stone Loach | *Barbatula toni* |
 | Sicklefin Chub | *Macrhybopsis meeki* |
+| Sicklefin Redhorse | *Moxostoma sp. 'sicklefin redhorse'* |
 | Sidestripe Rasbora | *Rasbora paviana* |
 | Signal Barb | *Labiobarbus festivus* |
 | Silver Carp | *Hypophthalmichthys molitrix* |
@@ -18385,6 +19393,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Silver Flying Fox | *Crossocheilus reticulatus* |
 | Silver Loach | *Yasuhikotakia lecontei* |
 | Silver Rasbora | *Rasbora argyrotaenia* |
+| Silver Rasbora | *Rasbora myersi* |
 | Silver Razorbelly Minnow | *Salmostoma acinaces* |
 | Silver Redhorse | *Moxostoma anisurum* |
 | Silver Sharkminnow | *Osteochilus hasseltii* |
@@ -18398,6 +19407,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Skygazer Shiner | *Notropis uranoscopus* |
 | Slender Chub | *Erimystax cahni* |
 | Slender Rasbora | *Rasbora daniconius* |
+| Slender Rasbora | *Rasbora labiosa* |
 | Slim Minnow | *Pimephales tenellus* |
 | Small Eye Golden-line Fish | *Sinocyclocheilus microphthalmus* |
 | Small Scale Mud Carp | *Cirrhinus microlepis* |
@@ -18437,6 +19447,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Spring Pijor | *Telestes fontinalis* |
 | Steelcolor Shiner | *Cyprinella whipplei* |
 | Stigma Barb | *Puntius arenatus* |
+| Stone Loach | *Barbatula barbatula* |
+| Stone Loach | *Lefua nikkonis* |
 | Stone Loach | *Schistura rupecula* |
 | Stone Moroko | *Pseudorasbora parva* |
 | Stone Roller | *Tariqilabeo latius* |
@@ -18444,6 +19456,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Stonelapping Minnow | *Garra cambodgiensis* |
 | Straightfin Barb | *Enteromius paludinosus* |
 | Streamline Chub | *Erimystax dissimilis* |
+| Striped Barb | *Desmopuntius johorensis* |
 | Striped Barb | *Puntius eugrammus* |
 | Striped Flying Barb | *Esomus metallicus* |
 | Striped Jumprock | *Moxostoma rupiscartes* |
@@ -18474,6 +19487,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Tepehuan Shiner | *Cyprinella alvarezdelvillari* |
 | Terek Barbel | *Barbus ciscaucasicus* |
 | Terek Nase | *Chondrostoma oxyrhynchum* |
+| Tetraploid Hybrids of Red Crucian Carp and Common Carp | *Carassius auratus x Cyprinus carpio* |
+| Tetraploid Red Crucian Carp X Blunt Snout Bream | *tetraploid Carassius auratus red var. x Megalobrama amblycephala* |
 | Texas Shiner | *Notropis amabilis* |
 | Thai Mahseer | *Tor tambroides* |
 | Thickhead Chub | *Opsariichthys pachycephalus* |
@@ -18498,6 +19513,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Transcaucasian Barb | *Capoeta capoeta* |
 | Tricolor Sharkminnow | *Balantiocheilos melanopterus* |
 | Tricolor Shiner | *Cyprinella trichroistia* |
+| Triploid Crucian Carp | *Carassius carassius triploid* |
+| Triploid Hybrids of Tetraploid and Japanese Crucian Carp | *Carassius auratus x Cyprinus carpio x Carassius cuvieri* |
 | Trout Barb | *Raiamas bola* |
 | Tui Chub | *Siphateles bicolor* |
 | Twee Redfin | *Sedercypris erubescens* |
@@ -18553,11 +19570,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Zayan Barbel | *Luciobarbus zayanensis* |
 | Zebra Loach | *Botia striata* |
 | Zebrafish | *Danio rerio* |
+| Zebrafish (Danio Rerio) | *Danio Rerio) (Danio rerio* |
 | Zenitanago | *Acheilognathus typus* |
 | Zeravshan Dace | *Leuciscus lehmanni* |
 | Zhungarian Ide | *Leuciscus merzbacheri* |
 
-### • Cyprinodontiformes (259)
+### • Cyprinodontiformes (262)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -18655,11 +19673,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Green Panchax | *Aplocheilus blockii* |
 | Green Rivulus | *Rivulus cylindraceus* |
 | Green Swordtail | *Xiphophorus hellerii* |
+| Green Swordtail (Xiphophorus Hellerii) | *Xiphophorus Hellerii) (Xiphophorus hellerii* |
 | Guatemalan Killifish | *Profundulus guatemalensis* |
 | Guinean Killifish | *Archiaphyosemion guineense* |
 | Gulf Gambusia | *Gambusia vittata* |
 | Gulf Killifish | *Fundulus grandis* |
 | Guppy | *Poecilia reticulata* |
+| Guppy (Poecilia Reticulata) | *Poecilia Reticulata) (Poecilia reticulata* |
 | Headwater Killifish | *Profundulus candalarius* |
 | Headwater Livebearer | *Poeciliopsis monacha* |
 | Heinemann's Killifish | *Aphyosemion heinemanni* |
@@ -18722,6 +19742,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Olive Skiffia | *Skiffia lermae* |
 | Olmec Priapella | *Priapella olmecae* |
 | Onesided Livebearer | *Jenynsia lineata* |
+| Onesided Livebearer | *Jenynsia onca* |
 | Pacific Foureyed Fish | *Anableps dowii* |
 | Pacific Molly | *Poecilia butleri* |
 | Pahrump Poolfish | *Empetrichthys latos* |
@@ -18828,15 +19849,17 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Bramble Shark | *Echinorhinus brucus* |
 | Prickly Shark | *Echinorhinus cookei* |
 
-### • Elopiformes (6)
+### • Elopiformes (8)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Atlantic Tarpon | *Megalops atlanticus* |
+| Atlantic Tarpon (Megalops Atlanticus) | *Megalops Atlanticus) (Megalops atlanticus* |
 | Hawaiian Ladyfish | *Elops hawaiensis* |
 | Indo-pacific Tarpon | *Megalops cyprinoides* |
 | Ladyfish | *Elops saurus* |
 | Pacific Ladyfish | *Elops affinis* |
+| Tarpon | *Megalops atlanticus* |
 | Tenpounder | *Elops machnata* |
 
 ### • Ephippiformes (11)
@@ -18855,7 +19878,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Spotted Sicklefish | *Drepane punctata* |
 | Tiera Batfish | *Platax teira* |
 
-### • Esociformes (9)
+### • Esociformes (11)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -18866,10 +19889,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Eastern Mudminnow | *Umbra pygmaea* |
 | European Mudminnow | *Umbra krameri* |
 | Muskellunge | *Esox masquinongy* |
+| Muskellunge (Esox Masquinongy) | *Esox Masquinongy) (Esox masquinongy* |
 | Northern Pike | *Esox lucius* |
+| Northern Pike (Esox Lucius) | *Esox Lucius) (Esox lucius* |
 | Southern Pike | *Esox flaviae* |
 
-### • Gadiformes (183)
+### • Gadiformes (189)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -18880,6 +19905,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Argentine Hake | *Merluccius hubbsi* |
 | Arrowtail | *Melanonus zugmayeri* |
 | Atlantic Cod | *Gadus morhua* |
+| Atlantic Cod (Gadus Morhua) | *Gadus Morhua) (Gadus morhua* |
 | Atlantic Tomcod | *Microgadus tomcod* |
 | Azores Rockling | *Gaidropsarus granti* |
 | Banded Whiptail | *Coelorinchus fasciatus* |
@@ -18924,6 +19950,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | East Siberian Cod | *Arctogadus borisovi* |
 | Eucla Cod | *Euclichthys polynemus* |
 | European Hake | *Merluccius merluccius* |
+| European Hake | *Merluccius vulgaris* |
 | False Graceful Whiptail | *Coelorinchus smithi* |
 | False Lance Codlet | *Bregmaceros pseudolanceolatus* |
 | Filamented Rattail | *Coryphaenoides filifer* |
@@ -18943,6 +19970,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Guenther's Grenadier | *Coryphaenoides guentheri* |
 | Gulf Hake | *Urophycis cirrata* |
 | Haddock | *Melanogrammus aeglefinus* |
+| Haddock (Melanogrammus Aeglefinus) | *Melanogrammus Aeglefinus) (Melanogrammus aeglefinus* |
 | Hakeling | *Physiculus fulvus* |
 | Hawknose Grenadier | *Coelorinchus oliverianus* |
 | Hollowsnout Grenadier | *Coelorinchus caelorhincus* |
@@ -19045,19 +20073,22 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Thickbeard Grenadier | *Coryphaenoides zaniophorus* |
 | Threadfin Grenadier | *Gadomus longifilis* |
 | Threadfin Rockling | *Gaidropsarus ensis* |
+| Three-bearded Rockling | *Gaidropsarus guttatus* |
 | Three-bearded Rockling | *Gaidropsarus vulgaris* |
 | Twelve-rayed Grenadier | *Nezumia duodecim* |
 | Two-barred Whiptail | *Coelorinchus biclinozonalis* |
 | Unicorn Grenadier | *Coelorinchus productus* |
 | Upturned Snout Rattail | *Coelorinchus mycterismus* |
 | Vaillant's Grenadier | *Bathygadus melanobranchus* |
+| Ventrifossa Fusca | *Ventrifossa fusca* |
+| Ventrifossa Fusca Okamura, 1982 | *Ventrifossa fusca* |
 | Walleye Pollock | *Gadus chalcogrammus* |
 | Western Softhead Grenadier | *Malacocephalus occidentalis* |
 | White Hake | *Urophycis tenuis* |
 | Whiting | *Merlangius merlangus* |
 | Whitson's Grenadier | *Macrourus whitsoni* |
 
-### • Galaxiiformes (27)
+### • Galaxiiformes (31)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -19079,12 +20110,16 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Koaro | *Galaxias brevipinnis* |
 | Little Galaxias | *Galaxiella toourtkoourt* |
 | Murray Jollytail | *Galaxias rostratus* |
+| Northern Galaxias | *Galaxias sp. 'northern'* |
 | Northland Mudfish | *Neochanna heleios* |
+| Pool Burn Galaxias (Galaxias sp. D (Allibone et al., 1996)) | *Galaxias sp. D (Allibone et al., 1996)* |
 | Shortjaw Kokopu | *Galaxias postvectis* |
+| Southern Flathead Galaxias | *Galaxias sp. 'southern'* |
 | Spotted Mountain Trout | *Galaxias truttaceus* |
 | Swan Galaxias | *Galaxias fontanus* |
 | Tasmanian Mudfish | *Galaxias cobitinis* |
 | Tasmanian Whitebait | *Lovettia sealii* |
+| Teviot Galaxias | *Galaxias sp. 'teviot'* |
 | Upland Longjaw Galaxias | *Galaxias prognathus* |
 | Western Minnow | *Galaxias occidentalis* |
 | Western Mud Minnow | *Galaxiella munda* |
@@ -19128,7 +20163,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Whipfin Silverbiddy | *Gerres filamentosus* |
 | Yellow Fin Mojarra | *Gerres cinereus* |
 
-### • Gobiiformes (577)
+### • Gobiiformes (584)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -19149,6 +20184,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Australian Spotted Gudgeon | *Mogurnda mogurnda* |
 | Balboa Goby | *Microgobius brevispinis* |
 | Banded Goby | *Amblygobius phalaena* |
+| Banded Goby | *Caffrogobius caffer* |
 | Banded Worm Goby | *Microdesmus dipus* |
 | Bandedtail Goby | *Evermannia zosterura* |
 | Bandfin Mangrove Goby | *Mugilogobius cavifrons* |
@@ -19216,6 +20252,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Bryan's Sand Dart | *Kraemeria bryani* |
 | Bucchich's Goby | *Gobius bucchichi* |
 | Bullseye Pygmy Goby | *Trimma tauroculum* |
+| Bumblebee Goby | *Brachygobius nunus* |
 | Bumblebee Goby | *Brachygobius xanthomelas* |
 | Bunagaya Goby | *Lentipes bunagaya* |
 | Burrowing Goby | *Croilia mossambica* |
@@ -19353,6 +20390,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Giant Pygmy Goby | *Trimma gigantum* |
 | Girdled Goby | *Priolepis cincta* |
 | Glass Goby | *Coryphopterus hyalinus* |
+| Glossogobius Intermedius | *Glossogobius intermedius* |
+| Glossogobius Intermedius Aurich, 1938 | *Glossogobius intermedius* |
 | Gold-specked Prawn-goby | *Ctenogobiops pomastictus* |
 | Gold-streaked Prawn-goby | *Ctenogobiops aurocingulus* |
 | Golden Goby | *Gobius auratus* |
@@ -19552,6 +20591,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Ridens Goby | *Bryaninops ridens* |
 | Rippled Coralgoby | *Gobiodon rivulatus* |
 | River Goby | *Awaous banana* |
+| River Goby | *Glossogobius callidus* |
 | Roatan Goby | *Varicus roatanensis* |
 | Robust Mangrove Goby | *Acentrogobius janthinopterus* |
 | Rock Goby | *Gobius paganellus* |
@@ -19668,6 +20708,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Triplespot Goby | *Oplopomus caninoides* |
 | Tropical Sand Goby | *Acentrogobius caninus* |
 | Tubenose Goby | *Proterorhinus marmoratus* |
+| Tubenose Goby | *Proterorhinus semilunaris* |
 | Tusk Goby | *Amoya signata* |
 | Tusked Goby | *Risor ruber* |
 | Twin Dwarfgoby | *Eviota fallax* |
@@ -19708,12 +20749,14 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellowstripe Wormfish | *Gunnellichthys viridescens* |
 | Yucatan Goby | *Gobiosoma yucatanum* |
 | Zebra Dwarfgoby | *Eviota zebrina* |
+| Zebra Goby | *Lythrypnus zebra* |
 | Zebra Goby | *Zebrus zebrus* |
 
-### • Gonorynchiformes (6)
+### • Gonorynchiformes (7)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
+| Beaked Salmon | *Gonorynchus gonorynchus* |
 | Beaked Salmon | *Gonorynchus greyi* |
 | Bighead Beaked Sandfish | *Gonorynchus abbreviatus* |
 | Hingemouth | *Phractolaemus ansorgii* |
@@ -19721,7 +20764,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Naked Shellear | *Cromeria nilotica* |
 | Sandfish | *Gonorynchus forsteri* |
 
-### • Gymnotiformes (7)
+### • Gymnotiformes (8)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -19729,11 +20772,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Black Ghost | *Apteronotus albifrons* |
 | Bluntnose Knifefish | *Brachyhypopomus brevirostris* |
 | Electric Eel | *Electrophorus electricus* |
+| Electric Eel (Electrophorus Electricus) | *Electrophorus Electricus) (Electrophorus electricus* |
 | Glass Knifefish | *Eigenmannia virescens* |
 | Mousetail Knife Fish | *Gymnorhamphichthys rondoni* |
 | Spotted Knifefish | *Gymnotus maculosus* |
 
-### • Heterodontiformes (7)
+### • Heterodontiformes (8)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -19743,14 +20787,16 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Mexican Hornshark | *Heterodontus mexicanus* |
 | Painted Hornshark | *Heterodontus marshallae* |
 | Port Jackson Shark | *Heterodontus portusjacksoni* |
+| Port Jackson Shark (Heterodontus Portusjacksoni) | *Heterodontus Portusjacksoni) (Heterodontus portusjacksoni* |
 | Zebra Bullhead Shark | *Heterodontus zebra* |
 
-### • Hexanchiformes (4)
+### • Hexanchiformes (5)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Bigeye Sixgill Shark | *Hexanchus nakamurai* |
 | Broadnose Sevengill Shark | *Notorynchus cepedianus* |
+| Broadnose Sevengill Shark (Notorynchus Cepedianus) | *Notorynchus Cepedianus) (Notorynchus cepedianus* |
 | Frilled Shark | *Chlamydoselachus anguineus* |
 | Sharpnose Sevengill Shark | *Heptranchias perlo* |
 
@@ -19810,21 +20856,25 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellowfin Soldierfish | *Myripristis chryseres* |
 | Yellowstriped Squirrelfish | *Neoniphon aurolineatus* |
 
-### • Istiophoriformes (11)
+### • Istiophoriformes (15)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
+| Atlantic Blue Marlin | *Makaira nigricans* |
 | Atlantic White Marlin | *Kajikia albida* |
 | Black Marlin | *Istiompax indica* |
 | Blue Marlin | *Makaira nigricans* |
+| Blue Marlin (Makaira Nigricans) | *Makaira Nigricans) (Makaira nigricans* |
 | Indo-Pacific Sailfish | *Istiophorus platypterus* |
 | Indo-pacific Blue Marlin | *Makaira mazara* |
+| Indo-pacific Sailfish (Istiophorus Platypterus) | *Istiophorus Platypterus) (Istiophorus platypterus* |
 | Longbill Spearfish | *Tetrapturus pfluegeri* |
 | Mediterranean Spearfish | *Tetrapturus belone* |
 | Roundscale Spearfish | *Tetrapturus georgii* |
 | Shortbill Spearfish | *Tetrapturus angustirostris* |
 | Striped Marlin | *Kajikia audax* |
 | Swordfish | *Xiphias gladius* |
+| Swordfish (Xiphias Gladius) | *Xiphias Gladius) (Xiphias gladius* |
 
 ### • Kurtiformes (151)
 
@@ -19982,7 +21032,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellow Cardinalfish | *Ostorhinchus luteus* |
 | Yellowstriped Cardinalfish | *Ostorhinchus cyanosoma* |
 
-### • Labriformes (327)
+### • Labriformes (334)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -20034,6 +21084,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Bluespotted Tuskfish | *Choerodon cauteroma* |
 | Bluespotted Wrasse | *Anampses caeruleopunctatus* |
 | Bluestreak Cleaner Wrasse | *Labroides dimidiatus* |
+| Bluestreak Cleaner Wrasse (Labroides Dimidiatus) | *Labroides Dimidiatus) (Labroides dimidiatus* |
 | Blunt-headed Wrasse | *Thalassoma amblycephalum* |
 | Bower's Parrotfish | *Chlorurus bowersi* |
 | Brazilian Wrasse | *Halichoeres brasiliensis* |
@@ -20073,6 +21124,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Corkwing Wrasse | *Symphodus melops* |
 | Crimson Cleaner Fish | *Suezichthys aylingi* |
 | Cryptic Wrasse | *Pteragogus cryptus* |
+| Cuckoo Wrasse | *Labrus mixtus* |
 | Cuckoo Wrasse | *Labrus ossifagus* |
 | Cunner | *Tautogolabrus adspersus* |
 | Cutribbon Wrasse | *Stethojulis interrupta* |
@@ -20119,6 +21171,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Gomon's Tuskfish | *Choerodon gomoni* |
 | Graphic Tuskfish | *Choerodon graphicus* |
 | Green Humphead Parrotfish | *Bolbometopon muricatum* |
+| Green Humphead Parrotfish (Bolbometopon Muricatum) | *Bolbometopon Muricatum) (Bolbometopon muricatum* |
 | Green Razorfish | *Xyrichtys splendens* |
 | Green Wrasse | *Halichoeres solorensis* |
 | Greenback Parrotfish | *Scarus trispinosus* |
@@ -20137,9 +21190,11 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Hawaiian Cleaner Wrasse | *Labroides phthirophagus* |
 | Hawaiian Sandy | *Novaculops woodi* |
 | Heavybeak Parrotfish | *Chlorurus gibbus* |
+| Heavybeak Parrotfish | *Chlorurus strongylocephalus* |
 | Herring Cale | *Olisthops cyanomelas* |
 | Hogfish | *Lachnolaimus maximus* |
 | Humphead Wrasse | *Cheilinus undulatus* |
+| Humphead Wrasse (Cheilinus Undulatus) | *Cheilinus Undulatus) (Cheilinus undulatus* |
 | Island Hogfish | *Bodianus insularis* |
 | Japanese Parrotfish | *Calotomus japonicus* |
 | Jewelled Wrasse | *Halichoeres lapillus* |
@@ -20266,6 +21321,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Striated Wrasse | *Pseudocheilinus evanidus* |
 | Strigate Parrotfish | *Sparisoma strigatum* |
 | Striped Parrotfish | *Scarus iseri* |
+| Striped Parrotfish | *Scarus zelindae* |
 | Stubby-fin Fairy Wrasse | *Cirrhilabrus humanni* |
 | Sunburnt Pigfish | *Bodianus solatus* |
 | Tail-spot Wrasse | *Halichoeres melanurus* |
@@ -20277,6 +21333,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Three-ribbon Wrasse | *Stethojulis strigiventer* |
 | Threebanded Razorfish | *Iniistius trivittatus* |
 | Threespot Wrasse | *Halichoeres trimaculatus* |
+| Threespot Wrasse | *Halichoeres trispilus* |
 | Timor Wrasse | *Halichoeres timorensis* |
 | Torpedo Wrasse | *Pseudocoris heteroptera* |
 | Tripletail Wrasse | *Cheilinus trilobatus* |
@@ -20314,32 +21371,42 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellowtail Parrotfish | *Scarus obishime* |
 | Zigzag Wrasse | *Halichoeres scapularis* |
 
-### • Lamniformes (12)
+### • Lamniformes (19)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Basking Shark | *Cetorhinus maximus* |
+| Basking Shark (Cetorhinus Maximus) | *Cetorhinus Maximus) (Cetorhinus maximus* |
 | Bigeye Sand Tiger | *Odontaspis noronhai* |
 | Bigeye Thresher | *Alopias superciliosus* |
 | Goblin Shark | *Mitsukurina owstoni* |
 | Great White Shark | *Carcharodon carcharias* |
+| Great White Shark (Carcharodon Carcharias) | *Carcharodon Carcharias) (Carcharodon carcharias* |
 | Longfin Mako Shark | *Isurus paucus* |
 | Megamouth Shark | *Megachasma pelagios* |
+| Megamouth Shark (Megachasma Pelagios) | *Megachasma Pelagios) (Megachasma pelagios* |
+| Pelagic Thresher | *Alopias pelagicus* |
 | Pelagic Thresher Shark | *Alopias pelagicus* |
+| Pelagic Thresher Shark (Alopias Pelagicus) | *Alopias Pelagicus) (Alopias pelagicus* |
 | Sand Tiger Shark | *Carcharias taurus* |
+| Sand Tiger Shark (Carcharias Taurus) | *Carcharias Taurus) (Carcharias taurus* |
 | Shortfin Mako Shark | *Isurus oxyrinchus* |
+| Shortfin Mako Shark (Isurus Oxyrinchus) | *Isurus Oxyrinchus) (Isurus oxyrinchus* |
 | Smalltooth Sand Tiger | *Odontaspis ferox* |
 | Thresher Shark | *Alopias vulpinus* |
 
-### • Lampriformes (16)
+### • Lampriformes (19)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Bigeye Pacific Opah | *Lampris megalopsis* |
 | Crested Oarfish | *Lophotus lacepede* |
+| Dealfish | *Trachipterus arcticus* |
 | Dealfish | *Trachipterus jacksonensis* |
 | East Atlantic Opah | *Lampris lauta* |
 | Giant Oarfish | *Regalecus glesne* |
+| Giant Oarfish (Regalecus Glesne) | *Regalecus Glesne) (Regalecus glesne* |
+| King of Herrings | *Regalecus glesne* |
 | King-of-the-salmon | *Trachipterus altivelis* |
 | North Atlantic Opah | *Lampris guttatus* |
 | Oarfish | *Regalecus russelii* |
@@ -20373,7 +21440,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Short Barbeled Grunter | *Hapalogenys nigripinnis* |
 | Siamese Tigerfish | *Datnioides pulcher* |
 
-### • Lophiiformes (91)
+### • Lophiiformes (93)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -20407,6 +21474,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Hairy Angler | *Caulophryne polynema* |
 | Hairy Whipnose | *Gigantactis cheni* |
 | Hedgehog Batfish | *Dibranchus erinaceus* |
+| Humpback Anglerfish | *Melanocetus johnsonii* |
+| Humpback Anglerfish (Melanocetus Johnsonii) | *Melanocetus Johnsonii) (Melanocetus johnsonii* |
 | Indian Frogfish | *Antennarius indicus* |
 | Indian Handfish | *Halieutaea indica* |
 | Island Frogfish | *Abantennarius bermudensis* |
@@ -20469,7 +21538,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Warty Frogfish | *Antennarius maculatus* |
 | Whalehead Dreamer | *Lophodolos acanthognathus* |
 
-### • Lutjaniformes (168)
+### • Lutjaniformes (171)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -20568,6 +21637,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Mottled Fusilier | *Dipterygonotus balteatus* |
 | Mullet Snapper | *Lutjanus aratus* |
 | Mutton Snapper | *Lutjanus analis* |
+| Northern Red Snapper | *Lutjanus campechanus* |
 | Oblique-banded Snapper | *Pristipomoides zonatus* |
 | Olive Grunt | *Pomadasys olivaceus* |
 | One-stripe Fusilier | *Pterocaesio tessellata* |
@@ -20590,6 +21660,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Randall's Fusilier | *Pterocaesio randalli* |
 | Randall's Snapper | *Randallichthys filamentosus* |
 | Red Snapper | *Lutjanus campechanus* |
+| Red Snapper (Lutjanus Campechanus) | *Lutjanus Campechanus) (Lutjanus campechanus* |
 | Redbelly Yellowtail Fusilier | *Caesio cuning* |
 | Ribboned Sweetlips | *Plectorhinchus polytaenia* |
 | Roughneck Grunt | *Pomadasys corvinaeformis* |
@@ -20617,6 +21688,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Striped Grunter | *Pomadasys striatus* |
 | Striped Piggy | *Pomadasys stridens* |
 | Striped Sweetlips | *Plectorhinchus diagrammus* |
+| Striped Sweetlips | *Plectorhinchus lessonii* |
 | Sunbeam Snapper | *Lutjanus dodecacanthoides* |
 | Three-stripe Fusilier | *Pterocaesio trilineata* |
 | Timor Snapper | *Lutjanus timoriensis* |
@@ -20642,7 +21714,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellowstripe Grunt | *Haemulopsis axillaris* |
 | Yellowtail Blue Snapper | *Paracaesio xanthurus* |
 
-### • Mugiliformes (64)
+### • Mugiliformes (65)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -20659,6 +21731,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Comoro Mullet | *Agonostomus catalai* |
 | Corsula | *Rhinomugil corsula* |
 | Diamond Mullet | *Planiliza alata* |
+| Diamond Mullet | *Planiliza ordensis* |
 | Dwarf Mullet | *Mugil curvidens* |
 | Eastern Keelback Mullet | *Planiliza affinis* |
 | Fairy Mullet | *Agonostomus telfairii* |
@@ -20711,7 +21784,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellow-eye Mullet | *Aldrichetta forsteri* |
 | Yellowtail Mullet | *Minimugil cascasia* |
 
-### • Myctophiformes (89)
+### • Myctophiformes (90)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -20753,6 +21826,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Kapala Lanternfish | *Diaphus kapalae* |
 | Lamp Fish | *Benthosema panamense* |
 | Lantern Fish | *Hygophum proximum* |
+| Lantern Fish | *Nannobrachium achirus* |
 | Lanternfish | *Bolinichthys indicus* |
 | Large Scale Lantern Fish | *Symbolophorus veranyi* |
 | Large-finned Lanternfish | *Hygophum macrochir* |
@@ -20805,7 +21879,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Winged Lanternfish | *Lampanyctus alatus* |
 | Wisner's Lantern Fish | *Dasyscopelus selenops* |
 
-### • Myliobatiformes (147)
+### • Myliobatiformes (155)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -20828,6 +21902,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Blotched Stingray | *Urotrygon chilensis* |
 | Blue Stingray | *Dasyatis chrysonota* |
 | Bluespotted Ribbontail Ray | *Taeniura lymma* |
+| Bluespotted Ribbontail Ray (Taeniura Lymma) | *Taeniura Lymma) (Taeniura lymma* |
 | Brazilian Cownose Ray | *Rhinoptera brasiliensis* |
 | Brown Eagle Ray | *Aetomylaeus milvus* |
 | Brown Stingaree | *Urolophus westraliensis* |
@@ -20838,11 +21913,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Chilean Devil Ray | *Mobula tarapacana* |
 | Chilean Eagle Ray | *Myliobatis chilensis* |
 | Chupare Stingray | *Styracura schmardae* |
+| Coastal Manta Ray | *Mobula alfredi* |
 | Common Eagle Ray | *Myliobatis aquila* |
 | Common Stingaree | *Trygonoptera testacea* |
 | Common Stingray | *Dasyatis pastinaca* |
 | Cow Stingray | *Bathytoshia lata* |
 | Cownose Ray | *Rhinoptera bonasus* |
+| Cownose Ray (Rhinoptera Bonasus) | *Rhinoptera Bonasus) (Rhinoptera bonasus* |
 | Cowtail Stingray | *Pastinachus sephen* |
 | Crossback Stingaree | *Urolophus cruciatus* |
 | Daisy Stingray | *Fontitrygon margarita* |
@@ -20855,7 +21932,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Frilltailed Stingray | *Hemitrygon bennettii* |
 | Giant Freshwater Stingray | *Urogymnus dalyensis* |
 | Giant Freshwater Whipray | *Urogymnus polylepis* |
+| Giant Manta | *Mobula birostris* |
 | Giant Oceanic Manta Ray | *Mobula birostris* |
+| Giant Oceanic Manta Ray (Mobula Birostris) | *Mobula Birostris) (Mobula birostris* |
 | Gomes' Round Ray | *Heliotrygon gomesi* |
 | Greenback Stingaree | *Urolophus viridis* |
 | Groovebelly Stingray | *Dasyatis hypostigma* |
@@ -20870,8 +21949,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Javanese Cownose Ray | *Rhinoptera javanica* |
 | Jenkins' Whipray | *Pateobatis jenkinsii* |
 | Largespot River Stingray | *Potamotrygon falkneri* |
-| Leopard Whipray | *Himantura undulata* |
 | Leopard Whipray | *Himantura leoparda* |
+| Leopard Whipray | *Himantura undulata* |
 | Lesser Devil Ray | *Mobula hypostoma* |
 | Lesser Guinean Devil Ray | *Mobula rochebrunei* |
 | Lobed Stingaree | *Urolophus lobatus* |
@@ -20912,6 +21991,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Raspy River Stingray | *Potamotrygon scobina* |
 | Red Stingray | *Hemitrygon akajei* |
 | Reef Manta Ray | *Mobula alfredi* |
+| Reef Manta Ray (Mobula Alfredi) | *Mobula Alfredi) (Mobula alfredi* |
 | Rosette River Stingray | *Potamotrygon schroederi* |
 | Roughback Whipray | *Fluvitrygon kittipongi* |
 | Roughnose Stingray | *Pastinachus solocirostris* |
@@ -20933,11 +22013,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Snouted Eagle Ray | *Myliobatis longirostris* |
 | Southern Eagle Ray | *Myliobatis goodei* |
 | Southern Stingray | *Hypanus americanus* |
+| Southern Stingray (Hypanus Americanus) | *Hypanus Americanus) (Hypanus americanus* |
 | Sparsely-spotted Stingaree | *Urolophus paucimaculatus* |
 | Spinetail Devil Ray | *Mobula japanica* |
 | Spiny Butterfly Ray | *Gymnura altavela* |
 | Spot-on-spot Round Ray | *Urobatis concentricus* |
 | Spotted Eagle Ray | *Aetobatus narinari* |
+| Spotted Eagle Ray (Aetobatus Narinari) | *Aetobatus Narinari) (Aetobatus narinari* |
 | Spotted Round Ray | *Urobatis maculatus* |
 | Spotted Stingray | *Neotrygon kuhlii* |
 | Starrynose Stingray | *Pastinachus stellurostris* |
@@ -20946,8 +22028,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Tubemouth Whipray | *Urogymnus lobistoma* |
 | Tumbes Round Stingray | *Urobatis tumbesensis* |
 | Western Shovelnose Stingaree | *Trygonoptera mucosa* |
-| Whiptail Stingray | *Dasyatis hawaiensis* |
 | Whiptail Stingray | *Dasyatis brevis* |
+| Whiptail Stingray | *Dasyatis hawaiensis* |
 | White-blotched River Stingray | *Potamotrygon leopoldi* |
 | White-rimmed Stingray | *Fluvitrygon signifer* |
 | Whitenose Whip Ray | *Pateobatis uarnacoides* |
@@ -20993,7 +22075,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Spiny Eel | *Notacanthus chemnitzii* |
 | Spiny-back Eel | *Notacanthus sexspinis* |
 
-### • Ophidiiformes (68)
+### • Ophidiiformes (69)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -21007,6 +22089,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Basketweave Cusk-eel | *Ophidion scrippsae* |
 | Bearded Brotula | *Brotula barbata* |
 | Bighead Cusk Eel | *Otophidium indefatigabile* |
+| Black Widow | *Stygnobrotula latebricola* |
 | Black-edged Cusk-eel | *Neobythites analis* |
 | Blackedge Cusk | *Ophidion muraenolepis* |
 | Blackrim Cusk-eel | *Lepophidium profundorum* |
@@ -21066,7 +22149,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Whiskered Viviparous Brotula | *Alionematichthys piger* |
 | Yellow Cuskeel | *Dinematichthys iluocoeteoides* |
 
-### • Orectolobiformes (37)
+### • Orectolobiformes (40)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -21092,6 +22175,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Network Woggegong | *Orectolobus reticulatus* |
 | Northern Wobbegong | *Orectolobus wardi* |
 | Nurse Shark | *Ginglymostoma cirratum* |
+| Nurse Shark (Ginglymostoma Cirratum) | *Ginglymostoma Cirratum) (Ginglymostoma cirratum* |
 | Ornate Wobbegong | *Orectolobus ornatus* |
 | Papuanepaulette Shark | *Hemiscyllium hallstromi* |
 | Saddle Carpetshark | *Cirrhoscyllium japonicum* |
@@ -21105,8 +22189,10 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Triton Epaulette Shark | *Hemiscyllium henryi* |
 | Western Wobbegong | *Orectolobus hutchinsi* |
 | Whale Shark | *Rhincodon typus* |
+| Whale Shark (Rhincodon Typus) | *Rhincodon Typus) (Rhincodon typus* |
 | Whitespotted Bambooshark | *Chiloscyllium plagiosum* |
 | Zebra Shark | *Stegostoma tigrinum* |
+| Zebra Shark (Stegostoma Tigrinum) | *Stegostoma Tigrinum) (Stegostoma tigrinum* |
 
 ### • Osmeriformes (18)
 
@@ -21131,13 +22217,14 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Tasmanian Smelt | *Retropinna tasmanica* |
 | Whitebait Smelt | *Allosmerus elongatus* |
 
-### • Osteoglossiformes (16)
+### • Osteoglossiformes (19)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | African Bonytongue | *Heterotis niloticus* |
 | African Knifefish | *Xenomystus nigri* |
 | Arapaima | *Arapaima gigas* |
+| Arapaima (Arapaima Gigas) | *Arapaima Gigas) (Arapaima gigas* |
 | Asian Bonytongue | *Scleropages formosus* |
 | Australian Bonytongue | *Scleropages jardinii* |
 | Black Arawana | *Osteoglossum ferreirai* |
@@ -21148,11 +22235,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Elephant Snout | *Mormyrus hasselquistii* |
 | Elephantnose Fish | *Gnathonemus petersii* |
 | Freshwater Butterflyfish | *Pantodon buchholzi* |
+| Silver Arawana | *Osteoglossum bicirrhosum* |
 | Silver Arowana | *Osteoglossum bicirrhosum* |
+| Silver Arowana (Osteoglossum Bicirrhosum) | *Osteoglossum Bicirrhosum) (Osteoglossum bicirrhosum* |
 | Spotted Bonytongue | *Scleropages leichardti* |
 | Zambezi Parrotfish | *Cyphomyrus discorhynchus* |
 
-### • Other (737)
+### • Other (760)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -21170,9 +22259,11 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Ambon Damsel | *Pomacentrus amboinensis* |
 | American Stardrum | *Stellifer lanceolatus* |
 | Amoy Croaker | *Argyrosomus amoyensis* |
+| Amoy Croaker | *Nibea miichthioides* |
 | Andaman Damsel | *Pomacentrus alleni* |
 | Andaman Dottyback | *Pseudochromis andamanensis* |
 | Angelshark | *Squatina squatina* |
+| Angelshark (Squatina Squatina) | *Squatina Squatina) (Squatina squatina* |
 | Angular Angel Shark | *Squatina guggenheim* |
 | Anna's Dottyback | *Pseudoplesiops annae* |
 | Arabian Angelfish | *Pomacanthus asfur* |
@@ -21236,6 +22327,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Big-snout Croaker | *Johnius macrorhynus* |
 | Bigeye Barracuda | *Sphyraena forsteri* |
 | Bigeye Croaker | *Micropogonias megalops* |
+| Bigeye Croaker | *Pennahia aneus* |
 | Bigeye Lates | *Lates mariae* |
 | Bighead Croaker | *Collichthys niveatus* |
 | Bighead Tilefish | *Caulolatilus affinis* |
@@ -21337,14 +22429,17 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Clipperton Angelfish | *Holacanthus limbaughi* |
 | Clouded Angelshark | *Squatina nebulosa* |
 | Clouded Archerfish | *Toxotes blythii* |
+| Clown Anemonefish | *Amphiprion ocellaris* |
 | Clubfoot Sillago | *Sillaginopodys chondropus* |
 | Cocoa Damselfish | *Stegastes variabilis* |
+| Cocos Island Lemonpeel Pygmy Angelfish | *Centropyge sp. KNS-2014* |
 | Coitor Croaker | *Johnius coitor* |
 | Colin's Angelfish | *Centropyge colini* |
 | Collared Dottyback | *Pseudoplesiops collare* |
 | Comet | *Calloplesiops altivelis* |
 | Commerson's Glassy Perchlet | *Ambassis ambassis* |
 | Common Snook | *Centropomus undecimalis* |
+| Common Snook (Centropomus Undecimalis) | *Centropomus Undecimalis) (Centropomus undecimalis* |
 | Coquito Sergeant | *Nexilosus latifrons* |
 | Coral Demoiselle | *Neopomacentrus nemurus* |
 | Coral Sea Gregory | *Plectroglyphidodon gascoynei* |
@@ -21391,10 +22486,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Elongate Dottyback | *Pseudochromis elongatus* |
 | Elongate Glass-perchlet | *Chanda nama* |
 | Emperor Angelfish | *Pomacanthus imperator* |
+| Emperor Angelfish (Pomacanthus Imperator) | *Pomacanthus Imperator) (Pomacanthus imperator* |
 | Erdmann's Dottyback | *Pseudochromis erdmanni* |
 | Estuary Perchlet | *Ambassis marianus* |
 | European Barracuda | *Sphyraena sphyraena* |
 | European Seabass | *Dicentrarchus labrax* |
+| European Seabass (Dicentrarchus Labrax) | *Dicentrarchus Labrax) (Dicentrarchus labrax* |
 | False Trevally | *Lactarius lactarius* |
 | False-eye Sergeant | *Abudefduf sparoides* |
 | Fine-scaled Dottyback | *Lubbockichthys multisquamatus* |
@@ -21439,6 +22536,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Gray Angelfish | *Pomacanthus arcuatus* |
 | Gray Weakfish | *Cynoscion regalis* |
 | Great Barracuda | *Sphyraena barracuda* |
+| Great Barracuda (Sphyraena Barracuda) | *Sphyraena Barracuda) (Sphyraena barracuda* |
 | Great Northern Tilefish | *Lopholatilus chamaeleonticeps* |
 | Green Chromis | *Chromis caerulea* |
 | Green Damselfish | *Abudefduf abdominalis* |
@@ -21454,6 +22552,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Gulf Kingcroaker | *Menticirrhus littoralis* |
 | Guyana Leaffish | *Polycentrus schomburgkii* |
 | Half-and-half Chromis | *Chromis iomelas* |
+| Hana-amadai | *Branchiostegus sp. TY-2011* |
 | Hawaiian Gregory | *Plectroglyphidodon marginatus* |
 | Hawaiian Threespot Damsel | *Dascyllus albisella* |
 | Heller's Barracuda | *Sphyraena helleri* |
@@ -21495,6 +22594,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Lagoon Damselfish | *Hemiglyphidodon plagiometopon* |
 | Large Yellow Croaker | *Larimichthys crocea* |
 | Largescale Archerfish | *Toxotes chatareus* |
+| Law Croaker | *Pseudotolithus brachygnathus* |
 | Law Croaker | *Pseudotolithus senegallus* |
 | Lemon Damsel | *Pomacentrus moluccensis* |
 | Lemonpeel Angelfish | *Centropyge flavissima* |
@@ -21559,7 +22659,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Neon Dottyback | *Pseudochromis dutoiti* |
 | Nibe Croaker | *Nibea mitsukurii* |
 | Night Sergeant | *Abudefduf concolor* |
+| Night Sergeant | *Abudefduf taurus* |
 | Nile Perch | *Lates niloticus* |
+| Nile Perch (Lates Niloticus) | *Lates Niloticus) (Lates niloticus* |
 | Northern Kingfish | *Menticirrhus saxatilis* |
 | Northern Paradise Fish | *Polynemus aquilonaris* |
 | Northern Sennet | *Sphyraena borealis* |
@@ -21570,6 +22672,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Ocean Humbug Damselfish | *Dascyllus abudafur* |
 | Ocean Whitefish | *Caulolatilus princeps* |
 | Ocellaris Clownfish | *Amphiprion ocellaris* |
+| Ocellaris Clownfish (Amphiprion Ocellaris) | *Amphiprion Ocellaris) (Amphiprion ocellaris* |
 | Ocellate Damselfish | *Pomacentrus vaiuli* |
 | Ocellated Angelshark | *Squatina tergocellatoides* |
 | Ocellated Damsel | *Neoglyphidodon bonang* |
@@ -21609,6 +22712,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Pearlscale Angelfish | *Centropyge vrolikii* |
 | Pearly Sergeant | *Abudefduf margariteus* |
 | Pelican Barracuda | *Sphyraena idiastes* |
+| Pennyfish | *Denariusa australis* |
 | Pennyfish | *Denariusa bandata* |
 | Peppered Spinefoot | *Siganus punctatissimus* |
 | Peppermint Angelfish | *Centropyge boylei* |
@@ -21626,6 +22730,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Purplemask Angelfish | *Centropyge venusta* |
 | Quakerfish | *Malacanthus brevirostris* |
 | Queen Angelfish | *Holacanthus ciliaris* |
+| Queen Angelfish (Holacanthus Ciliaris) | *Holacanthus Ciliaris) (Holacanthus ciliaris* |
 | Rainbow Seaperch | *Embiotoca caryi* |
 | Raja Ampat Dottyback | *Pseudochromis ammeri* |
 | Rake Stardrum | *Stellifer rastrifer* |
@@ -21634,6 +22739,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Red Anemonefish | *Amphiprion rubrocinctus* |
 | Red Barracuda | *Sphyraena pinguis* |
 | Red Drum | *Sciaenops ocellatus* |
+| Red Drum (Sciaenops Ocellatus) | *Sciaenops Ocellatus) (Sciaenops ocellatus* |
 | Red Tilefish | *Branchiostegus japonicus* |
 | Red-gold Dottyback | *Pseudochromis rutilus* |
 | Redback Sand Tilefish | *Hoplolatilus marcosi* |
@@ -21689,7 +22795,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Sevenfinger Threadfin | *Filimanus heptadactyla* |
 | Shao's Sillago | *Sillago shaoi* |
 | Sharp-nosed Longfin | *Plesiops oxycephalus* |
+| Sharpfin Barracuda | *Sphyraena acutipinnis* |
 | Sharpfin Barracuda | *Sphyraena africana* |
+| Sharpnose Hammer Croaker | *Johnius borneensis* |
 | Sharpnose Hammer Croaker | *Johnius vogleri* |
 | Sharpnose Seaperch | *Phanerodon atripes* |
 | Shi Drum | *Umbrina cirrosa* |
@@ -21774,7 +22882,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Streaked Spinefoot | *Siganus javus* |
 | Streamlined Spinefoot | *Siganus argenteus* |
 | Striped Bass | *Morone saxatilis* |
+| Striped Bass (Morone Saxatilis) | *Morone Saxatilis) (Morone saxatilis* |
 | Striped Croaker | *Corvula sanctaeluciae* |
+| Striped Sea-bass | *Morone saxatilis* |
 | Striped Seaperch | *Embiotoca lateralis* |
 | Striped Threadfin | *Polydactylus plebeius* |
 | Stripped Weakfish | *Cynoscion guatucupa* |
@@ -21804,6 +22914,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Tiger Angelfish | *Apolemichthys kingi* |
 | Tile Fish | *Lopholatilus villarii* |
 | Tomato Clownfish | *Amphiprion frenatus* |
+| Tomato Clownfish (Amphiprion Frenatus) | *Amphiprion Frenatus) (Amphiprion frenatus* |
 | Tracey's Demoiselle | *Chrysiptera traceyi* |
 | Trewavas Croaker | *Atrobucca trewavasae* |
 | Trumpeter Sillago | *Sillago maculata* |
@@ -21832,6 +22943,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Western School Whiting | *Sillago vittata* |
 | Western Trumpeter Sillago | *Sillago burrus* |
 | White Bass | *Morone chrysops* |
+| White Bass X Striped Sea-bass | *Morone chrysops x Morone saxatilis* |
 | White Croaker | *Genyonemus lineatus* |
 | White Damsel | *Dischistodus perspicillatus* |
 | White Flower Croaker | *Nibea albiflora* |
@@ -21902,7 +23014,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Blotched Duckbill | *Chrionema chlorotaenia* |
 | Springer's Sand-diver | *Pteropsaron springeri* |
 
-### • Perciformes (1182)
+### • Perciformes (1226)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -21939,6 +23051,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Argentine Seabass | *Acanthistius brasilianus* |
 | Argos Georgia Snailfish | *Careproctus argosgeorgiae* |
 | Arkansas Darter | *Etheostoma cragini* |
+| Arkansas Greenside Darter | *Etheostoma cf. newmanii* |
 | Arkansas Saddled Darter | *Etheostoma euzonum* |
 | Armored Searobin | *Peristedion miniatum* |
 | Armorhead Sculpin | *Gymnocanthus galeatus* |
@@ -21946,6 +23059,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Asprete | *Romanichthys valsanicola* |
 | Atka Mackerel | *Pleurogrammus monopterygius* |
 | Atlantic Goliath Grouper | *Epinephelus itajara* |
+| Atlantic Goliath Grouper (Epinephelus Itajara) | *Epinephelus Itajara) (Epinephelus itajara* |
 | Atlantic Hookear Sculpin | *Artediellus atlanticus* |
 | Atlantic Poacher | *Leptagonus decagonus* |
 | Atlantic Seasnail | *Liparis atlanticus* |
@@ -21998,6 +23112,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Bigscale Logperch | *Percina macrolepida* |
 | Bigtooth Flathead | *Platycephalus chauliodous* |
 | Black Armoured Searobin | *Peristedion truncatum* |
+| Black Darter | *Etheostoma duryi* |
 | Black Eelpout | *Lycodes diapterus* |
 | Black Grouper | *Mycteroperca bonaci* |
 | Black Hamlet | *Hypoplectrus nigricans* |
@@ -22006,6 +23121,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Black Rockfish | *Sebastes melanops* |
 | Black Scorpionfish | *Scorpaena porcus* |
 | Black Sea Bass | *Centropristis striata* |
+| Black Sea Bass (Centropristis Striata) | *Centropristis Striata) (Centropristis striata* |
 | Black Seasnail | *Paraliparis bathybius* |
 | Black Southern Cod | *Patagonotothen tessellata* |
 | Black-and-yellow Rockfish | *Sebastes chrysomelas* |
@@ -22053,7 +23169,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Blue-spotted Flathead | *Platycephalus caeruleopunctatus* |
 | Bluebarred Prickleback | *Plectobranchus evides* |
 | Bluebreast Darter | *Nothonotus camurus* |
+| Blueface Darter | *Etheostoma cf. zonistium TJN-2011* |
 | Bluefin Gurnard | *Chelidonichthys kumu* |
+| Bluegrass Darter | *Etheostoma cf. stigmaeum TJN-2011a* |
 | Bluemask Darter | *Etheostoma akatulo* |
 | Blueside Darter | *Etheostoma jessiae* |
 | Bluespar Darter | *Etheostoma meadiae* |
@@ -22097,6 +23215,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Butterfly Gurnard | *Lepidotrigla vanessa* |
 | Cabezon | *Scorpaenichthys marmoratus* |
 | Cadenat's Rockfish | *Scorpaena loppei* |
+| Calfkiller River Darter | *Etheostoma cf. basilare TJN-2011b* |
 | Calico Rockfish | *Sebastes dallii* |
 | Calico Sculpin | *Clinocottus embryum* |
 | California Scorpionfish | *Scorpaena guttata* |
@@ -22106,6 +23225,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Canary Rockfish | *Sebastes pinniger* |
 | Candy Basslet | *Liopropoma carmabi* |
 | Candy Darter | *Etheostoma osburni* |
+| Cane Creek Darter | *Etheostoma cf. basilare TJN-2011c* |
 | Canyon Sculpin | *Icelinus limbaughi* |
 | Cape Gurnard | *Chelidonichthys capensis* |
 | Cape Rockfish | *Trachyscorpia eschmeyeri* |
@@ -22140,6 +23260,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Christmas Darter | *Etheostoma hopkinsi* |
 | Citiko Darter | *Etheostoma sitikuense* |
 | Cloudy Grouper | *Epinephelus erythrurus* |
+| Clown Darter | *Etheostoma cf. stigmaeum TJN-2011b* |
 | Coal Darter | *Percina brevicauda* |
 | Coastal Darter | *Etheostoma colorosum* |
 | Coastrange Sculpin | *Cottus aleuticus* |
@@ -22147,6 +23268,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Cockscomb Firefish | *Ebosia bleekeri* |
 | Cocky Gurnard | *Lepidotrigla modesta* |
 | Coldwater Darter | *Etheostoma ditrema* |
+| Collins River Darter | *Etheostoma cf. basilare TJN-2011a* |
 | Comb Grouper | *Mycteroperca acutirostris* |
 | Combed Snailfish | *Allocareproctus kallaion* |
 | Comber | *Serranus cabrilla* |
@@ -22165,6 +23287,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Coral Grouper | *Epinephelus corallicola* |
 | Coral Hind | *Cephalopholis miniata* |
 | Coral Scorpionfish | *Scorpaena albifimbria* |
+| Coral Scorpionfish | *Scorpaenodes corallinus* |
 | Coralline Sculpin | *Artedius corallinus* |
 | Corrugated Darter | *Etheostoma basilare* |
 | Cortez Rockfish | *Sebastes cortezi* |
@@ -22215,12 +23338,14 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Dotted Grouper | *Epinephelus epistictus* |
 | Doublelone Eelpout | *Lycodes eudipleurostictus* |
 | Dragon Poacher | *Percis japonica* |
+| Driftless Logperch | *Percina cf. caprodes TJN-2008* |
 | Duck Darter | *Etheostoma planasaxatile* |
 | Duckbill Flathead | *Bembrops anatirostris* |
 | Dungat Grouper | *Epinephelus goreensis* |
 | Dusky Darter | *Percina sciera* |
 | Dusky Flathead | *Platycephalus fuscus* |
 | Dusky Grouper | *Epinephelus marginatus* |
+| Dusky Grouper | *Mycteroperca marginata* |
 | Dusky Notothen | *Trematomus newnesi* |
 | Dusky Rockfish | *Sebastes ciliatus* |
 | Dusky Sculpin | *Icelinus burchami* |
@@ -22247,8 +23372,10 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Estuarine Perch | *Sander marinus* |
 | Estuarine Stonefish | *Synanceia horrida* |
 | Etowah Bridled Darter | *Percina freemanorum* |
+| Etowah Brindled Darter | *Percina cf. kusha TJN-2011* |
 | Etowah Darter | *Nothonotus etowahae* |
 | European Perch | *Perca fluviatilis* |
+| European Perch (Perca Fluviatilis) | *Perca Fluviatilis) (Perca fluviatilis* |
 | Eyeshade Sculpin | *Nautichthys pribilovius* |
 | False Jacopever | *Sebastes capensis* |
 | False Kelpfish | *Sebastiscus marmoratus* |
@@ -22266,6 +23393,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Fluffy Sculpin | *Oligocottus snyderi* |
 | Folger's Scorpionfish | *Neomerinthe folgori* |
 | Forksnout Searobin | *Lepidotrigla alata* |
+| Fortesque Waspfish (Centropogon australis (in: ray-finned fishes)) | *Centropogon australis (in: ray-finned fishes)* |
 | Fountain Darter | *Etheostoma fonticola* |
 | Foureye Basslet | *Pseudogramma gregoryi* |
 | Fourline Snakeblenny | *Eumesogrammus praecisus* |
@@ -22373,6 +23501,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Humpbacked Scorpionfish | *Scorpaenopsis gibbosa* |
 | Humped Rockcod | *Gobionotothen gibberifrons* |
 | Hunchback Scorpionfish | *Scorpaena dispar* |
+| Hybrid Giant Tiger Grouper | *Epinephelus fuscoguttatus x Epinephelus lanceolatus* |
+| Ihiyo Darter | *Etheostoma cf. spectabile TJN-2011d* |
 | Indian Ocean Spiny Gurnard | *Lepidotrigla multispinosa* |
 | Indian Perchlet | *Chelidoperca maculicauda* |
 | Indian Soapfish | *Pogonoperca ocellata* |
@@ -22397,6 +23527,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Kelp Sculpin | *Sigmistes caulias* |
 | Kelp Snailfish | *Liparis tunicatus* |
 | Kentucky Arrow Darter | *Etheostoma spilotum* |
+| Kentucky Darter | *Etheostoma cf. spectabile TJN-2011f* |
 | Kentucky Darter | *Etheostoma rafinesquei* |
 | Kerguelen Spiny Plunderfish | *Harpagifer kerguelensis* |
 | Kessler's Sculpin | *Leocottus kesslerii* |
@@ -22426,6 +23557,10 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Leopard Grouper | *Mycteroperca rosacea* |
 | Leopard Hind | *Cephalopholis leopardus* |
 | Leopard Searobin | *Prionotus scitulus* |
+| Lepidotrigla Kanagashira | *Lepidotrigla kanagashira* |
+| Lepidotrigla Kanagashira Kamohara, 1936 | *Lepidotrigla kanagashira* |
+| Lepidotrigla Longifaciata | *Lepidotrigla longifaciata* |
+| Lepidotrigla Longifaciata Yatou, 1981 | *Lepidotrigla longifaciata* |
 | Lesser Gurnard | *Chelidonichthys queketti* |
 | Lesser Weever | *Echiichthys vipera* |
 | Limp Eelpout | *Melanostigma gelatinosum* |
@@ -22451,6 +23586,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Longhead Darter | *Percina macrocephala* |
 | Longhead Flathead | *Leviprora inops* |
 | Longhorn Sculpin | *Myoxocephalus octodecemspinosus* |
+| Longhunt Darter | *Etheostoma cf. stigmaeum TJN-2011d* |
 | Longin Baikal Sculpin | *Cottocomephorus inermis* |
 | Longnose Darter | *Percina nasuta* |
 | Longnose Gurnard | *Pterygotrigla macrorhynchus* |
@@ -22475,6 +23611,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Madeira Rockfish | *Scorpaena maderensis* |
 | Magellan Plunderfish | *Harpagifer bispinis* |
 | Malabar Grouper | *Epinephelus malabaricus* |
+| Malabar Grouper | *Epinephelus salmonoides* |
+| Mamequit Darter | *Etheostoma cf. spectabile TJN-2011e* |
 | Manacled Sculpin | *Synchirus gilli* |
 | Maori Chief | *Notothenia angustata* |
 | Maori Cod | *Paranotothenia magellanica* |
@@ -22565,6 +23703,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Orange Notothen | *Trematomus vicarius* |
 | Orange-banded Scorpionfish | *Neosebastes entaxis* |
 | Orange-freckled Flathead | *Ratabulus diversidens* |
+| Orange-freckled Flathead | *Ratabulus fulviguttatus* |
 | Orange-spotted Grouper | *Epinephelus coioides* |
 | Orangebanded Stingfish | *Choridactylus multibarbus* |
 | Orangebelly Darter | *Etheostoma radiosum* |
@@ -22573,6 +23712,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Oriental Searobin | *Peristedion orientale* |
 | Ornate Scorpionfish | *Scorpaena onaria* |
 | Ouachita Darter | *Percina brucethompsoni* |
+| Ozark Darter | *Etheostoma cf. spectabile TJN-2011a* |
 | Ozark Logperch | *Percina fulvitaenia* |
 | Ozark Sculpin | *Cottus hypselurus* |
 | Paamiut Eelpout | *Lycodes paamiuti* |
@@ -22612,6 +23752,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Pearly Perchlet | *Chelidoperca margaritifera* |
 | Pearly Prickleback | *Bryozoichthys marjorius* |
 | Pelagic Scorpionfish | *Ectreposebastes niger* |
+| Pennsylvania Grotto Sculpin | *Cottus sp. 'Nippenose Valley'* |
 | Penpoint Gunnel | *Apodichthys flavidus* |
 | Peppermint Bass | *Liopropoma rubre* |
 | Persimmon Eelpout | *Eucryphycus californicus* |
@@ -22621,6 +23762,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Pighead Prickleback | *Acantholumpenus mackayi* |
 | Pigmy Scorpionfish | *Sebastapistes fowleri* |
 | Pike Icefish | *Champsocephalus esox* |
+| Pikeperch | *Sander lucioperca* |
 | Pimpled Lumpsucker | *Eumicrotremus andriashevi* |
 | Pinewoods Darter | *Etheostoma mariae* |
 | Pink Rockfish | *Sebastes eos* |
@@ -22663,10 +23805,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Red Flathead | *Bembras japonica* |
 | Red Grouper | *Epinephelus morio* |
 | Red Gurnard | *Chelidonichthys cuculus* |
+| Red Gurnard | *Chelidonichthys spinosus* |
 | Red Hind | *Epinephelus guttatus* |
 | Red Indianfish | *Pataecus fronto* |
 | Red Irish Lord | *Hemilepidotus hemilepidotus* |
 | Red Lionfish | *Pterois volitans* |
+| Red Lionfish (Pterois Volitans) | *Pterois Volitans) (Pterois volitans* |
 | Red Rock Cod | *Scorpaena cardinalis* |
 | Red Scorpionfish | *Scorpaena scrofa* |
 | Red Searobin | *Prionotus nudigula* |
@@ -22687,6 +23831,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Redstripe Rockfish | *Sebastes proriger* |
 | Reef Scorpionfish | *Scorpaenodes caribbaeus* |
 | Reef Stonefish | *Synanceia verrucosa* |
+| Reef Stonefish (Synanceia Verrucosa) | *Synanceia Verrucosa) (Synanceia verrucosa* |
 | Relict Darter | *Etheostoma chienense* |
 | Resplendent Goldie | *Pseudanthias pulcherrimus* |
 | Reticulate Sculpin | *Cottus perplexus* |
@@ -22705,12 +23850,14 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Robust Armoured-gurnard | *Satyrichthys welchi* |
 | Rock Darter | *Etheostoma rupestre* |
 | Rock Greenling | *Hexagrammos lagocephalus* |
+| Rock Greenling | *Hexagrammos superciliosus* |
 | Rock Grouper | *Epinephelus fasciatomaculosus* |
 | Rock Gunnel | *Pholis gunnellus* |
 | Rock Hind | *Epinephelus adscensionis* |
 | Rock Sea Bass | *Centropristis philadelphica* |
 | Rock Stickleback | *Xiphister mucosus* |
 | Rockhead | *Bothragonus swanii* |
+| Rocky River Darter | *Etheostoma cf. basilare TJN-2011d* |
 | Rooster Hind | *Hyporthodus acanthistius* |
 | Rosethorn Rockfish | *Sebastes helvomaculatus* |
 | Rosy Rockfish | *Sebastes rosaceus* |
@@ -22721,6 +23868,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Roughcheek Sculpin | *Ruscarius creaseri* |
 | Rougheye Rockfish | *Sebastes aleutianus* |
 | Roughskin Scorpionfish | *Cocotropus monacanthus* |
+| Roughskin Sculpin | *Rastrinus scutiger* |
 | Roughskin Sculpin | *Trachidermus fasciatus* |
 | Roughspine Sculpin | *Triglops macellus* |
 | Roughtongue Bass | *Pronotogrammus martinicensis* |
@@ -22781,6 +23929,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Sharpnose Sculpin | *Clinocottus acuticeps* |
 | Sharpnosed Duckbill | *Bembrops filiferus* |
 | Shawnee Darter | *Etheostoma tecumsehi* |
+| Sheltowee Darter | *Etheostoma cf. spectabile TJN-2011b* |
 | Shen's Perchlet | *Plectranthias sheni* |
 | Shield Darter | *Percina peltata* |
 | Shortbelly Rockfish | *Sebastes jordani* |
@@ -22895,6 +24044,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Spotted Sand Bass | *Paralabrax maculatofasciatus* |
 | Spotted Scorpionfish | *Scorpaena plumieri* |
 | Spotted Snailfish | *Liparis callyodon* |
+| Spotted Soapfish | *Rypticus bistrispinus* |
 | Spotted Soapfish | *Rypticus subbifrenatus* |
 | Spotted Velvetfish | *Erisphex pottii* |
 | Spotted Weever | *Trachinus araneus* |
@@ -22917,6 +24067,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Stone Darter | *Etheostoma derivativum* |
 | Stone Scorpionfish | *Scorpaena mystes* |
 | Stone Sculpin | *Paracottus knerii* |
+| Stonefish | *Synanceia verrucosa* |
 | Stout Eelblenny | *Anisarchus medius* |
 | Stout Slipskin | *Lycodapus pachysoma* |
 | Strawberry Darter | *Etheostoma fragi* |
@@ -22941,6 +24092,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Sunrise | *Pseudoblennius percoides* |
 | Sunrise Perch | *Caprodon schlegelii* |
 | Sunset Anthias | *Pyronotanthias parvirostris* |
+| Sunset Rockfish | *Sebastes sp. 'crocotulus'* |
 | Supreme Gurnard | *Lepidotrigla grandis* |
 | Surge Grouper | *Epinephelus socialis* |
 | Suzuki's Anthias | *Rabaulichthys suzukii* |
@@ -23023,6 +24175,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Volga Pikeperch | *Sander volgensis* |
 | Waccamaw Darter | *Etheostoma perlongum* |
 | Walleye | *Sander vitreus* |
+| Walleye (Sander Vitreus) | *Sander Vitreus) (Sander vitreus* |
 | Warrior Darter | *Etheostoma bellator* |
 | Warsaw Grouper | *Hyporthodus nigritus* |
 | Warty Poacher | *Chesnonia verrucosa* |
@@ -23063,6 +24216,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellow Grouper | *Epinephelus awoara* |
 | Yellow Irish Lord | *Hemilepidotus jordani* |
 | Yellow Perch | *Perca flavescens* |
+| Yellow Perch (Perca Flavescens) | *Perca Flavescens) (Perca flavescens* |
 | Yellow Scorpionfish | *Scorpaenopsis neglecta* |
 | Yellow Spotted Gurnard | *Pterygotrigla pauli* |
 | Yellow-edged Lyretail | *Variola louti* |
@@ -23085,7 +24239,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellowtail Hamlet | *Hypoplectrus chlorurus* |
 | Yellowtain Rockfish | *Sebastes flavidus* |
 | Yoke Darter | *Nothonotus juliae* |
+| Yunlong Grouper | *Epinephelus moara x Epinephelus lanceolatus* |
 | Zander | *Sander lucioperca* |
+| Zander (Sander Lucioperca) | *Sander Lucioperca) (Sander lucioperca* |
 | Zebra Turkeyfish | *Dendrochirus zebra* |
 | Zingel | *Zingel zingel* |
 
@@ -23121,7 +24277,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Southern Lamprey | *Mordacia mordax* |
 | Turkish Brook Lamprey | *Eudontomyzon lanceolata* |
 
-### • Pleuronectiformes (278)
+### • Pleuronectiformes (283)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -23137,6 +24293,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Arrowtooth Flounder | *Atheresthes stomias* |
 | Asaedae Flounder | *Monolene asaedae* |
 | Atlantic Halibut | *Hippoglossus hippoglossus* |
+| Atlantic Halibut (Hippoglossus Hippoglossus) | *Hippoglossus Hippoglossus) (Hippoglossus hippoglossus* |
 | Bahuda Large Tooth Flounder | *Pseudorhombus bahudaensis* |
 | Banded Tongue-fish | *Symphurus fasciolaris* |
 | Banded-eye Sole | *Soleichthys oculofasciatus* |
@@ -23177,6 +24334,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Comb Flounder | *Marleyella bicolorata* |
 | Common Dab | *Limanda limanda* |
 | Common Sole | *Solea solea* |
+| Common Sole (Solea Solea) | *Solea Solea) (Solea solea* |
 | Cortez Flounder | *Paralichthys aestuarius* |
 | Crescent Sole | *Samariscus japonicus* |
 | Crested Flounder | *Lophonectes gallus* |
@@ -23196,6 +24354,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Dwarf Lefteye Flounder | *Arnoglossus tenuis* |
 | English Sole | *Parophrys vetulus* |
 | European Flounder | *Platichthys flesus* |
+| European Flounder (Platichthys Flesus) | *Platichthys Flesus) (Platichthys flesus* |
 | European Plaice | *Pleuronectes platessa* |
 | Eyed Flounder | *Bothus ocellatus* |
 | Eyed Sole | *Heteromycteris oculus* |
@@ -23342,6 +24501,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Smallscale Tonguesole | *Cynoglossus microlepis* |
 | Snakeskin Sole | *Soleichthys serpenpellis* |
 | Sohachi | *Cleisthenes herzensteini* |
+| Sohachi | *Cleisthenes pinetorum* |
 | Solenette | *Buglossidium luteum* |
 | South African Zebra Sole | *Pseudaesopia regani* |
 | Southern Flounder | *Paralichthys lethostigma* |
@@ -23403,29 +24563,35 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellowtail Flounder | *Myzopsetta ferruginea* |
 | Zanzibar Tonguesole | *Cynoglossus zanzibarensis* |
 | Zebra Sole | *Zebrias zebra* |
+| Zebra Sole | *Zebrias zebrinus* |
 
-### • Polymixiiformes (4)
+### • Polymixiiformes (6)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Beardfish | *Polymixia lowei* |
 | Busakhin's Beardfish | *Polymixia busakhini* |
 | Pacific Beardfish | *Polymixia berndti* |
+| Polymixia Sazanovi | *Polymixia sazonovi* |
+| Polymixia Sazanovi Kotlyar, 1992 | *Polymixia sazonovi* |
 | Silver Eye | *Polymixia japonica* |
 
-### • Polypteriformes (11)
+### • Polypteriformes (14)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Barred Bichir | *Polypterus delhezi* |
+| Gray Bichir | *Polypterus senegalus* |
 | Guinean Bichir | *Polypterus ansorgii* |
 | Mokele-mbembe Bichir | *Polypterus mokelembembe* |
 | Mottled Bichir | *Polypterus weeksii* |
 | Nile Bichir | *Polypterus bichir* |
 | Ornate Bichir | *Polypterus ornatipinnis* |
 | Reedfish | *Erpetoichthys calabaricus* |
+| Reedfish (Erpetoichthys Calabaricus) | *Erpetoichthys Calabaricus) (Erpetoichthys calabaricus* |
 | Saddled Bichir | *Polypterus endlicherii* |
 | Senegal Bichir | *Polypterus senegalus* |
+| Senegal Bichir (Polypterus Senegalus) | *Polypterus Senegalus) (Polypterus senegalus* |
 | Shortfin Bichir | *Polypterus palmas* |
 | West African Bichir | *Polypterus retropinnis* |
 
@@ -23454,7 +24620,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Red-spotted Bandfish | *Acanthocepola krusensternii* |
 | Short Bigeye | *Pristigenys alta* |
 
-### • Rajiformes (151)
+### • Rajiformes (154)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -23479,6 +24645,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Blackspot Skate | *Dipturus campbelli* |
 | Blonde Ray | *Raja brachyura* |
 | Blue Ray | *Neoraja caerulea* |
+| Blue Skate | *Dipturus batis* |
 | Blue Skate | *Notoraja azurea* |
 | Boeseman's Skate | *Okamejei boesemani* |
 | Borneo Leg Skate | *Sinobatis borneensis* |
@@ -23494,6 +24661,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Clearnose Skate | *Rostroraja eglanteria* |
 | Cmmander Skate | *Bathyraja lindbergi* |
 | Common Skate | *Dipturus batis* |
+| Common Skate (Dipturus Batis) | *Dipturus Batis) (Dipturus batis* |
 | Cuban Leg Skate | *Cruriraja hulleyi* |
 | Cuckoo Ray | *Leucoraja naevus* |
 | Cuphead Skate | *Bathyraja scaphiops* |
@@ -23592,6 +24760,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Sydney Skate | *Dipturus australis* |
 | Thintail Skate | *Dipturus leptocauda* |
 | Thornback Ray | *Raja clavata* |
+| Thornback Ray (Raja Clavata) | *Raja Clavata) (Raja clavata* |
 | Thornback Skate | *Dentiraja lemprieri* |
 | Thorny Skate | *Amblyraja radiata* |
 | Travancore Skate | *Dipturus johannisdavisi* |
@@ -23610,13 +24779,14 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellow-spotted Skate | *Okamejei hollandi* |
 | Yellowspotted Skate | *Leucoraja wallacei* |
 
-### • Rhinopristiformes (41)
+### • Rhinopristiformes (43)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Angel Fish | *Rhinobatos hynnicephalus* |
 | Annandale's Guitarfish | *Rhinobatos annandalei* |
 | Atlantic Guitarfish | *Pseudobatos lentiginosus* |
+| Atlantic Guitarfish (Pseudobatos Lentiginosus) | *Pseudobatos Lentiginosus) (Pseudobatos lentiginosus* |
 | Banded Guitarfish | *Zapteryx exasperata* |
 | Blackchin Guitarfish | *Glaucostegus cemiculus* |
 | Broadnose Wedgefish | *Rhynchobatus springeri* |
@@ -23624,6 +24794,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Clubnose Guitarfish | *Glaucostegus thouin* |
 | Common Guitarfish | *Rhinobatos rhinobatos* |
 | Common Sawfish | *Pristis pristis* |
+| Common Sawfish (Pristis Pristis) | *Pristis Pristis) (Pristis pristis* |
 | Dwarf Sawfish | *Pristis clavata* |
 | East Australian Shovelnose Ray | *Aptychotrema rostrata* |
 | Eastern Fiddler | *Trygonorrhina fasciata* |
@@ -23656,7 +24827,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Witch Guitarfish | *Zapteryx xyster* |
 | Yellow Guitarfish | *Rhinobatos schlegelii* |
 
-### • Salmoniformes (74)
+### • Salmoniformes (85)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -23664,9 +24835,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Amur Grayling | *Thymallus grubii* |
 | Amur Whitefish | *Coregonus ussuriensis* |
 | Arctic Char | *Salvelinus alpinus* |
+| Arctic Char (Salvelinus Alpinus) | *Salvelinus Alpinus) (Salvelinus alpinus* |
 | Arctic Cisco | *Coregonus autumnalis* |
+| Arctic Cisco | *Coregonus migratorius* |
 | Arctic Grayling | *Thymallus arcticus* |
 | Atlantic Salmon | *Salmo salar* |
+| Atlantic Salmon (Salmo Salar) | *Salmo Salar) (Salmo salar* |
 | Atlantic Whitefish | *Coregonus huntsmani* |
 | Baikal Black Grayling | *Thymallus baicalensis* |
 | Baikal Whitefish | *Coregonus baicalensis* |
@@ -23680,14 +24854,18 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Bonneville Whitefish | *Prosopium spilonotus* |
 | Broad Whitefish | *Coregonus nasus* |
 | Brook Trout | *Salvelinus fontinalis* |
+| Brook Trout (Salvelinus Fontinalis) | *Salvelinus Fontinalis) (Salvelinus fontinalis* |
 | Brown Trout | *Salmo trutta* |
+| Brown Trout (Salmo Trutta) | *Salmo Trutta) (Salmo trutta* |
 | Bull Trout | *Salvelinus confluentus* |
 | Caspian Trout | *Salmo caspius* |
 | Cherry Salmon | *Oncorhynchus masou* |
 | Chinook Salmon | *Oncorhynchus tshawytscha* |
+| Chinook Salmon (Oncorhynchus Tshawytscha) | *Oncorhynchus Tshawytscha) (Oncorhynchus tshawytscha* |
 | Chum Salmon | *Oncorhynchus keta* |
 | Cisco | *Coregonus artedi* |
 | Coho Salmon | *Oncorhynchus kisutch* |
+| Coho Salmon (Oncorhynchus Kisutch) | *Oncorhynchus Kisutch) (Oncorhynchus kisutch* |
 | Common Whitefish | *Coregonus lavaretus* |
 | Coruh Trout | *Salmo coruhensis* |
 | Cutthroat Trout | *Oncorhynchus clarkii* |
@@ -23710,6 +24888,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Lake Ohrid Brown Trout | *Salmo letnica* |
 | Lake Sidi Ali Trout | *Salmo pallaryi* |
 | Lake Trout | *Salvelinus namaycush* |
+| Lake Trout (Salvelinus Namaycush) | *Salvelinus Namaycush) (Salvelinus namaycush* |
 | Lake Whitefish | *Coregonus clupeaformis* |
 | Least Cisco | *Coregonus sardinella* |
 | Lenok Trout | *Brachymystax lenok* |
@@ -23724,23 +24903,27 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Prespa Trout | *Salmo peristericus* |
 | Pygmy Whitefish | *Prosopium coulterii* |
 | Rainbow Trout | *Oncorhynchus mykiss* |
+| Rainbow Trout (Oncorhynchus Mykiss) | *Oncorhynchus Mykiss) (Oncorhynchus mykiss* |
+| River Trout | *Salmo trutta* |
 | Round Whitefish | *Prosopium cylindraceum* |
 | Shortjaw Cisco | *Coregonus zenithicus* |
 | Sichuan Taimen | *Hucho bleekeri* |
 | Small-mouth Char | *Salvelinus elgyticus* |
 | Sockeye Salmon | *Oncorhynchus nerka* |
+| Sockeye Salmon (Oncorhynchus Nerka) | *Oncorhynchus Nerka) (Oncorhynchus nerka* |
 | Taimen | *Hucho taimen* |
 | Tugun | *Coregonus tugun* |
 | Vendace | *Coregonus albula* |
 | White Char | *Salvelinus albus* |
 | Whitespotted Char | *Salvelinus leucomaenis* |
 
-### • Scombriformes (160)
+### • Scombriformes (168)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | African Barrelfish | *Seriolella labyrinthica* |
 | Albacore | *Thunnus alalunga* |
+| Albacore (Thunnus Alalunga) | *Thunnus Alalunga) (Thunnus alalunga* |
 | Amarsipa | *Amarsipus carlsbergi* |
 | American Butterfish | *Peprilus triacanthus* |
 | American Harvestfish | *Peprilus paru* |
@@ -23749,11 +24932,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Antarctic Escolar | *Paradiplospinus antarcticus* |
 | Ariommid | *Ariomma lurida* |
 | Atlantic Bluefin Tuna | *Thunnus thynnus* |
+| Atlantic Bluefin Tuna (Thunnus Thynnus) | *Thunnus Thynnus) (Thunnus thynnus* |
 | Atlantic Bonito | *Sarda sarda* |
 | Atlantic Chub Mackerel | *Scomber colias* |
 | Atlantic Cutlassfish | *Trichiurus lepturus* |
 | Atlantic Fanfish | *Pterycombus brama* |
 | Atlantic Mackerel | *Scomber scombrus* |
+| Atlantic Mackerel (Scomber Scombrus) | *Scomber Scombrus) (Scomber scombrus* |
 | Atlantic Pomfret | *Brama brama* |
 | Atlantic Scombrops | *Scombrops oculatus* |
 | Australian Bonito | *Sarda australis* |
@@ -23794,6 +24979,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Chinese Silver Pomfret | *Pampus chinensis* |
 | Choicy Ruff | *Seriolella porosa* |
 | Chub Mackerel | *Scomber japonicus* |
+| Cojinova | *Seriolella sp. 'cojinova'* |
 | Common Warehou | *Seriolella brama* |
 | Cornish Blackfish | *Schedophilus medusophagus* |
 | Coromandel Hairtail | *Lepturacanthus pantului* |
@@ -23824,6 +25010,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Kanadi Kingfish | *Scomberomorus plurilineatus* |
 | Kawakawa | *Euthynnus yaito* |
 | King Mackerel | *Scomberomorus cavalla* |
+| King Mackerel (Scomberomorus Cavalla) | *Scomberomorus Cavalla) (Scomberomorus cavalla* |
 | Largehead Hairtail | *Trichiurus japonicus* |
 | Lavenberg's Snaketooth | *Pseudoscopelus lavenbergi* |
 | Leaping Bonito | *Cybiosarda elegans* |
@@ -23894,25 +25081,30 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Striped Escolar | *Diplospinus multistriatus* |
 | Swarthy Snaketooth | *Chiasmodon subniger* |
 | Tasmanian Ruffe | *Tubbia tasmanica* |
+| Tuna | *Scombridae gen. sp.* |
 | Twospine Driftfish | *Psenes sio* |
 | Wahoo | *Acanthocybium solandri* |
+| Wahoo (Acanthocybium Solandri) | *Acanthocybium Solandri) (Acanthocybium solandri* |
 | Western Australian Salmon | *Arripis truttaceus* |
 | White Warehou | *Seriolella caerulea* |
 | Yellowfin Tuna | *Thunnus albacares* |
+| Yellowfin Tuna (Thunnus Albacares) | *Thunnus Albacares) (Thunnus albacares* |
 
-### • Semionotiformes (7)
+### • Semionotiformes (9)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Alligator Gar | *Atractosteus spatula* |
+| Alligator Gar (Atractosteus Spatula) | *Atractosteus Spatula) (Atractosteus spatula* |
 | Cuban Gar | *Atractosteus tristoechus* |
 | Florida Gar | *Lepisosteus platyrhincus* |
 | Longnose Gar | *Lepisosteus osseus* |
+| Longnose Gar (Lepisosteus Osseus) | *Lepisosteus Osseus) (Lepisosteus osseus* |
 | Shortnose Gar | *Lepisosteus platostomus* |
 | Spotted Gar | *Lepisosteus oculatus* |
 | Tropical Gar | *Atractosteus tropicus* |
 
-### • Siluriformes (357)
+### • Siluriformes (363)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -23961,6 +25153,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Bloch's Catfish | *Pimelodus blochii* |
 | Blotched Upsidedown Catfish | *Synodontis nigriventris* |
 | Blue Catfish | *Ictalurus furcatus* |
+| Blue Catfish (Ictalurus Furcatus) | *Ictalurus Furcatus) (Ictalurus furcatus* |
 | Blue Corydoras | *Hoplisoma nattereri* |
 | Blue Sea Catfish | *Sciades guatemalensis* |
 | Bluespotted Corydoras | *Hoplisoma melanistium* |
@@ -23982,6 +25175,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Carolina Madtom | *Noturus furiosus* |
 | Cascarudo | *Callichthys callichthys* |
 | Channel Catfish | *Ictalurus punctatus* |
+| Channel Catfish (Ictalurus Punctatus) | *Ictalurus Punctatus) (Ictalurus punctatus* |
 | Checkered Madtom | *Noturus flavater* |
 | Chilhuil Sea Catfish | *Bagre panamensis* |
 | Chili Sea Catfish | *Sciades troschelii* |
@@ -24022,6 +25216,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Emerald Catfish | *Brochis splendens* |
 | Estuarine Sea Catfish | *Cathorops aguadulce* |
 | Estuary Catfish | *Cnidoglanis macrocephalus* |
+| European Catfish | *Silurus glanis* |
 | False Blochi Catfish | *Brochis delphax* |
 | False Macropterus | *Aspidoras albater* |
 | False Network Catfish | *Brochis sodalis* |
@@ -24158,6 +25353,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Pygmy Madtom | *Noturus stanauli* |
 | Red Sea Catfish | *Bagre pinnimaculatus* |
 | Redtail Catfish | *Phractocephalus hemioliopterus* |
+| Redtail Catfish (Phractocephalus Hemioliopterus) | *Phractocephalus Hemioliopterus) (Phractocephalus hemioliopterus* |
 | Reticulated Corydoras | *Brochis reticulatus* |
 | Rhino Pleco | *Pterygoplichthys scrophus* |
 | Ridged Catfish | *Amissidens hainesi* |
@@ -24220,6 +25416,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Squirrelheaded Catfish | *Arius microcephalus* |
 | Steindachner's Sea Catfish | *Cathorops steindachneri* |
 | Stinging Catfish | *Heteropneustes fossilis* |
+| Stinging Catfish | *Heteropneustes microps* |
 | Stinging Eel Catfish | *Plotosus nkunga* |
 | Stonecat | *Noturus flavus* |
 | Striped Catfish | *Pangasianodon hypophthalmus* |
@@ -24255,6 +25452,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Walking Catfish | *Clarias batrachus* |
 | Warrior Catfish | *Hemiarius dioctes* |
 | Wels Catfish | *Silurus glanis* |
+| Wels Catfish (Silurus Glanis) | *Silurus Glanis) (Silurus glanis* |
 | Whiptail Catfish | *Dasyloricaria filamentosa* |
 | Whiptailed Loricaria | *Rineloricaria fallax* |
 | Whiptailed Nile Catfish | *Andersonia leptura* |
@@ -24274,7 +25472,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Zebra Shovelnose | *Brachyplatystoma tigrinum* |
 | Zucchini Catfish | *Isorineloricaria spinosissima* |
 
-### • Spariformes (152)
+### • Spariformes (156)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -24291,6 +25489,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Black Seabream | *Spondyliosoma cantharus* |
 | Black-streaked Monocle | *Scolopsis taeniata* |
 | Blackspot Seabream | *Pagellus bogaraveo* |
+| Blotched Picarel | *Spicara flexuosa* |
 | Blotched Picarel | *Spicara maena* |
 | Blue-lined Large-eye Bream | *Gymnocranius grandoculis* |
 | Blue-spotted Large-eye Bream | *Gymnocranius microdon* |
@@ -24375,6 +25574,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Redspine Threadfin Bream | *Nemipterus nemurus* |
 | Roman Seabream | *Chrysoblephus laticeps* |
 | Rosy Dwarf Monocle Bream | *Parascolopsis eriomma* |
+| Rosy Dwarf Monocle Bream | *Parascolopsis inermis* |
 | Saddled Seabream | *Oblada melanura* |
 | Sand Steenbras | *Lithognathus mormyrus* |
 | Santer Seabream | *Cheimerius nufar* |
@@ -24427,11 +25627,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellowfin Seabream | *Acanthopagrus latus* |
 | Yellowlip Emperor | *Lethrinus xanthochilus* |
 | Yellowsnout Large-eye Bream | *Gymnocranius frenatus* |
+| Yellowstripe Monocle Bream | *Parascolopsis tosensis* |
 | Yellowstripe Monocle Bream | *Scolopsis aurata* |
 | Yellowtail Emperor | *Lethrinus crocineus* |
 | Zebra Seabream | *Diplodus cervinus* |
+| Zebra Seabream | *Diplodus hottentotus* |
 
-### • Squaliformes (79)
+### • Squaliformes (86)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -24445,12 +25647,16 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Blackfin Gulper Shark | *Centrophorus isodon* |
 | Blackmouth Lanternshark | *Etmopterus evansi* |
 | Blurred Smooth Lantern Shark | *Etmopterus bigelowi* |
+| Bristled Lanternshark | *Etmopterus sp. B Last & Stevens, 1994* |
 | Broad-snout Lanternshark | *Etmopterus burgessi* |
 | Broadbanded Lanternshark | *Etmopterus gracilispinis* |
+| Brown Lanternshark | *Etmopterus compagnoi* |
 | Brown Lanternshark | *Etmopterus unicolor* |
 | Combtooth Dogfish | *Centroscyllium nigrum* |
 | Combtoothed Lanternshark | *Etmopterus decacuspidatus* |
+| Cookie Cutter Shark | *Isistius brasiliensis* |
 | Cookiecutter Shark | *Isistius brasiliensis* |
+| Cookiecutter Shark (Isistius Brasiliensis) | *Isistius Brasiliensis) (Isistius brasiliensis* |
 | Cylindrical Lantern Shark | *Etmopterus carteri* |
 | Dense-scale Lantern Shark | *Etmopterus pycnolepis* |
 | Dumb Gulper Shark | *Centrophorus harrissoni* |
@@ -24462,6 +25668,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Great Lanternshark | *Etmopterus princeps* |
 | Green Lanternshark | *Etmopterus virens* |
 | Greenland Shark | *Somniosus microcephalus* |
+| Greenland Shark (Somniosus Microcephalus) | *Somniosus Microcephalus) (Somniosus microcephalus* |
+| Greenland Sleeper Shark | *Somniosus microcephalus* |
 | Gulper Shark | *Centrophorus granulosus* |
 | Hooktooth Dogfish | *Aculeola nigra* |
 | Japanese Velvet Dogfish | *Scymnodon ichiharai* |
@@ -24505,6 +25713,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Southern Mandarin Dogfish | *Cirrhigaleus australis* |
 | Spined Pygmy Shark | *Squaliolus laticaudus* |
 | Spiny Dogfish | *Squalus acanthias* |
+| Spiny Dogfish (Squalus Acanthias) | *Squalus Acanthias) (Squalus acanthias* |
 | Splendid Lanternshark | *Etmopterus splendidus* |
 | Taiwan Gulper Shark | *Centrophorus niaukang* |
 | Taiwan Spurdog | *Squalus formosus* |
@@ -24515,7 +25724,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Whitecheek Lanternshark | *Etmopterus alphus* |
 | Whitefin Dogfish | *Centroscyllium ritteri* |
 
-### • Stomiiformes (81)
+### • Stomiiformes (85)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -24554,6 +25763,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Longbarb Dragonfish | *Flagellostomias boureei* |
 | Longfin Dragonfish | *Tactostoma macropus* |
 | Loosejaw | *Aristostomias tittmanni* |
+| Loosejaw | *Photostomias guernei* |
 | Lovely Hatchetfish | *Argyropelecus aculeatus* |
 | North Pacific Lightfish | *Maurolicus japonicus* |
 | Obese Dragonfish | *Opostomias micripnus* |
@@ -24572,6 +25782,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Rugby Hatchetfish | *Polyipnus ruggeri* |
 | Scaleless Black Dragonfish | *Melanostomias bartonbeani* |
 | Scaleless Dragonfish | *Bathophilus vaillanti* |
+| Scaleless Dragonfish | *Chirostomias pliopterus* |
 | Scaly Dragonfis | *Stomias boa* |
 | Shiny Loosejaw | *Aristostomias scintillans* |
 | Showy Bristlemouth | *Cyclothone signata* |
@@ -24581,10 +25792,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Sladen's Hatchetfish | *Argyropelecus sladeni* |
 | Slender Bristlemouth | *Cyclothone pseudopallida* |
 | Slender Fangjaw | *Sigmops gracilis* |
+| Slender Lightfish | *Maurolicus australis* |
 | Slender Lightfish | *Vinciguerria attenuata* |
 | Slender Snaggletooth | *Rhadinesthes decimus* |
 | Slim Lighfish | *Ichthyococcus elongatus* |
 | Sloane's Viperfish | *Chauliodus sloani* |
+| Sloane's Viperfish (Chauliodus Sloani) | *Chauliodus Sloani) (Chauliodus sloani* |
 | Slope Hatchetfish | *Polyipnus clarus* |
 | Snaggletooth | *Astronesthes gemmifer* |
 | Southern Stoplight Loosejaw | *Malacosteus australis* |
@@ -24607,10 +25820,11 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | :--- | :--- |
 | Tube-eye | *Stylephorus chordatus* |
 
-### • Synbranchiformes (21)
+### • Synbranchiformes (22)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
+| Armoured Stickleback | *Indostomus crocodilus* |
 | Armoured Stickleback | *Indostomus paradoxus* |
 | Barred Spiny Eel | *Macrognathus pancalus* |
 | Blind Cave Eel | *Ophisternon candidum* |
@@ -24633,7 +25847,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Zebra Spiny Eel | *Macrognathus zebrinus* |
 | Zig-zag Eel | *Mastacembelus armatus* |
 
-### • Syngnathiformes (202)
+### • Syngnathiformes (206)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -24726,7 +25940,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Ladder Dragonet | *Paracallionymus costatus* |
 | Lancer Dragonet | *Callionymus bairdi* |
 | Leafy Seadragon | *Phycodurus eques* |
+| Leafy Seadragon (Phycodurus Eques) | *Phycodurus Eques) (Phycodurus eques* |
 | Lined Seahorse | *Hippocampus erectus* |
+| Lined Seahorse (Hippocampus Erectus) | *Hippocampus Erectus) (Hippocampus erectus* |
 | Long-barbel Goatfish | *Parupeneus macronemus* |
 | Long-snouted Pipefish | *Stigmatopora macropterygia* |
 | Long-snouted Seahorse | *Hippocampus guttulatus* |
@@ -24773,6 +25989,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Red Cornetfish | *Fistularia petimba* |
 | Red Goatfish | *Mullus auratus* |
 | Red Mullet | *Mullus barbatus* |
+| Red Sea Goatfish | *Mulloidichthys auriflamma* |
 | Red Sea Goatfish | *Parupeneus forsskali* |
 | Reticulated Dragonet | *Callionymus reticulatus* |
 | Reunion Seahorse | *Hippocampus borboniensis* |
@@ -24811,6 +26028,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Spotted Dragonet | *Callionymus maculatus* |
 | Spotted Pipefish | *Stigmatopora argus* |
 | Spotted Seahorse | *Hippocampus hilonis* |
+| Spotted Seahorse | *Hippocampus kuda* |
 | Starry Dragonet | *Neosynchiropus stellatus* |
 | Starry Flying Gurnard | *Dactyloptena peterseni* |
 | Stott's Goatfish | *Upeneichthys stotti* |
@@ -24840,7 +26058,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellowfin Goatfish | *Mulloidichthys vanicolensis* |
 | Yellowstripe Goatfish | *Mulloidichthys flavolineatus* |
 
-### • Tetraodontiformes (251)
+### • Tetraodontiformes (257)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -24850,6 +26068,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Banded Puffer | *Colomesus psittacus* |
 | Bandtail Puffer | *Sphoeroides spengleri* |
 | Basketfish | *Kentrocapros aculeatus* |
+| Basketfish | *Kentrocapros rosapinto* |
 | Bearded Leatherjacket | *Anacanthus barbatus* |
 | Bearded Puffer | *Sphoeroides tyleri* |
 | Bennett's Sharpnose Puffer | *Canthigaster bennetti* |
@@ -24880,6 +26099,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Bronze Puffer | *Auriglobus modestus* |
 | Broom Filefish | *Amanses scopas* |
 | Brown-backed Toadfish | *Lagocephalus gloveri* |
+| Brown-backed Toadfish | *Lagocephalus wheeleri* |
 | Brown-lined Puffer | *Canthigaster rivulata* |
 | Brush-tail Toadfisn | *Torquigener squamicauda* |
 | Buffalo Trunkfish | *Lactophrys trigonus* |
@@ -24972,6 +26192,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Natal Toby | *Canthigaster natalensis* |
 | Obscure Pufferfish | *Takifugu fasciatus* |
 | Ocean Sunfish | *Mola mola* |
+| Ocean Sunfish (Mola Mola) | *Mola Mola) (Mola mola* |
 | Ocean Triggerfish | *Canthidermis sufflamen* |
 | Oceanic Puffer | *Lagocephalus lagocephalus* |
 | Ocellated Pufferfish | *Leiodon cutcutia* |
@@ -25045,9 +26266,11 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Spiny Blaasop | *Tylerius spinosissimus* |
 | Spiny-tailed Leatherjacket | *Acanthaluteres brownii* |
 | Spot-fin Porcupinefish | *Diodon hystrix* |
+| Spot-fin Porcupinefish (Diodon Hystrix) | *Diodon Hystrix) (Diodon hystrix* |
 | Spotbase Burrfish | *Cyclichthys spilostylus* |
 | Spotfin Burrfish | *Chilomycterus reticulatus* |
 | Spotted Filefish | *Thamnaconus fajardoi* |
+| Spotted Green Pufferfish | *Tetraodon nigroviridis* |
 | Spotted Oceanic Triggerfish | *Canthidermis maculata* |
 | Spotted Sharpnose | *Canthigaster solandri* |
 | Spotted Sharpnosed Puffer | *Canthigaster punctatissima* |
@@ -25082,6 +26305,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Weeping Toado | *Torquigener pleurogramma* |
 | White-barred Boxfish | *Anoplocapros lenticularis* |
 | White-spotted Puffer | *Arothron hispidus* |
+| White-spotted Puffer (Arothron Hispidus) | *Arothron Hispidus) (Arothron hispidus* |
 | Whitespotted Boxfish | *Ostracion meleagris* |
 | Whitespotted Filefish | *Cantherhines dumerilii* |
 | Whitespotted Pygmy Filefish | *Rudarius ercodes* |
@@ -25096,7 +26320,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellowmargin Triggerfish | *Pseudobalistes flavimarginatus* |
 | Yellowstripe Boxfish | *Kentrocapros flavofasciatus* |
 
-### • Torpediniformes (30)
+### • Torpediniformes (31)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -25118,6 +26342,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Giant Electric Ray | *Narcine entemedor* |
 | Japanese Sleeper Ray | *Narke japonica* |
 | Marbled Electric Ray | *Torpedo marmorata* |
+| Marbled Electric Ray (Torpedo Marmorata) | *Torpedo Marmorata) (Torpedo marmorata* |
 | Ocellated Electric Ray | *Diplobatis ommata* |
 | Onefin Electric Ray | *Narke capensis* |
 | Pacific Electric Ray | *Tetronarce californica* |
@@ -25131,7 +26356,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Trapezoid Torpedo | *Tetronarce tokionis* |
 | Variable Torpedo Ray | *Torpedo sinuspersici* |
 
-### • Trachichthyiformes (21)
+### • Trachichthyiformes (22)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -25151,13 +26376,14 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Parin's Spinyfin | *Diretmichthys parini* |
 | Phillipine Luminous Roughy | *Aulotrachichthys latus* |
 | Sandpaper Fish | *Paratrachichthys macleayi* |
+| Sandpaper Fish | *Paratrachichthys trailli* |
 | Silver Spinyfin | *Diretmus argenteus* |
 | Slimy Head | *Hoplostethus mento* |
 | Smallscale Slimehead | *Hoplostethus melanopus* |
 | Splitfin Flashlightfish | *Anomalops katoptron* |
 | Violet Roughy | *Optivus agastos* |
 
-### • Uranoscopiformes (54)
+### • Uranoscopiformes (55)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -25207,6 +26433,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Speckled Sandperch | *Parapercis hexophtalma* |
 | Spotted Grubfish | *Parapercis ramsayi* |
 | Spotted Sandperch | *Parapercis punctulata* |
+| Stargazer | *Uranoscopus chinensis* |
 | Stargazer | *Uranoscopus scaber* |
 | Threadfin Sandperch | *Parapercis filamentosa* |
 | West African Stargazer | *Uranoscopus cadenati* |
@@ -25216,7 +26443,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yellowbar Sandperch | *Parapercis xanthozona* |
 | Yellowfin Sandperch | *Parapercis flavipinna* |
 
-### • Zeiformes (13)
+### • Zeiformes (14)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -25228,6 +26455,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | False Dory | *Cyttomimus affinis* |
 | Japanese Dory | *Zenion japonicum* |
 | John Dory | *Zeus faber* |
+| John Dory | *Zeus japonicus* |
 | Long-fin Mirror Dory | *Zenopsis filamentosa* |
 | Mirror Dory | *Zenopsis nebulosus* |
 | Parazen | *Parazen pacificus* |
@@ -25236,20 +26464,23 @@ Complete organized breakdown of all currently loaded species in the game catalog
 
 ---
 
-## 🐙 Invertebrates (2834 Species)
+## 🐙 Invertebrates (3101 Species)
 
-### • Actiniaria (14)
+### • Actiniaria (17)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Australian Red Waratah Sea Anemone | *Actinia tenebrosa* |
 | Beadlet Anemone | *Actinia equina* |
+| Beadlet Anemone (Actinia Equina) | *Actinia Equina) (Actinia equina* |
 | Brooding Anemone | *Epiactis prolifera* |
 | Brown Sea Anemone | *Metridium senile* |
 | Cloak Anemone | *Adamsia palliata* |
 | Clonal Anemone | *Anthopleura elegantissima* |
 | Giant Caribbean Anemone | *Condylactis gigantea* |
 | Giant Green Anemone | *Anthopleura xanthogrammica* |
+| Giant Green Anemone (Anthopleura Xanthogrammica) | *Anthopleura Xanthogrammica) (Anthopleura xanthogrammica* |
+| Giant Green Sea Anemone | *Anthopleura xanthogrammica* |
 | Leathery Sea Anemone | *Radianthus crispa* |
 | Magnificent Sea Anemone | *Heteractis magnifica* |
 | Merten's Carpet Sea Anemone | *Stichodactyla mertensii* |
@@ -25257,7 +26488,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Snake-locks Sea Anemone | *Anemonia sulcata* |
 | Starlet Sea Anemone | *Nematostella vectensis* |
 
-### • Adapedonta (4)
+### • Adapedonta (5)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -25265,6 +26496,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Grand Razor Shell | *Solen grandis* |
 | Minor Jackknife Clam | *Ensis minor* |
 | Pacific Geoduck | *Panopea generosa* |
+| Pacific Geoduck (Panopea Generosa) | *Panopea Generosa) (Panopea generosa* |
 
 ### • Agelasida (1)
 
@@ -25272,18 +26504,21 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | :--- | :--- |
 | Pipes Of Pan Sponge | *Agelas schmidtii* |
 
-### • Amblypygi (2)
+### • Amblypygi (4)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Florida Whipspider | *Phrynus marginemaculatus* |
+| South American Whipspider | *Heterophrynus sp. 'Het'* |
 | Tailless Whip Scorpion | *Damon diadema* |
+| Tailless Whip Scorpion (Damon Diadema) | *Damon Diadema) (Damon diadema* |
 
-### • Amphilepidida (2)
+### • Amphilepidida (3)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Common Brittle Star | *Ophiothrix fragilis* |
+| Common Brittle Star (Ophiothrix Fragilis) | *Ophiothrix Fragilis) (Ophiothrix fragilis* |
 | Daisy Brittle Star | *Ophiopholis aculeata* |
 
 ### • Amphioxiformes (5)
@@ -25331,7 +26566,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | :--- | :--- |
 | Light-bulb Sea Squirt | *Clavelina lepadiformis* |
 
-### • Aplysiida (11)
+### • Aplysiida (12)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -25341,6 +26576,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Longtail Seacat | *Stylocheilus longicauda* |
 | Ragged Sea Hare | *Bursatella leachii* |
 | Sea Hare | *Aplysia juliana* |
+| Sea Hare | *Aplysia sp.* |
 | Sea Hare | *Dolabella auricularia* |
 | Slug Sea Hare | *Aplysia limacina* |
 | Spotted Sea Hare | *Aplysia dactylomela* |
@@ -25353,44 +26589,57 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | :--- | :--- |
 | Silky Cucumber | *Chiridota laevis* |
 
-### • Araneae (49)
+### • Araneae (65)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Antilles Pinktoe Tarantula | *Avicularia versicolor* |
 | Arizona Brown Spider | *Loxosceles arizonica* |
 | Armed Spider | *Phoneutria nigriventer* |
+| Armed Spider (Phoneutria Nigriventer) | *Phoneutria Nigriventer) (Phoneutria nigriventer* |
 | Autumn Spider | *Metellina segmentata* |
 | Black Katipo | *Latrodectus atritus* |
+| Black Widow | *Latrodectus mactans* |
 | Black Widow | *Latrodectus tredecimguttatus* |
 | Black Widow Spider | *Latrodectus mactans* |
 | Black-and-white Shiny Spider | *Gasteracantha kuhlii* |
 | Bowl And Doily Spider | *Frontinella communis* |
 | Brazilian Amazonian Armed Spider | *Phoneutria reidyi* |
+| Brazilian Armed Spider | *Phoneutria nigriventer* |
+| Brown Recluse | *Loxosceles reclusa* |
 | Brown Recluse Spider | *Loxosceles reclusa* |
+| Brown Recluse Spider (Loxosceles Reclusa) | *Loxosceles Reclusa) (Loxosceles reclusa* |
 | Brown Sailor Spider | *Neoscona nautica* |
 | Brown Widow | *Latrodectus geometricus* |
 | California Dune Trapdoor Spider | *Aptostichus simus* |
 | Carolina Wolf Spider | *Hogna carolinensis* |
+| Chilean Recluse Spider | *Loxosceles laeta* |
 | Chilean Rose Tarantula | *Grammostola rosea* |
+| Chilean Rose Tarantula (Grammostola Rosea) | *Grammostola Rosea) (Grammostola rosea* |
 | Chinese Earth Tiger | *Cyriopagopus schmidti* |
 | Coastal Peacock Spider | *Maratus volans* |
+| Coastal Peacock Spider (Maratus Volans) | *Maratus Volans) (Maratus volans* |
 | Cobalt Blue Tarantula | *Cyriopagopus lividus* |
 | Common House Spider | *Parasteatoda tepidariorum* |
 | Costa Rican Zebra Tarantula | *Aphonopelma seemanni* |
 | Eastern Mouse Spider | *Missulena bradleyi* |
 | Edible Golden Silk Spider | *Trichonephila edulis* |
 | European Garden Spider | *Araneus diadematus* |
+| European Garden Spider (Araneus Diadematus) | *Araneus Diadematus) (Araneus diadematus* |
 | Giant Crab Spider | *Heteropoda venatoria* |
 | Giant Wood Spider | *Nephila pilipes* |
 | Golden Orb-web Spider | *Trichonephila inaurata* |
 | Golden Silk Orb-weaver | *Trichonephila clavipes* |
+| Golden Silk Orb-weaver (Trichonephila Clavipes) | *Trichonephila Clavipes) (Trichonephila clavipes* |
 | Goliath Birdeater | *Theraphosa blondi* |
+| Goliath Birdeater (Theraphosa Blondi) | *Theraphosa Blondi) (Theraphosa blondi* |
+| Goliath Birdeating Spider | *Theraphosa blondi* |
 | Hawaiian Happy Face Spider | *Theridion grallator* |
 | King Baboon Spider | *Pelinobius muticus* |
 | Ladybird Spider | *Eresus cinnaberinus* |
 | Longbodied Cellar Spider | *Pholcus phalangioides* |
 | Mexican Redknee Tarantula | *Brachypelma hamorii* |
+| Mexican Redknee Tarantula (Brachypelma Hamorii) | *Brachypelma Hamorii) (Brachypelma hamorii* |
 | Northern Black Widow | *Latrodectus variolus* |
 | Orchard Orbweaver | *Leucauge venusta* |
 | Pinktoe Tarantula | *Avicularia avicularia* |
@@ -25400,12 +26649,15 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Redback Spider | *Latrodectus hasseltii* |
 | Salmon Pink Birdeater | *Lasiodora parahybana* |
 | Singapore Brown Tarantula | *Coremiocnemis cunicularia* |
+| Southern Black Widow (Latrodectus Mactans) | *Latrodectus Mactans) (Latrodectus mactans* |
 | Sydney Funnel-web Spider | *Atrax robustus* |
+| Sydney Funnel-web Spider (Atrax Robustus) | *Atrax Robustus) (Atrax robustus* |
 | Trinidad Chevron Tarantula | *Psalmopoeus cambridgei* |
 | True Katipo | *Latrodectus katipo* |
 | Water Spider | *Argyroneta aquatica* |
 | Western Black Widow | *Latrodectus hesperus* |
 | Zebra Spider | *Salticus scenicus* |
+| Zebra Spider (Salticus Scenicus) | *Salticus Scenicus) (Salticus scenicus* |
 
 ### • Arbacioida (2)
 
@@ -25424,14 +26676,15 @@ Complete organized breakdown of all currently loaded species in the game catalog
 
 | Common Name | Scientific Name |
 | :--- | :--- |
-| Ark Clam | *Anadara trapezia* |
 | Ark Clam | *Anadara inaequivalvis* |
+| Ark Clam | *Anadara trapezia* |
 
-### • Aspidochirotida (3)
+### • Aspidochirotida (4)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Black Sea Cucumber | *Holothuria atra* |
+| Black Sea Cucumber (Holothuria Atra) | *Holothuria Atra) (Holothuria atra* |
 | Japanese Sea Cucumber | *Apostichopus japonicus* |
 | Warty Sea Cucumber | *Stichopus horrens* |
 
@@ -25454,11 +26707,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Japanese Acorn Barnacle | *Tetraclita japonica* |
 | Northern Acorn Barnacle | *Semibalanus balanoides* |
 
-### • Blattodea (38)
+### • Blattodea (43)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | American Cockroach | *Periplaneta americana* |
+| American Cockroach (Periplaneta Americana) | *Periplaneta Americana) (Periplaneta americana* |
 | Argentinian Wood Cockroach | *Blaptica dubia* |
 | Asian Cockroach | *Blattella asahinai* |
 | Australian Cockroach | *Validiblatta australasiae* |
@@ -25471,16 +26725,20 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Death's Head Cockroach | *Blaberus craniifer* |
 | Double-striped Cockroach | *Blattella bisignata* |
 | Eastern Subterranean Termite | *Reticulitermes flavipes* |
+| Eastern Subterranean Termite (Reticulitermes Flavipes) | *Reticulitermes Flavipes) (Reticulitermes flavipes* |
 | False German Cockroach | *Blattella lituricollis* |
 | Field Cockroach | *Blattella vaga* |
 | Florida Woods Cockroach | *Eurycotis floridana* |
 | Formosan Subterranean Termite | *Coptotermes formosanus* |
 | German Cockroach | *Blattella germanica* |
+| Giant Madagascar Hissing Cockroach | *Gromphadorhina portentosa* |
 | Giant Northern Termite | *Mastotermes darwiniensis* |
 | Gray Cockroach | *Nauphoeta cinerea* |
 | Harlequin Cockroach | *Neostylopyga rhombifolia* |
 | Light Southeastern Subterranean Termite | *Reticulitermes hageni* |
+| Madagascar Hissing Cockroach | *Gromphadorhina laevigata* |
 | Madagascar Hissing Cockroach | *Gromphadorhina portentosa* |
+| Madagascar Hissing Cockroach (Gromphadorhina Portentosa) | *Gromphadorhina Portentosa) (Gromphadorhina portentosa* |
 | Madeira Cockroach | *Rhyparobia maderae* |
 | Mendi Termite | *Macrotermes subhyalinus* |
 | Milk Termite | *Coptotermes lacteus* |
@@ -25497,7 +26755,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Tropical Cockroach | *Blaberus discoidalis* |
 | Turkestan Cockroach | *Periplaneta lateralis* |
 
-### • Camarodonta (9)
+### • Camarodonta (12)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -25506,12 +26764,15 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Fragile Urchin | *Allocentrotus fragilis* |
 | Green Sea Urchin | *Strongylocentrotus droebachiensis* |
 | Pale Sea Urchin | *Strongylocentrotus pallidus* |
+| Pencil Urchin | *Heterocentrotus mammillatus* |
 | Purple Sea Urchin | *Strongylocentrotus purpuratus* |
+| Purple Sea Urchin (Strongylocentrotus Purpuratus) | *Strongylocentrotus Purpuratus) (Strongylocentrotus purpuratus* |
 | Red Slate Pencil Urchin | *Heterocentrotus mammillatus* |
+| Red Slate Pencil Urchin (Heterocentrotus Mammillatus) | *Heterocentrotus Mammillatus) (Heterocentrotus mammillatus* |
 | Rock Boring Urchin | *Echinometra lucunter* |
 | Sand Urchin | *Psammechinus miliaris* |
 
-### • Cardiida (9)
+### • Cardiida (10)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -25521,6 +26782,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Doine Heart Cockle | *Corculum dionaeum* |
 | European Prickly Cockle | *Acanthocardia echinata* |
 | Giant Clam | *Tridacna gigas* |
+| Giant Clam (Tridacna Gigas) | *Tridacna Gigas) (Tridacna gigas* |
 | Many-colored Tellin | *Ameritella versicolor* |
 | Truncated Wedgeshell | *Donax trunculus* |
 | Tuberculate Cockle | *Acanthocardia tuberculata* |
@@ -25530,6 +26792,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Broad-ribbed Carditid | *Cardites floridanus* |
+
+### • Carybdeida (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Irukandji Box Jellyfish | *Malo kingi* |
 
 ### • Cephalaspidea (2)
 
@@ -25544,19 +26812,21 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | :--- | :--- |
 | Greater Hornwrack | *Flustra foliacea* |
 
-### • Chirodropida (1)
+### • Chirodropida (2)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Sea Wasp Box Jellyfish | *Chironex fleckeri* |
+| Sea Wasp Box Jellyfish (Chironex Fleckeri) | *Chironex Fleckeri) (Chironex fleckeri* |
 
-### • Chitonida (3)
+### • Chitonida (4)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Black Chiton | *Katharina tunicata* |
 | Gumboot Chiton | *Cryptochiton stelleri* |
 | West Indian Chiton | *Acanthopleura granulata* |
+| West Indian Chiton (Acanthopleura Granulata) | *Acanthopleura Granulata) (Acanthopleura granulata* |
 
 ### • Chondrillida (1)
 
@@ -25564,16 +26834,18 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | :--- | :--- |
 | Chicken Liver Sponge | *Chondrilla nucula* |
 
-### • Clypeasteroida (1)
+### • Clypeasteroida (2)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Common Sand Dollar | *Echinarachnius parma* |
+| Common Sand Dollar (Echinarachnius Parma) | *Echinarachnius Parma) (Echinarachnius parma* |
 
-### • Coleoptera (244)
+### • Coleoptera (263)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
+| 24-pointed Ladybird Beetle | *Subcoccinella vigintiquattuorpunctata* |
 | Acorn Weevil | *Curculio venosus* |
 | African Palm Weevil | *Rhynchophorus phoenicis* |
 | Agave Weevil | *Scyphophorus acupunctatus* |
@@ -25589,6 +26861,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Arrowhead Borer | *Xylotrechus sagittatus* |
 | Asian Longhorned Beetle | *Anoplophora glabripennis* |
 | Atlas Beetle | *Chalcosoma atlas* |
+| Atlas Beetle (Chalcosoma Atlas) | *Chalcosoma Atlas) (Chalcosoma atlas* |
 | Australian Spider Beetle | *Ptinus tectus* |
 | Azuki Bean Weevil | *Callosobruchus chinensis* |
 | Bacon Beetle | *Dermestes lardarius* |
@@ -25607,6 +26880,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Blue-green Citrus Root Weevil | *Pachnaeus litus* |
 | Boll Weevil | *Anthonomus grandis* |
 | Bombardier Beetle | *Brachinus crepitans* |
+| Bombardier Beetle (Brachinus Crepitans) | *Brachinus Crepitans) (Brachinus crepitans* |
 | Brazilian Larval Click-beetle | *Pyrearinus termitilluminans* |
 | Brazilian Luminescent Click Beetle | *Pyrophorus divergens* |
 | Broad-necked Root Borer | *Prionus laticollis* |
@@ -25629,9 +26903,11 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Coffee Bean Weevil | *Araecerus fasciculatus* |
 | Coffee Berry Borer | *Hypothenemus hampei* |
 | Colorado Potato Beetle | *Leptinotarsa decemlineata* |
+| Colorado Potato Beetle (Leptinotarsa Decemlineata) | *Leptinotarsa Decemlineata) (Leptinotarsa decemlineata* |
 | Common Asparagus Beetle | *Crioceris asparagi* |
 | Common Cockchafer | *Melolontha melolontha* |
 | Common Eastern Firefly | *Photinus pyralis* |
+| Common Eastern Firefly (Photinus Pyralis) | *Photinus Pyralis) (Photinus pyralis* |
 | Common Hide Beetle | *Dermestes maculatus* |
 | Common Pine Shoot Beetle | *Tomicus piniperda* |
 | Confused Flour Beetle | *Tribolium confusum* |
@@ -25665,8 +26941,10 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | European Rhinoceros Beetle | *Oryctes nasicornis* |
 | European Spruce Beetle | *Dendroctonus micans* |
 | European Stag Beetle | *Lucanus cervus* |
+| European Stag Beetle (Lucanus Cervus) | *Lucanus Cervus) (Lucanus cervus* |
 | False Potato Beetle | *Leptinotarsa juncta* |
 | Flatheaded Appletree Borer | *Chrysobothris femorata* |
+| Flower Long-horned Beetle | *Leptura sp. DEH-1995* |
 | Four-banded Longhorn Beetle | *Leptura quadrifasciata* |
 | Four-spotted Sap Beetle | *Glischrochilus quadrisignatus* |
 | Galapagos Caterpillar Hunter | *Calosoma granatense* |
@@ -25674,11 +26952,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Giant Harlequin Beetle | *Acrocinus longimanus* |
 | Goldenrod Soldier Beetle | *Chauliognathus pensylvanicus* |
 | Goliath Beetle | *Goliathus goliatus* |
+| Goliath Beetle (Goliathus Goliatus) | *Goliathus Goliatus) (Goliathus goliatus* |
 | Gorse Weevil | *Exapion ulicis* |
 | Granary Weevil | *Sitophilus granarius* |
 | Grape Colaspis | *Colaspis brunnea* |
 | Gray Willow Leaf Beetle | *Tricholochmaea decora* |
 | Great Diving Beetle | *Dytiscus marginalis* |
+| Great Diving Beetle (Dytiscus Marginalis) | *Dytiscus Marginalis) (Dytiscus marginalis* |
 | Great Silver Water Beetle | *Hydrophilus piceus* |
 | Green June Beetle | *Cotinis nitida* |
 | Grey Sunflower Seed Weevil | *Smicronyx sordidus* |
@@ -25687,11 +26967,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Hazelnut Beetle | *Curculio nucum* |
 | Heather Beetle | *Lochmaea suturalis* |
 | Hercules Beetle | *Dynastes hercules* |
+| Hercules Beetle (Dynastes Hercules) | *Dynastes Hercules) (Dynastes hercules* |
 | Hieroglyphic Ladybird | *Coccinella hieroglyphica* |
 | Hunting Billbug | *Sphenophorus venatus* |
 | Iranian Firefly | *Lampyris turkestanicus* |
 | Japanese Beetle | *Popillia japonica* |
 | Japanese Firefly | *Aquatica lateralis* |
+| Japanese Firefly | *Nipponoluciola cruciata* |
 | Japanese Pine Sawyer | *Monochamus alternatus* |
 | Jeffrey Pine Beetle | *Dendroctonus jeffreyi* |
 | Kidney-spot Ladybird Beetle | *Chilocorus renipustulatus* |
@@ -25766,9 +27048,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Roundheaded Pine Beetle | *Dendroctonus adjunctus* |
 | Sabal Weevil | *Rhynchophorus cruentatus* |
 | Sacred Scarab | *Scarabaeus sacer* |
+| Sacred Scarab (Scarabaeus Sacer) | *Scarabaeus Sacer) (Scarabaeus sacer* |
 | Saw-toothed Grain Beetle | *Oryzaephilus surinamensis* |
 | Scarce Seven-spotted Ladybird | *Coccinella magnifica* |
 | Seven-spot Ladybird | *Coccinella septempunctata* |
+| Seven-spot Ladybird (Coccinella Septempunctata) | *Coccinella Septempunctata) (Coccinella septempunctata* |
+| Seven-spotted Ladybird | *Coccinella septempunctata* |
 | Shiny Spider Beetle | *Gibbium psylloides* |
 | Silky Cane Weevil | *Metamasius hemipterus* |
 | Six-toothed Spruce Bark Beetle | *Pityogenes chalcographus* |
@@ -25807,6 +27092,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Viburnum Leaf Beetle | *Pyrrhalta viburni* |
 | Water Ladybird | *Anisosticta novemdecimpunctata* |
 | Water Lily Leaf Beetle | *Galerucella birmanica* |
+| Water Lily Leaf Beetle | *Galerucella nymphaeae* |
 | Water-primrose Flea Beetle | *Lysathia ludoviciana* |
 | Western Balsam Bark Beele | *Dryocoetes confusus* |
 | Western Cedar Borer | *Trachykele blondeli* |
@@ -25816,7 +27102,11 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | White Grub Beetle | *Dasylepida ishigakiensis* |
 | White Oak Borer | *Goes tigrinus* |
 | Willow Leaf Beetle | *Chrysomela vigintipunctata* |
+| Willow Leaf Beetle | *Lochmaea capreae* |
+| Willow Leaf Beetle | *Plagiodera versicolora* |
+| Yellow Mealworm | *Tenebrio molitor* |
 | Yellow Mealworm Beetle | *Tenebrio molitor* |
+| Yellow Mealworm Beetle (Tenebrio Molitor) | *Tenebrio Molitor) (Tenebrio molitor* |
 | Yellowish Elongate Chafer | *Heptophylla picea* |
 
 ### • Comatulida (1)
@@ -25825,12 +27115,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | :--- | :--- |
 | Common Feather Star | *Florometra serratissima* |
 
-### • Crassiclitellata (5)
+### • Crassiclitellata (6)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Common Brandling Worm | *Eisenia fetida* |
 | Common Earthworm | *Lumbricus terrestris* |
+| Common Earthworm (Lumbricus Terrestris) | *Lumbricus Terrestris) (Lumbricus terrestris* |
 | Compost Worm | *Perionyx excavatus* |
 | Earthworm | *Metaphire sieboldi* |
 | Humus Earthworm | *Lumbricus rubellus* |
@@ -25843,32 +27134,38 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Marten Tapeworm | *Taenia martis* |
 | Pork Tapeworm | *Taenia solium* |
 | Rabbit Tapeworm | *Neoctenotaenia variabilis* |
-| Sheep Tapeworm | *Taenia ovis* |
 | Sheep Tapeworm | *Moniezia expansa* |
+| Sheep Tapeworm | *Taenia ovis* |
 
-### • Decapoda (169)
+### • Decapoda (187)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Acadian Hermit Crab | *Pagurus acadianus* |
 | Alaskan Hermit Crab | *Pagurus ochotensis* |
 | American Lobster | *Homarus americanus* |
+| American Lobster (Homarus Americanus) | *Homarus Americanus) (Homarus americanus* |
 | Andaman Lobster | *Metanephrops andamanicus* |
 | Arafura Lobster | *Metanephrops arafurensis* |
 | Arrow Shrimp | *Tozeuma carolinense* |
 | Asymmetric Mud Crab | *Eurypanopeus dissimilis* |
 | Atlantic Ditch Shrimp | *Palaemon varians* |
 | Atlantic Ghost Crab | *Ocypode quadrata* |
+| Atlantic Ghost Crab (Ocypode Quadrata) | *Ocypode Quadrata) (Ocypode quadrata* |
 | Atlantic Marsh Fiddler Crab | *Minuca pugnax* |
+| Atlantic Marsh Fiddler Crab (Minuca Pugnax) | *Minuca Pugnax) (Minuca pugnax* |
 | Atlantic Mud Crab | *Panopeus herbstii* |
 | Atlantic Rock Crab | *Cancer irroratus* |
+| Atlantic Rock Crab (Cancer Irroratus) | *Cancer Irroratus) (Cancer irroratus* |
 | Atlantic Sand Fiddler Crab | *Leptuca pugilator* |
 | Ausubel's Mighty Clawed Lobster | *Dinochelus ausubeli* |
 | Banded Coral Shrimp | *Stenopus hispidus* |
 | Banded Porcelain Crab | *Petrolisthes galathinus* |
 | Bight Lobster | *Metanephrops boschmai* |
+| Black Tiger Shrimp | *Penaeus monodon* |
 | Blackback Land Crab | *Gecarcinus lateralis* |
 | Blue Crab | *Callinectes sapidus* |
+| Blue Crab (Callinectes Sapidus) | *Callinectes Sapidus) (Callinectes sapidus* |
 | Blue King Crab | *Paralithodes platypus* |
 | Blue Land Crab | *Cardisoma carnifex* |
 | Blue Shrimp | *Penaeus stylirostris* |
@@ -25883,20 +27180,25 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | California Spiny Lobster | *Panulirus interruptus* |
 | Cape Lobster | *Homarinus capensis* |
 | Caribbean Hermit Crab | *Coenobita clypeatus* |
+| Caribbean Hermit Crab (Coenobita Clypeatus) | *Coenobita Clypeatus) (Coenobita clypeatus* |
 | Caribbean Lobsterette | *Metanephrops binghami* |
 | Caribbean Spiny Lobster | *Panulirus argus* |
+| Caribbean Spiny Lobster (Panulirus Argus) | *Panulirus Argus) (Panulirus argus* |
 | China Lobster | *Metanephrops sinensis* |
 | Chinese Mitten Crab | *Eriocheir sinensis* |
 | Chinese Spiny Lobster | *Panulirus stimpsoni* |
 | Cleaner Shrimp | *Lysmata grabhami* |
 | Coconut Crab | *Birgus latro* |
+| Coconut Crab (Birgus Latro) | *Birgus Latro) (Birgus latro* |
 | Common Hermit Crab | *Pagurus bernhardus* |
 | Cuban Stone Crab | *Menippe nodifrons* |
 | Deceitful Crayfish | *Procambarus fallax* |
 | Djeddah Snapping Shrimp | *Alpheus djeddensis* |
 | Dungeness Crab | *Metacarcinus magister* |
+| Dungeness Crab (Metacarcinus Magister) | *Metacarcinus Magister) (Metacarcinus magister* |
 | Edible Crab | *Cancer pagurus* |
 | European Lobster | *Homarus gammarus* |
+| European Lobster (Homarus Gammarus) | *Homarus Gammarus) (Homarus gammarus* |
 | European Spiny Lobster | *Palinurus vulgaris* |
 | Fiddler Crab | *Uca pugilator* |
 | Fire Shrimp | *Lysmata debelius* |
@@ -25905,12 +27207,14 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Flatback Mud Crab | *Eurypanopeus depressus* |
 | Florida Grassflat Crab | *Neopanope packardii* |
 | Florida Stone Crab | *Menippe mercenaria* |
+| Florida Stone Crab (Menippe Mercenaria) | *Menippe Mercenaria) (Menippe mercenaria* |
 | Formosa Lobster | *Metanephrops formosanus* |
 | Furrowed Mud Crab | *Panopeus occidentalis* |
 | Furrowed Rock Crab | *Romaleon branneri* |
 | Giant Freshwater Prawn | *Macrobrachium rosenbergii* |
 | Giant Mud Crab | *Scylla serrata* |
 | Giant Tiger Prawn | *Penaeus monodon* |
+| Giant Tiger Prawn (Penaeus Monodon) | *Penaeus Monodon) (Penaeus monodon* |
 | Glenelg Cray | *Euastacus bispinosus* |
 | Graceful Rock Crab | *Metacarcinus gracilis* |
 | Green Crab | *Carcinus maenas* |
@@ -25931,6 +27235,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Japanese Lobster | *Metanephrops japonicus* |
 | Japanese Mitten Crab | *Eriocheir japonica* |
 | Japanese Spider Crab | *Macrocheira kaempferi* |
+| Japanese Spider Crab (Macrocheira Kaempferi) | *Macrocheira Kaempferi) (Macrocheira kaempferi* |
 | Japanese Spiny Lobster | *Panulirus japonicus* |
 | Japanese Swamp Shrimp | *Neocaridina denticulata* |
 | Jonah Crab | *Cancer borealis* |
@@ -25969,6 +27274,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Pacific White Shrimp | *Penaeus vannamei* |
 | Painted Spiny Lobster | *Panulirus versicolor* |
 | Pink Shrimp | *Penaeus duorarum* |
+| Pink Shrimp | *Penaeus paulensis* |
 | Pinkspotted Shrimp | *Penaeus brasiliensis* |
 | Porcelain Anemone Crab | *Neopetrolisthes maculatus* |
 | Portly Spider Crab | *Libinia emarginata* |
@@ -25977,6 +27283,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Red Claw Crab | *Parasesarma bidens* |
 | Red Deepsea Crab | *Chaceon quinquedens* |
 | Red King Crab | *Paralithodes camtschaticus* |
+| Red King Crab (Paralithodes Camtschaticus) | *Paralithodes Camtschaticus) (Paralithodes camtschaticus* |
 | Red Mud Lobster | *Neaxius glyptocercus* |
 | Red Prawn | *Aristeus antennatus* |
 | Red Rock Crab | *Cancer productus* |
@@ -26002,6 +27309,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Smooth Mud Crab | *Hexapanopeus angustifrons* |
 | Smoothtail Spiny Lobster | *Panulirus laevicauda* |
 | Snow Crab | *Chionoecetes opilio* |
+| Snow Crab (Chionoecetes Opilio) | *Chionoecetes Opilio) (Chionoecetes opilio* |
 | South African Cape Rock Lobster | *Jasus lalandii* |
 | Southern Brown Shrimp | *Penaeus subtilis* |
 | Spiny Spider Crab | *Maja squinado* |
@@ -26016,6 +27324,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Three Spot Swimming Crab | *Portunus sanguinolentus* |
 | Velvet Lobster | *Metanephrops velutinus* |
 | Western Rock Lobster | *Panulirus cygnus* |
+| White Shrimp | *Penaeus schmitti* |
 | White Shrimp | *Penaeus setiferus* |
 | White-clawed Crayfish | *Austropotamobius pallipes* |
 | Yarra Cray | *Euastacus yarraensis* |
@@ -26026,18 +27335,22 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | :--- | :--- |
 | Scarlet Psolus | *Psolus fabricii* |
 
-### • Dermaptera (1)
+### • Dermaptera (3)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | European Earwig | *Forficula auricularia* |
+| European Earwig (Forficula auricularia complex sp. A sensu Guillet et al. (2000)) | *Forficula auricularia complex sp. A sensu Guillet et al. (2000)* |
+| European Earwig (Forficula auricularia complex sp. B sensu Guillet et al. (2000)) | *Forficula auricularia complex sp. B sensu Guillet et al. (2000)* |
 
-### • Dictyoceratida (5)
+### • Dictyoceratida (7)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Bath Sponge | *Spongia officinalis* |
+| Bath Sponge (Spongia Officinalis) | *Spongia Officinalis) (Spongia officinalis* |
 | Black-ball Sponge | *Ircinia strobilina* |
+| Commercial Sponge | *Spongia officinalis* |
 | Elephant Ear Sponge | *Spongia agaricina* |
 | Horse Sponge | *Hippospongia communis* |
 | Sheepswool Sponge | *Hippospongia lachne* |
@@ -26055,17 +27368,20 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | :--- | :--- |
 | Green-banded Broodsac | *Leucochloridium paradoxum* |
 
-### • Diplostraca (2)
+### • Diplostraca (4)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Common Water Flea | *Daphnia pulex* |
+| Common Water Flea (Daphnia Pulex) | *Daphnia Pulex) (Daphnia pulex* |
 | Holarctic Clam Shrimp | *Lynceus brachyurus* |
+| Magna Water Flea | *Daphnia magna* |
 
-### • Diptera (124)
+### • Diptera (137)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
+| African Malaria Mosquito | *Anopheles funestus* |
 | African Malaria Mosquito | *Anopheles gambiae* |
 | Ampelopsis Fruit Midge | *Asphondylia baca* |
 | Apple Maggot | *Rhagoletis pomonella* |
@@ -26091,6 +27407,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Blueberry Fruit Fly | *Rhagoletis mendax* |
 | Blueberry Gall Midge | *Dasineura oxycoccana* |
 | Bluebodied Blowfly | *Calliphora dubia* |
+| Buffaloberry Fly | *Rhagoletis n. sp. B* |
 | Cabbage Fly | *Delia brassica* |
 | Cabbage Leaf Miner | *Phytomyza rufipes* |
 | Cabbage Leafminer | *Liriomyza brassicae* |
@@ -26104,34 +27421,44 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Common Green Colonel Fly | *Oplodontha viridula* |
 | Common Hover Fly | *Simosyrphus grandicornis* |
 | Common Malaria Mosquito | *Anopheles quadrimaculatus* |
+| Common Malaria Mosquito (Anopheles Quadrimaculatus) | *Anopheles Quadrimaculatus) (Anopheles quadrimaculatus* |
 | Cucumber Fruit Fly | *Zeugodacus cucumis* |
 | Drone Fly | *Eristalis tenax* |
+| Drosophila Simulans | *Drosophila simulans* |
 | Early Cattle Grub | *Hypoderma lineatum* |
 | Eastern Saltmarsh Mosquito | *Ochlerotatus sollicitans* |
 | Eucalypt Gall-forming Fly | *Fergusonina taylori* |
 | Face Fly | *Musca autumnalis* |
 | Fijian Fruit Fly | *Bactrocera passiflorae* |
 | Flat-footed Fly | *Platypeza consobrina* |
+| Flowering Dogwood Fly | *Rhagoletis nr. mendax JJS-1996* |
 | Frit Fly | *Oscinella frit* |
+| Fruit Fly | *Drosophila gunungcola* |
 | Fruit Fly | *Drosophila melanogaster* |
+| Fungus Gnat | *Mycetophilus sp. HMR-1993* |
 | Garden Pea Leafminer | *Chromatomyia horticola* |
 | Goat Warble Fly | *Przhevalskiana silenus* |
 | Goldenrod Bunch Gall | *Rhopalomyia solidaginis* |
 | Goldenrod Gall Fly | *Eurosta solidaginis* |
+| Grass Fly | *Oscinella sp. HMR-1993* |
 | Grass Sheathminer | *Cerodontha dorsalis* |
 | Grey Fleshfly | *Sarcophaga bullata* |
 | Guava Fruit Fly | *Bactrocera correcta* |
+| Hairy Maggot Blowfly | *Chrysomya albiceps* |
 | Hairy Maggot Blowfly | *Chrysomya rufifacies* |
 | Hessian Fly | *Mayetiola destructor* |
 | Hippo Fly | *Tabanus biguttatus* |
 | Horn Fly | *Haematobia irritans* |
+| House Fly | *Musca domestica* |
 | Housefly | *Musca domestica* |
+| Housefly (Musca Domestica) | *Musca Domestica) (Musca domestica* |
 | Human Botfly | *Dermatobia hominis* |
 | Indian Uzi Fly | *Exorista bombycis* |
 | Japanese Orange Fly | *Bactrocera tsuneonis* |
 | Lesser Pumpkin Fly | *Dacus ciliatus* |
 | Little House Fly | *Fannia canicularis* |
 | Locust Gall Midge | *Obolodiplosis robiniae* |
+| Lonicera Fly | *Rhagoletis sp. DS-2005* |
 | Mango Fruit Fly | *Ceratitis cosyra* |
 | Marmalade Hoverfly | *Episyrphus balteatus* |
 | Mediterranean Fruit Fly | *Ceratitis capitata* |
@@ -26188,6 +27515,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Willow Beaked Gall Midge | *Rabdophaga salicivora* |
 | Yellow Dung Fly | *Scathophaga stercoraria* |
 | Yellow Fever Mosquito | *Aedes aegypti* |
+| Yellow Fever Mosquito (Aedes Aegypti) | *Aedes Aegypti) (Aedes aegypti* |
 | Yellow Wheat Blossom Midge | *Contarinia tritici* |
 | Zizyphus Fruit Fly | *Carpomya incompleta* |
 
@@ -26217,38 +27545,47 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | :--- | :--- |
 | Oriental Mayfly | *Ephemera orientalis* |
 
-### • Eunicida (2)
+### • Eunicida (3)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Bobbit Worm | *Eunice aphroditois* |
+| Bobbit Worm (Eunice Aphroditois) | *Eunice Aphroditois) (Eunice aphroditois* |
 | Marine Fireworm | *Hermodice carunculata* |
 
-### • Euonychophora (2)
+### • Euonychophora (4)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
+| Moseley's Velvet Worm | *Peripatopsis moseleyi* |
 | Pink Velvet Worm | *Opisthopatus roseus* |
 | Velvet Worm | *Epiperipatus biolleyi* |
+| Velvet Worm (Epiperipatus Biolleyi) | *Epiperipatus Biolleyi) (Epiperipatus biolleyi* |
 
-### • Euphausiacea (3)
+### • Euphausiacea (4)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Antarctic Krill | *Euphausia superba* |
+| Antarctic Krill (Euphausia Superba) | *Euphausia Superba) (Euphausia superba* |
 | Ice Krill | *Euphausia crystallorophias* |
 | North Pacific Krill | *Euphausia pacifica* |
 
-### • Forcipulatida (6)
+### • Forcipulatida (11)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Common Starfish | *Asterias rubens* |
+| Common Starfish (Asterias Rubens) | *Asterias Rubens) (Asterias rubens* |
+| European Starfish | *Asterias rubens* |
 | Forbes's Starfish | *Asterias forbesi* |
 | Northern Pacific Seastar | *Asterias amurensis* |
 | Ochre Sea Star | *Pisaster ochraceus* |
+| Ochre Sea Star (Pisaster Ochraceus) | *Pisaster Ochraceus) (Pisaster ochraceus* |
+| Purple Sea Star | *Pisaster ochraceus* |
 | Spiny Starfish | *Marthasterias glacialis* |
 | Sunflower Sea Star | *Pycnopodia helianthoides* |
+| Sunflower Sea Star (Pycnopodia Helianthoides) | *Pycnopodia Helianthoides) (Pycnopodia helianthoides* |
 
 ### • Galeommatida (1)
 
@@ -26282,7 +27619,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Erect Rope Sponge | *Amphimedon compressa* |
 | Giant Barrel Sponge | *Xestospongia muta* |
 
-### • Hemiptera (204)
+### • Hemiptera (215)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -26300,6 +27637,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Asiatic Red Scale | *Aonidiella taxus* |
 | Asiatic Rose Scale | *Aulacaspis rosarum* |
 | Aster Leafhopper | *Macrosteles fascifrons* |
+| Aster Leafhopper | *Macrosteles quadrilineatus* |
 | Azalea Lace Bug | *Stephanitis pyrioides* |
 | Bamboo Diaspidid Scale | *Kuwanaspis pseudoleucaspis* |
 | Banana Aphid | *Pentalonia nigronervosa* |
@@ -26424,9 +27762,11 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Oleander Aphid | *Aphis nerii* |
 | Oleander Scale | *Aspidiotus nerii* |
 | Pea Aphid | *Acyrthosiphon pisum* |
+| Pear Psyllid | *Cacopsylla chinensis* |
 | Pear Psyllid | *Cacopsylla pyri* |
 | Pecan Leaf Phylloxera | *Phylloxera notabilis* |
 | Periodical Cicada | *Magicicada septendecim* |
+| Periodical Cicada (Magicicada Septendecim) | *Magicicada Septendecim) (Magicicada septendecim* |
 | Pine Bark Adelgid | *Pineus strobi* |
 | Pine Conelet Bug | *Pappus luridus* |
 | Pine Oystershell Scale | *Lepidosaphes pini* |
@@ -26434,6 +27774,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Plum Psyllid | *Cacopsylla pruni* |
 | Poplar Petiole Gall Aphid | *Pemphigus populitransversus* |
 | Poplar Vagabond Aphid | *Mordwilkoja vagabunda* |
+| Potato Aphid | *Aulacorthum solani* |
 | Potato Aphid | *Macrosiphum euphorbiae* |
 | Potato/tomato Psyllid | *Bactericera cockerelli* |
 | Red-backed Stink Bug | *Banasa dimiata* |
@@ -26445,6 +27786,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Rosy Apple Aphid | *Dysaphis plantaginea* |
 | Russian Wheat Aphid | *Diuraphis noxia* |
 | Seventeen-year Cicada | *Magicicada cassinii* |
+| Seventeen-year Cicada | *Magicicada septendecim* |
+| Seventeen-year Cicada | *Magicicada septendecula* |
 | Shallot Aphid | *Myzus ascalonicus* |
 | Shield Bug | *Eurydema gebleri* |
 | Silverleaf Whitefly | *Bemisia argentifolii* |
@@ -26461,6 +27804,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Spined Predatory Shield Bug | *Oechalia schellenbergii* |
 | Spined Soldier Bug | *Podisus maculiventris* |
 | Spotted Lanternfly | *Lycorma delicatula* |
+| Spruce Gall Adelgid | *Adelges cooleyi* |
 | Spruce Gall Adelgid | *Pineus similis* |
 | Squash Bug | *Anasa tristis* |
 | Striped Mealybug | *Ferrisia virgata* |
@@ -26473,7 +27817,10 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Tarnished Plant Bug | *Lygus lineolaris* |
 | Tasmanian Hairy Cicada | *Tettigarcta tomentosa* |
 | Tea Seed Bug | *Poecilocoris latus* |
+| Thirteen-year Cicada | *Magicicada neotredecim* |
 | Thirteen-year Cicada | *Magicicada tredecassini* |
+| Thirteen-year Cicada | *Magicicada tredecim* |
+| Thirteen-year Cicada | *Magicicada tredecula* |
 | Three-cornered Alfalfa Treehopper | *Spissistilus festinus* |
 | Twig Snout Bug | *Zanna intricata* |
 | Vetch Aphid | *Megoura viciae* |
@@ -26483,6 +27830,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Western Bloodsucking Conenose | *Hospesneotomae protracta* |
 | Western Wheat Aphid | *Diuraphis tritici* |
 | Wheel Bug | *Arilus cristatus* |
+| Wheel Bug (Arilus Cristatus) | *Arilus Cristatus) (Arilus cristatus* |
 | White Mango Scale | *Aulacaspis tubercularis* |
 | White Pine Fungus Scale | *Matsucoccus macrocicatrices* |
 | White-backed Planthopper | *Sogatella furcifera* |
@@ -26498,26 +27846,31 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Corrugated Ribbon Worm | *Parborlasia corrugatus* |
 | Milky Ribbon-worm | *Cerebratulus lacteus* |
 
-### • Hirudinida (3)
+### • Hirudinida (5)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | European Medicinal Leech | *Hirudo medicinalis* |
+| European Medicinal Leech (Hirudo Medicinalis) | *Hirudo Medicinalis) (Hirudo medicinalis* |
 | Indian Leech | *Haemadipsa sylvestris* |
+| Medicinal Leech | *Hirudo medicinalis* |
 | North American Leech | *Macrobdella decora* |
 
-### • Hymenoptera (111)
+### • Hymenoptera (132)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Abbott's Sawfly | *Neodiprion abbotii* |
+| Africanized Honey Bee / Killer Bee | *Apis mellifera scutellata x* |
 | Alfalfa Leafcutting Bee | *Megachile rotundata* |
 | Alkali Bee | *Nomia melanderi* |
 | Almond Seed Wasp | *Eurytoma amygdali* |
 | Ambermarked Birch Leafminer | *Profenusa thomsoni* |
 | Argentine Ant | *Linepithema humile* |
 | Army Ant | *Eciton burchellii* |
+| Army Ant (Eciton Burchellii) | *Eciton Burchellii) (Eciton burchellii* |
 | Asian Giant Hornet | *Vespa mandarinia* |
+| Asian Giant Hornet (Vespa Mandarinia) | *Vespa Mandarinia) (Vespa mandarinia* |
 | Asiatic Honeybee | *Apis cerana* |
 | Australian Jumper Ant | *Myrmecia pilosula* |
 | Australian Paper Wasp | *Polistes humilis* |
@@ -26525,33 +27878,45 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Birch Sawfly | *Arge pectoralis* |
 | Black Fire Ant | *Solenopsis richteri* |
 | Black Garden Ant | *Lasius niger* |
+| Black Garden Ant (Lasius Niger) | *Lasius Niger) (Lasius niger* |
 | Black and Yellow Mud Dauber | *Sceliphron caementarium* |
+| Black and Yellow Mud Dauber (Sceliphron Caementarium) | *Sceliphron Caementarium) (Sceliphron caementarium* |
 | Black-horned Sawfly | *Abia lonicerae* |
 | Blackheaded Pine Sawfly | *Neodiprion excitans* |
 | Bracken Sawfly | *Strongylogaster multifasciata* |
 | Buff-tailed Bumblebee | *Bombus terrestris* |
+| Buff-tailed Bumblebee (Bombus Terrestris) | *Bombus Terrestris) (Bombus terrestris* |
 | Bullet Ant | *Paraponera clavata* |
+| Bullet Ant (Paraponera Clavata) | *Paraponera Clavata) (Paraponera clavata* |
 | Cicada Killer | *Sphecius speciosus* |
 | Clonal Raider Ant | *Ooceraea biroi* |
 | Cola-nut Gall Wasp | *Andricus lignicolus* |
 | Coleseed Sawfly | *Athalia rosae* |
+| Common Carder Bee | *Bombus pascuorum* |
 | Common Eastern Bumble Bee | *Bombus impatiens* |
 | Common Paper Wasp | *Polistes fuscatus* |
 | Common Wasp | *Vespula vulgaris* |
+| Common Wasp (Vespula Vulgaris) | *Vespula Vulgaris) (Vespula vulgaris* |
 | Cuckoo Wasp | *Holopyga generosa* |
 | Dawson's Burrowing Bee | *Amegilla dawsoni* |
+| Desert Ant | *Cataglyphis bicolor* |
 | Desert Ant | *Cataglyphis niger* |
+| Desert Ant | *Cataglyphis savignyi* |
+| Desert Ant | *Cataglyphis viatica* |
 | Diamondback Moth Parasitoid | *Cotesia vestalis* |
 | Dilemma Orchid Bee | *Euglossa dilemma* |
 | Eastern Carpenter Bee | *Xylocopa virginica* |
+| Eastern Carpenter Bee (Xylocopa Virginica) | *Xylocopa Virginica) (Xylocopa virginica* |
 | Eastern Digger Bee | *Ptilothrix bombiformis* |
 | Eastern Yellowjacket | *Vespula maculifrons* |
 | Edible Chinese Black Ant | *Polyrhachis vicina* |
 | Elm Sawfly | *Cimbex americana* |
 | Emerald Ash Borer Parasitic Wasp | *Spathius agrili* |
 | Emerald Cockroach Wasp | *Ampulex compressa* |
+| Emerald Cockroach Wasp (Ampulex Compressa) | *Ampulex Compressa) (Ampulex compressa* |
 | European Beewolf | *Philanthus triangulum* |
 | European Hornet | *Vespa crabro* |
+| European Hornet (Vespa Crabro) | *Vespa Crabro) (Vespa crabro* |
 | European Paper Wasp | *Polistes dominula* |
 | European Pine Sawfly | *Neodiprion sertifer* |
 | Field Digger Wasp | *Mellinus arvensis* |
@@ -26564,6 +27929,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Hemlock Sawfly | *Neodiprion tsugae* |
 | Hetrick's Sawfly | *Neodiprion hetricki* |
 | Himalayan Honeybee | *Apis laboriosa* |
+| Honey Bee | *Apis mellifera* |
 | Japanese Ant | *Myrmecina nipponica* |
 | Jerdon's Jumping Ant | *Harpegnathos saltator* |
 | Jewel Wasp | *Nasonia vitripennis* |
@@ -26571,6 +27937,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Large Willow Sawfly | *Euura salicis* |
 | Larger Yellow Ant | *Lasius interjectus* |
 | Leafcutter Ant | *Atta cephalotes* |
+| Leafcutter Ant (Atta Cephalotes) | *Atta Cephalotes) (Atta cephalotes* |
 | Lesser Banded Hornet | *Vespa affinis* |
 | Little Fire Ant | *Wasmannia auropunctata* |
 | Little Honeybee | *Apis florea* |
@@ -26593,10 +27960,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Pistachio Seed Chalcid | *Megastigmus pistaciae* |
 | Ram's-horn Gallwasp | *Andricus aries* |
 | Red Bulldog Ant | *Myrmecia gulosa* |
+| Red Fire Ant | *Solenopsis invicta* |
 | Red Harvester Ant | *Pogonomyrmex barbatus* |
 | Red Imported Fire Ant | *Solenopsis invicta* |
 | Red Mason Bee | *Osmia bicornis* |
 | Red-tailed Bumblebee | *Bombus lapidarius* |
+| Red-tailed Bumblebee (Bombus Lapidarius) | *Bombus Lapidarius) (Bombus lapidarius* |
 | Redheaded Pine Sawfly | *Neodiprion lecontei* |
 | Rose Gall Wasp | *Diplolepis spinosissimae* |
 | Rusty Willow Sawfly | *Cimbex rubida* |
@@ -26610,10 +27979,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Spruce Sawfly | *Euura scutellata* |
 | Sugar Ant | *Camponotus consobrinus* |
 | Tarantula Hawk | *Pepsis grossa* |
+| Tarantula Hawk (Pepsis Grossa) | *Pepsis Grossa) (Pepsis grossa* |
 | Thistledown Velvet Ant | *Dasymutilla gloriosa* |
 | Tufted Tyrant Ant | *Iridomyrmex rufoniger* |
 | Wattle Apple-gall Wasp | *Trichilogaster acaciaelongifoliae* |
 | Western Honey Bee | *Apis mellifera* |
+| Western Honey Bee (Apis Mellifera) | *Apis Mellifera) (Apis mellifera* |
 | Western Yellowjacket | *Vespula pensylvanica* |
 | Wheat Stem Sawfly | *Cephus cinctus* |
 | White Pine Sawfly | *Neodiprion pinetum* |
@@ -26622,21 +27993,26 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Wool Carder Bee | *Anthidium manicatum* |
 | Yellowhead Spruce Sawfly | *Euura alaskensis* |
 
-### • Isopoda (4)
+### • Isopoda (7)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Common Pill Woodlouse | *Armadillidium vulgare* |
+| Common Pill Woodlouse (Armadillidium Vulgare) | *Armadillidium Vulgare) (Armadillidium vulgare* |
+| Common Pillbug | *Armadillidium vulgare* |
 | Common Sea Slater | *Ligia oceanica* |
 | Giant Isopod | *Bathynomus giganteus* |
+| Giant Isopod (Bathynomus Giganteus) | *Bathynomus Giganteus) (Bathynomus giganteus* |
 | Oak-woodland Pillbug | *Armadillo officinalis* |
 
-### • Ixodida (29)
+### • Ixodida (32)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | American Dog Tick | *Dermacentor variabilis* |
+| Black-legged Tick | *Ixodes scapularis* |
 | Blacklegged Tick | *Ixodes scapularis* |
+| Blacklegged Tick (Ixodes Scapularis) | *Ixodes Scapularis) (Ixodes scapularis* |
 | Blue-tongued Lizard Tick | *Bothriocroton hydrosauri* |
 | Bont Tick | *Amblyomma hebraeum* |
 | Brown Dog Tick | *Rhipicephalus sanguineus* |
@@ -26645,6 +28021,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Cayenne Tick | *Amblyomma cajennense* |
 | Common Seabird Tick | *Ixodes uriae* |
 | Echidna Tick | *Bothriocroton concolor* |
+| Goanna Tick | *Amblyomma fimbriatum* |
 | Goanna Tick | *Bothriocroton undatum* |
 | Gulf Coast Tick | *Amblyomma maculatum* |
 | Hedgehog Tick | *Ixodes hexagonus* |
@@ -26671,7 +28048,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | :--- | :--- |
 | White-legged Snake Millipede | *Tachypodoiulus niger* |
 
-### • Lepetellida (16)
+### • Lepetellida (17)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -26687,12 +28064,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Perlemoen Abalone | *Haliotis midae* |
 | Pink Abalone | *Haliotis corrugata* |
 | Red Abalone | *Haliotis rufescens* |
+| Red Abalone (Haliotis Rufescens) | *Haliotis Rufescens) (Haliotis rufescens* |
 | Roe's Abalone | *Haliotis roei* |
 | Rough Keyhole Limpet | *Diodora cayenensis* |
 | Staircase Abalone | *Haliotis scalaris* |
 | White Abalone | *Haliotis sorenseni* |
 
-### • Lepidoptera (1041)
+### • Lepidoptera (1081)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -26744,6 +28122,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Aspen Carpenterworm | *Acossus centerensis* |
 | Atlantis Fritillary | *Argynnis atlantis* |
 | Atlas Moth | *Attacus atlas* |
+| Atlas Moth (Attacus Atlas) | *Attacus Atlas) (Attacus atlas* |
 | Aurivillius' Acraea | *Telchinia aurivillii* |
 | Autumn Gum Moth | *Mnesampela privata* |
 | Autumnal Moth | *Epirrita autumnata* |
@@ -26782,6 +28161,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Black Satyr | *Satyrus actaea* |
 | Black Shield Leafroller | *Archips grisea* |
 | Black Swallowtail | *Papilio polyxenes* |
+| Black Swallowtail (Papilio Polyxenes) | *Papilio Polyxenes) (Papilio polyxenes* |
 | Black Witch | *Ascalapha odorata* |
 | Black-arched Tussock Moth | *Lymantria monacha* |
 | Black-banded Owlet | *Phalaenostola larentioides* |
@@ -26842,6 +28222,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Casemaking Clothes Moth | *Tinea pellionella* |
 | Catalpa Sphinx | *Ceratomia catalpae* |
 | Cecropia Moth | *Hyalophora cecropia* |
+| Cecropia Moth (Hyalophora Cecropia) | *Hyalophora Cecropia) (Hyalophora cecropia* |
 | Cedar Tip Moth | *Hypsipyla robusta* |
 | Cephenes Blue | *Pseudodipsas cephenes* |
 | Ceylon Blue Glassy Tiger | *Ideopsis similis* |
@@ -26896,6 +28277,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Common Brassy Ringlet | *Erebia cassioides* |
 | Common Brimstone Butterfly | *Gonepteryx rhamni* |
 | Common Carpet | *Epirrhoe alternata* |
+| Common Clubtail | *Losaria coon* |
 | Common Copper | *Lycaena phlaeas* |
 | Common Eggfly | *Hypolimnas bolina* |
 | Common Five-ring | *Ypthima baldus* |
@@ -26920,6 +28302,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Common Striped Hawk | *Hippotion eson* |
 | Common Swift Moth | *Korscheltellus lupulinus* |
 | Common Wanderer | *Pareronia valeria* |
+| Common Yellow Swallowtail | *Papilio machaon* |
 | Compton Tortoiseshell | *Nymphalis l-album* |
 | Confused Haploa | *Haploa confusa* |
 | Confused Woodgrain | *Morrisonia confusa* |
@@ -26968,6 +28351,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | De Lesse's Brassy Ringlet | *Erebia nivalis* |
 | De Prunner's Ringlet | *Erebia triaria* |
 | Death's-head Hawkmoth | *Acherontia atropos* |
+| Death's-head Hawkmoth (Acherontia Atropos) | *Acherontia Atropos) (Acherontia atropos* |
 | Delicate Cyncia | *Cycnia tenera* |
 | Desert Apollo | *Hypermnestra helios* |
 | Desert Fritillary | *Melitaea deserticola* |
@@ -26981,6 +28365,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Dogface Butterfly | *Zerene cesonia* |
 | Dogwood Borer | *Synanthedon scitula* |
 | Domestic Silk Moth | *Bombyx mori* |
+| Domestic Silkmoth (Bombyx Mori) | *Bombyx Mori) (Bombyx mori* |
+| Domestic Silkworm | *Bombyx mori* |
 | Doris Tiger Moth | *Apantesis doris* |
 | Dot-lined White Moth | *Artace cribraria* |
 | Dotted Blue | *Euphilotes enoptes* |
@@ -27006,6 +28392,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Eastern Spruce Budworm | *Choristoneura fumiferana* |
 | Eastern Tent Caterpillar | *Malacosoma americanum* |
 | Eastern Tiger Swallowtail | *Papilio glaucus* |
+| Eastern Tiger Swallowtail (Papilio Glaucus) | *Papilio Glaucus) (Papilio glaucus* |
 | Eight-spotted Longtail | *Polythrix octomaculata* |
 | Elada Checkerspot | *Texola elada* |
 | Elegant Prominent | *Odontosia elegans* |
@@ -27021,6 +28408,8 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | European Fir Budworm | *Choristoneura murinana* |
 | European Leafroller | *Archips rosana* |
 | European Peacock | *Aglais io* |
+| European Peacock | *Nymphalis io* |
+| European Peacock (Aglais Io) | *Aglais Io) (Aglais io* |
 | Faceted Skipper | *Synapte syraces* |
 | Fairy Yellow | *Eurema daira* |
 | Falcate Skipper | *Spathilepia clonius* |
@@ -27099,7 +28488,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Great Nawab | *Polyura eudamippus* |
 | Great Satyr | *Aulocera padma* |
 | Great Sooty Satyr | *Satyrus ferula* |
+| Great Spangled Fritillary | *Argynnis cybele* |
 | Great Spangled Fritillary | *Speyeria cybele* |
+| Great Spangled Fritillary (Speyeria Cybele) | *Speyeria Cybele) (Speyeria cybele* |
 | Great Windmill | *Byasa dasarada* |
 | Great Yellow Sailer | *Neptis radha* |
 | Greater Red Dart Moth | *Abagrotis alternata* |
@@ -27140,6 +28531,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Hoary Skipper | *Canesia canescens* |
 | Holly Blue | *Celastrina argiolus* |
 | Hummingbird Hawk-moth | *Macroglossum stellatarum* |
+| Hummingbird Hawk-moth (Macroglossum Stellatarum) | *Macroglossum Stellatarum) (Macroglossum stellatarum* |
 | Iberian Wave | *Idaea belemiata* |
 | Idas Blue | *Plebejus idas* |
 | Illidge's Ant Blue | *Acrodipsas illidgei* |
@@ -27151,6 +28543,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Indian Eri Silkmoth | *Samia ricini* |
 | Indian Fritillary | *Argynnis hyperbius* |
 | Indian Gypsy Moth | *Lymantria obfuscata* |
+| Indian Moon Moth | *Actias ningpoana* |
 | Indian Moon Moth | *Actias selene* |
 | Indian Muga Silkmoth | *Antheraea assamensis* |
 | Indian Palm Bob | *Suastus gremius* |
@@ -27202,6 +28595,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Large Silverstripe | *Argynnis childreni* |
 | Large Skipper | *Ochlodes venata* |
 | Large Wall Brown | *Lasiommata maera* |
+| Large White / Cabbage White | *Pieris brassicae* |
 | Large Wood Nymph | *Cercyonis pegala* |
 | Large Yellow Underwing | *Noctua pronuba* |
 | Lattice Brown | *Esperarge roxelana* |
@@ -27230,11 +28624,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Lorkovic's Brassy Ringlet | *Erebia calcaria* |
 | Lost-egg Skipper | *Hesperia lindseyi* |
 | Luna Moth | *Actias luna* |
+| Luna Moth (Actias Luna) | *Actias Luna) (Actias luna* |
 | Lustrous Copper | *Lycaena cupreus* |
 | Macedonian Grayling | *Pseudochazara cingovskii* |
 | Macleay's Swallowtail | *Graphium macleayanum* |
 | Macqueen's Hairstreak | *Jalmenus pseudictinus* |
 | Madagascan Sunset Moth | *Chrysiridia rhipheus* |
+| Madagascan Sunset Moth (Chrysiridia Rhipheus) | *Chrysiridia Rhipheus) (Chrysiridia rhipheus* |
 | Madeiran Speckled Wood Butterfly | *Pararge xiphia* |
 | Maiden's Blush | *Cyclophora punctaria* |
 | Malachite | *Siproeta stelenes* |
@@ -27272,6 +28668,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Mimosa Skipper | *Cogia calchas* |
 | Mnestra's Ringlet | *Erebia mnestra* |
 | Monarch Butterfly | *Danaus plexippus* |
+| Monarch Butterfly (Danaus Plexippus) | *Danaus Plexippus) (Danaus plexippus* |
 | Moorland Clouded Yellow | *Colias palaeno* |
 | Morgan's Sphinx Moth | *Xanthopan morganii* |
 | Mormon Metalmark | *Apodemia mormo* |
@@ -27287,6 +28684,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Mountain Ringlet | *Erebia epiphron* |
 | Mournful Duskywing | *Gesta tristis* |
 | Mourning Cloak | *Nymphalis antiopa* |
+| Mourning Cloak (Nymphalis Antiopa) | *Nymphalis Antiopa) (Nymphalis antiopa* |
 | Muir's Hairstreak | *Mitoura muiri* |
 | Mulberry Leaf Roller | *Glyphodes pulverulentalis* |
 | Mulberry Looper | *Phthonandria atrilineata* |
@@ -27347,6 +28745,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Painted Crescentspot | *Phyciodes picta* |
 | Painted Jezebel | *Delias hyparete* |
 | Painted Lady | *Vanessa cardui* |
+| Painted Lady (Vanessa Cardui) | *Vanessa Cardui) (Vanessa cardui* |
 | Painted Lichen Moth | *Hypoprepia fucosa* |
 | Pale Babul Blue | *Azanus mirza* |
 | Pale Clouded Yellow | *Colias hyale* |
@@ -27376,10 +28775,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Peigler's Oakworm Moth | *Anisota peigleri* |
 | Pelarge Metalmark | *Calospila pelarge* |
 | Peleides Blue Morpho | *Morpho peleides* |
+| Peleides Blue Morpho (Morpho Peleides) | *Morpho Peleides) (Morpho peleides* |
 | Peloponnesian Wave | *Idaea albitorquata* |
 | Pencil Pine Moth | *Dirce aesiodora* |
 | Pencilled Wave | *Idaea calunetaria* |
+| Pepper-and-salt Moth | *Biston betularia* |
 | Peppered Moth | *Biston betularia* |
+| Peppered Moth (Biston Betularia) | *Biston Betularia) (Biston betularia* |
 | Peruvian Longwing | *Heliconius peruvianus* |
 | Petite Wave | *Scopula minorata* |
 | Phaon Crescentspot | *Phyciodes phaon* |
@@ -27395,13 +28797,16 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Pine-devil Moth | *Citheronia sepulcralis* |
 | Pinion-streaked Snout Moth | *Schrankia costaestrigalis* |
 | Pink Bollworm | *Pectinophora gossypiella* |
+| Pipe-vine Swallowtail | *Battus philenor* |
 | Pipevine Swallowtail | *Battus philenor* |
+| Pipevine Swallowtail (Battus Philenor) | *Battus Philenor) (Battus philenor* |
 | Pistachio Emerald Moth | *Hethemia pistasciaria* |
 | Plain Sulphur | *Dercas lycorias* |
 | Plassey Borer | *Chilo tumidicostalis* |
 | Plum Tree Underwing | *Catocala ultronia* |
 | Polixenes Arctic Butterfly | *Oeneis polixenes* |
 | Polyphemus Moth | *Antheraea polyphemus* |
+| Polyphemus Moth (Antheraea Polyphemus) | *Antheraea Polyphemus) (Antheraea polyphemus* |
 | Poplar Admiral | *Limenitis populi* |
 | Poplar Petiolegall Moth | *Ectoedemia populella* |
 | Portugese Dappled White | *Euchloe tagis* |
@@ -27428,6 +28833,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Raspberry Clearwing | *Pennisetia hylaeiformis* |
 | Rayed Sister | *Adelpha melanthe* |
 | Red Admiral | *Vanessa atalanta* |
+| Red Admiral (Vanessa Atalanta) | *Vanessa Atalanta) (Vanessa atalanta* |
 | Red Carpet | *Xanthorhoe munitata* |
 | Red Spot Diadem | *Hypolimnas usambara* |
 | Red Underwing | *Catocala nupta* |
@@ -27454,6 +28860,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Rocky Mountain Parnassian | *Parnassius smintheus* |
 | Rosy Gypsy Moth | *Lymantria mathura* |
 | Rosy Maple Moth | *Dryocampa rubicunda* |
+| Rosy Maple Moth (Dryocampa Rubicunda) | *Dryocampa Rubicunda) (Dryocampa rubicunda* |
 | Rosy Rustic | *Hydraecia micacea* |
 | Rosy Wave | *Scopula emutaria* |
 | Roussillon Wave | *Idaea sardoniata* |
@@ -27526,10 +28933,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Small Skipper | *Thymelicus sylvestris* |
 | Small Staff Sargeant | *Athyma zeroca* |
 | Small Tortoiseshell | *Aglais urticae* |
+| Small Tortoiseshell | *Nymphalis urticae* |
+| Small Tortoiseshell (Aglais Urticae) | *Aglais Urticae) (Aglais urticae* |
 | Small Verdant Hawk | *Basiothia medea* |
 | Small-eyed Sphinx | *Paonias myops* |
 | Small-spotted Flasher | *Astraptes egregius* |
 | Smaller Tea Tortrix | *Adoxophyes honmai* |
+| Smaller Tea Tortrix | *Adoxophyes sp. KSB-2001* |
 | Smartweed Borer | *Ostrinia obumbratalis* |
 | Smooth-banded Sister | *Adelpha cytherea* |
 | Snowberry Clearwing | *Hemaris diffinis* |
@@ -27554,6 +28964,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Speckled Nereid | *Scopula rufomixtaria* |
 | Speckled Wood Butterfly | *Pararge aegeria* |
 | Spicebush Swallowtail | *Papilio troilus* |
+| Spicebush Swallowtail (Papilio Troilus) | *Papilio Troilus) (Papilio troilus* |
 | Spindle Ermine Moth | *Yponomeuta cagnagella* |
 | Spiny Oak Slug | *Euclea delphinii* |
 | Spiny Oakworm Moth | *Anisota stigma* |
@@ -27613,6 +29024,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Tawny Coster | *Acraea violae* |
 | Tawny Crescentspot | *Phyciodes batesii* |
 | Tawny Emperor | *Asterocampa clyton* |
+| Tawny Emperor | *Chitoria ulupi* |
 | Tawny Rajah | *Charaxes bernardus* |
 | Tawny Wave | *Scopula rubiginata* |
 | Teak Defoliator | *Hyblaea puera* |
@@ -27624,6 +29036,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Timid Hairstreak | *Evenus temathea* |
 | Tobacco Budworm | *Heliothis virescens* |
 | Tobacco Hornworm | *Manduca sexta* |
+| Tobacco Hornworm (Manduca Sexta) | *Manduca Sexta) (Manduca sexta* |
 | Tomato Hornworm | *Manduca quinquemaculata* |
 | Toothed Brown Carpet | *Xanthorhoe lacustrata* |
 | Treble Brown Spot | *Idaea trigeminata* |
@@ -27642,6 +29055,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Uglynest Caterpillar | *Archips cerasivorana* |
 | Uhler's Arctic Butterfly | *Davidina uhleri* |
 | Ulysses Butterfly | *Papilio ulysses* |
+| Ulysses Butterfly (Papilio Ulysses) | *Papilio Ulysses) (Papilio ulysses* |
 | Unicorn Caterpillar | *Schizura unicornis* |
 | Unspotted Looper | *Allagrapha aerea* |
 | V-pug | *Chloroclystis v-ata* |
@@ -27657,6 +29071,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Velvetbean Caterpillar | *Anticarsia gemmatalis* |
 | Vesta Crescentspot | *Phyciodes vesta* |
 | Viceroy | *Limenitis archippus* |
+| Viceroy (Limenitis Archippus) | *Limenitis Archippus) (Limenitis archippus* |
 | Violet Copper | *Helleia helle* |
 | Violet-banded Skipper | *Nyctelius nyctelius* |
 | Violet-washed Wave | *Idaea predotaria* |
@@ -27672,6 +29087,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | West Indian Buckeye | *Junonia evarete* |
 | West Virginia White | *Pieris virginiensis* |
 | Western Bean Cutworm | *Scirpophaga innotata* |
+| Western Bean Cutworm | *Striacosta albicosta* |
 | Western Bitter-bush Blue | *Theclinesthes hesperia* |
 | Western Meadow Fritillary | *Boloria epithore* |
 | Western Spruce Budworm | *Choristoneura occidentalis* |
@@ -27734,7 +29150,9 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Yucca Moth | *Tegeticula yuccasella* |
 | Yucca Skipper | *Megathymus yuccae* |
 | Zebra Longwing | *Heliconius charithonia* |
+| Zebra Swallowtail | *Eurytides marcellus* |
 | Zebra Swallowtail | *Protographium marcellus* |
+| Zebra Swallowtail (Protographium Marcellus) | *Protographium Marcellus) (Protographium marcellus* |
 | Zebra-striped Hairstreak | *Panthiades bathildis* |
 | Zilpa Longtail | *Chioides zilpa* |
 
@@ -27746,7 +29164,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Knotted Thread Hydroid | *Obelia geniculata* |
 | Sea Thread Hydroid | *Obelia dichotoma* |
 
-### • Littorinimorpha (7)
+### • Littorinimorpha (8)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -27755,14 +29173,17 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Josephine's Moon Snail | *Neverita josephinia* |
 | Papilla Moon Snail | *Eunaticina papilla* |
 | Queen Conch | *Aliger gigas* |
+| Queen Conch (Aliger Gigas) | *Aliger Gigas) (Aliger gigas* |
 | Ringed Wormsnail | *Dendropoma corrodens* |
 | Unthanks Cave Snail | *Holsingeria unthanksensis* |
 
-### • Lobata (1)
+### • Lobata (3)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
+| Sea Walnut | *Mnemiopsis leidyi* |
 | Sea Walnut Comb Jelly | *Mnemiopsis leidyi* |
+| Warty Comb Jelly (Mnemiopsis Leidyi) | *Mnemiopsis Leidyi) (Mnemiopsis leidyi* |
 
 ### • Lucinida (1)
 
@@ -27770,21 +29191,24 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | :--- | :--- |
 | Elegant Lucine | *Codakia distinguenda* |
 
-### • Lyssacinosida (2)
+### • Lyssacinosida (3)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Boot Sponge | *Acanthascus dawsoni* |
 | Venus' Flower Basket | *Euplectella aspergillum* |
+| Venus' Flower Basket (Euplectella Aspergillum) | *Euplectella Aspergillum) (Euplectella aspergillum* |
 
-### • Mantodea (6)
+### • Mantodea (8)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Burmese Mantis | *Acromantis indica* |
 | Chinese Praying Mantis | *Tenodera sinensis* |
 | European Praying Mantis | *Mantis religiosa* |
+| European Praying Mantis (Mantis Religiosa) | *Mantis Religiosa) (Mantis religiosa* |
 | Orchid Mantis | *Hymenopus coronatus* |
+| Praying Mantis | *Mantis religiosa* |
 | Spiny Flower Mantis | *Pseudocreobotra wahlbergii* |
 | Stick Mantis | *Heterochaeta strachani* |
 
@@ -27822,16 +29246,17 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | :--- | :--- |
 | Sea Firefly | *Vargula hilgendorfii* |
 
-### • Myopsida (4)
+### • Myopsida (5)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Bleeker's Squid | *Heterololigo bleekeri* |
 | European Squid | *Loligo vulgaris* |
+| European Squid (Loligo Vulgaris) | *Loligo Vulgaris) (Loligo vulgaris* |
 | Northern European Squid | *Loligo forbesii* |
 | Swordtip Squid | *Uroteuthis edulis* |
 
-### • Mytilida (15)
+### • Mytilida (16)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -27840,6 +29265,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Asian Green Mussel | *Perna viridis* |
 | Black Date Mussel | *Lithophaga nigra* |
 | Blue Mussel | *Mytilus edulis* |
+| Blue Mussel (Mytilus Edulis) | *Mytilus Edulis) (Mytilus edulis* |
 | California Mussel | *Mytilus californianus* |
 | Common Blue Mussel | *Mytilus trossulus* |
 | Discordant Mussel | *Musculus discors* |
@@ -27851,14 +29277,15 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Santo Domingo Mussel | *Brachidontes domingensis* |
 | Scorched Mussel | *Brachidontes exustus* |
 
-### • Nautilida (2)
+### • Nautilida (3)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Bellybutton Nautilus | *Nautilus macromphalus* |
 | Chambered Nautilus | *Nautilus pompilius* |
+| Chambered Nautilus (Nautilus Pompilius) | *Nautilus Pompilius) (Nautilus pompilius* |
 
-### • Neogastropoda (22)
+### • Neogastropoda (25)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -27867,10 +29294,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Bruised Nassa | *Phrontis vibex* |
 | Channeled Whelk | *Busycotypus canaliculatus* |
 | Circumcision Cone | *Conus circumcisus* |
+| Cloth-of-gold Cone | *Conus textile* |
 | Dimidiate Auger Shell | *Oxymeris dimidiata* |
 | Ferruginous Spindle | *Fusinus ferrugineus* |
 | Florida Rocksnail | *Stramonita haemastoma* |
 | Geography Cone | *Conus geographus* |
+| Geography Cone (Conus Geographus) | *Conus Geographus) (Conus geographus* |
 | Lovely Engina | *Engina pulchra* |
 | Magus Cone | *Conus magus* |
 | Mutable Nassa | *Tritia mutabilis* |
@@ -27881,6 +29310,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Scita Ribbed-mitre | *Austromitra scita* |
 | Striated Cone | *Conus striatus* |
 | Textile Cone | *Conus textile* |
+| Textile Cone (Conus Textile) | *Conus Textile) (Conus textile* |
 | Tulip Cone | *Conus tulipa* |
 | Veined Rapa Whelk | *Rapana venosa* |
 | Waved Whelk | *Buccinum undatum* |
@@ -27898,11 +29328,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Common Green Lacewing | *Chrysoperla plorabunda* |
 | Golden-eye Lacewing | *Chrysopa oculata* |
 
-### • Notostraca (1)
+### • Notostraca (2)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Longtail Tadpole Shrimp | *Triops longicaudatus* |
+| Longtail Tadpole Shrimp (Triops Longicaudatus) | *Triops Longicaudatus) (Triops longicaudatus* |
 
 ### • Nuculanida sp. (1)
 
@@ -27910,58 +29341,69 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | :--- | :--- |
 | Sibling Yoldia | *Yoldiella nana* |
 
-### • Nudibranchia (7)
+### • Nudibranchia (9)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Blue Dragon Sea Slug | *Glaucus atlanticus* |
+| Blue Dragon Sea Slug (Glaucus Atlanticus) | *Glaucus Atlanticus) (Glaucus atlanticus* |
 | Frond-aeolis | *Dendronotus frondosus* |
 | Giant Frond-aeolis | *Dendronotus iris* |
 | Red Frond-aeolis | *Dendronotus rufus* |
 | Spanish Dancer | *Hexabranchus sanguineus* |
+| Spanish Dancer (Hexabranchus Sanguineus) | *Hexabranchus Sanguineus) (Hexabranchus sanguineus* |
 | Stubby Frond-aeolis | *Dendronotus subramosus* |
 | White Frond-aeolis | *Dendronotus albus* |
 
-### • Octopoda (13)
+### • Octopoda (18)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Blue-ringed Octopus | *Hapalochlaena maculosa* |
 | California Two-spot Octopus | *Octopus bimaculoides* |
 | Common Octopus | *Octopus vulgaris* |
+| Common Octopus (Octopus Vulgaris) | *Octopus Vulgaris) (Octopus vulgaris* |
 | Curled Octopus | *Eledone cirrhosa* |
+| Dumbo Octopus | *Grimpoteuthis discoveryi* |
 | East Asian Common Octopus | *Octopus sinensis* |
 | Giant Pacific Octopus | *Enteroctopus dofleini* |
+| Giant Pacific Octopus (Enteroctopus Dofleini) | *Enteroctopus Dofleini) (Enteroctopus dofleini* |
 | Long Arm Octopus | *Callistoctopus minor* |
 | Maori Octopus | *Macroctopus maorum* |
 | Mexican Four-eyed Octopus | *Octopus maya* |
 | Mimic Octopus | *Thaumoctopus mimicus* |
+| Mimic Octopus (Thaumoctopus Mimicus) | *Thaumoctopus Mimicus) (Thaumoctopus mimicus* |
 | Musky Octopus | *Eledone moschata* |
+| Southern Blue-ringed Octopus (Hapalochlaena Maculosa) | *Hapalochlaena Maculosa) (Hapalochlaena maculosa* |
 | Southern Sand Octopus | *Octopus kaurna* |
 | Verill's Two-spot Octopus | *Octopus bimaculatus* |
 
-### • Odonata (58)
+### • Odonata (62)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | American Ruby Spot Damselfly | *Hetaerina americana* |
 | Autumn Meadowhawk | *Sympetrum vicinum* |
 | Banded Demoiselle | *Calopteryx splendens* |
+| Banded Demoiselle (Calopteryx Splendens) | *Calopteryx Splendens) (Calopteryx splendens* |
 | Black Darter | *Sympetrum danae* |
 | Black-wing Damselfly | *Calopteryx maculata* |
 | Bleached Skimmer | *Libellula composita* |
 | Blue Corporal | *Ladona deplanata* |
 | Blue Dasher | *Pachydiplax longipennis* |
+| Blue Dasher (Pachydiplax Longipennis) | *Pachydiplax Longipennis) (Pachydiplax longipennis* |
 | Chalk-fronted Corporal | *Ladona julia* |
 | Civil Bluet | *Enallagma civile* |
 | Coastal Flatwing Damselfly | *Griseargiolestes albescens* |
 | Common Bluet | *Enallagma ebrium* |
 | Common Clubtail | *Gomphus vulgatissimus* |
 | Common Green Darner | *Anax junius* |
+| Common Green Darner (Anax Junius) | *Anax Junius) (Anax junius* |
 | Dawn Dropwing | *Trithemis aurora* |
 | Downy Emerald | *Cordulia aenea* |
 | Eight-spotted Skimmer | *Libellula forensis* |
 | Emperor Dragonfly | *Anax imperator* |
+| Emperor Dragonfly (Anax Imperator) | *Anax Imperator) (Anax imperator* |
 | Flame Skimmer | *Libellula saturata* |
 | Golden-ringed Dragonfly | *Cordulegaster boltonii* |
 | Golden-winged Skimmer | *Libellula auripennis* |
@@ -28003,22 +29445,26 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Widow Skimmer | *Libellula luctuosa* |
 | Yellow-sided Skimmer | *Libellula flavida* |
 
-### • Oegopsida (20)
+### • Oegopsida (24)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Argentinian Squid | *Illex argentinus* |
 | Boreal Clubhook Squid | *Onychoteuthis borealijaponica* |
 | Colossal Squid | *Mesonychoteuthis hamiltoni* |
+| Colossal Squid (Mesonychoteuthis Hamiltoni) | *Mesonychoteuthis Hamiltoni) (Mesonychoteuthis hamiltoni* |
 | Common Clubhook Squid | *Onychoteuthis banksii* |
 | Deepsea Squid | *Bathyteuthis abyssicola* |
 | Deepsea Squid | *Bathyteuthis berryi* |
 | Giant Squid | *Architeuthis dux* |
+| Giant Squid (Architeuthis Dux) | *Architeuthis Dux) (Architeuthis dux* |
 | Gould's Flying Squid | *Nototodarus gouldi* |
 | Greater Hooked Squid | *Moroteuthopsis ingens* |
 | Humboldt Squid | *Dosidicus gigas* |
+| Humboldt Squid (Dosidicus Gigas) | *Dosidicus Gigas) (Dosidicus gigas* |
 | Japanese Flying Squid | *Todarodes pacificus* |
 | Japanese Hooked Squid | *Onykia loennbergii* |
+| Jumbo Flying Squid | *Dosidicus gigas* |
 | Lampeyed Whiplash Squid | *Mastigopsis hjorti* |
 | Neon Flying Squid | *Ommastrephes bartramii* |
 | Robust Clubhook Squid | *Onykia robusta* |
@@ -28041,7 +29487,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Bone Cave Harvestman | *Texella reyesi* |
 | Common Harvesterman | *Phalangium opilio* |
 
-### • Orthoptera (94)
+### • Orthoptera (100)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -28071,6 +29517,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Dark Bush-cricket | *Pholidoptera griseoaptera* |
 | Dawson Grasshopper | *Melanoplus dawsoni* |
 | Desert Locust | *Schistocerca gregaria* |
+| Desert Locust (Schistocerca Gregaria) | *Schistocerca Gregaria) (Schistocerca gregaria* |
 | Devastating Grasshopper | *Melanoplus devastator* |
 | Differential Grasshopper | *Melanoplus differentialis* |
 | Dusky Grasshopper | *Encoptolophus costalis* |
@@ -28081,17 +29528,20 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | European Bushcricket | *Ephippiger ephippiger* |
 | European Mole Cricket | *Gryllotalpa gryllotalpa* |
 | Field Cricket | *Gryllus campestris* |
+| Field Cricket (Gryllus Campestris) | *Gryllus Campestris) (Gryllus campestris* |
 | Flabellate Grasshopper | *Melanoplus occidentalis* |
 | Giant Sand Treader | *Daihinibaenetes giganteus* |
 | Giant Weta | *Deinacrida pluvialis* |
 | Gladiator Meadow Katydid | *Orchelimum gladiator* |
 | Gladston Grasshopper | *Melanoplus gladstoni* |
 | Great Green Bush-cricket | *Tettigonia viridissima* |
+| Great Green Bush-cricket (Tettigonia Viridissima) | *Tettigonia Viridissima) (Tettigonia viridissima* |
 | Green Bird Grasshopper | *Schistocerca shoshone* |
 | Green-striped Grasshopper | *Chortophaga viridifasciata* |
 | Hawkes Bay Tree Weta | *Hemideina trewicki* |
 | Horse Lubber Grasshopper | *Taeniopoda eques* |
 | House Cricket | *Acheta domesticus* |
+| House Cricket (Acheta Domesticus) | *Acheta Domesticus) (Acheta domesticus* |
 | Italian Locust | *Calliptamus italicus* |
 | Japanese Broadwinged Katydid | *Holochlora japonica* |
 | Japanese Burrowing Cricket | *Velarifictorus micado* |
@@ -28108,6 +29558,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Mann's Ant Cricket | *Myrmecophilus manni* |
 | Migratory Grasshopper | *Melanoplus sanguinipes* |
 | Migratory Locust | *Locusta migratoria* |
+| Migratory Locust (Locusta Migratoria) | *Locusta Migratoria) (Locusta migratoria* |
 | Mormon Cricket | *Anabrus simplex* |
 | Mottled Sand Grasshopper | *Spharagemon collare* |
 | Mountain Lubber Grasshopper | *Bradynotes obesa* |
@@ -28134,36 +29585,39 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | South American Locust | *Schistocerca cancellata* |
 | Southern Wood Cricket | *Gryllus fultoni* |
 | Speckle-winged Grasshopper | *Arphia conspersa* |
+| Sword-billed Hummingbird (Ensifera Ensifera) | *Ensifera Ensifera) (Ensifera ensifera* |
 | Taiwan Giant Cricket | *Brachytrupes portentosus* |
 | Two-spotted Cricket | *Gryllus bimaculatus* |
 | Two-striped Grasshopper | *Melanoplus bivittatus* |
 | Vagrant Locust | *Schistocerca nitens* |
 | Yellow-spined Bamboo Locust | *Ceracris kiangsu* |
 
-### • Ostreida (12)
+### • Ostreida (14)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Deepsea Oyster | *Neopycnodonte cochlear* |
 | Eastern Oyster | *Crassostrea virginica* |
+| Eastern Oyster (Crassostrea Virginica) | *Crassostrea Virginica) (Crassostrea virginica* |
 | European Flat Oyster | *Ostrea edulis* |
 | Hong Kong Oyster | *Magallana hongkongensis* |
 | Iwagaki Oyster | *Magallana nippona* |
 | Kumamoto Oyster | *Crassostrea sikamea* |
 | Pacific Oyster | *Crassostrea gigas* |
 | Pacific Oyster | *Magallana gigas* |
+| Pacific Oyster (Magallana Gigas) | *Magallana Gigas) (Magallana gigas* |
 | Small Rock Oyster | *Saccostrea cuccullata* |
 | Small Rock Oyster | *Saccostrea mordax* |
 | Suminoe Oyster | *Magallana ariakensis* |
 | Tropical Oyster | *Magallana bilineata* |
 
-### • Other (26)
+### • Other (28)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Bamboo Worm | *Clymenella torquata* |
+| Banbury Springs Lanx | *Lanx sp. Banbury Springs* |
 | Black Mudalia | *Leptoxis melanoides* |
-| Black-backed Jackal | *Lupulella mesomelas* |
 | California Fingered Limpet | *Lottia digitalis* |
 | Caribbean Seagrass Elysia | *Elysia serca* |
 | Common Limpet | *Patella vulgata* |
@@ -28176,6 +29630,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Lamb Rams-horn | *Planorbella oregonensis* |
 | Lettuce Slug | *Elysia crispata* |
 | Lugworm | *Arenicola marina* |
+| Lugworm (Arenicola Marina) | *Arenicola Marina) (Arenicola marina* |
 | Miniature Melo | *Micromelo undatus* |
 | Ornate Elysia | *Elysia ornata* |
 | Owl Limpet | *Lottia gigantea* |
@@ -28183,26 +29638,31 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Plant Limpet | *Testudinalia testudinalis* |
 | Sandpaper Limpet | *Cymbula granatina* |
 | Smooth Goose Barnacle | *Lepas anatifera* |
+| Smooth Goose Barnacle (Lepas Anatifera) | *Lepas Anatifera) (Lepas anatifera* |
 | Smooth Hornsnail | *Pleurocera prasinata* |
 | Water Snail | *Cerithidea rhizophorarum* |
 | Whitecap Limpet | *Acmaea mitra* |
 | Wicker Ancylid | *Rhodacmea filosa* |
 
-### • Parachela (1)
+### • Parachela (2)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Water Bear Tardigrade | *Hypsibius exemplaris* |
+| Water Bear Tardigrade (Hypsibius Exemplaris) | *Hypsibius Exemplaris) (Hypsibius exemplaris* |
 
-### • Pectinida (6)
+### • Pectinida (9)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Atlantic Sea Scallop | *Placopecten magellanicus* |
+| Atlantic Sea Scallop (Placopecten Magellanicus) | *Placopecten Magellanicus) (Placopecten magellanicus* |
 | Bay Scallop | *Argopecten irradians* |
 | Green Falsejingle | *Pododesmus macrochisma* |
 | Japanese Scallop | *Chlamys nipponensis* |
 | Noble Scallop | *Mimachlamys nobilis* |
+| Scallop | *Patinopecten sp.* |
+| Sea Scallop | *Placopecten magellanicus* |
 | Yesso Scallop | *Mizuhopecten yessoensis* |
 
 ### • Phasmatodea (11)
@@ -28321,7 +29781,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Flat Tree-oyster | *Isognomon alatus* |
 | Silver-lipped Pearl Oyster | *Pinctada maxima* |
 
-### • Rhabditida (37)
+### • Rhabditida (39)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -28329,6 +29789,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Barber Pole Worm | *Haemonchus contortus* |
 | Bear Roundworm | *Baylisascaris transfuga* |
 | Bovine Lungworm | *Dictyocaulus viviparus* |
+| Caenorhabditis Elegans (Caenorhabditis Elegans) | *Caenorhabditis Elegans) (Caenorhabditis elegans* |
 | Caenorhabditis elegans | *Caenorhabditis elegans* |
 | Cat Lungworm | *Aelurostrongylus abstrusus* |
 | Cat Roundworm | *Toxocara cati* |
@@ -28341,6 +29802,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Dog Hookworm | *Ancylostoma caninum* |
 | Dog Roundworm | *Toxocara canis* |
 | French Heartworm | *Angiostrongylus vasorum* |
+| Giant Intestinal Roundworm | *Ascaris lumbricoides* |
 | Giant Panda Roundworm | *Baylisascaris schroederi* |
 | Guinea Worm | *Dracunculus medinensis* |
 | Herring Worm | *Anisakis simplex* |
@@ -28363,12 +29825,15 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Thelaziosis Nematode | *Thelazia callipaeda* |
 | Walnut Meadow Nematode | *Pratylenchus vulnus* |
 
-### • Rhizostomeae (2)
+### • Rhizostomeae (5)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
+| Cannonball Jelly | *Stomolophus meleagris* |
 | Cannonball Jellyfish | *Stomolophus meleagris* |
+| Cannonball Jellyfish (Stomolophus Meleagris) | *Stomolophus Meleagris) (Stomolophus meleagris* |
 | Upside-down Jellyfish | *Cassiopea andromeda* |
+| Upside-down Jellyfish (Cassiopea Andromeda) | *Cassiopea Andromeda) (Cassiopea andromeda* |
 
 ### • Rhynchobdellida (3)
 
@@ -28391,13 +29856,14 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Calcareous Tube Worm | *Hydroides elegans* |
 | Tube Worm | *Riftia pachyptila* |
 
-### • Sarcoptiformes (9)
+### • Sarcoptiformes (10)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | American House Dust Mite | *Dermatophagoides farinae* |
 | Brown Legged Grain Mite | *Aleuroglyphus ovatus* |
 | Chorioptic Mange Mite | *Chorioptes bovis* |
+| Dust Mite | *Dermatophagoides pteronyssinus* |
 | Ear Mite | *Otodectes cynotis* |
 | European House Dust Mite | *Dermatophagoides pteronyssinus* |
 | Krombein's Hairy-footed Mite | *Chaetodactylus krombeini* |
@@ -28411,7 +29877,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | :--- | :--- |
 | Cloud Sponge | *Aphrocallistes vastus* |
 
-### • Scleractinia (24)
+### • Scleractinia (26)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -28428,6 +29894,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Fragile Saucer Coral | *Agaricia fragilis* |
 | Great Star Coral | *Montastraea cavernosa* |
 | Grooved Brain Coral | *Diploria labyrinthiformis* |
+| Grooved Brain Coral (Diploria Labyrinthiformis) | *Diploria Labyrinthiformis) (Diploria labyrinthiformis* |
 | Hammer Coral | *Fimbriaphyllia ancora* |
 | Hump Coral | *Porites okinawensis* |
 | Lesser Starlet Coral | *Siderastrea radians* |
@@ -28438,6 +29905,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Purple Tipped Acropora | *Acropora tenuis* |
 | Spiny Flower Coral | *Mussa angulosa* |
 | Staghorn Coral | *Acropora cervicornis* |
+| Staghorn Coral (Acropora Cervicornis) | *Acropora Cervicornis) (Acropora cervicornis* |
 | Zigzag Coral | *Madrepora oculata* |
 
 ### • Scleralcyonacea (8)
@@ -28453,20 +29921,24 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Sea Pansy | *Renilla reniformis* |
 | Slender Sea Pen | *Stylatula elongata* |
 
-### • Scolopendromorpha (1)
+### • Scolopendromorpha (3)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Amazonian Giant Centipede | *Scolopendra gigantea* |
+| Amazonian Giant Centipede (Scolopendra Gigantea) | *Scolopendra Gigantea) (Scolopendra gigantea* |
+| Common Garden Centipede | *Cryptops hortensis* |
 
-### • Scorpiones (28)
+### • Scorpiones (33)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | African Black Tail Scorpion | *Parabuthus liosoma* |
 | Arizona Bark Scorpion | *Centruroides sculpturatus* |
+| Arizona Bark Scorpion (Centruroides Sculpturatus) | *Centruroides Sculpturatus) (Centruroides sculpturatus* |
 | Asian Forest Scorpion | *Heterometrus spinifer* |
 | Australian Rainforest Scorpion | *Hormurus waigiensis* |
+| Bark Scorpion | *Centruroides sculpturatus* |
 | Brazilian Scorpion | *Tityus serrulatus* |
 | Cave Clawed Scorpion | *Pandinus viatoris* |
 | Central Asian Scorpion | *Orthochirus scrobiculosus* |
@@ -28475,8 +29947,11 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Common European Scorpion | *Buthus occitanus* |
 | Crimean Scorpion | *Euscorpius tauricus* |
 | Deathstalker | *Leiurus quinquestriatus* |
+| Deathstalker (Leiurus Quinquestriatus) | *Leiurus Quinquestriatus) (Leiurus quinquestriatus* |
 | East African Scorpion | *Babycurus centrurimorphus* |
+| Egyptian Scorpion | *Leiurus quinquestriatus* |
 | Emperor Scorpion | *Pandinus imperator* |
+| Emperor Scorpion (Pandinus Imperator) | *Pandinus Imperator) (Pandinus imperator* |
 | Fattail Scorpion | *Androctonus hoggarensis* |
 | Giant Burrowing Scorpion | *Opistophthalmus capensis* |
 | Golden Scorpion | *Opistophthalmus boehmi* |
@@ -28492,28 +29967,33 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Tanzanian Red Clawed Scorpion | *Pandinus cavimanus* |
 | Western Forest Scorpion | *Uroctonus mordax* |
 
-### • Scutigeromorpha (1)
+### • Scutigeromorpha (2)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | House Centipede | *Scutigera coleoptrata* |
+| House Centipede (Scutigera Coleoptrata) | *Scutigera Coleoptrata) (Scutigera coleoptrata* |
 
-### • Semaeostomeae (5)
+### • Semaeostomeae (7)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Brownbanded Moon Jelly | *Aurelia limbata* |
 | Eggyolk Jelly | *Phacellophora camtschatica* |
+| Lion's Mane Jellyfish (Cyanea Capillata) | *Cyanea Capillata) (Cyanea capillata* |
 | Lions Mane Jellyfish | *Cyanea capillata* |
 | Moon Jelly | *Aurelia aurita* |
+| Moon Jellyfish (Aurelia Aurita) | *Aurelia Aurita) (Aurelia aurita* |
 | Purplestriped Jelly | *Chrysaora colorata* |
 
-### • Sepiida (7)
+### • Sepiida (9)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Common Cuttlefish | *Sepia officinalis* |
+| Common Cuttlefish (Sepia Officinalis) | *Sepia Officinalis) (Sepia officinalis* |
 | Flamboyant Cuttlefish | *Metasepia pfefferi* |
+| Flamboyant Cuttlefish (Metasepia Pfefferi) | *Metasepia Pfefferi) (Metasepia pfefferi* |
 | Giant Australian Cuttlefish | *Ascarosepion apama* |
 | Golden Cuttlefish | *Acanthosepion esculentum* |
 | Japanese Spineless Cuttlefish | *Sepiella japonica* |
@@ -28540,10 +30020,11 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | :--- | :--- |
 | Giant False Limpet | *Siphonaria gigas* |
 
-### • Siphonophorae (1)
+### • Siphonophorae (2)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
+| Portuguese Man O' War (Physalia Physalis) | *Physalia Physalis) (Physalia physalis* |
 | Portuguese Man o War | *Physalia physalis* |
 
 ### • Siphonostomatoida (2)
@@ -28560,11 +30041,12 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Atlantic Awning Clam | *Solemya velum* |
 | Gutless Awningclam | *Solemya reidi* |
 
-### • Solifugae (1)
+### • Solifugae (2)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Camel Spider | *Galeodes arabs* |
+| Camel Spider (Galeodes Arabs) | *Galeodes Arabs) (Galeodes arabs* |
 
 ### • Spatangoida (1)
 
@@ -28578,11 +30060,13 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | :--- | :--- |
 | Blood Star | *Henricia tumida* |
 
-### • Spirostreptida (1)
+### • Spirostreptida (3)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
+| African Giant Black Millipede | *Archispirostreptus gigas* |
 | Giant African Millipede | *Archispirostreptus gigas* |
+| Giant African Millipede (Archispirostreptus Gigas) | *Archispirostreptus Gigas) (Archispirostreptus gigas* |
 
 ### • Spongillida (1)
 
@@ -28597,13 +30081,14 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Red Throated Ascidian | *Herdmania momus* |
 | Sea Peach | *Halocynthia pyriformis* |
 
-### • Stomatopoda (1)
+### • Stomatopoda (2)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Peacock Mantis Shrimp | *Odontodactylus scyllarus* |
+| Peacock Mantis Shrimp (Odontodactylus Scyllarus) | *Odontodactylus Scyllarus) (Odontodactylus scyllarus* |
 
-### • Stylommatophora (19)
+### • Stylommatophora (23)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -28612,17 +30097,21 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Big Hachet Woodland Snail | *Ashmunella mearnsii* |
 | Blind Awlsnail | *Cecilioides acicula* |
 | Boulder Pile Mountain Snail | *Oreohelix jugalis* |
+| Brown Garden Snail | *Cornu aspersum* |
 | Carinate Pillsnail | *Euchemotrema hubrichti* |
 | Carpathian Blue Slug | *Bielzia coerulans* |
 | Dalles Mountainsnail | *Oreohelix variabilis* |
 | European Ambersnail | *Succinea putris* |
 | Garden Snail | *Cornu aspersum* |
+| Garden Snail (Cornu Aspersum) | *Cornu Aspersum) (Cornu aspersum* |
 | Giant African Snail | *Lissachatina fulica* |
+| Giant African Snail (Lissachatina Fulica) | *Lissachatina Fulica) (Lissachatina fulica* |
 | Grey Field Slug | *Deroceras reticulatum* |
 | Keeled Jumping Slug | *Hemphillia burringtoni* |
 | Marbled Jumping Slug | *Hemphillia danielsi* |
 | Prickly Pear Island Snail | *Micrarionta opuntia* |
 | Roman Snail | *Helix pomatia* |
+| Roman Snail (Helix Pomatia) | *Helix Pomatia) (Helix pomatia* |
 | Skade's Jumping-slug | *Hemphillia skadei* |
 | Spike Awlsnail | *Allopeas clavulinum* |
 | Spotted Fungus Slug | *Magnipelta mycophaga* |
@@ -28667,24 +30156,27 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Soybean Thrips | *Neohydatothrips variabilis* |
 | Western Flower Thrips | *Frankliniella occidentalis* |
 
-### • Trichinellida (2)
+### • Trichinellida (3)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Human Whipworm | *Trichuris trichiura* |
 | Pig Whipworm | *Trichuris suis* |
+| Trichina Worm / Pork Worm | *Trichinella spiralis* |
 
-### • Trichoplacea (1)
+### • Trichoplacea (2)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Trichoplax | *Trichoplax adhaerens* |
+| Trichoplax (Trichoplax Adhaerens) | *Trichoplax Adhaerens) (Trichoplax adhaerens* |
 
-### • Tricladida (1)
+### • Tricladida (2)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Freshwater Planarian | *Schmidtea mediterranea* |
+| Freshwater Planarian (Schmidtea Mediterranea) | *Schmidtea Mediterranea) (Schmidtea mediterranea* |
 
 ### • Trochida (3)
 
@@ -28694,7 +30186,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Pfeiffer's Top Shell | *Omphalius pfeifferi* |
 | Rosy-base Top Shell | *Oxystele sinensis* |
 
-### • Trombidiformes (29)
+### • Trombidiformes (33)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
@@ -28711,6 +30203,7 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Dry Bulb Mite | *Aceria tulipae* |
 | European Red Spider Mite | *Panonychus ulmi* |
 | False Spider Mite | *Brevipalpus phoenicis* |
+| Footballer Mite | *Erythracarus sp.* |
 | Hawthorn Spider Mite | *Amphitetranychus viennensis* |
 | Honey Bee Tracheal Mite | *Acarapis woodi* |
 | Mango Spider Mite | *Oligonychus mangiferus* |
@@ -28721,12 +30214,15 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Phalaenopsis Mite | *Tenuipalpus pacificus* |
 | Pigeonpea Mite | *Aceria cajani* |
 | Pongamia Mite | *Aceria pongamiae* |
+| Rake-legged Mite | *Microcaeculus sp. JCO-1999* |
+| Rake-legged Mite | *Neocaeculus sp.* |
 | Red Palm Mite | *Raoiella indica* |
 | Red Spider Mite | *Tetranychus evansi* |
 | Straw Itch Mite | *Pyemotes tritici* |
 | Strawberry Mite | *Tetranychus turkestani* |
 | Two-spotted Spider Mite | *Tetranychus urticae* |
 | Wheat Curl Mite | *Aceria tosichella* |
+| Whirligig Mite | *Tarsotomus sp.* |
 
 ### • Tubificida (1)
 
@@ -28773,13 +30269,15 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | :--- | :--- |
 | Giant Whipscorpion | *Mastigoproctus giganteus* |
 
-### • Valvatida (4)
+### • Valvatida (6)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Bat Star | *Patiria miniata* |
 | Blue Sea Star | *Linckia laevigata* |
+| Blue Sea Star (Linckia Laevigata) | *Linckia Laevigata) (Linckia laevigata* |
 | Crown-of-thorns Starfish | *Acanthaster planci* |
+| Crown-of-thorns Starfish (Acanthaster Planci) | *Acanthaster Planci) (Acanthaster planci* |
 | Vermillion Biscuit Star | *Pentagonaster duebeni* |
 
 ### • Venerida (14)
@@ -28801,19 +30299,21 @@ Complete organized breakdown of all currently loaded species in the game catalog
 | Thin-shell Littleneck | *Callithaca tenerrima* |
 | Undulate Venus Clam | *Paratapes undulatus* |
 
-### • Verongiida (3)
+### • Verongiida (4)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Row Pore Rope Sponge | *Aplysina cauliformis* |
 | Scattered Pore Rope Sponge | *Aplysina fulva* |
 | Yellow Tube Sponge | *Aplysina fistularis* |
+| Yellow Tube Sponge (Aplysina Fistularis) | *Aplysina Fistularis) (Aplysina fistularis* |
 
-### • Xiphosura (4)
+### • Xiphosura (5)
 
 | Common Name | Scientific Name |
 | :--- | :--- |
 | Atlantic Horseshoe Crab | *Limulus polyphemus* |
+| Atlantic Horseshoe Crab (Limulus Polyphemus) | *Limulus Polyphemus) (Limulus polyphemus* |
 | Chinese Horseshoe Crab | *Tachypleus tridentatus* |
 | Indo-pacific Horseshoe Crab | *Tachypleus gigas* |
 | Southeast Asian Horseshoe Crab | *Carcinoscorpius rotundicauda* |
@@ -28834,4 +30334,2587 @@ Complete organized breakdown of all currently loaded species in the game catalog
 
 ---
 
-| Dumbo Octopus | *Grimpoteuthis discoveryi* |
+## 🌿 Plants (1871 Species)
+
+### • Acorales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Eurasian Sweet-flag | *Acorus calamus* |
+
+### • Alismatales (33)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Adanson's Monstera | *Monstera adansonii* |
+| American Eelgrass | *Vallisneria americana* |
+| American Frogbit | *Limnobium spongia* |
+| Arrowleaf Elephant's Ear | *Xanthosoma sagittifolium* |
+| Black Calla | *Arum palaestinum* |
+| Brittle Naiad | *Najas minor* |
+| Calla Lily | *Zantedeschia aethiopica* |
+| Cape-pondweed | *Aponogeton distachyos* |
+| Common Water Strider (Aquarius Remigis) | *Aquarius Remigis) (Aquarius remigis* |
+| Cuckoopint | *Arum maculatum* |
+| Curly-leaf Pondweed | *Potamogeton crispus* |
+| Dead Horse Arum | *Helicodiceros muscivorus* |
+| Dumb Cane | *Dieffenbachia seguine* |
+| Flowering-rush | *Butomus umbellatus* |
+| Giant Taro | *Alocasia macrorrhizos* |
+| Grass-leaf Pondweed | *Potamogeton gramineus* |
+| Greater Duckweed | *Spirodela polyrhiza* |
+| Green Arrow Arum | *Peltandra virginica* |
+| Green Dragon | *Arisaema dracontium* |
+| Hydrilla | *Hydrilla verticillata* |
+| Konjac | *Amorphophallus konjac* |
+| Marsh Calla | *Calla palustris* |
+| Oilcloth-flower | *Anthurium andraeanum* |
+| Richardson's Pondweed | *Potamogeton richardsonii* |
+| Spiny Naiad | *Najas marina* |
+| Swollen Duckweed | *Lemna gibba* |
+| Taro | *Colocasia esculenta* |
+| Tarovine | *Monstera deliciosa* |
+| Texas Mudbaby | *Echinodorus cordifolius* |
+| Titan Arum | *Amorphophallus titanum* |
+| Voodoo Lily | *Sauromatum venosum* |
+| Wapato | *Sagittaria latifolia* |
+| Water Lettuce | *Pistia stratiotes* |
+
+### • Apiales (60)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Acutelobed Angelica | *Angelica acutiloba* |
+| Alexanders | *Smyrnium olusatrum* |
+| Arracacha | *Arracacia xanthorrhiza* |
+| Asiatic Pennywort | *Centella asiatica* |
+| Barestem Biscuitroot | *Lomatium nudicaule* |
+| Big Pine Biscuitroot | *Lomatium rigidum* |
+| Brandegee's Desertparsley | *Lomatium brandegeei* |
+| Bristly Sarsaparilla | *Aralia hispida* |
+| Burnet Saxifrage | *Pimpinella saxifraga* |
+| California Lomatium | *Lomatium californicum* |
+| Canyonlands Biscuitroot | *Lomatium latilobum* |
+| Carrot | *Daucus carota* |
+| Chervil | *Anthriscus cerefolium* |
+| Chinese Angelica | *Angelica sinensis* |
+| Coastal Biscuitroot | *Lomatium parvifolium* |
+| Common Hogweed | *Heracleum sphondylium* |
+| Coriander | *Coriandrum sativum* |
+| Culantro | *Eryngium foetidum* |
+| Devil's Walking Stick | *Aralia spinosa* |
+| Dill | *Anethum graveolens* |
+| Fennel | *Anethum foeniculum* |
+| Fernleaf Biscuitroot | *Lomatium dissectum* |
+| Five Finger | *Neopanax arboreus* |
+| Fool's Parsley | *Aethusa cynapium* |
+| Giant Hogweed | *Heracleum mantegazzianum* |
+| Ginseng | *Panax ginseng* |
+| Golden Alexanders | *Zizia aurea* |
+| Goutweed | *Aegopodium podagraria* |
+| Gray's Biscuitroot | *Lomatium grayi* |
+| Great Pignut | *Bunium bulbocastanum* |
+| Greenman's Biscuitroot | *Lomatium greenmanii* |
+| Hedge Parsley | *Torilis nodosa* |
+| Hemlock Water-dropwort | *Oenanthe crocata* |
+| Hog's-fennel | *Peucedanum officinale* |
+| Howell's Biscuitroot | *Lomatium howellii* |
+| Idaho Biscuitroot | *Lomatium idahoense* |
+| Japanese Ginseng | *Panax japonicus* |
+| King Desert Parsley | *Lomatium graveolens* |
+| Large Bullwort | *Ammi majus* |
+| Lawn Water-pennywort | *Hydrocotyle sibthorpioides* |
+| Napa Biscuitroot | *Lomatium repostum* |
+| Nineleaf Biscuitroot | *Lomatium triternatum* |
+| Notoginseng | *Panax notoginseng* |
+| Nuttall's Biscuitroot | *Lomatium nuttallii* |
+| Owens Peak Desertparsley | *Lomatium shevockii* |
+| Parsley | *Petroselinum crispum* |
+| Parsnip | *Pastinaca sativa* |
+| Poison Hemlock | *Conium maculatum* |
+| Rattlesnake Master | *Eryngium yuccifolium* |
+| Rock Samphire | *Crithmum maritimum* |
+| Scots Lovage | *Ligusticum scoticum* |
+| Shiny Biscuitroot | *Lomatium lucidum* |
+| Sichuan Lovage | *Conioselinum anthriscoides* |
+| Slickrock Biscuitroot | *Lomatium laevigatum* |
+| Sweet Cicely | *Myrrhis odorata* |
+| Toad's Herb | *Eryngium carlinae* |
+| Tobira | *Pittosporum tobira* |
+| Venus's Comb | *Scandix pecten-veneris* |
+| Western Yampah | *Perideridia erythrorhiza* |
+| Woolyfruit Desertparsley | *Lomatium dasycarpum* |
+
+### • Aquifoliales (6)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Inkberry | *Ilex glabra* |
+| Japanese Holly | *Ilex crenata* |
+| Myrtle Dahoon | *Ilex myrtifolia* |
+| Sarvis Holly | *Ilex amelanchier* |
+| Winterberry | *Ilex verticillata* |
+| Yerba Mate | *Ilex paraguariensis* |
+
+### • Araucariales (7)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Celery Pine | *Phyllocladus trichomanoides* |
+| Henkel's Yellowwood | *Podocarpus henkelii* |
+| Hoop Pine | *Araucaria cunninghamii* |
+| Huon Pine | *Lagarostrobos franklinii* |
+| Monkey-puzzle Tree | *Araucaria araucana* |
+| Outeniqua Yellowwood | *Afrocarpus falcatus* |
+| Real Yellowwood | *Podocarpus latifolius* |
+
+### • Arecales (19)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| African Oil Palm | *Elaeis guineensis* |
+| American Oil Palm | *Elaeis oleifera* |
+| Areca Palm | *Dypsis lutescens* |
+| Babassu | *Attalea speciosa* |
+| Betel Palm | *Areca catechu* |
+| Buccaneer Palm | *Pseudophoenix sargentii* |
+| Burmese Fishtail Palm | *Caryota mitis* |
+| Cabbage Palmetto | *Sabal palmetto* |
+| Coconut Palm | *Cocos nucifera* |
+| Date Palm | *Phoenix dactylifera* |
+| Dwarf Palmetto | *Sabal minor* |
+| Florida Thatch Palm | *Thrinax radiata* |
+| Key Thatch Palm | *Leucothrinax morrisii* |
+| Mountain Thatch Palm | *Thrinax parviflora* |
+| Needle Palm | *Rhapidophyllum hystrix* |
+| Nipa Palm | *Nypa fruticans* |
+| Peach Palm | *Bactris gasipaes* |
+| Reed Palm | *Chamaedorea seifrizii* |
+| Windmill Palm | *Trachycarpus fortunei* |
+
+### • Asparagales (54)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Adam's Needle | *Yucca filamentosa* |
+| African Lily | *Agapanthus africanus* |
+| Aloe-vera | *Aloe vera* |
+| Aztec Lily | *Zephyranthes formosissima* |
+| Big Blue Lilyturf | *Liriope muscari* |
+| Blue Flax-lily | *Dianella caerulea* |
+| Blue Plantain Lily | *Hosta ventricosa* |
+| Bridal Creeper | *Asparagus asparagoides* |
+| Cast-iron Plant | *Aspidistra elatior* |
+| Common Snowdrop | *Galanthus nivalis* |
+| Daffodil | *Narcissus pseudonarcissus* |
+| Daylily | *Hemerocallis hybrid cultivar* |
+| Eastern Camas | *Camassia scilloides* |
+| Egyptian Walking Onion | *Allium x proliferum* |
+| Flag | *Iris germanica* |
+| Garden Asparagus | *Asparagus officinalis* |
+| Garlic | *Allium sativum* |
+| Ghost Orchid | *Dendrophylax lindenii* |
+| Golden Spider-lily | *Lycoris aurea* |
+| Grass Tree | *Xanthorrhoea sp.* |
+| Heath Spotted Orchid | *Dactylorhiza maculata* |
+| Hyacinth Orchid | *Arpophyllum giganteum* |
+| Japanese Jacinth | *Scilla scilloides* |
+| Japanese Plantain Lily | *Hosta lancifolia* |
+| Lady-of-the-night | *Brassavola nodosa* |
+| Large Twayblade | *Liparis liliifolia* |
+| Leek | *Allium ampeloprasum* |
+| Mexican Bowstring Hemp | *Sansevieria sp. 'mexicana'* |
+| Navajo Yucca | *Yucca baileyi* |
+| Onion | *Allium cepa* |
+| Perfumed Spiderlily | *Hymenocallis latifolia* |
+| Peruvian Jacinth | *Scilla peruviana* |
+| Phantom Orchid | *Cephalanthera austiniae* |
+| Pink Lady's Slipper | *Cypripedium acaule* |
+| Ponytail Palm | *Beaucarnea recurvata* |
+| Ramson | *Allium ursinum* |
+| Red Spider Lily | *Lycoris radiata* |
+| Rose Mandarin | *Streptopus lanceolatus* |
+| Sacahuista | *Nolina microcarpa* |
+| Siberian Squill | *Scilla siberica* |
+| Small Solomon's Seal | *Polygonatum biflorum* |
+| Snake Plant | *Sansevieria trifasciata* |
+| Soap Tree | *Yucca elata* |
+| Spanish Dagger | *Yucca treculeana* |
+| Spineless Yucca | *Yucca gigantea* |
+| Spoon Flower | *Dasylirion wheeleri* |
+| Starry Hyacinth | *Prospero autumnale* |
+| Summer Snowflake | *Leucojum aestivum* |
+| Surprise Lily | *Lycoris squamigera* |
+| Texas Sotol | *Dasylirion texanum* |
+| Ti Plant | *Cordyline fruticosa* |
+| Welsh Onion | *Allium fistulosum* |
+| Western Prairie Fringed Orchid | *Platanthera praeclara* |
+| Wild Leek | *Allium tricoccum* |
+
+### • Asterales (88)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| African Daisy | *Dimorphotheca sinuata* |
+| African Marigold | *Tagetes erecta* |
+| Alpine Leafybract Aster | *Symphyotrichum foliaceum* |
+| Autumn Oxeye | *Leucanthemella serotina* |
+| Bachelor's Button | *Centaurea cyanus* |
+| Balloon Flower | *Platycodon grandiflorus* |
+| Beach Naupaka | *Scaevola taccada* |
+| Bearded Creeper | *Crupina vulgaris* |
+| Bedding Dahlia | *Dahlia merckii* |
+| Big Sagebrush | *Artemisia tridentata* |
+| Bitter Vine | *Mikania micrantha* |
+| Black Salsify | *Pseudopodospermum hispanicum* |
+| Bluemink | *Ageratum houstonianum* |
+| Bluestem Goldenrod | *Solidago caesia* |
+| Brightwhite | *Prenanthella exigua* |
+| Bur-marigold | *Bidens pilosa* |
+| Butte County Calycadenia | *Calycadenia oppositifolia* |
+| Canterbury Bells | *Campanula medium* |
+| Cape-ivy | *Delairea odorata* |
+| Capeweed | *Arctotheca calendula* |
+| Cardoon | *Cynara cardunculus* |
+| Chicory | *Cichorium intybus* |
+| Chikku Chikku | *Hypochaeris sessiliflora* |
+| China Aster | *Callistephus chinensis* |
+| Chuquiragua | *Chuquiraga jussieui* |
+| Clustered Bellflower | *Campanula glomerata* |
+| Coastal Mugwort | *Artemisia suksdorfii* |
+| Coltsfoot | *Tussilago farfara* |
+| Common Blue Wood Aster | *Symphyotrichum cordifolium* |
+| Common Boneset | *Eupatorium perfoliatum* |
+| Common Harebell | *Campanula rotundifolia* |
+| Common Mugwort | *Artemisia vulgaris* |
+| Common Ragweed | *Ambrosia artemisiifolia* |
+| Common Sunflower | *Helianthus annuus* |
+| Creeping Bellflower | *Campanula rapunculoides* |
+| Dwarf Calycadenia | *Calycadenia villosa* |
+| Electric Daisy | *Acmella oleracea* |
+| Elk Thistle | *Cirsium scariosum* |
+| Endive | *Cichorium endivia* |
+| Engelmann Daisy | *Engelmannia peristenia* |
+| Florist's Daisy | *Chrysanthemum x morifolium* |
+| Fremont's Calycadenia | *Calycadenia fremontii* |
+| Garden Lettuce | *Lactuca sativa* |
+| Giant Ragweed | *Ambrosia trifida* |
+| Golden Buttons | *Cotula coronopifolia* |
+| Gravel Ghost | *Atrichoseris platyphylla* |
+| Gray Goldenrod | *Solidago nemoralis* |
+| Great Burdock | *Arctium lappa* |
+| Green Prairie Coneflower | *Ratibida tagetes* |
+| Hairy Cat's-ear | *Hypochaeris radicata* |
+| Hairy White Oldfield Aster | *Symphyotrichum pilosum* |
+| Hoover's Calycadenia | *Calycadenia hooveri* |
+| Japanese Mugwort | *Artemisia princeps* |
+| Lambstongue Ragwort | *Senecio integerrimus* |
+| Late Purple Aster | *Symphyotrichum patens* |
+| Meadow Hawkweed | *Pilosella caespitosa* |
+| Meadow Salsify | *Tragopogon pratensis* |
+| Milk Thistle | *Silybum marianum* |
+| Mountain Harebell | *Campanula lasiocarpa* |
+| Narrow-leaved Purple Coneflower | *Echinacea angustifolia* |
+| Nettle-leaved Bellflower | *Campanula trachelium* |
+| Niger Seed | *Guizotia abyssinica* |
+| Orange Hawkweed | *Pilosella aurantiaca* |
+| Peach-leaved Bellflower | *Campanula persicifolia* |
+| Perennial Spikeweed | *Hemizonia perennis* |
+| Pot Marigold | *Calendula officinalis* |
+| Prairie Fleabane | *Erigeron strigosus* |
+| Prickly Lettuce | *Lactuca serriola* |
+| Purple Passion Plant | *Gynura aurantiaca* |
+| Rampion | *Campanula rapunculus* |
+| Rayless Tansyaster | *Xanthisma grindelioides* |
+| Red Imported Fire Ant (Solenopsis Invicta) | *Solenopsis Invicta) (Solenopsis invicta* |
+| Red Sunflower | *Tithonia rotundifolia* |
+| Rosin Weed | *Calycadenia truncata* |
+| Safflower | *Carthamus tinctorius* |
+| Sagebrush False Dandelion | *Nothocalais troximoides* |
+| Salsify | *Tragopogon porrifolius* |
+| Scentless False Mayweed | *Tripleurospermum inodorum* |
+| Showy Goldenrod | *Solidago speciosa* |
+| Small-flowered Calycadenia | *Calycadenia pauciflora* |
+| Soft Calycadenia | *Calycadenia mollis* |
+| Southern Harebell | *Campanula divaricata* |
+| Spicate Calycadenia | *Calycadenia spicata* |
+| Sticky Calycadenia | *Calycadenia multiglandulosa* |
+| Sweet Wormwood | *Artemisia annua* |
+| Tarragon | *Artemisia dracunculus* |
+| White Rattlesnake Root | *Nabalus albus* |
+| Yellow Star-thistle | *Centaurea solstitialis* |
+
+### • Austrobaileyales (3)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Bay Starvine | *Schisandra glabra* |
+| Chinese Magnolia-vine | *Schisandra chinensis* |
+| Florida Anisetree | *Illicium floridanum* |
+
+### • Boraginales (9)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Assyrian Plum | *Cordia myxa* |
+| Common Comfrey | *Symphytum officinale* |
+| Corn Gromwell | *Buglossoides arvensis* |
+| Desert Christmas Tree | *Pholisma arenarium* |
+| Indian Heliotrope | *Heliotropium indicum* |
+| Kerosene Tree | *Cordia subcordata* |
+| Russian Comfrey | *Symphytum x uplandicum* |
+| Scarlet Cordia | *Cordia sebestena* |
+| Spanish Elm | *Cordia alliodora* |
+
+### • Brassicales (48)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| American Searocket | *Cakile edentula* |
+| Annual Honesty | *Lunaria annua* |
+| Asian Spiderflower | *Corynandra viscosa* |
+| Basket-of-gold | *Aurinia saxatilis* |
+| Black Mustard | *Brassica nigra* |
+| Bog Yellowcress | *Rorippa palustris* |
+| Bonete | *Jacaratia mexicana* |
+| Brown Mustard | *Brassica juncea* |
+| Caperbush | *Capparis spinosa* |
+| Common Stock | *Matthiola incana* |
+| Douglas's Meadowfoam | *Limnanthes douglasii* |
+| Early Winter Cress | *Barbarea verna* |
+| Ethiopian Mustard | *Brassica carinata* |
+| European Searocket | *Cakile maritima* |
+| False Flax | *Camelina sativa* |
+| Fendler's Bladderpod | *Physaria fendleri* |
+| Field Mustard | *Brassica rapa* |
+| Gray Rockcress | *Arabis alpina* |
+| Hairy Bittercress | *Cardamine hirsuta* |
+| Heart-podded Hoary Cress | *Lepidium draba* |
+| Horseradish Tree | *Moringa oleifera* |
+| Jackass Clover | *Cleomella refracta* |
+| Jamaican Caper | *Quadrella cynophallophora* |
+| Mountain Papaya | *Vasconcellea cundinamarcensis* |
+| Nasturtium | *Tropaeolum majus* |
+| Papaya | *Carica papaya* |
+| Pennsylvania Bittercress | *Cardamine pensylvanica* |
+| Pepperwort | *Lepidium campestre* |
+| Radish | *Raphanus sativus* |
+| Rape | *Brassica napus* |
+| Sacred Garlic Pear | *Crateva religiosa* |
+| Scurvy-grass | *Cochlearia officinalis* |
+| Shepherd's Purse | *Capsella bursa-pastoris* |
+| Shortpod Mustard | *Hirschfeldia incana* |
+| Showy Sunflax | *Heliophila coronopifolia* |
+| Small-leaf Bittercress | *Cardamine microphylla* |
+| Spiderwisp | *Gynandropsis gynandra* |
+| Thale Cress | *Arabidopsis thaliana* |
+| Touristplant | *Dimorphocarpa wislizeni* |
+| Tower Rockcress | *Turritis glabra* |
+| White Meadowfoam | *Limnanthes alba* |
+| White Mustard | *Sinapis alba* |
+| Wild Cabbage | *Brassica oleracea* |
+| Wild Candytuft | *Iberis amara* |
+| Wild Radish | *Raphanus raphanistrum* |
+| Winter Cress | *Barbarea vulgaris* |
+| Woodland Bittercress | *Cardamine flexuosa* |
+| Yellow Mignonette | *Reseda lutea* |
+
+### • Canellales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Wild Cinnamon | *Canella winterana* |
+
+### • Caryophyllales (94)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Amaranth | *Amaranthus caudatus* |
+| American Pokeweed | *Phytolacca americana* |
+| Athel Tamarisk | *Tamarix aphylla* |
+| Big Saltbush | *Atriplex lentiformis* |
+| Bitter Dock | *Rumex obtusifolius* |
+| Black Bindweed | *Fallopia convolvulus* |
+| Bladder Campion | *Silene vulgaris* |
+| Bladder Dock | *Rumex vesicarius* |
+| Blood Amaranth | *Amaranthus cruentus* |
+| Bory's Campion | *Silene boryi* |
+| Bunny Ears Cactus | *Opuntia microdasys* |
+| Burchell's Campion | *Silene burchellii* |
+| Cape Leadwort | *Plumbago auriculata* |
+| Chain-fruit Cholla | *Cylindropuntia fulgida* |
+| Chain-of-love | *Antigonon leptopus* |
+| Clammy Campion | *Viscaria vulgaris* |
+| Clove Pink | *Dianthus caryophyllus* |
+| Clustered Dock | *Rumex conglomeratus* |
+| Common Buckwheat | *Fagopyrum esculentum* |
+| Common Glasswort | *Salicornia europaea* |
+| Common Iceplant | *Mesembryanthemum crystallinum* |
+| Common Soapwort | *Saponaria officinalis* |
+| Corn Cockle | *Agrostemma githago* |
+| Cowherb | *Gypsophila vaccaria* |
+| Cushion Pink | *Silene acaulis* |
+| Drunkard's Dream | *Hatiora salicornioides* |
+| Elisabeth's Campion | *Silene elisabethae* |
+| False Christmas Cactus | *Schlumbergera truncata* |
+| Flower of Jove | *Silene flos-jovis* |
+| Food Pokeweed | *Phytolacca acinosa* |
+| Four-winged Saltbush | *Atriplex canescens* |
+| Garden Campion | *Atocion armeria* |
+| Garden Four-o'clock | *Mirabilis jalapa* |
+| Garden Rhubarb | *Rheum rhabarbarum* |
+| Garden Sorrel | *Rumex acetosa* |
+| Giant Knotweed | *Reynoutria sachalinensis* |
+| Good King Henry | *Blitum bonus-henricus* |
+| Grain Amaranth | *Amaranthus hypochondriacus* |
+| Greasewood | *Sarcobatus vermiculatus* |
+| Greater Stichwort | *Rabelera holostea* |
+| Himalayan Knotweed | *Koenigia polystachya* |
+| Himalayan Rhubarb | *Rheum australe* |
+| Japanese Knotweed | *Reynoutria japonica* |
+| Jewels-of-opar | *Talinum paniculatum* |
+| Jojoba | *Simmondsia chinensis* |
+| Joseph's Coat | *Amaranthus tricolor* |
+| Lamb's Quarters | *Chenopodium album* |
+| Large Sand Catchfly | *Silene conoidea* |
+| Maheshwari's Campion | *Silene maheshwarii* |
+| Mediterranean Saltbush | *Atriplex halimus* |
+| Mexican Tea | *Dysphania ambrosioides* |
+| Mignonette Vine | *Anredera cordifolia* |
+| Mile-a-minute Weed | *Persicaria perfoliata* |
+| Nettle-leaved Goosefoot | *Chenopodiastrum murale* |
+| Night-flowering Catchfly | *Silene noctiflora* |
+| Nodding Catchfly | *Silene pendula* |
+| Nopal Tapon | *Opuntia robusta* |
+| Organ Pipe Cactus | *Stenocereus thurberi* |
+| Peyote | *Lophophora williamsii* |
+| Prickly Russian Thistle | *Salsola tragus* |
+| Prickly Saltwort | *Salsola kali* |
+| Prostrate Pigweed | *Amaranthus blitoides* |
+| Quinoa | *Chenopodium quinoa* |
+| Ragged-robin | *Silene flos-cuculi* |
+| Rainbow Pink | *Dianthus chinensis* |
+| Red Campion | *Silene dioica* |
+| Red Goosefoot | *Oxybasis rubra* |
+| Redroot Amaranth | *Amaranthus retroflexus* |
+| Reinhold's Campion | *Silene reinholdii* |
+| Roemer's Campion | *Silene roemeri* |
+| Rose Campion | *Silene coronaria* |
+| Royal Catchfly | *Silene regia* |
+| Salt Sandspurry | *Spergularia marina* |
+| Sand Dollar Cactus | *Astrophytum asterias* |
+| Scarlet Lychnis | *Silene chalcedonica* |
+| Sea Grape | *Coccoloba uvifera* |
+| Sheep's Sorrel | *Rumex acetosella* |
+| Silver Cockscomb | *Celosia argentea* |
+| Silverhead | *Gomphrena vermicularis* |
+| Slender Amaranth | *Amaranthus viridis* |
+| Smooth Pigweed | *Amaranthus hybridus* |
+| Snake-eyes | *Phaulothamnus spinescens* |
+| Spanish Catchfly | *Silene otites* |
+| Spinach | *Spinacia oleracea* |
+| Summer Cypress | *Bassia scoparia* |
+| Tartarian Buckwheat | *Fagopyrum tataricum* |
+| Torch Cactus | *Soehrensia spachiana* |
+| Tree Cholla | *Cylindropuntia imbricata* |
+| Triangle Cactus | *Acanthocereus tetragonus* |
+| Triangle Orache | *Atriplex prostrata* |
+| Tuber Fleeceflower | *Pleuropterus multiflorus* |
+| Vietnamese Coriander | *Persicaria odorata* |
+| Waldstein's Campion | *Silene waldsteinii* |
+| Western Dock | *Rumex occidentalis* |
+
+### • Celastrales (5)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| American Bittersweet | *Celastrus scandens* |
+| Bog Stars | *Parnassia palustris* |
+| Japanese Spindletree | *Euonymus japonicus* |
+| Khat | *Catha edulis* |
+| Winged Euonymus | *Euonymus alatus* |
+
+### • Commelinales (7)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Confederate Spiderwort | *Tradescantia paludosa* |
+| Inchplant | *Tradescantia zebrina* |
+| Ohio Spiderwort | *Tradescantia ohiensis* |
+| Tall Kangaroo Paw | *Anigozanthos flavidus* |
+| Virginia Spiderwort | *Tradescantia virginiana* |
+| Water Hyacinth | *Pontederia crassipes* |
+| Water Star-grass | *Heteranthera dubia* |
+
+### • Cornales (4)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Alternate-leaved Dogwood | *Cornus alternifolia* |
+| Canadian Bunchberry | *Cornus canadensis* |
+| Ogeechee Lime | *Nyssa ogeche* |
+| Silky Dogwood | *Cornus amomum* |
+
+### • Crossosomatales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Spiny Greasebush | *Glossopetalon spinescens* |
+
+### • Cucurbitales (28)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Angled Luffa | *Luffa acutangula* |
+| Balsam Apple | *Momordica balsamina* |
+| Bedding Begonia | *Begonia x semperflorens-cultorum* |
+| Bitter Melon | *Momordica charantia* |
+| Buffalo Gourd | *Cucurbita foetidissima* |
+| Chayote | *Sicyos edulis* |
+| Chinese Cucumber | *Trichosanthes kirilowii* |
+| Coastal Manroot | *Marah oregana* |
+| Colocynth | *Citrullus colocynthis* |
+| Crookneck Pumpkin | *Cucurbita moschata* |
+| Cucumber | *Cucumis sativus* |
+| Eyelash Begonia | *Begonia bowerae* |
+| Figleaf Gourd | *Cucurbita ficifolia* |
+| Gherkin | *Cucumis anguria* |
+| Jumping Cucumber | *Ecballium elaterium* |
+| King Begonia | *Begonia rex* |
+| Mixta Squash | *Cucurbita mixta* |
+| Monk Fruit | *Siraitia grosvenorii* |
+| Muskmelon | *Cucumis melo* |
+| Pointed Gourd | *Trichosanthes dioica* |
+| Prickly Cucumber | *Echinocystis lobata* |
+| Smooth Loofah | *Luffa aegyptiaca* |
+| Spiny Bitter Cucumber | *Momordica cochinchinensis* |
+| Tinda | *Benincasa fistulosa* |
+| Watermelon | *Citrullus lanatus* |
+| Wax Gourd | *Benincasa hispida* |
+| White-flowered Gourd | *Lagenaria siceraria* |
+| Winter Squash | *Cucurbita maxima* |
+
+### • Cupressales (23)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| African Juniper | *Juniperus procera* |
+| Alaska Yellow Cedar | *Callitropsis nootkatensis* |
+| Atlantic White Cedar | *Chamaecyparis thyoides* |
+| Canada Yew | *Taxus canadensis* |
+| Chinese Plum Yew | *Cephalotaxus fortunei* |
+| Coast Redwood | *Sequoia sempervirens* |
+| Common Juniper | *Juniperus communis* |
+| Drooping Juniper | *Juniperus flaccida* |
+| English Yew | *Taxus baccata* |
+| Florida Torreya | *Torreya taxifolia* |
+| Giant Sequoia | *Sequoiadendron giganteum* |
+| Japanese Cedar | *Cryptomeria japonica* |
+| Japanese Torreya | *Torreya nucifera* |
+| Japanese Yew | *Taxus cuspidata* |
+| Lawson's Cypress | *Chamaecyparis lawsoniana* |
+| Leyland Cypress | *x Hesperotropsis leylandii* |
+| Montezuma Bald Cypress | *Taxodium mucronatum* |
+| One-seed Juniper | *Juniperus monosperma* |
+| Ozark White Cedar | *Juniperus ashei* |
+| Phoenician Juniper | *Juniperus phoenicea* |
+| Sawara Cypress | *Chamaecyparis pisifera* |
+| Tibetan Juniper | *Juniperus tibetica* |
+| Western Redcedar | *Thuja plicata* |
+
+### • Cyatheales (2)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Golden Chicken Fern | *Cibotium barometz* |
+| Mexican Tree Fern | *Cibotium schiedei* |
+
+### • Cycadales (2)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Altenstein's Bread Tree | *Encephalartos altensteinii* |
+| Mexican Horncone | *Ceratozamia mexicana* |
+
+### • Dasycladales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Mermaid's Wine Glass | *Acetabularia acetabulum* |
+
+### • Dioscoreales (12)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Air-potato | *Dioscorea bulbifera* |
+| Bitter Yam | *Dioscorea dumetorum* |
+| Black Bat Flower | *Tacca chantrieri* |
+| Black Bryony | *Dioscorea communis* |
+| Chinese Yam | *Dioscorea polystachya* |
+| Cush-cush Yam | *Dioscorea trifida* |
+| Japanese Yam | *Dioscorea japonica* |
+| Lesser Yam | *Dioscorea esculenta* |
+| Polynesian Arrowroot | *Tacca leontopetaloides* |
+| Purple Yam | *Dioscorea alata* |
+| White Bat Flower | *Tacca integrifolia* |
+| Yellow Guinea Yam | *Dioscorea cayenensis* |
+
+### • Dipsacales (18)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Amur Honeysuckle | *Lonicera maackii* |
+| Beauty Bush | *Kolkwitzia amabilis* |
+| Common Cornsalad | *Valerianella locusta* |
+| Common Valerian | *Valeriana officinalis* |
+| Coral Honeysuckle | *Lonicera sempervirens* |
+| Coralberry | *Symphoricarpos orbiculatus* |
+| European Cranberrybush | *Viburnum opulus* |
+| European Elder | *Sambucus nigra* |
+| Fuller's Teasel | *Dipsacus sativus* |
+| Japanese Elderberry | *Sambucus sieboldiana* |
+| Mapleleaf Viburnum | *Viburnum acerifolium* |
+| Nannyberry | *Viburnum lentago* |
+| Red Valerian | *Centranthus ruber* |
+| Rusty Blackhaw | *Viburnum rufidulum* |
+| Sitka Valerian | *Valeriana sitchensis* |
+| Squashberry | *Viburnum edule* |
+| Townhall Clock | *Adoxa moschatellina* |
+| Wayfaring-tree | *Viburnum lantana* |
+
+### • Ephedrales (2)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Chinese Ephedra | *Ephedra sinica* |
+| Popote | *Ephedra antisyphilitica* |
+
+### • Equisetales (3)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Dutch Rush | *Equisetum hyemale* |
+| Field Horsetail | *Equisetum arvense* |
+| Giant Horsetail | *Equisetum telmateia* |
+
+### • Ericales (67)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Alpine Bearberry | *Arctous alpina* |
+| American Persimmon | *Diospyros virginiana* |
+| Andean Blueberry | *Vaccinium floribundum* |
+| Bell-heather | *Erica cinerea* |
+| Bird's-eyes | *Gilia tricolor* |
+| Black Crowberry | *Empetrum nigrum* |
+| Bog Bilberry | *Vaccinium uliginosum* |
+| Boojum Tree | *Fouquieria columnaris* |
+| Brazil Nut | *Bertholletia excelsa* |
+| California Jacob's-ladder | *Polemonium californicum* |
+| Canistel | *Pouteria campechiana* |
+| Cannonball Tree | *Couroupita guianensis* |
+| Coastal Dog-hobble | *Leucothoe axillaris* |
+| Coastal Sweetpepperbush | *Clethra alnifolia* |
+| Common Bilberry | *Vaccinium myrtillus* |
+| Creeping Jenny | *Lysimachia nummularia* |
+| Dangleberry | *Gaylussacia frondosa* |
+| Date-plum | *Diospyros lotus* |
+| Eastern Teaberry | *Gaultheria procumbens* |
+| Fairy Primrose | *Primula malacoides* |
+| Florida Rosemary | *Ceratiola ericoides* |
+| Garden Balsam | *Impatiens balsamina* |
+| Ghost Pipe | *Monotropa uniflora* |
+| Golden Kiwifruit | *Actinidia chinensis* |
+| Great Rhododendron | *Rhododendron maximum* |
+| Gum Bully | *Sideroxylon lanuginosum* |
+| Heather Flower | *Calluna vulgaris* |
+| Highland Doghobble | *Leucothoe fontanesiana* |
+| Indian-buttertree | *Diploknema butyracea* |
+| Japanese Andromeda | *Pieris japonica* |
+| Kaki Persimmon | *Diospyros kaki* |
+| Kiwifruit | *Actinidia deliciosa* |
+| Large Cranberry | *Vaccinium macrocarpon* |
+| Large Flower Mountaintrumpet | *Collomia grandiflora* |
+| Leatherleaf Rhododendron | *Rhododendron metternichii* |
+| Lily of the Valley Tree | *Clethra arborea* |
+| Lingonberry | *Vaccinium vitis-idaea* |
+| Mahua | *Madhuca longifolia* |
+| Mamey Sapote | *Pouteria sapota* |
+| Marsh Labrador Tea | *Rhododendron tomentosum* |
+| Miracle Fruit | *Synsepalum dulcificum* |
+| Narrow Leaf Mountaintrumpet | *Collomia linearis* |
+| Northern Highbush Blueberry | *Vaccinium corymbosum* |
+| Northern Yellow Boxwood | *Planchonella obovata* |
+| One-flowered Wintergreen | *Moneses uniflora* |
+| One-sided Wintergreen | *Orthilia secunda* |
+| Pacific Madrone | *Arbutus menziesii* |
+| Pinesap | *Monotropa hypopitys* |
+| Poison Primrose | *Primula obconica* |
+| Purple False Gilyflower | *Allophyllum divaricatum* |
+| Pygmy-flower Rock-jasmine | *Androsace septentrionalis* |
+| Salal | *Gaultheria shallon* |
+| Sapodilla | *Manilkara zapota* |
+| Shea Tree | *Vitellaria paradoxa* |
+| Shiny Blueberry | *Vaccinium myrsinites* |
+| Small Cranberry | *Vaccinium oxycoccos* |
+| Sparkleberry | *Vaccinium arboreum* |
+| Swamp Doghobble | *Eubotrys racemosa* |
+| Sweet Pinesap | *Monotropsis odorata* |
+| Tarflower | *Bejaria racemosa* |
+| Tea-oil Camellia | *Camellia oleifera* |
+| Tree Heath | *Erica arborea* |
+| Tropical Blueberry | *Macleania rupestris* |
+| Variable Leaf Mountaintrumpet | *Collomia heterophylla* |
+| Velvet Apple | *Diospyros blancoi* |
+| Western Labrador Tea | *Rhododendron columbianum* |
+| Western Moss Heather | *Cassiope mertensiana* |
+
+### • Fabales (175)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Adzuki Bean | *Vigna angularis* |
+| Agba | *Prioria balsamifera* |
+| Alexandrian Senna | *Senna alexandrina* |
+| Alfalfa | *Medicago sativa* |
+| Alkali Swainsonpea | *Sphaerophysa salsula* |
+| Amazonian Yam Bean | *Pachyrhizus tuberosus* |
+| American Licorice | *Glycyrrhiza lepidota* |
+| Andean Yam Bean | *Pachyrhizus ahipa* |
+| Arizona Lupine | *Lupinus arizonicus* |
+| Australian Chestnut | *Castanospermum australe* |
+| Bagpod | *Sesbania vesicaria* |
+| Bambara Groundnut | *Vigna subterranea* |
+| Barrel Medic | *Medicago truncatula* |
+| Bat's Wing Coral Tree | *Erythrina vespertilio* |
+| Bead Tree | *Adenanthera pavonina* |
+| Bird Vetch | *Vicia cracca* |
+| Birdflower | *Crotalaria cunninghamii* |
+| Black Gram | *Vigna mungo* |
+| Brazilian Fern Tree | *Schizolobium parahyba* |
+| Brazilian Jackbean | *Canavalia brasiliensis* |
+| Brazilian Tulipwood | *Dalbergia decipularis* |
+| Brazilwood | *Paubrasilia echinata* |
+| Brigalow | *Acacia harpophylla* |
+| Bristly Locust | *Robinia hispida* |
+| Brown Lancewood | *Acacia doratoxylon* |
+| Butter Lupine | *Lupinus luteolus* |
+| Camel's Foot Tree | *Bauhinia purpurea* |
+| Candle Bush | *Senna alata* |
+| Caribbean Stylo | *Stylosanthes hamata* |
+| Carob | *Ceratonia siliqua* |
+| Carolina Vetch | *Vicia caroliniana* |
+| Chickpea | *Cicer arietinum* |
+| Chilean Mesquite | *Neltuma chilensis* |
+| Chinese Hog-peanut | *Amphicarpaea edgeworthii* |
+| Chinese Licorice | *Glycyrrhiza uralensis* |
+| Cockspur Coraltree | *Erythrina crista-galli* |
+| Cocolmeca Bean | *Phaseolus maculatus* |
+| Coffee Senna | *Senna occidentalis* |
+| Common Bean | *Phaseolus vulgaris* |
+| Common Laburnum | *Laburnum anagyroides* |
+| Common Sainfoin | *Onobrychis viciifolia* |
+| Common Vetch | *Vicia sativa* |
+| Coral Bean | *Erythrina latissima* |
+| Coulter's Lupine | *Lupinus sparsiflorus* |
+| Cow Clover | *Trifolium wormskioldii* |
+| Cowpea | *Vigna unguiculata* |
+| Creeping Tick Trefoil | *Grona triflora* |
+| Dwarf Gorse | *Ulex minor* |
+| Egyptian Acacia | *Vachellia nilotica* |
+| Elephant Ear Tree | *Enterolobium cyclocarpum* |
+| False Indigo Bush | *Amorpha fruticosa* |
+| False Sarsaparilla | *Hardenbergia violacea* |
+| Fava Bean | *Vicia faba* |
+| Flame-of-the-forest | *Butea monosperma* |
+| Flat-pod Pea | *Lathyrus cicera* |
+| Florida Beggarweed | *Desmodium tortuosum* |
+| Forest Siris | *Albizia procera* |
+| Fragrant Indigobush | *Amorpha nana* |
+| French Broom | *Genista monspessulana* |
+| French Honeysuckle | *Sulla coronaria* |
+| Fringed Polygala | *Polygaloides paucifolia* |
+| Furze | *Ulex europaeus* |
+| Garden Pea | *Lathyrus oleraceus* |
+| Golden Shower Tree | *Cassia fistula* |
+| Goldenball Leadtree | *Leucaena retusa* |
+| Great Leadtree | *Leucaena pulverulenta* |
+| Greenleaf Ticktrefoil | *Desmodium intortum* |
+| Guar | *Cyamopsis tetragonoloba* |
+| Hairy Vetch | *Vicia villosa* |
+| Hog Peanut | *Amphicarpaea bracteata* |
+| Honey Locust | *Gleditsia triacanthos* |
+| Horse Gram | *Macrotyloma uniflorum* |
+| Horseflyweed | *Baptisia tinctoria* |
+| Hyacinth Bean | *Lablab purpureus* |
+| Indian Beech Tree | *Pongamia pinnata* |
+| Indian Coral Tree | *Erythrina variegata* |
+| Indian Licorice | *Abrus precatorius* |
+| Indian Pea | *Lathyrus sativus* |
+| Inyo Bush Lupine | *Lupinus excubitus* |
+| Jack Bean | *Canavalia ensiformis* |
+| Japanese Pagoda Tree | *Styphnolobium japonicum* |
+| Japanese Wisteria | *Wisteria floribunda* |
+| Java Cassia | *Cassia javanica* |
+| Jicama | *Pachyrhizus erosus* |
+| Kentucky Coffee Tree | *Gymnocladus dioicus* |
+| Large-leaved Lupine | *Lupinus polyphyllus* |
+| Least Snoutbean | *Rhynchosia minima* |
+| Leichhardt Bean | *Cassia brewsteri* |
+| Lentil | *Lens culinaris* |
+| Lima Bean | *Phaseolus lunatus* |
+| Marama Bean | *Tylosema esculentum* |
+| Meadow Pea | *Lathyrus pratensis* |
+| Mexican Palo Verde | *Parkinsonia aculeata* |
+| Montane Wattle | *Acacia frigescens* |
+| Mopane | *Colophospermum mopane* |
+| Mountain Ebony | *Bauhinia variegata* |
+| Mountain Immortelle | *Erythrina poeppigiana* |
+| Mucana | *Macropsychanthus grandiflorus* |
+| Narrow-leaved Blue Lupine | *Lupinus angustifolius* |
+| Nealie | *Acacia rigens* |
+| Northern Wattle | *Acacia crassicarpa* |
+| Notched Cowpea | *Vigna marina* |
+| Oahu Riverhemp | *Sesbania tomentosa* |
+| Orange Birdsfoot | *Ornithopus pinnatus* |
+| Ordeal-tree | *Erythrophleum suaveolens* |
+| Owl-head Clover | *Trifolium alpestre* |
+| Parrot's Beak | *Lotus berthelotii* |
+| Partridge Pea | *Chamaecrista fasciculata* |
+| Peanut | *Arachis hypogaea* |
+| Perennial Pea | *Lathyrus latifolius* |
+| Perennial Peanut | *Arachis glabrata* |
+| Pigeon Pea | *Cajanus cajan* |
+| Prickly Sesban | *Sesbania bispinosa* |
+| Purple Coraltree | *Erythrina fusca* |
+| Rabbitfoot Clover | *Trifolium arvense* |
+| Rain Tree | *Samanea saman* |
+| Rambling Senna | *Senna bicapsularis* |
+| Red Clover | *Trifolium pratense* |
+| Red Powder-puff | *Calliandra haematocephala* |
+| Reddish Tufted Vetch | *Vicia benghalensis* |
+| Rice Bean | *Vigna umbellata* |
+| River Jam | *Acacia citrinoviridis* |
+| Rough Pea | *Lathyrus hirsutus* |
+| Royal Poinciana | *Delonix regia* |
+| Running-postman | *Kennedia prostrata* |
+| Sal-leaved Desmodium | *Pleurolobus gangeticus* |
+| Sappanwood | *Biancaea sappan* |
+| Scotch Laburnum | *Laburnum alpinum* |
+| Sea Pea | *Lathyrus japonicus* |
+| Seashore Lupine | *Lupinus littoralis* |
+| Sensitive Partridge Pea | *Chamaecrista nictitans* |
+| Sericea Lespedeza | *Lespedeza cuneata* |
+| Sesbania Pea | *Sesbania cannabina* |
+| Shamrock Pea | *Parochetus communis* |
+| Shrubby Wattle | *Acacia calcicola* |
+| Silk Tree | *Albizia julibrissin* |
+| Silky Lupine | *Lupinus sericeus* |
+| Small Melilot | *Melilotus indicus* |
+| Smooth Rattlebox | *Crotalaria pallida* |
+| Soybean | *Glycine max* |
+| Spring Vetchling | *Lathyrus sphaericus* |
+| Sulphur Lupine | *Lupinus sulphureus* |
+| Sunn Hemp | *Crotalaria juncea* |
+| Sweet Acacia | *Vachellia farnesiana* |
+| Sweet Pea | *Lathyrus odoratus* |
+| Sword Bean | *Canavalia gladiata* |
+| Tangier Pea | *Lathyrus tingitanus* |
+| Tepary Bean | *Phaseolus acutifolius* |
+| Texas Bluebonnet | *Lupinus texensis* |
+| Threeleaf Derris | *Derris trifoliata* |
+| Tipa Colorada | *Pterogyne nitens* |
+| Tonka Bean | *Dipteryx odorata* |
+| Tortuous Mesquite | *Neltuma flexuosa* |
+| Townsville Stylo | *Stylosanthes humilis* |
+| Tree Lupine | *Lupinus arboreus* |
+| Variable Sallow Wattle | *Acacia mucronata* |
+| Vegetable Hummingbird | *Sesbania grandiflora* |
+| Velvet Mesquite | *Neltuma velutina* |
+| Viscote Negro | *Parasenegalia visco* |
+| Water Locust | *Gleditsia aquatica* |
+| West Australian Blue Lupin | *Lupinus cosentinii* |
+| White Clover | *Trifolium repens* |
+| White Lupine | *Lupinus albus* |
+| White Popinac | *Leucaena leucocephala* |
+| White Spanishbroom | *Cytisus multiflorus* |
+| Winged Bean | *Psophocarpus tetragonolobus* |
+| Winged Pea | *Lotus tetragonolobus* |
+| Woolly-leaf Lupine | *Lupinus leucophyllus* |
+| Yeheb Bush | *Cordeauxia edulis* |
+| Yellow Bauhinia | *Bauhinia tomentosa* |
+| Yellow Bird-of-paradise Shrub | *Erythrostemon gilliesii* |
+| Yellow Lupine | *Lupinus luteus* |
+| Yellow Vetchling | *Lathyrus aphaca* |
+| Yellow-flowered Pea | *Lathyrus ochrus* |
+| Zombi-pea | *Vigna vexillata* |
+
+### • Fagales (48)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Alpine Birch | *Betula nana* |
+| American Beech | *Fagus grandifolia* |
+| American Chestnut | *Castanea dentata* |
+| American Hop-hornbeam | *Ostrya virginiana* |
+| American Hornbeam | *Carpinus caroliniana* |
+| Asian White Birch | *Betula platyphylla* |
+| Bitternut Hickory | *Carya cordiformis* |
+| Black Walnut | *Juglans nigra* |
+| Bog Birch | *Betula pumila* |
+| Bog Myrtle | *Myrica gale* |
+| Bur Oak | *Quercus macrocarpa* |
+| California Wax Myrtle | *Morella californica* |
+| Chinese Bayberry | *Morella rubra* |
+| Chinese Chestnut | *Castanea mollissima* |
+| Downy Birch | *Betula pubescens* |
+| English Oak | *Quercus robur* |
+| Erman's Birch | *Betula ermanii* |
+| European Beech | *Fagus sylvatica* |
+| European Chestnut | *Castanea sativa* |
+| European Green Alder | *Alnus alnobetula* |
+| European Hop-hornbeam | *Ostrya carpinifolia* |
+| European Hornbeam | *Carpinus betulus* |
+| European White Birch | *Betula pendula* |
+| Gray Birch | *Betula populifolia* |
+| Himalayan Birch | *Betula utilis* |
+| Japanese Beech | *Fagus crenata* |
+| Japanese Chestnut | *Castanea crenata* |
+| Japanese Hornbeam | *Carpinus japonica* |
+| Japanese Oak | *Lithocarpus glaber* |
+| Korean Hornbeam | *Carpinus turczaninowii* |
+| Mountain Paper Birch | *Betula cordifolia* |
+| Newfoundland Dwarf Birch | *Betula michauxii* |
+| Northern Bayberry | *Morella pensylvanica* |
+| Northern Red Oak | *Quercus rubra* |
+| Nutmeg Hickory | *Carya myristiciformis* |
+| Paper Birch | *Betula papyrifera* |
+| Persian Walnut | *Juglans regia* |
+| Pignut Hickory | *Carya glabra* |
+| River Birch | *Betula nigra* |
+| Sessile Oak | *Quercus petraea* |
+| Shingle Oak | *Quercus imbricaria* |
+| Shumard Oak | *Quercus shumardii* |
+| Swamp Chestnut Oak | *Quercus michauxii* |
+| Swamp Oak | *Casuarina glauca* |
+| Sweet Birch | *Betula lenta* |
+| Turkey Oak | *Quercus cerris* |
+| Wax Myrtle | *Morella cerifera* |
+| White Oak | *Quercus alba* |
+
+### • Gentianales (35)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Azure Bluet | *Houstonia caerulea* |
+| Bead Plant | *Nertera granadensis* |
+| Brazilian Jasmine | *Mandevilla sanderi* |
+| Carpet Python (Morelia Spilota) | *Morelia Spilota) (Morelia spilota* |
+| Coffee | *Coffea arabica* |
+| Common Oleander | *Nerium oleander* |
+| Degame | *Calycophyllum candidissimum* |
+| Easter Herald's Trumpet | *Beaumontia grandiflora* |
+| Egyptian Star Cluster | *Pentas lanceolata* |
+| Firecrackerbush | *Bouvardia ternifolia* |
+| Flame-of-the-woods | *Ixora coccinea* |
+| Frangipani | *Plumeria rubra* |
+| Golden Trumpet | *Allamanda cathartica* |
+| Greater Periwinkle | *Vinca major* |
+| Green Tree Python (Morelia Viridis) | *Morelia Viridis) (Morelia viridis* |
+| Hemp Dogbane | *Apocynum cannabinum* |
+| Honeyvine | *Cynanchum laeve* |
+| Indian Mulberry | *Morinda citrifolia* |
+| Ipecac | *Carapichea ipecacuanha* |
+| Lesser Periwinkle | *Vinca minor* |
+| Levantine Madder | *Rubia peregrina* |
+| Lily Thorn | *Catesbaea spinosa* |
+| Madagascar Periwinkle | *Catharanthus roseus* |
+| Madder | *Rubia tinctorum* |
+| Mudar | *Calotropis gigantea* |
+| Pinwheelflower | *Tabernaemontana divaricata* |
+| Porcelain Flower | *Hoya carnosa* |
+| Red Cinchona | *Cinchona pubescens* |
+| Rough Bedstraw | *Galium asprellum* |
+| Serpentwood | *Rauvolfia serpentina* |
+| Showy Prairie Gentian | *Eustoma russellianum* |
+| Southern Cleavers | *Galium verrucosum* |
+| Spanish Tamarind | *Vangueria madagascariensis* |
+| West African Rubber Tree | *Funtumia elastica* |
+| Yellow Gentian | *Gentiana lutea* |
+
+### • Geraniales (3)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Redstem Stork's Bill | *Erodium cicutarium* |
+| Rose Geranium | *Pelargonium graveolens* |
+| Zonal Geranium | *Pelargonium x hortorum* |
+
+### • Ginkgoales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Maidenhair Tree | *Ginkgo biloba* |
+
+### • Hypnales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Blue Discus (Symphysodon Aequifasciatus) | *Symphysodon Aequifasciatus) (Symphysodon aequifasciatus* |
+
+### • Isoetales (2)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Engelmann's Quillwort | *Isoetes engelmannii* |
+| Spiny-spored Quillwort | *Isoetes echinospora* |
+
+### • Lamiales (126)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| African Tulip Tree | *Spathodea campanulata* |
+| American Alpine Speedwell | *Veronica wormskjoldii* |
+| American Basil | *Ocimum americanum* |
+| American Blue Vervain | *Verbena hastata* |
+| American Trumpet Vine | *Campsis radicans* |
+| Apple Mint | *Mentha suaveolens* |
+| Bastard Pennyroyal | *Trichostema dichotomum* |
+| Bee Balm | *Monarda didyma* |
+| Beechdrops | *Epifagus virginiana* |
+| Beefsteak Plant | *Perilla frutescens* |
+| Birdeye Speedwell | *Veronica persica* |
+| Black Mangrove | *Avicennia germinans* |
+| Black-eyed Susan Vine | *Thunbergia alata* |
+| Bleeding Glory-bower | *Clerodendrum thomsoniae* |
+| Blond Plantain | *Plantago ovata* |
+| Blue Giant Hyssop | *Agastache foeniculum* |
+| Blue Porterweed | *Stachytarpheta jamaicensis* |
+| Bonfire Salvia | *Salvia splendens* |
+| Branched Plantain | *Plantago indica* |
+| Brazilian Gloxinia | *Sinningia speciosa* |
+| Bugle | *Ajuga reptans* |
+| Canada Mint | *Mentha canadensis* |
+| Carolina Ash | *Fraxinus caroliniana* |
+| Catnip | *Nepeta cataria* |
+| Cayenne Snakeweed | *Stachytarpheta cayennensis* |
+| Chinese Chaste Tree | *Vitex negundo* |
+| Chinese Motherwort | *Paraleonurus japonicus* |
+| Chinese Trumpet Vine | *Campsis grandiflora* |
+| Clary | *Salvia sclarea* |
+| Common Balm | *Melissa officinalis* |
+| Common Dittany | *Cunila origanoides* |
+| Common Foxglove | *Digitalis purpurea* |
+| Common Hedgehyssop | *Gratiola officinalis* |
+| Common Hedgenettle | *Betonica officinalis* |
+| Common Jasmine | *Jasminum officinale* |
+| Common Lilac | *Syringa vulgaris* |
+| Common Mullein | *Verbascum thapsus* |
+| Common Olive | *Olea europaea* |
+| Common Plantain | *Plantago major* |
+| Common Privet | *Ligustrum vulgare* |
+| Common Self-heal | *Prunella vulgaris* |
+| Common Thyme | *Thymus vulgaris* |
+| Common Toadflax | *Linaria vulgaris* |
+| Common Vervain | *Verbena officinalis* |
+| Conehead Thyme | *Thymbra capitata* |
+| Corn Mint | *Mentha arvensis* |
+| Corn Speedwell | *Veronica arvensis* |
+| Cowpea Witchweed | *Striga gesnerioides* |
+| Cuachilote | *Parmentiera aculeata* |
+| Dittany of Crete | *Origanum dictamnus* |
+| Elephant's-head Lousewort | *Pedicularis groenlandica* |
+| European Ash | *Fraxinus excelsior* |
+| Five-ribbed Thyme | *Thymus quinquecostatus* |
+| Flowering Ash | *Fraxinus ornus* |
+| Garden Sage | *Salvia officinalis* |
+| Glandular Plantain | *Plantago afra* |
+| Golden Dewdrops | *Duranta erecta* |
+| Ground Ivy | *Glechoma hederacea* |
+| Haitian Catalpa | *Catalpa longissima* |
+| Hawai'i Plantain | *Plantago hawaiensis* |
+| Henbit Deadnettle | *Lamium amplexicaule* |
+| Himalayan Manna Ash | *Fraxinus floribunda* |
+| Horsemint | *Mentha longifolia* |
+| Indian Swampweed | *Hygrophila polysperma* |
+| Indian Trumpet Tree | *Oroxylum indicum* |
+| Italian Oregano | *Origanum x majoricum* |
+| Ivy-leaved Speedwell | *Veronica hederifolia* |
+| Japanese Mazus | *Mazus pumilus* |
+| Java Speedwell | *Veronica javanica* |
+| Kenilworth Ivy | *Cymbalaria muralis* |
+| Late Figwort | *Scrophularia marilandica* |
+| Licorice Weed | *Scoparia dulcis* |
+| Lilac Chaste Tree | *Vitex agnus-castus* |
+| Lolly Bush | *Clerodendrum floribundum* |
+| Malbau | *Premna serratifolia* |
+| Mexican Ash | *Fraxinus berlandieriana* |
+| Mint Shrub | *Elsholtzia stauntonii* |
+| Narrow-leaved Plantain | *Plantago lanceolata* |
+| Native Pennyroyal | *Mentha satureioides* |
+| Night Jasmine | *Nyctanthes arbor-tristis* |
+| Northern Catalpa | *Catalpa speciosa* |
+| Northern Horsebalm | *Collinsonia canadensis* |
+| Obedient Plant | *Physostegia virginiana* |
+| Oregano | *Origanum vulgare* |
+| Pale Devil's-claw | *Proboscidea louisianica* |
+| Patchouli | *Pogostemon cablin* |
+| Peppermint | *Mentha x piperita* |
+| Pink Trumpet Tree | *Tabebuia heterophylla* |
+| Popwood | *Myoporum obscurum* |
+| Primrose Jasmine | *Jasminum mesnyi* |
+| Prostrate Vervain | *Verbena bracteata* |
+| Purpletop Vervain | *Verbena bonariensis* |
+| Purslane Speedwell | *Veronica peregrina* |
+| Queen's Wreath | *Petrea volubilis* |
+| Red Dead-nettle | *Lamium purpureum* |
+| Redroot Sage | *Salvia miltiorrhiza* |
+| Rosemary | *Salvia rosmarinus* |
+| Round-leaf Mintbush | *Prostanthera rotundifolia* |
+| Saffron Spike | *Aphelandra squarrosa* |
+| Scotch Spearmint | *Mentha x gracilis* |
+| Sea Plantain | *Plantago maritima* |
+| Sea-dock | *Acanthus mollis* |
+| Sesame | *Sesamum indicum* |
+| Sessile Marshweed | *Limnophila sessiliflora* |
+| Shiny Bugleweed | *Lycopus lucidus* |
+| Siberian Motherwort | *Paraleonurus sibiricus* |
+| Siebold Ash | *Fraxinus sieboldiana* |
+| Simpleleaf Chastetree | *Vitex trifolia* |
+| Snapdragon | *Antirrhinum majus* |
+| Snowy Mintbush | *Prostanthera nivea* |
+| Southern Catalpa | *Catalpa bignonioides* |
+| Spanish Wood Marjoram | *Thymus mastichina* |
+| Spearmint | *Mentha spicata* |
+| Spotted Monkey Flower | *Erythranthe guttata* |
+| Summer Lilac | *Buddleja davidii* |
+| Sweet Basil | *Ocimum basilicum* |
+| Texas Barometer Bush | *Leucophyllum frutescens* |
+| White Ash | *Fraxinus americana* |
+| White Horehound | *Marrubium vulgare* |
+| White Turtlehead | *Chelone glabra* |
+| White Vervain | *Verbena urticifolia* |
+| Wild Thyme | *Thymus serpyllum* |
+| Wishbone Flower | *Torenia fournieri* |
+| Woolly Hedgenettle | *Stachys byzantina* |
+| Wooly Foxglove | *Digitalis lanata* |
+| Yellow Foxglove | *Digitalis grandiflora* |
+
+### • Laurales (14)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Aromatic Litsea | *Litsea cubeba* |
+| Avocado | *Persea americana* |
+| California Bay | *Umbellularia californica* |
+| Camphor Tree | *Cinnamomum camphora* |
+| Ceylon Cinnamon | *Cinnamomum verum* |
+| Corduroy Laurel | *Cryptocarya corrugata* |
+| Eastern Sweetshrub | *Calycanthus floridus* |
+| Japanese Cinnamon | *Cinnamomum yabunikkei* |
+| Northern Grey Sassafras | *Doryphora aromatica* |
+| Northern Sassafras | *Daphnandra repandula* |
+| Northern Spicebush | *Lindera benzoin* |
+| Red-flowered Socketwood | *Daphnandra tenuipes* |
+| Western Sweetshrub | *Calycanthus occidentalis* |
+| Yellow Sassafras | *Doryphora sassafras* |
+
+### • Liliales (17)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Autumn-crocus | *Colchicum autumnale* |
+| Bamboo Lily | *Lilium japonicum* |
+| California False Hellebore | *Veratrum californicum* |
+| Cat Greenbrier | *Smilax glauca* |
+| Christmas-bells | *Sandersonia aurantiaca* |
+| Flame Lily | *Gloriosa superba* |
+| Green Slangkop | *Ornithoglossum viride* |
+| Henry's Lily | *Lilium henryi* |
+| Hong Kong Lily | *Lilium brownii* |
+| Kamchatka Fritillary | *Fritillaria camschatcensis* |
+| Large White Trillium | *Trillium grandiflorum* |
+| Little Sweet Betsy | *Trillium cuneatum* |
+| Manchurian Turk's-cap Lily | *Lilium distichum* |
+| Prairie Trillium | *Trillium recurvatum* |
+| Red Trillium | *Trillium erectum* |
+| Roundleaf Greenbrier | *Smilax rotundifolia* |
+| Trumpet Lily | *Lilium longiflorum* |
+
+### • Lycopodiales (3)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Ground Cedar | *Diphasiastrum tristachyum* |
+| Shining Club Moss | *Huperzia lucidula* |
+| Stag's-horn Clubmoss | *Lycopodium clavatum* |
+
+### • Magnoliales (14)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Biriba | *Annona mucosa* |
+| Bullock's Heart | *Annona reticulata* |
+| Cherimoya | *Annona cherimola* |
+| Cucumber-tree | *Magnolia acuminata* |
+| Japanese Bigleaf Magnolia | *Magnolia obovata* |
+| Mountain Soursop | *Annona montana* |
+| Nutmeg | *Myristica fragrans* |
+| Pond Apple | *Annona glabra* |
+| Red Ucuuba | *Virola sebifera* |
+| Saucer Magnolia | *Magnolia x soulangeana* |
+| Soursop | *Annona muricata* |
+| Star Magnolia | *Magnolia stellata* |
+| Sweetsop | *Annona squamosa* |
+| Yulan Magnolia | *Magnolia denudata* |
+
+### • Malpighiales (51)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| American Mangrove | *Rhizophora mangle* |
+| Annual Mercury | *Mercurialis annua* |
+| Antilles Calophyllum | *Calophyllum antillanum* |
+| Balsam Poplar | *Populus balsamifera* |
+| Bat Leaved Passion Flower | *Passiflora coriacea* |
+| Bellyache Bush | *Jatropha gossypiifolia* |
+| Berlin Poplar | *Populus x berolinensis* |
+| Black Cottonwood | *Populus trichocarpa* |
+| Black Poplar | *Populus nigra* |
+| Boarwood | *Symphonia globulifera* |
+| Cassava | *Manihot esculenta* |
+| Castor Bean | *Ricinus communis* |
+| Chenille Plant | *Acalypha hispida* |
+| Chinese Tallow | *Triadica sebifera* |
+| Common Blue Violet | *Viola sororia* |
+| Cypress Spurge | *Euphorbia cyparissias* |
+| Dog's Mercury | *Mercurialis perennis* |
+| Emblic | *Emblica officinalis* |
+| Euphrates Poplar | *Populus euphratica* |
+| Fairy Flax | *Linum catharticum* |
+| False Mangosteen | *Garcinia xanthochymus* |
+| Flax | *Linum usitatissimum* |
+| Goutystalk Nettlespurge | *Jatropha podagrica* |
+| Governor's Plum | *Flacourtia indica* |
+| Granadilla | *Passiflora quadrangularis* |
+| Grassland Croton | *Croton dioicus* |
+| Heath Dog-violet | *Viola canina* |
+| Hybrid Black Poplar | *Populus x canadensis* |
+| Indian Spurgetree | *Euphorbia neriifolia* |
+| Katuk | *Breynia androgyna* |
+| Kokum | *Garcinia indica* |
+| Kuduberry | *Pseudolachnostylis maprouneifolia* |
+| Leafy Spurge | *Euphorbia esula* |
+| Locustberry | *Byrsonima lucida* |
+| Lovi-lovi | *Flacourtia inermis* |
+| Macloskey's Violet | *Viola macloskeyi* |
+| Mammee Apple | *Mammea americana* |
+| Mongolian Poplar | *Populus suaveolens* |
+| Nance | *Byrsonima crassifolia* |
+| Orchid Mantis (Hymenopus Coronatus) | *Hymenopus Coronatus) (Hymenopus coronatus* |
+| Osier | *Salix viminalis* |
+| Poinsettia | *Euphorbia pulcherrima* |
+| Quaking Aspen | *Populus tremuloides* |
+| Red Caustic-creeper | *Euphorbia thymifolia* |
+| Rubber Tree | *Hevea brasiliensis* |
+| Salamander-tree | *Antidesma bunius* |
+| Sitka Willow | *Salix sitchensis* |
+| Slender Goldshower | *Galphimia gracilis* |
+| Tahitian Gooseberry Tree | *Phyllanthus acidus* |
+| White Poplar | *Populus alba* |
+| Woolly Willow | *Salix lanata* |
+
+### • Malvales (41)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Aibika | *Abelmoschus manihot* |
+| American Linden | *Tilia americana* |
+| Balsa | *Ochroma pyramidale* |
+| Boab | *Adansonia gregorii* |
+| Cacao | *Theobroma cacao* |
+| California Flannelbush | *Fremontodendron californicum* |
+| China Jute | *Abutilon theophrasti* |
+| Chinese Hibiscus | *Hibiscus rosa-sinensis* |
+| Chinese Parasol-tree | *Firmiana simplex* |
+| Cotton | *Gossypium hirsutum* |
+| Cotton Rosemallow | *Hibiscus mutabilis* |
+| Flower-of-an-hour | *Hibiscus trionum* |
+| Gold Coast Bombax | *Bombax buonopozense* |
+| Greater Musk-mallow | *Malva alcea* |
+| Gurjan | *Dipterocarpus turbinatus* |
+| Hollyhock | *Alcea rosea* |
+| Illawara Flametree | *Brachychiton acerifolius* |
+| Indian Kapok | *Bombax ceiba* |
+| Indigo Bunting (Passerina Cyanea) | *Passerina Cyanea) (Passerina cyanea* |
+| Kapoktree | *Ceiba pentandra* |
+| Koki`o Ula | *Hibiscus kokio* |
+| Leatherwood | *Dirca palustris* |
+| Lipstick Tree | *Bixa orellana* |
+| Ma`o Hau Hele | *Hibiscus brackenridgei* |
+| Marshmallow | *Althaea officinalis* |
+| Mata Lembu | *Firmiana malayana* |
+| Mexican Flannelbush | *Fremontodendron mexicanum* |
+| Musk Mallow | *Abelmoschus moschatus* |
+| Okra | *Abelmoschus esculentus* |
+| Oriental Paperbush | *Edgeworthia chrysantha* |
+| Painted Bunting (Passerina Ciris) | *Passerina Ciris) (Passerina ciris* |
+| Peruvian Cotton | *Gossypium raimondii* |
+| Queensland Bottletree | *Brachychiton rupestris* |
+| Roselle | *Hibiscus sabdariffa* |
+| Sal Tree | *Shorea robusta* |
+| Sea Hibiscus | *Talipariti tiliaceum* |
+| Sea-island Cotton | *Gossypium barbadense* |
+| Silver Linden | *Tilia tomentosa* |
+| Sleepy Morning | *Waltheria indica* |
+| Winter Daphne | *Daphne odora* |
+| Woolly Beachheather | *Hudsonia tomentosa* |
+
+### • Marattiales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Turnip Fern | *Angiopteris lygodiifolia* |
+
+### • Marchantiales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Common Liverwort | *Marchantia polymorpha* |
+
+### • Myrtales (60)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Allspice | *Pimenta dioica* |
+| Appalachian Evening Primrose | *Oenothera argillicola* |
+| Arjuna | *Terminalia arjuna* |
+| Bay Rum Tree | *Pimenta racemosa* |
+| Bell-fruited Mallee | *Eucalyptus preissiana* |
+| Bibhitaki | *Terminalia bellirica* |
+| Birdcage Evening Primrose | *Oenothera deltoides* |
+| Brazilian Guava | *Psidium guineense* |
+| Chebulic Myrobalan | *Terminalia chebula* |
+| Cherry of the Rio Grande | *Eugenia involucrata* |
+| Cider Tree | *Eucalyptus gunnii* |
+| Clove | *Syzygium aromaticum* |
+| Coast Teatree | *Gaudium laevigatum* |
+| Coastal Blackbutt | *Eucalyptus todtiana* |
+| Crepe Myrtle | *Lagerstroemia indica* |
+| Dunn's White Gum | *Eucalyptus dunnii* |
+| Flooded Gum | *Eucalyptus rudis* |
+| German Evening Primrose | *Oenothera biennis* |
+| Giant Crepe-myrtle | *Lagerstroemia speciosa* |
+| Golden Penda | *Xanthostemon chrysanthus* |
+| Gully Gum | *Eucalyptus smithii* |
+| Gungurru | *Eucalyptus caesia* |
+| Gympie Messmate | *Eucalyptus cloeziana* |
+| Henna | *Lawsonia inermis* |
+| Illyarie | *Eucalyptus erythrocorys* |
+| Indian Almond | *Terminalia catappa* |
+| Indonesian Bay Leaf | *Syzygium polyanthum* |
+| Inland Yellowjacket | *Eucalyptus similis* |
+| Java Plum | *Syzygium cumini* |
+| Kanuka | *Kunzea ericoides* |
+| Lemon-scented Gum | *Corymbia citriodora* |
+| Lilly-pilly | *Syzygium smithii* |
+| Malay Apple | *Syzygium malaccense* |
+| Mallalie | *Eucalyptus eudesmioides* |
+| Messmate Stringybark | *Eucalyptus obliqua* |
+| Murray Red Gum | *Eucalyptus camaldulensis* |
+| Narrow-leaved Black Peppermint | *Eucalyptus nicholii* |
+| New Zealand Christmas Tree | *Metrosideros excelsa* |
+| Pineapple Guava | *Feijoa sellowiana* |
+| Pomegranate | *Punica granatum* |
+| Princess Flower | *Pleroma urvilleanum* |
+| Rangoon Creeper | *Combretum indicum* |
+| Red-flowering Gum | *Corymbia ficifolia* |
+| Rose-apple | *Syzygium jambos* |
+| Scarlet Gum | *Eucalyptus phoenicea* |
+| Seedbox | *Ludwigia alternifolia* |
+| Silver-leaved Mountain Gum | *Eucalyptus pulverulenta* |
+| South Australian Grey Mallee | *Eucalyptus flindersii* |
+| Spanish Stopper | *Eugenia foetida* |
+| Surinam Cherry | *Eugenia uniflora* |
+| Swamp Loosestrife | *Decodon verticillatus* |
+| Swamp Mahogany | *Eucalyptus robusta* |
+| Tallowwood | *Eucalyptus microcorys* |
+| Tea Tree | *Melaleuca alternifolia* |
+| Virginia Meadow Beauty | *Rhexia virginica* |
+| Wax Apple | *Syzygium samarangense* |
+| White Ironbark | *Eucalyptus leucoxylon* |
+| White-leaved Marlock | *Eucalyptus x tetragona* |
+| Yellow Bloodwood | *Corymbia eximia* |
+| Yellow Stringybark | *Eucalyptus muelleriana* |
+
+### • Nymphaeales (5)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Amazon Water-lily | *Victoria amazonica* |
+| Mexican Water Lily | *Nymphaea mexicana* |
+| Pocket Water Lily | *Nymphaea colorata* |
+| Santa Cruz Water-lily | *Victoria cruziana* |
+| Yellow Pond Lily | *Nuphar polysepala* |
+
+### • Ophioglossales (7)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Daisy-leaved Grape Fern | *Botrychium matricariifolium* |
+| Kamraj | *Helminthostachys zeylanica* |
+| Limestone Adder's-tongue | *Ophioglossum engelmannii* |
+| Little Grapefern | *Botrychium simplex* |
+| Moonwort | *Botrychium lunaria* |
+| Netted Adder's-tongue | *Ophioglossum reticulatum* |
+| Southern Adder's-tongue | *Ophioglossum vulgatum* |
+
+### • Osmundales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Cinnamon Fern | *Osmundastrum cinnamomeum* |
+
+### • Oxalidales (4)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Coachwood | *Ceratopetalum apetalum* |
+| European Wood-sorrel | *Oxalis acetosella* |
+| Oca | *Oxalis tuberosa* |
+| White Quandong | *Elaeocarpus kirtonii* |
+
+### • Pandanales (2)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Panama-hat Palm | *Carludovica palmata* |
+| Thatch Screwpine | *Pandanus tectorius* |
+
+### • Pinales (60)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Alcock's Spruce | *Picea alcoquiana* |
+| Austrian Pine | *Pinus nigra* |
+| Ayacahuite Pine | *Pinus ayacahuite* |
+| Bhutan Pine | *Pinus wallichiana* |
+| Bristle-cone Fir | *Abies bracteata* |
+| California Red Fir | *Abies magnifica* |
+| Canada Hemlock | *Tsuga canadensis* |
+| Caribbean Pine | *Pinus caribaea* |
+| Caucasian Fir | *Abies nordmanniana* |
+| Chir Pine | *Pinus roxburghii* |
+| Colorado Spruce | *Picea pungens* |
+| Coulter Pine | *Pinus coulteri* |
+| Deodar Cedar | *Cedrus deodara* |
+| Douglas-fir | *Pseudotsuga menziesii* |
+| Dwarf Siberian Pine | *Pinus pumila* |
+| Eastern White Pine | *Pinus strobus* |
+| Engelmann Spruce | *Picea engelmannii* |
+| European Silver Fir | *Abies alba* |
+| Foxtail Pine | *Pinus balfouriana* |
+| Grand Fir | *Abies grandis* |
+| Gray Pine | *Pinus sabiniana* |
+| Japanese Black Pine | *Pinus thunbergii* |
+| Japanese White Pine | *Pinus parviflora* |
+| Khasi Pine | *Pinus kesiya* |
+| Korean Pine | *Pinus koraiensis* |
+| Koyama's Spruce | *Picea koyamae* |
+| Krempf's Pine | *Pinus krempfii* |
+| Loblolly Pine | *Pinus taeda* |
+| Lodgepole Pine | *Pinus contorta* |
+| Maritime Pine | *Pinus pinaster* |
+| Mexican Pinyon | *Pinus cembroides* |
+| Mexican Spruce | *Picea mexicana* |
+| Mexican Weeping Pine | *Pinus patula* |
+| Momi Fir | *Abies firma* |
+| Monterey Pine | *Pinus radiata* |
+| Mugo Pine | *Pinus mugo* |
+| Norway Spruce | *Picea abies* |
+| Pinyon | *Pinus edulis* |
+| Pond Pine | *Pinus serotina* |
+| Qinghai Spruce | *Picea crassifolia* |
+| Red Pine | *Pinus resinosa* |
+| Scots Pine | *Pinus sylvestris* |
+| Shortleaf Pine | *Pinus echinata* |
+| Sitka Spruce | *Picea sitchensis* |
+| Slash Pine | *Pinus elliottii* |
+| Southwestern White Pine | *Pinus strobiformis* |
+| Spanish Fir | *Abies pinsapo* |
+| Stone Pine | *Pinus pinea* |
+| Subalpine Fir | *Abies lasiocarpa* |
+| Sugar Pine | *Pinus lambertiana* |
+| Sumatran Pine | *Pinus merkusii* |
+| Swiss Stone Pine | *Pinus cembra* |
+| Taiwan Fir | *Abies kawakamii* |
+| Tamarack | *Larix laricina* |
+| Turkish Pine | *Pinus brutia* |
+| Western Bristlecone Pine | *Pinus longaeva* |
+| Western Hemlock | *Tsuga heterophylla* |
+| Western Larch | *Larix occidentalis* |
+| Western White Pine | *Pinus monticola* |
+| White Spruce | *Picea glauca* |
+
+### • Piperales (10)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Baby Rubberplant | *Peperomia obtusifolia* |
+| Chameleon-plant | *Houttuynia cordata* |
+| Coin Leaf Plant | *Peperomia polybotrya* |
+| European Birthwort | *Aristolochia clematitis* |
+| Ivy Leaf Peperomia | *Peperomia griseoargentea* |
+| Lizard's Tail | *Saururus cernuus* |
+| Manchurian Dutchmanspipe | *Aristolochia manshuriensis* |
+| Pelican-flower | *Aristolochia grandiflora* |
+| Slender Dutchman's Pipe | *Aristolochia debilis* |
+| Woolly Dutchman's Pipe | *Aristolochia tomentosa* |
+
+### • Poales (129)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| African Rice | *Oryza glaberrima* |
+| Alkali Cordgrass | *Sporobolus hookerianus* |
+| Alkali Sacaton | *Sporobolus airoides* |
+| Annual Rabbitsfoot Grass | *Polypogon monspeliensis* |
+| Antarctic Hairgrass | *Deschampsia antarctica* |
+| Arctic Brome | *Bromus pumpellianus* |
+| Asian Cultivated Rice | *Oryza sativa* |
+| Australian Brome | *Bromus arenarius* |
+| Balku | *Bambusa balcooa* |
+| Barnyard Grass | *Echinochloa crus-galli* |
+| Bermuda Grass | *Cynodon dactylon* |
+| Billion-dollar Grass | *Echinochloa frumentacea* |
+| Birdwood Grass | *Cenchrus setigerus* |
+| Black Oat | *Avena strigosa* |
+| Black Seed Panic | *Panicum bisulcatum* |
+| Blue Grama | *Bouteloua gracilis* |
+| Bread Wheat | *Triticum aestivum* |
+| Brownbeard Rice | *Oryza rufipogon* |
+| Buddha Belly Bamboo | *Bambusa ventricosa* |
+| Buffelgrass | *Cenchrus ciliaris* |
+| California Brome | *Bromus carinatus* |
+| California Bulrush | *Schoenoplectus californicus* |
+| California Oat Grass | *Danthonia californica* |
+| Canada Wild Rye | *Elymus canadensis* |
+| Canary Grass | *Phalaris aquatica* |
+| Cheatgrass | *Bromus tectorum* |
+| Colonial Bentgrass | *Agrostis capillaris* |
+| Common Reed | *Phragmites australis* |
+| Compact Brome | *Bromus madritensis* |
+| Crested Porcupine (Hystrix Cristata) | *Hystrix Cristata) (Hystrix cristata* |
+| Curly Mitchell Grass | *Astrebla lappacea* |
+| Diploperennial Teosinte | *Zea diploperennis* |
+| Eastern Gama Grass | *Tripsacum dactyloides* |
+| Einkorn Wheat | *Triticum monococcum* |
+| Erect Brome | *Bromus erectus* |
+| Eulalia | *Miscanthus sinensis* |
+| Fall Panicum | *Panicum dichotomiflorum* |
+| Feather Finger Grass | *Chloris virgata* |
+| Fewflower Spikerush | *Eleocharis quinqueflora* |
+| Finger Millet | *Eleusine coracana* |
+| Foxtail Millet | *Setaria italica* |
+| Giant Reed | *Arundo donax* |
+| Goosegrass | *Eleusine indica* |
+| Gophertail Lovegrass | *Eragrostis ciliaris* |
+| Guatemalan Gamagrass | *Tripsacum laxum* |
+| Guatemalan Teosinte | *Zea luxurians* |
+| Hairy Chess | *Bromus commutatus* |
+| Hedge Bamboo | *Bambusa multiplex* |
+| Hippo Grass | *Echinochloa stagnina* |
+| Hoary Brome | *Bromus subvelutinus* |
+| Italian Ryegrass | *Lolium multiflorum* |
+| Japanese Brome | *Bromus japonicus* |
+| Japanese Lovegrass | *Eragrostis tenella* |
+| Japanese Stiltgrass | *Microstegium vimineum* |
+| Job's Tears | *Coix lacryma-jobi* |
+| Jungle Rice | *Echinochloa colona* |
+| Kangaroo Grass | *Themeda triandra* |
+| Karatas | *Bromelia plumieri* |
+| Kentucky Bluegrass | *Poa pratensis* |
+| Knotroot Foxtail | *Setaria parviflora* |
+| Korean Lawngrass | *Zoysia japonica* |
+| Lemon Grass | *Cymbopogon citratus* |
+| Limpograss | *Hemarthria altissima* |
+| Longstamen Rice | *Oryza longistaminata* |
+| Loose Silky-bent | *Apera spica-venti* |
+| Male Bamboo | *Dendrocalamus strictus* |
+| Malo Sina | *Oryza brachyantha* |
+| Manila Grass | *Zoysia matrella* |
+| Mauritania Vine Reed | *Ampelodesmos mauritanicus* |
+| Moor Grass | *Molinia caerulea* |
+| Moso Bamboo | *Phyllostachys edulis* |
+| Mountain Brome | *Bromus marginatus* |
+| Napier Grass | *Cenchrus purpureus* |
+| Oat | *Avena sp.* |
+| Oats | *Avena sativa* |
+| Orchard Grass | *Dactylis glomerata* |
+| Palisade Grass | *Urochloa brizantha* |
+| Palmgrass | *Setaria palmifolia* |
+| Para Grass | *Urochloa mutica* |
+| Pearl Millet | *Cenchrus americanus* |
+| Perennial Teosinte | *Zea perennis* |
+| Perennial Veldt Grass | *Ehrharta calycina* |
+| Pineapple | *Ananas comosus* |
+| Poverty Oat Grass | *Danthonia spicata* |
+| Prairie Cordgrass | *Sporobolus michauxianus* |
+| Proso Millet | *Panicum miliaceum* |
+| Purple-stem Cat's-tail | *Phleum phleoides* |
+| Rattlesnake Brome | *Bromus briziformis* |
+| Red Brome | *Bromus rubens* |
+| Redtop | *Agrostis gigantea* |
+| Rescuegrass | *Bromus catharticus* |
+| Rice Cutgrass | *Leersia oryzoides* |
+| Rivet Wheat | *Triticum turgidum* |
+| Rye | *Secale cereale* |
+| Rye Brome | *Bromus secalinus* |
+| Saltgrass | *Distichlis spicata* |
+| Seashore Paspalum | *Paspalum vaginatum* |
+| Seaside Barley | *Hordeum marinum* |
+| Slender Wild Oat | *Avena barbata* |
+| Small Naked Oat | *Avena nuda* |
+| Smilo Grass | *Oloptum miliaceum* |
+| Smooth Brome Grass | *Bromus inermis* |
+| Smooth Cordgrass | *Sporobolus alterniflorus* |
+| Smut Grass | *Sporobolus indicus* |
+| Soft Brome | *Bromus hordeaceus* |
+| Sorghum | *Sorghum bicolor* |
+| Southern Crabgrass | *Digitaria ciliaris* |
+| Spike Bentgrass | *Agrostis exarata* |
+| Stiff Brome | *Brachypodium distachyon* |
+| Stink Grass | *Eragrostis cilianensis* |
+| Sudan Grass | *Sorghum x drummondii* |
+| Sugarcane | *Saccharum officinarum* |
+| Switchgrass | *Panicum virgatum* |
+| Tiger Grass | *Thysanolaena latifolia* |
+| Timber Bamboo | *Phyllostachys bambusoides* |
+| Timothy Grass | *Phleum pratense* |
+| Tufted Hair Grass | *Deschampsia cespitosa* |
+| Uva Grass | *Gynerium sagittatum* |
+| Velvet Bentgrass | *Agrostis canina* |
+| Velvet Grass | *Holcus lanatus* |
+| Vetiver | *Chrysopogon zizanioides* |
+| Virginian Cutgrass | *Leersia virginica* |
+| Viviparous Spikerush | *Eleocharis vivipara* |
+| Weeping Love Grass | *Eragrostis curvula* |
+| White Foxtail | *Cenchrus longisetus* |
+| Wild Oats | *Chasmanthium latifolium* |
+| Wild Sugarcane | *Saccharum spontaneum* |
+| Witchgrass | *Panicum capillare* |
+| Woody Bamboo | *Phyllostachys acuta* |
+
+### • Polypodiales (32)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Appalachian Polypody | *Polypodium appalachianum* |
+| Bird's-nest Fern | *Asplenium nidus* |
+| Boston Fern | *Nephrolepis exaltata* |
+| Button Fern | *Pellaea rotundifolia* |
+| Canary Islands Polypody | *Polypodium macaronesicum* |
+| Chinese Brake | *Pteris vittata* |
+| Christmas Fern | *Polystichum acrostichoides* |
+| Coast Leather Fern | *Acrostichum aureum* |
+| Coffee Fern | *Pellaea andromedifolia* |
+| Common Bracken | *Pteridium aquilinum* |
+| Delicate Cloak Fern | *Argyrochosma delicatula* |
+| Delta Maidenhair Fern | *Adiantum raddianum* |
+| Drooping Spleenwort | *Asplenium flaccidum* |
+| Ehrenberg's Copper Fern | *Bommeria ehrenbergiana* |
+| Elephant's-ear Fern | *Platycerium angolense* |
+| Golden Cloak Fern | *Myriopteris aurea* |
+| Hairy Lip-fern | *Myriopteris lanosa* |
+| Hart's Tongue | *Asplenium scolopendrium* |
+| Hawaiian Polypody | *Polypodium pellucidum* |
+| Hay-scented Fern | *Dennstaedtia punctilobula* |
+| Hen and Chicks Fern | *Asplenium bulbiferum* |
+| Indian Holly Fern | *Arachniodes aristata* |
+| Intermediate Wood Fern | *Dryopteris intermedia* |
+| Japanese Claw Fern | *Onychium japonicum* |
+| Leathery Polypody | *Polypodium scouleri* |
+| Licorice Fern | *Polypodium glycyrrhiza* |
+| Necklace Fern | *Asplenium flabellifolium* |
+| Ostrich Fern | *Matteuccia struthiopteris* |
+| Samoan Cup Fern | *Dennstaedtia samoensis* |
+| Shoestring Fern | *Vittaria lineata* |
+| Sickle Spleenwort | *Asplenium polyodon* |
+| Western Swordfern | *Polystichum munitum* |
+
+### • Polytrichales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Catherine's Moss | *Atrichum undulatum* |
+
+### • Proteales (8)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| American Lotus | *Nelumbo lutea* |
+| American Sycamore | *Platanus occidentalis* |
+| California Sycamore | *Platanus racemosa* |
+| Fern-leaved Grevillea | *Grevillea pteridifolia* |
+| Marsh Rose | *Orothamnus zeyheri* |
+| Queen Sugarbush | *Protea magnifica* |
+| Rough-shell Queensland Nut | *Macadamia tetraphylla* |
+| Sacred Lotus | *Nelumbo nucifera* |
+
+### • Ptilidiales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Naugehyde Liverwort | *Ptilidium pulcherrimum* |
+
+### • Ranunculales (41)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Allegheny Vine | *Adlumia fungosa* |
+| Alpine Poppy | *Oreomecon alpina* |
+| American Barberry | *Berberis canadensis* |
+| Bird-in-a-bush | *Corydalis solida* |
+| Black Cumin | *Nigella sativa* |
+| Blue Cohosh | *Caulophyllum thalictroides* |
+| California Poppy | *Eschscholzia californica* |
+| Cascade Oregon-grape | *Berberis nervosa* |
+| Celandine Poppy | *Stylophorum diphyllum* |
+| Common Fumitory | *Fumaria officinalis* |
+| Corn Poppy | *Papaver rhoeas* |
+| Early Meadow-rue | *Thalictrum dioicum* |
+| European Barberry | *Berberis vulgaris* |
+| Five-leaf Akebia | *Akebia quinata* |
+| Flaccid Anemone | *Anemonastrum flaccidum* |
+| Heavenly Bamboo | *Nandina domestica* |
+| Iceland Poppy | *Papaver nudicaule* |
+| Japanese Goldthread | *Coptis japonica* |
+| Large Flowered Barrenwort | *Epimedium grandiflorum* |
+| Love-in-a-mist | *Nigella damascena* |
+| Low Larkspur | *Delphinium bicolor* |
+| Opium Poppy | *Papaver somniferum* |
+| Persian Buttercup | *Ranunculus asiaticus* |
+| Pheasant's-eye | *Adonis annua* |
+| Pink Corydalis | *Capnoides sempervirens* |
+| Purple Meadow-rue | *Thalictrum dasycarpum* |
+| Red Puccoon | *Sanguinaria canadensis* |
+| Scarlet Leather Flower | *Clematis texensis* |
+| Serendipity Berry | *Dioscoreophyllum cumminsii* |
+| Spring Adonis | *Adonis vernalis* |
+| Swamp Leatherflower | *Clematis crispa* |
+| Sweet Autumn Clematis | *Clematis terniflora* |
+| Tall Buttercup | *Ranunculus acris* |
+| Tall Meadow-rue | *Thalictrum pubescens* |
+| Turkey Corn | *Dicentra eximia* |
+| Umbrella Leaf | *Diphylleia cymosa* |
+| Upland Larkspur | *Delphinium nuttallianum* |
+| Vanilla Leaf | *Achlys triphylla* |
+| Veiny Meadow-rue | *Thalictrum venulosum* |
+| Western Poppy | *Papaver californicum* |
+| Yellow Poppywort | *Meconopsis integrifolia* |
+
+### • Rosales (142)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| African Teak | *Milicia excelsa* |
+| Aino Mulberry | *Morus australis* |
+| Alder Buckthorn | *Frangula alnus* |
+| Alder-leaved Whitebeam | *Alniaria alnifolia* |
+| Allegheny Blackberry | *Rubus allegheniensis* |
+| Almond | *Prunus dulcis* |
+| American Elm | *Ulmus americana* |
+| American Plum | *Prunus americana* |
+| American-ipecac | *Gillenia stipulata* |
+| Amur Chokecherry | *Prunus maackii* |
+| Andean Raspberry | *Rubus glaucus* |
+| Apple | *Malus domestica* |
+| Apricot | *Prunus armeniaca* |
+| Arctic Raspberry | *Rubus arcticus* |
+| Autumn-olive | *Elaeagnus umbellata* |
+| Azarole | *Crataegus azarolus* |
+| Baldhip Rose | *Rosa gymnocarpa* |
+| Bitter Cherry | *Prunus emarginata* |
+| Bitterbrush | *Purshia tridentata* |
+| Black Apricot | *Prunus x dasycarpa* |
+| Black Cherry | *Prunus serotina* |
+| Black Mulberry | *Morus nigra* |
+| Bloodwood Cacique | *Brosimum rubescens* |
+| Bo Tree | *Ficus religiosa* |
+| Bowman's Root | *Gillenia trifoliata* |
+| Broad-leaved Whitebeam | *Karpatiosorbus latifolia* |
+| Burr Rose | *Rosa roxburghii* |
+| California Buckthorn | *Frangula californica* |
+| Callery Pear | *Pyrus calleryana* |
+| Carolina Laurelcherry | *Prunus caroliniana* |
+| Carolina Rose | *Rosa carolina* |
+| Cascara Buckthorn | *Frangula purshiana* |
+| Chempedak | *Artocarpus integer* |
+| Cherry Laurel | *Prunus laurocerasus* |
+| Cherry Plum | *Prunus cerasifera* |
+| Cherry Silverberry | *Elaeagnus multiflora* |
+| Chinese Banyan | *Ficus microcarpa* |
+| Chinese Elm | *Ulmus parvifolia* |
+| Chinese Flowering Quince | *Chaenomeles cathayensis* |
+| Chinese Hawthorn | *Crataegus pinnatifida* |
+| Chinese Sour Cherry | *Prunus pseudocerasus* |
+| Chinese White Pear | *Pyrus x bretschneideri* |
+| Christ's Thorn Jujube | *Ziziphus spina-christi* |
+| Cinnamon Rose | *Rosa majalis* |
+| Cluster Fig | *Ficus racemosa* |
+| Cluster Rose | *Rosa pisocarpa* |
+| Cockspur Hawthorn | *Crataegus crus-galli* |
+| Common Fig | *Ficus carica* |
+| Common Flowering Quince | *Chaenomeles speciosa* |
+| Common Jujube | *Ziziphus jujuba* |
+| Common Red-stem Fig (Ficus variegata (in: eudicots)) | *Ficus variegata (in: eudicots)* |
+| Council-tree | *Ficus altissima* |
+| Creeping Fig | *Ficus pumila* |
+| Dwarf Flowering Almond | *Prunus glandulosa* |
+| European Crab Apple | *Malus sylvestris* |
+| European Hop | *Humulus lupulus* |
+| False Nettle | *Boehmeria cylindrica* |
+| Fiddle-leaf Fig | *Ficus lyrata* |
+| Flatwoods Plum | *Prunus umbellata* |
+| French Rose | *Rosa gallica* |
+| Gray's Bird Cherry | *Prunus grayana* |
+| Great Nettle | *Urtica dioica* |
+| Guiana Brosimum | *Brosimum guianense* |
+| Hairy Agrimony | *Agrimonia pilosa* |
+| Hollyleaf Cherry | *Prunus ilicifolia* |
+| Indian Banyan | *Ficus benghalensis* |
+| Indian Jujube | *Ziziphus mauritiana* |
+| Jackfruit | *Artocarpus heterophyllus* |
+| Japanese Apricot | *Prunus mume* |
+| Japanese Hop | *Humulus japonicus* |
+| Japanese Kerria | *Kerria japonica* |
+| Japanese Mountain Cherry | *Prunus jamasakura* |
+| Japanese Photinia | *Photinia glabra* |
+| Japanese Plum | *Prunus salicina* |
+| Japanese Quince | *Chaenomeles japonica* |
+| Japanese Raisin Tree | *Hovenia dulcis* |
+| Klamath Plum | *Prunus subcordata* |
+| Korean Blackberry | *Rubus coreanus* |
+| Kozo | *Broussonetia kazinoki* |
+| Loganberry | *Rubus x loganobaccus* |
+| Lotebush | *Sarcomphalus obtusifolius* |
+| Mahaleb Cherry | *Prunus mahaleb* |
+| Medlar | *Mespilus germanica* |
+| Miyama Cherry | *Prunus maximowiczii* |
+| Mountain Shadbush | *Amelanchier bartramiana* |
+| Nanking Cherry | *Prunus tomentosa* |
+| Northern Dewberry | *Rubus flagellaris* |
+| Northern Gannet (Morus Bassanus) | *Morus Bassanus) (Morus bassanus* |
+| Oriental Photinia | *Pourthiaea villosa* |
+| Osage Orange | *Maclura pomifera* |
+| Oshima Cherry | *Prunus speciosa* |
+| Osoberry | *Oemleria cerasiformis* |
+| Paper Mulberry | *Broussonetia papyrifera* |
+| Peach | *Prunus persica* |
+| Pear | *Pyrus communis* |
+| Plum | *Prunus domestica* |
+| Port Jackson Fig | *Ficus rubiginosa* |
+| Quince | *Cydonia oblonga* |
+| Ramie | *Boehmeria nivea* |
+| Red Mulberry | *Morus rubra* |
+| Red Raspberry | *Rubus idaeus* |
+| Robin Runaway | *Rubus repens* |
+| Rock Cinquefoil | *Drymocallis rupestris* |
+| Rock Elm | *Ulmus thomasii* |
+| Rowan | *Sorbus aucuparia* |
+| Rubber Plant | *Ficus elastica* |
+| Rugosa Rose | *Rosa rugosa* |
+| Russian Olive | *Elaeagnus angustifolia* |
+| Sea-buckthorn | *Hippophae rhamnoides* |
+| September Elm | *Ulmus serotina* |
+| Siberian Elm | *Ulmus pumila* |
+| Silver Cinquefoil | *Potentilla argentea* |
+| Silverweed Cinquefoil | *Argentina anserina* |
+| Simon Plum | *Prunus simonii* |
+| Slippery Elm | *Ulmus rubra* |
+| Small-leaf Bramble | *Rubus parvifolius* |
+| Snowpeaks Raspberry | *Rubus niveus* |
+| Sour Cherry | *Prunus cerasus* |
+| Steeplebush | *Spiraea tomentosa* |
+| Strawberry | *Fragaria x ananassa* |
+| Sugar Hackberry | *Celtis laevigata* |
+| Swamp Dewberry | *Rubus hispidus* |
+| Sweet Cherry | *Prunus avium* |
+| Sweetbriar Rose | *Rosa rubiginosa* |
+| Sycamore Fig | *Ficus sycomorus* |
+| Taiwan Cherry | *Prunus campanulata* |
+| Tall Hairy Agrimony | *Agrimonia gryposepala* |
+| Thorny Olive | *Elaeagnus pungens* |
+| Toyon | *Heteromeles arbutifolia* |
+| Upas Tree | *Antiaris toxicaria* |
+| Ussurian Pear | *Pyrus ussuriensis* |
+| Weeping Fig | *Ficus benjamina* |
+| White Mulberry | *Morus alba* |
+| White Prairie Rose | *Rosa foliolosa* |
+| Wild Himalayan Cherry | *Prunus cerasoides* |
+| Wild Jack | *Artocarpus hirsutus* |
+| Wild Strawberry | *Fragaria vesca* |
+| Wineberry | *Rubus phoenicolasius* |
+| Winged Elm | *Ulmus alata* |
+| Yellow Himalayan Raspberry | *Rubus ellipticus* |
+| Yellowleaf Hawthorn | *Crataegus flava* |
+| Yoshino Cherry | *Prunus yedoensis* |
+
+### • Salviniales (3)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| American Pillwort | *Pilularia americana* |
+| European Water Clover | *Marsilea quadrifolia* |
+| Mosquito Fern | *Azolla caroliniana* |
+
+### • Santalales (9)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| American Mistletoe | *Phoradendron leucarpum* |
+| Argentine Mistletoe | *Phoradendron liga* |
+| Columbian Mistletoe | *Dendrophthora clavata* |
+| Desert Quandong | *Santalum acuminatum* |
+| European Mistletoe | *Viscum album* |
+| Leechbrush | *Nestronia umbellula* |
+| Northern Sandalwood | *Santalum lanceolatum* |
+| Oil Nut | *Pyrularia pubera* |
+| White Sandalwood | *Santalum album* |
+
+### • Sapindales (87)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Ackee | *Blighia sapida* |
+| African Sumac | *Searsia lancea* |
+| Alemow | *Citrus macrophylla* |
+| Amargo | *Quassia amara* |
+| Australian Round Lime | *Citrus australis* |
+| Bengal Quince | *Aegle marmelos* |
+| Big-leaf Maple | *Acer macrophyllum* |
+| Bitter Orange | *Citrus x aurantium* |
+| Black Dhup | *Canarium strictum* |
+| Box Elder | *Acer negundo* |
+| Brazilian Peppertree | *Schinus terebinthifolia* |
+| Bullock Bush | *Alectryon oleifolius* |
+| Calamondin | *Citrus x microcarpa* |
+| Cashew | *Anacardium occidentale* |
+| Chinaberry | *Melia azedarach* |
+| Chinese Black-olive | *Canarium pimela* |
+| Chinese Lacquer Tree | *Toxicodendron vernicifluum* |
+| Chittagong Wood | *Chukrasia tabularis* |
+| Citron | *Citrus medica* |
+| Cleopatra Mandarin | *Citrus reshni* |
+| Common Horse Chestnut | *Aesculus hippocastanum* |
+| Common Pricklyash | *Zanthoxylum americanum* |
+| Common Rue | *Ruta graveolens* |
+| Downy Japanese Maple | *Acer japonicum* |
+| Espave | *Anacardium excelsum* |
+| Golden Rain Tree | *Koelreuteria paniculata* |
+| Gumbo Limbo | *Bursera simaruba* |
+| Hawthorn Maple | *Acer crataegifolium* |
+| Hedge Maple | *Acer campestre* |
+| Hornbeam Maple | *Acer carpinifolium* |
+| Ichang Papeda | *Citrus cavaleriei* |
+| Incense Tree | *Bursera graveolens* |
+| Indian Soapberry | *Sapindus mukorossi* |
+| Inkwood | *Exothea paniculata* |
+| Japanese Pepper | *Zanthoxylum piperitum* |
+| Java Almond | *Canarium vulgare* |
+| Kalimantan Mango | *Mangifera casturi* |
+| Keraji | *Citrus keraji* |
+| Kuwini Mango | *Mangifera odorata* |
+| Langsat | *Lansium domesticum* |
+| Lychee | *Litchi chinensis* |
+| Makrut Lime | *Citrus hystrix* |
+| Mandarin Orange | *Citrus reticulata* |
+| Mango | *Mangifera indica* |
+| Marumi Kumquat | *Citrus japonica* |
+| Mastic-leaf Prickly Ash | *Zanthoxylum schinifolium* |
+| Mexican Mahogany | *Swietenia humilis* |
+| Mountain Maple | *Acer spicatum* |
+| Neem | *Azadirachta indica* |
+| Norway Maple | *Acer platanoides* |
+| Okoume | *Aucoumea klaineana* |
+| Painted Buckeye | *Aesculus sylvatica* |
+| Paradise Tree | *Simarouba glauca* |
+| Poison Sumac | *Toxicodendron vernix* |
+| Polynesian Plum | *Spondias dulcis* |
+| Pomelo | *Citrus maxima* |
+| Pricklywood | *Zanthoxylum riedelianum* |
+| Purple Mombin | *Spondias purpurea* |
+| Rangpur Lime | *Citrus limonia* |
+| Red Maple | *Acer rubrum* |
+| Rough Lemon | *Citrus jambhiri* |
+| Sapele | *Entandrophragma cylindricum* |
+| Satsuma Mandarin | *Citrus unshiu* |
+| Shantung Maple | *Acer truncatum* |
+| Showy Balloonvine | *Cardiospermum grandiflorum* |
+| Sicilian Sumac | *Rhus coriaria* |
+| Smooth Sumac | *Rhus glabra* |
+| Sri Lanka Wild Mango | *Mangifera zeylanica* |
+| Striped Maple | *Acer pensylvanicum* |
+| Sugar Maple | *Acer saccharum* |
+| Sweet Orange | *Citrus sinensis* |
+| Sycamore Maple | *Acer pseudoplatanus* |
+| Tahiti Lime | *Citrus x latifolia* |
+| Terebinth | *Pistacia terebinthus* |
+| Tree-of-heaven | *Ailanthus altissimus* |
+| Trident Maple | *Acer buergerianum* |
+| Trifoliate Orange | *Citrus trifoliata* |
+| Vine Maple | *Acer circinatum* |
+| West Indian Mahogany | *Swietenia mahagoni* |
+| White Sapote | *Casimiroa edulis* |
+| Winged Lime | *Citrus longispina* |
+| Winged Sumac | *Rhus copallinum* |
+| Wood-apple | *Limonia acidissima* |
+| Yellow Buckeye | *Aesculus flava* |
+| Yellow Mombin | *Spondias mombin* |
+| Yellowwood Ash | *Flindersia xanthoxyla* |
+| Yuzu | *Citrus junos* |
+
+### • Saxifragales (29)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Alpine Currant | *Ribes alpinum* |
+| American Black Currant | *Ribes americanum* |
+| Buttercup Winterhazel | *Corylopsis pauciflora* |
+| Chinese Peony | *Paeonia lactiflora* |
+| Chinese Witch Hazel | *Hamamelis mollis* |
+| Coralbells | *Heuchera sanguinea* |
+| Creeping Saxifrage | *Saxifraga stolonifera* |
+| Delavay's Tree Peony | *Paeonia delavayi* |
+| Devil's Backbone | *Kalanchoe daigremontiana* |
+| Eastern Prickly Gooseberry | *Ribes cynosbati* |
+| Formosan Gum | *Liquidambar formosana* |
+| Golden Currant | *Ribes aureum* |
+| Golden Saxifrage | *Chrysosplenium americanum* |
+| Hairy-stem Gooseberry | *Ribes hirtellum* |
+| Japanese Witch Hazel | *Hamamelis japonica* |
+| Majorcan Peony | *Paeonia cambessedesii* |
+| Northern Black Currant | *Ribes hudsonianum* |
+| Oriental Sweet Gum | *Liquidambar orientalis* |
+| Orpine | *Hylotelephium telephium* |
+| Ozark Witch-hazel | *Hamamelis vernalis* |
+| Prickly Currant | *Ribes lacustre* |
+| Red Currant | *Ribes rubrum* |
+| Skunk Currant | *Ribes glandulosum* |
+| South American Air Plant | *Kalanchoe fedtschenkoi* |
+| Stink Currant | *Ribes bracteosum* |
+| Sweet Gum | *Liquidambar styraciflua* |
+| Trailing Black Currant | *Ribes laxiflorum* |
+| Tree Peony | *Paeonia suffruticosa* |
+| Wild Red Currant | *Ribes triste* |
+
+### • Selaginellales (3)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Blue Spikemoss | *Selaginella uncinata* |
+| Martens's Spike Moss | *Selaginella martensii* |
+| Meadow Spike Moss | *Selaginella apoda* |
+
+### • Solanales (72)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Acuminate Tobacco | *Nicotiana acuminata* |
+| Angel's-trumpet | *Brugmansia x candida* |
+| Apricot Angel's Trumpet | *Brugmansia versicolor* |
+| Aztec Tobacco | *Nicotiana rustica* |
+| Ball Nightshade | *Solanum carolinense* |
+| Bay Hops | *Ipomoea pes-caprae* |
+| Belladonna | *Atropa belladonna* |
+| Black Nightshade | *Solanum nigrum* |
+| Bush Moonflower | *Ipomoea leptophylla* |
+| Butterfly Flower | *Schizanthus pinnatus* |
+| Chaco Potato | *Solanum chacoense* |
+| Chilean Potato-tree | *Solanum crispum* |
+| Chinese Wolfberry | *Lycium chinense* |
+| Cockroach Berry | *Solanum capsicoides* |
+| Commerson's Wild Potato | *Solanum commersonii* |
+| Common Morning-glory | *Ipomoea purpurea* |
+| Common Tobacco | *Nicotiana tabacum* |
+| Curled-leaved Tobacco | *Nicotiana plumbaginifolia* |
+| Cypress Vine | *Ipomoea quamoclit* |
+| Debney's Tobacco | *Nicotiana debneyi* |
+| Eastern Black Nightshade | *Solanum ptychanthum* |
+| Eggplant | *Solanum melongena* |
+| Ethiopian Eggplant | *Solanum aethiopicum* |
+| European Rhinoceros Beetle (Oryctes Nasicornis) | *Oryctes Nasicornis) (Oryctes nasicornis* |
+| Firecracker Vine | *Ipomoea lobata* |
+| Goji Berry | *Lycium barbarum* |
+| Golden Angel's Trumpet | *Brugmansia aurea* |
+| Green Cestrum | *Cestrum parqui* |
+| Habanero | *Capsicum chinense* |
+| Hairy Groundcherry | *Physalis pubescens* |
+| Hawai'i Horsenettle | *Solanum sandwicense* |
+| Hedge Bindweed | *Calystegia sepium* |
+| Henbane | *Hyoscyamus niger* |
+| Himalayan Mandrake | *Mandragora caulescens* |
+| Hindu Datura | *Datura metel* |
+| Indian Rennet | *Withania coagulans* |
+| Jalap | *Ipomoea purga* |
+| Japanese Dodder | *Cuscuta japonica* |
+| Japanese Lantern | *Alkekengi officinarum* |
+| Japanese Morning Glory | *Ipomoea nil* |
+| Jimsonweed | *Datura stramonium* |
+| Large White Petunia | *Petunia axillaris* |
+| Long-leaved Groundcherry | *Physalis longifolia* |
+| Maikoa | *Brugmansia arborea* |
+| Mandrake | *Mandragora officinarum* |
+| Marmalade-bush | *Streptosolen jamesonii* |
+| Mejiro-hozuki | *Lycianthes biflora* |
+| Mile-a-minute Vine | *Ipomoea cairica* |
+| Naranjilla | *Solanum quitoense* |
+| Painted Tongue | *Salpiglossis sinuata* |
+| Pepino Dulce | *Solanum muricatum* |
+| Persian Tobacco | *Nicotiana alata* |
+| Peruvian Groundcherry | *Physalis peruviana* |
+| Potato | *Solanum tuberosum* |
+| Red Morning Glory | *Ipomoea coccinea* |
+| Rocoto | *Capsicum pubescens* |
+| Sacred Datura | *Datura inoxia* |
+| Shoo-fly Plant | *Nicandra physalodes* |
+| Southern Asian Dodder | *Cuscuta reflexa* |
+| Sweet Potato | *Ipomoea batatas* |
+| Tabasco Pepper | *Capsicum frutescens* |
+| Tamarillo | *Solanum betaceum* |
+| Tansyleaf Nightshade | *Solanum pinnatisectum* |
+| Tomato | *Solanum lycopersicum* |
+| Tree Tobacco | *Nicotiana glauca* |
+| Trilobed Morning Glory | *Ipomoea triloba* |
+| Turkey Berry | *Solanum torvum* |
+| Tzimbalo | *Solanum caripense* |
+| Ulupica de Chaco | *Capsicum eximium* |
+| Wetland Nightshade | *Solanum tampicense* |
+| White Morning-glory | *Ipomoea lacunosa* |
+| Wood Tobacco | *Nicotiana sylvestris* |
+
+### • Ulvales (2)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Hollow Green Seaweed | *Ulva intestinalis* |
+| Sea Lettuce | *Ulva arasakii* |
+
+### • Vitales (7)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Fox Grape | *Vitis labrusca* |
+| Muscadine | *Vitis rotundifolia* |
+| Riverbank Grape | *Vitis riparia* |
+| Sand Grape | *Vitis rupestris* |
+| Veldt-grape | *Cissus quadrangularis* |
+| Virginia Creeper | *Parthenocissus quinquefolia* |
+| Wine Grape | *Vitis vinifera* |
+
+### • Zingiberales (21)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Balbis Banana | *Musa balbisiana* |
+| Bandana-of-the-everglades | *Canna flaccida* |
+| Bird-of-paradise | *Strelitzia reginae* |
+| Bitter Ginger | *Zingiber zerumbet* |
+| Cao Guo | *Lanxangia tsao-ko* |
+| Dwarf Banana | *Musa acuminata* |
+| East Indian Arrowroot | *Curcuma angustifolia* |
+| Fe'i Banana | *Musa troglodytarum* |
+| Greater Galangal | *Alpinia galanga* |
+| Green Cardamom | *Elettaria cardamomum* |
+| Hairy Banana | *Musa velutina* |
+| Hill Cardamom | *Amomum subulatum* |
+| Indian-shot | *Canna indica* |
+| Japanese Banana | *Musa basjoo* |
+| Lesser Galangal | *Alpinia officinarum* |
+| Manila Hemp | *Musa textilis* |
+| Myoga Ginger | *Zingiber mioga* |
+| Pink Porcelain-lily | *Alpinia zerumbet* |
+| Sharp-leaf Galangal | *Alpinia oxyphylla* |
+| Torch Ginger | *Etlingera elatior* |
+| Turmeric | *Curcuma longa* |
+
+### • Zygophyllales (4)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Creosote Bush | *Larrea tridentata* |
+| Jamaican Feverplant | *Tribulus cistoides* |
+| Lignum-vitae | *Guaiacum sanctum* |
+| Maracaibo Lignum-vitae | *Gonopterodendron arboreum* |
+
+---
+
+## 🍄 Fungi (58 Species)
+
+### • Agaricales (12)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Cornucopia Mushroom | *Pleurotus cornucopiae* |
+| Cultivated Mushroom | *Agaricus bisporus* |
+| Eastern North American Destroying Angel | *Amanita bisporigera* |
+| European Destroying Angel | *Amanita virosa* |
+| Fairy-ring Marasmius | *Marasmius oreades* |
+| Fly Agaric | *Amanita muscaria* |
+| Fruit Fly (Drosophila Melanogaster) | *Drosophila Melanogaster) (Drosophila melanogaster* |
+| Oyster Mushroom | *Pleurotus ostreatus* |
+| Parasol Mushroom | *Macrolepiota procera* |
+| Shiitake Mushroom | *Lentinula edodes* |
+| Spring Destroying Angel | *Amanita verna* |
+| Western North American Destroying Angel | *Amanita ocreata* |
+
+### • Auriculariales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Jelly Ear Fungus | *Auricularia auricula-judae* |
+
+### • Boletales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Devil's Bolete | *Rubroboletus satanas* |
+
+### • Cantharellales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Golden Chanterelle | *Cantharellus cibarius* |
+
+### • Corticiales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Pink Disease Fungus | *Erythricium salmonicolor* |
+
+### • Diaporthales (2)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Chestnut Blight Fungus | *Cryphonectria parasitica* |
+| Eastern Filbert Blight Pathogen | *Anisogramma anomala* |
+
+### • Erysiphales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Grape Powdery Mildew | *Erysiphe necator* |
+
+### • Helotiales (3)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Creosote Fungus | *Amorphotheca resinae* |
+| Leaf Blotch of Barley | *Rhynchosporium secalis* |
+| Swamp Beacon | *Mitrula paludosa* |
+
+### • Hypocreales (2)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Ergot Fungus | *Claviceps purpurea* |
+| Paspalum Staggers Ergot | *Claviceps paspali* |
+
+### • Marthamycetales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Needle-cast of Pine | *Cyclaneusma niveum* |
+
+### • Microascales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Arsenic Fungus | *Scopulariopsis brevicaulis* |
+
+### • Mycosphaerellales (4)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Spinner Dolphin (Stenella Longirostris) | *Stenella Longirostris) (Stenella longirostris* |
+| Striped Dolphin (Stenella Coeruleoalba) | *Stenella Coeruleoalba) (Stenella coeruleoalba* |
+| Tomato Leaf Spot Fungus | *Septoria lycopersici* |
+| Whiskey Fungus | *Baudoinia compniacensis* |
+
+### • Myriangiales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Citrus Scab Fungus | *Elsinoe fawcettii* |
+
+### • Peltigerales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Tree Lungwort | *Lobaria pulmonaria* |
+
+### • Pertusariales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Peppermint Drop Lichen | *Icmadophila ericetorum* |
+
+### • Pezizales (7)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Orange Peel Mushroom | *Aleuria aurantia* |
+| Perigord Truffle | *Tuber melanosporum* |
+| Summer Truffle | *Tuber aestivum* |
+| White Piedmont Truffle | *Tuber magnatum* |
+| Whitish Truffle | *Tuber borchii* |
+| Winter Truffle | *Tuber brumale* |
+| Woodchip Morel | *Morchella rufobrunnea* |
+
+### • Pleosporales (4)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Blackleg Fungus | *Stagonospora bicolor* |
+| Blackleg of Rapeseed Fungus | *Plenodomus lingam* |
+| Pea Foot Rot Fungus | *Didymella pinodes* |
+| Southern Corn Leaf Blight Pathogen | *Bipolaris maydis* |
+
+### • Polyporales (2)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Maitake | *Grifola frondosa* |
+| Razor Strop Fungus | *Fomitopsis betulina* |
+
+### • Pucciniales (3)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Birnengitterrost | *Gymnosporangium sabinae* |
+| Cedar-apple Rust | *Gymnosporangium juniperi-virginianae* |
+| Flax Rust | *Melampsora lini* |
+
+### • Russulales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Lion's Mane Mushroom | *Hericium erinaceus* |
+
+### • Saccharomycetales (2)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Brewer's Yeast | *Saccharomyces cerevisiae* |
+| Yeast | *Saccharomyces cerevisiae* |
+
+### • Schizosaccharomycetales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Fission Yeast | *Schizosaccharomyces pombe* |
+
+### • Taphrinales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Peach Leaf Curl Fungus | *Taphrina deformans* |
+
+### • Thelephorales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Bleeding Tooth Fungus | *Hydnellum peckii* |
+
+### • Tilletiales (2)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Dwarf Bunt Fungus | *Tilletia controversa* |
+| Wheat Bunt Fungus | *Tilletia caries* |
+
+### • Ustilaginales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Corn Smut | *Mycosarcoma maydis* |
+
+---
+
+## 🦠 Bacteria (21 Species)
+
+### • Acholeplasmatales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| 'wodyetia Bifurcata' Yellow Decline Phytoplasma | *Candidatus Phytoplasma wodyetiae* |
+
+### • Candidatus Johnevansiales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Primary Endosymbiont of Bemisia Tabaci | *Candidatus Portiera aleyrodidarum* |
+
+### • Caryophanales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Anthrax Bacterium | *Bacillus anthracis* |
+
+### • Cellvibrionales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Bugula Neritina Bacterial Symbiont | *Candidatus Endobugula sertula* |
+
+### • Enterobacterales (3)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Cdc Enteric Group 1 | *Pseudescherichia vulneris* |
+| Olm (Proteus Anguinus) | *Proteus Anguinus) (Proteus anguinus* |
+| Son-killer Infecting Nasonia Vitripennis | *Arsenophonus nasoniae* |
+
+### • Hyphomicrobiales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Cat Scratch Disease Bacillus | *Afipia felis* |
+
+### • Lachnospirales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Tyzzer's Bacillus | *[Clostridium] piliforme* |
+
+### • Neisseriales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Scheibenbakterien Muller 1911 | *Simonsiella muelleri* |
+
+### • Rickettsiales (6)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Agent of Canine Granulocytic Ehrlichiosis | *Ehrlichia sp. 'CGE agent'* |
+| Agent of Llama Granulocytic Ehrlichiosis | *Ehrlichia sp. 'LGE agent'* |
+| Agent of Rickettsialpox | *Rickettsia akari* |
+| Heartwater Rickettsia | *Ehrlichia ruminantium* |
+| Pea Aphid Rickettsia | *Rickettsia sp. PAR* |
+| Potomac Horse Fever Agent | *Neorickettsia risticii* |
+
+### • Sphingomonadales (2)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Corky Root of Lettuce | *Rhizorhapis suberifaciens* |
+| White Plague Pathogen | *Sphingomonas sp. WP1* |
+
+### • Spirochaetales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Lyme Disease Spirochete | *Borreliella burgdorferi* |
+
+### • Thiotrichales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Dermacentor Andersoni Endosymbiont | *Francisella sp. DAS* |
+
+### • Veillonellales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Quin's Oval | *Quinella ovalis* |
+
+---
+
+## 🔬 Protists (28 Species)
+
+### • Bangiales (3)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Asakusa Nori | *Pyropia tenera* |
+| Laver | *Porphyra umbilicalis* |
+| Susabi-nori | *Pyropia yezoensis* |
+
+### • Cymbellales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Rock Snot | *Didymosphenia geminata* |
+
+### • Diplomonadida (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Giardia | *Giardia duodenalis* |
+
+### • Gigartinales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Carragheen | *Chondrus crispus* |
+
+### • Haemosporida (3)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Malaria Parasite P. Falciparum | *Plasmodium falciparum* |
+| Malaria Parasite P. Ovale | *Plasmodium ovale* |
+| Malaria Parasite P. Vivax | *Plasmodium vivax* |
+
+### • Laminariales (2)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Atlantic Wakame | *Alaria esculenta* |
+| Giant Kelp | *Macrocystis pyrifera* |
+
+### • Other (12)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Black-backed Jackal (Lupulella Mesomelas) | *Lupulella Mesomelas) (Lupulella mesomelas* |
+| Blood Fluke (Schistosoma) | *Schistosoma) (Schistosoma mansoni* |
+| European Green Toad (Sister) | *Sister) (Bufotes balearicus* |
+| Freshwater Planarian (Polychroa) | *Polychroa) (Schmidtea polychroa* |
+| Green Alga (Volvox) | *Volvox) (Volvox carteri* |
+| Harp Seal (Pagophilus Groenlandicus) | *Pagophilus Groenlandicus) (Pagophilus groenlandicus* |
+| Model Nematode (Briggsae) | *Briggsae) (Caenorhabditis briggsae* |
+| Oneirodes Carlsbergi (Regan & Trewavas, 1932) | *Regan & Trewavas, 1932) (Oneirodes carlsbergi* |
+| Oneirodes Carlsbergi (Regan &) | *Regan &) (Oneirodes carlsbergi* |
+| Slime Mold (Dictyostelium) | *Dictyostelium) (Dictyostelium discoideum* |
+| Spotted Hyena (Sister / Fossil) | *Sister / Fossil) (Crocuta crocuta spelaea* |
+| Sunda Pangolin (Sister) | *Sister) (Manis culionensis* |
+
+### • Palmariales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Dulse | *Palmaria palmata* |
+
+### • Peronosporales (4)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Black Shank of Tobacco Agent | *Phytophthora nicotianae* |
+| Lettuce Downy Mildew | *Bremia lactucae* |
+| Potato Late Blight Agent | *Phytophthora infestans* |
+| Sudden Oak Death Agent | *Phytophthora ramorum* |
+
+---
+
+## 🧬 Viruses (2 Species)
+
+### • Herpesvirales (2)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Afeev | *African elephant endotheliolytic herpesvirus* |
+| Aseev | *Asian elephant endotheliolytic herpesvirus* |
+
+---

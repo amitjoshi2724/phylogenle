@@ -1,3 +1,18 @@
+#!/usr/bin/env python3
+"""
+Phylogenle - Master Comprehensive Phylogeny Tree & Dataset Engine
+Builds the complete multi-kingdom phylogenetic tree across all of life:
+- Animals (Mammals, Birds, Reptiles, Amphibians, Fishes, Invertebrates)
+- Plants (Viridiplantae)
+- Fungi
+- Bacteria
+- Archaea
+- Protists & Outliers
+Calibrates internal nodes with TimeTree molecular divergence times and monotonic decay.
+Syncs data/phylogeny_tree.json, data/species_list.json, data/species_taxonomy_catalog.json,
+species_catalog.md, and EXCLUDED_SPECIES_REVIEW.md.
+"""
+
 import sys
 import os
 import json
@@ -9,6 +24,7 @@ from collections import Counter
 base_dir = "/Users/amitjoshi2724/Desktop/phylogenle"
 data_dir = os.path.join(base_dir, "data")
 sys.path.append(base_dir)
+sys.path.append(os.path.join(base_dir, "archive", "legacy_scripts"))
 
 from ete3 import NCBITaxa
 
@@ -18,6 +34,30 @@ from build_reptile_amphibian_candidates import REPTILE_AMPHIBIAN_CANDIDATES
 from build_fish_candidates import FISH_CANDIDATES
 from build_invertebrate_candidates import INVERTEBRATE_CANDIDATES
 from build_excluded_candidates import EXCLUDED_CANDIDATES
+
+MAJOR_RANKS = {"domain", "superkingdom", "kingdom", "phylum", "class", "order", "family", "genus", "species"}
+
+ANCHOR_NODE_TIMES = {
+    1: 4000.0,       # root / LUCA (Origin of cellular life)
+    131567: 3800.0,  # cellular organisms
+    2: 3500.0,       # Bacteria
+    2157: 3500.0,    # Archaea
+    2759: 1600.0,    # Eukaryota (LECA - Animals/Fungi vs Plants)
+    33154: 1200.0,   # Opisthokonta (Animals vs Fungi)
+    33090: 1100.0,   # Viridiplantae (Green Plants)
+    4751: 1000.0,    # Fungi
+    127916: 950.0,   # Holozoa
+    1303683: 900.0,  # Filozoa
+    33208: 750.0,    # Metazoa (Animalia root)
+    6072: 680.0,     # Eumetazoa
+    33213: 650.0     # Bilateria
+}
+
+SYNONYM_TAXID_MAP = {
+    "Lupulella mesomelas": 68725,            # Canis mesomelas (Black-backed Jackal)
+    "Dendrobates tinctorius azureus": 92724,  # Dendrobates tinctorius (Blue Poison Dart Frog)
+    "Apis mellifera scutellata x": 212527,    # Apis mellifera scutellata (Africanized Honey Bee)
+}
 
 def get_clade(tid, lin, ncbi):
     names = set(ncbi.get_taxid_translator(lin).values())
@@ -31,26 +71,62 @@ def get_clade(tid, lin, ncbi):
         return "Amphibians"
     if any(f in names for f in ["Actinopterygii", "Chondrichthyes", "Coelacanthimorpha", "Dipnoi", "Hyperoartia", "Myxini"]) or ("Vertebrata" in names and not any(t in names for t in ["Tetrapoda"])):
         return "Fishes"
-    return "Invertebrates"
+    if "Metazoa" in names:
+        return "Invertebrates"
+    if "Viridiplantae" in names:
+        return "Plants"
+    if "Fungi" in names:
+        return "Fungi"
+    if "Bacteria" in names:
+        return "Bacteria"
+    if "Archaea" in names:
+        return "Archaea"
+    if "Viruses" in names:
+        return "Viruses"
+    return "Protists"
+
+def format_clean_title(text):
+    words = text.split()
+    return " ".join([w.capitalize() if not (w.startswith("(") or w.lower() in ["and", "of", "the", "in", "de", "du"]) else w for w in words])
+
+def save_tree_formatted(tree_path, tree):
+    with open(tree_path, "w") as f:
+        f.write('{\n  "species": {\n')
+        species_items = list(tree["species"].items())
+        for i, (k, v) in enumerate(species_items):
+            comma = "," if i < len(species_items) - 1 else ""
+            f.write(f'    {json.dumps(k)}: {json.dumps(v)}{comma}\n')
+        f.write('  },\n  "nodes": {\n')
+        node_items = list(tree["nodes"].items())
+        for i, (k, v) in enumerate(node_items):
+            comma = "," if i < len(node_items) - 1 else ""
+            f.write(f'    {json.dumps(k)}: {json.dumps(v)}{comma}\n')
+        f.write('  }\n}\n')
 
 def main():
-    print("=== STEP 1: Loading Original Baseline & Untouched Backups ===")
-    orig_path = os.path.join(data_dir, "species_list_ORIGINAL_UNTOUCHED.json")
+    print("=== STEP 1: Aggregating Universal Species Pool (Animals + Excluded + Non-Animal Clades) ===")
+    
+    # 1. Baseline untouched (zero-drop mandate)
+    orig_path = os.path.join(base_dir, "species_list_ORIGINAL_UNTOUCHED.json")
     with open(orig_path, "r") as f:
         orig_list = json.load(f)
     print(f"Original baseline species: {len(orig_list)}")
 
-    gen_shards_path = os.path.join(base_dir, "generate_shards.py")
-    with open(gen_shards_path, "r") as f:
-        gen_code = f.read()
-    m = re.search(r"SPECIES_MAP = \{(.*?)\}", gen_code, re.DOTALL)
-    combined_species_map = dict(re.findall(r'\"([^\"]+)\":\s*\"([^\"]+)\"', m.group(1)))
-    if "Swallowtail Butterfly (Papilio machaon)" not in combined_species_map:
-        combined_species_map["Swallowtail Butterfly (Papilio machaon)"] = "Papilio machaon"
+    # 2. Existing active list
+    active_path = os.path.join(data_dir, "species_list.json")
+    combined_species_map = {}
+    if os.path.exists(active_path):
+        with open(active_path, "r") as f:
+            existing_active = json.load(f)
+        for s in existing_active:
+            m = re.search(r'^(.*?)\s*\((.*?)\)$', s)
+            if m:
+                combined_species_map[s] = m.group(2).strip()
+            else:
+                combined_species_map[s] = s.strip()
+    print(f"Currently active pool loaded: {len(combined_species_map)} species")
 
-    print(f"Baseline active species loaded: {len(combined_species_map)}")
-
-    # Merge curated candidate clades
+    # 3. Curated candidate lists
     all_curated = (
         MAMMAL_CANDIDATES +
         BIRD_CANDIDATES +
@@ -58,18 +134,50 @@ def main():
         FISH_CANDIDATES +
         INVERTEBRATE_CANDIDATES
     )
-    sci_to_name = {v: k for k, v in combined_species_map.items()}
-    curated_added = 0
     for name, sci in all_curated:
-        if sci not in sci_to_name and name not in combined_species_map:
-            combined_species_map[name] = sci
-            sci_to_name[sci] = name
-            curated_added += 1
+        c_clean = name.strip()
+        sci_clean = sci.strip()
+        c_title = format_clean_title(c_clean)
+        disp = f"{c_title} ({sci_clean})" if not c_title.endswith(f"({sci_clean})") else c_title
+        if disp not in combined_species_map:
+            combined_species_map[disp] = sci_clean
 
-    print(f"Added {curated_added} curated species. Active pool: {len(combined_species_map)}")
+    # 4. Curated excluded candidates (Dog, Dingo, Dodo, Thylacine, Yeast, Parasites, etc.)
+    for c in EXCLUDED_CANDIDATES:
+        c_clean = c["common"].strip()
+        sci_clean = c["scientific"].strip()
+        c_title = format_clean_title(c_clean)
+        disp = f"{c_title} ({sci_clean})"
+        if disp not in combined_species_map:
+            combined_species_map[disp] = sci_clean
 
-    # Ingest clean animal species from local NCBI database across all animal phyla
-    print("Scanning all animal species with official common names from NCBI database...")
+    # 5. All candidates from EXCLUDED_SPECIES_REVIEW.md
+    review_path = os.path.join(base_dir, "EXCLUDED_SPECIES_REVIEW.md")
+    excluded_review_records = []
+    if os.path.exists(review_path):
+        with open(review_path, "r") as f:
+            rev_lines = f.readlines()
+        for l in rev_lines:
+            if not l.startswith("| **"): continue
+            parts = [p.strip() for p in l.split("|")[1:-1]]
+            if len(parts) >= 6:
+                common = parts[0].replace("**", "").strip()
+                sci = parts[1].replace("*", "").strip()
+                c_title = format_clean_title(common)
+                disp = f"{c_title} ({sci})"
+                if disp not in combined_species_map:
+                    combined_species_map[disp] = sci
+                excluded_review_records.append({
+                    "common": common,
+                    "scientific": sci,
+                    "orig_clade": parts[2],
+                    "orig_category": parts[3],
+                    "orig_reason": parts[4],
+                    "status": "Promoted to Active Game Roster"
+                })
+    print(f"Loaded {len(excluded_review_records)} records from EXCLUDED_SPECIES_REVIEW.md (all promoted).")
+
+    # 6. SQLite NCBI species across all of life
     ncbi = NCBITaxa()
     conn = sqlite3.connect(ncbi.dbfile)
     cursor = conn.cursor()
@@ -79,122 +187,57 @@ def main():
         AND rank = 'species'
     """)
     ncbi_rows = cursor.fetchall()
-    print(f"Found {len(ncbi_rows)} total species rows in NCBI table.")
+    print(f"Scanning all {len(ncbi_rows)} NCBI species rows with common names across all kingdoms...")
 
-    excluded_records = list(EXCLUDED_CANDIDATES)
-    name_seen = set(combined_species_map.keys())
-    common_seen = {re.sub(r"\s*\([^)]+\)$", "", k).strip().lower(): k for k in combined_species_map.keys()}
     ncbi_added = 0
-
     for taxid, spname, common in ncbi_rows:
-        parts = spname.split()
-        if len(parts) != 2:
-            excluded_records.append({
-                "common": common.strip(),
-                "scientific": spname,
-                "clade": "Unknown",
-                "category": "Non-binomial species name",
-                "reason": "Technical trinomial or unranked name",
-                "action": "Excluded from standard binomial catalog"
-            })
-            continue
-
-        if re.search(r'[0-9_#$]', spname) or "sp." in spname or "cf." in spname:
-            excluded_records.append({
-                "common": common.strip(),
-                "scientific": spname,
-                "clade": "Unknown",
-                "category": "Technical Strain / Code",
-                "reason": "Contains technical laboratory strain or tentative marker",
-                "action": "Excluded to preserve clean species identity"
-            })
-            continue
-
-        try:
-            lin = ncbi.get_lineage(taxid)
-        except Exception:
-            continue
-
-        if 33208 not in lin: # Not Animalia
-            excluded_records.append({
-                "common": common.strip(),
-                "scientific": spname,
-                "clade": "Non-Animal Clade",
-                "category": "Outside Kingdom Animalia (Metazoa)",
-                "reason": "Plant, alga, fungus, or bacterial organism",
-                "action": "Permanently excluded from Animalia game"
-            })
-            continue
-
         c_clean = common.strip()
-        if len(c_clean) < 3 or len(c_clean) > 40:
-            excluded_records.append({
-                "common": c_clean,
-                "scientific": spname,
-                "clade": "Metazoa",
-                "category": "Nomenclature Out of Bounds",
-                "reason": f"Common name length ({len(c_clean)} chars) out of standard bounds",
-                "action": "Deferred"
-            })
-            continue
+        if not c_clean: continue
+        # Clean author citations from common names if present (e.g. ' Gill & Ryder, 1883')
+        c_clean = re.sub(r'\s+[A-Z][a-z]+(\s+&\s+[A-Z][a-z]+)?,\s*\d{4}', '', c_clean)
+        c_clean = re.sub(r'\s+\(Regan & Trewavas,\s*\d{4}\)', '', c_clean)
+        c_clean = re.sub(r'\s+\(Regan,\s*\d{4}\)', '', c_clean)
+        c_clean = c_clean.strip()
+        c_title = format_clean_title(c_clean)
+        disp = f"{c_title} ({spname.strip()})"
+        if disp not in combined_species_map:
+            combined_species_map[disp] = spname.strip()
+            ncbi_added += 1
 
-        if re.search(r'[0-9_#$]', c_clean) or "sp." in c_clean or "aff." in c_clean or "isolate" in c_clean:
-            excluded_records.append({
-                "common": c_clean,
-                "scientific": spname,
-                "clade": "Metazoa",
-                "category": "Technical Strain in Common Name",
-                "reason": "Technical strain/code embedded in common name",
-                "action": "Deferred"
-            })
-            continue
+    # Case-insensitive deduplication while strictly preserving baseline species
+    seen_lower = set()
+    deduped_species_map = {}
+    for s in orig_list:
+        m = re.search(r'^(.*?)\s*\((.*?)\)$', s)
+        sci = m.group(2).strip() if m else s
+        seen_lower.add(s.lower())
+        deduped_species_map[s] = sci
 
-        c_title = " ".join(w.capitalize() for w in c_clean.split())
-        c_lower = c_clean.lower()
-        disp_name = f"{c_title} ({spname})"
+    for disp, sci in combined_species_map.items():
+        k = disp.lower()
+        if k not in seen_lower:
+            seen_lower.add(k)
+            deduped_species_map[disp] = sci
+    combined_species_map = deduped_species_map
 
-        # Check duplicate common name collision
-        if c_lower in common_seen:
-            existing_match = common_seen[c_lower]
-            excluded_records.append({
-                "common": c_title,
-                "scientific": spname,
-                "clade": "Metazoa",
-                "category": "Duplicate Common Name Collision",
-                "reason": f"Common name collides with existing entry: {existing_match}",
-                "action": "Exemplar species retained; duplicate deferred for manual review"
-            })
-            continue
-
-        # Check duplicate scientific name
-        if spname in sci_to_name or disp_name in name_seen:
-            continue
-
-        # Ingest comprehensive candidate
-        combined_species_map[disp_name] = spname
-        sci_to_name[spname] = disp_name
-        name_seen.add(disp_name)
-        common_seen[c_lower] = disp_name
-        ncbi_added += 1
-
-    print(f"Ingested {ncbi_added} additional valid animal species from NCBI database!")
     total_active = len(combined_species_map)
-    print(f"TOTAL COMPREHENSIVE ACTIVE POOL: {total_active} species!")
-    print(f"Total candidates in excluded/deferred review log: {len(excluded_records)}")
+    print(f"Ingested {ncbi_added} additional organisms from NCBI database.")
+    print(f"TOTAL COMPREHENSIVE ACTIVE POOL: {total_active} SPECIES ACROSS ALL LIFE!")
 
     # Zero-drop assertion check
     missing_orig = [s for s in orig_list if s not in combined_species_map]
     if missing_orig:
-        raise ValueError(f"FATAL: Missing original species: {missing_orig}")
+        raise ValueError(f"FATAL: Missing original baseline species: {missing_orig}")
     print(f"SUCCESS: All {len(orig_list)} baseline species verified (0 dropped).")
 
-    print("\n=== STEP 2: Resolving TaxIDs and Lineages for Entire Tree ===")
-    species_keys = list(combined_species_map.keys())
-    all_scis = list(combined_species_map.values())
+    print("\n=== STEP 2: Resolving TaxIDs and Lineages for All Species ===")
+    species_keys = sorted(list(combined_species_map.keys()))
+    all_scis = list(set(combined_species_map.values()))
 
     species_to_taxid = {}
     taxid_to_lineage = {}
 
+    # Bulk name translation in chunks
     chunk_size = 500
     for i in range(0, len(all_scis), chunk_size):
         chunk = all_scis[i:i+chunk_size]
@@ -203,68 +246,93 @@ def main():
             if ids:
                 species_to_taxid[s] = ids[0]
 
+    # Handle synonyms and fallback resolution
     for s in all_scis:
-        if s not in species_to_taxid:
+        if s in SYNONYM_TAXID_MAP:
+            species_to_taxid[s] = SYNONYM_TAXID_MAP[s]
+        elif s not in species_to_taxid:
             t = ncbi.get_name_translator([s]).get(s)
             if t:
                 species_to_taxid[s] = t[0]
             else:
-                genus = s.split()[0]
-                gt = ncbi.get_name_translator([genus]).get(genus)
-                species_to_taxid[s] = gt[0] if gt else 33208
+                clean_s = s.replace(" x ", " ").strip()
+                t2 = ncbi.get_name_translator([clean_s]).get(clean_s)
+                if t2:
+                    species_to_taxid[s] = t2[0]
+                else:
+                    genus = s.split()[0] if len(s.split()) > 0 else ""
+                    gt = ncbi.get_name_translator([genus]).get(genus) if genus else None
+                    species_to_taxid[s] = gt[0] if gt else 131567
 
-    for s, tid in species_to_taxid.items():
-        if tid not in taxid_to_lineage:
+    # Resolve lineages
+    unique_taxids = set(species_to_taxid.values())
+    for tid in unique_taxids:
+        try:
             taxid_to_lineage[tid] = ncbi.get_lineage(tid)
+        except Exception:
+            taxid_to_lineage[tid] = [1, 131567, tid]
 
-    print(f"Resolved lineages for all {len(species_to_taxid)} species.")
+    print(f"Resolved lineages for all {len(species_to_taxid)} scientific taxa ({len(unique_taxids)} unique taxids).")
 
-    print("\n=== STEP 3: Mapping LCA Node Divergence Times ===")
+    print("\n=== STEP 3: Calibrating Internal Nodes & Divergence Times ===")
+    node_median = dict(ANCHOR_NODE_TIMES)
+
+    # Load existing tree nodes if available to preserve calibrated times
+    existing_tree_path = os.path.join(data_dir, "phylogeny_tree.json")
+    if os.path.exists(existing_tree_path):
+        with open(existing_tree_path, "r") as f:
+            prev_tree = json.load(f)
+            prev_nodes = prev_tree.get("nodes", {})
+            for nid_str, ninfo in prev_nodes.items():
+                nid = int(nid_str)
+                t_val = ninfo.get("time")
+                if t_val and t_val > 0 and nid not in node_median:
+                    node_median[nid] = t_val
+        print(f"Loaded existing node calibrations: total {len(node_median)} nodes pre-seeded.")
+
+    # Load pairwise divergence records from time_cache.json
     cache_path = os.path.join(data_dir, "time_cache.json")
-    time_cache = {}
     if os.path.exists(cache_path):
         with open(cache_path, "r") as f:
             time_cache = json.load(f)
-    print(f"Loaded {len(time_cache)} existing pair records from time_cache.json.")
+        print(f"Loaded {len(time_cache)} existing pair records from time_cache.json.")
 
-    node_times = {}
-    for k, v in time_cache.items():
-        if v <= 0: continue
-        parts = k.split("||")
-        if len(parts) != 2 or parts[0] == parts[1]: continue
-        s1, s2 = parts
-        t1 = species_to_taxid.get(s1)
-        t2 = species_to_taxid.get(s2)
-        if not t1 or not t2: continue
-        lin1 = set(taxid_to_lineage[t1])
-        lin2 = taxid_to_lineage[t2]
-        lca = None
-        for t in reversed(lin2):
-            if t in lin1:
-                lca = t
-                break
-        if lca:
-            node_times.setdefault(lca, []).append(v)
+        node_times = {}
+        for k, v in time_cache.items():
+            if v <= 0: continue
+            parts = k.split("||")
+            if len(parts) != 2 or parts[0] == parts[1]: continue
+            s1, s2 = parts
+            t1 = species_to_taxid.get(s1)
+            t2 = species_to_taxid.get(s2)
+            if not t1 or not t2: continue
+            lin1 = set(taxid_to_lineage.get(t1, []))
+            lin2 = taxid_to_lineage.get(t2, [])
+            lca = None
+            for t in reversed(lin2):
+                if t in lin1:
+                    lca = t
+                    break
+            if lca and lca not in ANCHOR_NODE_TIMES:
+                node_times.setdefault(lca, []).append(v)
 
-    node_median = {node: sorted(times)[len(times)//2] for node, times in node_times.items()}
-    print(f"Calibrated LCA nodes from existing cache: {len(node_median)}")
+        for node, times in node_times.items():
+            node_median[node] = sorted(times)[len(times)//2]
+        print(f"Calibrated LCA nodes after time_cache integration: {len(node_median)}")
 
-    # Collect all unique internal nodes appearing across all lineages
+    # Collect all unique internal nodes across full tree
     all_internal_nodes = set()
     for tid, lin in taxid_to_lineage.items():
         all_internal_nodes.update(lin)
 
-    print(f"Total unique internal nodes across full tree: {len(all_internal_nodes)}")
+    print(f"Total unique internal nodes across tree: {len(all_internal_nodes)}")
 
-    # Calibrate any uncalibrated internal nodes using parent lineage interpolation
-    major_ranks = {"superkingdom", "kingdom", "phylum", "class", "order", "family", "genus", "species"}
+    # Calibrate any uncalibrated internal nodes using monotonic parent lineage interpolation
     nodes_meta = {}
-
     for nid in all_internal_nodes:
-        # Calibrate time
         val = node_median.get(nid)
         if val is None or val <= 0:
-            lin = ncbi.get_lineage(nid)
+            lin = taxid_to_lineage.get(nid) or ncbi.get_lineage(nid)
             anc_idx = len(lin) - 2
             while anc_idx >= 0:
                 anc = lin[anc_idx]
@@ -277,23 +345,33 @@ def main():
             node_median[nid] = val
 
         # Meta rank and name
-        lin = ncbi.get_lineage(nid)
+        lin = taxid_to_lineage.get(nid) or ncbi.get_lineage(nid)
         found_rank = "Unknown"
         actual_name = ncbi.get_taxid_translator([nid]).get(nid, "Unknown")
         found_name = actual_name
         major_name = actual_name
+
+        ranks = ncbi.get_rank(lin)
+        names = ncbi.get_taxid_translator(lin)
+
         for t in reversed(lin):
-            r = ncbi.get_rank([t]).get(t, "")
-            if r in major_ranks:
+            r = ranks.get(t, "").lower()
+            if r in MAJOR_RANKS:
                 found_rank = r.capitalize()
-                major_name = ncbi.get_taxid_translator([t]).get(t, major_name)
+                major_name = names.get(t, major_name)
                 if found_name == "Unknown":
                     found_name = major_name
                 break
+
+        # Standardize major names and root ranks
+        if nid in [1, 131567]:
+            found_rank = "Domain"
         if major_name == "Metazoa":
             major_name = "Animalia"
+        elif major_name == "Viridiplantae":
+            major_name = "Plantae"
 
-        nodes_meta[nid] = {
+        nodes_meta[str(nid)] = {
             "rank": found_rank,
             "name": found_name,
             "major_name": major_name,
@@ -304,7 +382,8 @@ def main():
 
     # Build species lineage map
     species_lineage_map = {}
-    for name, sci in combined_species_map.items():
+    for name in species_keys:
+        sci = combined_species_map[name]
         tid = species_to_taxid[sci]
         species_lineage_map[name.lower()] = taxid_to_lineage[tid]
 
@@ -314,14 +393,13 @@ def main():
         "nodes": nodes_meta
     }
     tree_path = os.path.join(data_dir, "phylogeny_tree.json")
-    with open(tree_path, "w") as f:
-        json.dump(tree_payload, f, separators=(',', ':'))
-
+    save_tree_formatted(tree_path, tree_payload)
     tree_size_mb = os.path.getsize(tree_path) / (1024 * 1024)
     print(f"Successfully saved data/phylogeny_tree.json ({tree_size_mb:.2f} MB)!")
 
     print("\n=== STEP 5: Updating species_list.json ===")
-    with open(os.path.join(data_dir, "species_list.json"), "w") as f:
+    list_path = os.path.join(data_dir, "species_list.json")
+    with open(list_path, "w") as f:
         json.dump(species_keys, f, indent=2)
     print(f"Saved data/species_list.json ({len(species_keys)} species).")
 
@@ -363,13 +441,16 @@ def main():
 
     # Markdown catalog
     cat_md = [
-        f"# 🧬 Phylogenle Active Species Directory ({total_active} Species)\n",
-        "Complete organized breakdown of all currently loaded species in the game catalog, grouped by clade and taxonomic order.\n",
+        f"# 🧬 Phylogenle Universal Species Directory ({total_active} Species Across All Life)\n",
+        "Complete organized breakdown of all currently active species in the game catalog across all kingdoms of life, grouped by clade and taxonomic order.\n",
         "## 📊 Clade Distribution Overview\n",
         "| Clade | Species Count | Primary Orders / Key Representatives |",
         "| :--- | :--- | :--- |"
     ]
-    clade_order_preference = ["Mammals", "Birds", "Reptiles", "Amphibians", "Fishes", "Invertebrates"]
+    clade_order_preference = [
+        "Mammals", "Birds", "Reptiles", "Amphibians", "Fishes", "Invertebrates",
+        "Plants", "Fungi", "Bacteria", "Archaea", "Protists", "Viruses"
+    ]
     for c in clade_order_preference:
         if c in clade_groups:
             c_count = sum(len(sp_list) for sp_list in clade_groups[c].values())
@@ -385,7 +466,13 @@ def main():
         "Reptiles": "🦎",
         "Amphibians": "🐸",
         "Fishes": "🐟",
-        "Invertebrates": "🐙"
+        "Invertebrates": "🐙",
+        "Plants": "🌿",
+        "Fungi": "🍄",
+        "Bacteria": "🦠",
+        "Archaea": "⚡",
+        "Protists": "🔬",
+        "Viruses": "🧬"
     }
 
     for c in clade_order_preference:
@@ -407,45 +494,39 @@ def main():
         f.write("\n".join(cat_md))
     print(f"Updated species_catalog.md with all {total_active} species.")
 
-    print("\n=== STEP 7: Writing EXCLUDED_SPECIES_REVIEW.md in phylogenle/ ===")
+    print("\n=== STEP 7: Updating EXCLUDED_SPECIES_REVIEW.md (All Promoted to Active) ===")
     ex_md = [
         "# 📋 Phylogenle Excluded & Deferred Species Review Log\n",
         f"**Last Updated:** {time.strftime('%Y-%m-%d %H:%M:%S')}",
         f"**Total Active Species in Game:** {total_active}",
-        f"**Total Candidates in Review Log:** {len(excluded_records)}\n",
-        "This document maintains a permanent, comprehensive record of animal candidates evaluated during the expansion process but **intentionally excluded or deferred** from the primary active roster. You can manually review this list to inspect the rationale and request promotion for any candidate.\n",
-        "## 🧭 How to Use This Manual Review Log\n",
-        "1. **Subspecies / Taxonomic Duplicates:** Candidates deferred to prevent 0 MYA branch collisions with parental species (e.g. Dog vs Wolf, Dingo vs Wolf, Bengal Tiger vs Tiger).",
-        "2. **Duplicate Common Name Collisions:** Multiple species sharing the exact same colloquial name (e.g. multiple distinct species named 'Gall Midge' or 'Root Nematode'). The primary exemplar is kept, while duplicate collisions are logged here.",
-        "3. **Cryptic or Obscure Species:** Animals with subtle morphology or lacking widespread public common names.",
-        "4. **Microscopic / Parasitic Organisms:** Organisms deferred to preserve intuitive wildlife puzzle gameplay (e.g. pinworms, flukes, dust mites).",
-        "5. **Deferred Sister Species:** Valid species available for future expansion clusters.",
-        "6. **Non-Animal / Protist Outliers:** Screened candidates falling outside Kingdom Animalia (Metazoa), permanently excluded.\n",
-        "## 📊 Summary by Category\n",
-        "| Category | Count | Primary Impact |",
+        f"**Total Candidates Promoted to Active Roster:** {len(excluded_review_records)}",
+        "**Currently Excluded:** 0\n",
+        "### ✅ Full Ingestion Status\n",
+        "Per user directive to include all excluded species and maximize the playable species pool without artificial Metazoa/Animalia barriers, **all previously excluded and deferred candidates have been promoted and integrated directly into the active game catalog**.\n",
+        "This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), sister species, domestic/subspecies forms, and microscopic taxa.\n",
+        "## 📊 Promoted Candidate Summary\n",
+        "| Category | Promoted Count | Game Status |",
         "| :--- | :--- | :--- |"
     ]
 
-    cat_counts = Counter(e["category"] for e in excluded_records)
+    cat_counts = Counter(e["orig_category"] for e in excluded_review_records)
     for cat_name, count in cat_counts.most_common():
-        ex_md.append(f"| **{cat_name}** | **{count}** | Manual review candidate |")
+        ex_md.append(f"| **{cat_name}** | **{count}** | ✅ Active in Game |")
 
     ex_md.append("\n---\n")
-    ex_md.append("## 🔍 Detailed Review Table\n")
-    ex_md.append("| Common Name | Scientific Name | Clade | Category | Exclusion Rationale | Recommended Action |")
+    ex_md.append("## 🔍 Detailed Log of All Promoted Species\n")
+    ex_md.append("| Common Name | Scientific Name | Clade | Original Category | Original Rationale | Status |")
     ex_md.append("| :--- | :--- | :--- | :--- | :--- | :--- |")
 
-    for entry in excluded_records:
-        ex_md.append(f"| **{entry.get('common', '')}** | *{entry.get('scientific', '')}* | {entry.get('clade', '')} | {entry.get('category', '')} | {entry.get('reason', '')} | {entry.get('action', '')} |")
+    for entry in excluded_review_records:
+        ex_md.append(f"| **{entry.get('common', '')}** | *{entry.get('scientific', '')}* | {entry.get('orig_clade', '')} | {entry.get('orig_category', '')} | {entry.get('orig_reason', '')} | **{entry.get('status', 'Promoted to Active Game Roster')}** |")
 
-    ex_text = "\n".join(ex_md)
-    review_path = os.path.join(base_dir, "EXCLUDED_SPECIES_REVIEW.md")
-    with open(review_path, "w") as f:
-        f.write(ex_text)
-    print(f"Saved EXCLUDED_SPECIES_REVIEW.md with {len(excluded_records)} entries directly in {base_dir}!")
+    with open(os.path.join(base_dir, "EXCLUDED_SPECIES_REVIEW.md"), "w") as f:
+        f.write("\n".join(ex_md))
+    print(f"Saved EXCLUDED_SPECIES_REVIEW.md: all {len(excluded_review_records)} candidates marked as active!")
 
     print("\n=== STEP 8: Programmatic Verification ===")
-    with open(os.path.join(data_dir, "species_list.json"), "r") as f:
+    with open(list_path, "r") as f:
         final_list = json.load(f)
     with open(orig_path, "r") as f:
         verified_orig = json.load(f)
@@ -454,7 +535,22 @@ def main():
     if missing_final:
         raise AssertionError(f"INTEGRITY FAILURE: Missing original species: {missing_final}")
     print(f"SUCCESS: All {len(verified_orig)} original species verified in final list of {len(final_list)} species!")
-    print("\n🎉 COMPREHENSIVE PHYLOGENY TREE CREATION COMPLETE! 🎉")
+
+    # Check review log species in final list
+    missing_promoted = []
+    final_set = set(final_list)
+    for entry in excluded_review_records:
+        c_title = format_clean_title(entry['common'])
+        disp = f"{c_title} ({entry['scientific']})"
+        if disp not in final_set:
+            missing_promoted.append(disp)
+
+    if missing_promoted:
+        print(f"Warning: {len(missing_promoted)} promoted candidates not exact string match: {missing_promoted[:5]}")
+    else:
+        print(f"SUCCESS: 100% of review log candidates verified in active list!")
+
+    print("\n🎉 MASTER PHYLOGENY TREE CREATION COMPLETE! 🎉")
 
 if __name__ == "__main__":
     main()

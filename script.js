@@ -154,8 +154,8 @@ function bootPhylogenle() {
                 }
 
                 const [speciesResp, treeResp] = await Promise.all([
-                    allSpecies.length === 0 ? fetch('data/species_list.json?v=tree_7') : Promise.resolve(null),
-                    !phylogenyTree ? fetch('data/phylogeny_tree.json?v=tree_7') : Promise.resolve(null)
+                    allSpecies.length === 0 ? fetch('data/species_list.json?v=tree_8') : Promise.resolve(null),
+                    !phylogenyTree ? fetch('data/phylogeny_tree.json?v=tree_8') : Promise.resolve(null)
                 ]);
 
                 if (speciesResp) {
@@ -855,13 +855,18 @@ function bootPhylogenle() {
         // Clade names
         const t = (d.data.name || '').toLowerCase();
         const taxonMap = {
-            'animalia': '🟫', 'metazoa': '🟫', 'plantae': '🟫', 'fungi': '🟫',
+            'animalia': '🟫', 'metazoa': '🟫', 'plantae': '🟫', 'viridiplantae': '🟫', 'fungi': '🟫',
+            'eukaryota': '⬛', 'bacteria': '⬛', 'archaea': '⬛', 'cellular organisms': '⬛', 'life': '⬛', 'root': '⬛',
             'chordata': '🟦', 'arthropoda': '🟦', 'mollusca': '🟦', 'annelida': '🟦', 'cnidaria': '🟦', 'echinodermata': '🟦',
+            'streptophyta': '🟦', 'tracheophyta': '🟦', 'ascomycota': '🟦', 'basidiomycota': '🟦', 'pseudomonadota': '🟦',
             'mammalia': '🟪', 'aves': '🟪', 'reptilia': '🟪', 'amphibia': '🟪', 'insecta': '🟪', 'arachnida': '🟪', 'actinopterygii': '🟪',
+            'magnoliopsida': '🟪', 'liliopsida': '🟪', 'gammaproteobacteria': '🟪', 'agaricomycetes': '🟪',
             'carnivora': '🟥', 'primates': '🟥', 'rodentia': '🟥', 'artiodactyla': '🟥', 'cetacea': '🟥', 'chiroptera': '🟥', 'lagomorpha': '🟥',
             'lepidoptera': '🟥', 'coleoptera': '🟥', 'hymenoptera': '🟥', 'diptera': '🟥', 'passeriformes': '🟥',
+            'rosales': '🟥', 'poales': '🟥', 'fabales': '🟥', 'asterales': '🟥', 'solanales': '🟥', 'brassicales': '🟥',
             'felidae': '🟧', 'canidae': '🟧', 'ursidae': '🟧', 'hominidae': '🟧', 'cercopithecidae': '🟧', 'mustelidae': '🟧',
-            'papilionidae': '🟧', 'nymphalidae': '🟧', 'apidae': '🟧', 'elephantidae': '🟧', 'equidae': '🟧', 'bovidae': '🟧'
+            'papilionidae': '🟧', 'nymphalidae': '🟧', 'apidae': '🟧', 'elephantidae': '🟧', 'equidae': '🟧', 'bovidae': '🟧',
+            'rosaceae': '🟧', 'poaceae': '🟧', 'fabaceae': '🟧', 'asteraceae': '🟧', 'solanaceae': '🟧', 'brassicaceae': '🟧'
         };
         if (taxonMap[t]) return taxonMap[t];
         return '🟫';
@@ -889,11 +894,29 @@ function bootPhylogenle() {
             emoji: mysteryEmoji
         };
 
+        function getTargetRootInfo() {
+            let defaultRootName = "Animalia";
+            let defaultRank = "Kingdom";
+            const targetLin = (phylogenyTree && phylogenyTree.species) ? phylogenyTree.species[targetSpecies.toLowerCase()] : null;
+            if (targetLin && phylogenyTree.nodes) {
+                for (let tid of targetLin) {
+                    const n = phylogenyTree.nodes[tid];
+                    if (n && (n.rank === "Kingdom" || n.rank === "Domain")) {
+                        defaultRootName = n.major_name || n.name;
+                        defaultRank = n.rank;
+                        break;
+                    }
+                }
+            }
+            return { name: defaultRootName, rank: defaultRank };
+        }
+
         if (sortedGuesses.length === 0) {
             if (isGameOver) {
+                const tr = getTargetRootInfo();
                 drawTree({
-                    name: "Animalia",
-                    rank: "Kingdom",
+                    name: tr.name,
+                    rank: tr.rank,
                     isTrunk: true,
                     children: [mysteryNode]
                 });
@@ -950,9 +973,10 @@ function bootPhylogenle() {
         });
 
         if (trunkList.length === 0) {
+            const tr = getTargetRootInfo();
             drawTree({
-                name: "Animalia",
-                rank: "Kingdom",
+                name: tr.name,
+                rank: tr.rank,
                 isTrunk: true,
                 children: [mysteryNode]
             });
@@ -970,8 +994,11 @@ function bootPhylogenle() {
         }
 
         let root = trunkList[0];
-        if (root.name !== "Metazoa" && root.name !== "Animalia") {
-            root = { name: "Animalia", rank: "Kingdom", isTrunk: true, children: [root] };
+        const topRanks = new Set(["Domain", "Kingdom"]);
+        const topNames = new Set(["Life", "Cellular organisms", "cellular organisms", "root", "Eukaryota", "Bacteria", "Archaea", "Animalia", "Metazoa", "Plantae", "Viridiplantae", "Fungi"]);
+        if (!topRanks.has(root.rank) && !topNames.has(root.name)) {
+            const tr = getTargetRootInfo();
+            root = { name: tr.name, rank: tr.rank, isTrunk: true, children: [root] };
         }
 
         drawTree(root);

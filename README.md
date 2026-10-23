@@ -72,7 +72,7 @@ Phylogenle's dataset is rigorously calibrated against peer-reviewed molecular bi
   - Official Linnaean hierarchy, verified Taxonomic IDs (TaxIDs), and phylogenetic lineage paths from cellular life (TaxID `1`) down to species leaves.
   - Binomial scientific names and verified English vernacular common names.
 - **Filtering Applied:**
-  - Strictly filtered by `TaxID 33208` (Kingdom Metazoa / Animalia). All plants, fungi, bacteria, algae, and protozoans are excluded.
+  - **Universal Tree of Life Scope:** Encompasses all kingdoms and domains of life: Animals, Plants, Fungi, Bacteria, Archaea, Protists, and Viruses.
   - Sauropsid clade classification to properly differentiate non-avian reptiles from birds and invertebrates.
 
 ### 2. TimeTree 5 (The Molecular Scale of Life)
@@ -83,9 +83,10 @@ Phylogenle's dataset is rigorously calibrated against peer-reviewed molecular bi
   - Over **1.6 million pairwise divergence records** were mapped to their NCBI Lowest Common Ancestor (LCA) nodes.
   - For each internal ancestral node $N_k$, the statistical **median** of all molecular divergence estimates was computed:
     $$\text{NodeTime}(N_k) = \text{Median}(\{ T(A, B) \mid \text{LCA}(A, B) = N_k \})$$
+  - Deep evolutionary anchors (LUCA / root ~4000 MYA, cellular organisms ~3800 MYA, Eukaryota ~1600 MYA, Opisthokonta ~1200 MYA, Viridiplantae ~1100 MYA, Fungi ~1000 MYA, Metazoa ~750 MYA) calibrate all high-level ancestral nodes.
   - For fine-grained sub-clades without direct fossil calibration papers, **monotonic ancestral decay** was applied:
     $$\text{NodeTime}(\text{Child}) = \text{Round}(\text{NodeTime}(\text{Parent}) \times 0.72, 1)$$
-  - Strict cladistic monotonicity is guaranteed: $\text{Time}(\text{Species}) < \text{Time}(\text{Genus}) < \text{Time}(\text{Family}) < \text{Time}(\text{Order}) < \text{Time}(\text{Class}) < \text{Time}(\text{Phylum})$.
+  - Strict cladistic monotonicity is guaranteed: $\text{Time}(\text{Species}) < \text{Time}(\text{Genus}) < \text{Time}(\text{Family}) < \text{Time}(\text{Order}) < \text{Time}(\text{Class}) < \text{Time}(\text{Phylum}) < \text{Time}(\text{Kingdom}) < \text{Time}(\text{Domain})$.
 
 ### 3. Wikipedia REST API (`en.wikipedia.org`)
 - **Endpoint:** `https://en.wikipedia.org/api/rest_v1/page/summary/{title}`
@@ -95,16 +96,21 @@ Phylogenle's dataset is rigorously calibrated against peer-reviewed molecular bi
 
 ## 📊 Dataset Overview
 
-- **Active Playable Species:** **27,225 species**
-- **Calibrated Internal LCA Nodes:** **39,912 nodes**
+- **Active Playable Species:** **30,694 species across all life**
+- **Calibrated Internal LCA Nodes:** **44,503 nodes**
 - **Clade Breakdown:**
-  - 🐾 **Mammals:** 3,039 species
-  - 🦅 **Birds:** 6,423 species
-  - 🦎 **Reptiles:** 3,892 species
-  - 🐸 **Amphibians:** 1,856 species
-  - 🐟 **Fishes:** 6,804 species
-  - 🐙 **Invertebrates:** 5,211 species
-- **Excluded Candidates Log:** Complete audit log of 3,683 non-binomial, strain, or duplicate candidates preserved in [`EXCLUDED_SPECIES_REVIEW.md`](EXCLUDED_SPECIES_REVIEW.md).
+  - 🐾 **Mammals:** 4,603 species
+  - 🦅 **Birds:** 4,867 species
+  - 🦎 **Reptiles:** 2,689 species
+  - 🐸 **Amphibians:** 3,449 species
+  - 🐟 **Fishes:** 10,005 species
+  - 🐙 **Invertebrates:** 3,101 species
+  - 🌿 **Plants:** 1,871 species
+  - 🍄 **Fungi:** 58 species
+  - 🦠 **Bacteria:** 21 species
+  - 🔬 **Protists:** 28 species
+  - 🧬 **Viruses:** 2 species
+- **Promoted Candidates Log:** 100% of the 3,683 evaluated candidates (plants, fungi, bacteria, sister species, subspecies, and parasites) are fully active in [`EXCLUDED_SPECIES_REVIEW.md`](EXCLUDED_SPECIES_REVIEW.md).
 - **Original Baseline Guarantee:** 100% of the 344 original species from [`species_list_ORIGINAL_UNTOUCHED.json`](species_list_ORIGINAL_UNTOUCHED.json) remain present and untouched.
 
 ---

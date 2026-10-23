@@ -25,7 +25,7 @@ SPECIES_LIST_PATH = os.path.join(BASE_DIR, "data", "species_list.json")
 CATALOG_JSON_PATH = os.path.join(BASE_DIR, "data", "species_taxonomy_catalog.json")
 CATALOG_MD_PATH = os.path.join(BASE_DIR, "species_catalog.md")
 
-MAJOR_RANKS = {"superkingdom", "kingdom", "phylum", "class", "order", "family", "genus", "species"}
+MAJOR_RANKS = {"domain", "superkingdom", "kingdom", "phylum", "class", "order", "family", "genus", "species"}
 
 def get_clade(lineage, ncbi):
     lineage_set = set(lineage)
@@ -47,7 +47,19 @@ def get_clade(lineage, ncbi):
     # Other vertebrates (lungfish, coelacanth, cyclostomes)
     if 7742 in lineage_set:
         return "Fishes"
-    return "Invertebrates"
+    if 33208 in lineage_set:
+        return "Invertebrates"
+    if 33090 in lineage_set:
+        return "Plants"
+    if 4751 in lineage_set:
+        return "Fungi"
+    if 2 in lineage_set:
+        return "Bacteria"
+    if 2157 in lineage_set:
+        return "Archaea"
+    if 10239 in lineage_set:
+        return "Viruses"
+    return "Protists"
 
 def get_order_name(lineage, ncbi):
     for t in reversed(lineage):
