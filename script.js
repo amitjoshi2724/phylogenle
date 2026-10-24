@@ -219,17 +219,39 @@ function bootPhylogenle() {
                     return;
                 }
 
-                // Check for in-progress saved hints
+                // Check for in-progress saved guesses and locked target species
+                const activeData = loadActiveGuesses(currentDateStr);
+                let activeGuesses = null;
+                if (activeData) {
+                    if (Array.isArray(activeData)) {
+                        activeGuesses = activeData;
+                    } else if (activeData.guesses) {
+                        activeGuesses = activeData.guesses;
+                        if (activeData.targetSpecies) {
+                            targetSpecies = activeData.targetSpecies;
+                        }
+                    }
+                }
+
+                // Check for in-progress saved hints with sanity check against targetSpecies
                 const activeHints = loadActiveHints(currentDateStr);
                 if (activeHints && Array.isArray(activeHints) && activeHints.length > 0) {
-                    revealedHints = activeHints;
+                    const targetRanks = getTargetTaxonomyRanks();
+                    // Keep only hints that belong to the active target species
+                    const validHints = activeHints.filter(h => {
+                        if (h.type === 'species') {
+                            const common = targetSpecies.split(' (')[0];
+                            return h.name.includes(`"${common[0]}"`);
+                        }
+                        return targetRanks[h.rank] && targetRanks[h.rank].name.toLowerCase() === h.name.toLowerCase();
+                    });
+                    revealedHints = validHints;
+                    saveActiveHints(currentDateStr, revealedHints);
                     renderHintsCard();
                 }
 
-                // Check for in-progress saved guesses
-                const active = loadActiveGuesses(currentDateStr);
-                if (active && Array.isArray(active) && active.length > 0) {
-                    active.forEach(g => {
+                if (activeGuesses && activeGuesses.length > 0) {
+                    activeGuesses.forEach(g => {
                         const guessKey = g.name.toLowerCase();
                         guessedSet.add(guessKey);
                         guesses.push(g);
@@ -628,7 +650,7 @@ function bootPhylogenle() {
 
         // Save active progress if daily
         if (!isUnlimited) {
-            saveActiveGuesses(currentDateStr, guesses);
+            saveActiveGuesses(currentDateStr, guesses, targetSpecies);
         }
 
         animalInput.value = '';

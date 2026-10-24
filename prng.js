@@ -85,6 +85,11 @@ export function getTodayDateStr() {
  */
 export function getDailyTargetSpecies(allSpecies, dateStr) {
     if (!allSpecies || allSpecies.length === 0) return null;
+    // Pinned target for 2026-10-23 for daily puzzle continuity
+    if (dateStr === '2026-10-23') {
+        const pinned = allSpecies.find(s => s.toLowerCase() === 'california ground squirrel (otospermophilus beecheyi)');
+        if (pinned) return pinned;
+    }
     const seedVal = hashString(`phylogenle-daily-${dateStr}`);
     const rng = createMulberry32(seedVal);
     const index = Math.floor(rng() * allSpecies.length);

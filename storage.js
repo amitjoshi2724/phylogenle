@@ -224,18 +224,28 @@ export function recordDailyCompletion(dateStr, puzzleNum, solved, guessCount, gu
 }
 
 /**
- * Save in-progress guesses
+ * Save in-progress guesses and lock round's target species
  */
-export function saveActiveGuesses(dateStr, guesses) {
+export function saveActiveGuesses(dateStr, guesses, targetSpecies) {
     try {
-        localStorage.setItem(ACTIVE_PREFIX + dateStr, JSON.stringify(guesses));
+        const payload = {
+            targetSpecies: targetSpecies || null,
+            guesses: Array.isArray(guesses) ? guesses : []
+        };
+        localStorage.setItem(ACTIVE_PREFIX + dateStr, JSON.stringify(payload));
     } catch (e) { }
 }
 
 export function loadActiveGuesses(dateStr) {
     try {
         const raw = localStorage.getItem(ACTIVE_PREFIX + dateStr);
-        if (raw) return JSON.parse(raw);
+        if (raw) {
+            const parsed = JSON.parse(raw);
+            if (Array.isArray(parsed)) {
+                return { targetSpecies: null, guesses: parsed };
+            }
+            return parsed;
+        }
     } catch (e) { }
     return null;
 }
