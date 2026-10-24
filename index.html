@@ -437,23 +437,17 @@
                 <div class="catalog-controls-bar">
                     <div class="catalog-search-wrap">
                         <span class="catalog-search-icon">🔍</span>
-                        <input type="text" id="catalog-search-input" class="catalog-search-input" placeholder="Search by common name, scientific name, or order..." autocomplete="off">
+                        <input type="text" id="catalog-search-input" class="catalog-search-input" placeholder="Search 29,748 species by common name, scientific name, genus, family, or order..." autocomplete="off">
                         <button id="catalog-search-clear" class="catalog-search-clear hidden">&times;</button>
                     </div>
                     <div id="catalog-clade-tabs" class="catalog-clade-tabs">
-                        <button class="catalog-tab-btn active" data-clade="overview">📊 Overview</button>
-                        <button class="catalog-tab-btn" data-clade="Mammals">🐾 Mammals (4,343)</button>
-                        <button class="catalog-tab-btn" data-clade="Birds">🦅 Birds (4,651)</button>
-                        <button class="catalog-tab-btn" data-clade="Reptiles">🦎 Reptiles (2,593)</button>
-                        <button class="catalog-tab-btn" data-clade="Amphibians">🐸 Amphibians (3,402)</button>
-                        <button class="catalog-tab-btn" data-clade="Fishes">🐟 Fishes (9,862)</button>
-                        <button class="catalog-tab-btn" data-clade="Invertebrates">🪲 Invertebrates (2,941)</button>
-                        <button class="catalog-tab-btn" data-clade="Plants">🌿 Plants (1,862)</button>
+                        <button class="catalog-tab-btn active" data-clade="tree">🌳 Full Tree (All Life)</button>
+                        <button class="catalog-tab-btn" data-clade="Animalia">🟫 Animalia (27,792)</button>
+                        <button class="catalog-tab-btn" data-clade="Plantae">🌿 Plantae (1,862)</button>
                         <button class="catalog-tab-btn" data-clade="Fungi">🍄 Fungi (55)</button>
                         <button class="catalog-tab-btn" data-clade="Bacteria">🧫 Bacteria (20)</button>
-                        <button class="catalog-tab-btn" data-clade="Protists">🧬 Protists (17)</button>
+                        <button class="catalog-tab-btn" data-clade="Protista">🧬 Protista (17)</button>
                         <button class="catalog-tab-btn" data-clade="Viruses">🦠 Viruses (2)</button>
-                        <button class="catalog-tab-btn" data-clade="all">🌐 All Species</button>
                     </div>
                 </div>
 
@@ -470,6 +464,6 @@
 
     <!-- D3.js and Application Logic -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script type="module" src="script.js?v=tree_7"></script>
+    <script type="module" src="script.js?v=tax_2"></script>
 </body>
 </html>

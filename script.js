@@ -81,7 +81,7 @@ function bootPhylogenle() {
     let catalogMarkdownText = "";
     let catalogSections = {};
     let catalogTaxonomyData = null;
-    let currentCatalogClade = "overview";
+    let currentCatalogClade = "tree";
     let catalogSearchDebounce = null;
 
     // Calendar state
@@ -1634,70 +1634,40 @@ function bootPhylogenle() {
 
     async function loadSpeciesCatalog() {
         if (!catalogContent) return;
+        if (catalogLoaded && catalogMarkdownText) {
+            renderCatalogView();
+            return;
+        }
+
         catalogContent.innerHTML = `
             <div class="catalog-loading">
                 <span class="catalog-spinner">🧬</span>
-                <p>Loading Universal Species Catalog (29,748 species)...</p>
+                <p>Loading Universal Taxonomic Directory (29,748 species)...</p>
             </div>
         `;
 
         try {
             const [mdResp, taxResp] = await Promise.all([
-                fetch('species_catalog.md?v=tree_8'),
-                fetch('data/species_taxonomy_catalog.json?v=tree_8')
+                fetch(`species_catalog_taxonomic.md?v=tax_2_${Date.now()}`),
+                fetch(`data/species_taxonomy_catalog.json?v=tax_2_${Date.now()}`)
             ]);
 
-            if (!mdResp.ok) throw new Error(`HTTP ${mdResp.status} loading species_catalog.md`);
+            if (!mdResp.ok) throw new Error(`HTTP ${mdResp.status} loading species_catalog_taxonomic.md`);
             catalogMarkdownText = await mdResp.text();
 
             if (taxResp.ok) {
                 catalogTaxonomyData = await taxResp.json();
             }
 
-            parseCatalogSections(catalogMarkdownText);
             catalogLoaded = true;
             renderCatalogView();
         } catch (err) {
             console.error("Failed to load species catalog:", err);
             catalogContent.innerHTML = `
                 <div class="catalog-empty-notice" style="color: #ef4444;">
-                    Failed to load species catalog. Please check local server connection.
+                    Failed to load taxonomic directory. Please check local server connection.
                 </div>
             `;
-        }
-    }
-
-    function parseCatalogSections(md) {
-        catalogSections = {};
-        const sections = md.split(/(?=^##\s+)/m);
-        for (const sec of sections) {
-            const trimmed = sec.trim();
-            if (!trimmed) continue;
-            if (trimmed.includes("Clade Distribution Overview")) {
-                catalogSections["overview"] = trimmed;
-            } else if (trimmed.includes("Mammals")) {
-                catalogSections["Mammals"] = trimmed;
-            } else if (trimmed.includes("Birds")) {
-                catalogSections["Birds"] = trimmed;
-            } else if (trimmed.includes("Reptiles")) {
-                catalogSections["Reptiles"] = trimmed;
-            } else if (trimmed.includes("Amphibians")) {
-                catalogSections["Amphibians"] = trimmed;
-            } else if (trimmed.includes("Fishes")) {
-                catalogSections["Fishes"] = trimmed;
-            } else if (trimmed.includes("Invertebrates")) {
-                catalogSections["Invertebrates"] = trimmed;
-            } else if (trimmed.includes("Plants")) {
-                catalogSections["Plants"] = trimmed;
-            } else if (trimmed.includes("Fungi")) {
-                catalogSections["Fungi"] = trimmed;
-            } else if (trimmed.includes("Bacteria")) {
-                catalogSections["Bacteria"] = trimmed;
-            } else if (trimmed.includes("Protists")) {
-                catalogSections["Protists"] = trimmed;
-            } else if (trimmed.includes("Viruses")) {
-                catalogSections["Viruses"] = trimmed;
-            }
         }
     }
 
@@ -1769,8 +1739,13 @@ function bootPhylogenle() {
         tempDiv.innerHTML = rawHtml;
 
         const tables = tempDiv.querySelectorAll('table');
-        tables.forEach(table => {
-            const headerRow = table.querySelector('thead tr');
+        tables.forEach((table, tIdx) => {
+            // Skip the first overview table
+            if (tIdx === 0 && table.querySelector('th') && table.querySelector('th').textContent.includes('Domain')) {
+                return;
+            }
+
+            const headerRow = table.querySelector('thead tr') || table.querySelector('tr');
             if (headerRow) {
                 const th = document.createElement('th');
                 th.textContent = 'Action';
@@ -1778,7 +1753,7 @@ function bootPhylogenle() {
                 headerRow.appendChild(th);
             }
 
-            const bodyRows = table.querySelectorAll('tbody tr');
+            const bodyRows = table.querySelectorAll('tbody tr') || table.querySelectorAll('tr:not(:first-child)');
             bodyRows.forEach(row => {
                 const cells = row.querySelectorAll('td');
                 if (cells.length >= 2) {
@@ -1805,27 +1780,59 @@ function bootPhylogenle() {
             return;
         }
 
-        if (currentCatalogClade === 'all') {
-            let fullHtml = '';
-            for (const key of ['overview', 'Mammals', 'Birds', 'Reptiles', 'Amphibians', 'Fishes', 'Invertebrates', 'Plants', 'Fungi', 'Bacteria', 'Protists', 'Viruses']) {
-                if (catalogSections[key]) {
-                    fullHtml += renderMarkdown(catalogSections[key]);
-                }
-            }
-            catalogContent.innerHTML = enhanceCatalogTableHtml(fullHtml);
+        const actionControls = `
+            <div class="catalog-tree-actions">
+                <button type="button" id="catalog-expand-all-btn" class="tree-action-btn">➕ Expand All</button>
+                <button type="button" id="catalog-collapse-all-btn" class="tree-action-btn">➖ Collapse All</button>
+                <span style="font-size: 0.8rem; color: var(--text-secondary); margin-left: auto;">
+                    All 8 ranks collapsed by default — click any level (Domain ➔ Kingdom ➔ Phylum ➔ Class ➔ Order ➔ Family) to expand
+                </span>
+            </div>
+        `;
+
+        const rawHtml = renderMarkdown(catalogMarkdownText);
+        catalogContent.innerHTML = actionControls + enhanceCatalogTableHtml(rawHtml);
+
+        // Bind expand and collapse all buttons
+        const expandBtn = document.getElementById('catalog-expand-all-btn');
+        const collapseBtn = document.getElementById('catalog-collapse-all-btn');
+
+        if (expandBtn) {
+            expandBtn.addEventListener('click', () => {
+                catalogContent.querySelectorAll('details').forEach(d => d.open = true);
+            });
+        }
+        if (collapseBtn) {
+            collapseBtn.addEventListener('click', () => {
+                catalogContent.querySelectorAll('details').forEach(d => d.open = false);
+            });
+        }
+
+        // Handle jumping to specific kingdom if tab selected
+        if (currentCatalogClade && currentCatalogClade !== 'tree') {
+            jumpToCatalogClade(currentCatalogClade);
+        } else {
             catalogContent.scrollTop = 0;
-            return;
         }
+    }
 
-        const secMd = catalogSections[currentCatalogClade] || catalogSections['overview'] || catalogMarkdownText;
-        if (!secMd) {
-            catalogContent.innerHTML = `<div class="catalog-empty-notice">No content found for this clade.</div>`;
-            return;
-        }
-
-        const rawHtml = renderMarkdown(secMd);
-        catalogContent.innerHTML = (currentCatalogClade === 'overview') ? rawHtml : enhanceCatalogTableHtml(rawHtml);
-        catalogContent.scrollTop = 0;
+    function jumpToCatalogClade(cladeName) {
+        if (!catalogContent) return;
+        const allDetails = catalogContent.querySelectorAll('details');
+        allDetails.forEach(d => {
+            const summary = d.querySelector('summary');
+            if (summary && summary.textContent.toLowerCase().includes(cladeName.toLowerCase())) {
+                d.open = true;
+                let parent = d.parentElement.closest('details');
+                while (parent) {
+                    parent.open = true;
+                    parent = parent.parentElement.closest('details');
+                }
+                setTimeout(() => {
+                    d.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 50);
+            }
+        });
     }
 
     function renderCatalogSearchResults(query) {
@@ -1835,10 +1842,15 @@ function bootPhylogenle() {
         if (catalogTaxonomyData && Array.isArray(catalogTaxonomyData)) {
             for (let i = 0; i < catalogTaxonomyData.length; i++) {
                 const item = catalogTaxonomyData[i];
-                if (item.common.toLowerCase().includes(query) ||
-                    item.scientific.toLowerCase().includes(query) ||
-                    (item.subclade && item.subclade.toLowerCase().includes(query)) ||
-                    (item.clade && item.clade.toLowerCase().includes(query))) {
+                if ((item.common && item.common.toLowerCase().includes(query)) ||
+                    (item.scientific && item.scientific.toLowerCase().includes(query)) ||
+                    (item.genus && item.genus.toLowerCase().includes(query)) ||
+                    (item.family && item.family.toLowerCase().includes(query)) ||
+                    (item.order && item.order.toLowerCase().includes(query)) ||
+                    (item.class && item.class.toLowerCase().includes(query)) ||
+                    (item.phylum && item.phylum.toLowerCase().includes(query)) ||
+                    (item.kingdom && item.kingdom.toLowerCase().includes(query)) ||
+                    (item.domain && item.domain.toLowerCase().includes(query))) {
                     matches.push(item);
                     if (matches.length >= 100) break;
                 }
@@ -1866,7 +1878,7 @@ function bootPhylogenle() {
                 <div class="catalog-empty-notice">
                     No organisms found matching "<strong>${query}</strong>".<br>
                     <span style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 6px; display: inline-block;">
-                        Try searching by genus, common name, or taxonomic order.
+                        Try searching by genus (*Amphiprion*, *Panthera*), family (Felidae, Percidae), order, or common name.
                     </span>
                 </div>
             `;
@@ -1881,7 +1893,8 @@ function bootPhylogenle() {
                     <tr>
                         <th>Common Name</th>
                         <th>Scientific Name</th>
-                        <th>Clade / Order</th>
+                        <th>🟨 Genus</th>
+                        <th>Taxonomic Lineage</th>
                         <th style="width: 100px;">Action</th>
                     </tr>
                 </thead>
@@ -1890,12 +1903,19 @@ function bootPhylogenle() {
 
         for (const m of matches) {
             const fullSpecies = m.display || `${m.common} (${m.scientific})`;
-            const cladeInfo = m.clade ? (m.subclade ? `${m.clade} • ${m.subclade}` : m.clade) : '';
+            const lineageParts = [];
+            if (m.kingdom) lineageParts.push(m.kingdom);
+            if (m.class && !m.class.includes('Incertae')) lineageParts.push(m.class);
+            if (m.order && !m.order.includes('Incertae')) lineageParts.push(m.order);
+            if (m.family && !m.family.includes('Incertae')) lineageParts.push(m.family);
+            const lineageStr = lineageParts.join(' ➔ ') || (m.clade ? `${m.clade} • ${m.subclade}` : '');
+
             html += `
                 <tr>
                     <td><strong>${m.common}</strong></td>
                     <td><em>${m.scientific}</em></td>
-                    <td><span style="font-size: 0.8rem; color: #94a3b8;">${cladeInfo}</span></td>
+                    <td><span style="color: #fbbf24;">*${m.genus || m.scientific.split(' ')[0]}*</span></td>
+                    <td><span style="font-size: 0.78rem; color: #94a3b8;">${lineageStr}</span></td>
                     <td><button class="catalog-guess-btn" data-species="${encodeURIComponent(fullSpecies)}">🎯 Guess</button></td>
                 </tr>
             `;
@@ -1925,7 +1945,7 @@ function bootPhylogenle() {
         if (btn) {
             catalogCladeTabs.querySelectorAll('.catalog-tab-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
-            currentCatalogClade = btn.getAttribute('data-clade') || 'overview';
+            currentCatalogClade = btn.getAttribute('data-clade') || 'tree';
             if (catalogSearchInput) catalogSearchInput.value = '';
             if (catalogSearchClear) catalogSearchClear.classList.add('hidden');
             renderCatalogView();
