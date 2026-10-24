@@ -24,7 +24,10 @@
             </div>
 
             <div class="nav-right">
-                <button id="mode-toggle-btn" class="nav-btn nav-mode-btn" title="Toggle Unlimited Practice / Daily Mode">PRACTICE</button>
+                <div class="mode-segmented-toggle" role="radiogroup" aria-label="Game Mode">
+                    <button type="button" id="mode-daily-btn" class="mode-pill-btn active" role="radio" aria-checked="true" title="Daily Puzzle Mode">📅 Daily</button>
+                    <button type="button" id="mode-practice-btn" class="mode-pill-btn" role="radio" aria-checked="false" title="Unlimited Practice Mode">🧬 Practice</button>
+                </div>
                 <button id="archive-modal-btn" class="nav-btn" title="Past Puzzles Archive">📅 Archive</button>
                 <button id="stats-modal-btn" class="nav-btn" title="Statistics & Streaks">📊 Stats</button>
                 <button id="help-modal-btn" class="nav-btn" title="How to Play">❓ Help</button>
@@ -84,6 +87,9 @@
                     </div>
                     <div id="hints-list" class="hints-list"></div>
                 </div>
+                
+                <!-- Target Organism Alert Container -->
+                <div id="target-alert-container"></div>
                 
                 <div class="guesses-container" id="guesses-container">
                     <!-- Guesses will appear here -->

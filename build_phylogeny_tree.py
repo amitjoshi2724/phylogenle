@@ -155,6 +155,8 @@ def main():
 
     # 5. All candidates from EXCLUDED_SPECIES_REVIEW.md
     review_path = os.path.join(base_dir, "EXCLUDED_SPECIES_REVIEW.md")
+    if not os.path.exists(review_path):
+        review_path = os.path.join(base_dir, "docs", "EXCLUDED_SPECIES_REVIEW.md")
     excluded_review_records = []
     if os.path.exists(review_path):
         with open(review_path, "r") as f:
@@ -522,9 +524,10 @@ def main():
     for entry in excluded_review_records:
         ex_md.append(f"| **{entry.get('common', '')}** | *{entry.get('scientific', '')}* | {entry.get('orig_clade', '')} | {entry.get('orig_category', '')} | {entry.get('orig_reason', '')} | **{entry.get('status', 'Promoted to Active Game Roster')}** |")
 
-    with open(os.path.join(base_dir, "EXCLUDED_SPECIES_REVIEW.md"), "w") as f:
+    save_review_path = os.path.join(base_dir, "docs", "EXCLUDED_SPECIES_REVIEW.md") if os.path.exists(os.path.join(base_dir, "docs", "EXCLUDED_SPECIES_REVIEW.md")) else os.path.join(base_dir, "EXCLUDED_SPECIES_REVIEW.md")
+    with open(save_review_path, "w") as f:
         f.write("\n".join(ex_md))
-    print(f"Saved EXCLUDED_SPECIES_REVIEW.md: all {len(excluded_review_records)} candidates marked as active!")
+    print(f"Saved {save_review_path}: all {len(excluded_review_records)} candidates marked as active!")
 
     print("\n=== STEP 8: Programmatic Verification ===")
     with open(list_path, "r") as f:

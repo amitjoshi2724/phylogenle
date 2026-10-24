@@ -41,7 +41,9 @@ function bootPhylogenle() {
     const playAgainBtn = document.getElementById('play-again-btn');
     const shareResultBtn = document.getElementById('share-result-btn');
     const puzzleBadge = document.getElementById('puzzle-badge');
-    const modeToggleBtn = document.getElementById('mode-toggle-btn');
+    const modeDailyBtn = document.getElementById('mode-daily-btn');
+    const modePracticeBtn = document.getElementById('mode-practice-btn');
+    const targetAlertContainer = document.getElementById('target-alert-container');
     const treeContainer = document.getElementById('tree-container');
     const hintBtn = document.getElementById('hint-btn');
     const hintsCard = document.getElementById('hints-card');
@@ -134,33 +136,52 @@ function bootPhylogenle() {
     wikiTooltip.addEventListener('mouseenter', () => clearTimeout(tooltipTimeout));
     wikiTooltip.addEventListener('mouseleave', hideWikiTooltip);
 
-    // Check URL parameters on load
+    // Check URL parameters and persisted mode on load
     function checkURLParams() {
         const urlParams = new URLSearchParams(window.location.search);
         const modeParam = urlParams.get('mode');
         const dateParam = urlParams.get('date');
+        const savedMode = localStorage.getItem('phylogenle_game_mode');
 
         if (modeParam === 'unlimited' || modeParam === 'practice') {
             isUnlimited = true;
+            localStorage.setItem('phylogenle_game_mode', 'practice');
         } else if (dateParam && /^\d{4}-\d{2}-\d{2}$/.test(dateParam)) {
             currentDateStr = dateParam;
             puzzleNum = getPuzzleNumber(dateParam);
             isUnlimited = false;
+            localStorage.setItem('phylogenle_game_mode', 'daily');
+        } else if (savedMode === 'practice') {
+            isUnlimited = true;
+            const newUrl = window.location.pathname + '?mode=practice';
+            window.history.replaceState(null, '', newUrl);
+        } else {
+            isUnlimited = false;
+            localStorage.setItem('phylogenle_game_mode', 'daily');
         }
         updateModeUI();
     }
 
     function updateModeUI() {
-        if (!modeToggleBtn) return;
         if (isUnlimited) {
-            modeToggleBtn.textContent = 'DAILY';
-            modeToggleBtn.classList.add('unlimited-active');
-            modeToggleBtn.title = 'Switch to Daily Puzzle Mode';
+            if (modeDailyBtn) {
+                modeDailyBtn.classList.remove('active');
+                modeDailyBtn.setAttribute('aria-checked', 'false');
+            }
+            if (modePracticeBtn) {
+                modePracticeBtn.classList.add('active');
+                modePracticeBtn.setAttribute('aria-checked', 'true');
+            }
             if (puzzleBadge) puzzleBadge.textContent = 'PRACTICE MODE 🧬';
         } else {
-            modeToggleBtn.textContent = 'PRACTICE';
-            modeToggleBtn.classList.remove('unlimited-active');
-            modeToggleBtn.title = 'Switch to Unlimited Practice Mode';
+            if (modeDailyBtn) {
+                modeDailyBtn.classList.add('active');
+                modeDailyBtn.setAttribute('aria-checked', 'true');
+            }
+            if (modePracticeBtn) {
+                modePracticeBtn.classList.remove('active');
+                modePracticeBtn.setAttribute('aria-checked', 'false');
+            }
             const isToday = currentDateStr === getTodayDateStr();
             if (puzzleBadge) {
                 puzzleBadge.textContent = `DAILY #${puzzleNum} • ${currentDateStr}${isToday ? ' (TODAY)' : ''}`;
@@ -209,6 +230,8 @@ function bootPhylogenle() {
             if (inputSection) inputSection.style.display = 'flex';
             animalInput.value = '';
 
+            if (targetAlertContainer) targetAlertContainer.innerHTML = '';
+
             updateModeUI();
 
             // If daily, check if already completed
@@ -219,16 +242,39 @@ function bootPhylogenle() {
                     return;
                 }
 
-                // Check for in-progress saved guesses and locked target species
+                // Check for in-progress saved guesses and previous target species
                 const activeData = loadActiveGuesses(currentDateStr);
                 let activeGuesses = null;
+                let savedTargetSpecies = null;
                 if (activeData) {
                     if (Array.isArray(activeData)) {
                         activeGuesses = activeData;
                     } else if (activeData.guesses) {
                         activeGuesses = activeData.guesses;
-                        if (activeData.targetSpecies) {
-                            targetSpecies = activeData.targetSpecies;
+                        savedTargetSpecies = activeData.targetSpecies || null;
+                    }
+                }
+
+                // Check if target changed compared to the active saved session
+                if (savedTargetSpecies && savedTargetSpecies !== targetSpecies && activeGuesses && activeGuesses.length > 0) {
+                    if (targetAlertContainer) {
+                        targetAlertContainer.innerHTML = `
+                            <div class="target-mismatch-banner">
+                                <div style="font-size: 1.5rem; line-height: 1;">⚠️</div>
+                                <div class="mismatch-content">
+                                    <strong>Target Organism Updated</strong>
+                                    <p>The daily target organism has changed since your last active session. You can continue or restart the puzzle fresh.</p>
+                                </div>
+                                <button type="button" id="target-mismatch-restart-btn" class="restart-pill-btn">🔄 Restart Puzzle</button>
+                            </div>
+                        `;
+                        const restartBtn = document.getElementById('target-mismatch-restart-btn');
+                        if (restartBtn) {
+                            restartBtn.addEventListener('click', () => {
+                                clearActiveGuesses(currentDateStr);
+                                clearActiveHints(currentDateStr);
+                                initGame();
+                            });
                         }
                     }
                 }
@@ -645,6 +691,7 @@ function bootPhylogenle() {
         };
 
         guesses.push(guessObj);
+        if (targetAlertContainer) targetAlertContainer.innerHTML = '';
         addGuessToBoard(validGuess, wikiTitle, data, isMatch);
         updateTree();
 
@@ -1064,24 +1111,35 @@ function bootPhylogenle() {
         });
     });
 
+    function setGameMode(unlimited) {
+        if (isUnlimited === unlimited) return;
+        isUnlimited = unlimited;
+        if (isUnlimited) {
+            localStorage.setItem('phylogenle_game_mode', 'practice');
+            const newUrl = window.location.pathname + '?mode=practice';
+            window.history.replaceState(null, '', newUrl);
+            initGame();
+        } else {
+            localStorage.setItem('phylogenle_game_mode', 'daily');
+            currentDateStr = getTodayDateStr();
+            puzzleNum = getPuzzleNumber(currentDateStr);
+            window.history.replaceState(null, '', window.location.pathname);
+            initGame();
+        }
+    }
+
+    if (modeDailyBtn) {
+        modeDailyBtn.addEventListener('click', () => setGameMode(false));
+    }
+    if (modePracticeBtn) {
+        modePracticeBtn.addEventListener('click', () => setGameMode(true));
+    }
+
     playAgainBtn.addEventListener('click', () => {
         if (isUnlimited) {
             initGame();
         } else {
-            // Switch to practice or load today
-            isUnlimited = true;
-            initGame();
-        }
-    });
-
-    modeToggleBtn.addEventListener('click', () => {
-        isUnlimited = !isUnlimited;
-        if (isUnlimited) {
-            initGame();
-        } else {
-            currentDateStr = getTodayDateStr();
-            puzzleNum = getPuzzleNumber(currentDateStr);
-            initGame();
+            setGameMode(true);
         }
     });
 

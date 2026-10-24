@@ -71,16 +71,106 @@
     transform: translateY(-1px);
 }
 
-.nav-mode-btn {
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    border-color: rgba(96, 165, 250, 0.3);
+/* Segmented Mode Toggle */
+.mode-segmented-toggle {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 3px;
+    gap: 3px;
 }
 
-.nav-mode-btn.unlimited-active {
-    background: rgba(245, 158, 11, 0.15);
-    border-color: #f59e0b;
-    color: #f59e0b;
+.mode-pill-btn {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    color: var(--text-secondary);
+    padding: 0.45rem 0.85rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    line-height: 1;
+    white-space: nowrap;
+    user-select: none;
+}
+
+.mode-pill-btn:hover:not(.active) {
+    color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.mode-pill-btn#mode-daily-btn.active {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.3), rgba(16, 185, 129, 0.2));
+    border-color: rgba(96, 165, 250, 0.6);
+    color: #60a5fa;
+    font-weight: 700;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.25);
+}
+
+.mode-pill-btn#mode-practice-btn.active {
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.3), rgba(234, 88, 12, 0.2));
+    border-color: rgba(245, 158, 11, 0.7);
+    color: #fbbf24;
+    font-weight: 700;
+    box-shadow: 0 2px 8px rgba(245, 158, 11, 0.25);
+}
+
+/* Target Mismatch Alert Banner */
+.target-mismatch-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.25rem;
+    background: rgba(239, 68, 68, 0.12);
+    border: 1px solid rgba(239, 68, 68, 0.35);
+    border-radius: 14px;
+    animation: fadeIn 0.3s ease;
+}
+
+.target-mismatch-banner .mismatch-content {
+    flex: 1;
+}
+
+.target-mismatch-banner .mismatch-content strong {
+    color: #fca5a5;
+    font-size: 0.98rem;
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.target-mismatch-banner .mismatch-content p {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.restart-pill-btn {
+    background: #ef4444;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 0.55rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 8px rgba(239, 68, 68, 0.35);
+}
+
+.restart-pill-btn:hover {
+    background: #dc2626;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(239, 68, 68, 0.5);
 }
 
 /* Auth Pill Container */

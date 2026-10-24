@@ -110,7 +110,7 @@ Phylogenle's dataset is rigorously calibrated against peer-reviewed molecular bi
   - 🦠 **Bacteria:** 20 species
   - 🔬 **Protists:** 17 species
   - 🧬 **Viruses:** 2 species
-- **Promoted Candidates Log:** 100% of the 3,683 evaluated candidates (plants, fungi, bacteria, sister species, subspecies, and parasites) are fully active in [`EXCLUDED_SPECIES_REVIEW.md`](EXCLUDED_SPECIES_REVIEW.md).
+- **Promoted Candidates Log:** 100% of the 3,683 evaluated candidates (plants, fungi, bacteria, sister species, subspecies, and parasites) are fully active in [`EXCLUDED_SPECIES_REVIEW.md`](docs/EXCLUDED_SPECIES_REVIEW.md).
 - **Original Baseline Guarantee:** 100% of the 344 original species from [`species_list_ORIGINAL_UNTOUCHED.json`](species_list_ORIGINAL_UNTOUCHED.json) remain present and untouched.
 
 ---
