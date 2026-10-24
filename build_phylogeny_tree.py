@@ -103,6 +103,16 @@ def save_tree_formatted(tree_path, tree):
             f.write(f'    {json.dumps(k)}: {json.dumps(v)}{comma}\n')
         f.write('  }\n}\n')
 
+def clean_display_and_scientific(text, sci_fallback=""):
+    scis = re.findall(r'\(([^)]+)\)', text)
+    common = re.sub(r'\s*\([^)]*\)', '', text).strip()
+    sci = sci_fallback.strip()
+    if not sci:
+        sci = scis[-1].strip() if scis else ""
+    c_title = format_clean_title(common)
+    disp = f"{c_title} ({sci})" if sci else c_title
+    return disp, sci
+
 def main():
     print("=== STEP 1: Aggregating Universal Species Pool (Animals + Excluded + Non-Animal Clades) ===")
     
@@ -119,11 +129,9 @@ def main():
         with open(active_path, "r") as f:
             existing_active = json.load(f)
         for s in existing_active:
-            m = re.search(r'^(.*?)\s*\((.*?)\)$', s)
-            if m:
-                combined_species_map[s] = m.group(2).strip()
-            else:
-                combined_species_map[s] = s.strip()
+            disp, sci = clean_display_and_scientific(s)
+            if disp:
+                combined_species_map[disp] = sci
     print(f"Currently active pool loaded: {len(combined_species_map)} species")
 
     # 3. Curated candidate lists
@@ -135,19 +143,13 @@ def main():
         INVERTEBRATE_CANDIDATES
     )
     for name, sci in all_curated:
-        c_clean = name.strip()
-        sci_clean = sci.strip()
-        c_title = format_clean_title(c_clean)
-        disp = f"{c_title} ({sci_clean})" if not c_title.endswith(f"({sci_clean})") else c_title
+        disp, sci_clean = clean_display_and_scientific(name, sci)
         if disp not in combined_species_map:
             combined_species_map[disp] = sci_clean
 
     # 4. Curated excluded candidates (Dog, Dingo, Dodo, Thylacine, Yeast, Parasites, etc.)
     for c in EXCLUDED_CANDIDATES:
-        c_clean = c["common"].strip()
-        sci_clean = c["scientific"].strip()
-        c_title = format_clean_title(c_clean)
-        disp = f"{c_title} ({sci_clean})"
+        disp, sci_clean = clean_display_and_scientific(c["common"], c["scientific"])
         if disp not in combined_species_map:
             combined_species_map[disp] = sci_clean
 
@@ -163,13 +165,13 @@ def main():
             if len(parts) >= 6:
                 common = parts[0].replace("**", "").strip()
                 sci = parts[1].replace("*", "").strip()
-                c_title = format_clean_title(common)
-                disp = f"{c_title} ({sci})"
+                disp, sci_clean = clean_display_and_scientific(common, sci)
+                clean_common = re.sub(r'\s*\([^)]*\)$', '', disp).strip()
                 if disp not in combined_species_map:
-                    combined_species_map[disp] = sci
+                    combined_species_map[disp] = sci_clean
                 excluded_review_records.append({
-                    "common": common,
-                    "scientific": sci,
+                    "common": clean_common,
+                    "scientific": sci_clean,
                     "orig_clade": parts[2],
                     "orig_category": parts[3],
                     "orig_reason": parts[4],
@@ -198,10 +200,9 @@ def main():
         c_clean = re.sub(r'\s+\(Regan & Trewavas,\s*\d{4}\)', '', c_clean)
         c_clean = re.sub(r'\s+\(Regan,\s*\d{4}\)', '', c_clean)
         c_clean = c_clean.strip()
-        c_title = format_clean_title(c_clean)
-        disp = f"{c_title} ({spname.strip()})"
+        disp, sci_clean = clean_display_and_scientific(c_clean, spname.strip())
         if disp not in combined_species_map:
-            combined_species_map[disp] = spname.strip()
+            combined_species_map[disp] = sci_clean
             ncbi_added += 1
 
     # Case-insensitive deduplication while strictly preserving baseline species
@@ -412,7 +413,7 @@ def main():
         taxid = species_to_taxid[sci]
         lin = taxid_to_lineage[taxid]
 
-        common_name = re.sub(r'\s*\([^)]+\)$', '', name).strip()
+        common_name = format_clean_title(re.sub(r'\s*\([^)]*\)', '', name).strip())
         clade = get_clade(taxid, lin, ncbi)
         order_name = "Other"
 

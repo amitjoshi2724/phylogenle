@@ -19,6 +19,9 @@ import {
     saveActiveGuesses, 
     loadActiveGuesses, 
     clearActiveGuesses,
+    saveActiveHints,
+    loadActiveHints,
+    clearActiveHints,
     resetDateRecord,
     resetAllHistory
 } from './storage.js';
@@ -40,11 +43,22 @@ function bootPhylogenle() {
     const puzzleBadge = document.getElementById('puzzle-badge');
     const modeToggleBtn = document.getElementById('mode-toggle-btn');
     const treeContainer = document.getElementById('tree-container');
+    const hintBtn = document.getElementById('hint-btn');
+    const hintsCard = document.getElementById('hints-card');
+    const hintsList = document.getElementById('hints-list');
+    const hintsCountBadge = document.getElementById('hints-count-badge');
 
     // Modals
     const archiveModal = document.getElementById('archive-modal');
     const statsModal = document.getElementById('stats-modal');
     const helpModal = document.getElementById('help-modal');
+    const catalogModal = document.getElementById('catalog-modal');
+    const catalogNavBtn = document.getElementById('catalog-nav-btn');
+    const catalogBottomBtn = document.getElementById('catalog-bottom-btn');
+    const catalogSearchInput = document.getElementById('catalog-search-input');
+    const catalogSearchClear = document.getElementById('catalog-search-clear');
+    const catalogCladeTabs = document.getElementById('catalog-clade-tabs');
+    const catalogContent = document.getElementById('catalog-content');
 
     // Game State
     let isUnlimited = false;
@@ -57,7 +71,16 @@ function bootPhylogenle() {
     let currentFocus = -1;
     let guesses = [];
     let guessedSet = new Set();
+    let revealedHints = [];
     let isGameOver = false;
+
+    // Catalog state
+    let catalogLoaded = false;
+    let catalogMarkdownText = "";
+    let catalogSections = {};
+    let catalogTaxonomyData = null;
+    let currentCatalogClade = "overview";
+    let catalogSearchDebounce = null;
 
     // Calendar state
     const todayObj = parseDate(currentDateStr);
@@ -178,9 +201,11 @@ function bootPhylogenle() {
             // Reset round variables
             guesses = [];
             guessedSet = new Set();
+            revealedHints = [];
             isGameOver = false;
             guessesContainer.innerHTML = '';
             gameEndPanel.classList.add('hidden');
+            renderHintsCard();
             if (inputSection) inputSection.style.display = 'flex';
             animalInput.value = '';
 
@@ -194,6 +219,13 @@ function bootPhylogenle() {
                     return;
                 }
 
+                // Check for in-progress saved hints
+                const activeHints = loadActiveHints(currentDateStr);
+                if (activeHints && Array.isArray(activeHints) && activeHints.length > 0) {
+                    revealedHints = activeHints;
+                    renderHintsCard();
+                }
+
                 // Check for in-progress saved guesses
                 const active = loadActiveGuesses(currentDateStr);
                 if (active && Array.isArray(active) && active.length > 0) {
@@ -202,18 +234,22 @@ function bootPhylogenle() {
                         guessedSet.add(guessKey);
                         guesses.push(g);
                         addGuessToBoard(g.name, g.wikiTitle, {
-                    rank: g.lca_rank,
-                    lca_name: g.lca_name,
-                    major_name: g.major_name || g.lca_name,
-                    time: g.tmrca
-                }, g.isMatch);
+                            rank: g.lca_rank,
+                            lca_name: g.lca_name,
+                            major_name: g.major_name || g.lca_name,
+                            time: g.tmrca
+                        }, g.isMatch);
                     });
                     updateTree();
                     return;
                 }
             }
 
-            drawTree({ name: "?", children: [] });
+            if (revealedHints.length > 0) {
+                updateTree();
+            } else {
+                drawTree({ name: "?", children: [] });
+            }
         } catch (error) {
             console.error("Failed to initialize game:", error);
             guessesContainer.innerHTML = `<div class="error" style="color: #ef4444; padding: 1rem;">Failed to load game data. Please run via a local web server (http://).</div>`;
@@ -277,24 +313,81 @@ function bootPhylogenle() {
         }
     }
 
-    // Toggle Dropdown
+    // ==========================================================================
+    // Feature 2: High-Performance Progressive Infinite-Scroll Autocomplete
+    // ==========================================================================
+    let currentFilteredCandidates = [];
+    let renderedBatchCount = 0;
+    const AUTOCOMPLETE_BATCH_SIZE = 120;
+
+    function renderAutocompleteBatch() {
+        if (!currentFilteredCandidates || renderedBatchCount >= currentFilteredCandidates.length) {
+            updateAutocompleteInfo();
+            return;
+        }
+        const val = animalInput.value.toLowerCase().trim();
+        const nextBatch = currentFilteredCandidates.slice(renderedBatchCount, renderedBatchCount + AUTOCOMPLETE_BATCH_SIZE);
+        let batchHTML = '';
+
+        for (let i = 0; i < nextBatch.length; i++) {
+            const species = nextBatch[i];
+            let displayHtml = species;
+            if (val) {
+                const idx = species.toLowerCase().indexOf(val);
+                if (idx !== -1) {
+                    displayHtml = species.substring(0, idx) + "<strong>" + species.substring(idx, idx + val.length) + "</strong>" + species.substring(idx + val.length);
+                }
+            }
+            if (guessedSet.has(species.toLowerCase())) {
+                batchHTML += `<li class="autocomplete-item guessed-item" style="opacity: 0.45; pointer-events: none; cursor: default;" data-value="${species}">${displayHtml} (Already Guessed)</li>`;
+            } else {
+                batchHTML += `<li class="autocomplete-item" data-value="${species}">${displayHtml}</li>`;
+            }
+        }
+
+        renderedBatchCount += nextBatch.length;
+
+        // Remove old counter indicator before appending next batch
+        const oldCounter = autocompleteList.querySelector('.autocomplete-counter');
+        if (oldCounter) oldCounter.remove();
+
+        autocompleteList.insertAdjacentHTML('beforeend', batchHTML);
+        updateAutocompleteInfo();
+    }
+
+    function updateAutocompleteInfo() {
+        const total = currentFilteredCandidates.length;
+        if (total <= 10) return;
+        let infoEl = autocompleteList.querySelector('.autocomplete-counter');
+        if (!infoEl) {
+            infoEl = document.createElement('div');
+            infoEl.className = 'autocomplete-counter';
+            autocompleteList.appendChild(infoEl);
+        } else {
+            autocompleteList.appendChild(infoEl);
+        }
+
+        if (renderedBatchCount < total) {
+            infoEl.textContent = `Showing ${renderedBatchCount.toLocaleString()} of ${total.toLocaleString()} organisms (scroll for more)`;
+        } else {
+            infoEl.textContent = `All ${total.toLocaleString()} matching organisms loaded`;
+        }
+    }
+
+    // Toggle Dropdown with complete filtering
     function showDropdown() {
         if (isGameOver) return;
         const val = animalInput.value.toLowerCase().trim();
-        let listHTML = '';
-        let matchCount = 0;
-        
+
         if (!val) {
-            for (const species of allSpecies) {
-                listHTML += `<li class="autocomplete-item" data-value="${species}">${species}</li>`;
-                if (++matchCount >= 60) break;
-            }
+            currentFilteredCandidates = allSpecies;
         } else {
             const startsWith = [];
             const wordMatch = [];
             const subMatch = [];
 
-            for (const species of allSpecies) {
+            for (let i = 0; i < allSpecies.length; i++) {
+                const species = allSpecies[i];
                 const sLower = species.toLowerCase();
                 const idx = sLower.indexOf(val);
                 if (idx === -1) continue;
@@ -308,35 +401,16 @@ function bootPhylogenle() {
                 }
             }
 
-            const candidates = [...startsWith, ...wordMatch, ...subMatch];
-            for (const species of candidates) {
-                const idx = species.toLowerCase().indexOf(val);
-                const displayHtml = species.substring(0, idx) + "<strong>" + species.substring(idx, idx + val.length) + "</strong>" + species.substring(idx + val.length);
-                
-                if (guessedSet.has(species.toLowerCase())) {
-                    listHTML += `<li class="autocomplete-item guessed-item" style="opacity: 0.45; pointer-events: none; cursor: default;" data-value="${species}">${displayHtml} (Already Guessed)</li>`;
-                } else {
-                    listHTML += `<li class="autocomplete-item" data-value="${species}">${displayHtml}</li>`;
-                }
-                if (++matchCount >= 80) break;
-            }
+            currentFilteredCandidates = [...startsWith, ...wordMatch, ...subMatch];
         }
-        
-        if (listHTML) {
-            autocompleteList.innerHTML = listHTML;
+
+        autocompleteList.innerHTML = '';
+        renderedBatchCount = 0;
+
+        if (currentFilteredCandidates.length > 0) {
+            renderAutocompleteBatch();
             autocompleteList.classList.add('active');
-            
-            const items = autocompleteList.getElementsByClassName('autocomplete-item');
-            for (let i = 0; i < items.length; i++) {
-                const selectItem = (e) => {
-                    e.preventDefault();
-                    animalInput.value = items[i].getAttribute('data-value');
-                    closeDropdown();
-                    handleGuess();
-                };
-                items[i].addEventListener('mousedown', selectItem);
-                items[i].addEventListener('click', selectItem);
-            }
+            autocompleteList.scrollTop = 0;
         } else {
             closeDropdown();
         }
@@ -349,9 +423,33 @@ function bootPhylogenle() {
         currentFocus = -1;
     }
 
+    // Event delegation on autocompleteList for silky-smooth item selection
+    const handleAutocompleteSelect = (e) => {
+        const item = e.target.closest('.autocomplete-item');
+        if (item && !item.classList.contains('guessed-item')) {
+            e.preventDefault();
+            animalInput.value = item.getAttribute('data-value');
+            closeDropdown();
+            handleGuess();
+        }
+    };
+    autocompleteList.addEventListener('mousedown', handleAutocompleteSelect);
+    autocompleteList.addEventListener('click', handleAutocompleteSelect);
+
+    // Infinite scroll listener: renders next batch when near bottom of scroll container
+    autocompleteList.addEventListener('scroll', () => {
+        if (autocompleteList.scrollTop + autocompleteList.clientHeight >= autocompleteList.scrollHeight - 160) {
+            renderAutocompleteBatch();
+        }
+    });
+
     animalInput.addEventListener('click', showDropdown);
     animalInput.addEventListener('input', showDropdown);
-    animalInput.addEventListener('keyup', showDropdown);
+    animalInput.addEventListener('keyup', (e) => {
+        if (e.keyCode !== 38 && e.keyCode !== 40 && e.keyCode !== 13) {
+            showDropdown();
+        }
+    });
     animalInput.addEventListener('focus', showDropdown);
 
     document.addEventListener('click', (e) => {
@@ -364,6 +462,10 @@ function bootPhylogenle() {
         let x = autocompleteList.getElementsByClassName('autocomplete-item');
         if (e.keyCode === 40) { // Down
             currentFocus++;
+            if (currentFocus >= x.length - 4 && renderedBatchCount < currentFilteredCandidates.length) {
+                renderAutocompleteBatch();
+                x = autocompleteList.getElementsByClassName('autocomplete-item');
+            }
             addActive(x);
         } else if (e.keyCode === 38) { // Up
             currentFocus--;
@@ -371,8 +473,14 @@ function bootPhylogenle() {
         } else if (e.keyCode === 13) { // Enter
             e.preventDefault();
             if (currentFocus > -1 && x && x[currentFocus]) {
-                x[currentFocus].click();
+                const val = x[currentFocus].getAttribute('data-value');
+                if (val) {
+                    animalInput.value = val;
+                    closeDropdown();
+                    handleGuess();
+                }
             } else if (animalInput.value) {
+                closeDropdown();
                 handleGuess();
             }
         }
@@ -530,6 +638,148 @@ function bootPhylogenle() {
             finishGame(true);
         }
     }
+
+    // ==========================================================================
+    // Feature 4: Taxonomic Rank Hint System
+    // ==========================================================================
+    const MAIN_RANKS_ORDER = ['Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus'];
+    const RANK_EMOJIS = {
+        'Kingdom': '🟫',
+        'Phylum': '🟦',
+        'Class': '🟪',
+        'Order': '🟥',
+        'Family': '🟧',
+        'Genus': '🟨',
+        'Species': '🟩'
+    };
+
+    function getTargetTaxonomyRanks() {
+        const targetKey = targetSpecies.toLowerCase();
+        const targetLin = (phylogenyTree && phylogenyTree.species) ? phylogenyTree.species[targetKey] : null;
+        const result = {};
+        if (!targetLin || !phylogenyTree.nodes) return result;
+
+        for (const nid of targetLin) {
+            const node = phylogenyTree.nodes[nid];
+            if (!node) continue;
+            const r = node.rank;
+            if (MAIN_RANKS_ORDER.includes(r) && !result[r]) {
+                result[r] = {
+                    rank: r,
+                    name: node.major_name || node.name,
+                    wikiTitle: node.name,
+                    time: node.time
+                };
+            }
+        }
+        return result;
+    }
+
+    function getNextTaxonomicRankHint() {
+        const targetRanks = getTargetTaxonomyRanks();
+        
+        // 1. Identify which ranks are already matched by player's guesses
+        const matchedRanks = new Set();
+        guesses.forEach(g => {
+            const r = g.lca_rank;
+            const idx = MAIN_RANKS_ORDER.indexOf(r);
+            if (idx !== -1) {
+                for (let i = 0; i <= idx; i++) {
+                    matchedRanks.add(MAIN_RANKS_ORDER[i]);
+                }
+            }
+            if (g.isMatch) {
+                MAIN_RANKS_ORDER.forEach(rk => matchedRanks.add(rk));
+            }
+        });
+
+        // 2. Identify which ranks have already been given by prior hints
+        const hintedRanks = new Set(revealedHints.map(h => h.rank));
+
+        // 3. Find the first rank in MAIN_RANKS_ORDER that is NOT yet matched or hinted
+        for (const r of MAIN_RANKS_ORDER) {
+            if (!matchedRanks.has(r) && !hintedRanks.has(r) && targetRanks[r]) {
+                return {
+                    type: 'rank',
+                    rank: r,
+                    name: targetRanks[r].name,
+                    wikiTitle: targetRanks[r].wikiTitle || targetRanks[r].name,
+                    time: targetRanks[r].time
+                };
+            }
+        }
+
+        // 4. If all 6 ranks are matched or hinted, provide a species clue
+        if (!hintedRanks.has('Species')) {
+            const common = targetSpecies.split(' (')[0];
+            const latinMatch = targetSpecies.match(/\((.*?)\)/);
+            const latin = latinMatch ? latinMatch[1] : common;
+            return {
+                type: 'species',
+                rank: 'Species',
+                name: `Starts with "${common[0]}" (Latin: "${latin[0]}...")`,
+                wikiTitle: latin,
+                time: 0.0
+            };
+        }
+
+        return null;
+    }
+
+    function handleHintRequest() {
+        if (isGameOver) return;
+        const hint = getNextTaxonomicRankHint();
+        if (!hint) {
+            alert("All main taxonomic rank clues have already been revealed or deduced by your guesses!");
+            return;
+        }
+
+        revealedHints.push(hint);
+        if (!isUnlimited) {
+            saveActiveHints(currentDateStr, revealedHints);
+        }
+
+        renderHintsCard();
+        updateTree();
+    }
+
+    function renderHintsCard() {
+        if (!hintsCard || !hintsList) return;
+        if (revealedHints.length === 0) {
+            hintsCard.classList.add('hidden');
+            return;
+        }
+
+        hintsCard.classList.remove('hidden');
+        if (hintsCountBadge) {
+            hintsCountBadge.textContent = `${revealedHints.length} Clue${revealedHints.length > 1 ? 's' : ''} Used`;
+        }
+
+        let html = '';
+        revealedHints.forEach(h => {
+            const emoji = RANK_EMOJIS[h.rank] || '💡';
+            const rankClass = `hint-${h.rank.toLowerCase()}`;
+            html += `
+                <div class="hint-pill ${rankClass} taxa-link" data-query="${encodeURIComponent(h.wikiTitle || h.name)}">
+                    <span class="hint-pill-rank">${emoji} ${h.rank}:</span>
+                    <span class="hint-pill-name">${h.name} &#8594;</span>
+                </div>
+            `;
+        });
+        hintsList.innerHTML = html;
+
+        // Attach Wikipedia tooltips and click-to-open on hint pills
+        hintsList.querySelectorAll('.hint-pill').forEach(pill => {
+            const query = decodeURIComponent(pill.getAttribute('data-query'));
+            pill.addEventListener('mouseenter', (e) => showWikiTooltip(e, query));
+            pill.addEventListener('mouseleave', hideWikiTooltip);
+            pill.addEventListener('click', () => {
+                window.open(`https://en.wikipedia.org/wiki/${encodeURIComponent(query)}`, '_blank');
+            });
+        });
+    }
+
+    hintBtn?.addEventListener('click', handleHintRequest);
 
     function getGuessRankEmoji(g) {
         if (g.isMatch || g.lca_rank === 'Species') return '🟩';
@@ -911,11 +1161,13 @@ function bootPhylogenle() {
             return { name: defaultRootName, rank: defaultRank };
         }
 
-        if (sortedGuesses.length === 0) {
+        const rankHints = revealedHints.filter(h => h.type === 'rank');
+        if (sortedGuesses.length === 0 && rankHints.length === 0) {
             if (isGameOver) {
                 const tr = getTargetRootInfo();
                 drawTree({
                     name: tr.name,
+                    wikiTitle: tr.name,
                     rank: tr.rank,
                     isTrunk: true,
                     children: [mysteryNode]
@@ -928,13 +1180,29 @@ function bootPhylogenle() {
 
         const trunkMap = new Map();
 
+        // 1. Add revealed rank hints to the trunk
+        rankHints.forEach(h => {
+            if (h.name && !trunkMap.has(h.name)) {
+                trunkMap.set(h.name, {
+                    name: h.name,
+                    wikiTitle: h.wikiTitle || h.name,
+                    rank: h.rank,
+                    time: h.time !== undefined ? h.time : 100,
+                    isTrunk: true,
+                    isHint: true,
+                    guessChildren: []
+                });
+            }
+        });
+
         sortedGuesses.forEach(g => {
             if (g.isMatch) return;
-            // 1. Major Linnaean rank node (e.g. Mammalia, Carnivora, Chordata)
+            // 2. Major Linnaean rank node (e.g. Mammalia, Carnivora, Chordata)
             if (g.major_name && g.major_name !== g.lca_name && g.major_name !== 'Unknown' && g.major_name !== 'root') {
                 if (!trunkMap.has(g.major_name)) {
                     trunkMap.set(g.major_name, {
                         name: g.major_name,
+                        wikiTitle: g.major_name,
                         rank: g.major_rank || g.lca_rank,
                         time: g.major_time !== undefined ? g.major_time : (g.tmrca * 1.5),
                         isTrunk: true,
@@ -943,10 +1211,11 @@ function bootPhylogenle() {
                 }
             }
 
-            // 2. Specific LCA subclade node (e.g. Boreoeutheria, Caniformia)
+            // 3. Specific LCA subclade node (e.g. Boreoeutheria, Caniformia)
             if (!trunkMap.has(g.lca_name)) {
                 trunkMap.set(g.lca_name, {
                     name: g.lca_name,
+                    wikiTitle: g.lca_name,
                     rank: g.lca_rank,
                     time: g.tmrca,
                     isTrunk: true,
@@ -976,6 +1245,7 @@ function bootPhylogenle() {
             const tr = getTargetRootInfo();
             drawTree({
                 name: tr.name,
+                wikiTitle: tr.name,
                 rank: tr.rank,
                 isTrunk: true,
                 children: [mysteryNode]
@@ -998,7 +1268,7 @@ function bootPhylogenle() {
         const topNames = new Set(["Life", "Cellular organisms", "cellular organisms", "root", "Eukaryota", "Bacteria", "Archaea", "Animalia", "Metazoa", "Plantae", "Viridiplantae", "Fungi"]);
         if (!topRanks.has(root.rank) && !topNames.has(root.name)) {
             const tr = getTargetRootInfo();
-            root = { name: tr.name, rank: tr.rank, isTrunk: true, children: [root] };
+            root = { name: tr.name, wikiTitle: tr.name, rank: tr.rank, isTrunk: true, children: [root] };
         }
 
         drawTree(root);
@@ -1211,6 +1481,26 @@ function bootPhylogenle() {
             }
         });
 
+        // Make entire node group (circle, pill background, text) interactive with Wikipedia tooltips and links
+        node.each(function(d) {
+            const isInteractable = !d.data.isMystery || (d.data.isMystery && d.data.name !== "?");
+            if (!isInteractable) return;
+            const query = d.data.wikiTitle || d.data.name;
+            if (!query || query === "Unknown" || query === "root" || query === "?") return;
+
+            const gEl = d3.select(this);
+            gEl.classed("taxa-clickable", true);
+
+            gEl.on("mouseenter", function(e) {
+                showWikiTooltip(e, query);
+            })
+            .on("mouseleave", hideWikiTooltip)
+            .on("click", function(e) {
+                if (treeContainer.classList.contains("is-dragging")) return;
+                window.open(`https://en.wikipedia.org/wiki/${encodeURIComponent(query)}`, '_blank');
+            });
+        });
+
         // Initial Smart View Fitting: center and scale the tree to container
         const padX = 45;
         const padY = 50;
@@ -1250,6 +1540,337 @@ function bootPhylogenle() {
     });
 
     // ==========================================================================
+    // Feature 3: Universal Species Catalog In-App Viewer
+    // ==========================================================================
+    async function openCatalogModal() {
+        if (!catalogModal) return;
+        catalogModal.classList.add('active');
+        if (!catalogLoaded) {
+            await loadSpeciesCatalog();
+        } else {
+            renderCatalogView();
+        }
+    }
+
+    async function loadSpeciesCatalog() {
+        if (!catalogContent) return;
+        catalogContent.innerHTML = `
+            <div class="catalog-loading">
+                <span class="catalog-spinner">🧬</span>
+                <p>Loading Universal Species Catalog (29,748 species)...</p>
+            </div>
+        `;
+
+        try {
+            const [mdResp, taxResp] = await Promise.all([
+                fetch('species_catalog.md?v=tree_8'),
+                fetch('data/species_taxonomy_catalog.json?v=tree_8')
+            ]);
+
+            if (!mdResp.ok) throw new Error(`HTTP ${mdResp.status} loading species_catalog.md`);
+            catalogMarkdownText = await mdResp.text();
+
+            if (taxResp.ok) {
+                catalogTaxonomyData = await taxResp.json();
+            }
+
+            parseCatalogSections(catalogMarkdownText);
+            catalogLoaded = true;
+            renderCatalogView();
+        } catch (err) {
+            console.error("Failed to load species catalog:", err);
+            catalogContent.innerHTML = `
+                <div class="catalog-empty-notice" style="color: #ef4444;">
+                    Failed to load species catalog. Please check local server connection.
+                </div>
+            `;
+        }
+    }
+
+    function parseCatalogSections(md) {
+        catalogSections = {};
+        const sections = md.split(/(?=^##\s+)/m);
+        for (const sec of sections) {
+            const trimmed = sec.trim();
+            if (!trimmed) continue;
+            if (trimmed.includes("Clade Distribution Overview")) {
+                catalogSections["overview"] = trimmed;
+            } else if (trimmed.includes("Mammals")) {
+                catalogSections["Mammals"] = trimmed;
+            } else if (trimmed.includes("Birds")) {
+                catalogSections["Birds"] = trimmed;
+            } else if (trimmed.includes("Reptiles")) {
+                catalogSections["Reptiles"] = trimmed;
+            } else if (trimmed.includes("Amphibians")) {
+                catalogSections["Amphibians"] = trimmed;
+            } else if (trimmed.includes("Fishes")) {
+                catalogSections["Fishes"] = trimmed;
+            } else if (trimmed.includes("Invertebrates")) {
+                catalogSections["Invertebrates"] = trimmed;
+            } else if (trimmed.includes("Plants")) {
+                catalogSections["Plants"] = trimmed;
+            } else if (trimmed.includes("Fungi")) {
+                catalogSections["Fungi"] = trimmed;
+            } else if (trimmed.includes("Bacteria")) {
+                catalogSections["Bacteria"] = trimmed;
+            } else if (trimmed.includes("Protists")) {
+                catalogSections["Protists"] = trimmed;
+            } else if (trimmed.includes("Viruses")) {
+                catalogSections["Viruses"] = trimmed;
+            }
+        }
+    }
+
+    function renderMarkdown(md) {
+        if (window.marked && typeof window.marked.parse === 'function') {
+            return window.marked.parse(md);
+        }
+        return parseMarkdownFallback(md);
+    }
+
+    function parseMarkdownFallback(md) {
+        let html = '';
+        const lines = md.split('\n');
+        let inTable = false;
+
+        for (let line of lines) {
+            const trimmed = line.trim();
+            if (trimmed.startsWith('|') && trimmed.endsWith('|')) {
+                if (/^\|(\s*:?-+:?\s*\|)+$/.test(trimmed)) {
+                    continue;
+                }
+                const cells = trimmed.slice(1, -1).split('|').map(c => c.trim());
+                if (!inTable) {
+                    html += '<table class="catalog-table"><thead><tr>';
+                    cells.forEach(c => html += `<th>${formatInlineMarkdown(c)}</th>`);
+                    html += '</tr></thead><tbody>';
+                    inTable = true;
+                } else {
+                    html += '<tr>';
+                    cells.forEach(c => html += `<td>${formatInlineMarkdown(c)}</td>`);
+                    html += '</tr>';
+                }
+                continue;
+            }
+
+            if (inTable) {
+                html += '</tbody></table>';
+                inTable = false;
+            }
+
+            if (trimmed.startsWith('### ')) {
+                html += `<h3>${formatInlineMarkdown(trimmed.substring(4))}</h3>`;
+            } else if (trimmed.startsWith('## ')) {
+                html += `<h2>${formatInlineMarkdown(trimmed.substring(3))}</h2>`;
+            } else if (trimmed.startsWith('# ')) {
+                html += `<h1>${formatInlineMarkdown(trimmed.substring(2))}</h1>`;
+            } else if (trimmed === '---') {
+                html += '<hr>';
+            } else if (trimmed) {
+                html += `<p>${formatInlineMarkdown(trimmed)}</p>`;
+            }
+        }
+
+        if (inTable) {
+            html += '</tbody></table>';
+        }
+        return html;
+    }
+
+    function formatInlineMarkdown(str) {
+        return str
+            .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+            .replace(/\*(.*?)\*/g, '<em>$1</em>')
+            .replace(/`([^`]+)`/g, '<code>$1</code>');
+    }
+
+    function enhanceCatalogTableHtml(rawHtml) {
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = rawHtml;
+
+        const tables = tempDiv.querySelectorAll('table');
+        tables.forEach(table => {
+            const headerRow = table.querySelector('thead tr');
+            if (headerRow) {
+                const th = document.createElement('th');
+                th.textContent = 'Action';
+                th.style.width = '100px';
+                headerRow.appendChild(th);
+            }
+
+            const bodyRows = table.querySelectorAll('tbody tr');
+            bodyRows.forEach(row => {
+                const cells = row.querySelectorAll('td');
+                if (cells.length >= 2) {
+                    const commonName = cells[0].textContent.trim();
+                    const sciName = cells[1].textContent.trim();
+                    const fullSpecies = `${commonName} (${sciName})`;
+
+                    const actionTd = document.createElement('td');
+                    actionTd.innerHTML = `<button class="catalog-guess-btn" data-species="${encodeURIComponent(fullSpecies)}">🎯 Guess</button>`;
+                    row.appendChild(actionTd);
+                }
+            });
+        });
+
+        return tempDiv.innerHTML;
+    }
+
+    function renderCatalogView() {
+        if (!catalogContent) return;
+        const searchQuery = catalogSearchInput ? catalogSearchInput.value.toLowerCase().trim() : '';
+
+        if (searchQuery) {
+            renderCatalogSearchResults(searchQuery);
+            return;
+        }
+
+        if (currentCatalogClade === 'all') {
+            let fullHtml = '';
+            for (const key of ['overview', 'Mammals', 'Birds', 'Reptiles', 'Amphibians', 'Fishes', 'Invertebrates', 'Plants', 'Fungi', 'Bacteria', 'Protists', 'Viruses']) {
+                if (catalogSections[key]) {
+                    fullHtml += renderMarkdown(catalogSections[key]);
+                }
+            }
+            catalogContent.innerHTML = enhanceCatalogTableHtml(fullHtml);
+            catalogContent.scrollTop = 0;
+            return;
+        }
+
+        const secMd = catalogSections[currentCatalogClade] || catalogSections['overview'] || catalogMarkdownText;
+        if (!secMd) {
+            catalogContent.innerHTML = `<div class="catalog-empty-notice">No content found for this clade.</div>`;
+            return;
+        }
+
+        const rawHtml = renderMarkdown(secMd);
+        catalogContent.innerHTML = (currentCatalogClade === 'overview') ? rawHtml : enhanceCatalogTableHtml(rawHtml);
+        catalogContent.scrollTop = 0;
+    }
+
+    function renderCatalogSearchResults(query) {
+        if (!catalogContent) return;
+        let matches = [];
+
+        if (catalogTaxonomyData && Array.isArray(catalogTaxonomyData)) {
+            for (let i = 0; i < catalogTaxonomyData.length; i++) {
+                const item = catalogTaxonomyData[i];
+                if (item.common.toLowerCase().includes(query) ||
+                    item.scientific.toLowerCase().includes(query) ||
+                    (item.subclade && item.subclade.toLowerCase().includes(query)) ||
+                    (item.clade && item.clade.toLowerCase().includes(query))) {
+                    matches.push(item);
+                    if (matches.length >= 100) break;
+                }
+            }
+        } else {
+            for (let i = 0; i < allSpecies.length; i++) {
+                const sp = allSpecies[i];
+                if (sp.toLowerCase().includes(query)) {
+                    const common = sp.split(' (')[0];
+                    const sciMatch = sp.match(/\((.*?)\)/);
+                    matches.push({
+                        display: sp,
+                        common: common,
+                        scientific: sciMatch ? sciMatch[1] : '',
+                        clade: '',
+                        subclade: ''
+                    });
+                    if (matches.length >= 100) break;
+                }
+            }
+        }
+
+        if (matches.length === 0) {
+            catalogContent.innerHTML = `
+                <div class="catalog-empty-notice">
+                    No organisms found matching "<strong>${query}</strong>".<br>
+                    <span style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 6px; display: inline-block;">
+                        Try searching by genus, common name, or taxonomic order.
+                    </span>
+                </div>
+            `;
+            return;
+        }
+
+        let html = `
+            <h2>🔍 Search Results for "${query}"</h2>
+            <p style="color: var(--text-secondary); font-size: 0.85rem;">Showing top ${matches.length} matching organisms (click "🎯 Guess" to select):</p>
+            <table class="catalog-table">
+                <thead>
+                    <tr>
+                        <th>Common Name</th>
+                        <th>Scientific Name</th>
+                        <th>Clade / Order</th>
+                        <th style="width: 100px;">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+        `;
+
+        for (const m of matches) {
+            const fullSpecies = m.display || `${m.common} (${m.scientific})`;
+            const cladeInfo = m.clade ? (m.subclade ? `${m.clade} • ${m.subclade}` : m.clade) : '';
+            html += `
+                <tr>
+                    <td><strong>${m.common}</strong></td>
+                    <td><em>${m.scientific}</em></td>
+                    <td><span style="font-size: 0.8rem; color: #94a3b8;">${cladeInfo}</span></td>
+                    <td><button class="catalog-guess-btn" data-species="${encodeURIComponent(fullSpecies)}">🎯 Guess</button></td>
+                </tr>
+            `;
+        }
+
+        html += `</tbody></table>`;
+        catalogContent.innerHTML = html;
+        catalogContent.scrollTop = 0;
+    }
+
+    // Catalog event bindings
+    catalogContent?.addEventListener('click', (e) => {
+        const btn = e.target.closest('.catalog-guess-btn');
+        if (btn) {
+            const rawSp = btn.getAttribute('data-species');
+            if (rawSp) {
+                const sp = decodeURIComponent(rawSp);
+                closeModal(catalogModal);
+                animalInput.value = sp;
+                handleGuess();
+            }
+        }
+    });
+
+    catalogCladeTabs?.addEventListener('click', (e) => {
+        const btn = e.target.closest('.catalog-tab-btn');
+        if (btn) {
+            catalogCladeTabs.querySelectorAll('.catalog-tab-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            currentCatalogClade = btn.getAttribute('data-clade') || 'overview';
+            if (catalogSearchInput) catalogSearchInput.value = '';
+            if (catalogSearchClear) catalogSearchClear.classList.add('hidden');
+            renderCatalogView();
+        }
+    });
+
+    catalogSearchInput?.addEventListener('input', () => {
+        const val = catalogSearchInput.value.trim();
+        if (catalogSearchClear) {
+            if (val) catalogSearchClear.classList.remove('hidden');
+            else catalogSearchClear.classList.add('hidden');
+        }
+        clearTimeout(catalogSearchDebounce);
+        catalogSearchDebounce = setTimeout(() => {
+            renderCatalogView();
+        }, 150);
+    });
+
+    catalogSearchClear?.addEventListener('click', () => {
+        if (catalogSearchInput) catalogSearchInput.value = '';
+        catalogSearchClear.classList.add('hidden');
+        renderCatalogView();
+    });
+
+    // ==========================================================================
     // Modals & Navigation Handling
     // ==========================================================================
     function openModal(modal) {
@@ -1257,6 +1878,7 @@ function bootPhylogenle() {
         modal.classList.add('active');
         if (modal === archiveModal) renderArchiveModal();
         if (modal === statsModal) renderStatsModal();
+        if (modal === catalogModal) openCatalogModal();
     }
 
     function closeModal(modal) {
@@ -1280,6 +1902,8 @@ function bootPhylogenle() {
     document.getElementById('archive-modal-btn')?.addEventListener('click', () => openModal(archiveModal));
     document.getElementById('stats-modal-btn')?.addEventListener('click', () => openModal(statsModal));
     document.getElementById('help-modal-btn')?.addEventListener('click', () => openModal(helpModal));
+    catalogNavBtn?.addEventListener('click', openCatalogModal);
+    catalogBottomBtn?.addEventListener('click', openCatalogModal);
 
     // Archive Reset Toolbar
     const archiveResetCurrentBtn = document.getElementById('archive-reset-current-btn');

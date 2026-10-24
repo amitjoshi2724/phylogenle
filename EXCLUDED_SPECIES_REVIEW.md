@@ -1,7 +1,7 @@
 # 📋 Phylogenle Excluded & Deferred Species Review Log
 
-**Last Updated:** 2026-10-23 19:33:48
-**Total Active Species in Game:** 30694
+**Last Updated:** 2026-10-23 20:05:42
+**Total Active Species in Game:** 29748
 **Total Candidates Promoted to Active Roster:** 3683
 **Currently Excluded:** 0
 
@@ -46,27 +46,27 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Large White / Cabbage White** | *Pieris brassicae* | Invertebrates | Cryptic or Obscure Species | Very plain white butterfly often conflated with Small White (Pieris rapae). Excluded to avoid ambiguous guess confusion. | **Promoted to Active Game Roster** |
 | **Common Carder Bee** | *Bombus pascuorum* | Invertebrates | Cryptic or Obscure Species | Visually subtle bumblebee. Buff-tailed Bumblebee (Bombus terrestris) and Red-tailed Bumblebee (Bombus lapidarius) provide cleaner identification. | **Promoted to Active Game Roster** |
 | **Moseley's Velvet Worm** | *Peripatopsis moseleyi* | Invertebrates | Cryptic or Obscure Species | Obscure South African velvet worm. Epiperipatus biolleyi was selected as the primary Onychophora exemplar. | **Promoted to Active Game Roster** |
-| **Freshwater Planarian (Polychroa)** | *Schmidtea polychroa* | Invertebrates | Cryptic or Obscure Species | Sister species to Schmidtea mediterranea with virtually indistinguishable morphology to non-specialists. | **Promoted to Active Game Roster** |
+| **Freshwater Planarian** | *Schmidtea polychroa* | Invertebrates | Cryptic or Obscure Species | Sister species to Schmidtea mediterranea with virtually indistinguishable morphology to non-specialists. | **Promoted to Active Game Roster** |
 | **Magna Water Flea** | *Daphnia magna* | Invertebrates | Cryptic or Obscure Species | Sister species to Common Water Flea (Daphnia pulex). Including both 'Water Flea' species creates severe user ambiguity in search dropdown. | **Promoted to Active Game Roster** |
-| **European Green Toad (Sister)** | *Bufotes balearicus* | Amphibians | Cryptic or Obscure Species | Cryptic Italian/Balaeric sister species to European Green Toad (Bufotes viridis), recently split based solely on mitochondrial DNA. | **Promoted to Active Game Roster** |
+| **European Green Toad** | *Bufotes balearicus* | Amphibians | Cryptic or Obscure Species | Cryptic Italian/Balaeric sister species to European Green Toad (Bufotes viridis), recently split based solely on mitochondrial DNA. | **Promoted to Active Game Roster** |
 | **Trichina Worm / Pork Worm** | *Trichinella spiralis* | Invertebrates | Microscopic / Parasitic Organism | Intracellular microscopic parasitic roundworm causing trichinosis. Excluded for gameplay tone and lack of macroscopic visual tree intuition. | **Promoted to Active Game Roster** |
 | **Human Pinworm** | *Enterobius vermicularis* | Invertebrates | Microscopic / Parasitic Organism | Obligate human intestinal parasite. Excluded for family-friendly gameplay tone. | **Promoted to Active Game Roster** |
 | **Liver Fluke** | *Fasciola hepatica* | Invertebrates | Microscopic / Parasitic Organism | Parasitic flatworm of ruminants and humans. Freshwater planarian (Schmidtea) retained as free-living platyhelminth exemplar. | **Promoted to Active Game Roster** |
 | **Pork Tapeworm** | *Taenia solium* | Invertebrates | Microscopic / Parasitic Organism | Endoparasitic cestode. Deferring internal human parasites from the primary daily puzzle roster. | **Promoted to Active Game Roster** |
-| **Model Nematode (Briggsae)** | *Caenorhabditis briggsae* | Invertebrates | Microscopic / Parasitic Organism | Microscopic soil nematode used as genomics twin to C. elegans. C. elegans already represents the genus. | **Promoted to Active Game Roster** |
+| **Model Nematode** | *Caenorhabditis briggsae* | Invertebrates | Microscopic / Parasitic Organism | Microscopic soil nematode used as genomics twin to C. elegans. C. elegans already represents the genus. | **Promoted to Active Game Roster** |
 | **Dust Mite** | *Dermatophagoides pteronyssinus* | Invertebrates | Microscopic / Parasitic Organism | Microscopic synanthropic arachnid (0.2-0.3mm). Excluded in favor of macroscopic arachnids (spiders, scorpions, ticks). | **Promoted to Active Game Roster** |
 | **American Black Duck** | *Anas rubripes* | Birds | Deferred Sister Species | Very close sister species to Mallard (Anas platyrhynchos) with frequent hybridization and <0.5 MYA divergence. Mallard, Pintail, Teal, and Wood Duck already provide rich Anseriformes representation. | **Promoted to Active Game Roster** |
 | **Rough-legged Buzzard** | *Buteo lagopus* | Birds | Deferred Sister Species | Sister hawk to Red-tailed Hawk (Buteo jamaicensis) and Common Buzzard (Buteo buteo). Deferred to balance raptor diversity across other families (kites, harriers, falcons). | **Promoted to Active Game Roster** |
 | **Merlin** | *Falco columbarius* | Birds | Deferred Sister Species | Small falcon. Falconidae already features Peregrine Falcon, Gyrfalcon, Common Kestrel, and American Kestrel. | **Promoted to Active Game Roster** |
 | **Eurasian Wigeon** | *Mareca penelope* | Birds | Deferred Sister Species | Dabbling duck. Deferred to preserve balanced proportions between waterfowl, wading birds, and passerines. | **Promoted to Active Game Roster** |
-| **Sunda Pangolin (Sister)** | *Manis culionensis* | Mammals | Deferred Sister Species | Palawan Pangolin. Sunda Pangolin (Manis javanica) and Ground Pangolin (Smutsia temminckii) provide primary representation for Asian and African pangolins. | **Promoted to Active Game Roster** |
+| **Sunda Pangolin** | *Manis culionensis* | Mammals | Deferred Sister Species | Palawan Pangolin. Sunda Pangolin (Manis javanica) and Ground Pangolin (Smutsia temminckii) provide primary representation for Asian and African pangolins. | **Promoted to Active Game Roster** |
 | **Amur Leopard** | *Panthera pardus orientalis* | Mammals | Deferred Sister Species | Critically endangered Far Eastern subspecies of Leopard (Panthera pardus). | **Promoted to Active Game Roster** |
 | **Chilean Recluse Spider** | *Loxosceles laeta* | Invertebrates | Deferred Sister Species | South American sister species to Brown Recluse (Loxosceles reclusa). Brown recluse is already included. | **Promoted to Active Game Roster** |
-| **Spotted Hyena (Sister / Fossil)** | *Crocuta crocuta spelaea* | Mammals | Deferred Sister Species | Extinct Cave Hyena subspecies. Roster focused on extant species with living phylogenetic observation data. | **Promoted to Active Game Roster** |
-| **Drosophila simulans** | *Drosophila simulans* | Invertebrates | Deferred Sister Species | Cryptic sister fruit fly to Drosophila melanogaster. Diverged ~2.5 MYA but visually nearly identical. | **Promoted to Active Game Roster** |
+| **Spotted Hyena** | *Crocuta crocuta spelaea* | Mammals | Deferred Sister Species | Extinct Cave Hyena subspecies. Roster focused on extant species with living phylogenetic observation data. | **Promoted to Active Game Roster** |
+| **Drosophila Simulans** | *Drosophila simulans* | Invertebrates | Deferred Sister Species | Cryptic sister fruit fly to Drosophila melanogaster. Diverged ~2.5 MYA but visually nearly identical. | **Promoted to Active Game Roster** |
 | **Lesser Flamingo** | *Phoeniconaias minor* | Birds | Deferred Sister Species | Sister flamingo. Greater Flamingo and American Flamingo already anchor the Phoenicopteridae family. | **Promoted to Active Game Roster** |
-| **Slime Mold (Dictyostelium)** | *Dictyostelium discoideum* | Non-Animal / Protist | Non-Animal or Disputed Classification | Amoebozoan slime mold, outside Kingdom Animalia (Metazoa). Phylogenle is strictly dedicated to Animalia. | **Promoted to Active Game Roster** |
-| **Green Alga (Volvox)** | *Volvox carteri* | Non-Animal / Protist | Non-Animal or Disputed Classification | Colonial chlorophyte green alga (Plantae/Viridiplantae). Outside Metazoa. | **Promoted to Active Game Roster** |
+| **Slime Mold** | *Dictyostelium discoideum* | Non-Animal / Protist | Non-Animal or Disputed Classification | Amoebozoan slime mold, outside Kingdom Animalia (Metazoa). Phylogenle is strictly dedicated to Animalia. | **Promoted to Active Game Roster** |
+| **Green Alga** | *Volvox carteri* | Non-Animal / Protist | Non-Animal or Disputed Classification | Colonial chlorophyte green alga (Plantae/Viridiplantae). Outside Metazoa. | **Promoted to Active Game Roster** |
 | **Giardia** | *Giardia duodenalis* | Non-Animal / Protist | Non-Animal or Disputed Classification | Single-celled flagellated diplomonad parasite. Non-metazoan protist. | **Promoted to Active Game Roster** |
 | **Yeast** | *Saccharomyces cerevisiae* | Non-Animal / Fungi | Non-Animal or Disputed Classification | Fungal model organism. Excluded as game is strictly animal taxonomy. | **Promoted to Active Game Roster** |
 | **Kodiak Bear** | *Ursus arctos middendorffi* | Mammals | Subspecies / Taxonomic Duplicate | Subspecies of Brown Bear (Ursus arctos). Brown Bear is already included. | **Promoted to Active Game Roster** |
@@ -82,41 +82,41 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Dodo** | *Raphus cucullatus* | Birds | Deferred Sister Species | Extinct flightless columbid bird (extinct late 17th century). Excluded to keep pool to living species. | **Promoted to Active Game Roster** |
 | **Passenger Pigeon** | *Ectopistes migratorius* | Birds | Deferred Sister Species | Extinct North American columbid (extinct 1914). | **Promoted to Active Game Roster** |
 | **Giant Intestinal Roundworm** | *Ascaris lumbricoides* | Invertebrates | Microscopic / Parasitic Organism | Large human intestinal parasitic nematode. Excluded for game tone. | **Promoted to Active Game Roster** |
-| **Blood Fluke (Schistosoma)** | *Schistosoma mansoni* | Invertebrates | Microscopic / Parasitic Organism | Human blood parasite causing schistosomiasis. Excluded from general wildlife puzzle. | **Promoted to Active Game Roster** |
+| **Blood Fluke** | *Schistosoma mansoni* | Invertebrates | Microscopic / Parasitic Organism | Human blood parasite causing schistosomiasis. Excluded from general wildlife puzzle. | **Promoted to Active Game Roster** |
 | **Aseev** | *Asian elephant endotheliolytic herpesvirus* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Afeev** | *African elephant endotheliolytic herpesvirus* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **laver** | *Porphyra umbilicalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **asakusa nori** | *Pyropia tenera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **susabi-nori** | *Pyropia yezoensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Tyzzer's bacillus** | *[Clostridium] piliforme* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Quin's oval** | *Quinella ovalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **CDC Enteric Group 1** | *Pseudescherichia vulneris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **son-killer infecting Nasonia vitripennis** | *Arsenophonus nasoniae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Bugula neritina bacterial symbiont** | *Candidatus Endobugula sertula* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **primary endosymbiont of Bemisia tabaci** | *Candidatus Portiera aleyrodidarum* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **cat scratch disease bacillus** | *Afipia felis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Potomac horse fever agent** | *Neorickettsia risticii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **corky root of lettuce** | *Rhizorhapis suberifaciens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Laver** | *Porphyra umbilicalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Asakusa Nori** | *Pyropia tenera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Susabi-nori** | *Pyropia yezoensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tyzzer's Bacillus** | *[Clostridium] piliforme* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Quin's Oval** | *Quinella ovalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cdc Enteric Group 1** | *Pseudescherichia vulneris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Son-killer Infecting Nasonia Vitripennis** | *Arsenophonus nasoniae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bugula Neritina Bacterial Symbiont** | *Candidatus Endobugula sertula* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Primary Endosymbiont of Bemisia Tabaci** | *Candidatus Portiera aleyrodidarum* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Cat Scratch Disease Bacillus** | *Afipia felis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Potomac Horse Fever Agent** | *Neorickettsia risticii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Corky Root of Lettuce** | *Rhizorhapis suberifaciens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Scheibenbakterien Muller 1911** | *Simonsiella muelleri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Lyme disease spirochete** | *Borreliella burgdorferi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **dulse** | *Palmaria palmata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **carragheen** | *Chondrus crispus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **anthrax bacterium** | *Bacillus anthracis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **'Wodyetia bifurcata' yellow decline phytoplasma** | *Candidatus Phytoplasma wodyetiae* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Dermacentor andersoni endosymbiont** | *Francisella sp. DAS* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **heartwater rickettsia** | *Ehrlichia ruminantium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **agent of canine granulocytic ehrlichiosis** | *Ehrlichia sp. 'CGE agent'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **agent of llama granulocytic ehrlichiosis** | *Ehrlichia sp. 'LGE agent'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **white plague pathogen** | *Sphingomonas sp. WP1* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **lettuce downy mildew** | *Bremia lactucae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **potato late blight agent** | *Phytophthora infestans* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **black shank of tobacco agent** | *Phytophthora nicotianae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sudden oak death agent** | *Phytophthora ramorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **agent of rickettsialpox** | *Rickettsia akari* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pea aphid rickettsia** | *Rickettsia sp. PAR* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **mermaid's wine glass** | *Acetabularia acetabulum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hollow green seaweed** | *Ulva intestinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sea lettuce** | *Ulva arasakii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lyme Disease Spirochete** | *Borreliella burgdorferi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Dulse** | *Palmaria palmata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Carragheen** | *Chondrus crispus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Anthrax Bacterium** | *Bacillus anthracis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **'wodyetia Bifurcata' Yellow Decline Phytoplasma** | *Candidatus Phytoplasma wodyetiae* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Dermacentor Andersoni Endosymbiont** | *Francisella sp. DAS* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Heartwater Rickettsia** | *Ehrlichia ruminantium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Agent of Canine Granulocytic Ehrlichiosis** | *Ehrlichia sp. 'CGE agent'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Agent of Llama Granulocytic Ehrlichiosis** | *Ehrlichia sp. 'LGE agent'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **White Plague Pathogen** | *Sphingomonas sp. WP1* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Lettuce Downy Mildew** | *Bremia lactucae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Potato Late Blight Agent** | *Phytophthora infestans* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Black Shank of Tobacco Agent** | *Phytophthora nicotianae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sudden Oak Death Agent** | *Phytophthora ramorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Agent of Rickettsialpox** | *Rickettsia akari* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pea Aphid Rickettsia** | *Rickettsia sp. PAR* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Mermaid's Wine Glass** | *Acetabularia acetabulum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hollow Green Seaweed** | *Ulva intestinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sea Lettuce** | *Ulva arasakii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Giant Barrel Sponge** | *Xestospongia muta* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Giant Barrel Sponge (Xestospongia muta) | **Promoted to Active Game Roster** |
 | **Erect Rope Sponge** | *Amphimedon compressa* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Erect Rope Sponge (Amphimedon compressa) | **Promoted to Active Game Roster** |
 | **Azure Vase Sponge** | *Callyspongia plicifera* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Azure Vase Sponge (Callyspongia plicifera) | **Promoted to Active Game Roster** |
@@ -139,21 +139,21 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Moon Jelly** | *Aurelia aurita* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Moon Jelly (Aurelia aurita) | **Promoted to Active Game Roster** |
 | **Brownbanded Moon Jelly** | *Aurelia limbata* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Brownbanded Moon Jelly (Aurelia limbata) | **Promoted to Active Game Roster** |
 | **Eggyolk Jelly** | *Phacellophora camtschatica* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Eggyolk Jelly (Phacellophora camtschatica) | **Promoted to Active Game Roster** |
-| **malaria parasite P. vivax** | *Plasmodium vivax* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **malaria parasite P. ovale** | *Plasmodium ovale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **malaria parasite P. falciparum** | *Plasmodium falciparum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Atlantic wakame** | *Alaria esculenta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **giant kelp** | *Macrocystis pyrifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Engelmann's quillwort** | *Isoetes engelmannii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **spiny-spored quillwort** | *Isoetes echinospora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **fission yeast** | *Schizosaccharomyces pombe* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **peach leaf curl fungus** | *Taphrina deformans* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **flax rust** | *Melampsora lini* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **birnengitterrost** | *Gymnosporangium sabinae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cedar-apple rust** | *Gymnosporangium juniperi-virginianae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **corn smut** | *Mycosarcoma maydis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wheat bunt fungus** | *Tilletia caries* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **dwarf bunt fungus** | *Tilletia controversa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Malaria Parasite P. Vivax** | *Plasmodium vivax* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Malaria Parasite P. Ovale** | *Plasmodium ovale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Malaria Parasite P. Falciparum** | *Plasmodium falciparum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Atlantic Wakame** | *Alaria esculenta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Giant Kelp** | *Macrocystis pyrifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Engelmann's Quillwort** | *Isoetes engelmannii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spiny-spored Quillwort** | *Isoetes echinospora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Fission Yeast** | *Schizosaccharomyces pombe* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Peach Leaf Curl Fungus** | *Taphrina deformans* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Flax Rust** | *Melampsora lini* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Birnengitterrost** | *Gymnosporangium sabinae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cedar-apple Rust** | *Gymnosporangium juniperi-virginianae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Corn Smut** | *Mycosarcoma maydis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wheat Bunt Fungus** | *Tilletia caries* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Dwarf Bunt Fungus** | *Tilletia controversa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Brown Encrusting Octopus Sponge** | *Ectyoplasia ferox* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Brown Encrusting Octopus Sponge (Ectyoplasia ferox) | **Promoted to Active Game Roster** |
 | **Boot Sponge** | *Acanthascus dawsoni* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Boot Sponge (Acanthascus dawsoni) | **Promoted to Active Game Roster** |
 | **Belt Jellyfish** | *Aequorea coerulescens* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Belt Jellyfish (Aequorea coerulescens) | **Promoted to Active Game Roster** |
@@ -172,30 +172,30 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Alderslade's Carrot Coral** | *Paraminabea aldersladei* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Alderslade's Carrot Coral (Paraminabea aldersladei) | **Promoted to Active Game Roster** |
 | **Chewbacca Bamboo Coral** | *Iridogorgia chewbacca* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Chewbacca Bamboo Coral (Iridogorgia chewbacca) | **Promoted to Active Game Roster** |
 | **Deadman's Fingers** | *Briareum asbestinum* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Deadman's Fingers (Briareum asbestinum) | **Promoted to Active Game Roster** |
-| **rock snot** | *Didymosphenia geminata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common liverwort** | *Marchantia polymorpha* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **naugehyde liverwort** | *Ptilidium pulcherrimum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Catherine's moss** | *Atrichum undulatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Martens's spike moss** | *Selaginella martensii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **meadow spike moss** | *Selaginella apoda* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **blue spikemoss** | *Selaginella uncinata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **stag's-horn clubmoss** | *Lycopodium clavatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **ground cedar** | *Diphasiastrum tristachyum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **shining club moss** | *Huperzia lucidula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **brewer's yeast** | *Saccharomyces cerevisiae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Perigord truffle** | *Tuber melanosporum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white Piedmont truffle** | *Tuber magnatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **whitish truffle** | *Tuber borchii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **summer truffle** | *Tuber aestivum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **winter truffle** | *Tuber brumale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **orange peel mushroom** | *Aleuria aurantia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **jelly ear fungus** | *Auricularia auricula-judae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **razor strop fungus** | *Fomitopsis betulina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **maitake** | *Grifola frondosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **golden chanterelle** | *Cantharellus cibarius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bleeding tooth fungus** | *Hydnellum peckii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pink disease fungus** | *Erythricium salmonicolor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lion's mane mushroom** | *Hericium erinaceus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rock Snot** | *Didymosphenia geminata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Liverwort** | *Marchantia polymorpha* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Naugehyde Liverwort** | *Ptilidium pulcherrimum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Catherine's Moss** | *Atrichum undulatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Martens's Spike Moss** | *Selaginella martensii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Meadow Spike Moss** | *Selaginella apoda* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Blue Spikemoss** | *Selaginella uncinata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Stag's-horn Clubmoss** | *Lycopodium clavatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ground Cedar** | *Diphasiastrum tristachyum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Shining Club Moss** | *Huperzia lucidula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Brewer's Yeast** | *Saccharomyces cerevisiae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Perigord Truffle** | *Tuber melanosporum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Piedmont Truffle** | *Tuber magnatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Whitish Truffle** | *Tuber borchii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Summer Truffle** | *Tuber aestivum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Winter Truffle** | *Tuber brumale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Orange Peel Mushroom** | *Aleuria aurantia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Jelly Ear Fungus** | *Auricularia auricula-judae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Razor Strop Fungus** | *Fomitopsis betulina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Maitake** | *Grifola frondosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Golden Chanterelle** | *Cantharellus cibarius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bleeding Tooth Fungus** | *Hydnellum peckii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pink Disease Fungus** | *Erythricium salmonicolor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lion's Mane Mushroom** | *Hericium erinaceus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Club Hydroid** | *Clava multicornis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Club Hydroid (Clava multicornis) | **Promoted to Active Game Roster** |
 | **Penicillate Jellyfish** | *Polyorchis penicillatus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Penicillate Jellyfish (Polyorchis penicillatus) | **Promoted to Active Game Roster** |
 | **Green Hydra** | *Hydra viridissima* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Green Hydra (Hydra viridissima) | **Promoted to Active Game Roster** |
@@ -228,36 +228,36 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Sea Pansy** | *Renilla reniformis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Sea Pansy (Renilla reniformis) | **Promoted to Active Game Roster** |
 | **Mueller's Sea Pansy** | *Renilla muelleri* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Mueller's Sea Pansy (Renilla muelleri) | **Promoted to Active Game Roster** |
 | **Slender Sea Pen** | *Stylatula elongata* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Slender Sea Pen (Stylatula elongata) | **Promoted to Active Game Roster** |
-| **Florida anisetree** | *Illicium floridanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese magnolia-vine** | *Schisandra chinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bay starvine** | *Schisandra glabra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yellow pond lily** | *Nuphar polysepala* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mexican water lily** | *Nymphaea mexicana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pocket water lily** | *Nymphaea colorata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Santa Cruz water-lily** | *Victoria cruziana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Amazon water-lily** | *Victoria amazonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **field horsetail** | *Equisetum arvense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **giant horsetail** | *Equisetum telmateia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Dutch rush** | *Equisetum hyemale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **turnip fern** | *Angiopteris lygodiifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **European water clover** | *Marsilea quadrifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American pillwort** | *Pilularia americana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mosquito fern** | *Azolla caroliniana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cinnamon fern** | *Osmundastrum cinnamomeum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **golden chicken fern** | *Cibotium barometz* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Mexican tree fern** | *Cibotium schiedei* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **woodchip morel** | *Morchella rufobrunnea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cultivated mushroom** | *Agaricus bisporus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **parasol mushroom** | *Macrolepiota procera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **fly agaric** | *Amanita muscaria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **European destroying angel** | *Amanita virosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **eastern North American destroying angel** | *Amanita bisporigera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **spring destroying angel** | *Amanita verna* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **western North American destroying angel** | *Amanita ocreata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **shiitake mushroom** | *Lentinula edodes* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **fairy-ring Marasmius** | *Marasmius oreades* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cornucopia mushroom** | *Pleurotus cornucopiae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **oyster mushroom** | *Pleurotus ostreatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Florida Anisetree** | *Illicium floridanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Magnolia-vine** | *Schisandra chinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bay Starvine** | *Schisandra glabra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yellow Pond Lily** | *Nuphar polysepala* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mexican Water Lily** | *Nymphaea mexicana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pocket Water Lily** | *Nymphaea colorata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Santa Cruz Water-lily** | *Victoria cruziana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Amazon Water-lily** | *Victoria amazonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Field Horsetail** | *Equisetum arvense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Giant Horsetail** | *Equisetum telmateia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Dutch Rush** | *Equisetum hyemale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Turnip Fern** | *Angiopteris lygodiifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **European Water Clover** | *Marsilea quadrifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Pillwort** | *Pilularia americana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mosquito Fern** | *Azolla caroliniana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cinnamon Fern** | *Osmundastrum cinnamomeum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Golden Chicken Fern** | *Cibotium barometz* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mexican Tree Fern** | *Cibotium schiedei* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Woodchip Morel** | *Morchella rufobrunnea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cultivated Mushroom** | *Agaricus bisporus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Parasol Mushroom** | *Macrolepiota procera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Fly Agaric** | *Amanita muscaria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **European Destroying Angel** | *Amanita virosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Eastern North American Destroying Angel** | *Amanita bisporigera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spring Destroying Angel** | *Amanita verna* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Western North American Destroying Angel** | *Amanita ocreata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Shiitake Mushroom** | *Lentinula edodes* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Fairy-ring Marasmius** | *Marasmius oreades* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cornucopia Mushroom** | *Pleurotus cornucopiae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Oyster Mushroom** | *Pleurotus ostreatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Artichoke Coral** | *Scolymia cubensis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Artichoke Coral (Scolymia cubensis) | **Promoted to Active Game Roster** |
 | **Spiny Flower Coral** | *Mussa angulosa* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Spiny Flower Coral (Mussa angulosa) | **Promoted to Active Game Roster** |
 | **Vase Tunicate** | *Ciona intestinalis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Vase Tunicate (Ciona intestinalis) | **Promoted to Active Game Roster** |
@@ -270,38 +270,38 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Amphioxus** | *Branchiostoma lanceolatum* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Amphioxus (Branchiostoma lanceolatum) | **Promoted to Active Game Roster** |
 | **Belcher's Lancelet** | *Branchiostoma belcheri* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Belcher's Lancelet (Branchiostoma belcheri) | **Promoted to Active Game Roster** |
 | **Japanese Lancelet** | *Branchiostoma japonicum* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Japanese Lancelet (Branchiostoma japonicum) | **Promoted to Active Game Roster** |
-| **rough-shell Queensland nut** | *Macadamia tetraphylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **queen sugarbush** | *Protea magnifica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **marsh rose** | *Orothamnus zeyheri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **fern-leaved grevillea** | *Grevillea pteridifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American sycamore** | *Platanus occidentalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **California sycamore** | *Platanus racemosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American lotus** | *Nelumbo lutea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sacred lotus** | *Nelumbo nucifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **kamraj** | *Helminthostachys zeylanica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **limestone adder's-tongue** | *Ophioglossum engelmannii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **southern adder's-tongue** | *Ophioglossum vulgatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **netted adder's-tongue** | *Ophioglossum reticulatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **moonwort** | *Botrychium lunaria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **daisy-leaved grape fern** | *Botrychium matricariifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **little grapefern** | *Botrychium simplex* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bird's-nest fern** | *Asplenium nidus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hart's tongue** | *Asplenium scolopendrium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hen and chicks fern** | *Asplenium bulbiferum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **necklace fern** | *Asplenium flabellifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **drooping spleenwort** | *Asplenium flaccidum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sickle spleenwort** | *Asplenium polyodon* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **ostrich fern** | *Matteuccia struthiopteris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Boston fern** | *Nephrolepis exaltata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hay-scented fern** | *Dennstaedtia punctilobula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Samoan cup fern** | *Dennstaedtia samoensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common bracken** | *Pteridium aquilinum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **grape powdery mildew** | *Erysiphe necator* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **leaf blotch of barley** | *Rhynchosporium secalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **swamp beacon** | *Mitrula paludosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **creosote fungus** | *Amorphotheca resinae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **needle-cast of pine** | *Cyclaneusma niveum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **devil's bolete** | *Rubroboletus satanas* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rough-shell Queensland Nut** | *Macadamia tetraphylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Queen Sugarbush** | *Protea magnifica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Marsh Rose** | *Orothamnus zeyheri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Fern-leaved Grevillea** | *Grevillea pteridifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Sycamore** | *Platanus occidentalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **California Sycamore** | *Platanus racemosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Lotus** | *Nelumbo lutea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sacred Lotus** | *Nelumbo nucifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Kamraj** | *Helminthostachys zeylanica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Limestone Adder's-tongue** | *Ophioglossum engelmannii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Southern Adder's-tongue** | *Ophioglossum vulgatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Netted Adder's-tongue** | *Ophioglossum reticulatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Moonwort** | *Botrychium lunaria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Daisy-leaved Grape Fern** | *Botrychium matricariifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Little Grapefern** | *Botrychium simplex* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bird's-nest Fern** | *Asplenium nidus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hart's Tongue** | *Asplenium scolopendrium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hen and Chicks Fern** | *Asplenium bulbiferum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Necklace Fern** | *Asplenium flabellifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Drooping Spleenwort** | *Asplenium flaccidum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sickle Spleenwort** | *Asplenium polyodon* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ostrich Fern** | *Matteuccia struthiopteris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Boston Fern** | *Nephrolepis exaltata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hay-scented Fern** | *Dennstaedtia punctilobula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Samoan Cup Fern** | *Dennstaedtia samoensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Bracken** | *Pteridium aquilinum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Grape Powdery Mildew** | *Erysiphe necator* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Leaf Blotch of Barley** | *Rhynchosporium secalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Swamp Beacon** | *Mitrula paludosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Creosote Fungus** | *Amorphotheca resinae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Needle-cast of Pine** | *Cyclaneusma niveum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Devil's Bolete** | *Rubroboletus satanas* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Human Whipworm** | *Trichuris trichiura* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Human Whipworm (Trichuris trichiura) | **Promoted to Active Game Roster** |
 | **Pig Whipworm** | *Trichuris suis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Pig Whipworm (Trichuris suis) | **Promoted to Active Game Roster** |
 | **Pink Velvet Worm** | *Opisthopatus roseus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Pink Velvet Worm (Opisthopatus roseus) | **Promoted to Active Game Roster** |
@@ -309,103 +309,103 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Corrugated Ribbon Worm** | *Parborlasia corrugatus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Corrugated Ribbon Worm (Parborlasia corrugatus) | **Promoted to Active Game Roster** |
 | **Giant Thorny-headed Worm** | *Macracanthorhynchus hirudinaceus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Giant Thorny-headed Worm (Macracanthorhynchus hirudinaceus) | **Promoted to Active Game Roster** |
 | **Common Feather Star** | *Florometra serratissima* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Common Feather Star (Florometra serratissima) | **Promoted to Active Game Roster** |
-| **wapato** | *Sagittaria latifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Texas mudbaby** | *Echinodorus cordifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Richardson's pondweed** | *Potamogeton richardsonii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **curly-leaf pondweed** | *Potamogeton crispus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **grass-leaf pondweed** | *Potamogeton gramineus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **spiny naiad** | *Najas marina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **brittle naiad** | *Najas minor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American eelgrass** | *Vallisneria americana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hydrilla** | *Hydrilla verticillata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American frogbit** | *Limnobium spongia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **flowering-rush** | *Butomus umbellatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wapato** | *Sagittaria latifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Texas Mudbaby** | *Echinodorus cordifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Richardson's Pondweed** | *Potamogeton richardsonii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Curly-leaf Pondweed** | *Potamogeton crispus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Grass-leaf Pondweed** | *Potamogeton gramineus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spiny Naiad** | *Najas marina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Brittle Naiad** | *Najas minor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Eelgrass** | *Vallisneria americana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hydrilla** | *Hydrilla verticillata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Frogbit** | *Limnobium spongia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Flowering-rush** | *Butomus umbellatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Cape-pondweed** | *Aponogeton distachyos* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Eurasian sweet-flag** | *Acorus calamus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese goldthread** | *Coptis japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **early meadow-rue** | *Thalictrum dioicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **purple meadow-rue** | *Thalictrum dasycarpum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tall meadow-rue** | *Thalictrum pubescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **veiny meadow-rue** | *Thalictrum venulosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bird-in-a-bush** | *Corydalis solida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **turkey corn** | *Dicentra eximia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Allegheny vine** | *Adlumia fungosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pink corydalis** | *Capnoides sempervirens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common fumitory** | *Fumaria officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **California poppy** | *Eschscholzia californica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **opium poppy** | *Papaver somniferum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **corn poppy** | *Papaver rhoeas* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **western poppy** | *Papaver californicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Iceland poppy** | *Papaver nudicaule* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red puccoon** | *Sanguinaria canadensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **celandine poppy** | *Stylophorum diphyllum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yellow poppywort** | *Meconopsis integrifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **alpine poppy** | *Oreomecon alpina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cucumber-tree** | *Magnolia acuminata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **saucer magnolia** | *Magnolia x soulangeana* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **star magnolia** | *Magnolia stellata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Yulan magnolia** | *Magnolia denudata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese bigleaf magnolia** | *Magnolia obovata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **nutmeg** | *Myristica fragrans* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red ucuuba** | *Virola sebifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **eastern sweetshrub** | *Calycanthus floridus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **western sweetshrub** | *Calycanthus occidentalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **avocado** | *Persea americana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **California bay** | *Umbellularia californica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **camphor tree** | *Cinnamomum camphora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Ceylon cinnamon** | *Cinnamomum verum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese cinnamon** | *Cinnamomum yabunikkei* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **corduroy laurel** | *Cryptocarya corrugata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **aromatic litsea** | *Litsea cubeba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **northern spicebush** | *Lindera benzoin* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **northern grey sassafras** | *Doryphora aromatica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yellow sassafras** | *Doryphora sassafras* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **northern sassafras** | *Daphnandra repandula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red-flowered socketwood** | *Daphnandra tenuipes* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **woolly Dutchman's pipe** | *Aristolochia tomentosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pelican-flower** | *Aristolochia grandiflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **European birthwort** | *Aristolochia clematitis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **slender Dutchman's pipe** | *Aristolochia debilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Eurasian Sweet-flag** | *Acorus calamus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Goldthread** | *Coptis japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Early Meadow-rue** | *Thalictrum dioicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Purple Meadow-rue** | *Thalictrum dasycarpum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tall Meadow-rue** | *Thalictrum pubescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Veiny Meadow-rue** | *Thalictrum venulosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bird-in-a-bush** | *Corydalis solida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Turkey Corn** | *Dicentra eximia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Allegheny Vine** | *Adlumia fungosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pink Corydalis** | *Capnoides sempervirens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Fumitory** | *Fumaria officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **California Poppy** | *Eschscholzia californica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Opium Poppy** | *Papaver somniferum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Corn Poppy** | *Papaver rhoeas* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Western Poppy** | *Papaver californicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Iceland Poppy** | *Papaver nudicaule* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red Puccoon** | *Sanguinaria canadensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Celandine Poppy** | *Stylophorum diphyllum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yellow Poppywort** | *Meconopsis integrifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Alpine Poppy** | *Oreomecon alpina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cucumber-tree** | *Magnolia acuminata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Saucer Magnolia** | *Magnolia x soulangeana* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Star Magnolia** | *Magnolia stellata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yulan Magnolia** | *Magnolia denudata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Bigleaf Magnolia** | *Magnolia obovata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Nutmeg** | *Myristica fragrans* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red Ucuuba** | *Virola sebifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Eastern Sweetshrub** | *Calycanthus floridus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Western Sweetshrub** | *Calycanthus occidentalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Avocado** | *Persea americana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **California Bay** | *Umbellularia californica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Camphor Tree** | *Cinnamomum camphora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ceylon Cinnamon** | *Cinnamomum verum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Cinnamon** | *Cinnamomum yabunikkei* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Corduroy Laurel** | *Cryptocarya corrugata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Aromatic Litsea** | *Litsea cubeba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Northern Spicebush** | *Lindera benzoin* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Northern Grey Sassafras** | *Doryphora aromatica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yellow Sassafras** | *Doryphora sassafras* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Northern Sassafras** | *Daphnandra repandula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red-flowered Socketwood** | *Daphnandra tenuipes* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Woolly Dutchman's Pipe** | *Aristolochia tomentosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pelican-flower** | *Aristolochia grandiflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **European Birthwort** | *Aristolochia clematitis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Slender Dutchman's Pipe** | *Aristolochia debilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Manchurian Dutchmanspipe** | *Aristolochia manshuriensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **coin leaf plant** | *Peperomia polybotrya* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **ivy leaf peperomia** | *Peperomia griseoargentea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **baby rubberplant** | *Peperomia obtusifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lizard's tail** | *Saururus cernuus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **chameleon-plant** | *Houttuynia cordata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wild cinnamon** | *Canella winterana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Altenstein's bread tree** | *Encephalartos altensteinii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Mexican horncone** | *Ceratozamia mexicana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese ephedra** | *Ephedra sinica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **popote** | *Ephedra antisyphilitica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **maidenhair tree** | *Ginkgo biloba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **elephant's-ear fern** | *Platycerium angolense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Appalachian polypody** | *Polypodium appalachianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **licorice fern** | *Polypodium glycyrrhiza* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Hawaiian polypody** | *Polypodium pellucidum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **leathery polypody** | *Polypodium scouleri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Canary Islands polypody** | *Polypodium macaronesicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **western swordfern** | *Polystichum munitum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Christmas fern** | *Polystichum acrostichoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **intermediate wood fern** | *Dryopteris intermedia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Indian holly fern** | *Arachniodes aristata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **delta maidenhair fern** | *Adiantum raddianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **shoestring fern** | *Vittaria lineata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **coast leather fern** | *Acrostichum aureum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese claw fern** | *Onychium japonicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Ehrenberg's copper fern** | *Bommeria ehrenbergiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **coffee fern** | *Pellaea andromedifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **button fern** | *Pellaea rotundifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **delicate cloak fern** | *Argyrochosma delicatula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **golden cloak fern** | *Myriopteris aurea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hairy lip-fern** | *Myriopteris lanosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **peppermint drop lichen** | *Icmadophila ericetorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **citrus scab fungus** | *Elsinoe fawcettii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tomato leaf spot fungus** | *Septoria lycopersici* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **whiskey fungus** | *Baudoinia compniacensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **ergot fungus** | *Claviceps purpurea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **paspalum staggers ergot** | *Claviceps paspali* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **arsenic fungus** | *Scopulariopsis brevicaulis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **eastern filbert blight pathogen** | *Anisogramma anomala* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coin Leaf Plant** | *Peperomia polybotrya* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ivy Leaf Peperomia** | *Peperomia griseoargentea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Baby Rubberplant** | *Peperomia obtusifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lizard's Tail** | *Saururus cernuus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chameleon-plant** | *Houttuynia cordata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wild Cinnamon** | *Canella winterana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Altenstein's Bread Tree** | *Encephalartos altensteinii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mexican Horncone** | *Ceratozamia mexicana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Ephedra** | *Ephedra sinica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Popote** | *Ephedra antisyphilitica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Maidenhair Tree** | *Ginkgo biloba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Elephant's-ear Fern** | *Platycerium angolense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Appalachian Polypody** | *Polypodium appalachianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Licorice Fern** | *Polypodium glycyrrhiza* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hawaiian Polypody** | *Polypodium pellucidum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Leathery Polypody** | *Polypodium scouleri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Canary Islands Polypody** | *Polypodium macaronesicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Western Swordfern** | *Polystichum munitum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Christmas Fern** | *Polystichum acrostichoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Intermediate Wood Fern** | *Dryopteris intermedia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Indian Holly Fern** | *Arachniodes aristata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Delta Maidenhair Fern** | *Adiantum raddianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Shoestring Fern** | *Vittaria lineata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coast Leather Fern** | *Acrostichum aureum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Claw Fern** | *Onychium japonicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ehrenberg's Copper Fern** | *Bommeria ehrenbergiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coffee Fern** | *Pellaea andromedifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Button Fern** | *Pellaea rotundifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Delicate Cloak Fern** | *Argyrochosma delicatula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Golden Cloak Fern** | *Myriopteris aurea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hairy Lip-fern** | *Myriopteris lanosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Peppermint Drop Lichen** | *Icmadophila ericetorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Citrus Scab Fungus** | *Elsinoe fawcettii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tomato Leaf Spot Fungus** | *Septoria lycopersici* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Whiskey Fungus** | *Baudoinia compniacensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ergot Fungus** | *Claviceps purpurea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Paspalum Staggers Ergot** | *Claviceps paspali* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Arsenic Fungus** | *Scopulariopsis brevicaulis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Eastern Filbert Blight Pathogen** | *Anisogramma anomala* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Guinea Worm** | *Dracunculus medinensis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Guinea Worm (Dracunculus medinensis) | **Promoted to Active Game Roster** |
 | **Southeast Asian Horseshoe Crab** | *Carcinoscorpius rotundicauda* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Southeast Asian Horseshoe Crab (Carcinoscorpius rotundicauda) | **Promoted to Active Game Roster** |
 | **Atlantic Horseshoe Crab** | *Limulus polyphemus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Atlantic Horseshoe Crab (Limulus polyphemus) | **Promoted to Active Game Roster** |
@@ -462,121 +462,121 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Lake Lamprey** | *Entosphenus macrostoma* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Lake Lamprey (Entosphenus macrostoma) | **Promoted to Active Game Roster** |
 | **Turkish Brook Lamprey** | *Eudontomyzon lanceolata* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Turkish Brook Lamprey (Eudontomyzon lanceolata) | **Promoted to Active Game Roster** |
 | **Korean Lamprey** | *Eudontomyzon morii* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Korean Lamprey (Eudontomyzon morii) | **Promoted to Active Game Roster** |
-| **swollen duckweed** | *Lemna gibba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **greater duckweed** | *Spirodela polyrhiza* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **marsh calla** | *Calla palustris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Henry's lily** | *Lilium henryi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **trumpet lily** | *Lilium longiflorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bamboo lily** | *Lilium japonicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Hong Kong lily** | *Lilium brownii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Manchurian turk's-cap lily** | *Lilium distichum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Kamchatka fritillary** | *Fritillaria camschatcensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Swollen Duckweed** | *Lemna gibba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Greater Duckweed** | *Spirodela polyrhiza* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Marsh Calla** | *Calla palustris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Henry's Lily** | *Lilium henryi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Trumpet Lily** | *Lilium longiflorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bamboo Lily** | *Lilium japonicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hong Kong Lily** | *Lilium brownii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Manchurian Turk's-cap Lily** | *Lilium distichum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Kamchatka Fritillary** | *Fritillaria camschatcensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Christmas-bells** | *Sandersonia aurantiaca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cat greenbrier** | *Smilax glauca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **roundleaf greenbrier** | *Smilax rotundifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **autumn-crocus** | *Colchicum autumnale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **flame lily** | *Gloriosa superba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **green slangkop** | *Ornithoglossum viride* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red trillium** | *Trillium erectum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **large white trillium** | *Trillium grandiflorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **little sweet Betsy** | *Trillium cuneatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **prairie trillium** | *Trillium recurvatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **California false hellebore** | *Veratrum californicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese yam** | *Dioscorea japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yellow Guinea yam** | *Dioscorea cayenensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **air-potato** | *Dioscorea bulbifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **purple yam** | *Dioscorea alata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese yam** | *Dioscorea polystachya* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cush-cush yam** | *Dioscorea trifida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **black bryony** | *Dioscorea communis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bitter yam** | *Dioscorea dumetorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lesser yam** | *Dioscorea esculenta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Polynesian arrowroot** | *Tacca leontopetaloides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **black bat flower** | *Tacca chantrieri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white bat flower** | *Tacca integrifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **thatch screwpine** | *Pandanus tectorius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Panama-hat palm** | *Carludovica palmata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **spring adonis** | *Adonis vernalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pheasant's-eye** | *Adonis annua* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **low larkspur** | *Delphinium bicolor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **upland larkspur** | *Delphinium nuttallianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **love-in-a-mist** | *Nigella damascena* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **black cumin** | *Nigella sativa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sweet autumn clematis** | *Clematis terniflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **scarlet leather flower** | *Clematis texensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **swamp leatherflower** | *Clematis crispa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **flaccid anemone** | *Anemonastrum flaccidum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tall buttercup** | *Ranunculus acris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Persian buttercup** | *Ranunculus asiaticus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **serendipity berry** | *Dioscoreophyllum cumminsii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **five-leaf akebia** | *Akebia quinata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **blue cohosh** | *Caulophyllum thalictroides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **heavenly bamboo** | *Nandina domestica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American barberry** | *Berberis canadensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cascade Oregon-grape** | *Berberis nervosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **European barberry** | *Berberis vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **vanilla leaf** | *Achlys triphylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **large flowered barrenwort** | *Epimedium grandiflorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **umbrella leaf** | *Diphylleia cymosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Henkel's yellowwood** | *Podocarpus henkelii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **real yellowwood** | *Podocarpus latifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **celery pine** | *Phyllocladus trichomanoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Huon pine** | *Lagarostrobos franklinii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **outeniqua yellowwood** | *Afrocarpus falcatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **monkey-puzzle tree** | *Araucaria araucana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hoop pine** | *Araucaria cunninghamii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **western redcedar** | *Thuja plicata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese cedar** | *Cryptomeria japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Ozark white cedar** | *Juniperus ashei* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common juniper** | *Juniperus communis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Phoenician juniper** | *Juniperus phoenicea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **African juniper** | *Juniperus procera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Tibetan juniper** | *Juniperus tibetica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **drooping juniper** | *Juniperus flaccida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **one-seed juniper** | *Juniperus monosperma* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Montezuma bald cypress** | *Taxodium mucronatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Lawson's cypress** | *Chamaecyparis lawsoniana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sawara cypress** | *Chamaecyparis pisifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Atlantic white cedar** | *Chamaecyparis thyoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **coast redwood** | *Sequoia sempervirens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **giant sequoia** | *Sequoiadendron giganteum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Alaska yellow cedar** | *Callitropsis nootkatensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Leyland cypress** | *x Hesperotropsis leylandii* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **English yew** | *Taxus baccata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Canada yew** | *Taxus canadensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese yew** | *Taxus cuspidata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese plum yew** | *Cephalotaxus fortunei* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese torreya** | *Torreya nucifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Florida torreya** | *Torreya taxifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **California red fir** | *Abies magnifica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **subalpine fir** | *Abies lasiocarpa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **European silver fir** | *Abies alba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **grand fir** | *Abies grandis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Spanish fir** | *Abies pinsapo* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bristle-cone fir** | *Abies bracteata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **momi fir** | *Abies firma* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Caucasian fir** | *Abies nordmanniana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Taiwan fir** | *Abies kawakamii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **deodar cedar** | *Cedrus deodara* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tamarack** | *Larix laricina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **western larch** | *Larix occidentalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Norway spruce** | *Picea abies* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white spruce** | *Picea glauca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Colorado spruce** | *Picea pungens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Sitka spruce** | *Picea sitchensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Engelmann spruce** | *Picea engelmannii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Mexican spruce** | *Picea mexicana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Alcock's spruce** | *Picea alcoquiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Koyama's spruce** | *Picea koyamae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Qinghai spruce** | *Picea crassifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cat Greenbrier** | *Smilax glauca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Roundleaf Greenbrier** | *Smilax rotundifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Autumn-crocus** | *Colchicum autumnale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Flame Lily** | *Gloriosa superba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Green Slangkop** | *Ornithoglossum viride* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red Trillium** | *Trillium erectum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Large White Trillium** | *Trillium grandiflorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Little Sweet Betsy** | *Trillium cuneatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Prairie Trillium** | *Trillium recurvatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **California False Hellebore** | *Veratrum californicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Yam** | *Dioscorea japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yellow Guinea Yam** | *Dioscorea cayenensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Air-potato** | *Dioscorea bulbifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Purple Yam** | *Dioscorea alata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Yam** | *Dioscorea polystachya* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cush-cush Yam** | *Dioscorea trifida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Black Bryony** | *Dioscorea communis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bitter Yam** | *Dioscorea dumetorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lesser Yam** | *Dioscorea esculenta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Polynesian Arrowroot** | *Tacca leontopetaloides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Black Bat Flower** | *Tacca chantrieri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Bat Flower** | *Tacca integrifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Thatch Screwpine** | *Pandanus tectorius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Panama-hat Palm** | *Carludovica palmata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spring Adonis** | *Adonis vernalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pheasant's-eye** | *Adonis annua* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Low Larkspur** | *Delphinium bicolor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Upland Larkspur** | *Delphinium nuttallianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Love-in-a-mist** | *Nigella damascena* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Black Cumin** | *Nigella sativa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sweet Autumn Clematis** | *Clematis terniflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Scarlet Leather Flower** | *Clematis texensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Swamp Leatherflower** | *Clematis crispa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Flaccid Anemone** | *Anemonastrum flaccidum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tall Buttercup** | *Ranunculus acris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Persian Buttercup** | *Ranunculus asiaticus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Serendipity Berry** | *Dioscoreophyllum cumminsii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Five-leaf Akebia** | *Akebia quinata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Blue Cohosh** | *Caulophyllum thalictroides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Heavenly Bamboo** | *Nandina domestica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Barberry** | *Berberis canadensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cascade Oregon-grape** | *Berberis nervosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **European Barberry** | *Berberis vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Vanilla Leaf** | *Achlys triphylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Large Flowered Barrenwort** | *Epimedium grandiflorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Umbrella Leaf** | *Diphylleia cymosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Henkel's Yellowwood** | *Podocarpus henkelii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Real Yellowwood** | *Podocarpus latifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Celery Pine** | *Phyllocladus trichomanoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Huon Pine** | *Lagarostrobos franklinii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Outeniqua Yellowwood** | *Afrocarpus falcatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Monkey-puzzle Tree** | *Araucaria araucana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hoop Pine** | *Araucaria cunninghamii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Western Redcedar** | *Thuja plicata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Cedar** | *Cryptomeria japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ozark White Cedar** | *Juniperus ashei* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Juniper** | *Juniperus communis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Phoenician Juniper** | *Juniperus phoenicea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **African Juniper** | *Juniperus procera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tibetan Juniper** | *Juniperus tibetica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Drooping Juniper** | *Juniperus flaccida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **One-seed Juniper** | *Juniperus monosperma* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Montezuma Bald Cypress** | *Taxodium mucronatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lawson's Cypress** | *Chamaecyparis lawsoniana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sawara Cypress** | *Chamaecyparis pisifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Atlantic White Cedar** | *Chamaecyparis thyoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coast Redwood** | *Sequoia sempervirens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Giant Sequoia** | *Sequoiadendron giganteum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Alaska Yellow Cedar** | *Callitropsis nootkatensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Leyland Cypress** | *x Hesperotropsis leylandii* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **English Yew** | *Taxus baccata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Canada Yew** | *Taxus canadensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Yew** | *Taxus cuspidata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Plum Yew** | *Cephalotaxus fortunei* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Torreya** | *Torreya nucifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Florida Torreya** | *Torreya taxifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **California Red Fir** | *Abies magnifica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Subalpine Fir** | *Abies lasiocarpa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **European Silver Fir** | *Abies alba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Grand Fir** | *Abies grandis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spanish Fir** | *Abies pinsapo* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bristle-cone Fir** | *Abies bracteata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Momi Fir** | *Abies firma* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Caucasian Fir** | *Abies nordmanniana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Taiwan Fir** | *Abies kawakamii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Deodar Cedar** | *Cedrus deodara* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tamarack** | *Larix laricina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Western Larch** | *Larix occidentalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Norway Spruce** | *Picea abies* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Spruce** | *Picea glauca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Colorado Spruce** | *Picea pungens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sitka Spruce** | *Picea sitchensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Engelmann Spruce** | *Picea engelmannii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mexican Spruce** | *Picea mexicana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Alcock's Spruce** | *Picea alcoquiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Koyama's Spruce** | *Picea koyamae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Qinghai Spruce** | *Picea crassifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Douglas-fir** | *Pseudotsuga menziesii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **western hemlock** | *Tsuga heterophylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Canada hemlock** | *Tsuga canadensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tree lungwort** | *Lobaria pulmonaria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **southern corn leaf blight pathogen** | *Bipolaris maydis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pea foot rot fungus** | *Didymella pinodes* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **blackleg fungus** | *Stagonospora bicolor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **chestnut blight fungus** | *Cryphonectria parasitica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Western Hemlock** | *Tsuga heterophylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Canada Hemlock** | *Tsuga canadensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tree Lungwort** | *Lobaria pulmonaria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Southern Corn Leaf Blight Pathogen** | *Bipolaris maydis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pea Foot Rot Fungus** | *Didymella pinodes* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Blackleg Fungus** | *Stagonospora bicolor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chestnut Blight Fungus** | *Cryphonectria parasitica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Common Roundworm** | *Ascaris lumbricoides* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Common Roundworm (Ascaris lumbricoides) | **Promoted to Active Game Roster** |
 | **Pig Roundworm** | *Ascaris suum* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Pig Roundworm (Ascaris suum) | **Promoted to Active Game Roster** |
 | **Raccoon Roundworm** | *Baylisascaris procyonis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Raccoon Roundworm (Baylisascaris procyonis) | **Promoted to Active Game Roster** |
@@ -603,7 +603,7 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Red Deer Lungworm** | *Dictyocaulus eckerti* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Red Deer Lungworm (Dictyocaulus eckerti) | **Promoted to Active Game Roster** |
 | **Cat Lungworm** | *Aelurostrongylus abstrusus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Cat Lungworm (Aelurostrongylus abstrusus) | **Promoted to Active Game Roster** |
 | **Giant Whipscorpion** | *Mastigoproctus giganteus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Giant Whipscorpion (Mastigoproctus giganteus) | **Promoted to Active Game Roster** |
-| **South American whipspider** | *Heterophrynus sp. 'Het'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **South American Whipspider** | *Heterophrynus sp. 'Het'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Tube Worm** | *Riftia pachyptila* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Tube Worm (Riftia pachyptila) | **Promoted to Active Game Roster** |
 | **Calcareous Tube Worm** | *Hydroides elegans* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Calcareous Tube Worm (Hydroides elegans) | **Promoted to Active Game Roster** |
 | **Compost Worm** | *Perionyx excavatus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Compost Worm (Perionyx excavatus) | **Promoted to Active Game Roster** |
@@ -727,170 +727,170 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Patagonian Hagfish** | *Myxine affinis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Patagonian Hagfish (Myxine affinis) | **Promoted to Active Game Roster** |
 | **Jespersen's Hagfish** | *Myxine jespersenae* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Jespersen's Hagfish (Myxine jespersenae) | **Promoted to Active Game Roster** |
 | **Martini's Hagfish** | *Myxine martinii* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Martini's Hagfish (Myxine martinii) | **Promoted to Active Game Roster** |
-| **oilcloth-flower** | *Anthurium andraeanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tarovine** | *Monstera deliciosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Adanson's monstera** | *Monstera adansonii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **arrowleaf elephant's ear** | *Xanthosoma sagittifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **konjac** | *Amorphophallus konjac* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **titan arum** | *Amorphophallus titanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **green arrow arum** | *Peltandra virginica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cuckoopint** | *Arum maculatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **black calla** | *Arum palaestinum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **voodoo lily** | *Sauromatum venosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **dead horse arum** | *Helicodiceros muscivorus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **green dragon** | *Arisaema dracontium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **giant taro** | *Alocasia macrorrhizos* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **taro** | *Colocasia esculenta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **water lettuce** | *Pistia stratiotes* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **dumb cane** | *Dieffenbachia seguine* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **calla lily** | *Zantedeschia aethiopica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Oilcloth-flower** | *Anthurium andraeanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tarovine** | *Monstera deliciosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Adanson's Monstera** | *Monstera adansonii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Arrowleaf Elephant's Ear** | *Xanthosoma sagittifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Konjac** | *Amorphophallus konjac* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Titan Arum** | *Amorphophallus titanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Green Arrow Arum** | *Peltandra virginica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cuckoopint** | *Arum maculatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Black Calla** | *Arum palaestinum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Voodoo Lily** | *Sauromatum venosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Dead Horse Arum** | *Helicodiceros muscivorus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Green Dragon** | *Arisaema dracontium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Giant Taro** | *Alocasia macrorrhizos* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Taro** | *Colocasia esculenta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Water Lettuce** | *Pistia stratiotes* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Dumb Cane** | *Dieffenbachia seguine* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Calla Lily** | *Zantedeschia aethiopica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Indian-shot** | *Canna indica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bandana-of-the-everglades** | *Canna flaccida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **dwarf banana** | *Musa acuminata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Balbis banana** | *Musa balbisiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese banana** | *Musa basjoo* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hairy banana** | *Musa velutina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Manila hemp** | *Musa textilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **fe'i banana** | *Musa troglodytarum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Myoga ginger** | *Zingiber mioga* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bitter ginger** | *Zingiber zerumbet* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **greater galangal** | *Alpinia galanga* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pink porcelain-lily** | *Alpinia zerumbet* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sharp-leaf galangal** | *Alpinia oxyphylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lesser galangal** | *Alpinia officinarum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **East Indian arrowroot** | *Curcuma angustifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **turmeric** | *Curcuma longa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **green cardamom** | *Elettaria cardamomum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hill cardamom** | *Amomum subulatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **torch ginger** | *Etlingera elatior* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cao guo** | *Lanxangia tsao-ko* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bird-of-paradise** | *Strelitzia reginae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **confederate spiderwort** | *Tradescantia paludosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **inchplant** | *Tradescantia zebrina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Virginia spiderwort** | *Tradescantia virginiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Ohio spiderwort** | *Tradescantia ohiensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **water star-grass** | *Heteranthera dubia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tall kangaroo paw** | *Anigozanthos flavidus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **African lily** | *Agapanthus africanus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common snowdrop** | *Galanthus nivalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **daffodil** | *Narcissus pseudonarcissus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **summer snowflake** | *Leucojum aestivum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **perfumed spiderlily** | *Hymenocallis latifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **surprise lily** | *Lycoris squamigera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **golden spider-lily** | *Lycoris aurea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red spider lily** | *Lycoris radiata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pink lady's slipper** | *Cypripedium acaule* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese plantain lily** | *Hosta lancifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **blue plantain lily** | *Hosta ventricosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **eastern camas** | *Camassia scilloides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **soap tree** | *Yucca elata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Spanish dagger** | *Yucca treculeana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Adam's needle** | *Yucca filamentosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Navajo yucca** | *Yucca baileyi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **spineless yucca** | *Yucca gigantea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **garden asparagus** | *Asparagus officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bridal creeper** | *Asparagus asparagoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **ti plant** | *Cordyline fruticosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **snake plant** | *Sansevieria trifasciata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sacahuista** | *Nolina microcarpa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **small Solomon's seal** | *Polygonatum biflorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rose mandarin** | *Streptopus lanceolatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **spoon flower** | *Dasylirion wheeleri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Texas sotol** | *Dasylirion texanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **ponytail palm** | *Beaucarnea recurvata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cast-iron plant** | *Aspidistra elatior* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **big blue lilyturf** | *Liriope muscari* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **aloe-vera** | *Aloe vera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **blue flax-lily** | *Dianella caerulea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American pokeweed** | *Phytolacca americana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **food pokeweed** | *Phytolacca acinosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **garden four-o'clock** | *Mirabilis jalapa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tuber fleeceflower** | *Pleuropterus multiflorus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **jojoba** | *Simmondsia chinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Cape leadwort** | *Plumbago auriculata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **snake-eyes** | *Phaulothamnus spinescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Athel tamarisk** | *Tamarix aphylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **greasewood** | *Sarcobatus vermiculatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **devil's backbone** | *Kalanchoe daigremontiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **South American air plant** | *Kalanchoe fedtschenkoi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **orpine** | *Hylotelephium telephium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American black currant** | *Ribes americanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **golden currant** | *Ribes aureum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **alpine currant** | *Ribes alpinum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **trailing black currant** | *Ribes laxiflorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hairy-stem gooseberry** | *Ribes hirtellum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **northern black currant** | *Ribes hudsonianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **prickly currant** | *Ribes lacustre* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **skunk currant** | *Ribes glandulosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red currant** | *Ribes rubrum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wild red currant** | *Ribes triste* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **eastern prickly gooseberry** | *Ribes cynosbati* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **stink currant** | *Ribes bracteosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese peony** | *Paeonia lactiflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Majorcan peony** | *Paeonia cambessedesii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Delavay's tree peony** | *Paeonia delavayi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tree peony** | *Paeonia suffruticosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese witch hazel** | *Hamamelis mollis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese witch hazel** | *Hamamelis japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Ozark witch-hazel** | *Hamamelis vernalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **buttercup winterhazel** | *Corylopsis pauciflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sweet gum** | *Liquidambar styraciflua* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Formosan gum** | *Liquidambar formosana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Oriental sweet gum** | *Liquidambar orientalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white sandalwood** | *Santalum album* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **desert quandong** | *Santalum acuminatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **northern sandalwood** | *Santalum lanceolatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **leechbrush** | *Nestronia umbellula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **oil nut** | *Pyrularia pubera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Columbian mistletoe** | *Dendrophthora clavata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Argentine mistletoe** | *Phoradendron liga* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American mistletoe** | *Phoradendron leucarpum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **European mistletoe** | *Viscum album* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **soursop** | *Annona muricata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cherimoya** | *Annona cherimola* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mountain soursop** | *Annona montana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sweetsop** | *Annona squamosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **biriba** | *Annona mucosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pond apple** | *Annona glabra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bullock's heart** | *Annona reticulata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lodgepole pine** | *Pinus contorta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **stone pine** | *Pinus pinea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Monterey pine** | *Pinus radiata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Scots pine** | *Pinus sylvestris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese black pine** | *Pinus thunbergii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Coulter pine** | *Pinus coulteri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **loblolly pine** | *Pinus taeda* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mugo pine** | *Pinus mugo* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **slash pine** | *Pinus elliottii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red pine** | *Pinus resinosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Austrian pine** | *Pinus nigra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Caribbean pine** | *Pinus caribaea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **shortleaf pine** | *Pinus echinata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Khasi pine** | *Pinus kesiya* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Sumatran pine** | *Pinus merkusii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Mexican weeping pine** | *Pinus patula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **maritime pine** | *Pinus pinaster* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **chir pine** | *Pinus roxburghii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Turkish pine** | *Pinus brutia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pond pine** | *Pinus serotina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **gray pine** | *Pinus sabiniana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **foxtail pine** | *Pinus balfouriana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pinyon** | *Pinus edulis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Bhutan pine** | *Pinus wallichiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Krempf's pine** | *Pinus krempfii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sugar pine** | *Pinus lambertiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **western bristlecone pine** | *Pinus longaeva* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Western white pine** | *Pinus monticola* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Eastern white pine** | *Pinus strobus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Swiss stone pine** | *Pinus cembra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **ayacahuite pine** | *Pinus ayacahuite* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Mexican pinyon** | *Pinus cembroides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese white pine** | *Pinus parviflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **dwarf Siberian pine** | *Pinus pumila* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Korean pine** | *Pinus koraiensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **southwestern white pine** | *Pinus strobiformis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese brake** | *Pteris vittata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **blackleg of rapeseed fungus** | *Plenodomus lingam* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bandana-of-the-everglades** | *Canna flaccida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Dwarf Banana** | *Musa acuminata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Balbis Banana** | *Musa balbisiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Banana** | *Musa basjoo* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hairy Banana** | *Musa velutina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Manila Hemp** | *Musa textilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Fe'i Banana** | *Musa troglodytarum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Myoga Ginger** | *Zingiber mioga* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bitter Ginger** | *Zingiber zerumbet* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Greater Galangal** | *Alpinia galanga* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pink Porcelain-lily** | *Alpinia zerumbet* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sharp-leaf Galangal** | *Alpinia oxyphylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lesser Galangal** | *Alpinia officinarum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **East Indian Arrowroot** | *Curcuma angustifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Turmeric** | *Curcuma longa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Green Cardamom** | *Elettaria cardamomum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hill Cardamom** | *Amomum subulatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Torch Ginger** | *Etlingera elatior* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cao Guo** | *Lanxangia tsao-ko* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bird-of-paradise** | *Strelitzia reginae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Confederate Spiderwort** | *Tradescantia paludosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Inchplant** | *Tradescantia zebrina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Virginia Spiderwort** | *Tradescantia virginiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ohio Spiderwort** | *Tradescantia ohiensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Water Star-grass** | *Heteranthera dubia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tall Kangaroo Paw** | *Anigozanthos flavidus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **African Lily** | *Agapanthus africanus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Snowdrop** | *Galanthus nivalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Daffodil** | *Narcissus pseudonarcissus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Summer Snowflake** | *Leucojum aestivum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Perfumed Spiderlily** | *Hymenocallis latifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Surprise Lily** | *Lycoris squamigera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Golden Spider-lily** | *Lycoris aurea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red Spider Lily** | *Lycoris radiata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pink Lady's Slipper** | *Cypripedium acaule* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Plantain Lily** | *Hosta lancifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Blue Plantain Lily** | *Hosta ventricosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Eastern Camas** | *Camassia scilloides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Soap Tree** | *Yucca elata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spanish Dagger** | *Yucca treculeana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Adam's Needle** | *Yucca filamentosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Navajo Yucca** | *Yucca baileyi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spineless Yucca** | *Yucca gigantea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Garden Asparagus** | *Asparagus officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bridal Creeper** | *Asparagus asparagoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ti Plant** | *Cordyline fruticosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Snake Plant** | *Sansevieria trifasciata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sacahuista** | *Nolina microcarpa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Small Solomon's Seal** | *Polygonatum biflorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rose Mandarin** | *Streptopus lanceolatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spoon Flower** | *Dasylirion wheeleri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Texas Sotol** | *Dasylirion texanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ponytail Palm** | *Beaucarnea recurvata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cast-iron Plant** | *Aspidistra elatior* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Big Blue Lilyturf** | *Liriope muscari* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Aloe-vera** | *Aloe vera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Blue Flax-lily** | *Dianella caerulea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Pokeweed** | *Phytolacca americana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Food Pokeweed** | *Phytolacca acinosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Garden Four-o'clock** | *Mirabilis jalapa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tuber Fleeceflower** | *Pleuropterus multiflorus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Jojoba** | *Simmondsia chinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cape Leadwort** | *Plumbago auriculata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Snake-eyes** | *Phaulothamnus spinescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Athel Tamarisk** | *Tamarix aphylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Greasewood** | *Sarcobatus vermiculatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Devil's Backbone** | *Kalanchoe daigremontiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **South American Air Plant** | *Kalanchoe fedtschenkoi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Orpine** | *Hylotelephium telephium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Black Currant** | *Ribes americanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Golden Currant** | *Ribes aureum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Alpine Currant** | *Ribes alpinum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Trailing Black Currant** | *Ribes laxiflorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hairy-stem Gooseberry** | *Ribes hirtellum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Northern Black Currant** | *Ribes hudsonianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Prickly Currant** | *Ribes lacustre* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Skunk Currant** | *Ribes glandulosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red Currant** | *Ribes rubrum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wild Red Currant** | *Ribes triste* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Eastern Prickly Gooseberry** | *Ribes cynosbati* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Stink Currant** | *Ribes bracteosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Peony** | *Paeonia lactiflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Majorcan Peony** | *Paeonia cambessedesii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Delavay's Tree Peony** | *Paeonia delavayi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tree Peony** | *Paeonia suffruticosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Witch Hazel** | *Hamamelis mollis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Witch Hazel** | *Hamamelis japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ozark Witch-hazel** | *Hamamelis vernalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Buttercup Winterhazel** | *Corylopsis pauciflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sweet Gum** | *Liquidambar styraciflua* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Formosan Gum** | *Liquidambar formosana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Oriental Sweet Gum** | *Liquidambar orientalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Sandalwood** | *Santalum album* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Desert Quandong** | *Santalum acuminatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Northern Sandalwood** | *Santalum lanceolatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Leechbrush** | *Nestronia umbellula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Oil Nut** | *Pyrularia pubera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Columbian Mistletoe** | *Dendrophthora clavata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Argentine Mistletoe** | *Phoradendron liga* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Mistletoe** | *Phoradendron leucarpum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **European Mistletoe** | *Viscum album* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Soursop** | *Annona muricata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cherimoya** | *Annona cherimola* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mountain Soursop** | *Annona montana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sweetsop** | *Annona squamosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Biriba** | *Annona mucosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pond Apple** | *Annona glabra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bullock's Heart** | *Annona reticulata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lodgepole Pine** | *Pinus contorta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Stone Pine** | *Pinus pinea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Monterey Pine** | *Pinus radiata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Scots Pine** | *Pinus sylvestris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Black Pine** | *Pinus thunbergii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coulter Pine** | *Pinus coulteri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Loblolly Pine** | *Pinus taeda* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mugo Pine** | *Pinus mugo* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Slash Pine** | *Pinus elliottii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red Pine** | *Pinus resinosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Austrian Pine** | *Pinus nigra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Caribbean Pine** | *Pinus caribaea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Shortleaf Pine** | *Pinus echinata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Khasi Pine** | *Pinus kesiya* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sumatran Pine** | *Pinus merkusii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mexican Weeping Pine** | *Pinus patula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Maritime Pine** | *Pinus pinaster* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chir Pine** | *Pinus roxburghii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Turkish Pine** | *Pinus brutia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pond Pine** | *Pinus serotina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Gray Pine** | *Pinus sabiniana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Foxtail Pine** | *Pinus balfouriana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pinyon** | *Pinus edulis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bhutan Pine** | *Pinus wallichiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Krempf's Pine** | *Pinus krempfii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sugar Pine** | *Pinus lambertiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Western Bristlecone Pine** | *Pinus longaeva* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Western White Pine** | *Pinus monticola* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Eastern White Pine** | *Pinus strobus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Swiss Stone Pine** | *Pinus cembra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ayacahuite Pine** | *Pinus ayacahuite* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mexican Pinyon** | *Pinus cembroides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese White Pine** | *Pinus parviflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Dwarf Siberian Pine** | *Pinus pumila* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Korean Pine** | *Pinus koraiensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Southwestern White Pine** | *Pinus strobiformis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Brake** | *Pteris vittata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Blackleg of Rapeseed Fungus** | *Plenodomus lingam* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Herring Worm** | *Anisakis simplex* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Herring Worm (Anisakis simplex) | **Promoted to Active Game Roster** |
 | **Cereal Cyst Nematode** | *Heterodera avenae* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Cereal Cyst Nematode (Heterodera avenae) | **Promoted to Active Game Roster** |
 | **Soybean Cyst Nematode** | *Heterodera glycines* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Soybean Cyst Nematode (Heterodera glycines) | **Promoted to Active Game Roster** |
@@ -1226,78 +1226,78 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Chinese Fanray** | *Platyrhina sinensis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Chinese Fanray (Platyrhina sinensis) | **Promoted to Active Game Roster** |
 | **Yellow-spotted Fanray** | *Platyrhina tangi* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Yellow-spotted Fanray (Platyrhina tangi) | **Promoted to Active Game Roster** |
 | **Thornback Guitarfish** | *Platyrhinoidis triseriata* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Thornback Guitarfish (Platyrhinoidis triseriata) | **Promoted to Active Game Roster** |
-| **water hyacinth** | *Pontederia crassipes* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pineapple** | *Ananas comosus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **karatas** | *Bromelia plumieri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **nipa palm** | *Nypa fruticans* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **onion** | *Allium cepa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **leek** | *Allium ampeloprasum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **garlic** | *Allium sativum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **ramson** | *Allium ursinum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Welsh onion** | *Allium fistulosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Egyptian walking onion** | *Allium x proliferum* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **wild leek** | *Allium tricoccum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Aztec lily** | *Zephyranthes formosissima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **phantom orchid** | *Cephalanthera austiniae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **flag** | *Iris germanica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Mexican bowstring hemp** | *Sansevieria sp. 'mexicana'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Siberian squill** | *Scilla siberica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese jacinth** | *Scilla scilloides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Peruvian jacinth** | *Scilla peruviana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **starry hyacinth** | *Prospero autumnale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **grass tree** | *Xanthorrhoea sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
-| **daylily** | *Hemerocallis hybrid cultivar* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **common iceplant** | *Mesembryanthemum crystallinum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **silverhead** | *Gomphrena vermicularis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **smooth pigweed** | *Amaranthus hybridus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **amaranth** | *Amaranthus caudatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **grain amaranth** | *Amaranthus hypochondriacus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Joseph's coat** | *Amaranthus tricolor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **slender amaranth** | *Amaranthus viridis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **blood amaranth** | *Amaranthus cruentus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **prostrate pigweed** | *Amaranthus blitoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **redroot amaranth** | *Amaranthus retroflexus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **silver cockscomb** | *Celosia argentea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **salt sandspurry** | *Spergularia marina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **greater stichwort** | *Rabelera holostea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **corn cockle** | *Agrostemma githago* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **garden campion** | *Atocion armeria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **clammy campion** | *Viscaria vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **clove pink** | *Dianthus caryophyllus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rainbow pink** | *Dianthus chinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common soapwort** | *Saponaria officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cowherb** | *Gypsophila vaccaria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mignonette vine** | *Anredera cordifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **jewels-of-Opar** | *Talinum paniculatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **golden saxifrage** | *Chrysosplenium americanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **coralbells** | *Heuchera sanguinea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **creeping saxifrage** | *Saxifraga stolonifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **ogeechee lime** | *Nyssa ogeche* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Canadian bunchberry** | *Cornus canadensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **alternate-leaved dogwood** | *Cornus alternifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **silky dogwood** | *Cornus amomum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **golden kiwifruit** | *Actinidia chinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **kiwifruit** | *Actinidia deliciosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Brazil nut** | *Bertholletia excelsa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cannonball tree** | *Couroupita guianensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **fairy primrose** | *Primula malacoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **poison primrose** | *Primula obconica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **creeping jenny** | *Lysimachia nummularia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pygmy-flower rock-jasmine** | *Androsace septentrionalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **coastal sweetpepperbush** | *Clethra alnifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lily of the valley tree** | *Clethra arborea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American persimmon** | *Diospyros virginiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **kaki persimmon** | *Diospyros kaki* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **date-plum** | *Diospyros lotus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **velvet apple** | *Diospyros blancoi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Water Hyacinth** | *Pontederia crassipes* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pineapple** | *Ananas comosus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Karatas** | *Bromelia plumieri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Nipa Palm** | *Nypa fruticans* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Onion** | *Allium cepa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Leek** | *Allium ampeloprasum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Garlic** | *Allium sativum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ramson** | *Allium ursinum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Welsh Onion** | *Allium fistulosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Egyptian Walking Onion** | *Allium x proliferum* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Wild Leek** | *Allium tricoccum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Aztec Lily** | *Zephyranthes formosissima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Phantom Orchid** | *Cephalanthera austiniae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Flag** | *Iris germanica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mexican Bowstring Hemp** | *Sansevieria sp. 'mexicana'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Siberian Squill** | *Scilla siberica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Jacinth** | *Scilla scilloides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Peruvian Jacinth** | *Scilla peruviana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Starry Hyacinth** | *Prospero autumnale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Grass Tree** | *Xanthorrhoea sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
+| **Daylily** | *Hemerocallis hybrid cultivar* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Common Iceplant** | *Mesembryanthemum crystallinum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Silverhead** | *Gomphrena vermicularis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Smooth Pigweed** | *Amaranthus hybridus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Amaranth** | *Amaranthus caudatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Grain Amaranth** | *Amaranthus hypochondriacus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Joseph's Coat** | *Amaranthus tricolor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Slender Amaranth** | *Amaranthus viridis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Blood Amaranth** | *Amaranthus cruentus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Prostrate Pigweed** | *Amaranthus blitoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Redroot Amaranth** | *Amaranthus retroflexus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Silver Cockscomb** | *Celosia argentea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Salt Sandspurry** | *Spergularia marina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Greater Stichwort** | *Rabelera holostea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Corn Cockle** | *Agrostemma githago* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Garden Campion** | *Atocion armeria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Clammy Campion** | *Viscaria vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Clove Pink** | *Dianthus caryophyllus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rainbow Pink** | *Dianthus chinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Soapwort** | *Saponaria officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cowherb** | *Gypsophila vaccaria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mignonette Vine** | *Anredera cordifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Jewels-of-opar** | *Talinum paniculatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Golden Saxifrage** | *Chrysosplenium americanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coralbells** | *Heuchera sanguinea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Creeping Saxifrage** | *Saxifraga stolonifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ogeechee Lime** | *Nyssa ogeche* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Canadian Bunchberry** | *Cornus canadensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Alternate-leaved Dogwood** | *Cornus alternifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Silky Dogwood** | *Cornus amomum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Golden Kiwifruit** | *Actinidia chinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Kiwifruit** | *Actinidia deliciosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Brazil Nut** | *Bertholletia excelsa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cannonball Tree** | *Couroupita guianensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Fairy Primrose** | *Primula malacoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Poison Primrose** | *Primula obconica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Creeping Jenny** | *Lysimachia nummularia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pygmy-flower Rock-jasmine** | *Androsace septentrionalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coastal Sweetpepperbush** | *Clethra alnifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lily of the Valley Tree** | *Clethra arborea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Persimmon** | *Diospyros virginiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Kaki Persimmon** | *Diospyros kaki* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Date-plum** | *Diospyros lotus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Velvet Apple** | *Diospyros blancoi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **California Jacob's-ladder** | *Polemonium californicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bird's-eyes** | *Gilia tricolor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **purple false gilyflower** | *Allophyllum divaricatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **narrow leaf mountaintrumpet** | *Collomia linearis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **large flower mountaintrumpet** | *Collomia grandiflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **variable leaf mountaintrumpet** | *Collomia heterophylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **boojum tree** | *Fouquieria columnaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tea-oil Camellia** | *Camellia oleifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bird's-eyes** | *Gilia tricolor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Purple False Gilyflower** | *Allophyllum divaricatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Narrow Leaf Mountaintrumpet** | *Collomia linearis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Large Flower Mountaintrumpet** | *Collomia grandiflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Variable Leaf Mountaintrumpet** | *Collomia heterophylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Boojum Tree** | *Fouquieria columnaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tea-oil Camellia** | *Camellia oleifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Root-knot Nematode** | *Meloidogyne javanica* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Root-knot Nematode (Meloidogyne javanica) | **Promoted to Active Game Roster** |
 | **Southern Root-knot Nematode** | *Meloidogyne incognita* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Southern Root-knot Nematode (Meloidogyne incognita) | **Promoted to Active Game Roster** |
 | **Crimean Scorpion** | *Euscorpius tauricus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Crimean Scorpion (Euscorpius tauricus) | **Promoted to Active Game Roster** |
@@ -1356,7 +1356,7 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Santo Domingo Mussel** | *Brachidontes domingensis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Santo Domingo Mussel (Brachidontes domingensis) | **Promoted to Active Game Roster** |
 | **Northern Horsemussel** | *Modiolus modiolus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Northern Horsemussel (Modiolus modiolus) | **Promoted to Active Game Roster** |
 | **American Horsemussel** | *Modiolus americanus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: American Horsemussel (Modiolus americanus) | **Promoted to Active Game Roster** |
-| **scallop** | *Patinopecten sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
+| **Scallop** | *Patinopecten sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
 | **Western Pearlshell** | *Margaritifera falcata* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Western Pearlshell (Margaritifera falcata) | **Promoted to Active Game Roster** |
 | **Freshwater Pearlshell Mussel** | *Margaritifera margaritifera* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Freshwater Pearlshell Mussel (Margaritifera margaritifera) | **Promoted to Active Game Roster** |
 | **Broad-ribbed Carditid** | *Cardites floridanus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Broad-ribbed Carditid (Cardites floridanus) | **Promoted to Active Game Roster** |
@@ -1481,278 +1481,278 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Brown Lanternshark** | *Etmopterus compagnoi* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Brown Lanternshark (Etmopterus unicolor) | **Promoted to Active Game Roster** |
 | **Reedfish** | *Erpetoichthys calabaricus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Reedfish (Erpetoichthys calabaricus) | **Promoted to Active Game Roster** |
 | **Coelacanth** | *Latimeria chalumnae* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Coelacanth (Latimeria chalumnae) | **Promoted to Active Game Roster** |
-| **California bulrush** | *Schoenoplectus californicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **fewflower spikerush** | *Eleocharis quinqueflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **viviparous spikerush** | *Eleocharis vivipara* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **reed palm** | *Chamaedorea seifrizii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **buccaneer palm** | *Pseudophoenix sargentii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Burmese fishtail palm** | *Caryota mitis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **date palm** | *Phoenix dactylifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **dwarf palmetto** | *Sabal minor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cabbage palmetto** | *Sabal palmetto* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Florida thatch palm** | *Thrinax radiata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mountain thatch palm** | *Thrinax parviflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Key thatch palm** | *Leucothrinax morrisii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **heath spotted orchid** | *Dactylorhiza maculata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **western prairie fringed orchid** | *Platanthera praeclara* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hyacinth orchid** | *Arpophyllum giganteum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lady-of-the-night** | *Brassavola nodosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **large twayblade** | *Liparis liliifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **ghost orchid** | *Dendrophylax lindenii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **four-winged saltbush** | *Atriplex canescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **big saltbush** | *Atriplex lentiformis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **triangle orache** | *Atriplex prostrata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Mediterranean saltbush** | *Atriplex halimus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lamb's quarters** | *Chenopodium album* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **quinoa** | *Chenopodium quinoa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **nettle-leaved goosefoot** | *Chenopodiastrum murale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red goosefoot** | *Oxybasis rubra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **spinach** | *Spinacia oleracea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **California Bulrush** | *Schoenoplectus californicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Fewflower Spikerush** | *Eleocharis quinqueflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Viviparous Spikerush** | *Eleocharis vivipara* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Reed Palm** | *Chamaedorea seifrizii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Buccaneer Palm** | *Pseudophoenix sargentii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Burmese Fishtail Palm** | *Caryota mitis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Date Palm** | *Phoenix dactylifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Dwarf Palmetto** | *Sabal minor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cabbage Palmetto** | *Sabal palmetto* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Florida Thatch Palm** | *Thrinax radiata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mountain Thatch Palm** | *Thrinax parviflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Key Thatch Palm** | *Leucothrinax morrisii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Heath Spotted Orchid** | *Dactylorhiza maculata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Western Prairie Fringed Orchid** | *Platanthera praeclara* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hyacinth Orchid** | *Arpophyllum giganteum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lady-of-the-night** | *Brassavola nodosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Large Twayblade** | *Liparis liliifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ghost Orchid** | *Dendrophylax lindenii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Four-winged Saltbush** | *Atriplex canescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Big Saltbush** | *Atriplex lentiformis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Triangle Orache** | *Atriplex prostrata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mediterranean Saltbush** | *Atriplex halimus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lamb's Quarters** | *Chenopodium album* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Quinoa** | *Chenopodium quinoa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Nettle-leaved Goosefoot** | *Chenopodiastrum murale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red Goosefoot** | *Oxybasis rubra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spinach** | *Spinacia oleracea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Good King Henry** | *Blitum bonus-henricus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Mexican tea** | *Dysphania ambrosioides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **summer cypress** | *Bassia scoparia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **prickly saltwort** | *Salsola kali* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **prickly Russian thistle** | *Salsola tragus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common glasswort** | *Salicornia europaea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Maheshwari's campion** | *Silene maheshwarii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **chain-of-love** | *Antigonon leptopus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sea grape** | *Coccoloba uvifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common buckwheat** | *Fagopyrum esculentum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Tartarian buckwheat** | *Fagopyrum tataricum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mile-a-minute weed** | *Persicaria perfoliata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Vietnamese coriander** | *Persicaria odorata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **black bindweed** | *Fallopia convolvulus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **giant knotweed** | *Reynoutria sachalinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese knotweed** | *Reynoutria japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bitter dock** | *Rumex obtusifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **garden sorrel** | *Rumex acetosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sheep's sorrel** | *Rumex acetosella* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **western dock** | *Rumex occidentalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **clustered dock** | *Rumex conglomeratus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bladder dock** | *Rumex vesicarius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **garden rhubarb** | *Rheum rhabarbarum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Himalayan rhubarb** | *Rheum australe* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bunny ears cactus** | *Opuntia microdasys* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **nopal tapon** | *Opuntia robusta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **chain-fruit cholla** | *Cylindropuntia fulgida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tree cholla** | *Cylindropuntia imbricata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **northern yellow boxwood** | *Planchonella obovata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **canistel** | *Pouteria campechiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mamey sapote** | *Pouteria sapota* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **miracle fruit** | *Synsepalum dulcificum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sapodilla** | *Manilkara zapota* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **gum bully** | *Sideroxylon lanuginosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mahua** | *Madhuca longifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mexican Tea** | *Dysphania ambrosioides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Summer Cypress** | *Bassia scoparia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Prickly Saltwort** | *Salsola kali* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Prickly Russian Thistle** | *Salsola tragus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Glasswort** | *Salicornia europaea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Maheshwari's Campion** | *Silene maheshwarii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chain-of-love** | *Antigonon leptopus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sea Grape** | *Coccoloba uvifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Buckwheat** | *Fagopyrum esculentum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tartarian Buckwheat** | *Fagopyrum tataricum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mile-a-minute Weed** | *Persicaria perfoliata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Vietnamese Coriander** | *Persicaria odorata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Black Bindweed** | *Fallopia convolvulus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Giant Knotweed** | *Reynoutria sachalinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Knotweed** | *Reynoutria japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bitter Dock** | *Rumex obtusifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Garden Sorrel** | *Rumex acetosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sheep's Sorrel** | *Rumex acetosella* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Western Dock** | *Rumex occidentalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Clustered Dock** | *Rumex conglomeratus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bladder Dock** | *Rumex vesicarius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Garden Rhubarb** | *Rheum rhabarbarum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Himalayan Rhubarb** | *Rheum australe* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bunny Ears Cactus** | *Opuntia microdasys* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Nopal Tapon** | *Opuntia robusta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chain-fruit Cholla** | *Cylindropuntia fulgida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tree Cholla** | *Cylindropuntia imbricata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Northern Yellow Boxwood** | *Planchonella obovata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Canistel** | *Pouteria campechiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mamey Sapote** | *Pouteria sapota* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Miracle Fruit** | *Synsepalum dulcificum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sapodilla** | *Manilkara zapota* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Gum Bully** | *Sideroxylon lanuginosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mahua** | *Madhuca longifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Indian-buttertree** | *Diploknema butyracea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **shea tree** | *Vitellaria paradoxa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Pacific madrone** | *Arbutus menziesii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **alpine bearberry** | *Arctous alpina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **western moss heather** | *Cassiope mertensiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **coralberry** | *Symphoricarpos orbiculatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common valerian** | *Valeriana officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Sitka valerian** | *Valeriana sitchensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Fuller's teasel** | *Dipsacus sativus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red valerian** | *Centranthus ruber* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Amur honeysuckle** | *Lonicera maackii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **coral honeysuckle** | *Lonicera sempervirens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common cornsalad** | *Valerianella locusta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **beauty bush** | *Kolkwitzia amabilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **European elder** | *Sambucus nigra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese elderberry** | *Sambucus sieboldiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mapleleaf viburnum** | *Viburnum acerifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **nannyberry** | *Viburnum lentago* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **European cranberrybush** | *Viburnum opulus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **squashberry** | *Viburnum edule* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wayfaring-tree** | *Viburnum lantana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rusty blackhaw** | *Viburnum rufidulum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **townhall clock** | *Adoxa moschatellina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Canterbury bells** | *Campanula medium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mountain harebell** | *Campanula lasiocarpa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **clustered bellflower** | *Campanula glomerata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **nettle-leaved bellflower** | *Campanula trachelium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **creeping bellflower** | *Campanula rapunculoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **southern harebell** | *Campanula divaricata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **peach-leaved bellflower** | *Campanula persicifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common harebell** | *Campanula rotundifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rampion** | *Campanula rapunculus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **balloon flower** | *Platycodon grandiflorus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese holly** | *Ilex crenata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sarvis holly** | *Ilex amelanchier* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **inkberry** | *Ilex glabra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **myrtle dahoon** | *Ilex myrtifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yerba mate** | *Ilex paraguariensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **winterberry** | *Ilex verticillata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sesame** | *Sesamum indicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **spotted monkey flower** | *Erythranthe guttata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pale devil's-claw** | *Proboscidea louisianica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wishbone flower** | *Torenia fournieri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese mazus** | *Mazus pumilus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Indian heliotrope** | *Heliotropium indicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **desert christmas tree** | *Pholisma arenarium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **scarlet cordia** | *Cordia sebestena* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **kerosene tree** | *Cordia subcordata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Assyrian plum** | *Cordia myxa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Spanish elm** | *Cordia alliodora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **northern red oak** | *Quercus rubra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white oak** | *Quercus alba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sessile oak** | *Quercus petraea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **English oak** | *Quercus robur* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Turkey oak** | *Quercus cerris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **shingle oak** | *Quercus imbricaria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Shumard oak** | *Quercus shumardii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **swamp chestnut oak** | *Quercus michauxii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bur oak** | *Quercus macrocarpa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **European chestnut** | *Castanea sativa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese chestnut** | *Castanea mollissima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese chestnut** | *Castanea crenata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American chestnut** | *Castanea dentata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese beech** | *Fagus crenata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **European beech** | *Fagus sylvatica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American beech** | *Fagus grandifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese oak** | *Lithocarpus glaber* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **European white birch** | *Betula pendula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **paper birch** | *Betula papyrifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **river birch** | *Betula nigra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **downy birch** | *Betula pubescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Asian white birch** | *Betula platyphylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **gray birch** | *Betula populifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **alpine birch** | *Betula nana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Erman's birch** | *Betula ermanii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sweet birch** | *Betula lenta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Himalayan birch** | *Betula utilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bog birch** | *Betula pumila* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Newfoundland dwarf birch** | *Betula michauxii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mountain paper birch** | *Betula cordifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **European green alder** | *Alnus alnobetula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **European hornbeam** | *Carpinus betulus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American hornbeam** | *Carpinus caroliniana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Korean hornbeam** | *Carpinus turczaninowii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese hornbeam** | *Carpinus japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American hop-hornbeam** | *Ostrya virginiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **European hop-hornbeam** | *Ostrya carpinifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **swamp oak** | *Casuarina glauca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pignut hickory** | *Carya glabra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bitternut hickory** | *Carya cordiformis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **nutmeg hickory** | *Carya myristiciformis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **black walnut** | *Juglans nigra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Persian walnut** | *Juglans regia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bog myrtle** | *Myrica gale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wax myrtle** | *Morella cerifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **California wax myrtle** | *Morella californica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese bayberry** | *Morella rubra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **northern bayberry** | *Morella pensylvanica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **granadilla** | *Passiflora quadrangularis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bat leaved passion flower** | *Passiflora coriacea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **flax** | *Linum usitatissimum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **fairy flax** | *Linum catharticum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **nance** | *Byrsonima crassifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **locustberry** | *Byrsonima lucida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **slender goldshower** | *Galphimia gracilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American mangrove** | *Rhizophora mangle* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **winged elm** | *Ulmus alata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American elm** | *Ulmus americana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese elm** | *Ulmus parvifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **slippery elm** | *Ulmus rubra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rock elm** | *Ulmus thomasii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Siberian elm** | *Ulmus pumila* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **September elm** | *Ulmus serotina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese hop** | *Humulus japonicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **European hop** | *Humulus lupulus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sugar hackberry** | *Celtis laevigata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **great nettle** | *Urtica dioica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **ramie** | *Boehmeria nivea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **false nettle** | *Boehmeria cylindrica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Russian olive** | *Elaeagnus angustifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **autumn-olive** | *Elaeagnus umbellata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cherry silverberry** | *Elaeagnus multiflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **thorny olive** | *Elaeagnus pungens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sea-buckthorn** | *Hippophae rhamnoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **coachwood** | *Ceratopetalum apetalum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **oca** | *Oxalis tuberosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **European wood-sorrel** | *Oxalis acetosella* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white quandong** | *Elaeocarpus kirtonii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **fringed polygala** | *Polygaloides paucifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bog stars** | *Parnassia palustris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **winged euonymus** | *Euonymus alatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese spindletree** | *Euonymus japonicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American bittersweet** | *Celastrus scandens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **khat** | *Catha edulis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **papaya** | *Carica papaya* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bonete** | *Jacaratia mexicana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mountain papaya** | *Vasconcellea cundinamarcensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **horseradish tree** | *Moringa oleifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **nasturtium** | *Tropaeolum majus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Douglas's meadowfoam** | *Limnanthes douglasii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white meadowfoam** | *Limnanthes alba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yellow mignonette** | *Reseda lutea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **caperbush** | *Capparis spinosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sacred garlic pear** | *Crateva religiosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Jamaican caper** | *Quadrella cynophallophora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **spiderwisp** | *Gynandropsis gynandra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **jackass clover** | *Cleomella refracta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Asian spiderflower** | *Corynandra viscosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **winged sumac** | *Rhus copallinum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Sicilian sumac** | *Rhus coriaria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **smooth sumac** | *Rhus glabra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mango** | *Mangifera indica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **kuwini mango** | *Mangifera odorata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Sri Lanka wild mango** | *Mangifera zeylanica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Kalimantan mango** | *Mangifera casturi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Brazilian peppertree** | *Schinus terebinthifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese lacquer tree** | *Toxicodendron vernicifluum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **poison sumac** | *Toxicodendron vernix* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Polynesian plum** | *Spondias dulcis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yellow mombin** | *Spondias mombin* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **purple mombin** | *Spondias purpurea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **terebinth** | *Pistacia terebinthus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cashew** | *Anacardium occidentale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **espave** | *Anacardium excelsum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **African sumac** | *Searsia lancea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **gumbo limbo** | *Bursera simaruba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **incense tree** | *Bursera graveolens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese black-olive** | *Canarium pimela* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Java almond** | *Canarium vulgare* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **black dhup** | *Canarium strictum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **okoume** | *Aucoumea klaineana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **golden rain tree** | *Koelreuteria paniculata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Indian soapberry** | *Sapindus mukorossi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bullock bush** | *Alectryon oleifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lychee** | *Litchi chinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **ackee** | *Blighia sapida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tree-of-heaven** | *Ailanthus altissimus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Shea Tree** | *Vitellaria paradoxa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pacific Madrone** | *Arbutus menziesii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Alpine Bearberry** | *Arctous alpina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Western Moss Heather** | *Cassiope mertensiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coralberry** | *Symphoricarpos orbiculatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Valerian** | *Valeriana officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sitka Valerian** | *Valeriana sitchensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Fuller's Teasel** | *Dipsacus sativus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red Valerian** | *Centranthus ruber* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Amur Honeysuckle** | *Lonicera maackii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coral Honeysuckle** | *Lonicera sempervirens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Cornsalad** | *Valerianella locusta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Beauty Bush** | *Kolkwitzia amabilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **European Elder** | *Sambucus nigra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Elderberry** | *Sambucus sieboldiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mapleleaf Viburnum** | *Viburnum acerifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Nannyberry** | *Viburnum lentago* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **European Cranberrybush** | *Viburnum opulus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Squashberry** | *Viburnum edule* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wayfaring-tree** | *Viburnum lantana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rusty Blackhaw** | *Viburnum rufidulum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Townhall Clock** | *Adoxa moschatellina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Canterbury Bells** | *Campanula medium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mountain Harebell** | *Campanula lasiocarpa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Clustered Bellflower** | *Campanula glomerata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Nettle-leaved Bellflower** | *Campanula trachelium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Creeping Bellflower** | *Campanula rapunculoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Southern Harebell** | *Campanula divaricata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Peach-leaved Bellflower** | *Campanula persicifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Harebell** | *Campanula rotundifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rampion** | *Campanula rapunculus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Balloon Flower** | *Platycodon grandiflorus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Holly** | *Ilex crenata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sarvis Holly** | *Ilex amelanchier* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Inkberry** | *Ilex glabra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Myrtle Dahoon** | *Ilex myrtifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yerba Mate** | *Ilex paraguariensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Winterberry** | *Ilex verticillata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sesame** | *Sesamum indicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spotted Monkey Flower** | *Erythranthe guttata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pale Devil's-claw** | *Proboscidea louisianica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wishbone Flower** | *Torenia fournieri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Mazus** | *Mazus pumilus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Indian Heliotrope** | *Heliotropium indicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Desert Christmas Tree** | *Pholisma arenarium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Scarlet Cordia** | *Cordia sebestena* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Kerosene Tree** | *Cordia subcordata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Assyrian Plum** | *Cordia myxa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spanish Elm** | *Cordia alliodora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Northern Red Oak** | *Quercus rubra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Oak** | *Quercus alba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sessile Oak** | *Quercus petraea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **English Oak** | *Quercus robur* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Turkey Oak** | *Quercus cerris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Shingle Oak** | *Quercus imbricaria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Shumard Oak** | *Quercus shumardii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Swamp Chestnut Oak** | *Quercus michauxii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bur Oak** | *Quercus macrocarpa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **European Chestnut** | *Castanea sativa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Chestnut** | *Castanea mollissima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Chestnut** | *Castanea crenata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Chestnut** | *Castanea dentata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Beech** | *Fagus crenata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **European Beech** | *Fagus sylvatica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Beech** | *Fagus grandifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Oak** | *Lithocarpus glaber* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **European White Birch** | *Betula pendula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Paper Birch** | *Betula papyrifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **River Birch** | *Betula nigra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Downy Birch** | *Betula pubescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Asian White Birch** | *Betula platyphylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Gray Birch** | *Betula populifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Alpine Birch** | *Betula nana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Erman's Birch** | *Betula ermanii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sweet Birch** | *Betula lenta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Himalayan Birch** | *Betula utilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bog Birch** | *Betula pumila* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Newfoundland Dwarf Birch** | *Betula michauxii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mountain Paper Birch** | *Betula cordifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **European Green Alder** | *Alnus alnobetula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **European Hornbeam** | *Carpinus betulus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Hornbeam** | *Carpinus caroliniana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Korean Hornbeam** | *Carpinus turczaninowii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Hornbeam** | *Carpinus japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Hop-hornbeam** | *Ostrya virginiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **European Hop-hornbeam** | *Ostrya carpinifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Swamp Oak** | *Casuarina glauca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pignut Hickory** | *Carya glabra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bitternut Hickory** | *Carya cordiformis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Nutmeg Hickory** | *Carya myristiciformis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Black Walnut** | *Juglans nigra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Persian Walnut** | *Juglans regia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bog Myrtle** | *Myrica gale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wax Myrtle** | *Morella cerifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **California Wax Myrtle** | *Morella californica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Bayberry** | *Morella rubra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Northern Bayberry** | *Morella pensylvanica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Granadilla** | *Passiflora quadrangularis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bat Leaved Passion Flower** | *Passiflora coriacea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Flax** | *Linum usitatissimum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Fairy Flax** | *Linum catharticum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Nance** | *Byrsonima crassifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Locustberry** | *Byrsonima lucida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Slender Goldshower** | *Galphimia gracilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Mangrove** | *Rhizophora mangle* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Winged Elm** | *Ulmus alata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Elm** | *Ulmus americana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Elm** | *Ulmus parvifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Slippery Elm** | *Ulmus rubra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rock Elm** | *Ulmus thomasii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Siberian Elm** | *Ulmus pumila* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **September Elm** | *Ulmus serotina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Hop** | *Humulus japonicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **European Hop** | *Humulus lupulus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sugar Hackberry** | *Celtis laevigata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Great Nettle** | *Urtica dioica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ramie** | *Boehmeria nivea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **False Nettle** | *Boehmeria cylindrica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Russian Olive** | *Elaeagnus angustifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Autumn-olive** | *Elaeagnus umbellata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cherry Silverberry** | *Elaeagnus multiflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Thorny Olive** | *Elaeagnus pungens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sea-buckthorn** | *Hippophae rhamnoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coachwood** | *Ceratopetalum apetalum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Oca** | *Oxalis tuberosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **European Wood-sorrel** | *Oxalis acetosella* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Quandong** | *Elaeocarpus kirtonii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Fringed Polygala** | *Polygaloides paucifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bog Stars** | *Parnassia palustris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Winged Euonymus** | *Euonymus alatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Spindletree** | *Euonymus japonicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Bittersweet** | *Celastrus scandens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Khat** | *Catha edulis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Papaya** | *Carica papaya* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bonete** | *Jacaratia mexicana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mountain Papaya** | *Vasconcellea cundinamarcensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Horseradish Tree** | *Moringa oleifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Nasturtium** | *Tropaeolum majus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Douglas's Meadowfoam** | *Limnanthes douglasii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Meadowfoam** | *Limnanthes alba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yellow Mignonette** | *Reseda lutea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Caperbush** | *Capparis spinosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sacred Garlic Pear** | *Crateva religiosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Jamaican Caper** | *Quadrella cynophallophora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spiderwisp** | *Gynandropsis gynandra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Jackass Clover** | *Cleomella refracta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Asian Spiderflower** | *Corynandra viscosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Winged Sumac** | *Rhus copallinum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sicilian Sumac** | *Rhus coriaria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Smooth Sumac** | *Rhus glabra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mango** | *Mangifera indica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Kuwini Mango** | *Mangifera odorata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sri Lanka Wild Mango** | *Mangifera zeylanica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Kalimantan Mango** | *Mangifera casturi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Brazilian Peppertree** | *Schinus terebinthifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Lacquer Tree** | *Toxicodendron vernicifluum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Poison Sumac** | *Toxicodendron vernix* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Polynesian Plum** | *Spondias dulcis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yellow Mombin** | *Spondias mombin* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Purple Mombin** | *Spondias purpurea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Terebinth** | *Pistacia terebinthus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cashew** | *Anacardium occidentale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Espave** | *Anacardium excelsum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **African Sumac** | *Searsia lancea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Gumbo Limbo** | *Bursera simaruba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Incense Tree** | *Bursera graveolens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Black-olive** | *Canarium pimela* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Java Almond** | *Canarium vulgare* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Black Dhup** | *Canarium strictum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Okoume** | *Aucoumea klaineana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Golden Rain Tree** | *Koelreuteria paniculata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Indian Soapberry** | *Sapindus mukorossi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bullock Bush** | *Alectryon oleifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lychee** | *Litchi chinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ackee** | *Blighia sapida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tree-of-heaven** | *Ailanthus altissimus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Amargo** | *Quassia amara* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **paradise tree** | *Simarouba glauca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **chinaberry** | *Melia azedarach* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Mexican mahogany** | *Swietenia humilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **West Indian mahogany** | *Swietenia mahagoni* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **neem** | *Azadirachta indica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sapele** | *Entandrophragma cylindricum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **chittagong wood** | *Chukrasia tabularis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **langsat** | *Lansium domesticum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **leatherwood** | *Dirca palustris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **winter daphne** | *Daphne odora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **oriental paperbush** | *Edgeworthia chrysantha* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lipstick tree** | *Bixa orellana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **woolly beachheather** | *Hudsonia tomentosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **zonal geranium** | *Pelargonium x hortorum* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **rose geranium** | *Pelargonium graveolens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **redstem stork's bill** | *Erodium cicutarium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pomegranate** | *Punica granatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **giant crepe-myrtle** | *Lagerstroemia speciosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **crepe myrtle** | *Lagerstroemia indica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **henna** | *Lawsonia inermis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **swamp loosestrife** | *Decodon verticillatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Indian almond** | *Terminalia catappa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bibhitaki** | *Terminalia bellirica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **chebulic myrobalan** | *Terminalia chebula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **arjuna** | *Terminalia arjuna* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Rangoon creeper** | *Combretum indicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **spiny greasebush** | *Glossopetalon spinescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Paradise Tree** | *Simarouba glauca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinaberry** | *Melia azedarach* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mexican Mahogany** | *Swietenia humilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **West Indian Mahogany** | *Swietenia mahagoni* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Neem** | *Azadirachta indica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sapele** | *Entandrophragma cylindricum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chittagong Wood** | *Chukrasia tabularis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Langsat** | *Lansium domesticum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Leatherwood** | *Dirca palustris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Winter Daphne** | *Daphne odora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Oriental Paperbush** | *Edgeworthia chrysantha* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lipstick Tree** | *Bixa orellana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Woolly Beachheather** | *Hudsonia tomentosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Zonal Geranium** | *Pelargonium x hortorum* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Rose Geranium** | *Pelargonium graveolens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Redstem Stork's Bill** | *Erodium cicutarium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pomegranate** | *Punica granatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Giant Crepe-myrtle** | *Lagerstroemia speciosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Crepe Myrtle** | *Lagerstroemia indica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Henna** | *Lawsonia inermis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Swamp Loosestrife** | *Decodon verticillatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Indian Almond** | *Terminalia catappa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bibhitaki** | *Terminalia bellirica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chebulic Myrobalan** | *Terminalia chebula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Arjuna** | *Terminalia arjuna* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rangoon Creeper** | *Combretum indicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spiny Greasebush** | *Glossopetalon spinescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **European Garden Spider** | *Araneus diadematus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: European Garden Spider (Araneus diadematus) | **Promoted to Active Game Roster** |
 | **Goanna Tick** | *Amblyomma fimbriatum* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Goanna Tick (Bothriocroton undatum) | **Promoted to Active Game Roster** |
-| **Banbury Springs lanx** | *Lanx sp. Banbury Springs* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **sea hare** | *Aplysia sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
-| **bristled lanternshark** | *Etmopterus sp. B Last & Stevens, 1994* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Banbury Springs Lanx** | *Lanx sp. Banbury Springs* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Sea Hare** | *Aplysia sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
+| **Bristled Lanternshark** | *Etmopterus sp. B Last & Stevens, 1994* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Bull Shark** | *Carcharhinus leucas* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Bull Shark (Carcharhinus leucas) | **Promoted to Active Game Roster** |
 | **Grey Reef Shark** | *Carcharhinus amblyrhynchos* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Grey Reef Shark (Carcharhinus amblyrhynchos) | **Promoted to Active Game Roster** |
 | **Blacktip Reef Shark** | *Carcharhinus melanopterus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Blacktip Reef Shark (Carcharhinus melanopterus) | **Promoted to Active Game Roster** |
@@ -1769,899 +1769,899 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Nurse Shark** | *Ginglymostoma cirratum* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Nurse Shark (Ginglymostoma cirratum) | **Promoted to Active Game Roster** |
 | **Whale Shark** | *Rhincodon typus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Whale Shark (Rhincodon typus) | **Promoted to Active Game Roster** |
 | **Port Jackson Shark** | *Heterodontus portusjacksoni* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Port Jackson Shark (Heterodontus portusjacksoni) | **Promoted to Active Game Roster** |
-| **tiger grass** | *Thysanolaena latifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wild oats** | *Chasmanthium latifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **uva grass** | *Gynerium sagittatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **giant reed** | *Arundo donax* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **poverty oat grass** | *Danthonia spicata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **California oat grass** | *Danthonia californica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **perennial veldt grass** | *Ehrharta calycina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **betel palm** | *Areca catechu* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **areca palm** | *Dypsis lutescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **coconut palm** | *Cocos nucifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **babassu** | *Attalea speciosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **peach palm** | *Bactris gasipaes* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **African oil palm** | *Elaeis guineensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American oil palm** | *Elaeis oleifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **windmill palm** | *Trachycarpus fortunei* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **needle palm** | *Rhapidophyllum hystrix* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **flower of Jove** | *Silene flos-jovis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rose campion** | *Silene coronaria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **scarlet lychnis** | *Silene chalcedonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **ragged-robin** | *Silene flos-cuculi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Burchell's campion** | *Silene burchellii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Bory's campion** | *Silene boryi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cushion pink** | *Silene acaulis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Roemer's campion** | *Silene roemeri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Waldstein's campion** | *Silene waldsteinii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Spanish catchfly** | *Silene otites* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **night-flowering catchfly** | *Silene noctiflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red campion** | *Silene dioica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **large sand catchfly** | *Silene conoidea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Reinhold's campion** | *Silene reinholdii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **nodding catchfly** | *Silene pendula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bladder campion** | *Silene vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **royal catchfly** | *Silene regia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Elisabeth's campion** | *Silene elisabethae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Himalayan knotweed** | *Koenigia polystachya* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sand dollar cactus** | *Astrophytum asterias* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **peyote** | *Lophophora williamsii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **triangle cactus** | *Acanthocereus tetragonus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **organ pipe cactus** | *Stenocereus thurberi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **false Christmas cactus** | *Schlumbergera truncata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **drunkard's dream** | *Hatiora salicornioides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **torch cactus** | *Soehrensia spachiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **one-flowered wintergreen** | *Moneses uniflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **one-sided wintergreen** | *Orthilia secunda* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **ghost pipe** | *Monotropa uniflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pinesap** | *Monotropa hypopitys* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sweet pinesap** | *Monotropsis odorata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **heather flower** | *Calluna vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tree heath** | *Erica arborea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bell-heather** | *Erica cinerea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Florida rosemary** | *Ceratiola ericoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **black crowberry** | *Empetrum nigrum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tarflower** | *Bejaria racemosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **marsh Labrador tea** | *Rhododendron tomentosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **leatherleaf rhododendron** | *Rhododendron metternichii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **great rhododendron** | *Rhododendron maximum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **western Labrador tea** | *Rhododendron columbianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese andromeda** | *Pieris japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **salal** | *Gaultheria shallon* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **eastern teaberry** | *Gaultheria procumbens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **highland doghobble** | *Leucothoe fontanesiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **coastal dog-hobble** | *Leucothoe axillaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **swamp doghobble** | *Eubotrys racemosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **large cranberry** | *Vaccinium macrocarpon* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **northern highbush blueberry** | *Vaccinium corymbosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Andean blueberry** | *Vaccinium floribundum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common bilberry** | *Vaccinium myrtillus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lingonberry** | *Vaccinium vitis-idaea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bog bilberry** | *Vaccinium uliginosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **shiny blueberry** | *Vaccinium myrsinites* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sparkleberry** | *Vaccinium arboreum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **small cranberry** | *Vaccinium oxycoccos* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tropical blueberry** | *Macleania rupestris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **dangleberry** | *Gaylussacia frondosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **garden balsam** | *Impatiens balsamina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lawn water-pennywort** | *Hydrocotyle sibthorpioides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **ginseng** | *Panax ginseng* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **notoginseng** | *Panax notoginseng* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese ginseng** | *Panax japonicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **devil's walking stick** | *Aralia spinosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bristly sarsaparilla** | *Aralia hispida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **five finger** | *Neopanax arboreus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tobira** | *Pittosporum tobira* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **chuquiragua** | *Chuquiraga jussieui* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **beach naupaka** | *Scaevola taccada* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **large white petunia** | *Petunia axillaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **butterfly flower** | *Schizanthus pinnatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sweet potato** | *Ipomoea batatas* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common morning-glory** | *Ipomoea purpurea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red morning glory** | *Ipomoea coccinea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese morning glory** | *Ipomoea nil* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **trilobed morning glory** | *Ipomoea triloba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white morning-glory** | *Ipomoea lacunosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bush moonflower** | *Ipomoea leptophylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **firecracker vine** | *Ipomoea lobata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bay hops** | *Ipomoea pes-caprae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cypress vine** | *Ipomoea quamoclit* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mile-a-minute vine** | *Ipomoea cairica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **jalap** | *Ipomoea purga* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hedge bindweed** | *Calystegia sepium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lilac chaste tree** | *Vitex agnus-castus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **simpleleaf chastetree** | *Vitex trifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese chaste tree** | *Vitex negundo* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **malbau** | *Premna serratifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **primrose jasmine** | *Jasminum mesnyi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common jasmine** | *Jasminum officinale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common olive** | *Olea europaea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common privet** | *Ligustrum vulgare* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common lilac** | *Syringa vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white ash** | *Fraxinus americana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **European ash** | *Fraxinus excelsior* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **flowering ash** | *Fraxinus ornus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Mexican ash** | *Fraxinus berlandieriana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Carolina ash** | *Fraxinus caroliniana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Himalayan manna ash** | *Fraxinus floribunda* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Siebold ash** | *Fraxinus sieboldiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **night jasmine** | *Nyctanthes arbor-tristis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **summer lilac** | *Buddleja davidii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Texas barometer bush** | *Leucophyllum frutescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **popwood** | *Myoporum obscurum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **late figwort** | *Scrophularia marilandica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common mullein** | *Verbascum thapsus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **black-eyed Susan vine** | *Thunbergia alata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **black mangrove** | *Avicennia germinans* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **queen's wreath** | *Petrea volubilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cayenne snakeweed** | *Stachytarpheta cayennensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **blue porterweed** | *Stachytarpheta jamaicensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **golden dewdrops** | *Duranta erecta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **purpletop vervain** | *Verbena bonariensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **prostrate vervain** | *Verbena bracteata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common vervain** | *Verbena officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white vervain** | *Verbena urticifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American blue vervain** | *Verbena hastata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **southern catalpa** | *Catalpa bignonioides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **northern catalpa** | *Catalpa speciosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Haitian catalpa** | *Catalpa longissima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Indian trumpet tree** | *Oroxylum indicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American trumpet vine** | *Campsis radicans* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese trumpet vine** | *Campsis grandiflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cowpea witchweed** | *Striga gesnerioides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **beechdrops** | *Epifagus virginiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **elephant's-head lousewort** | *Pedicularis groenlandica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **snapdragon** | *Antirrhinum majus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Kenilworth ivy** | *Cymbalaria muralis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common toadflax** | *Linaria vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common foxglove** | *Digitalis purpurea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yellow foxglove** | *Digitalis grandiflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wooly foxglove** | *Digitalis lanata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common plantain** | *Plantago major* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **narrow-leaved plantain** | *Plantago lanceolata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **glandular plantain** | *Plantago afra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **blond plantain** | *Plantago ovata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **branched plantain** | *Plantago indica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sea plantain** | *Plantago maritima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Hawai'i plantain** | *Plantago hawaiensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white turtlehead** | *Chelone glabra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common hedgehyssop** | *Gratiola officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **licorice weed** | *Scoparia dulcis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sessile marshweed** | *Limnophila sessiliflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **veldt-grape** | *Cissus quadrangularis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Virginia creeper** | *Parthenocissus quinquefolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wine grape** | *Vitis vinifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **riverbank grape** | *Vitis riparia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **muscadine** | *Vitis rotundifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sand grape** | *Vitis rupestris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **fox grape** | *Vitis labrusca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hybrid black poplar** | *Populus x canadensis* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **black poplar** | *Populus nigra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **quaking aspen** | *Populus tremuloides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **black cottonwood** | *Populus trichocarpa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white poplar** | *Populus alba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **balsam poplar** | *Populus balsamifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Euphrates poplar** | *Populus euphratica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Mongolian poplar** | *Populus suaveolens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Berlin poplar** | *Populus x berolinensis* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **osier** | *Salix viminalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **woolly willow** | *Salix lanata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Sitka willow** | *Salix sitchensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **governor's plum** | *Flacourtia indica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lovi-lovi** | *Flacourtia inermis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **false mangosteen** | *Garcinia xanthochymus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **kokum** | *Garcinia indica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **boarwood** | *Symphonia globulifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Antilles calophyllum** | *Calophyllum antillanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mammee apple** | *Mammea americana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white mulberry** | *Morus alba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red mulberry** | *Morus rubra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Aino mulberry** | *Morus australis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **black mulberry** | *Morus nigra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **African teak** | *Milicia excelsa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common fig** | *Ficus carica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese banyan** | *Ficus microcarpa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **creeping fig** | *Ficus pumila* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bo tree** | *Ficus religiosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cluster fig** | *Ficus racemosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common red-stem fig** | *Ficus variegata (in: eudicots)* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **weeping fig** | *Ficus benjamina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rubber plant** | *Ficus elastica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Port Jackson fig** | *Ficus rubiginosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sycamore fig** | *Ficus sycomorus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **council-tree** | *Ficus altissima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Indian banyan** | *Ficus benghalensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **fiddle-leaf fig** | *Ficus lyrata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **upas tree** | *Antiaris toxicaria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Osage orange** | *Maclura pomifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **jackfruit** | *Artocarpus heterophyllus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **chempedak** | *Artocarpus integer* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wild jack** | *Artocarpus hirsutus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **kozo** | *Broussonetia kazinoki* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **paper mulberry** | *Broussonetia papyrifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Guiana brosimum** | *Brosimum guianense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bloodwood cacique** | *Brosimum rubescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Indian jujube** | *Ziziphus mauritiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Christ's thorn jujube** | *Ziziphus spina-christi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common jujube** | *Ziziphus jujuba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese raisin tree** | *Hovenia dulcis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lotebush** | *Sarcomphalus obtusifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bitterbrush** | *Purshia tridentata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **monk fruit** | *Siraitia grosvenorii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **balsam apple** | *Momordica balsamina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bitter melon** | *Momordica charantia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **spiny bitter cucumber** | *Momordica cochinchinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **jumping cucumber** | *Ecballium elaterium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **smooth loofah** | *Luffa aegyptiaca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **angled luffa** | *Luffa acutangula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese cucumber** | *Trichosanthes kirilowii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pointed gourd** | *Trichosanthes dioica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **coastal manroot** | *Marah oregana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **chayote** | *Sicyos edulis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **prickly cucumber** | *Echinocystis lobata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **watermelon** | *Citrullus lanatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **colocynth** | *Citrullus colocynthis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **muskmelon** | *Cucumis melo* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cucumber** | *Cucumis sativus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **gherkin** | *Cucumis anguria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white-flowered gourd** | *Lagenaria siceraria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wax gourd** | *Benincasa hispida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tinda** | *Benincasa fistulosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **winter squash** | *Cucurbita maxima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **crookneck pumpkin** | *Cucurbita moschata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **figleaf gourd** | *Cucurbita ficifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mixta squash** | *Cucurbita mixta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **buffalo gourd** | *Cucurbita foetidissima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bedding begonia** | *Begonia x semperflorens-cultorum* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **eyelash begonia** | *Begonia bowerae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **king begonia** | *Begonia rex* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **carob** | *Ceratonia siliqua* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Jamaican feverplant** | *Tribulus cistoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lignum-vitae** | *Guaiacum sanctum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **creosote bush** | *Larrea tridentata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Maracaibo lignum-vitae** | *Gonopterodendron arboreum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common stock** | *Matthiola incana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **annual honesty** | *Lunaria annua* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **thale cress** | *Arabidopsis thaliana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **shepherd's purse** | *Capsella bursa-pastoris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **false flax** | *Camelina sativa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **touristplant** | *Dimorphocarpa wislizeni* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Fendler's bladderpod** | *Physaria fendleri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **early winter cress** | *Barbarea verna* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **winter cress** | *Barbarea vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **woodland bittercress** | *Cardamine flexuosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hairy bittercress** | *Cardamine hirsuta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **small-leaf bittercress** | *Cardamine microphylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Pennsylvania bittercress** | *Cardamine pensylvanica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bog yellowcress** | *Rorippa palustris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pepperwort** | *Lepidium campestre* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **heart-podded hoary cress** | *Lepidium draba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **basket-of-gold** | *Aurinia saxatilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **gray rockcress** | *Arabis alpina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **brown mustard** | *Brassica juncea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rape** | *Brassica napus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **black mustard** | *Brassica nigra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **field mustard** | *Brassica rapa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wild cabbage** | *Brassica oleracea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Ethiopian mustard** | *Brassica carinata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **radish** | *Raphanus sativus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wild radish** | *Raphanus raphanistrum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white mustard** | *Sinapis alba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **shortpod mustard** | *Hirschfeldia incana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **European searocket** | *Cakile maritima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American searocket** | *Cakile edentula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **showy sunflax** | *Heliophila coronopifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **scurvy-grass** | *Cochlearia officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wild candytuft** | *Iberis amara* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tower rockcress** | *Turritis glabra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Ichang papeda** | *Citrus cavaleriei* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sweet orange** | *Citrus sinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pomelo** | *Citrus maxima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **trifoliate orange** | *Citrus trifoliata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bitter orange** | *Citrus x aurantium* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **satsuma mandarin** | *Citrus unshiu* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rough lemon** | *Citrus jambhiri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **marumi kumquat** | *Citrus japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mandarin orange** | *Citrus reticulata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yuzu** | *Citrus junos* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **calamondin** | *Citrus x microcarpa* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Makrut lime** | *Citrus hystrix* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Rangpur lime** | *Citrus limonia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **citron** | *Citrus medica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Cleopatra mandarin** | *Citrus reshni* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Tahiti lime** | *Citrus x latifolia* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **alemow** | *Citrus macrophylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Australian round lime** | *Citrus australis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **winged lime** | *Citrus longispina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **keraji** | *Citrus keraji* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Bengal quince** | *Aegle marmelos* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wood-apple** | *Limonia acidissima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common rue** | *Ruta graveolens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yellowwood ash** | *Flindersia xanthoxyla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common pricklyash** | *Zanthoxylum americanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese pepper** | *Zanthoxylum piperitum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mastic-leaf prickly ash** | *Zanthoxylum schinifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pricklywood** | *Zanthoxylum riedelianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white sapote** | *Casimiroa edulis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **China jute** | *Abutilon theophrasti* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sea-island cotton** | *Gossypium barbadense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cotton** | *Gossypium hirsutum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Peruvian cotton** | *Gossypium raimondii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **roselle** | *Hibiscus sabdariffa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **flower-of-an-hour** | *Hibiscus trionum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese hibiscus** | *Hibiscus rosa-sinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **koki`o ula** | *Hibiscus kokio* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **ma`o hau hele** | *Hibiscus brackenridgei* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cotton rosemallow** | *Hibiscus mutabilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hollyhock** | *Alcea rosea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **greater musk-mallow** | *Malva alcea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **marshmallow** | *Althaea officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **aibika** | *Abelmoschus manihot* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **okra** | *Abelmoschus esculentus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **musk mallow** | *Abelmoschus moschatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sea hibiscus** | *Talipariti tiliaceum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cacao** | *Theobroma cacao* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sleepy morning** | *Waltheria indica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American linden** | *Tilia americana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **silver linden** | *Tilia tomentosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Illawara flametree** | *Brachychiton acerifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Queensland bottletree** | *Brachychiton rupestris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese parasol-tree** | *Firmiana simplex* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mata lembu** | *Firmiana malayana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Indian kapok** | *Bombax ceiba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Gold Coast bombax** | *Bombax buonopozense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **balsa** | *Ochroma pyramidale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Mexican flannelbush** | *Fremontodendron mexicanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **California flannelbush** | *Fremontodendron californicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **boab** | *Adansonia gregorii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **kapoktree** | *Ceiba pentandra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **gurjan** | *Dipterocarpus turbinatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sal tree** | *Shorea robusta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **seedbox** | *Ludwigia alternifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tiger Grass** | *Thysanolaena latifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wild Oats** | *Chasmanthium latifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Uva Grass** | *Gynerium sagittatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Giant Reed** | *Arundo donax* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Poverty Oat Grass** | *Danthonia spicata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **California Oat Grass** | *Danthonia californica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Perennial Veldt Grass** | *Ehrharta calycina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Betel Palm** | *Areca catechu* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Areca Palm** | *Dypsis lutescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coconut Palm** | *Cocos nucifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Babassu** | *Attalea speciosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Peach Palm** | *Bactris gasipaes* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **African Oil Palm** | *Elaeis guineensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Oil Palm** | *Elaeis oleifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Windmill Palm** | *Trachycarpus fortunei* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Needle Palm** | *Rhapidophyllum hystrix* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Flower of Jove** | *Silene flos-jovis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rose Campion** | *Silene coronaria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Scarlet Lychnis** | *Silene chalcedonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ragged-robin** | *Silene flos-cuculi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Burchell's Campion** | *Silene burchellii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bory's Campion** | *Silene boryi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cushion Pink** | *Silene acaulis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Roemer's Campion** | *Silene roemeri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Waldstein's Campion** | *Silene waldsteinii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spanish Catchfly** | *Silene otites* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Night-flowering Catchfly** | *Silene noctiflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red Campion** | *Silene dioica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Large Sand Catchfly** | *Silene conoidea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Reinhold's Campion** | *Silene reinholdii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Nodding Catchfly** | *Silene pendula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bladder Campion** | *Silene vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Royal Catchfly** | *Silene regia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Elisabeth's Campion** | *Silene elisabethae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Himalayan Knotweed** | *Koenigia polystachya* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sand Dollar Cactus** | *Astrophytum asterias* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Peyote** | *Lophophora williamsii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Triangle Cactus** | *Acanthocereus tetragonus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Organ Pipe Cactus** | *Stenocereus thurberi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **False Christmas Cactus** | *Schlumbergera truncata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Drunkard's Dream** | *Hatiora salicornioides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Torch Cactus** | *Soehrensia spachiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **One-flowered Wintergreen** | *Moneses uniflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **One-sided Wintergreen** | *Orthilia secunda* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ghost Pipe** | *Monotropa uniflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pinesap** | *Monotropa hypopitys* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sweet Pinesap** | *Monotropsis odorata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Heather Flower** | *Calluna vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tree Heath** | *Erica arborea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bell-heather** | *Erica cinerea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Florida Rosemary** | *Ceratiola ericoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Black Crowberry** | *Empetrum nigrum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tarflower** | *Bejaria racemosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Marsh Labrador Tea** | *Rhododendron tomentosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Leatherleaf Rhododendron** | *Rhododendron metternichii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Great Rhododendron** | *Rhododendron maximum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Western Labrador Tea** | *Rhododendron columbianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Andromeda** | *Pieris japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Salal** | *Gaultheria shallon* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Eastern Teaberry** | *Gaultheria procumbens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Highland Doghobble** | *Leucothoe fontanesiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coastal Dog-hobble** | *Leucothoe axillaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Swamp Doghobble** | *Eubotrys racemosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Large Cranberry** | *Vaccinium macrocarpon* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Northern Highbush Blueberry** | *Vaccinium corymbosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Andean Blueberry** | *Vaccinium floribundum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Bilberry** | *Vaccinium myrtillus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lingonberry** | *Vaccinium vitis-idaea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bog Bilberry** | *Vaccinium uliginosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Shiny Blueberry** | *Vaccinium myrsinites* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sparkleberry** | *Vaccinium arboreum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Small Cranberry** | *Vaccinium oxycoccos* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tropical Blueberry** | *Macleania rupestris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Dangleberry** | *Gaylussacia frondosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Garden Balsam** | *Impatiens balsamina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lawn Water-pennywort** | *Hydrocotyle sibthorpioides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ginseng** | *Panax ginseng* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Notoginseng** | *Panax notoginseng* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Ginseng** | *Panax japonicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Devil's Walking Stick** | *Aralia spinosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bristly Sarsaparilla** | *Aralia hispida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Five Finger** | *Neopanax arboreus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tobira** | *Pittosporum tobira* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chuquiragua** | *Chuquiraga jussieui* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Beach Naupaka** | *Scaevola taccada* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Large White Petunia** | *Petunia axillaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Butterfly Flower** | *Schizanthus pinnatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sweet Potato** | *Ipomoea batatas* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Morning-glory** | *Ipomoea purpurea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red Morning Glory** | *Ipomoea coccinea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Morning Glory** | *Ipomoea nil* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Trilobed Morning Glory** | *Ipomoea triloba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Morning-glory** | *Ipomoea lacunosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bush Moonflower** | *Ipomoea leptophylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Firecracker Vine** | *Ipomoea lobata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bay Hops** | *Ipomoea pes-caprae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cypress Vine** | *Ipomoea quamoclit* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mile-a-minute Vine** | *Ipomoea cairica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Jalap** | *Ipomoea purga* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hedge Bindweed** | *Calystegia sepium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lilac Chaste Tree** | *Vitex agnus-castus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Simpleleaf Chastetree** | *Vitex trifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Chaste Tree** | *Vitex negundo* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Malbau** | *Premna serratifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Primrose Jasmine** | *Jasminum mesnyi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Jasmine** | *Jasminum officinale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Olive** | *Olea europaea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Privet** | *Ligustrum vulgare* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Lilac** | *Syringa vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Ash** | *Fraxinus americana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **European Ash** | *Fraxinus excelsior* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Flowering Ash** | *Fraxinus ornus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mexican Ash** | *Fraxinus berlandieriana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Carolina Ash** | *Fraxinus caroliniana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Himalayan Manna Ash** | *Fraxinus floribunda* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Siebold Ash** | *Fraxinus sieboldiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Night Jasmine** | *Nyctanthes arbor-tristis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Summer Lilac** | *Buddleja davidii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Texas Barometer Bush** | *Leucophyllum frutescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Popwood** | *Myoporum obscurum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Late Figwort** | *Scrophularia marilandica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Mullein** | *Verbascum thapsus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Black-eyed Susan Vine** | *Thunbergia alata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Black Mangrove** | *Avicennia germinans* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Queen's Wreath** | *Petrea volubilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cayenne Snakeweed** | *Stachytarpheta cayennensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Blue Porterweed** | *Stachytarpheta jamaicensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Golden Dewdrops** | *Duranta erecta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Purpletop Vervain** | *Verbena bonariensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Prostrate Vervain** | *Verbena bracteata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Vervain** | *Verbena officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Vervain** | *Verbena urticifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Blue Vervain** | *Verbena hastata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Southern Catalpa** | *Catalpa bignonioides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Northern Catalpa** | *Catalpa speciosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Haitian Catalpa** | *Catalpa longissima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Indian Trumpet Tree** | *Oroxylum indicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Trumpet Vine** | *Campsis radicans* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Trumpet Vine** | *Campsis grandiflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cowpea Witchweed** | *Striga gesnerioides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Beechdrops** | *Epifagus virginiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Elephant's-head Lousewort** | *Pedicularis groenlandica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Snapdragon** | *Antirrhinum majus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Kenilworth Ivy** | *Cymbalaria muralis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Toadflax** | *Linaria vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Foxglove** | *Digitalis purpurea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yellow Foxglove** | *Digitalis grandiflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wooly Foxglove** | *Digitalis lanata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Plantain** | *Plantago major* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Narrow-leaved Plantain** | *Plantago lanceolata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Glandular Plantain** | *Plantago afra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Blond Plantain** | *Plantago ovata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Branched Plantain** | *Plantago indica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sea Plantain** | *Plantago maritima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hawai'i Plantain** | *Plantago hawaiensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Turtlehead** | *Chelone glabra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Hedgehyssop** | *Gratiola officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Licorice Weed** | *Scoparia dulcis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sessile Marshweed** | *Limnophila sessiliflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Veldt-grape** | *Cissus quadrangularis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Virginia Creeper** | *Parthenocissus quinquefolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wine Grape** | *Vitis vinifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Riverbank Grape** | *Vitis riparia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Muscadine** | *Vitis rotundifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sand Grape** | *Vitis rupestris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Fox Grape** | *Vitis labrusca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hybrid Black Poplar** | *Populus x canadensis* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Black Poplar** | *Populus nigra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Quaking Aspen** | *Populus tremuloides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Black Cottonwood** | *Populus trichocarpa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Poplar** | *Populus alba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Balsam Poplar** | *Populus balsamifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Euphrates Poplar** | *Populus euphratica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mongolian Poplar** | *Populus suaveolens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Berlin Poplar** | *Populus x berolinensis* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Osier** | *Salix viminalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Woolly Willow** | *Salix lanata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sitka Willow** | *Salix sitchensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Governor's Plum** | *Flacourtia indica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lovi-lovi** | *Flacourtia inermis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **False Mangosteen** | *Garcinia xanthochymus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Kokum** | *Garcinia indica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Boarwood** | *Symphonia globulifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Antilles Calophyllum** | *Calophyllum antillanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mammee Apple** | *Mammea americana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Mulberry** | *Morus alba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red Mulberry** | *Morus rubra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Aino Mulberry** | *Morus australis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Black Mulberry** | *Morus nigra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **African Teak** | *Milicia excelsa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Fig** | *Ficus carica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Banyan** | *Ficus microcarpa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Creeping Fig** | *Ficus pumila* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bo Tree** | *Ficus religiosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cluster Fig** | *Ficus racemosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Red-stem Fig (Ficus variegata (in: eudicots))** | *Ficus variegata (in: eudicots)* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Weeping Fig** | *Ficus benjamina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rubber Plant** | *Ficus elastica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Port Jackson Fig** | *Ficus rubiginosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sycamore Fig** | *Ficus sycomorus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Council-tree** | *Ficus altissima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Indian Banyan** | *Ficus benghalensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Fiddle-leaf Fig** | *Ficus lyrata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Upas Tree** | *Antiaris toxicaria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Osage Orange** | *Maclura pomifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Jackfruit** | *Artocarpus heterophyllus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chempedak** | *Artocarpus integer* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wild Jack** | *Artocarpus hirsutus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Kozo** | *Broussonetia kazinoki* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Paper Mulberry** | *Broussonetia papyrifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Guiana Brosimum** | *Brosimum guianense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bloodwood Cacique** | *Brosimum rubescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Indian Jujube** | *Ziziphus mauritiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Christ's Thorn Jujube** | *Ziziphus spina-christi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Jujube** | *Ziziphus jujuba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Raisin Tree** | *Hovenia dulcis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lotebush** | *Sarcomphalus obtusifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bitterbrush** | *Purshia tridentata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Monk Fruit** | *Siraitia grosvenorii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Balsam Apple** | *Momordica balsamina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bitter Melon** | *Momordica charantia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spiny Bitter Cucumber** | *Momordica cochinchinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Jumping Cucumber** | *Ecballium elaterium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Smooth Loofah** | *Luffa aegyptiaca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Angled Luffa** | *Luffa acutangula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Cucumber** | *Trichosanthes kirilowii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pointed Gourd** | *Trichosanthes dioica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coastal Manroot** | *Marah oregana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chayote** | *Sicyos edulis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Prickly Cucumber** | *Echinocystis lobata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Watermelon** | *Citrullus lanatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Colocynth** | *Citrullus colocynthis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Muskmelon** | *Cucumis melo* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cucumber** | *Cucumis sativus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Gherkin** | *Cucumis anguria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White-flowered Gourd** | *Lagenaria siceraria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wax Gourd** | *Benincasa hispida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tinda** | *Benincasa fistulosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Winter Squash** | *Cucurbita maxima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Crookneck Pumpkin** | *Cucurbita moschata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Figleaf Gourd** | *Cucurbita ficifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mixta Squash** | *Cucurbita mixta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Buffalo Gourd** | *Cucurbita foetidissima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bedding Begonia** | *Begonia x semperflorens-cultorum* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Eyelash Begonia** | *Begonia bowerae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **King Begonia** | *Begonia rex* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Carob** | *Ceratonia siliqua* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Jamaican Feverplant** | *Tribulus cistoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lignum-vitae** | *Guaiacum sanctum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Creosote Bush** | *Larrea tridentata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Maracaibo Lignum-vitae** | *Gonopterodendron arboreum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Stock** | *Matthiola incana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Annual Honesty** | *Lunaria annua* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Thale Cress** | *Arabidopsis thaliana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Shepherd's Purse** | *Capsella bursa-pastoris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **False Flax** | *Camelina sativa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Touristplant** | *Dimorphocarpa wislizeni* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Fendler's Bladderpod** | *Physaria fendleri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Early Winter Cress** | *Barbarea verna* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Winter Cress** | *Barbarea vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Woodland Bittercress** | *Cardamine flexuosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hairy Bittercress** | *Cardamine hirsuta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Small-leaf Bittercress** | *Cardamine microphylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pennsylvania Bittercress** | *Cardamine pensylvanica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bog Yellowcress** | *Rorippa palustris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pepperwort** | *Lepidium campestre* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Heart-podded Hoary Cress** | *Lepidium draba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Basket-of-gold** | *Aurinia saxatilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Gray Rockcress** | *Arabis alpina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Brown Mustard** | *Brassica juncea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rape** | *Brassica napus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Black Mustard** | *Brassica nigra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Field Mustard** | *Brassica rapa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wild Cabbage** | *Brassica oleracea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ethiopian Mustard** | *Brassica carinata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Radish** | *Raphanus sativus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wild Radish** | *Raphanus raphanistrum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Mustard** | *Sinapis alba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Shortpod Mustard** | *Hirschfeldia incana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **European Searocket** | *Cakile maritima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Searocket** | *Cakile edentula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Showy Sunflax** | *Heliophila coronopifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Scurvy-grass** | *Cochlearia officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wild Candytuft** | *Iberis amara* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tower Rockcress** | *Turritis glabra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ichang Papeda** | *Citrus cavaleriei* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sweet Orange** | *Citrus sinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pomelo** | *Citrus maxima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Trifoliate Orange** | *Citrus trifoliata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bitter Orange** | *Citrus x aurantium* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Satsuma Mandarin** | *Citrus unshiu* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rough Lemon** | *Citrus jambhiri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Marumi Kumquat** | *Citrus japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mandarin Orange** | *Citrus reticulata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yuzu** | *Citrus junos* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Calamondin** | *Citrus x microcarpa* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Makrut Lime** | *Citrus hystrix* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rangpur Lime** | *Citrus limonia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Citron** | *Citrus medica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cleopatra Mandarin** | *Citrus reshni* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tahiti Lime** | *Citrus x latifolia* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Alemow** | *Citrus macrophylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Australian Round Lime** | *Citrus australis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Winged Lime** | *Citrus longispina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Keraji** | *Citrus keraji* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bengal Quince** | *Aegle marmelos* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wood-apple** | *Limonia acidissima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Rue** | *Ruta graveolens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yellowwood Ash** | *Flindersia xanthoxyla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Pricklyash** | *Zanthoxylum americanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Pepper** | *Zanthoxylum piperitum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mastic-leaf Prickly Ash** | *Zanthoxylum schinifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pricklywood** | *Zanthoxylum riedelianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Sapote** | *Casimiroa edulis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **China Jute** | *Abutilon theophrasti* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sea-island Cotton** | *Gossypium barbadense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cotton** | *Gossypium hirsutum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Peruvian Cotton** | *Gossypium raimondii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Roselle** | *Hibiscus sabdariffa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Flower-of-an-hour** | *Hibiscus trionum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Hibiscus** | *Hibiscus rosa-sinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Koki`o Ula** | *Hibiscus kokio* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ma`o Hau Hele** | *Hibiscus brackenridgei* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cotton Rosemallow** | *Hibiscus mutabilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hollyhock** | *Alcea rosea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Greater Musk-mallow** | *Malva alcea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Marshmallow** | *Althaea officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Aibika** | *Abelmoschus manihot* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Okra** | *Abelmoschus esculentus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Musk Mallow** | *Abelmoschus moschatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sea Hibiscus** | *Talipariti tiliaceum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cacao** | *Theobroma cacao* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sleepy Morning** | *Waltheria indica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Linden** | *Tilia americana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Silver Linden** | *Tilia tomentosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Illawara Flametree** | *Brachychiton acerifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Queensland Bottletree** | *Brachychiton rupestris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Parasol-tree** | *Firmiana simplex* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mata Lembu** | *Firmiana malayana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Indian Kapok** | *Bombax ceiba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Gold Coast Bombax** | *Bombax buonopozense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Balsa** | *Ochroma pyramidale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mexican Flannelbush** | *Fremontodendron mexicanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **California Flannelbush** | *Fremontodendron californicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Boab** | *Adansonia gregorii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Kapoktree** | *Ceiba pentandra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Gurjan** | *Dipterocarpus turbinatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sal Tree** | *Shorea robusta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Seedbox** | *Ludwigia alternifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Antarctic Krill** | *Euphausia superba* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Antarctic Krill (Euphausia superba) | **Promoted to Active Game Roster** |
 | **Roman Snail** | *Helix pomatia* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Roman Snail (Helix pomatia) | **Promoted to Active Game Roster** |
 | **Giant African Snail** | *Lissachatina fulica* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Giant African Snail (Lissachatina fulica) | **Promoted to Active Game Roster** |
-| **bester** | *Acipenser ruthenus x Huso huso* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Bester** | *Acipenser ruthenus x Huso huso* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Longnose Gar** | *Lepisosteus osseus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Longnose Gar (Lepisosteus osseus) | **Promoted to Active Game Roster** |
 | **Alligator Gar** | *Atractosteus spatula* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Alligator Gar (Atractosteus spatula) | **Promoted to Active Game Roster** |
 | **Bowfin** | *Amia calva* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Bowfin (Amia calva) | **Promoted to Active Game Roster** |
 | **Rio Cauca Caecilian** | *Typhlonectes natans* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Rio Cauca Caecilian (Typhlonectes natans) | **Promoted to Active Game Roster** |
 | **Mexican Burrowing Caecilian** | *Dermophis mexicanus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Mexican Burrowing Caecilian (Dermophis mexicanus) | **Promoted to Active Game Roster** |
-| **finger millet** | *Eleusine coracana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **goosegrass** | *Eleusine indica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Bermuda grass** | *Cynodon dactylon* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **curly Mitchell grass** | *Astrebla lappacea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **feather finger grass** | *Chloris virgata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **weeping love grass** | *Eragrostis curvula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **stink grass** | *Eragrostis cilianensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese lovegrass** | *Eragrostis tenella* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **gophertail lovegrass** | *Eragrostis ciliaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Manila grass** | *Zoysia matrella* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Korean lawngrass** | *Zoysia japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **smooth cordgrass** | *Sporobolus alterniflorus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **smut grass** | *Sporobolus indicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **alkali cordgrass** | *Sporobolus hookerianus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **prairie cordgrass** | *Sporobolus michauxianus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **alkali sacaton** | *Sporobolus airoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common reed** | *Phragmites australis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **moor grass** | *Molinia caerulea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **longstamen rice** | *Oryza longistaminata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **brownbeard rice** | *Oryza rufipogon* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Asian cultivated rice** | *Oryza sativa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **malo sina** | *Oryza brachyantha* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **African rice** | *Oryza glaberrima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rice cutgrass** | *Leersia oryzoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Virginian cutgrass** | *Leersia virginica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rye brome** | *Bromus secalinus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **smooth brome grass** | *Bromus inermis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **erect brome** | *Bromus erectus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cheatgrass** | *Bromus tectorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rattlesnake brome** | *Bromus briziformis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red brome** | *Bromus rubens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **soft brome** | *Bromus hordeaceus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rescuegrass** | *Bromus catharticus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Australian brome** | *Bromus arenarius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese brome** | *Bromus japonicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hairy chess** | *Bromus commutatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **California brome** | *Bromus carinatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mountain brome** | *Bromus marginatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hoary brome** | *Bromus subvelutinus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **compact brome** | *Bromus madritensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Arctic brome** | *Bromus pumpellianus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **smilo grass** | *Oloptum miliaceum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **stiff brome** | *Brachypodium distachyon* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Mauritania vine reed** | *Ampelodesmos mauritanicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Asiatic pennywort** | *Centella asiatica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **African daisy** | *Dimorphotheca sinuata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pot marigold** | *Calendula officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Brazilian jasmine** | *Mandevilla sanderi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **porcelain flower** | *Hoya carnosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **showy prairie gentian** | *Eustoma russellianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yellow gentian** | *Gentiana lutea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bead plant** | *Nertera granadensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Indian mulberry** | *Morinda citrifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **southern cleavers** | *Galium verrucosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rough bedstraw** | *Galium asprellum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Levantine madder** | *Rubia peregrina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **madder** | *Rubia tinctorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **firecrackerbush** | *Bouvardia ternifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Egyptian star cluster** | *Pentas lanceolata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **ipecac** | *Carapichea ipecacuanha* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **degame** | *Calycophyllum candidissimum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **flame-of-the-woods** | *Ixora coccinea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Spanish tamarind** | *Vangueria madagascariensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lily thorn** | *Catesbaea spinosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red cinchona** | *Cinchona pubescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tabasco pepper** | *Capsicum frutescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **habanero** | *Capsicum chinense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rocoto** | *Capsicum pubescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Finger Millet** | *Eleusine coracana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Goosegrass** | *Eleusine indica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bermuda Grass** | *Cynodon dactylon* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Curly Mitchell Grass** | *Astrebla lappacea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Feather Finger Grass** | *Chloris virgata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Weeping Love Grass** | *Eragrostis curvula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Stink Grass** | *Eragrostis cilianensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Lovegrass** | *Eragrostis tenella* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Gophertail Lovegrass** | *Eragrostis ciliaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Manila Grass** | *Zoysia matrella* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Korean Lawngrass** | *Zoysia japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Smooth Cordgrass** | *Sporobolus alterniflorus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Smut Grass** | *Sporobolus indicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Alkali Cordgrass** | *Sporobolus hookerianus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Prairie Cordgrass** | *Sporobolus michauxianus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Alkali Sacaton** | *Sporobolus airoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Reed** | *Phragmites australis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Moor Grass** | *Molinia caerulea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Longstamen Rice** | *Oryza longistaminata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Brownbeard Rice** | *Oryza rufipogon* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Asian Cultivated Rice** | *Oryza sativa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Malo Sina** | *Oryza brachyantha* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **African Rice** | *Oryza glaberrima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rice Cutgrass** | *Leersia oryzoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Virginian Cutgrass** | *Leersia virginica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rye Brome** | *Bromus secalinus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Smooth Brome Grass** | *Bromus inermis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Erect Brome** | *Bromus erectus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cheatgrass** | *Bromus tectorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rattlesnake Brome** | *Bromus briziformis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red Brome** | *Bromus rubens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Soft Brome** | *Bromus hordeaceus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rescuegrass** | *Bromus catharticus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Australian Brome** | *Bromus arenarius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Brome** | *Bromus japonicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hairy Chess** | *Bromus commutatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **California Brome** | *Bromus carinatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mountain Brome** | *Bromus marginatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hoary Brome** | *Bromus subvelutinus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Compact Brome** | *Bromus madritensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Arctic Brome** | *Bromus pumpellianus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Smilo Grass** | *Oloptum miliaceum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Stiff Brome** | *Brachypodium distachyon* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mauritania Vine Reed** | *Ampelodesmos mauritanicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Asiatic Pennywort** | *Centella asiatica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **African Daisy** | *Dimorphotheca sinuata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pot Marigold** | *Calendula officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Brazilian Jasmine** | *Mandevilla sanderi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Porcelain Flower** | *Hoya carnosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Showy Prairie Gentian** | *Eustoma russellianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yellow Gentian** | *Gentiana lutea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bead Plant** | *Nertera granadensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Indian Mulberry** | *Morinda citrifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Southern Cleavers** | *Galium verrucosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rough Bedstraw** | *Galium asprellum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Levantine Madder** | *Rubia peregrina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Madder** | *Rubia tinctorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Firecrackerbush** | *Bouvardia ternifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Egyptian Star Cluster** | *Pentas lanceolata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ipecac** | *Carapichea ipecacuanha* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Degame** | *Calycophyllum candidissimum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Flame-of-the-woods** | *Ixora coccinea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spanish Tamarind** | *Vangueria madagascariensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lily Thorn** | *Catesbaea spinosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red Cinchona** | *Cinchona pubescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tabasco Pepper** | *Capsicum frutescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Habanero** | *Capsicum chinense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rocoto** | *Capsicum pubescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Ulupica de Chaco** | *Capsicum eximium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mejiro-hozuki** | *Lycianthes biflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sacred datura** | *Datura inoxia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **jimsonweed** | *Datura stramonium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Hindu datura** | *Datura metel* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **maikoa** | *Brugmansia arborea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **apricot angel's trumpet** | *Brugmansia versicolor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **golden angel's trumpet** | *Brugmansia aurea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **angel's-trumpet** | *Brugmansia x candida* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **henbane** | *Hyoscyamus niger* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **belladonna** | *Atropa belladonna* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **goji berry** | *Lycium barbarum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese wolfberry** | *Lycium chinense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mandrake** | *Mandragora officinarum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Himalayan mandrake** | *Mandragora caulescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **shoo-fly plant** | *Nicandra physalodes* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Peruvian groundcherry** | *Physalis peruviana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **long-leaved groundcherry** | *Physalis longifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hairy groundcherry** | *Physalis pubescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Indian rennet** | *Withania coagulans* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese lantern** | *Alkekengi officinarum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chaco potato** | *Solanum chacoense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Commerson's wild potato** | *Solanum commersonii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chilean potato-tree** | *Solanum crispum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **eggplant** | *Solanum melongena* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **black nightshade** | *Solanum nigrum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **potato** | *Solanum tuberosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **eastern black nightshade** | *Solanum ptychanthum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tamarillo** | *Solanum betaceum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tansyleaf nightshade** | *Solanum pinnatisectum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **ball nightshade** | *Solanum carolinense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **turkey berry** | *Solanum torvum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Ethiopian eggplant** | *Solanum aethiopicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cockroach berry** | *Solanum capsicoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tzimbalo** | *Solanum caripense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pepino dulce** | *Solanum muricatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Hawai'i horsenettle** | *Solanum sandwicense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **naranjilla** | *Solanum quitoense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wetland nightshade** | *Solanum tampicense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **marmalade-bush** | *Streptosolen jamesonii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **green cestrum** | *Cestrum parqui* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **painted tongue** | *Salpiglossis sinuata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **acuminate tobacco** | *Nicotiana acuminata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Persian tobacco** | *Nicotiana alata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Debney's tobacco** | *Nicotiana debneyi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tree tobacco** | *Nicotiana glauca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **curled-leaved tobacco** | *Nicotiana plumbaginifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Aztec tobacco** | *Nicotiana rustica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wood tobacco** | *Nicotiana sylvestris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common tobacco** | *Nicotiana tabacum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **southern Asian dodder** | *Cuscuta reflexa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese dodder** | *Cuscuta japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **patchouli** | *Pogostemon cablin* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **obedient plant** | *Physostegia virginiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **woolly hedgenettle** | *Stachys byzantina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese motherwort** | *Paraleonurus japonicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Siberian motherwort** | *Paraleonurus sibiricus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white horehound** | *Marrubium vulgare* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **henbit deadnettle** | *Lamium amplexicaule* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red dead-nettle** | *Lamium purpureum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common hedgenettle** | *Betonica officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **round-leaf mintbush** | *Prostanthera rotundifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **snowy mintbush** | *Prostanthera nivea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bee balm** | *Monarda didyma* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **oregano** | *Origanum vulgare* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **dittany of Crete** | *Origanum dictamnus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Italian oregano** | *Origanum x majoricum* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **common thyme** | *Thymus vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Spanish wood marjoram** | *Thymus mastichina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wild thyme** | *Thymus serpyllum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **five-ribbed thyme** | *Thymus quinquecostatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **conehead thyme** | *Thymbra capitata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common dittany** | *Cunila origanoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **northern horsebalm** | *Collinsonia canadensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mint shrub** | *Elsholtzia stauntonii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **beefsteak plant** | *Perilla frutescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bleeding glory-bower** | *Clerodendrum thomsoniae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lolly bush** | *Clerodendrum floribundum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bugle** | *Ajuga reptans* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bastard pennyroyal** | *Trichostema dichotomum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **saffron spike** | *Aphelandra squarrosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sea-dock** | *Acanthus mollis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **African tulip tree** | *Spathodea campanulata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pink trumpet tree** | *Tabebuia heterophylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American alpine speedwell** | *Veronica wormskjoldii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **purslane speedwell** | *Veronica peregrina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **ivy-leaved speedwell** | *Veronica hederifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Java speedwell** | *Veronica javanica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **birdeye speedwell** | *Veronica persica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **corn speedwell** | *Veronica arvensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **corn gromwell** | *Buglossoides arvensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **dog's mercury** | *Mercurialis perennis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **annual mercury** | *Mercurialis annua* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **castor bean** | *Ricinus communis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **chenille plant** | *Acalypha hispida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rubber tree** | *Hevea brasiliensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cassava** | *Manihot esculenta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bellyache bush** | *Jatropha gossypiifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **goutystalk nettlespurge** | *Jatropha podagrica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **grassland croton** | *Croton dioicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese tallow** | *Triadica sebifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Tahitian gooseberry tree** | *Phyllanthus acidus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **katuk** | *Breynia androgyna* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **emblic** | *Emblica officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cascara buckthorn** | *Frangula purshiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **alder buckthorn** | *Frangula alnus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **California buckthorn** | *Frangula californica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **almond** | *Prunus dulcis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **plum** | *Prunus domestica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Yoshino cherry** | *Prunus yedoensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **peach** | *Prunus persica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hollyleaf cherry** | *Prunus ilicifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **black cherry** | *Prunus serotina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bitter cherry** | *Prunus emarginata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cherry laurel** | *Prunus laurocerasus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cherry plum** | *Prunus cerasifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **apricot** | *Prunus armeniaca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sweet cherry** | *Prunus avium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese plum** | *Prunus salicina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **miyama cherry** | *Prunus maximowiczii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese mountain cherry** | *Prunus jamasakura* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese apricot** | *Prunus mume* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **dwarf flowering almond** | *Prunus glandulosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Nanking cherry** | *Prunus tomentosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American plum** | *Prunus americana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **flatwoods plum** | *Prunus umbellata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mahaleb cherry** | *Prunus mahaleb* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Taiwan cherry** | *Prunus campanulata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sour cherry** | *Prunus cerasus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Carolina laurelcherry** | *Prunus caroliniana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Gray's bird cherry** | *Prunus grayana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Amur chokecherry** | *Prunus maackii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese sour cherry** | *Prunus pseudocerasus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Simon plum** | *Prunus simonii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Klamath plum** | *Prunus subcordata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wild Himalayan cherry** | *Prunus cerasoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Oshima cherry** | *Prunus speciosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **black apricot** | *Prunus x dasycarpa* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **steeplebush** | *Spiraea tomentosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **osoberry** | *Oemleria cerasiformis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese kerria** | *Kerria japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **apple** | *Malus domestica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **European crab apple** | *Malus sylvestris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pear** | *Pyrus communis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **callery pear** | *Pyrus calleryana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese white pear** | *Pyrus x bretschneideri* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Ussurian pear** | *Pyrus ussuriensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mountain shadbush** | *Amelanchier bartramiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cockspur hawthorn** | *Crataegus crus-galli* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **azarole** | *Crataegus azarolus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese hawthorn** | *Crataegus pinnatifida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yellowleaf hawthorn** | *Crataegus flava* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese photinia** | *Photinia glabra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rowan** | *Sorbus aucuparia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese flowering quince** | *Chaenomeles cathayensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common flowering quince** | *Chaenomeles speciosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese quince** | *Chaenomeles japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **quince** | *Cydonia oblonga* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **toyon** | *Heteromeles arbutifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **medlar** | *Mespilus germanica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **oriental photinia** | *Pourthiaea villosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **alder-leaved whitebeam** | *Alniaria alnifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **broad-leaved whitebeam** | *Karpatiosorbus latifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mejiro-hozuki** | *Lycianthes biflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sacred Datura** | *Datura inoxia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Jimsonweed** | *Datura stramonium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hindu Datura** | *Datura metel* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Maikoa** | *Brugmansia arborea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Apricot Angel's Trumpet** | *Brugmansia versicolor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Golden Angel's Trumpet** | *Brugmansia aurea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Angel's-trumpet** | *Brugmansia x candida* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Henbane** | *Hyoscyamus niger* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Belladonna** | *Atropa belladonna* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Goji Berry** | *Lycium barbarum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Wolfberry** | *Lycium chinense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mandrake** | *Mandragora officinarum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Himalayan Mandrake** | *Mandragora caulescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Shoo-fly Plant** | *Nicandra physalodes* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Peruvian Groundcherry** | *Physalis peruviana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Long-leaved Groundcherry** | *Physalis longifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hairy Groundcherry** | *Physalis pubescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Indian Rennet** | *Withania coagulans* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Lantern** | *Alkekengi officinarum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chaco Potato** | *Solanum chacoense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Commerson's Wild Potato** | *Solanum commersonii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chilean Potato-tree** | *Solanum crispum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Eggplant** | *Solanum melongena* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Black Nightshade** | *Solanum nigrum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Potato** | *Solanum tuberosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Eastern Black Nightshade** | *Solanum ptychanthum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tamarillo** | *Solanum betaceum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tansyleaf Nightshade** | *Solanum pinnatisectum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ball Nightshade** | *Solanum carolinense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Turkey Berry** | *Solanum torvum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ethiopian Eggplant** | *Solanum aethiopicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cockroach Berry** | *Solanum capsicoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tzimbalo** | *Solanum caripense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pepino Dulce** | *Solanum muricatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hawai'i Horsenettle** | *Solanum sandwicense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Naranjilla** | *Solanum quitoense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wetland Nightshade** | *Solanum tampicense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Marmalade-bush** | *Streptosolen jamesonii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Green Cestrum** | *Cestrum parqui* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Painted Tongue** | *Salpiglossis sinuata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Acuminate Tobacco** | *Nicotiana acuminata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Persian Tobacco** | *Nicotiana alata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Debney's Tobacco** | *Nicotiana debneyi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tree Tobacco** | *Nicotiana glauca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Curled-leaved Tobacco** | *Nicotiana plumbaginifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Aztec Tobacco** | *Nicotiana rustica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wood Tobacco** | *Nicotiana sylvestris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Tobacco** | *Nicotiana tabacum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Southern Asian Dodder** | *Cuscuta reflexa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Dodder** | *Cuscuta japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Patchouli** | *Pogostemon cablin* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Obedient Plant** | *Physostegia virginiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Woolly Hedgenettle** | *Stachys byzantina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Motherwort** | *Paraleonurus japonicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Siberian Motherwort** | *Paraleonurus sibiricus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Horehound** | *Marrubium vulgare* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Henbit Deadnettle** | *Lamium amplexicaule* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red Dead-nettle** | *Lamium purpureum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Hedgenettle** | *Betonica officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Round-leaf Mintbush** | *Prostanthera rotundifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Snowy Mintbush** | *Prostanthera nivea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bee Balm** | *Monarda didyma* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Oregano** | *Origanum vulgare* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Dittany of Crete** | *Origanum dictamnus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Italian Oregano** | *Origanum x majoricum* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Common Thyme** | *Thymus vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spanish Wood Marjoram** | *Thymus mastichina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wild Thyme** | *Thymus serpyllum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Five-ribbed Thyme** | *Thymus quinquecostatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Conehead Thyme** | *Thymbra capitata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Dittany** | *Cunila origanoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Northern Horsebalm** | *Collinsonia canadensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mint Shrub** | *Elsholtzia stauntonii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Beefsteak Plant** | *Perilla frutescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bleeding Glory-bower** | *Clerodendrum thomsoniae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lolly Bush** | *Clerodendrum floribundum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bugle** | *Ajuga reptans* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bastard Pennyroyal** | *Trichostema dichotomum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Saffron Spike** | *Aphelandra squarrosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sea-dock** | *Acanthus mollis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **African Tulip Tree** | *Spathodea campanulata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pink Trumpet Tree** | *Tabebuia heterophylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Alpine Speedwell** | *Veronica wormskjoldii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Purslane Speedwell** | *Veronica peregrina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ivy-leaved Speedwell** | *Veronica hederifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Java Speedwell** | *Veronica javanica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Birdeye Speedwell** | *Veronica persica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Corn Speedwell** | *Veronica arvensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Corn Gromwell** | *Buglossoides arvensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Dog's Mercury** | *Mercurialis perennis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Annual Mercury** | *Mercurialis annua* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Castor Bean** | *Ricinus communis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chenille Plant** | *Acalypha hispida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rubber Tree** | *Hevea brasiliensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cassava** | *Manihot esculenta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bellyache Bush** | *Jatropha gossypiifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Goutystalk Nettlespurge** | *Jatropha podagrica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Grassland Croton** | *Croton dioicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Tallow** | *Triadica sebifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tahitian Gooseberry Tree** | *Phyllanthus acidus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Katuk** | *Breynia androgyna* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Emblic** | *Emblica officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cascara Buckthorn** | *Frangula purshiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Alder Buckthorn** | *Frangula alnus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **California Buckthorn** | *Frangula californica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Almond** | *Prunus dulcis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Plum** | *Prunus domestica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yoshino Cherry** | *Prunus yedoensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Peach** | *Prunus persica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hollyleaf Cherry** | *Prunus ilicifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Black Cherry** | *Prunus serotina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bitter Cherry** | *Prunus emarginata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cherry Laurel** | *Prunus laurocerasus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cherry Plum** | *Prunus cerasifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Apricot** | *Prunus armeniaca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sweet Cherry** | *Prunus avium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Plum** | *Prunus salicina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Miyama Cherry** | *Prunus maximowiczii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Mountain Cherry** | *Prunus jamasakura* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Apricot** | *Prunus mume* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Dwarf Flowering Almond** | *Prunus glandulosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Nanking Cherry** | *Prunus tomentosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Plum** | *Prunus americana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Flatwoods Plum** | *Prunus umbellata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mahaleb Cherry** | *Prunus mahaleb* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Taiwan Cherry** | *Prunus campanulata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sour Cherry** | *Prunus cerasus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Carolina Laurelcherry** | *Prunus caroliniana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Gray's Bird Cherry** | *Prunus grayana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Amur Chokecherry** | *Prunus maackii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Sour Cherry** | *Prunus pseudocerasus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Simon Plum** | *Prunus simonii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Klamath Plum** | *Prunus subcordata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wild Himalayan Cherry** | *Prunus cerasoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Oshima Cherry** | *Prunus speciosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Black Apricot** | *Prunus x dasycarpa* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Steeplebush** | *Spiraea tomentosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Osoberry** | *Oemleria cerasiformis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Kerria** | *Kerria japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Apple** | *Malus domestica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **European Crab Apple** | *Malus sylvestris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pear** | *Pyrus communis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Callery Pear** | *Pyrus calleryana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese White Pear** | *Pyrus x bretschneideri* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Ussurian Pear** | *Pyrus ussuriensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mountain Shadbush** | *Amelanchier bartramiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cockspur Hawthorn** | *Crataegus crus-galli* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Azarole** | *Crataegus azarolus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Hawthorn** | *Crataegus pinnatifida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yellowleaf Hawthorn** | *Crataegus flava* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Photinia** | *Photinia glabra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rowan** | *Sorbus aucuparia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Flowering Quince** | *Chaenomeles cathayensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Flowering Quince** | *Chaenomeles speciosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Quince** | *Chaenomeles japonica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Quince** | *Cydonia oblonga* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Toyon** | *Heteromeles arbutifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Medlar** | *Mespilus germanica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Oriental Photinia** | *Pourthiaea villosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Alder-leaved Whitebeam** | *Alniaria alnifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Broad-leaved Whitebeam** | *Karpatiosorbus latifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **American-ipecac** | *Gillenia stipulata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Bowman's root** | *Gillenia trifoliata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cinnamon rose** | *Rosa majalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **French rose** | *Rosa gallica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sweetbriar rose** | *Rosa rubiginosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Carolina rose** | *Rosa carolina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rugosa rose** | *Rosa rugosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **burr rose** | *Rosa roxburghii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white prairie rose** | *Rosa foliolosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **baldhip rose** | *Rosa gymnocarpa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cluster rose** | *Rosa pisocarpa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red raspberry** | *Rubus idaeus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **swamp dewberry** | *Rubus hispidus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yellow Himalayan raspberry** | *Rubus ellipticus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **snowpeaks raspberry** | *Rubus niveus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Arctic raspberry** | *Rubus arcticus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **robin runaway** | *Rubus repens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Allegheny blackberry** | *Rubus allegheniensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wineberry** | *Rubus phoenicolasius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **small-leaf bramble** | *Rubus parvifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **northern dewberry** | *Rubus flagellaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Andean raspberry** | *Rubus glaucus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Korean blackberry** | *Rubus coreanus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **loganberry** | *Rubus x loganobaccus* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **yeheb bush** | *Cordeauxia edulis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yellow bird-of-paradise shrub** | *Erythrostemon gilliesii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sappanwood** | *Biancaea sappan* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **brazilwood** | *Paubrasilia echinata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **golden shower tree** | *Cassia fistula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Java cassia** | *Cassia javanica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Leichhardt bean** | *Cassia brewsteri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **partridge pea** | *Chamaecrista fasciculata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sensitive partridge pea** | *Chamaecrista nictitans* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **candle bush** | *Senna alata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Alexandrian senna** | *Senna alexandrina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **coffee senna** | *Senna occidentalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rambling senna** | *Senna bicapsularis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Kentucky coffee tree** | *Gymnocladus dioicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **honey locust** | *Gleditsia triacanthos* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **water locust** | *Gleditsia aquatica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **ordeal-tree** | *Erythrophleum suaveolens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tipa colorada** | *Pterogyne nitens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Brazilian fern tree** | *Schizolobium parahyba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Mexican palo verde** | *Parkinsonia aculeata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **royal poinciana** | *Delonix regia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese pagoda tree** | *Styphnolobium japonicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mopane** | *Colophospermum mopane* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **agba** | *Prioria balsamifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **box elder** | *Acer negundo* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sugar maple** | *Acer saccharum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Norway maple** | *Acer platanoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sycamore maple** | *Acer pseudoplatanus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red maple** | *Acer rubrum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Shantung maple** | *Acer truncatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **downy Japanese maple** | *Acer japonicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **trident maple** | *Acer buergerianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mountain maple** | *Acer spicatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hedge maple** | *Acer campestre* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hornbeam maple** | *Acer carpinifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **vine maple** | *Acer circinatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hawthorn maple** | *Acer crataegifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **big-leaf maple** | *Acer macrophyllum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **striped maple** | *Acer pensylvanicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common horse chestnut** | *Aesculus hippocastanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yellow buckeye** | *Aesculus flava* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **painted buckeye** | *Aesculus sylvatica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **inkwood** | *Exothea paniculata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **showy balloonvine** | *Cardiospermum grandiflorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **golden penda** | *Xanthostemon chrysanthus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tea tree** | *Melaleuca alternifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **New Zealand Christmas tree** | *Metrosideros excelsa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lilly-pilly** | *Syzygium smithii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **clove** | *Syzygium aromaticum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Malay apple** | *Syzygium malaccense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Java plum** | *Syzygium cumini* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wax apple** | *Syzygium samarangense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rose-apple** | *Syzygium jambos* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Indonesian bay leaf** | *Syzygium polyanthum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cider tree** | *Eucalyptus gunnii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white-leaved marlock** | *Eucalyptus x tetragona* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **illyarie** | *Eucalyptus erythrocorys* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tallowwood** | *Eucalyptus microcorys* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Murray red gum** | *Eucalyptus camaldulensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white ironbark** | *Eucalyptus leucoxylon* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **gympie messmate** | *Eucalyptus cloeziana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yellow stringybark** | *Eucalyptus muelleriana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bell-fruited mallee** | *Eucalyptus preissiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **messmate stringybark** | *Eucalyptus obliqua* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Dunn's white gum** | *Eucalyptus dunnii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mallalie** | *Eucalyptus eudesmioides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **South Australian grey mallee** | *Eucalyptus flindersii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **flooded gum** | *Eucalyptus rudis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **coastal blackbutt** | *Eucalyptus todtiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **gungurru** | *Eucalyptus caesia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **scarlet gum** | *Eucalyptus phoenicea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **narrow-leaved black peppermint** | *Eucalyptus nicholii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **swamp mahogany** | *Eucalyptus robusta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **inland yellowjacket** | *Eucalyptus similis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **gully gum** | *Eucalyptus smithii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **silver-leaved mountain gum** | *Eucalyptus pulverulenta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red-flowering gum** | *Corymbia ficifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yellow bloodwood** | *Corymbia eximia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lemon-scented gum** | *Corymbia citriodora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **kanuka** | *Kunzea ericoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **coast teatree** | *Gaudium laevigatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Appalachian evening primrose** | *Oenothera argillicola* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **German evening primrose** | *Oenothera biennis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **birdcage evening primrose** | *Oenothera deltoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Virginia meadow beauty** | *Rhexia virginica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **princess flower** | *Pleroma urvilleanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bowman's Root** | *Gillenia trifoliata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cinnamon Rose** | *Rosa majalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **French Rose** | *Rosa gallica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sweetbriar Rose** | *Rosa rubiginosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Carolina Rose** | *Rosa carolina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rugosa Rose** | *Rosa rugosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Burr Rose** | *Rosa roxburghii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Prairie Rose** | *Rosa foliolosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Baldhip Rose** | *Rosa gymnocarpa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cluster Rose** | *Rosa pisocarpa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red Raspberry** | *Rubus idaeus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Swamp Dewberry** | *Rubus hispidus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yellow Himalayan Raspberry** | *Rubus ellipticus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Snowpeaks Raspberry** | *Rubus niveus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Arctic Raspberry** | *Rubus arcticus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Robin Runaway** | *Rubus repens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Allegheny Blackberry** | *Rubus allegheniensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wineberry** | *Rubus phoenicolasius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Small-leaf Bramble** | *Rubus parvifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Northern Dewberry** | *Rubus flagellaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Andean Raspberry** | *Rubus glaucus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Korean Blackberry** | *Rubus coreanus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Loganberry** | *Rubus x loganobaccus* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Yeheb Bush** | *Cordeauxia edulis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yellow Bird-of-paradise Shrub** | *Erythrostemon gilliesii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sappanwood** | *Biancaea sappan* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Brazilwood** | *Paubrasilia echinata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Golden Shower Tree** | *Cassia fistula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Java Cassia** | *Cassia javanica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Leichhardt Bean** | *Cassia brewsteri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Partridge Pea** | *Chamaecrista fasciculata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sensitive Partridge Pea** | *Chamaecrista nictitans* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Candle Bush** | *Senna alata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Alexandrian Senna** | *Senna alexandrina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coffee Senna** | *Senna occidentalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rambling Senna** | *Senna bicapsularis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Kentucky Coffee Tree** | *Gymnocladus dioicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Honey Locust** | *Gleditsia triacanthos* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Water Locust** | *Gleditsia aquatica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ordeal-tree** | *Erythrophleum suaveolens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tipa Colorada** | *Pterogyne nitens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Brazilian Fern Tree** | *Schizolobium parahyba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mexican Palo Verde** | *Parkinsonia aculeata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Royal Poinciana** | *Delonix regia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Pagoda Tree** | *Styphnolobium japonicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mopane** | *Colophospermum mopane* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Agba** | *Prioria balsamifera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Box Elder** | *Acer negundo* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sugar Maple** | *Acer saccharum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Norway Maple** | *Acer platanoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sycamore Maple** | *Acer pseudoplatanus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red Maple** | *Acer rubrum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Shantung Maple** | *Acer truncatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Downy Japanese Maple** | *Acer japonicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Trident Maple** | *Acer buergerianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mountain Maple** | *Acer spicatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hedge Maple** | *Acer campestre* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hornbeam Maple** | *Acer carpinifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Vine Maple** | *Acer circinatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hawthorn Maple** | *Acer crataegifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Big-leaf Maple** | *Acer macrophyllum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Striped Maple** | *Acer pensylvanicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Horse Chestnut** | *Aesculus hippocastanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yellow Buckeye** | *Aesculus flava* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Painted Buckeye** | *Aesculus sylvatica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Inkwood** | *Exothea paniculata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Showy Balloonvine** | *Cardiospermum grandiflorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Golden Penda** | *Xanthostemon chrysanthus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tea Tree** | *Melaleuca alternifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **New Zealand Christmas Tree** | *Metrosideros excelsa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lilly-pilly** | *Syzygium smithii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Clove** | *Syzygium aromaticum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Malay Apple** | *Syzygium malaccense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Java Plum** | *Syzygium cumini* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wax Apple** | *Syzygium samarangense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rose-apple** | *Syzygium jambos* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Indonesian Bay Leaf** | *Syzygium polyanthum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cider Tree** | *Eucalyptus gunnii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White-leaved Marlock** | *Eucalyptus x tetragona* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Illyarie** | *Eucalyptus erythrocorys* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tallowwood** | *Eucalyptus microcorys* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Murray Red Gum** | *Eucalyptus camaldulensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Ironbark** | *Eucalyptus leucoxylon* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Gympie Messmate** | *Eucalyptus cloeziana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yellow Stringybark** | *Eucalyptus muelleriana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bell-fruited Mallee** | *Eucalyptus preissiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Messmate Stringybark** | *Eucalyptus obliqua* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Dunn's White Gum** | *Eucalyptus dunnii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mallalie** | *Eucalyptus eudesmioides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **South Australian Grey Mallee** | *Eucalyptus flindersii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Flooded Gum** | *Eucalyptus rudis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coastal Blackbutt** | *Eucalyptus todtiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Gungurru** | *Eucalyptus caesia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Scarlet Gum** | *Eucalyptus phoenicea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Narrow-leaved Black Peppermint** | *Eucalyptus nicholii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Swamp Mahogany** | *Eucalyptus robusta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Inland Yellowjacket** | *Eucalyptus similis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Gully Gum** | *Eucalyptus smithii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Silver-leaved Mountain Gum** | *Eucalyptus pulverulenta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red-flowering Gum** | *Corymbia ficifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yellow Bloodwood** | *Corymbia eximia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lemon-scented Gum** | *Corymbia citriodora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Kanuka** | *Kunzea ericoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coast Teatree** | *Gaudium laevigatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Appalachian Evening Primrose** | *Oenothera argillicola* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **German Evening Primrose** | *Oenothera biennis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Birdcage Evening Primrose** | *Oenothera deltoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Virginia Meadow Beauty** | *Rhexia virginica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Princess Flower** | *Pleroma urvilleanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Common Water Flea** | *Daphnia pulex* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Common Water Flea (Daphnia pulex) | **Promoted to Active Game Roster** |
 | **Giant Clam** | *Tridacna gigas* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Giant Clam (Tridacna gigas) | **Promoted to Active Game Roster** |
 | **Marbled Lungfish** | *Protopterus aethiopicus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Marbled Lungfish (Protopterus aethiopicus) | **Promoted to Active Game Roster** |
 | **Australian Lungfish** | *Neoceratodus forsteri* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Australian Lungfish (Neoceratodus forsteri) | **Promoted to Active Game Roster** |
-| **lemon grass** | *Cymbopogon citratus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **kangaroo grass** | *Themeda triandra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Job's tears** | *Coix lacryma-jobi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **eulalia** | *Miscanthus sinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sorghum** | *Sorghum bicolor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Sudan grass** | *Sorghum x drummondii* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **eastern gama grass** | *Tripsacum dactyloides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Guatemalan gamagrass** | *Tripsacum laxum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **diploperennial teosinte** | *Zea diploperennis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **perennial teosinte** | *Zea perennis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Guatemalan teosinte** | *Zea luxurians* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese stiltgrass** | *Microstegium vimineum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **vetiver** | *Chrysopogon zizanioides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **limpograss** | *Hemarthria altissima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **seashore paspalum** | *Paspalum vaginatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **southern crabgrass** | *Digitaria ciliaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **foxtail millet** | *Setaria italica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **knotroot foxtail** | *Setaria parviflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **palmgrass** | *Setaria palmifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pearl millet** | *Cenchrus americanus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **birdwood grass** | *Cenchrus setigerus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white foxtail** | *Cenchrus longisetus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **buffelgrass** | *Cenchrus ciliaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Napier grass** | *Cenchrus purpureus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **para grass** | *Urochloa mutica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **palisade grass** | *Urochloa brizantha* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **jungle rice** | *Echinochloa colona* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **barnyard grass** | *Echinochloa crus-galli* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **billion-dollar grass** | *Echinochloa frumentacea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hippo grass** | *Echinochloa stagnina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **saltgrass** | *Distichlis spicata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **blue grama** | *Bouteloua gracilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **woody bamboo** | *Phyllostachys acuta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **timber bamboo** | *Phyllostachys bambusoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **moso bamboo** | *Phyllostachys edulis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hedge bamboo** | *Bambusa multiplex* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **balku** | *Bambusa balcooa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Buddha belly bamboo** | *Bambusa ventricosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **male bamboo** | *Dendrocalamus strictus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **seaside barley** | *Hordeum marinum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rye** | *Secale cereale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Canada wild rye** | *Elymus canadensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bread wheat** | *Triticum aestivum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **einkorn wheat** | *Triticum monococcum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rivet wheat** | *Triticum turgidum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hemlock water-dropwort** | *Oenanthe crocata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **western yampah** | *Perideridia erythrorhiza* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **alexanders** | *Smyrnium olusatrum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Scots lovage** | *Ligusticum scoticum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rattlesnake master** | *Eryngium yuccifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **toad's herb** | *Eryngium carlinae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **culantro** | *Eryngium foetidum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **golden buttons** | *Cotula coronopifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common mugwort** | *Artemisia vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sweet wormwood** | *Artemisia annua* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **big sagebrush** | *Artemisia tridentata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tarragon** | *Artemisia dracunculus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **coastal mugwort** | *Artemisia suksdorfii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese mugwort** | *Artemisia princeps* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **florist's daisy** | *Chrysanthemum x morifolium* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **autumn oxeye** | *Leucanthemella serotina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **scentless false mayweed** | *Tripleurospermum inodorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lambstongue ragwort** | *Senecio integerrimus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **purple passion plant** | *Gynura aurantiaca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cape-ivy** | *Delairea odorata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **coltsfoot** | *Tussilago farfara* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common ragweed** | *Ambrosia artemisiifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **giant ragweed** | *Ambrosia trifida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common sunflower** | *Helianthus annuus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **green prairie coneflower** | *Ratibida tagetes* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Engelmann daisy** | *Engelmannia peristenia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **electric daisy** | *Acmella oleracea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **narrow-leaved purple coneflower** | *Echinacea angustifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red sunflower** | *Tithonia rotundifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common boneset** | *Eupatorium perfoliatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bluemink** | *Ageratum houstonianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bitter vine** | *Mikania micrantha* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **African marigold** | *Tagetes erecta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Niger seed** | *Guizotia abyssinica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bedding dahlia** | *Dahlia merckii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bur-marigold** | *Bidens pilosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cardoon** | *Cynara cardunculus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **elk thistle** | *Cirsium scariosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **milk thistle** | *Silybum marianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **safflower** | *Carthamus tinctorius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bachelor's button** | *Centaurea cyanus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yellow star-thistle** | *Centaurea solstitialis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bearded creeper** | *Crupina vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **great burdock** | *Arctium lappa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **salsify** | *Tragopogon porrifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **meadow salsify** | *Tragopogon pratensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **black salsify** | *Pseudopodospermum hispanicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **garden lettuce** | *Lactuca sativa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **prickly lettuce** | *Lactuca serriola* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hairy cat's-ear** | *Hypochaeris radicata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **chikku chikku** | *Hypochaeris sessiliflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white rattlesnake root** | *Nabalus albus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **orange hawkweed** | *Pilosella aurantiaca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **meadow hawkweed** | *Pilosella caespitosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **gravel ghost** | *Atrichoseris platyphylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sagebrush false dandelion** | *Nothocalais troximoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **brightwhite** | *Prenanthella exigua* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **chicory** | *Cichorium intybus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **endive** | *Cichorium endivia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lemon Grass** | *Cymbopogon citratus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Kangaroo Grass** | *Themeda triandra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Job's Tears** | *Coix lacryma-jobi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Eulalia** | *Miscanthus sinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sorghum** | *Sorghum bicolor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sudan Grass** | *Sorghum x drummondii* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Eastern Gama Grass** | *Tripsacum dactyloides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Guatemalan Gamagrass** | *Tripsacum laxum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Diploperennial Teosinte** | *Zea diploperennis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Perennial Teosinte** | *Zea perennis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Guatemalan Teosinte** | *Zea luxurians* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Stiltgrass** | *Microstegium vimineum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Vetiver** | *Chrysopogon zizanioides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Limpograss** | *Hemarthria altissima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Seashore Paspalum** | *Paspalum vaginatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Southern Crabgrass** | *Digitaria ciliaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Foxtail Millet** | *Setaria italica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Knotroot Foxtail** | *Setaria parviflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Palmgrass** | *Setaria palmifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pearl Millet** | *Cenchrus americanus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Birdwood Grass** | *Cenchrus setigerus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Foxtail** | *Cenchrus longisetus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Buffelgrass** | *Cenchrus ciliaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Napier Grass** | *Cenchrus purpureus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Para Grass** | *Urochloa mutica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Palisade Grass** | *Urochloa brizantha* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Jungle Rice** | *Echinochloa colona* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Barnyard Grass** | *Echinochloa crus-galli* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Billion-dollar Grass** | *Echinochloa frumentacea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hippo Grass** | *Echinochloa stagnina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Saltgrass** | *Distichlis spicata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Blue Grama** | *Bouteloua gracilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Woody Bamboo** | *Phyllostachys acuta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Timber Bamboo** | *Phyllostachys bambusoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Moso Bamboo** | *Phyllostachys edulis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hedge Bamboo** | *Bambusa multiplex* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Balku** | *Bambusa balcooa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Buddha Belly Bamboo** | *Bambusa ventricosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Male Bamboo** | *Dendrocalamus strictus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Seaside Barley** | *Hordeum marinum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rye** | *Secale cereale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Canada Wild Rye** | *Elymus canadensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bread Wheat** | *Triticum aestivum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Einkorn Wheat** | *Triticum monococcum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rivet Wheat** | *Triticum turgidum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hemlock Water-dropwort** | *Oenanthe crocata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Western Yampah** | *Perideridia erythrorhiza* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Alexanders** | *Smyrnium olusatrum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Scots Lovage** | *Ligusticum scoticum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rattlesnake Master** | *Eryngium yuccifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Toad's Herb** | *Eryngium carlinae* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Culantro** | *Eryngium foetidum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Golden Buttons** | *Cotula coronopifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Mugwort** | *Artemisia vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sweet Wormwood** | *Artemisia annua* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Big Sagebrush** | *Artemisia tridentata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tarragon** | *Artemisia dracunculus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coastal Mugwort** | *Artemisia suksdorfii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Mugwort** | *Artemisia princeps* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Florist's Daisy** | *Chrysanthemum x morifolium* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Autumn Oxeye** | *Leucanthemella serotina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Scentless False Mayweed** | *Tripleurospermum inodorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lambstongue Ragwort** | *Senecio integerrimus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Purple Passion Plant** | *Gynura aurantiaca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cape-ivy** | *Delairea odorata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coltsfoot** | *Tussilago farfara* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Ragweed** | *Ambrosia artemisiifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Giant Ragweed** | *Ambrosia trifida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Sunflower** | *Helianthus annuus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Green Prairie Coneflower** | *Ratibida tagetes* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Engelmann Daisy** | *Engelmannia peristenia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Electric Daisy** | *Acmella oleracea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Narrow-leaved Purple Coneflower** | *Echinacea angustifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red Sunflower** | *Tithonia rotundifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Boneset** | *Eupatorium perfoliatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bluemink** | *Ageratum houstonianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bitter Vine** | *Mikania micrantha* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **African Marigold** | *Tagetes erecta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Niger Seed** | *Guizotia abyssinica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bedding Dahlia** | *Dahlia merckii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bur-marigold** | *Bidens pilosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cardoon** | *Cynara cardunculus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Elk Thistle** | *Cirsium scariosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Milk Thistle** | *Silybum marianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Safflower** | *Carthamus tinctorius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bachelor's Button** | *Centaurea cyanus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yellow Star-thistle** | *Centaurea solstitialis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bearded Creeper** | *Crupina vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Great Burdock** | *Arctium lappa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Salsify** | *Tragopogon porrifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Meadow Salsify** | *Tragopogon pratensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Black Salsify** | *Pseudopodospermum hispanicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Garden Lettuce** | *Lactuca sativa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Prickly Lettuce** | *Lactuca serriola* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hairy Cat's-ear** | *Hypochaeris radicata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chikku Chikku** | *Hypochaeris sessiliflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Rattlesnake Root** | *Nabalus albus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Orange Hawkweed** | *Pilosella aurantiaca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Meadow Hawkweed** | *Pilosella caespitosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Gravel Ghost** | *Atrichoseris platyphylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sagebrush False Dandelion** | *Nothocalais troximoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Brightwhite** | *Prenanthella exigua* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chicory** | *Cichorium intybus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Endive** | *Cichorium endivia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Capeweed** | *Arctotheca calendula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Easter herald's trumpet** | *Beaumontia grandiflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hemp dogbane** | *Apocynum cannabinum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **West African rubber tree** | *Funtumia elastica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common oleander** | *Nerium oleander* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mudar** | *Calotropis gigantea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **honeyvine** | *Cynanchum laeve* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **golden trumpet** | *Allamanda cathartica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **frangipani** | *Plumeria rubra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pinwheelflower** | *Tabernaemontana divaricata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lesser periwinkle** | *Vinca minor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **greater periwinkle** | *Vinca major* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Madagascar periwinkle** | *Catharanthus roseus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **serpentwood** | *Rauvolfia serpentina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **azure bluet** | *Houstonia caerulea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tomato** | *Solanum lycopersicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **spearmint** | *Mentha spicata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **peppermint** | *Mentha x piperita* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **horsemint** | *Mentha longifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **apple mint** | *Mentha suaveolens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Scotch spearmint** | *Mentha x gracilis* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **corn mint** | *Mentha arvensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Canada mint** | *Mentha canadensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **native pennyroyal** | *Mentha satureioides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **ground ivy** | *Glechoma hederacea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **blue giant hyssop** | *Agastache foeniculum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **catnip** | *Nepeta cataria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common balm** | *Melissa officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common self-heal** | *Prunella vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **shiny bugleweed** | *Lycopus lucidus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sweet basil** | *Ocimum basilicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American basil** | *Ocimum americanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Indian swampweed** | *Hygrophila polysperma* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cuachilote** | *Parmentiera aculeata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Brazilian gloxinia** | *Sinningia speciosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Russian comfrey** | *Symphytum x uplandicum* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **common comfrey** | *Symphytum officinale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common blue violet** | *Viola sororia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Macloskey's violet** | *Viola macloskeyi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **heath dog-violet** | *Viola canina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **kuduberry** | *Pseudolachnostylis maprouneifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **salamander-tree** | *Antidesma bunius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hairy agrimony** | *Agrimonia pilosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tall hairy agrimony** | *Agrimonia gryposepala* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **strawberry** | *Fragaria x ananassa* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **wild strawberry** | *Fragaria vesca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rock cinquefoil** | *Drymocallis rupestris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **silver cinquefoil** | *Potentilla argentea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **silverweed cinquefoil** | *Argentina anserina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **shrubby wattle** | *Acacia calcicola* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **montane wattle** | *Acacia frigescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **northern wattle** | *Acacia crassicarpa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **brigalow** | *Acacia harpophylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **river jam** | *Acacia citrinoviridis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **brown lancewood** | *Acacia doratoxylon* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **variable sallow wattle** | *Acacia mucronata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **nealie** | *Acacia rigens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sweet acacia** | *Vachellia farnesiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Egyptian acacia** | *Vachellia nilotica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **viscote negro** | *Parasenegalia visco* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **silk tree** | *Albizia julibrissin* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **forest siris** | *Albizia procera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **elephant ear tree** | *Enterolobium cyclocarpum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rain tree** | *Samanea saman* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bead tree** | *Adenanthera pavonina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white popinac** | *Leucaena leucocephala* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **great leadtree** | *Leucaena pulverulenta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **goldenball leadtree** | *Leucaena retusa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chilean mesquite** | *Neltuma chilensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tortuous mesquite** | *Neltuma flexuosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **velvet mesquite** | *Neltuma velutina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tonka bean** | *Dipteryx odorata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Australian chestnut** | *Castanospermum australe* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **camel's foot tree** | *Bauhinia purpurea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mountain ebony** | *Bauhinia variegata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yellow bauhinia** | *Bauhinia tomentosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **marama bean** | *Tylosema esculentum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Brazilian guava** | *Psidium guineense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bay rum tree** | *Pimenta racemosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **allspice** | *Pimenta dioica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pineapple guava** | *Feijoa sellowiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Surinam cherry** | *Eugenia uniflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Spanish stopper** | *Eugenia foetida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cherry of the Rio Grande** | *Eugenia involucrata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rake-legged mite** | *Microcaeculus sp. JCO-1999* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **rake-legged mite** | *Neocaeculus sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
+| **Easter Herald's Trumpet** | *Beaumontia grandiflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hemp Dogbane** | *Apocynum cannabinum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **West African Rubber Tree** | *Funtumia elastica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Oleander** | *Nerium oleander* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mudar** | *Calotropis gigantea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Honeyvine** | *Cynanchum laeve* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Golden Trumpet** | *Allamanda cathartica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Frangipani** | *Plumeria rubra* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pinwheelflower** | *Tabernaemontana divaricata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lesser Periwinkle** | *Vinca minor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Greater Periwinkle** | *Vinca major* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Madagascar Periwinkle** | *Catharanthus roseus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Serpentwood** | *Rauvolfia serpentina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Azure Bluet** | *Houstonia caerulea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tomato** | *Solanum lycopersicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spearmint** | *Mentha spicata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Peppermint** | *Mentha x piperita* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Horsemint** | *Mentha longifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Apple Mint** | *Mentha suaveolens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Scotch Spearmint** | *Mentha x gracilis* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Corn Mint** | *Mentha arvensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Canada Mint** | *Mentha canadensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Native Pennyroyal** | *Mentha satureioides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Ground Ivy** | *Glechoma hederacea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Blue Giant Hyssop** | *Agastache foeniculum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Catnip** | *Nepeta cataria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Balm** | *Melissa officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Self-heal** | *Prunella vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Shiny Bugleweed** | *Lycopus lucidus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sweet Basil** | *Ocimum basilicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Basil** | *Ocimum americanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Indian Swampweed** | *Hygrophila polysperma* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cuachilote** | *Parmentiera aculeata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Brazilian Gloxinia** | *Sinningia speciosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Russian Comfrey** | *Symphytum x uplandicum* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Common Comfrey** | *Symphytum officinale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Blue Violet** | *Viola sororia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Macloskey's Violet** | *Viola macloskeyi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Heath Dog-violet** | *Viola canina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Kuduberry** | *Pseudolachnostylis maprouneifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Salamander-tree** | *Antidesma bunius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hairy Agrimony** | *Agrimonia pilosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tall Hairy Agrimony** | *Agrimonia gryposepala* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Strawberry** | *Fragaria x ananassa* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Wild Strawberry** | *Fragaria vesca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rock Cinquefoil** | *Drymocallis rupestris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Silver Cinquefoil** | *Potentilla argentea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Silverweed Cinquefoil** | *Argentina anserina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Shrubby Wattle** | *Acacia calcicola* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Montane Wattle** | *Acacia frigescens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Northern Wattle** | *Acacia crassicarpa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Brigalow** | *Acacia harpophylla* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **River Jam** | *Acacia citrinoviridis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Brown Lancewood** | *Acacia doratoxylon* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Variable Sallow Wattle** | *Acacia mucronata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Nealie** | *Acacia rigens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sweet Acacia** | *Vachellia farnesiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Egyptian Acacia** | *Vachellia nilotica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Viscote Negro** | *Parasenegalia visco* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Silk Tree** | *Albizia julibrissin* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Forest Siris** | *Albizia procera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Elephant Ear Tree** | *Enterolobium cyclocarpum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rain Tree** | *Samanea saman* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bead Tree** | *Adenanthera pavonina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Popinac** | *Leucaena leucocephala* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Great Leadtree** | *Leucaena pulverulenta* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Goldenball Leadtree** | *Leucaena retusa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chilean Mesquite** | *Neltuma chilensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tortuous Mesquite** | *Neltuma flexuosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Velvet Mesquite** | *Neltuma velutina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tonka Bean** | *Dipteryx odorata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Australian Chestnut** | *Castanospermum australe* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Camel's Foot Tree** | *Bauhinia purpurea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mountain Ebony** | *Bauhinia variegata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yellow Bauhinia** | *Bauhinia tomentosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Marama Bean** | *Tylosema esculentum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Brazilian Guava** | *Psidium guineense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bay Rum Tree** | *Pimenta racemosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Allspice** | *Pimenta dioica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pineapple Guava** | *Feijoa sellowiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Surinam Cherry** | *Eugenia uniflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spanish Stopper** | *Eugenia foetida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cherry of the Rio Grande** | *Eugenia involucrata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rake-legged Mite** | *Microcaeculus sp. JCO-1999* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Rake-legged Mite** | *Neocaeculus sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
 | **Pink Shrimp** | *Penaeus paulensis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Pink Shrimp (Penaeus duorarum) | **Promoted to Active Game Roster** |
 | **White Shrimp** | *Penaeus schmitti* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: White Shrimp (Penaeus setiferus) | **Promoted to Active Game Roster** |
 | **White Sturgeon** | *Acipenser transmontanus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: White Sturgeon (Acipenser transmontanus) | **Promoted to Active Game Roster** |
@@ -2672,88 +2672,88 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Japanese Giant Salamander** | *Andrias japonicus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Japanese Giant Salamander (Andrias japonicus) | **Promoted to Active Game Roster** |
 | **Siberian Salamander** | *Salamandrella keyserlingii* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Siberian Salamander (Ranodon sibiricus) | **Promoted to Active Game Roster** |
 | **Axolotl** | *Ambystoma mexicanum* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Axolotl (Ambystoma mexicanum) | **Promoted to Active Game Roster** |
-| **blue-spotted x Jefferson salamander** | *Ambystoma laterale x Ambystoma jeffersonianum* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Blue-spotted X Jefferson Salamander** | *Ambystoma laterale x Ambystoma jeffersonianum* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Tiger Salamander** | *Ambystoma tigrinum* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Tiger Salamander (Ambystoma tigrinum) | **Promoted to Active Game Roster** |
 | **Spotted Salamander** | *Ambystoma maculatum* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Spotted Salamander (Ambystoma maculatum) | **Promoted to Active Game Roster** |
-| **unisexual mole salamanders** | *Ambystoma 'unisexual hybrid complex'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Unisexual Mole Salamanders** | *Ambystoma 'unisexual hybrid complex'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Two-toed Amphiuma** | *Amphiuma means* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Two-toed Amphiuma (Amphiuma means) | **Promoted to Active Game Roster** |
 | **Western Spadefoot Toad** | *Pelobates cultripes* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Western Spadefoot Toad (Spea hammondii) | **Promoted to Active Game Roster** |
 | **Eastern Spadefoot Toad** | *Pelobates syriacus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Eastern Spadefoot Toad (Scaphiopus holbrookii) | **Promoted to Active Game Roster** |
-| **speckle-bellied metacarpal-tubercled toad** | *Leptobrachella ventripunctata* | Metazoa | Nomenclature Out of Bounds | Common name length (41 chars) out of standard bounds | **Promoted to Active Game Roster** |
+| **Speckle-bellied Metacarpal-tubercled Toad** | *Leptobrachella ventripunctata* | Metazoa | Nomenclature Out of Bounds | Common name length (41 chars) out of standard bounds | **Promoted to Active Game Roster** |
 | **Platypus** | *Ornithorhynchus anatinus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Platypus (Ornithorhynchus anatinus) | **Promoted to Active Game Roster** |
-| **sugarcane** | *Saccharum officinarum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **wild sugarcane** | *Saccharum spontaneum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **fall panicum** | *Panicum dichotomiflorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **switchgrass** | *Panicum virgatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **proso millet** | *Panicum miliaceum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **witchgrass** | *Panicum capillare* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **black seed panic** | *Panicum bisulcatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **small naked oat** | *Avena nuda* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **oats** | *Avena sativa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **black oat** | *Avena strigosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **slender wild oat** | *Avena barbata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **canary grass** | *Phalaris aquatica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **velvet grass** | *Holcus lanatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tufted hair grass** | *Deschampsia cespitosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Antarctic hairgrass** | *Deschampsia antarctica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **goutweed** | *Aegopodium podagraria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rock samphire** | *Crithmum maritimum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **great pignut** | *Bunium bulbocastanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **acutelobed angelica** | *Angelica acutiloba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese angelica** | *Angelica sinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **fool's parsley** | *Aethusa cynapium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hog's-fennel** | *Peucedanum officinale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **parsley** | *Petroselinum crispum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **dill** | *Anethum graveolens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **fennel** | *Anethum foeniculum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **large bullwort** | *Ammi majus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Sichuan lovage** | *Conioselinum anthriscoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **burnet saxifrage** | *Pimpinella saxifraga* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **coriander** | *Coriandrum sativum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **poison hemlock** | *Conium maculatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sweet cicely** | *Myrrhis odorata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **chervil** | *Anthriscus cerefolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Venus's comb** | *Scandix pecten-veneris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hedge parsley** | *Torilis nodosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **prairie fleabane** | *Erigeron strigosus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rayless tansyaster** | *Xanthisma grindelioides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bluestem goldenrod** | *Solidago caesia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **gray goldenrod** | *Solidago nemoralis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **showy goldenrod** | *Solidago speciosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common blue wood aster** | *Symphyotrichum cordifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **alpine leafybract aster** | *Symphyotrichum foliaceum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **late purple aster** | *Symphyotrichum patens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hairy white oldfield aster** | *Symphyotrichum pilosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **China aster** | *Callistephus chinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Fremont's calycadenia** | *Calycadenia fremontii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Hoover's calycadenia** | *Calycadenia hooveri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **soft calycadenia** | *Calycadenia mollis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sticky calycadenia** | *Calycadenia multiglandulosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Butte County calycadenia** | *Calycadenia oppositifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **small-flowered calycadenia** | *Calycadenia pauciflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **spicate calycadenia** | *Calycadenia spicata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rosin weed** | *Calycadenia truncata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **dwarf calycadenia** | *Calycadenia villosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **perennial spikeweed** | *Hemizonia perennis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **coffee** | *Coffea arabica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rosemary** | *Salvia rosmarinus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **clary** | *Salvia sclarea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **redroot sage** | *Salvia miltiorrhiza* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **garden sage** | *Salvia officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Indian spurgetree** | *Euphorbia neriifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **leafy spurge** | *Euphorbia esula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cypress spurge** | *Euphorbia cyparissias* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red powder-puff** | *Calliandra haematocephala* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **false indigo bush** | *Amorpha fruticosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **fragrant indigobush** | *Amorpha nana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **footballer mite** | *Erythracarus sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
-| **whirligig mite** | *Tarsotomus sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
+| **Sugarcane** | *Saccharum officinarum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Wild Sugarcane** | *Saccharum spontaneum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Fall Panicum** | *Panicum dichotomiflorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Switchgrass** | *Panicum virgatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Proso Millet** | *Panicum miliaceum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Witchgrass** | *Panicum capillare* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Black Seed Panic** | *Panicum bisulcatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Small Naked Oat** | *Avena nuda* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Oats** | *Avena sativa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Black Oat** | *Avena strigosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Slender Wild Oat** | *Avena barbata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Canary Grass** | *Phalaris aquatica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Velvet Grass** | *Holcus lanatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tufted Hair Grass** | *Deschampsia cespitosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Antarctic Hairgrass** | *Deschampsia antarctica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Goutweed** | *Aegopodium podagraria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rock Samphire** | *Crithmum maritimum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Great Pignut** | *Bunium bulbocastanum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Acutelobed Angelica** | *Angelica acutiloba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Angelica** | *Angelica sinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Fool's Parsley** | *Aethusa cynapium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hog's-fennel** | *Peucedanum officinale* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Parsley** | *Petroselinum crispum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Dill** | *Anethum graveolens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Fennel** | *Anethum foeniculum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Large Bullwort** | *Ammi majus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sichuan Lovage** | *Conioselinum anthriscoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Burnet Saxifrage** | *Pimpinella saxifraga* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coriander** | *Coriandrum sativum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Poison Hemlock** | *Conium maculatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sweet Cicely** | *Myrrhis odorata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chervil** | *Anthriscus cerefolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Venus's Comb** | *Scandix pecten-veneris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hedge Parsley** | *Torilis nodosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Prairie Fleabane** | *Erigeron strigosus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rayless Tansyaster** | *Xanthisma grindelioides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bluestem Goldenrod** | *Solidago caesia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Gray Goldenrod** | *Solidago nemoralis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Showy Goldenrod** | *Solidago speciosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Blue Wood Aster** | *Symphyotrichum cordifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Alpine Leafybract Aster** | *Symphyotrichum foliaceum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Late Purple Aster** | *Symphyotrichum patens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hairy White Oldfield Aster** | *Symphyotrichum pilosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **China Aster** | *Callistephus chinensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Fremont's Calycadenia** | *Calycadenia fremontii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hoover's Calycadenia** | *Calycadenia hooveri* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Soft Calycadenia** | *Calycadenia mollis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sticky Calycadenia** | *Calycadenia multiglandulosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Butte County Calycadenia** | *Calycadenia oppositifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Small-flowered Calycadenia** | *Calycadenia pauciflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spicate Calycadenia** | *Calycadenia spicata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rosin Weed** | *Calycadenia truncata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Dwarf Calycadenia** | *Calycadenia villosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Perennial Spikeweed** | *Hemizonia perennis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coffee** | *Coffea arabica* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rosemary** | *Salvia rosmarinus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Clary** | *Salvia sclarea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Redroot Sage** | *Salvia miltiorrhiza* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Garden Sage** | *Salvia officinalis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Indian Spurgetree** | *Euphorbia neriifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Leafy Spurge** | *Euphorbia esula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cypress Spurge** | *Euphorbia cyparissias* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red Powder-puff** | *Calliandra haematocephala* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **False Indigo Bush** | *Amorpha fruticosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Fragrant Indigobush** | *Amorpha nana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Footballer Mite** | *Erythracarus sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
+| **Whirligig Mite** | *Tarsotomus sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
 | **American Lobster** | *Homarus americanus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: American Lobster (Homarus americanus) | **Promoted to Active Game Roster** |
 | **European Lobster** | *Homarus gammarus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: European Lobster (Homarus gammarus) | **Promoted to Active Game Roster** |
 | **Caribbean Spiny Lobster** | *Panulirus argus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Caribbean Spiny Lobster (Panulirus argus) | **Promoted to Active Game Roster** |
 | **Red King Crab** | *Paralithodes camtschaticus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Red King Crab (Paralithodes camtschaticus) | **Promoted to Active Game Roster** |
 | **European Eel** | *Anguilla anguilla* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: European Eel (Anguilla anguilla) | **Promoted to Active Game Roster** |
-| **Labichthys carinatus Gill & Ryder, 1883** | *Labichthys carinatus* | Metazoa | Technical Strain in Common Name | Technical strain/code embedded in common name | **Promoted to Active Game Roster** |
+| **Labichthys Carinatus Gill & Ryder, 1883** | *Labichthys carinatus* | Metazoa | Technical Strain in Common Name | Technical strain/code embedded in common name | **Promoted to Active Game Roster** |
 | **Arapaima** | *Arapaima gigas* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Arapaima (Arapaima gigas) | **Promoted to Active Game Roster** |
 | **Eastern Newt** | *Notophthalmus viridescens* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Eastern Newt (Notophthalmus viridescens) | **Promoted to Active Game Roster** |
 | **Rough-skinned Newt** | *Taricha granulosa* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Rough-skinned Newt (Taricha granulosa) | **Promoted to Active Game Roster** |
@@ -2770,7 +2770,7 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Northern Leopard Frog** | *Lithobates pipiens* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Northern Leopard Frog (Lithobates pipiens) | **Promoted to Active Game Roster** |
 | **Wood Frog** | *Lithobates sylvaticus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Wood Frog (Lithobates sylvaticus) | **Promoted to Active Game Roster** |
 | **Small Torrent Frog** | *Micrixalus saxicola* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Small Torrent Frog (Amolops minutus) | **Promoted to Active Game Roster** |
-| **pignose frog** | *Nasikabatrachidae sp. WII-657* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Pignose Frog** | *Nasikabatrachidae sp. WII-657* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Tuatara** | *Sphenodon punctatus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Tuatara (Sphenodon punctatus) | **Promoted to Active Game Roster** |
 | **Spotted-tailed Quoll** | *Dasyurus maculatus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Spotted-tailed Quoll (Dasyurus maculatus) | **Promoted to Active Game Roster** |
 | **Flat-skulled Marsupial Mouse** | *Planigale tenuirostris* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Flat-skulled Marsupial Mouse (Planigale gilesi) | **Promoted to Active Game Roster** |
@@ -2785,120 +2785,120 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Southern Hairy-nosed Wombat** | *Lasiorhinus latifrons* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Southern Hairy-nosed Wombat (Lasiorhinus latifrons) | **Promoted to Active Game Roster** |
 | **Koala** | *Phascolarctos cinereus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Koala (Phascolarctos cinereus) | **Promoted to Active Game Roster** |
 | **Long-nosed Bandicoot** | *Perameles nasuta* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Long-nosed Bandicoot (Perameles nasuta) | **Promoted to Active Game Roster** |
-| **oat** | *Avena sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
-| **colonial bentgrass** | *Agrostis capillaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **velvet bentgrass** | *Agrostis canina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **spike bentgrass** | *Agrostis exarata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **redtop** | *Agrostis gigantea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **annual rabbitsfoot grass** | *Polypogon monspeliensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Kentucky bluegrass** | *Poa pratensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **timothy grass** | *Phleum pratense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **purple-stem cat's-tail** | *Phleum phleoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **loose silky-bent** | *Apera spica-venti* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Italian ryegrass** | *Lolium multiflorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **orchard grass** | *Dactylis glomerata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **arracacha** | *Arracacia xanthorrhiza* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Gray's biscuitroot** | *Lomatium grayi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **slickrock biscuitroot** | *Lomatium laevigatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **woolyfruit desertparsley** | *Lomatium dasycarpum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Howell's biscuitroot** | *Lomatium howellii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **California lomatium** | *Lomatium californicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Brandegee's desertparsley** | *Lomatium brandegeei* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **fernleaf biscuitroot** | *Lomatium dissectum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **king desert parsley** | *Lomatium graveolens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Greenman's biscuitroot** | *Lomatium greenmanii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Idaho biscuitroot** | *Lomatium idahoense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **canyonlands biscuitroot** | *Lomatium latilobum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **shiny biscuitroot** | *Lomatium lucidum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **barestem biscuitroot** | *Lomatium nudicaule* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Nuttall's biscuitroot** | *Lomatium nuttallii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **coastal biscuitroot** | *Lomatium parvifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Napa biscuitroot** | *Lomatium repostum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Big Pine biscuitroot** | *Lomatium rigidum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Owens Peak desertparsley** | *Lomatium shevockii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **nineleaf biscuitroot** | *Lomatium triternatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **golden alexanders** | *Zizia aurea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **parsnip** | *Pastinaca sativa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common hogweed** | *Heracleum sphondylium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **giant hogweed** | *Heracleum mantegazzianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **carrot** | *Daucus carota* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bonfire salvia** | *Salvia splendens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red caustic-creeper** | *Euphorbia thymifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **poinsettia** | *Euphorbia pulcherrima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Indian licorice** | *Abrus precatorius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **greenleaf ticktrefoil** | *Desmodium intortum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Florida beggarweed** | *Desmodium tortuosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sericea lespedeza** | *Lespedeza cuneata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **creeping tick trefoil** | *Grona triflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sal-leaved desmodium** | *Pleurolobus gangeticus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **guar** | *Cyamopsis tetragonoloba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **threeleaf derris** | *Derris trifoliata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Indian beech tree** | *Pongamia pinnata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **pigeon pea** | *Cajanus cajan* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **jack bean** | *Canavalia ensiformis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sword bean** | *Canavalia gladiata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Brazilian jackbean** | *Canavalia brasiliensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **coral bean** | *Erythrina latissima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Indian coral tree** | *Erythrina variegata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cockspur coraltree** | *Erythrina crista-galli* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **purple coraltree** | *Erythrina fusca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mountain immortelle** | *Erythrina poeppigiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bat's wing coral tree** | *Erythrina vespertilio* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **horse gram** | *Macrotyloma uniflorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lima bean** | *Phaseolus lunatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common bean** | *Phaseolus vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tepary bean** | *Phaseolus acutifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cocolmeca bean** | *Phaseolus maculatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **winged bean** | *Psophocarpus tetragonolobus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **adzuki bean** | *Vigna angularis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **black gram** | *Vigna mungo* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cowpea** | *Vigna unguiculata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **zombi-pea** | *Vigna vexillata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rice bean** | *Vigna umbellata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Bambara groundnut** | *Vigna subterranea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **notched cowpea** | *Vigna marina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **flame-of-the-forest** | *Butea monosperma* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hog peanut** | *Amphicarpaea bracteata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese hog-peanut** | *Amphicarpaea edgeworthii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **false sarsaparilla** | *Hardenbergia violacea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **running-postman** | *Kennedia prostrata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **jicama** | *Pachyrhizus erosus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Andean yam bean** | *Pachyrhizus ahipa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Amazonian yam bean** | *Pachyrhizus tuberosus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **least snoutbean** | *Rhynchosia minima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hyacinth bean** | *Lablab purpureus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **mucana** | *Macropsychanthus grandiflorus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Japanese wisteria** | *Wisteria floribunda* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sunn hemp** | *Crotalaria juncea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **smooth rattlebox** | *Crotalaria pallida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **birdflower** | *Crotalaria cunninghamii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white spanishbroom** | *Cytisus multiflorus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Scotch laburnum** | *Laburnum alpinum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common laburnum** | *Laburnum anagyroides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white lupine** | *Lupinus albus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **narrow-leaved blue lupine** | *Lupinus angustifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **tree lupine** | *Lupinus arboreus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yellow lupine** | *Lupinus luteus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **large-leaved lupine** | *Lupinus polyphyllus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Texas bluebonnet** | *Lupinus texensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **West Australian blue lupin** | *Lupinus cosentinii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **silky lupine** | *Lupinus sericeus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **woolly-leaf lupine** | *Lupinus leucophyllus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Arizona lupine** | *Lupinus arizonicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Inyo bush lupine** | *Lupinus excubitus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **seashore lupine** | *Lupinus littoralis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **butter lupine** | *Lupinus luteolus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Coulter's lupine** | *Lupinus sparsiflorus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sulphur lupine** | *Lupinus sulphureus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **furze** | *Ulex europaeus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **dwarf gorse** | *Ulex minor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **French broom** | *Genista monspessulana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **horseflyweed** | *Baptisia tinctoria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Brazilian tulipwood** | *Dalbergia decipularis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **peanut** | *Arachis hypogaea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **perennial peanut** | *Arachis glabrata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Townsville stylo** | *Stylosanthes humilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Caribbean stylo** | *Stylosanthes hamata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Oat** | *Avena sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
+| **Colonial Bentgrass** | *Agrostis capillaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Velvet Bentgrass** | *Agrostis canina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spike Bentgrass** | *Agrostis exarata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Redtop** | *Agrostis gigantea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Annual Rabbitsfoot Grass** | *Polypogon monspeliensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Kentucky Bluegrass** | *Poa pratensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Timothy Grass** | *Phleum pratense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Purple-stem Cat's-tail** | *Phleum phleoides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Loose Silky-bent** | *Apera spica-venti* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Italian Ryegrass** | *Lolium multiflorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Orchard Grass** | *Dactylis glomerata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Arracacha** | *Arracacia xanthorrhiza* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Gray's Biscuitroot** | *Lomatium grayi* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Slickrock Biscuitroot** | *Lomatium laevigatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Woolyfruit Desertparsley** | *Lomatium dasycarpum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Howell's Biscuitroot** | *Lomatium howellii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **California Lomatium** | *Lomatium californicum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Brandegee's Desertparsley** | *Lomatium brandegeei* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Fernleaf Biscuitroot** | *Lomatium dissectum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **King Desert Parsley** | *Lomatium graveolens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Greenman's Biscuitroot** | *Lomatium greenmanii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Idaho Biscuitroot** | *Lomatium idahoense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Canyonlands Biscuitroot** | *Lomatium latilobum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Shiny Biscuitroot** | *Lomatium lucidum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Barestem Biscuitroot** | *Lomatium nudicaule* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Nuttall's Biscuitroot** | *Lomatium nuttallii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coastal Biscuitroot** | *Lomatium parvifolium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Napa Biscuitroot** | *Lomatium repostum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Big Pine Biscuitroot** | *Lomatium rigidum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Owens Peak Desertparsley** | *Lomatium shevockii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Nineleaf Biscuitroot** | *Lomatium triternatum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Golden Alexanders** | *Zizia aurea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Parsnip** | *Pastinaca sativa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Hogweed** | *Heracleum sphondylium* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Giant Hogweed** | *Heracleum mantegazzianum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Carrot** | *Daucus carota* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bonfire Salvia** | *Salvia splendens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red Caustic-creeper** | *Euphorbia thymifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Poinsettia** | *Euphorbia pulcherrima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Indian Licorice** | *Abrus precatorius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Greenleaf Ticktrefoil** | *Desmodium intortum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Florida Beggarweed** | *Desmodium tortuosum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sericea Lespedeza** | *Lespedeza cuneata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Creeping Tick Trefoil** | *Grona triflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sal-leaved Desmodium** | *Pleurolobus gangeticus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Guar** | *Cyamopsis tetragonoloba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Threeleaf Derris** | *Derris trifoliata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Indian Beech Tree** | *Pongamia pinnata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Pigeon Pea** | *Cajanus cajan* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Jack Bean** | *Canavalia ensiformis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sword Bean** | *Canavalia gladiata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Brazilian Jackbean** | *Canavalia brasiliensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coral Bean** | *Erythrina latissima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Indian Coral Tree** | *Erythrina variegata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cockspur Coraltree** | *Erythrina crista-galli* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Purple Coraltree** | *Erythrina fusca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mountain Immortelle** | *Erythrina poeppigiana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bat's Wing Coral Tree** | *Erythrina vespertilio* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Horse Gram** | *Macrotyloma uniflorum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lima Bean** | *Phaseolus lunatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Bean** | *Phaseolus vulgaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tepary Bean** | *Phaseolus acutifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cocolmeca Bean** | *Phaseolus maculatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Winged Bean** | *Psophocarpus tetragonolobus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Adzuki Bean** | *Vigna angularis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Black Gram** | *Vigna mungo* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cowpea** | *Vigna unguiculata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Zombi-pea** | *Vigna vexillata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rice Bean** | *Vigna umbellata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bambara Groundnut** | *Vigna subterranea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Notched Cowpea** | *Vigna marina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Flame-of-the-forest** | *Butea monosperma* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hog Peanut** | *Amphicarpaea bracteata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Hog-peanut** | *Amphicarpaea edgeworthii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **False Sarsaparilla** | *Hardenbergia violacea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Running-postman** | *Kennedia prostrata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Jicama** | *Pachyrhizus erosus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Andean Yam Bean** | *Pachyrhizus ahipa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Amazonian Yam Bean** | *Pachyrhizus tuberosus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Least Snoutbean** | *Rhynchosia minima* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hyacinth Bean** | *Lablab purpureus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Mucana** | *Macropsychanthus grandiflorus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Japanese Wisteria** | *Wisteria floribunda* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sunn Hemp** | *Crotalaria juncea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Smooth Rattlebox** | *Crotalaria pallida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Birdflower** | *Crotalaria cunninghamii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Spanishbroom** | *Cytisus multiflorus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Scotch Laburnum** | *Laburnum alpinum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Laburnum** | *Laburnum anagyroides* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Lupine** | *Lupinus albus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Narrow-leaved Blue Lupine** | *Lupinus angustifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tree Lupine** | *Lupinus arboreus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yellow Lupine** | *Lupinus luteus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Large-leaved Lupine** | *Lupinus polyphyllus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Texas Bluebonnet** | *Lupinus texensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **West Australian Blue Lupin** | *Lupinus cosentinii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Silky Lupine** | *Lupinus sericeus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Woolly-leaf Lupine** | *Lupinus leucophyllus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Arizona Lupine** | *Lupinus arizonicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Inyo Bush Lupine** | *Lupinus excubitus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Seashore Lupine** | *Lupinus littoralis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Butter Lupine** | *Lupinus luteolus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Coulter's Lupine** | *Lupinus sparsiflorus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sulphur Lupine** | *Lupinus sulphureus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Furze** | *Ulex europaeus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Dwarf Gorse** | *Ulex minor* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **French Broom** | *Genista monspessulana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Horseflyweed** | *Baptisia tinctoria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Brazilian Tulipwood** | *Dalbergia decipularis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Peanut** | *Arachis hypogaea* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Perennial Peanut** | *Arachis glabrata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Townsville Stylo** | *Stylosanthes humilis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Caribbean Stylo** | *Stylosanthes hamata* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Banded Demoiselle** | *Calopteryx splendens* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Banded Demoiselle (Calopteryx splendens) | **Promoted to Active Game Roster** |
 | **European Conger** | *Conger conger* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: European Conger (Conger conger) | **Promoted to Active Game Roster** |
 | **Hairy Conger** | *Pseudoxenomystax albescens* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Hairy Conger (Bassanago hirsutus) | **Promoted to Active Game Roster** |
@@ -2908,67 +2908,67 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Muskellunge** | *Esox masquinongy* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Muskellunge (Esox masquinongy) | **Promoted to Active Game Roster** |
 | **Brown-spotted Dwarf Frog** | *Physalaemus marmoratus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Brown-spotted Dwarf Frog (Physalaemus fuscomaculatus) | **Promoted to Active Game Roster** |
 | **Linhares Dwarf Frog** | *Physalaemus obtectus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Linhares Dwarf Frog (Physalaemus aguirrei) | **Promoted to Active Game Roster** |
-| **East Texas toad** | *Anaxyrus sp. 'velatus'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **East Texas Toad** | *Anaxyrus sp. 'velatus'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Yellow-spotted Frog** | *Ameerega flavopicta* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Yellow-spotted Frog (Pulchrana signata) | **Promoted to Active Game Roster** |
 | **Strawberry Poison Frog** | *Oophaga pumilio* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Strawberry Poison Frog (Oophaga pumilio) | **Promoted to Active Game Roster** |
 | **Spotted Rocket Frog** | *Hyloxalus maculosus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Spotted Rocket Frog (Hyloxalus bocagei) | **Promoted to Active Game Roster** |
 | **Cranwell's Horned Frog** | *Ceratophrys cranwelli* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Cranwell's Horned Frog (Ceratophrys cranwelli) | **Promoted to Active Game Roster** |
 | **Ornate Frog** | *Cophixalus ornatus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Ornate Frog (Hildebrandtia ornata) | **Promoted to Active Game Roster** |
 | **Common Frog** | *Rana temporaria* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Common Frog (Rana temporaria) | **Promoted to Active Game Roster** |
-| **Chinese torrent frog** | *Amolops sp. 'jingdongensis'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Chinese Torrent Frog** | *Amolops sp. 'jingdongensis'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Southern Toadlet** | *Pseudophryne semimarmorata* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Southern Toadlet (Pseudophryne dendyi) | **Promoted to Active Game Roster** |
 | **African Clawed Frog** | *Xenopus laevis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: African Clawed Frog (Xenopus laevis) | **Promoted to Active Game Roster** |
-| **clawed frog** | *Xenopus sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
-| **kangaroo** | *Macropus sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
+| **Clawed Frog** | *Xenopus sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
+| **Kangaroo** | *Macropus sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
 | **Pink Fairy Armadillo** | *Chlamyphorus truncatus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Pink Fairy Armadillo (Chlamyphorus truncatus) | **Promoted to Active Game Roster** |
 | **African Manatee** | *Trichechus senegalensis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: African Manatee (Trichechus senegalensis) | **Promoted to Active Game Roster** |
 | **Dugong** | *Dugong dugon* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Dugong (Dugong dugon) | **Promoted to Active Game Roster** |
 | **African Forest Elephant** | *Loxodonta cyclotis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: African Forest Elephant (Loxodonta cyclotis) | **Promoted to Active Game Roster** |
 | **Aardvark** | *Orycteropus afer* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Aardvark (Orycteropus afer) | **Promoted to Active Game Roster** |
-| **chickpea** | *Cicer arietinum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **American licorice** | *Glycyrrhiza lepidota* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Chinese licorice** | *Glycyrrhiza uralensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **alkali swainsonpea** | *Sphaerophysa salsula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common sainfoin** | *Onobrychis viciifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **French honeysuckle** | *Sulla coronaria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **alfalfa** | *Medicago sativa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **barrel medic** | *Medicago truncatula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **white clover** | *Trifolium repens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **red clover** | *Trifolium pratense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **owl-head clover** | *Trifolium alpestre* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **cow clover** | *Trifolium wormskioldii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rabbitfoot clover** | *Trifolium arvense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **small melilot** | *Melilotus indicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **shamrock pea** | *Parochetus communis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yellow vetchling** | *Lathyrus aphaca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **flat-pod pea** | *Lathyrus cicera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **rough pea** | *Lathyrus hirsutus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **yellow-flowered pea** | *Lathyrus ochrus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sweet pea** | *Lathyrus odoratus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Indian pea** | *Lathyrus sativus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **spring vetchling** | *Lathyrus sphaericus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Tangier pea** | *Lathyrus tingitanus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **garden pea** | *Lathyrus oleraceus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sea pea** | *Lathyrus japonicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **perennial pea** | *Lathyrus latifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **meadow pea** | *Lathyrus pratensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **lentil** | *Lens culinaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bird vetch** | *Vicia cracca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **fava bean** | *Vicia faba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **common vetch** | *Vicia sativa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **hairy vetch** | *Vicia villosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **reddish tufted vetch** | *Vicia benghalensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Carolina vetch** | *Vicia caroliniana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bristly locust** | *Robinia hispida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **winged pea** | *Lotus tetragonolobus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **parrot's beak** | *Lotus berthelotii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **orange birdsfoot** | *Ornithopus pinnatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **bagpod** | *Sesbania vesicaria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **sesbania pea** | *Sesbania cannabina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **vegetable hummingbird** | *Sesbania grandiflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **Oahu riverhemp** | *Sesbania tomentosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **prickly sesban** | *Sesbania bispinosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
-| **soybean** | *Glycine max* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chickpea** | *Cicer arietinum* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **American Licorice** | *Glycyrrhiza lepidota* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Chinese Licorice** | *Glycyrrhiza uralensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Alkali Swainsonpea** | *Sphaerophysa salsula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Sainfoin** | *Onobrychis viciifolia* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **French Honeysuckle** | *Sulla coronaria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Alfalfa** | *Medicago sativa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Barrel Medic** | *Medicago truncatula* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **White Clover** | *Trifolium repens* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Red Clover** | *Trifolium pratense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Owl-head Clover** | *Trifolium alpestre* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Cow Clover** | *Trifolium wormskioldii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rabbitfoot Clover** | *Trifolium arvense* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Small Melilot** | *Melilotus indicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Shamrock Pea** | *Parochetus communis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yellow Vetchling** | *Lathyrus aphaca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Flat-pod Pea** | *Lathyrus cicera* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Rough Pea** | *Lathyrus hirsutus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Yellow-flowered Pea** | *Lathyrus ochrus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sweet Pea** | *Lathyrus odoratus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Indian Pea** | *Lathyrus sativus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Spring Vetchling** | *Lathyrus sphaericus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Tangier Pea** | *Lathyrus tingitanus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Garden Pea** | *Lathyrus oleraceus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sea Pea** | *Lathyrus japonicus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Perennial Pea** | *Lathyrus latifolius* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Meadow Pea** | *Lathyrus pratensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Lentil** | *Lens culinaris* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bird Vetch** | *Vicia cracca* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Fava Bean** | *Vicia faba* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Common Vetch** | *Vicia sativa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Hairy Vetch** | *Vicia villosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Reddish Tufted Vetch** | *Vicia benghalensis* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Carolina Vetch** | *Vicia caroliniana* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bristly Locust** | *Robinia hispida* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Winged Pea** | *Lotus tetragonolobus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Parrot's Beak** | *Lotus berthelotii* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Orange Birdsfoot** | *Ornithopus pinnatus* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Bagpod** | *Sesbania vesicaria* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Sesbania Pea** | *Sesbania cannabina* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Vegetable Hummingbird** | *Sesbania grandiflora* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Oahu Riverhemp** | *Sesbania tomentosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Prickly Sesban** | *Sesbania bispinosa* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
+| **Soybean** | *Glycine max* | Non-Animal Clade | Outside Kingdom Animalia (Metazoa) | Plant, alga, fungus, or bacterial organism | **Promoted to Active Game Roster** |
 | **Florida Stone Crab** | *Menippe mercenaria* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Florida Stone Crab (Menippe mercenaria) | **Promoted to Active Game Roster** |
 | **Snow Crab** | *Chionoecetes opilio* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Snow Crab (Chionoecetes opilio) | **Promoted to Active Game Roster** |
 | **Atlantic Rock Crab** | *Cancer irroratus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Atlantic Rock Crab (Cancer irroratus) | **Promoted to Active Game Roster** |
@@ -3017,11 +3017,11 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Blue Crab** | *Callinectes sapidus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Blue Crab (Callinectes sapidus) | **Promoted to Active Game Roster** |
 | **Madagascar Hissing Cockroach** | *Gromphadorhina laevigata* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Madagascar Hissing Cockroach (Gromphadorhina portentosa) | **Promoted to Active Game Roster** |
 | **American Cockroach** | *Periplaneta americana* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: American Cockroach (Periplaneta americana) | **Promoted to Active Game Roster** |
-| **tetraploid hybrids of red crucian carp and common carp** | *Carassius auratus x Cyprinus carpio* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **triploid hybrids of tetraploid and Japanese crucian carp** | *Carassius auratus x Cyprinus carpio x Carassius cuvieri* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **red crucian carp x common carp** | *Carassius auratus red var. x Cyprinus carpio* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **tetraploid red crucian carp x blunt snout bream** | *tetraploid Carassius auratus red var. x Megalobrama amblycephala* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **ornamental carp x red crucian carp** | *Cyprinus carpio x Carassius auratus red var.* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Tetraploid Hybrids of Red Crucian Carp and Common Carp** | *Carassius auratus x Cyprinus carpio* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Triploid Hybrids of Tetraploid and Japanese Crucian Carp** | *Carassius auratus x Cyprinus carpio x Carassius cuvieri* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Red Crucian Carp X Common Carp** | *Carassius auratus red var. x Cyprinus carpio* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Tetraploid Red Crucian Carp X Blunt Snout Bream** | *tetraploid Carassius auratus red var. x Megalobrama amblycephala* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Ornamental Carp X Red Crucian Carp** | *Cyprinus carpio x Carassius auratus red var.* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Beaked Salmon** | *Gonorynchus gonorynchus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Beaked Salmon (Gonorynchus greyi) | **Promoted to Active Game Roster** |
 | **Atlantic Herring** | *Clupea harengus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Atlantic Herring (Clupea harengus) | **Promoted to Active Game Roster** |
 | **Madagascar Giant Day Gecko** | *Phelsuma grandis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Madagascar Giant Day Gecko (Phelsuma grandis) | **Promoted to Active Game Roster** |
@@ -3032,8 +3032,8 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Little Brown Bat** | *Myotis lucifugus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Little Brown Bat (Myotis lucifugus) | **Promoted to Active Game Roster** |
 | **Northern Long-eared Bat** | *Nyctophilus daedalus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Northern Long-eared Bat (Nyctophilus arnhemensis) | **Promoted to Active Game Roster** |
 | **Big Brown Bat** | *Eptesicus fuscus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Big Brown Bat (Eptesicus fuscus) | **Promoted to Active Game Roster** |
-| **mule** | *Equus asinus x Equus caballus* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **hinny** | *Equus caballus x Equus asinus* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Mule** | *Equus asinus x Equus caballus* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Hinny** | *Equus caballus x Equus asinus* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Aardwolf** | *Proteles cristata* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Aardwolf (Proteles cristata) | **Promoted to Active Game Roster** |
 | **Striped Hyena** | *Hyaena hyaena* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Striped Hyena (Hyaena hyaena) | **Promoted to Active Game Roster** |
 | **Egyptian Mongoose** | *Herpestes ichneumon* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Egyptian Mongoose (Herpestes ichneumon) | **Promoted to Active Game Roster** |
@@ -3061,7 +3061,7 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Wild Bactrian Camel** | *Camelus ferus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Wild Bactrian Camel (Camelus ferus) | **Promoted to Active Game Roster** |
 | **Guanaco** | *Lama guanicoe* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Guanaco (Lama guanicoe) | **Promoted to Active Game Roster** |
 | **Llama** | *Lama glama* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Llama (Lama glama) | **Promoted to Active Game Roster** |
-| **llamanaco** | *Lama glama x Lama guanicoe* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Llamanaco** | *Lama glama x Lama guanicoe* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Alpaca** | *Vicugna pacos* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Alpaca (Vicugna pacos) | **Promoted to Active Game Roster** |
 | **Common Warthog** | *Phacochoerus africanus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Common Warthog (Phacochoerus africanus) | **Promoted to Active Game Roster** |
 | **North Sulawesi Babirusa** | *Babyrousa celebensis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: North Sulawesi Babirusa (Babyrousa celebensis) | **Promoted to Active Game Roster** |
@@ -3079,16 +3079,16 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Stone Loach** | *Barbatula barbatula* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Stone Loach (Schistura rupecula) | **Promoted to Active Game Roster** |
 | **Red-bellied Piranha** | *Pygocentrus nattereri* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Red-bellied Piranha (Pygocentrus nattereri) | **Promoted to Active Game Roster** |
 | **Pirapitinga** | *Piaractus brachypomus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Pirapitinga (Piaractus brachypomus) | **Promoted to Active Game Roster** |
-| **tambacu** | *Piaractus mesopotamicus x Colossoma macropomum* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Tambacu** | *Piaractus mesopotamicus x Colossoma macropomum* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Channel Catfish** | *Ictalurus punctatus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Channel Catfish (Ictalurus punctatus) | **Promoted to Active Game Roster** |
 | **Blue Catfish** | *Ictalurus furcatus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Blue Catfish (Ictalurus furcatus) | **Promoted to Active Game Roster** |
 | **Redtail Catfish** | *Phractocephalus hemioliopterus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Redtail Catfish (Phractocephalus hemioliopterus) | **Promoted to Active Game Roster** |
 | **Stinging Catfish** | *Heteropneustes microps* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Stinging Catfish (Heteropneustes fossilis) | **Promoted to Active Game Roster** |
 | **Electric Eel** | *Electrophorus electricus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Electric Eel (Electrophorus electricus) | **Promoted to Active Game Roster** |
-| **northern galaxias** | *Galaxias sp. 'northern'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **southern flathead galaxias** | *Galaxias sp. 'southern'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Teviot galaxias** | *Galaxias sp. 'teviot'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Pool Burn galaxias** | *Galaxias sp. D (Allibone et al., 1996)* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Northern Galaxias** | *Galaxias sp. 'northern'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Southern Flathead Galaxias** | *Galaxias sp. 'southern'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Teviot Galaxias** | *Galaxias sp. 'teviot'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Pool Burn Galaxias (Galaxias sp. D (Allibone et al., 1996))** | *Galaxias sp. D (Allibone et al., 1996)* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Lantern Fish** | *Nannobrachium achirus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Lantern Fish (Hygophum proximum) | **Promoted to Active Game Roster** |
 | **Sharpchin Barracudina** | *Paralepis coregonoides* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Sharpchin Barracudina (Stemonosudis macrura) | **Promoted to Active Game Roster** |
 | **Painted Turtle** | *Chrysemys picta* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Painted Turtle (Chrysemys picta) | **Promoted to Active Game Roster** |
@@ -3121,7 +3121,7 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Clouded Leopard** | *Neofelis nebulosa* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Clouded Leopard (Neofelis nebulosa) | **Promoted to Active Game Roster** |
 | **Sunda Clouded Leopard** | *Neofelis diardi* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Sunda Clouded Leopard (Neofelis diardi) | **Promoted to Active Game Roster** |
 | **Fossa** | *Cryptoprocta ferox* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Fossa (Cryptoprocta ferox) | **Promoted to Active Game Roster** |
-| **bear** | *Ursus sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
+| **Bear** | *Ursus sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
 | **California Sea Lion** | *Zalophus californianus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: California Sea Lion (Zalophus californianus) | **Promoted to Active Game Roster** |
 | **Steller Sea Lion** | *Eumetopias jubatus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Steller Sea Lion (Eumetopias jubatus) | **Promoted to Active Game Roster** |
 | **Walrus** | *Odobenus rosmarus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Walrus (Odobenus rosmarus) | **Promoted to Active Game Roster** |
@@ -3148,13 +3148,13 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Eurasian Beaver** | *Castor fiber* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Eurasian Beaver (Castor fiber) | **Promoted to Active Game Roster** |
 | **Eastern Subterranean Termite** | *Reticulitermes flavipes* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Eastern Subterranean Termite (Reticulitermes flavipes) | **Promoted to Active Game Roster** |
 | **Migratory Locust** | *Locusta migratoria* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Migratory Locust (Locusta migratoria) | **Promoted to Active Game Roster** |
-| **European earwig** | *Forficula auricularia complex sp. A sensu Guillet et al. (2000)* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **European earwig** | *Forficula auricularia complex sp. B sensu Guillet et al. (2000)* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **European Earwig (Forficula auricularia complex sp. A sensu Guillet et al. (2000))** | *Forficula auricularia complex sp. A sensu Guillet et al. (2000)* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **European Earwig (Forficula auricularia complex sp. B sensu Guillet et al. (2000))** | *Forficula auricularia complex sp. B sensu Guillet et al. (2000)* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Spruce Gall Adelgid** | *Adelges cooleyi* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Spruce Gall Adelgid (Pineus similis) | **Promoted to Active Game Roster** |
 | **Aster Leafhopper** | *Macrosteles quadrilineatus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Aster Leafhopper (Macrosteles fascifrons) | **Promoted to Active Game Roster** |
 | **European Hornet** | *Vespa crabro* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: European Hornet (Vespa crabro) | **Promoted to Active Game Roster** |
 | **Asian Giant Hornet** | *Vespa mandarinia* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Asian Giant Hornet (Vespa mandarinia) | **Promoted to Active Game Roster** |
-| **fluvial eight-barbel loach** | *Lefua sp. (sensu Hosoya 1993)* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Fluvial Eight-barbel Loach (Lefua sp. (sensu Hosoya 1993))** | *Lefua sp. (sensu Hosoya 1993)* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Kura Barbel** | *Barbus cyri* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Kura Barbel (Barbus lacerta) | **Promoted to Active Game Roster** |
 | **Algerian Barb** | *Luciobarbus biscarensis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Algerian Barb (Luciobarbus lepineyi) | **Promoted to Active Game Roster** |
 | **Algerian Barb** | *Luciobarbus callensis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Algerian Barb (Luciobarbus lepineyi) | **Promoted to Active Game Roster** |
@@ -3166,7 +3166,7 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Algerian Barb** | *Luciobarbus labiosus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Algerian Barb (Luciobarbus lepineyi) | **Promoted to Active Game Roster** |
 | **Goldfish** | *Carassius auratus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Goldfish (Carassius auratus) | **Promoted to Active Game Roster** |
 | **Crucian Carp** | *Carassius carassius* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Crucian Carp (Carassius carassius) | **Promoted to Active Game Roster** |
-| **triploid crucian carp** | *Carassius carassius triploid* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Triploid Crucian Carp** | *Carassius carassius triploid* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Common Carp** | *Cyprinus carpio* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Common Carp (Cyprinus carpio) | **Promoted to Active Game Roster** |
 | **Narayan Barb** | *Pethia setnai* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Narayan Barb (Pethia narayani) | **Promoted to Active Game Roster** |
 | **Striped Barb** | *Desmopuntius johorensis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Striped Barb (Puntius eugrammus) | **Promoted to Active Game Roster** |
@@ -3179,17 +3179,17 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Attentive Carplet** | *Amblypharyngodon melettinus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Attentive Carplet (Amblypharyngodon chakaiensis) | **Promoted to Active Game Roster** |
 | **Chinese False Gudgeon** | *Abbottina obtusirostris* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Chinese False Gudgeon (Abbottina rivularis) | **Promoted to Active Game Roster** |
 | **Bluehead Chub** | *Nocomis bellicus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Bluehead Chub (Nocomis leptocephalus) | **Promoted to Active Game Roster** |
-| **cheat minnow** | *Nocomis micropogon x Rhinichthys cataractae* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Cheat Minnow** | *Nocomis micropogon x Rhinichthys cataractae* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Grass Carp** | *Ctenopharyngodon idella* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Grass Carp (Ctenopharyngodon idella) | **Promoted to Active Game Roster** |
-| **brassy jumprock** | *Moxostoma sp. 'brassy jumprock'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **sicklefin redhorse** | *Moxostoma sp. 'sicklefin redhorse'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Brassy Jumprock** | *Moxostoma sp. 'brassy jumprock'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Sicklefin Redhorse** | *Moxostoma sp. 'sicklefin redhorse'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Moon Fish** | *Citharinus latus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Moon Fish (Citharinus citharus) | **Promoted to Active Game Roster** |
 | **Neon Tetra** | *Paracheirodon innesi* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Neon Tetra (Paracheirodon innesi) | **Promoted to Active Game Roster** |
 | **Cardinal Tetra** | *Paracheirodon axelrodi* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Cardinal Tetra (Paracheirodon axelrodi) | **Promoted to Active Game Roster** |
 | **Pike Characin** | *Oligosarcus hepsetus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Pike Characin (Acestrorhynchus microlepis) | **Promoted to Active Game Roster** |
 | **Pike Characin** | *Oligosarcus jenynsii* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Pike Characin (Acestrorhynchus microlepis) | **Promoted to Active Game Roster** |
 | **Dealfish** | *Trachipterus arcticus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Dealfish (Trachipterus jacksonensis) | **Promoted to Active Game Roster** |
-| **Polymixia sazanovi Kotlyar, 1992** | *Polymixia sazonovi* | Metazoa | Technical Strain in Common Name | Technical strain/code embedded in common name | **Promoted to Active Game Roster** |
+| **Polymixia Sazanovi Kotlyar, 1992** | *Polymixia sazonovi* | Metazoa | Technical Strain in Common Name | Technical strain/code embedded in common name | **Promoted to Active Game Roster** |
 | **Green Anole** | *Anolis carolinensis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Green Anole (Anolis carolinensis) | **Promoted to Active Game Roster** |
 | **Argentine Black And White Tegu** | *Salvator merianae* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Argentine Black and White Tegu (Salvator merianae) | **Promoted to Active Game Roster** |
 | **Green Sea Turtle** | *Chelonia mydas* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Green Sea Turtle (Chelonia mydas) | **Promoted to Active Game Roster** |
@@ -3207,7 +3207,7 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Sea Otter** | *Enhydra lutris* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Sea Otter (Enhydra lutris) | **Promoted to Active Game Roster** |
 | **Least Weasel** | *Mustela nivalis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Least Weasel (Mustela nivalis) | **Promoted to Active Game Roster** |
 | **Black-footed Ferret** | *Mustela nigripes* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Black-footed Ferret (Mustela nigripes) | **Promoted to Active Game Roster** |
-| **polecat-ferret hybrid** | *Mustela putorius x Mustela putorius furo* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Polecat-ferret Hybrid** | *Mustela putorius x Mustela putorius furo* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **American Badger** | *Taxidea taxus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: American Badger (Taxidea taxus) | **Promoted to Active Game Roster** |
 | **European Pine Marten** | *Martes martes* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: European Pine Marten (Martes martes) | **Promoted to Active Game Roster** |
 | **Wolverine** | *Gulo gulo* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Wolverine (Gulo gulo) | **Promoted to Active Game Roster** |
@@ -3236,14 +3236,14 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Muskox** | *Ovibos moschatus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Muskox (Ovibos moschatus) | **Promoted to Active Game Roster** |
 | **American Bison** | *Bison bison* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: American Bison (Bison bison) | **Promoted to Active Game Roster** |
 | **European Bison** | *Bison bonasus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: European Bison (Bison bonasus) | **Promoted to Active Game Roster** |
-| **hybrid cattle** | *Bos indicus x Bos taurus* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Hybrid Cattle** | *Bos indicus x Bos taurus* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Wild Yak** | *Bos mutus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Wild Yak (Bos mutus) | **Promoted to Active Game Roster** |
-| **dzo** | *Bos grunniens x Bos taurus* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Dzo** | *Bos grunniens x Bos taurus* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Wild Water Buffalo** | *Bubalus arnee* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Wild Water Buffalo (Bubalus arnee) | **Promoted to Active Game Roster** |
 | **Common Eland** | *Tragelaphus oryx* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Common Eland (Taurotragus oryx) | **Promoted to Active Game Roster** |
 | **Greater Kudu** | *Tragelaphus strepsiceros* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Greater Kudu (Tragelaphus strepsiceros) | **Promoted to Active Game Roster** |
 | **Bongo** | *Tragelaphus eurycerus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Bongo (Tragelaphus eurycerus) | **Promoted to Active Game Roster** |
-| **beefalo** | *Bos taurus x Bison bison* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Beefalo** | *Bos taurus x Bison bison* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Impala** | *Aepyceros melampus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Impala (Aepyceros melampus) | **Promoted to Active Game Roster** |
 | **Black Wildebeest** | *Connochaetes gnou* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Black Wildebeest (Connochaetes gnou) | **Promoted to Active Game Roster** |
 | **Long-finned Pilot Whale** | *Globicephala melas* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Long-finned Pilot Whale (Globicephala melas) | **Promoted to Active Game Roster** |
@@ -3265,23 +3265,23 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Humpback Whale** | *Megaptera novaeangliae* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Humpback Whale (Megaptera novaeangliae) | **Promoted to Active Game Roster** |
 | **Bowhead Whale** | *Balaena mysticetus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Bowhead Whale (Balaena mysticetus) | **Promoted to Active Game Roster** |
 | **North Atlantic Right Whale** | *Eubalaena glacialis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: North Atlantic Right Whale (Eubalaena glacialis) | **Promoted to Active Game Roster** |
-| **sifaka** | *Propithecus sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
-| **bush baby** | *Galago sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
+| **Sifaka** | *Propithecus sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
+| **Bush Baby** | *Galago sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
 | **Potato Aphid** | *Aulacorthum solani* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Potato Aphid (Macrosiphum euphorbiae) | **Promoted to Active Game Roster** |
 | **Desert Ant** | *Cataglyphis bicolor* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Desert Ant (Cataglyphis niger) | **Promoted to Active Game Roster** |
 | **Desert Ant** | *Cataglyphis savignyi* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Desert Ant (Cataglyphis niger) | **Promoted to Active Game Roster** |
 | **Desert Ant** | *Cataglyphis viatica* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Desert Ant (Cataglyphis niger) | **Promoted to Active Game Roster** |
-| **natural gynogenetic red crucian carp** | *natural gynogenetic Carassius auratus red var.* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Natural Gynogenetic Red Crucian Carp** | *natural gynogenetic Carassius auratus red var.* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Rohu** | *Labeo caeruleus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Rohu (Labeo rohita) | **Promoted to Active Game Roster** |
 | **Siamese Flying Fox** | *Crossocheilus oblongus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Siamese Flying Fox (Crossocheilus siamensis) | **Promoted to Active Game Roster** |
-| **Hikari danio** | *Danio sp. 'Hikari'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **giraffe devario** | *Devario sp. 'giraffe'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Kap-Ping chub** | *Opsariichthys sp. GP* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Pingtung stripe dace** | *Candidia sp. FG* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Hikari Danio** | *Danio sp. 'Hikari'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Giraffe Devario** | *Devario sp. 'giraffe'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Kap-ping Chub** | *Opsariichthys sp. GP* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Pingtung Stripe Dace** | *Candidia sp. FG* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Alfonsino** | *Beryx mollis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Alfonsino (Beryx decadactylus) | **Promoted to Active Game Roster** |
 | **Sandpaper Fish** | *Paratrachichthys trailli* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Sandpaper Fish (Paratrachichthys macleayi) | **Promoted to Active Game Roster** |
 | **Galapagos Land Iguana** | *Conolophus subcristatus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Galapagos Land Iguana (Conolophus subcristatus) | **Promoted to Active Game Roster** |
-| **Liolaemus thomasi Laurent 1998** | *Liolaemus thomasi* | Metazoa | Technical Strain in Common Name | Technical strain/code embedded in common name | **Promoted to Active Game Roster** |
+| **Liolaemus Thomasi Laurent 1998** | *Liolaemus thomasi* | Metazoa | Technical Strain in Common Name | Technical strain/code embedded in common name | **Promoted to Active Game Roster** |
 | **Common Chameleon** | *Chamaeleo chamaeleon* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Common Chameleon (Chamaeleo chamaeleon) | **Promoted to Active Game Roster** |
 | **Veiled Chameleon** | *Chamaeleo calyptratus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Veiled Chameleon (Chamaeleo calyptratus) | **Promoted to Active Game Roster** |
 | **Mexican Beaded Lizard** | *Heloderma horridum* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Mexican Beaded Lizard (Heloderma horridum) | **Promoted to Active Game Roster** |
@@ -3304,7 +3304,7 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **White-faced Saki** | *Pithecia pithecia* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: White-faced Saki (Pithecia pithecia) | **Promoted to Active Game Roster** |
 | **Howler Monkey** | *Alouatta seniculus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Howler Monkey (Alouatta palliata) | **Promoted to Active Game Roster** |
 | **Howler Monkey** | *Alouatta guariba* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Howler Monkey (Alouatta palliata) | **Promoted to Active Game Roster** |
-| **black spider monkey x brown-headed spider monkey** | *Ateles paniscus x Ateles fusciceps* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Black Spider Monkey X Brown-headed Spider Monkey** | *Ateles paniscus x Ateles fusciceps* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Siamang** | *Symphalangus syndactylus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Siamang (Symphalangus syndactylus) | **Promoted to Active Game Roster** |
 | **Southern Flying Squirrel** | *Glaucomys volans* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Southern Flying Squirrel (Glaucomys volans) | **Promoted to Active Game Roster** |
 | **Fox Squirrel** | *Sciurus niger* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Fox Squirrel (Sciurus niger) | **Promoted to Active Game Roster** |
@@ -3312,7 +3312,7 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Eastern Chipmunk** | *Tamias striatus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Eastern Chipmunk (Tamias striatus) | **Promoted to Active Game Roster** |
 | **Black-tailed Prairie Dog** | *Cynomys ludovicianus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Black-tailed Prairie Dog (Cynomys ludovicianus) | **Promoted to Active Game Roster** |
 | **Mongolian Gerbil** | *Meriones unguiculatus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Mongolian Gerbil (Meriones unguiculatus) | **Promoted to Active Game Roster** |
-| **Arvicanthis somalicus Thomas, 1903** | *Arvicanthis neumanni* | Metazoa | Technical Strain in Common Name | Technical strain/code embedded in common name | **Promoted to Active Game Roster** |
+| **Arvicanthis Somalicus Thomas, 1903** | *Arvicanthis neumanni* | Metazoa | Technical Strain in Common Name | Technical strain/code embedded in common name | **Promoted to Active Game Roster** |
 | **Golden Hamster** | *Mesocricetus auratus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Golden Hamster (Mesocricetus auratus) | **Promoted to Active Game Roster** |
 | **Muskrat** | *Ondatra zibethicus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Muskrat (Ondatra zibethicus) | **Promoted to Active Game Roster** |
 | **Norway Lemming** | *Lemmus lemmus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Norway Lemming (Lemmus lemmus) | **Promoted to Active Game Roster** |
@@ -3325,8 +3325,8 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Great Diving Beetle** | *Dytiscus marginalis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Great Diving Beetle (Dytiscus marginalis) | **Promoted to Active Game Roster** |
 | **Common Eastern Firefly** | *Photinus pyralis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Common Eastern Firefly (Photinus pyralis) | **Promoted to Active Game Roster** |
 | **Japanese Firefly** | *Nipponoluciola cruciata* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Japanese Firefly (Aquatica lateralis) | **Promoted to Active Game Roster** |
-| **toadfish** | *Batrachoididae gen. sp.* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **tuna** | *Scombridae gen. sp.* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Toadfish** | *Batrachoididae gen. sp.* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Tuna** | *Scombridae gen. sp.* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Nile Perch** | *Lates niloticus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Nile Perch (Lates niloticus) | **Promoted to Active Game Roster** |
 | **Great Barracuda** | *Sphyraena barracuda* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Great Barracuda (Sphyraena barracuda) | **Promoted to Active Game Roster** |
 | **Sharpfin Barracuda** | *Sphyraena acutipinnis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Sharpfin Barracuda (Sphyraena africana) | **Promoted to Active Game Roster** |
@@ -3350,7 +3350,7 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Sharpnose Hammer Croaker** | *Johnius borneensis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Sharpnose Hammer Croaker (Johnius vogleri) | **Promoted to Active Game Roster** |
 | **Law Croaker** | *Pseudotolithus brachygnathus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Law Croaker (Pseudotolithus senegallus) | **Promoted to Active Game Roster** |
 | **European Seabass** | *Dicentrarchus labrax* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: European Seabass (Dicentrarchus labrax) | **Promoted to Active Game Roster** |
-| **white bass x striped sea-bass** | *Morone chrysops x Morone saxatilis* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **White Bass X Striped Sea-bass** | *Morone chrysops x Morone saxatilis* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Stargazer** | *Uranoscopus chinensis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Stargazer (Uranoscopus scaber) | **Promoted to Active Game Roster** |
 | **Cuckoo Wrasse** | *Labrus mixtus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Cuckoo Wrasse (Labrus ossifagus) | **Promoted to Active Game Roster** |
 | **Threespot Wrasse** | *Halichoeres trispilus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Threespot Wrasse (Halichoeres trimaculatus) | **Promoted to Active Game Roster** |
@@ -3367,7 +3367,7 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Striped Sweetlips** | *Plectorhinchus lessonii* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Striped Sweetlips (Plectorhinchus diagrammus) | **Promoted to Active Game Roster** |
 | **John Dory** | *Zeus japonicus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: John Dory (Zeus faber) | **Promoted to Active Game Roster** |
 | **Central Bearded Dragon** | *Pogona vitticeps* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Central Bearded Dragon (Pogona vitticeps) | **Promoted to Active Game Roster** |
-| **beaded lizard** | *Heloderma sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
+| **Beaded Lizard** | *Heloderma sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
 | **Slow Worm** | *Anguis fragilis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Slow Worm (Anguis fragilis) | **Promoted to Active Game Roster** |
 | **Komodo Dragon** | *Varanus komodoensis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Komodo Dragon (Varanus komodoensis) | **Promoted to Active Game Roster** |
 | **Perentie** | *Varanus giganteus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Perentie (Varanus giganteus) | **Promoted to Active Game Roster** |
@@ -3377,9 +3377,9 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Milk Snake** | *Lampropeltis triangulum* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Milk Snake (Lampropeltis triangulum) | **Promoted to Active Game Roster** |
 | **Eastern Green Mamba** | *Dendroaspis angusticeps* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Eastern Green Mamba (Dendroaspis angusticeps) | **Promoted to Active Game Roster** |
 | **Indian Cobra** | *Naja naja* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Indian Cobra (Naja naja) | **Promoted to Active Game Roster** |
-| **Woodlark or Fergusson Island forest snake** | *Toxicocalamus longissimus* | Metazoa | Nomenclature Out of Bounds | Common name length (41 chars) out of standard bounds | **Promoted to Active Game Roster** |
+| **Woodlark Or Fergusson Island Forest Snake** | *Toxicocalamus longissimus* | Metazoa | Nomenclature Out of Bounds | Common name length (41 chars) out of standard bounds | **Promoted to Active Game Roster** |
 | **Banded Krait** | *Bungarus fasciatus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Banded Krait (Bungarus fasciatus) | **Promoted to Active Game Roster** |
-| **North-eastern plain-nosed burrowing snake** | *Antaioserpens warro* | Metazoa | Nomenclature Out of Bounds | Common name length (41 chars) out of standard bounds | **Promoted to Active Game Roster** |
+| **North-eastern Plain-nosed Burrowing Snake** | *Antaioserpens warro* | Metazoa | Nomenclature Out of Bounds | Common name length (41 chars) out of standard bounds | **Promoted to Active Game Roster** |
 | **Puff Adder** | *Bitis arietans* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Puff Adder (Bitis arietans) | **Promoted to Active Game Roster** |
 | **Gaboon Viper** | *Bitis gabonica* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Gaboon Viper (Bitis gabonica) | **Promoted to Active Game Roster** |
 | **Saw-scaled Viper** | *Echis carinatus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Saw-scaled Viper (Echis carinatus) | **Promoted to Active Game Roster** |
@@ -3391,8 +3391,8 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Southern Cassowary** | *Casuarius casuarius* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Southern Cassowary (Casuarius casuarius) | **Promoted to Active Game Roster** |
 | **Emu** | *Dromaius novaehollandiae* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Emu (Dromaius novaehollandiae) | **Promoted to Active Game Roster** |
 | **Greater Rhea** | *Rhea americana* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Greater Rhea (Rhea americana) | **Promoted to Active Game Roster** |
-| **howler monkey** | *Alouatta sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
-| **spider monkey** | *Ateles sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
+| **Howler Monkey** | *Alouatta sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
+| **Spider Monkey** | *Ateles sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
 | **De Brazza's Monkey** | *Cercopithecus neglectus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: De Brazza's Monkey (Cercopithecus neglectus) | **Promoted to Active Game Roster** |
 | **Japanese Macaque** | *Macaca fuscata* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Japanese Macaque (Macaca fuscata) | **Promoted to Active Game Roster** |
 | **Hamadryas Baboon** | *Papio hamadryas* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Hamadryas Baboon (Papio hamadryas) | **Promoted to Active Game Roster** |
@@ -3403,21 +3403,21 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Mantled Guereza** | *Colobus guereza* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Mantled Guereza (Colobus guereza) | **Promoted to Active Game Roster** |
 | **Proboscis Monkey** | *Nasalis larvatus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Proboscis Monkey (Nasalis larvatus) | **Promoted to Active Game Roster** |
 | **Golden Snub-nosed Monkey** | *Rhinopithecus roxellana* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Golden Snub-nosed Monkey (Rhinopithecus roxellana) | **Promoted to Active Game Roster** |
-| **gibbon** | *Hylobates sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
+| **Gibbon** | *Hylobates sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
 | **Eastern Gorilla** | *Gorilla beringei* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Eastern Gorilla (Gorilla beringei) | **Promoted to Active Game Roster** |
 | **Chimpanzee** | *Pan troglodytes* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Chimpanzee (Pan troglodytes) | **Promoted to Active Game Roster** |
 | **Human** | *Homo sapiens* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Human (Homo sapiens) | **Promoted to Active Game Roster** |
 | **Sumatran Orangutan** | *Pongo abelii* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Sumatran Orangutan (Pongo abelii) | **Promoted to Active Game Roster** |
-| **mouse-like hamster** | *Calomyscus sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
+| **Mouse-like Hamster** | *Calomyscus sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
 | **Common Water Strider** | *Aquarius remigis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Common Water Strider (Aquarius remigis) | **Promoted to Active Game Roster** |
 | **Buff-tailed Bumblebee** | *Bombus terrestris* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Buff-tailed Bumblebee (Bombus terrestris) | **Promoted to Active Game Roster** |
 | **Willow Leaf Beetle** | *Plagiodera versicolora* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Willow Leaf Beetle (Chrysomela vigintipunctata) | **Promoted to Active Game Roster** |
 | **Colorado Potato Beetle** | *Leptinotarsa decemlineata* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Colorado Potato Beetle (Leptinotarsa decemlineata) | **Promoted to Active Game Roster** |
 | **Willow Leaf Beetle** | *Lochmaea capreae* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Willow Leaf Beetle (Chrysomela vigintipunctata) | **Promoted to Active Game Roster** |
-| **24-pointed ladybird beetle** | *Subcoccinella vigintiquattuorpunctata* | Metazoa | Technical Strain in Common Name | Technical strain/code embedded in common name | **Promoted to Active Game Roster** |
+| **24-pointed Ladybird Beetle** | *Subcoccinella vigintiquattuorpunctata* | Metazoa | Technical Strain in Common Name | Technical strain/code embedded in common name | **Promoted to Active Game Roster** |
 | **Atlantic Midshipman** | *Porichthys porosissimus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Atlantic Midshipman (Porichthys plectrodon) | **Promoted to Active Game Roster** |
 | **Red Sea Goatfish** | *Mulloidichthys auriflamma* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Red Sea Goatfish (Parupeneus forsskali) | **Promoted to Active Game Roster** |
-| **cojinova** | *Seriolella sp. 'cojinova'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Cojinova** | *Seriolella sp. 'cojinova'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Armoured Stickleback** | *Indostomus crocodilus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Armoured Stickleback (Indostomus paradoxus) | **Promoted to Active Game Roster** |
 | **European Flounder** | *Platichthys flesus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: European Flounder (Platichthys flesus) | **Promoted to Active Game Roster** |
 | **Atlantic Halibut** | *Hippoglossus hippoglossus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Atlantic Halibut (Hippoglossus hippoglossus) | **Promoted to Active Game Roster** |
@@ -3426,16 +3426,16 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Zebra Sole** | *Zebrias zebrinus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Zebra Sole (Zebrias zebra) | **Promoted to Active Game Roster** |
 | **Madagascar Rainbowfish** | *Bedotia madagascariensis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Madagascar Rainbowfish (Bedotia geayi) | **Promoted to Active Game Roster** |
 | **Diamond Mullet** | *Planiliza ordensis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Diamond Mullet (Planiliza alata) | **Promoted to Active Game Roster** |
-| **Oneirodes carlsbergi (Regan & Trewavas, 1932)** | *Oneirodes carlsbergi* | Metazoa | Nomenclature Out of Bounds | Common name length (45 chars) out of standard bounds | **Promoted to Active Game Roster** |
-| **fortesque waspfish** | *Centropogon australis (in: ray-finned fishes)* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Oneirodes Carlsbergi** | *Oneirodes carlsbergi* | Metazoa | Nomenclature Out of Bounds | Common name length (45 chars) out of standard bounds | **Promoted to Active Game Roster** |
+| **Fortesque Waspfish (Centropogon australis (in: ray-finned fishes))** | *Centropogon australis (in: ray-finned fishes)* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Red Gurnard** | *Chelidonichthys spinosus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Red Gurnard (Chelidonichthys cuculus) | **Promoted to Active Game Roster** |
-| **Lepidotrigla kanagashira Kamohara, 1936** | *Lepidotrigla kanagashira* | Metazoa | Technical Strain in Common Name | Technical strain/code embedded in common name | **Promoted to Active Game Roster** |
-| **Lepidotrigla longifaciata Yatou, 1981** | *Lepidotrigla longifaciata* | Metazoa | Technical Strain in Common Name | Technical strain/code embedded in common name | **Promoted to Active Game Roster** |
+| **Lepidotrigla Kanagashira Kamohara, 1936** | *Lepidotrigla kanagashira* | Metazoa | Technical Strain in Common Name | Technical strain/code embedded in common name | **Promoted to Active Game Roster** |
+| **Lepidotrigla Longifaciata Yatou, 1981** | *Lepidotrigla longifaciata* | Metazoa | Technical Strain in Common Name | Technical strain/code embedded in common name | **Promoted to Active Game Roster** |
 | **Orange-freckled Flathead** | *Ratabulus fulviguttatus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Orange-freckled Flathead (Ratabulus diversidens) | **Promoted to Active Game Roster** |
 | **Spot-fin Porcupinefish** | *Diodon hystrix* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Spot-fin Porcupinefish (Diodon hystrix) | **Promoted to Active Game Roster** |
 | **Basketfish** | *Kentrocapros rosapinto* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Basketfish (Kentrocapros aculeatus) | **Promoted to Active Game Roster** |
 | **Ocean Sunfish** | *Mola mola* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Ocean Sunfish (Mola mola) | **Promoted to Active Game Roster** |
-| **Cocos Island lemonpeel pygmy angelfish** | *Centropyge sp. KNS-2014* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Cocos Island Lemonpeel Pygmy Angelfish** | *Centropyge sp. KNS-2014* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Striped Parrotfish** | *Scarus zelindae* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Striped Parrotfish (Scarus iseri) | **Promoted to Active Game Roster** |
 | **Heavybeak Parrotfish** | *Chlorurus strongylocephalus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Heavybeak Parrotfish (Chlorurus gibbus) | **Promoted to Active Game Roster** |
 | **Green Humphead Parrotfish** | *Bolbometopon muricatum* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Green Humphead Parrotfish (Bolbometopon muricatum) | **Promoted to Active Game Roster** |
@@ -3444,7 +3444,7 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Bluegill** | *Lepomis macrochirus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Bluegill (Lepomis macrochirus) | **Promoted to Active Game Roster** |
 | **Largemouth Bass** | *Micropterus salmoides* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Largemouth Bass (Micropterus salmoides) | **Promoted to Active Game Roster** |
 | **Smallmouth Bass** | *Micropterus dolomieu* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Smallmouth Bass (Micropterus dolomieu) | **Promoted to Active Game Roster** |
-| **Bartram's bass** | *Micropterus cf. coosae MRB-2014* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Bartram's Bass** | *Micropterus cf. coosae MRB-2014* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Atlantic Cod** | *Gadus morhua* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Atlantic Cod (Gadus morhua) | **Promoted to Active Game Roster** |
 | **Haddock** | *Melanogrammus aeglefinus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Haddock (Melanogrammus aeglefinus) | **Promoted to Active Game Roster** |
 | **European Hake** | *Merluccius vulgaris* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: European Hake (Merluccius merluccius) | **Promoted to Active Game Roster** |
@@ -3470,12 +3470,12 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Red-crowned Crane** | *Grus japonensis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Red-crowned Crane (Grus japonensis) | **Promoted to Active Game Roster** |
 | **Sandhill Crane** | *Antigone canadensis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Sandhill Crane (Antigone canadensis) | **Promoted to Active Game Roster** |
 | **Eurasian Coot** | *Fulica atra* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Eurasian Coot (Fulica atra) | **Promoted to Active Game Roster** |
-| **fungus gnat** | *Mycetophilus sp. HMR-1993* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Fungus Gnat** | *Mycetophilus sp. HMR-1993* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Yellow Fever Mosquito** | *Aedes aegypti* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Yellow Fever Mosquito (Aedes aegypti) | **Promoted to Active Game Roster** |
-| **flower long-horned beetle** | *Leptura sp. DEH-1995* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Flower Long-horned Beetle** | *Leptura sp. DEH-1995* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Black Widow** | *Stygnobrotula latebricola* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Black Widow (Latrodectus tredecimguttatus) | **Promoted to Active Game Roster** |
 | **Bumblebee Goby** | *Brachygobius nunus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Bumblebee Goby (Brachygobius xanthomelas) | **Promoted to Active Game Roster** |
-| **Glossogobius intermedius Aurich, 1938** | *Glossogobius intermedius* | Metazoa | Technical Strain in Common Name | Technical strain/code embedded in common name | **Promoted to Active Game Roster** |
+| **Glossogobius Intermedius Aurich, 1938** | *Glossogobius intermedius* | Metazoa | Technical Strain in Common Name | Technical strain/code embedded in common name | **Promoted to Active Game Roster** |
 | **River Goby** | *Glossogobius callidus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: River Goby (Awaous banana) | **Promoted to Active Game Roster** |
 | **Zebra Goby** | *Lythrypnus zebra* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Zebra Goby (Zebrus zebrus) | **Promoted to Active Game Roster** |
 | **Banded Goby** | *Caffrogobius caffer* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Banded Goby (Amblygobius phalaena) | **Promoted to Active Game Roster** |
@@ -3498,16 +3498,16 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Yellow Perch** | *Perca flavescens* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Yellow Perch (Perca flavescens) | **Promoted to Active Game Roster** |
 | **European Perch** | *Perca fluviatilis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: European Perch (Perca fluviatilis) | **Promoted to Active Game Roster** |
 | **Walleye** | *Sander vitreus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Walleye (Sander vitreus) | **Promoted to Active Game Roster** |
-| **driftless logperch** | *Percina cf. caprodes TJN-2008* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Etowah brindled darter** | *Percina cf. kusha TJN-2011* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Driftless Logperch** | *Percina cf. caprodes TJN-2008* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Etowah Brindled Darter** | *Percina cf. kusha TJN-2011* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Black Sea Bass** | *Centropristis striata* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Black Sea Bass (Centropristis striata) | **Promoted to Active Game Roster** |
 | **White-spotted Puffer** | *Arothron hispidus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: White-spotted Puffer (Arothron hispidus) | **Promoted to Active Game Roster** |
 | **Brown-backed Toadfish** | *Lagocephalus wheeleri* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Brown-backed Toadfish (Lagocephalus gloveri) | **Promoted to Active Game Roster** |
-| **hana-amadai** | *Branchiostegus sp. TY-2011* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Ventrifossa fusca Okamura, 1982** | *Ventrifossa fusca* | Metazoa | Technical Strain in Common Name | Technical strain/code embedded in common name | **Promoted to Active Game Roster** |
+| **Hana-amadai** | *Branchiostegus sp. TY-2011* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Ventrifossa Fusca Okamura, 1982** | *Ventrifossa fusca* | Metazoa | Technical Strain in Common Name | Technical strain/code embedded in common name | **Promoted to Active Game Roster** |
 | **Mandarin Duck** | *Aix galericulata* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Mandarin Duck (Aix galericulata) | **Promoted to Active Game Roster** |
 | **Wood Duck** | *Aix sponsa* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Wood Duck (Aix sponsa) | **Promoted to Active Game Roster** |
-| **domestic duck x muscovy duck** | *Anas platyrhynchos x Cairina moschata* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Domestic Duck X Muscovy Duck** | *Anas platyrhynchos x Cairina moschata* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Northern Pintail** | *Anas acuta* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Northern Pintail (Anas acuta) | **Promoted to Active Game Roster** |
 | **Common Eider** | *Somateria mollissima* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Common Eider (Somateria mollissima) | **Promoted to Active Game Roster** |
 | **Canvasback** | *Aythya valisineria* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Canvasback (Aythya valisineria) | **Promoted to Active Game Roster** |
@@ -3565,7 +3565,7 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **African Malaria Mosquito** | *Anopheles funestus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: African Malaria Mosquito (Anopheles gambiae) | **Promoted to Active Game Roster** |
 | **Water Lily Leaf Beetle** | *Galerucella nymphaeae* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Water Lily Leaf Beetle (Galerucella birmanica) | **Promoted to Active Game Roster** |
 | **Tubenose Goby** | *Proterorhinus semilunaris* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Tubenose Goby (Proterorhinus marmoratus) | **Promoted to Active Game Roster** |
-| **flowerhorn cichlid** | *Cichlasomatinae hybrid sp. 'flowerhorn'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Flowerhorn Cichlid** | *Cichlasomatinae hybrid sp. 'flowerhorn'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Guppy** | *Poecilia reticulata* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Guppy (Poecilia reticulata) | **Promoted to Active Game Roster** |
 | **Green Swordtail** | *Xiphophorus hellerii* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Green Swordtail (Xiphophorus hellerii) | **Promoted to Active Game Roster** |
 | **Onesided Livebearer** | *Jenynsia onca* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Onesided Livebearer (Jenynsia lineata) | **Promoted to Active Game Roster** |
@@ -3575,31 +3575,31 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Blue-dashed Rockskipper** | *Blenniella paula* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Blue-dashed Rockskipper (Blenniella periophthalmus) | **Promoted to Active Game Roster** |
 | **Lined Rockskipper** | *Blenniella bilitonensis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Lined Rockskipper (Istiblennius lineatus) | **Promoted to Active Game Roster** |
 | **Medusa Blenny** | *Cirrisalarias bunares* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Medusa Blenny (Acanthemblemaria medusa) | **Promoted to Active Game Roster** |
-| **Pennsylvania grotto sculpin** | *Cottus sp. 'Nippenose Valley'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **sunset rockfish** | *Sebastes sp. 'crocotulus'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Pennsylvania Grotto Sculpin** | *Cottus sp. 'Nippenose Valley'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Sunset Rockfish** | *Sebastes sp. 'crocotulus'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Black Darter** | *Etheostoma duryi* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Black Darter (Sympetrum danae) | **Promoted to Active Game Roster** |
-| **blueface darter** | *Etheostoma cf. zonistium TJN-2011* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Arkansas greenside darter** | *Etheostoma cf. newmanii* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Ihiyo darter** | *Etheostoma cf. spectabile TJN-2011d* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Mamequit darter** | *Etheostoma cf. spectabile TJN-2011e* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Ozark darter** | *Etheostoma cf. spectabile TJN-2011a* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Sheltowee darter** | *Etheostoma cf. spectabile TJN-2011b* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Kentucky darter** | *Etheostoma cf. spectabile TJN-2011f* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **bluegrass darter** | *Etheostoma cf. stigmaeum TJN-2011a* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **clown darter** | *Etheostoma cf. stigmaeum TJN-2011b* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Longhunt darter** | *Etheostoma cf. stigmaeum TJN-2011d* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Collins River darter** | *Etheostoma cf. basilare TJN-2011a* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Calfkiller River darter** | *Etheostoma cf. basilare TJN-2011b* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Cane Creek darter** | *Etheostoma cf. basilare TJN-2011c* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Rocky River darter** | *Etheostoma cf. basilare TJN-2011d* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Blueface Darter** | *Etheostoma cf. zonistium TJN-2011* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Arkansas Greenside Darter** | *Etheostoma cf. newmanii* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Ihiyo Darter** | *Etheostoma cf. spectabile TJN-2011d* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Mamequit Darter** | *Etheostoma cf. spectabile TJN-2011e* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Ozark Darter** | *Etheostoma cf. spectabile TJN-2011a* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Sheltowee Darter** | *Etheostoma cf. spectabile TJN-2011b* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Kentucky Darter** | *Etheostoma cf. spectabile TJN-2011f* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Bluegrass Darter** | *Etheostoma cf. stigmaeum TJN-2011a* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Clown Darter** | *Etheostoma cf. stigmaeum TJN-2011b* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Longhunt Darter** | *Etheostoma cf. stigmaeum TJN-2011d* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Collins River Darter** | *Etheostoma cf. basilare TJN-2011a* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Calfkiller River Darter** | *Etheostoma cf. basilare TJN-2011b* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Cane Creek Darter** | *Etheostoma cf. basilare TJN-2011c* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Rocky River Darter** | *Etheostoma cf. basilare TJN-2011d* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Spotted Soapfish** | *Rypticus bistrispinus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Spotted Soapfish (Rypticus subbifrenatus) | **Promoted to Active Game Roster** |
 | **Atlantic Goliath Grouper** | *Epinephelus itajara* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Atlantic Goliath Grouper (Epinephelus itajara) | **Promoted to Active Game Roster** |
 | **Malabar Grouper** | *Epinephelus salmonoides* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Malabar Grouper (Epinephelus malabaricus) | **Promoted to Active Game Roster** |
-| **hybrid giant tiger grouper** | *Epinephelus fuscoguttatus x Epinephelus lanceolatus* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Yunlong grouper** | *Epinephelus moara x Epinephelus lanceolatus* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Hybrid Giant Tiger Grouper** | *Epinephelus fuscoguttatus x Epinephelus lanceolatus* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Yunlong Grouper** | *Epinephelus moara x Epinephelus lanceolatus* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Dusky Grouper** | *Mycteroperca marginata* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Dusky Grouper (Epinephelus marginatus) | **Promoted to Active Game Roster** |
-| **goose** | *Anser sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
-| **Giant Hawaiian goose** | *Branta sp. giant Hawaiian goose* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Goose** | *Anser sp.* | Unknown | Technical Strain / Code | Contains technical laboratory strain or tentative marker | **Promoted to Active Game Roster** |
+| **Giant Hawaiian Goose** | *Branta sp. giant Hawaiian goose* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Common Swift** | *Apus apus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Common Swift (Apus apus) | **Promoted to Active Game Roster** |
 | **Common Nighthawk** | *Chordeiles minor* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Common Nighthawk (Chordeiles minor) | **Promoted to Active Game Roster** |
 | **Peregrine Falcon** | *Falco peregrinus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Peregrine Falcon (Falco peregrinus) | **Promoted to Active Game Roster** |
@@ -3649,7 +3649,7 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Turkey Vulture** | *Cathartes aura* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Turkey Vulture (Cathartes aura) | **Promoted to Active Game Roster** |
 | **California Condor** | *Gymnogyps californianus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: California Condor (Gymnogyps californianus) | **Promoted to Active Game Roster** |
 | **King Vulture** | *Sarcoramphus papa* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: King Vulture (Sarcoramphus papa) | **Promoted to Active Game Roster** |
-| **Japanese black-footed albatross** | *Phoebastria sp. 'nihonus'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Japanese Black-footed Albatross** | *Phoebastria sp. 'nihonus'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Rosy Maple Moth** | *Dryocampa rubicunda* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Rosy Maple Moth (Dryocampa rubicunda) | **Promoted to Active Game Roster** |
 | **Tawny Emperor** | *Chitoria ulupi* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Tawny Emperor (Asterocampa clyton) | **Promoted to Active Game Roster** |
 | **Oscar** | *Astronotus ocellatus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Oscar (Astronotus ocellatus) | **Promoted to Active Game Roster** |
@@ -3657,7 +3657,7 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Blue Discus** | *Symphysodon aequifasciata* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Blue Discus (Symphysodon aequifasciatus) | **Promoted to Active Game Roster** |
 | **Tigerfish** | *Rhamphochromis longiceps* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Tigerfish (Hydrocynus vittatus) | **Promoted to Active Game Roster** |
 | **House Wren** | *Troglodytes aedon* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: House Wren (Troglodytes aedon) | **Promoted to Active Game Roster** |
-| **ou** | *Psittirostra psittacea* | Metazoa | Nomenclature Out of Bounds | Common name length (2 chars) out of standard bounds | **Promoted to Active Game Roster** |
+| **Ou** | *Psittirostra psittacea* | Metazoa | Nomenclature Out of Bounds | Common name length (2 chars) out of standard bounds | **Promoted to Active Game Roster** |
 | **Eurasian Tree Sparrow** | *Passer montanus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Eurasian Tree Sparrow (Passer montanus) | **Promoted to Active Game Roster** |
 | **House Sparrow** | *Passer domesticus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: House Sparrow (Passer domesticus) | **Promoted to Active Game Roster** |
 | **Red-winged Blackbird** | *Agelaius phoeniceus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Red-winged Blackbird (Agelaius phoeniceus) | **Promoted to Active Game Roster** |
@@ -3673,7 +3673,7 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Eurasian Jay** | *Garrulus glandarius* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Eurasian Jay (Garrulus glandarius) | **Promoted to Active Game Roster** |
 | **Superb Fairywren** | *Malurus cyaneus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Superb Fairywren (Malurus cyaneus) | **Promoted to Active Game Roster** |
 | **Barn Swallow** | *Hirundo rustica* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Barn Swallow (Hirundo rustica) | **Promoted to Active Game Roster** |
-| **long-billed greenbul** | *Bernieria madagascariensis (Gmelin, 1789)* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Long-billed Greenbul (Bernieria madagascariensis (Gmelin, 1789))** | *Bernieria madagascariensis (Gmelin, 1789)* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Rainbow Lorikeet** | *Trichoglossus moluccanus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Rainbow Lorikeet (Trichoglossus moluccanus) | **Promoted to Active Game Roster** |
 | **Eurasian Sparrowhawk** | *Accipiter nisus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Eurasian Sparrowhawk (Accipiter nisus) | **Promoted to Active Game Roster** |
 | **Golden Eagle** | *Aquila chrysaetos* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Golden Eagle (Aquila chrysaetos) | **Promoted to Active Game Roster** |
@@ -3685,7 +3685,7 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Black Kite** | *Milvus migrans* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Black Kite (Milvus migrans) | **Promoted to Active Game Roster** |
 | **Harpy Eagle** | *Harpia harpyja* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Harpy Eagle (Harpia harpyja) | **Promoted to Active Game Roster** |
 | **Northern Goshawk** | *Astur gentilis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Northern Goshawk (Accipiter gentilis) | **Promoted to Active Game Roster** |
-| **grass fly** | *Oscinella sp. HMR-1993* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Grass Fly** | *Oscinella sp. HMR-1993* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Hairy Maggot Blowfly** | *Chrysomya albiceps* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Hairy Maggot Blowfly (Chrysomya rufifacies) | **Promoted to Active Game Roster** |
 | **Polyphemus Moth** | *Antheraea polyphemus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Polyphemus Moth (Antheraea polyphemus) | **Promoted to Active Game Roster** |
 | **Indian Moon Moth** | *Actias ningpoana* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Indian Moon Moth (Actias selene) | **Promoted to Active Game Roster** |
@@ -3695,14 +3695,14 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Black Swallowtail** | *Papilio polyxenes* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Black Swallowtail (Papilio polyxenes) | **Promoted to Active Game Roster** |
 | **Red Admiral** | *Vanessa atalanta* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Red Admiral (Vanessa atalanta) | **Promoted to Active Game Roster** |
 | **Viceroy** | *Limenitis archippus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Viceroy (Limenitis archippus) | **Promoted to Active Game Roster** |
-| **ruby red peacock** | *Aulonocara sp. 'Rubescens'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **red tilapia** | *Oreochromis sp. YC-2004* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **red tilapia** | *Oreochromis sp. YCC-2008* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Ruby Red Peacock** | *Aulonocara sp. 'Rubescens'* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Red Tilapia** | *Oreochromis sp. YC-2004* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Red Tilapia** | *Oreochromis sp. YCC-2008* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **House Finch** | *Haemorhous mexicanus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: House Finch (Haemorhous mexicanus) | **Promoted to Active Game Roster** |
 | **American Goldfinch** | *Spinus tristis* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: American Goldfinch (Spinus tristis) | **Promoted to Active Game Roster** |
 | **Zebra Finch** | *Taeniopygia guttata* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Zebra Finch (Taeniopygia guttata) | **Promoted to Active Game Roster** |
-| **flowering dogwood fly** | *Rhagoletis nr. mendax JJS-1996* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **smaller tea tortrix** | *Adoxophyes sp. KSB-2001* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Flowering Dogwood Fly** | *Rhagoletis nr. mendax JJS-1996* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Smaller Tea Tortrix** | *Adoxophyes sp. KSB-2001* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Zebra Swallowtail** | *Eurytides marcellus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Zebra Swallowtail (Protographium marcellus) | **Promoted to Active Game Roster** |
 | **Eastern Tiger Swallowtail** | *Papilio glaucus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Eastern Tiger Swallowtail (Papilio glaucus) | **Promoted to Active Game Roster** |
 | **Spicebush Swallowtail** | *Papilio troilus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Spicebush Swallowtail (Papilio troilus) | **Promoted to Active Game Roster** |
@@ -3711,8 +3711,8 @@ This includes non-animal organisms (Plants, Algae, Fungi, Bacteria, Protists), s
 | **Small Tortoiseshell** | *Nymphalis urticae* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Small Tortoiseshell (Aglais urticae) | **Promoted to Active Game Roster** |
 | **European Peacock** | *Nymphalis io* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: European Peacock (Aglais io) | **Promoted to Active Game Roster** |
 | **Mourning Cloak** | *Nymphalis antiopa* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Mourning Cloak (Nymphalis antiopa) | **Promoted to Active Game Roster** |
-| **buffaloberry fly** | *Rhagoletis n. sp. B* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
-| **Lonicera fly** | *Rhagoletis sp. DS-2005* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Buffaloberry Fly** | *Rhagoletis n. sp. B* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
+| **Lonicera Fly** | *Rhagoletis sp. DS-2005* | Unknown | Non-binomial species name | Technical trinomial or unranked name | **Promoted to Active Game Roster** |
 | **Monarch Butterfly** | *Danaus plexippus* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Monarch Butterfly (Danaus plexippus) | **Promoted to Active Game Roster** |
 | **Fruit Fly** | *Drosophila gunungcola* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Fruit Fly (Drosophila melanogaster) | **Promoted to Active Game Roster** |
 | **Fruit Fly** | *Drosophila melanogaster* | Metazoa | Duplicate Common Name Collision | Common name collides with existing entry: Fruit Fly (Drosophila melanogaster) | **Promoted to Active Game Roster** |

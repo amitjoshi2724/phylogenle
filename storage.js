@@ -24,6 +24,7 @@ let firestoreFns = null;
 const STATS_KEY = 'phylogenle_stats_v1';
 const HISTORY_KEY = 'phylogenle_history_v1';
 const ACTIVE_PREFIX = 'phylogenle_active_state_v1_';
+const HINTS_PREFIX = 'phylogenle_active_hints_v1_';
 
 const DEFAULT_STATS = {
     played: 0,
@@ -242,6 +243,30 @@ export function loadActiveGuesses(dateStr) {
 export function clearActiveGuesses(dateStr) {
     try {
         localStorage.removeItem(ACTIVE_PREFIX + dateStr);
+        localStorage.removeItem(HINTS_PREFIX + dateStr);
+    } catch (e) { }
+}
+
+/**
+ * Save in-progress hints
+ */
+export function saveActiveHints(dateStr, hints) {
+    try {
+        localStorage.setItem(HINTS_PREFIX + dateStr, JSON.stringify(hints));
+    } catch (e) { }
+}
+
+export function loadActiveHints(dateStr) {
+    try {
+        const raw = localStorage.getItem(HINTS_PREFIX + dateStr);
+        if (raw) return JSON.parse(raw);
+    } catch (e) { }
+    return [];
+}
+
+export function clearActiveHints(dateStr) {
+    try {
+        localStorage.removeItem(HINTS_PREFIX + dateStr);
     } catch (e) { }
 }
 

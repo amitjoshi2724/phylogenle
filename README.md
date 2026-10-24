@@ -96,19 +96,19 @@ Phylogenle's dataset is rigorously calibrated against peer-reviewed molecular bi
 
 ## 📊 Dataset Overview
 
-- **Active Playable Species:** **30,694 species across all life**
-- **Calibrated Internal LCA Nodes:** **44,503 nodes**
+- **Active Playable Species:** **29,748 species across all life**
+- **Calibrated Internal LCA Nodes:** **44,507 nodes**
 - **Clade Breakdown:**
-  - 🐾 **Mammals:** 4,603 species
-  - 🦅 **Birds:** 4,867 species
-  - 🦎 **Reptiles:** 2,689 species
-  - 🐸 **Amphibians:** 3,449 species
-  - 🐟 **Fishes:** 10,005 species
-  - 🐙 **Invertebrates:** 3,101 species
-  - 🌿 **Plants:** 1,871 species
-  - 🍄 **Fungi:** 58 species
-  - 🦠 **Bacteria:** 21 species
-  - 🔬 **Protists:** 28 species
+  - 🐾 **Mammals:** 4,343 species
+  - 🦅 **Birds:** 4,651 species
+  - 🦎 **Reptiles:** 2,593 species
+  - 🐸 **Amphibians:** 3,402 species
+  - 🐟 **Fishes:** 9,862 species
+  - 🐙 **Invertebrates:** 2,941 species
+  - 🌿 **Plants:** 1,862 species
+  - 🍄 **Fungi:** 55 species
+  - 🦠 **Bacteria:** 20 species
+  - 🔬 **Protists:** 17 species
   - 🧬 **Viruses:** 2 species
 - **Promoted Candidates Log:** 100% of the 3,683 evaluated candidates (plants, fungi, bacteria, sister species, subspecies, and parasites) are fully active in [`EXCLUDED_SPECIES_REVIEW.md`](EXCLUDED_SPECIES_REVIEW.md).
 - **Original Baseline Guarantee:** 100% of the 344 original species from [`species_list_ORIGINAL_UNTOUCHED.json`](species_list_ORIGINAL_UNTOUCHED.json) remain present and untouched.

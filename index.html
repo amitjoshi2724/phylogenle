@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="style.css?v=tree_7">
     <link rel="stylesheet" href="modals.css?v=squares_2">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
     <div class="app-container">
@@ -28,6 +28,7 @@
                 <button id="archive-modal-btn" class="nav-btn" title="Past Puzzles Archive">📅 Archive</button>
                 <button id="stats-modal-btn" class="nav-btn" title="Statistics & Streaks">📊 Stats</button>
                 <button id="help-modal-btn" class="nav-btn" title="How to Play">❓ Help</button>
+                <button id="catalog-nav-btn" class="nav-btn" title="Universal Species Catalog & Taxonomy">📖 Catalog</button>
                 <div id="auth-container" class="auth-pill-container"></div>
             </div>
         </nav>
@@ -45,6 +46,7 @@
                         <ul id="autocomplete-list" class="autocomplete-list"></ul>
                     </div>
                     <button id="guess-btn" class="primary-btn">Guess</button>
+                    <button type="button" id="hint-btn" class="hint-btn" title="Reveal the next taxonomic rank">💡 Hint</button>
                     <button id="give-up-btn" class="danger-btn" style="background: var(--danger-color); border: none; border-radius: 12px; color: white; padding: 1rem 1.5rem; font-weight: 600; cursor: pointer; transition: background 0.3s;">Give Up</button>
                 </div>
 
@@ -73,6 +75,15 @@
                         <button id="play-again-btn" class="primary-btn" style="flex: 1; min-width: 140px;">Play Again</button>
                     </div>
                 </div>
+
+                <!-- Revealed Hints Card -->
+                <div id="hints-card" class="hints-card hidden">
+                    <div class="hints-header">
+                        <span class="hints-title">💡 Revealed Clues</span>
+                        <span id="hints-count-badge" class="hints-badge">0 / 6 Ranks</span>
+                    </div>
+                    <div id="hints-list" class="hints-list"></div>
+                </div>
                 
                 <div class="guesses-container" id="guesses-container">
                     <!-- Guesses will appear here -->
@@ -95,6 +106,20 @@
                             }
                         </script>
                     </div>
+                </div>
+
+                <!-- In-App Species Catalog Trigger at Bottom -->
+                <div class="catalog-trigger-box">
+                    <button id="catalog-bottom-btn" class="catalog-open-btn" title="Browse full 29,748 species directory">
+                        <div class="catalog-btn-content">
+                            <span class="catalog-btn-icon">📖</span>
+                            <div class="catalog-btn-text">
+                                <span class="catalog-btn-title">Universal Species Catalog</span>
+                                <span class="catalog-btn-desc">Search & browse all 29,748 organisms across the tree of life</span>
+                            </div>
+                        </div>
+                        <span class="catalog-btn-action">Explore Catalog ➔</span>
+                    </button>
                 </div>
             </div>
 
@@ -387,6 +412,52 @@
             <div style="display: flex; gap: 10px; justify-content: center;">
                 <button id="confirm-modal-cancel" class="nav-btn" style="flex: 1; padding: 0.65rem 1rem; font-size: 0.9rem;">Cancel</button>
                 <button id="confirm-modal-proceed" class="primary-btn" style="flex: 1; padding: 0.65rem 1rem; background: #ef4444; color: #ffffff; font-size: 0.9rem;">Reveal</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Species Catalog In-App Viewer Modal -->
+    <div id="catalog-modal" class="modal-backdrop">
+        <div class="modal-dialog catalog-modal-dialog">
+            <div class="modal-header">
+                <div class="catalog-modal-title-wrap">
+                    <h3 class="modal-title">📖 Universal Species Catalog</h3>
+                    <span class="catalog-modal-badge">29,748 Species Across All Life</span>
+                </div>
+                <button class="modal-close-btn" data-close="catalog-modal">&times;</button>
+            </div>
+            <div class="modal-body catalog-modal-body">
+                <!-- Search and Clade Filter Bar -->
+                <div class="catalog-controls-bar">
+                    <div class="catalog-search-wrap">
+                        <span class="catalog-search-icon">🔍</span>
+                        <input type="text" id="catalog-search-input" class="catalog-search-input" placeholder="Search by common name, scientific name, or order..." autocomplete="off">
+                        <button id="catalog-search-clear" class="catalog-search-clear hidden">&times;</button>
+                    </div>
+                    <div id="catalog-clade-tabs" class="catalog-clade-tabs">
+                        <button class="catalog-tab-btn active" data-clade="overview">📊 Overview</button>
+                        <button class="catalog-tab-btn" data-clade="Mammals">🐾 Mammals (4,343)</button>
+                        <button class="catalog-tab-btn" data-clade="Birds">🦅 Birds (4,651)</button>
+                        <button class="catalog-tab-btn" data-clade="Reptiles">🦎 Reptiles (2,593)</button>
+                        <button class="catalog-tab-btn" data-clade="Amphibians">🐸 Amphibians (3,402)</button>
+                        <button class="catalog-tab-btn" data-clade="Fishes">🐟 Fishes (9,862)</button>
+                        <button class="catalog-tab-btn" data-clade="Invertebrates">🪲 Invertebrates (2,941)</button>
+                        <button class="catalog-tab-btn" data-clade="Plants">🌿 Plants (1,862)</button>
+                        <button class="catalog-tab-btn" data-clade="Fungi">🍄 Fungi (55)</button>
+                        <button class="catalog-tab-btn" data-clade="Bacteria">🧫 Bacteria (20)</button>
+                        <button class="catalog-tab-btn" data-clade="Protists">🧬 Protists (17)</button>
+                        <button class="catalog-tab-btn" data-clade="Viruses">🦠 Viruses (2)</button>
+                        <button class="catalog-tab-btn" data-clade="all">🌐 All Species</button>
+                    </div>
+                </div>
+
+                <!-- Markdown Formatted Content Area -->
+                <div id="catalog-content" class="catalog-content markdown-body">
+                    <div class="catalog-loading">
+                        <span class="catalog-spinner">🧬</span>
+                        <p>Loading Universal Species Catalog...</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
