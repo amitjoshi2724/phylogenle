@@ -293,20 +293,50 @@ function bootPhylogenle() {
                     });
                     revealedHints = validHints;
                     saveActiveHints(currentDateStr, revealedHints);
-                    renderHintsCard();
                 }
 
+                // Interleave active guesses and revealed hints chronologically
+                const timeline = [];
                 if (activeGuesses && activeGuesses.length > 0) {
-                    activeGuesses.forEach(g => {
-                        const guessKey = g.name.toLowerCase();
-                        guessedSet.add(guessKey);
-                        guesses.push(g);
-                        addGuessToBoard(g.name, g.wikiTitle, {
-                            rank: g.lca_rank,
-                            lca_name: g.lca_name,
-                            major_name: g.major_name || g.lca_name,
-                            time: g.tmrca
-                        }, g.isMatch);
+                    activeGuesses.forEach((g, idx) => {
+                        timeline.push({
+                            type: 'guess',
+                            data: g,
+                            time: g.timestamp || (idx * 2)
+                        });
+                    });
+                }
+                if (revealedHints && revealedHints.length > 0) {
+                    revealedHints.forEach((h, idx) => {
+                        timeline.push({
+                            type: 'hint',
+                            data: h,
+                            hintNumber: idx + 1,
+                            time: h.timestamp || (idx * 2 + 1)
+                        });
+                    });
+                }
+
+                if (timeline.length > 0) {
+                    guessesContainer.innerHTML = '';
+                    timeline.sort((a, b) => a.time - b.time);
+                    timeline.forEach(item => {
+                        if (item.type === 'guess') {
+                            const g = item.data;
+                            const guessKey = g.name.toLowerCase();
+                            guessedSet.add(guessKey);
+                            if (!guesses.some(x => x.name.toLowerCase() === guessKey)) {
+                                guesses.push(g);
+                            }
+                            addGuessToBoard(g.name, g.wikiTitle, {
+                                rank: g.lca_rank,
+                                lca_name: g.lca_name,
+                                major_name: g.major_name || g.lca_name,
+                                time: g.tmrca
+                            }, g.isMatch);
+                        } else {
+                            addHintToBoard(item.data, item.hintNumber);
+                        }
                     });
                     updateTree();
                     return;
@@ -687,7 +717,8 @@ function bootPhylogenle() {
             major_rank: data.major_rank || data.rank,
             major_time: data.major_time !== undefined ? data.major_time : data.time,
             tmrca: data.time,
-            isMatch: isMatch
+            isMatch: isMatch,
+            timestamp: Date.now()
         };
 
         guesses.push(guessObj);
@@ -795,6 +826,59 @@ function bootPhylogenle() {
         return null;
     }
 
+    function getOrdinal(n) {
+        const s = ["th", "st", "nd", "rd"];
+        const v = n % 100;
+        return n + (s[(v - 20) % 10] || s[v] || s[0]);
+    }
+
+    function addHintToBoard(hint, hintNumber) {
+        if (!guessesContainer) return;
+        const rank = hint.rank || 'Taxa';
+        const rankLower = rank.toLowerCase();
+        const emoji = RANK_EMOJIS[rank] || '💡';
+        const cssClass = `closeness-${rankLower}`;
+        const ordinalStr = getOrdinal(hintNumber || 1);
+        const wikiTitle = hint.wikiTitle || hint.name;
+        const timeStr = (hint.time === 0 || rank === 'Species') ? "0.0 MYA (Exact)" : (hint.time ? `${hint.time.toFixed(1)} MYA` : "Unknown MYA");
+
+        const row = document.createElement('div');
+        row.className = `guess-row guess-row-hint ${cssClass}`;
+        row.innerHTML = `
+            <div class="guess-header guess-hint-header">
+                <span class="guess-hint-title">
+                    <span class="hint-lightbulb">💡</span> Revealed Clue
+                </span>
+                <span class="hint-used-flag">${ordinalStr} Clue Used</span>
+            </div>
+            <div class="guess-hint-name taxa-link" data-taxa="${wikiTitle}">
+                ${rank}: <strong>${hint.name}</strong>
+            </div>
+            <div class="guess-subrow">
+                <span class="closeness-pill ${cssClass}" title="Revealed ${rank}">
+                    ${emoji} ${rank}
+                </span>
+                <span class="feedback-badge feedback-rank taxa-link" data-taxa="${wikiTitle}">
+                    ${rank}: ${hint.name}
+                </span>
+                <span class="feedback-badge feedback-time" title="Ancestral divergence time for this rank">
+                    Diverged: ${timeStr}
+                </span>
+            </div>
+        `;
+
+        const taxaLinks = row.querySelectorAll('.taxa-link');
+        taxaLinks.forEach(el => {
+            el.addEventListener('mouseenter', (e) => showWikiTooltip(e, wikiTitle));
+            el.addEventListener('mouseleave', hideWikiTooltip);
+            el.addEventListener('click', () => {
+                window.open(`https://en.wikipedia.org/wiki/${encodeURIComponent(wikiTitle)}`, '_blank');
+            });
+        });
+
+        guessesContainer.prepend(row);
+    }
+
     function handleHintRequest() {
         if (isGameOver) return;
         const hint = getNextTaxonomicRankHint();
@@ -803,49 +887,19 @@ function bootPhylogenle() {
             return;
         }
 
+        hint.timestamp = Date.now();
         revealedHints.push(hint);
         if (!isUnlimited) {
             saveActiveHints(currentDateStr, revealedHints);
         }
 
-        renderHintsCard();
+        addHintToBoard(hint, revealedHints.length);
         updateTree();
     }
 
     function renderHintsCard() {
-        if (!hintsCard || !hintsList) return;
-        if (revealedHints.length === 0) {
-            hintsCard.classList.add('hidden');
-            return;
-        }
-
-        hintsCard.classList.remove('hidden');
-        if (hintsCountBadge) {
-            hintsCountBadge.textContent = `${revealedHints.length} Clue${revealedHints.length > 1 ? 's' : ''} Used`;
-        }
-
-        let html = '';
-        revealedHints.forEach(h => {
-            const emoji = RANK_EMOJIS[h.rank] || '💡';
-            const rankClass = `hint-${h.rank.toLowerCase()}`;
-            html += `
-                <div class="hint-pill ${rankClass} taxa-link" data-query="${encodeURIComponent(h.wikiTitle || h.name)}">
-                    <span class="hint-pill-rank">${emoji} ${h.rank}:</span>
-                    <span class="hint-pill-name">${h.name} &#8594;</span>
-                </div>
-            `;
-        });
-        hintsList.innerHTML = html;
-
-        // Attach Wikipedia tooltips and click-to-open on hint pills
-        hintsList.querySelectorAll('.hint-pill').forEach(pill => {
-            const query = decodeURIComponent(pill.getAttribute('data-query'));
-            pill.addEventListener('mouseenter', (e) => showWikiTooltip(e, query));
-            pill.addEventListener('mouseleave', hideWikiTooltip);
-            pill.addEventListener('click', () => {
-                window.open(`https://en.wikipedia.org/wiki/${encodeURIComponent(query)}`, '_blank');
-            });
-        });
+        // Obsolete: Hints now render directly in the guesses column as full clue cards
+        if (hintsCard) hintsCard.classList.add('hidden');
     }
 
     hintBtn?.addEventListener('click', handleHintRequest);
@@ -1622,13 +1676,20 @@ function bootPhylogenle() {
     // ==========================================================================
     // Feature 3: Universal Species Catalog In-App Viewer
     // ==========================================================================
+    let savedCatalogScrollTop = 0;
+
     async function openCatalogModal() {
         if (!catalogModal) return;
         catalogModal.classList.add('active');
         if (!catalogLoaded) {
             await loadSpeciesCatalog();
         } else {
-            renderCatalogView();
+            // Restore scroll position where user left off without re-rendering or collapsing details
+            if (catalogContent && savedCatalogScrollTop > 0) {
+                setTimeout(() => {
+                    catalogContent.scrollTop = savedCatalogScrollTop;
+                }, 10);
+            }
         }
     }
 
@@ -1983,8 +2044,26 @@ function bootPhylogenle() {
 
     function closeModal(modal) {
         if (!modal) return;
+        if (modal === catalogModal && catalogContent) {
+            savedCatalogScrollTop = catalogContent.scrollTop;
+        }
         modal.classList.remove('active');
     }
+
+    // Persist catalog scroll position continuously
+    catalogContent?.addEventListener('scroll', () => {
+        if (catalogContent) {
+            savedCatalogScrollTop = catalogContent.scrollTop;
+        }
+    }, { passive: true });
+
+    // Close modals on Escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            const activeModal = document.querySelector('.modal-backdrop.active');
+            if (activeModal) closeModal(activeModal);
+        }
+    });
 
     document.querySelectorAll('[data-close]').forEach(btn => {
         btn.addEventListener('click', () => {

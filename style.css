@@ -832,31 +832,65 @@ input[type="text"]:focus {
 }
 
 .hints-card {
-    background: rgba(15, 23, 42, 0.75);
-    border: 1px solid rgba(234, 179, 8, 0.3);
-    border-top: 3px solid #eab308;
-    border-radius: 12px;
-    padding: 1rem 1.25rem;
-    margin-bottom: 1.25rem;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-    animation: fadeInDown 0.3s ease-out;
+    display: none !important;
 }
 
-.hints-header {
+/* --- Revealed Clue Row in Guesses Column --- */
+.guess-row.guess-row-hint {
+    background: linear-gradient(90deg, rgba(234, 179, 8, 0.12) 0%, var(--glass-bg) 100%);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(250, 204, 21, 0.3);
+}
+
+.guess-hint-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0.75rem;
+    width: 100%;
+    margin-bottom: 0.15rem;
 }
 
-.hints-title {
-    font-size: 0.95rem;
+.guess-hint-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 0.92rem;
     font-weight: 700;
     color: #fde047;
-    display: flex;
-    align-items: center;
-    gap: 6px;
+    text-shadow: 0 0 10px rgba(250, 204, 21, 0.45);
+    letter-spacing: 0.02em;
+}
+
+.guess-hint-title .hint-lightbulb {
+    font-size: 1.15rem;
+    filter: drop-shadow(0 0 6px rgba(250, 204, 21, 0.8));
+    display: inline-block;
+}
+
+.hint-used-flag {
+    font-size: 0.78rem;
+    font-weight: 700;
+    padding: 0.22rem 0.8rem;
+    border-radius: 9999px;
+    background: rgba(234, 179, 8, 0.18);
+    border: 1px solid rgba(234, 179, 8, 0.55);
+    color: #fef08a;
+    box-shadow: 0 0 10px rgba(234, 179, 8, 0.2);
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+}
+
+.guess-hint-name {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    cursor: pointer;
+    line-height: 1.35;
+}
+
+.guess-hint-name:hover {
+    color: #60a5fa;
+    text-decoration: underline dotted;
 }
 
 .hints-badge {
