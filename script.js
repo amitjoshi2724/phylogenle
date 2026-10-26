@@ -10,7 +10,7 @@ import {
     getDailyTargetSpecies, 
     parseDate, 
     formatDate 
-} from './prng.js';
+} from './prng.js?v=tree_order_3';
 import { 
     recordDailyCompletion, 
     getStats, 
@@ -164,6 +164,9 @@ function bootPhylogenle() {
         if (modeParam === 'unlimited' || modeParam === 'practice') {
             isUnlimited = true;
             localStorage.setItem('phylogenle_game_mode', 'practice');
+        } else if (modeParam === 'daily') {
+            isUnlimited = false;
+            localStorage.setItem('phylogenle_game_mode', 'daily');
         } else if (dateParam && /^\d{4}-\d{2}-\d{2}$/.test(dateParam)) {
             currentDateStr = dateParam;
             puzzleNum = getPuzzleNumber(dateParam);
@@ -1524,6 +1527,59 @@ function bootPhylogenle() {
                     if (n.name) targetLinIdxMap.set(n.name.toLowerCase(), idx);
                     if (n.major_name && !targetLinIdxMap.has(n.major_name.toLowerCase())) {
                         targetLinIdxMap.set(n.major_name.toLowerCase(), idx);
+                    }
+                }
+            });
+        }
+
+        // Automatically reveal any skipped intermediate standard Linnaean ranks
+        // (e.g. if Family or Genus is hit, automatically write out the Order on the tree trunk)
+        const RANK_DEPTH_MAP = {
+            'Domain': 1,
+            'Kingdom': 2,
+            'Phylum': 3,
+            'Class': 4,
+            'Order': 5,
+            'Family': 6,
+            'Genus': 7,
+            'Species': 8
+        };
+
+        let maxReachedDepth = 0;
+        sortedGuesses.forEach(g => {
+            const d1 = RANK_DEPTH_MAP[g.lca_rank] || 0;
+            const d2 = RANK_DEPTH_MAP[g.major_rank] || 0;
+            const d = Math.max(d1, d2);
+            if (d > maxReachedDepth) maxReachedDepth = d;
+        });
+        rankHints.forEach(h => {
+            const d = RANK_DEPTH_MAP[h.rank] || 0;
+            if (d > maxReachedDepth) maxReachedDepth = d;
+        });
+
+        // Automatically reveal any skipped intermediate standard Linnaean ranks
+        // (e.g. if Family is hit after Class, automatically write out the Order node on the tree trunk)
+        if (targetLin && phylogenyTree.nodes && maxReachedDepth >= 3) {
+            const standardRanks = ['Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus'];
+            standardRanks.forEach(targetRank => {
+                const targetDepth = RANK_DEPTH_MAP[targetRank];
+                if (maxReachedDepth >= targetDepth) {
+                    for (let tid of targetLin) {
+                        const n = phylogenyTree.nodes[tid];
+                        if (n && n.rank === targetRank) {
+                            const nodeName = n.major_name || n.name;
+                            if (!trunkMap.has(nodeName) && !trunkMap.has(n.name)) {
+                                trunkMap.set(nodeName, {
+                                    name: nodeName,
+                                    wikiTitle: n.name,
+                                    rank: targetRank,
+                                    time: n.time !== undefined ? n.time : 50,
+                                    isTrunk: true,
+                                    guessChildren: []
+                                });
+                            }
+                            break;
+                        }
                     }
                 }
             });
