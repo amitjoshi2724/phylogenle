@@ -67,6 +67,7 @@ function bootPhylogenle() {
     let currentDateStr = getTodayDateStr();
     let puzzleNum = getPuzzleNumber(currentDateStr);
     let allSpecies = [];
+    let speciesAliases = null;
     let targetSpecies = "";
     let targetData = {};
     let phylogenyTree = null;
@@ -75,6 +76,17 @@ function bootPhylogenle() {
     let guessedSet = new Set();
     let revealedHints = [];
     let isGameOver = false;
+
+    // Wikipedia Normalization Helper
+    function getNormalizedWikiTitle(title) {
+        if (!title) return '';
+        const clean = title.trim();
+        const lower = clean.toLowerCase();
+        if (lower === 'root' || lower === 'root (luca)' || lower === 'cellular organisms' || lower === 'luca' || lower === 'life') {
+            return 'Last_universal_common_ancestor';
+        }
+        return clean;
+    }
 
     // Catalog state
     let catalogLoaded = false;
@@ -109,12 +121,18 @@ function bootPhylogenle() {
         wikiTooltip.style.left = left + 'px';
         wikiTooltip.style.top = top + 'px';
         wikiTooltip.style.pointerEvents = 'auto';
+
+        const normQuery = getNormalizedWikiTitle(rankName);
+        const lowerName = (rankName || '').trim().toLowerCase();
+        const displayTitle = (lowerName === 'root' || lowerName === 'root (luca)' || lowerName === 'cellular organisms' || lowerName === 'luca')
+            ? 'Root (LUCA)'
+            : rankName;
         
-        wikiTitle.innerHTML = `<a href="https://en.wikipedia.org/wiki/${encodeURIComponent(rankName)}" target="_blank">${rankName} &#8594;</a>`;
+        wikiTitle.innerHTML = `<a href="https://en.wikipedia.org/wiki/${encodeURIComponent(normQuery)}" target="_blank">${displayTitle} &#8594;</a>`;
         wikiSnippet.textContent = "Loading summary...";
 
         try {
-            const resp = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(rankName)}`);
+            const resp = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(normQuery)}`);
             const data = await resp.json();
             if (data.extract) {
                 wikiSnippet.textContent = data.extract.substring(0, 180) + "...";
@@ -192,14 +210,15 @@ function bootPhylogenle() {
     // Initialize Game
     async function initGame() {
         try {
-            if (allSpecies.length === 0 || !phylogenyTree) {
+            if (allSpecies.length === 0 || !phylogenyTree || !speciesAliases) {
                 if (guessesContainer && guessesContainer.children.length === 0) {
                     guessesContainer.innerHTML = `<div class="loading-state" style="text-align: center; padding: 2rem; color: var(--text-secondary);"><span style="display:inline-block; font-size: 1.5rem; animation: spin 1.2s linear infinite; margin-bottom: 0.5rem;">🧬</span><br>Loading evolutionary tree of life...</div>`;
                 }
 
-                const [speciesResp, treeResp] = await Promise.all([
-                    allSpecies.length === 0 ? fetch('data/species_list.json?v=tree_8') : Promise.resolve(null),
-                    !phylogenyTree ? fetch('data/phylogeny_tree.json?v=tree_8') : Promise.resolve(null)
+                const [speciesResp, treeResp, aliasesResp] = await Promise.all([
+                    allSpecies.length === 0 ? fetch('data/species_list.json?v=tree_9') : Promise.resolve(null),
+                    !phylogenyTree ? fetch('data/phylogeny_tree.json?v=tree_9') : Promise.resolve(null),
+                    !speciesAliases ? fetch('data/species_aliases.json?v=tree_9') : Promise.resolve(null)
                 ]);
 
                 if (speciesResp) {
@@ -210,6 +229,13 @@ function bootPhylogenle() {
                 if (treeResp) {
                     if (!treeResp.ok) throw new Error(`HTTP ${treeResp.status} loading phylogeny tree`);
                     phylogenyTree = await treeResp.json();
+                }
+
+                if (aliasesResp) {
+                    if (aliasesResp.ok) {
+                        speciesAliases = await aliasesResp.json();
+                        window.speciesAliases = speciesAliases;
+                    }
                 }
             }
 
@@ -462,7 +488,11 @@ function bootPhylogenle() {
         let batchHTML = '';
 
         for (let i = 0; i < nextBatch.length; i++) {
-            const species = nextBatch[i];
+            const item = nextBatch[i];
+            const species = typeof item === 'string' ? item : item.species;
+            const aliasTag = (typeof item === 'object' && item.matchedAlias)
+                ? ` <span class="alias-tag" style="opacity: 0.75; font-size: 0.85em; font-style: italic; color: #a5b4fc;">(aka ${item.matchedAlias})</span>`
+                : '';
             let displayHtml = species;
             if (val) {
                 const idx = species.toLowerCase().indexOf(val);
@@ -470,6 +500,8 @@ function bootPhylogenle() {
                     displayHtml = species.substring(0, idx) + "<strong>" + species.substring(idx, idx + val.length) + "</strong>" + species.substring(idx + val.length);
                 }
             }
+            displayHtml += aliasTag;
+
             if (guessedSet.has(species.toLowerCase())) {
                 batchHTML += `<li class="autocomplete-item guessed-item" style="opacity: 0.45; pointer-events: none; cursor: default;" data-value="${species}">${displayHtml} (Already Guessed)</li>`;
             } else {
@@ -533,7 +565,30 @@ function bootPhylogenle() {
                 }
             }
 
-            currentFilteredCandidates = [...startsWith, ...wordMatch, ...subMatch];
+            const aliasMatches = [];
+            const seenCanonical = new Set(
+                startsWith.map(s => s.toLowerCase())
+                    .concat(wordMatch.map(s => s.toLowerCase()), subMatch.map(s => s.toLowerCase()))
+            );
+
+            if (speciesAliases && val.length >= 2) {
+                for (const [alias, canonical] of Object.entries(speciesAliases)) {
+                    const aLower = alias.toLowerCase();
+                    const aIdx = aLower.indexOf(val);
+                    if (aIdx !== -1) {
+                        const canLower = canonical.toLowerCase();
+                        if (!seenCanonical.has(canLower)) {
+                            seenCanonical.add(canLower);
+                            aliasMatches.push({
+                                species: canonical,
+                                matchedAlias: alias
+                            });
+                        }
+                    }
+                }
+            }
+
+            currentFilteredCandidates = [...startsWith, ...wordMatch, ...aliasMatches, ...subMatch];
         }
 
         autocompleteList.innerHTML = '';
@@ -704,6 +759,12 @@ function bootPhylogenle() {
         if (!guess) return;
 
         let validGuess = allSpecies.find(s => s.toLowerCase() === guess.toLowerCase());
+        if (!validGuess && speciesAliases) {
+            const aliasMatch = speciesAliases[guess.toLowerCase()];
+            if (aliasMatch) {
+                validGuess = allSpecies.find(s => s.toLowerCase() === aliasMatch.toLowerCase());
+            }
+        }
         if (!validGuess) {
             // Also match common name, scientific name inside parentheses, or prefix
             const g = guess.toLowerCase();
@@ -713,6 +774,16 @@ function bootPhylogenle() {
                 const sci = sciMatch ? sciMatch[1].toLowerCase() : '';
                 return common === g || sci === g;
             });
+        }
+        if (!validGuess && speciesAliases) {
+            // Check prefix in aliases
+            const g = guess.toLowerCase();
+            for (const [alias, canonical] of Object.entries(speciesAliases)) {
+                if (alias.startsWith(g)) {
+                    validGuess = allSpecies.find(s => s.toLowerCase() === canonical.toLowerCase());
+                    if (validGuess) break;
+                }
+            }
         }
         if (!validGuess) {
             // Fallback: first species that starts with typed text
@@ -1284,6 +1355,10 @@ function bootPhylogenle() {
         if (d.data.isGuess) {
             return d.data.emoji || '🟨';
         }
+        const t = (d.data.name || '').toLowerCase();
+        if (t === 'root' || t === 'root (luca)' || t === 'luca' || t === 'cellular organisms' || t === 'life' || t === 'eukaryota' || t === 'bacteria' || t === 'archaea') {
+            return '⬛';
+        }
         // Clade ranks
         const rank = d.data.rank;
         if (rank) {
@@ -1297,10 +1372,9 @@ function bootPhylogenle() {
             if (rank === 'Domain') return '⬛';
         }
         // Clade names
-        const t = (d.data.name || '').toLowerCase();
         const taxonMap = {
             'animalia': '🟫', 'metazoa': '🟫', 'plantae': '🟫', 'viridiplantae': '🟫', 'fungi': '🟫',
-            'eukaryota': '⬛', 'bacteria': '⬛', 'archaea': '⬛', 'cellular organisms': '⬛', 'life': '⬛', 'root': '⬛',
+            'eukaryota': '⬛', 'bacteria': '⬛', 'archaea': '⬛', 'cellular organisms': '⬛', 'life': '⬛', 'root': '⬛', 'root (luca)': '⬛', 'luca': '⬛',
             'chordata': '🟦', 'arthropoda': '🟦', 'mollusca': '🟦', 'annelida': '🟦', 'cnidaria': '🟦', 'echinodermata': '🟦',
             'streptophyta': '🟦', 'tracheophyta': '🟦', 'ascomycota': '🟦', 'basidiomycota': '🟦', 'pseudomonadota': '🟦',
             'mammalia': '🟪', 'aves': '🟪', 'reptilia': '🟪', 'amphibia': '🟪', 'insecta': '🟪', 'arachnida': '🟪', 'actinopterygii': '🟪',
@@ -1339,20 +1413,30 @@ function bootPhylogenle() {
         };
 
         function getTargetRootInfo() {
-            let defaultRootName = "Animalia";
-            let defaultRank = "Kingdom";
+            let defaultRootName = "Root (LUCA)";
+            let defaultRank = "Domain";
+            let defaultWiki = "Last_universal_common_ancestor";
             const targetLin = (phylogenyTree && phylogenyTree.species) ? phylogenyTree.species[targetSpecies.toLowerCase()] : null;
             if (targetLin && phylogenyTree.nodes) {
                 for (let tid of targetLin) {
                     const n = phylogenyTree.nodes[tid];
-                    if (n && (n.rank === "Kingdom" || n.rank === "Domain")) {
-                        defaultRootName = n.major_name || n.name;
-                        defaultRank = n.rank;
-                        break;
+                    if (n && (n.rank === "Domain" || n.rank === "Kingdom")) {
+                        const nName = (n.name || '').toLowerCase();
+                        if (nName === 'root' || nName === 'cellular organisms' || nName === 'luca') {
+                            defaultRootName = "Root (LUCA)";
+                            defaultWiki = "Last_universal_common_ancestor";
+                            defaultRank = "Domain";
+                            break;
+                        } else {
+                            defaultRootName = n.major_name || n.name;
+                            defaultRank = n.rank;
+                            defaultWiki = defaultRootName;
+                            break;
+                        }
                     }
                 }
             }
-            return { name: defaultRootName, rank: defaultRank };
+            return { name: defaultRootName, wikiTitle: defaultWiki, rank: defaultRank, emoji: defaultRank === 'Domain' ? '⬛' : '🟫' };
         }
 
         const rankHints = revealedHints.filter(h => h.type === 'rank');
@@ -1361,8 +1445,9 @@ function bootPhylogenle() {
                 const tr = getTargetRootInfo();
                 drawTree({
                     name: tr.name,
-                    wikiTitle: tr.name,
+                    wikiTitle: tr.wikiTitle,
                     rank: tr.rank,
+                    emoji: tr.emoji,
                     isTrunk: true,
                     children: [mysteryNode]
                 });
@@ -1429,18 +1514,84 @@ function bootPhylogenle() {
             trunkMap.get(g.lca_name).guessChildren.push(guessNode);
         });
 
+        // Build target lineage depth lookup to guarantee mathematically correct evolutionary order
+        const targetLin = (phylogenyTree && phylogenyTree.species) ? phylogenyTree.species[targetSpecies.toLowerCase()] : null;
+        const targetLinIdxMap = new Map();
+        if (targetLin && phylogenyTree.nodes) {
+            targetLin.forEach((tid, idx) => {
+                const n = phylogenyTree.nodes[tid];
+                if (n) {
+                    if (n.name) targetLinIdxMap.set(n.name.toLowerCase(), idx);
+                    if (n.major_name && !targetLinIdxMap.has(n.major_name.toLowerCase())) {
+                        targetLinIdxMap.set(n.major_name.toLowerCase(), idx);
+                    }
+                }
+            });
+        }
+
+        function getLinIdx(node) {
+            const raw = (node.name || '').toLowerCase();
+            if (raw === 'root' || raw === 'root (luca)' || raw === 'luca' || raw === 'cellular organisms' || raw === 'life') {
+                return 0;
+            }
+            if (targetLinIdxMap.has(raw)) {
+                return targetLinIdxMap.get(raw);
+            }
+            const wiki = (node.wikiTitle || '').toLowerCase();
+            if (targetLinIdxMap.has(wiki)) {
+                return targetLinIdxMap.get(wiki);
+            }
+            for (let [name, idx] of targetLinIdxMap.entries()) {
+                if (raw.includes(name) || name.includes(raw)) {
+                    return idx;
+                }
+            }
+            return -1;
+        }
+
         const trunkList = Array.from(trunkMap.values()).sort((a, b) => {
+            const idxA = getLinIdx(a);
+            const idxB = getLinIdx(b);
+            if (idxA !== -1 && idxB !== -1) {
+                if (idxA !== idxB) {
+                    return idxA - idxB; // Biological order: root (0) down to species!
+                }
+            } else if (idxA !== -1) {
+                return -1;
+            } else if (idxB !== -1) {
+                return 1;
+            }
+            // Tie-break or fallback by divergence time
             const tA = a.time === -1 ? Infinity : a.time;
             const tB = b.time === -1 ? Infinity : b.time;
             return tB - tA;
         });
 
+        // Normalize root/LUCA node names & emojis
+        trunkList.forEach(node => {
+            const low = (node.name || '').toLowerCase();
+            if (low === 'root' || low === 'cellular organisms' || low === 'luca') {
+                node.name = 'Root (LUCA)';
+                node.wikiTitle = 'Last_universal_common_ancestor';
+                node.rank = 'Domain';
+                node.emoji = '⬛';
+            }
+        });
+
+        // Enforce time monotonicity along trunk (parent time >= child time)
+        for (let i = trunkList.length - 2; i >= 0; i--) {
+            if (trunkList[i].time < trunkList[i + 1].time) {
+                trunkList[i].time = trunkList[i + 1].time;
+            }
+        }
+
         if (trunkList.length === 0) {
             const tr = getTargetRootInfo();
             drawTree({
                 name: tr.name,
-                wikiTitle: tr.name,
+                wikiTitle: tr.wikiTitle,
                 rank: tr.rank,
+                emoji: tr.emoji,
                 isTrunk: true,
                 children: [mysteryNode]
             });
@@ -1459,10 +1610,10 @@ function bootPhylogenle() {
 
         let root = trunkList[0];
         const topRanks = new Set(["Domain", "Kingdom"]);
-        const topNames = new Set(["Life", "Cellular organisms", "cellular organisms", "root", "Eukaryota", "Bacteria", "Archaea", "Animalia", "Metazoa", "Plantae", "Viridiplantae", "Fungi"]);
+        const topNames = new Set(["Life", "Cellular organisms", "cellular organisms", "root", "Root (LUCA)", "LUCA", "Eukaryota", "Bacteria", "Archaea", "Animalia", "Metazoa", "Plantae", "Viridiplantae", "Fungi"]);
         if (!topRanks.has(root.rank) && !topNames.has(root.name)) {
             const tr = getTargetRootInfo();
-            root = { name: tr.name, wikiTitle: tr.name, rank: tr.rank, isTrunk: true, children: [root] };
+            root = { name: tr.name, wikiTitle: tr.wikiTitle, rank: tr.rank, emoji: tr.emoji, isTrunk: true, children: [root] };
         }
 
         drawTree(root);
@@ -1659,7 +1810,7 @@ function bootPhylogenle() {
             .on("mouseleave", hideWikiTooltip)
             .on("click", function(e, d) {
                 if (!d.data.isMystery || (d.data.isMystery && d.data.name !== "?")) {
-                    const query = d.data.wikiTitle || d.data.name;
+                    const query = getNormalizedWikiTitle(d.data.wikiTitle || d.data.name);
                     window.open(`https://en.wikipedia.org/wiki/${encodeURIComponent(query)}`, '_blank');
                 }
             });
@@ -1679,14 +1830,15 @@ function bootPhylogenle() {
         node.each(function(d) {
             const isInteractable = !d.data.isMystery || (d.data.isMystery && d.data.name !== "?");
             if (!isInteractable) return;
-            const query = d.data.wikiTitle || d.data.name;
-            if (!query || query === "Unknown" || query === "root" || query === "?") return;
+            const rawQuery = d.data.wikiTitle || d.data.name;
+            if (!rawQuery || rawQuery === "Unknown" || rawQuery === "?") return;
+            const query = getNormalizedWikiTitle(rawQuery);
 
             const gEl = d3.select(this);
             gEl.classed("taxa-clickable", true);
 
             gEl.on("mouseenter", function(e) {
-                showWikiTooltip(e, query);
+                showWikiTooltip(e, rawQuery);
             })
             .on("mouseleave", hideWikiTooltip)
             .on("click", function(e) {

@@ -15,9 +15,10 @@ Complete organized breakdown of all currently active species in the game catalog
 | **Plants** | **1862** | Sapindales, Solanales, Apiales, Asparagales |
 | **Fungi** | **55** | Microascales, Pucciniales, Pleosporales, Thelephorales |
 | **Bacteria** | **20** | Acholeplasmatales, Rickettsiales, Caryophanales, Cellvibrionales |
+| **Archaea** | **6** | Methanobacteriales, Halobacteriales, Desulfurococcales, Sulfolobales, Lokiarchaeales, Thermococcales |
 | **Protists** | **17** | Bangiales, Laminariales, Peronosporales, Gigartinales |
 | **Viruses** | **2** | Herpesvirales |
-| **Total Active Pool** | **29748** | *Fully calibrated with TimeTree LCA divergence data* |
+| **Total Active Pool** | **29754** | *Fully calibrated with TimeTree LCA divergence data* |
 
 ---
 
@@ -31964,6 +31965,44 @@ Complete organized breakdown of all currently active species in the game catalog
 | Lettuce Downy Mildew | *Bremia lactucae* |
 | Potato Late Blight Agent | *Phytophthora infestans* |
 | Sudden Oak Death Agent | *Phytophthora ramorum* |
+
+## 🌋 Archaea (6 Species)
+
+### • Methanobacteriales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Human Gut Methanogen | *Methanobrevibacter smithii* |
+
+### • Halobacteriales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Extreme Halophile Archaea | *Halobacterium salinarum* |
+
+### • Desulfurococcales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Hydrothermal Vent Hyperthermophile | *Pyrolobus fumarii* |
+
+### • Sulfolobales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Acidophilic Thermophile | *Sulfolobus solfataricus* |
+
+### • Lokiarchaeales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Asgard Archaea | *Lokiarchaeum ossiferum* |
+
+### • Thermococcales (1)
+
+| Common Name | Scientific Name |
+| :--- | :--- |
+| Radiation-Resistant Archaea | *Thermococcus gammatolerans* |
 
 ---
 

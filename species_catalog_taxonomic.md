@@ -1,4 +1,4 @@
-# 🧬 Phylogenle Universal Taxonomic Directory (29,748 Species Across All Life)
+# 🧬 Phylogenle Universal Taxonomic Directory (29,754 Species Across All Life)
 
 Complete hierarchical taxonomic classification of all active species in the game catalog, organized systematically across the 8 universal biological ranks (⬛ **Domain** ➔ 🟫 **Kingdom** ➔ 🟦 **Phylum** ➔ 🟪 **Class** ➔ 🟥 **Order** ➔ 🟧 **Family** ➔ 🟨 **Genus** ➔ 🟩 **Species**).
 
@@ -14,8 +14,11 @@ All sections are collapsed by default—click on any branch to expand and explor
 | **Eukaryota** | **Protista / Chromista** | Red Algae, Brown Algae, Kelps, Water Molds | **17** |
 | **Bacteria** | **Bacillati** | Firmicutes, Mycoplasmas / Gram-positive Bacteria | **4** |
 | **Bacteria** | **Pseudomonadati** | Proteobacteria / Gram-negative Bacteria | **16** |
+| **Archaea** | **Euryarchaeota** | Methanogens, Halophiles, Hyperthermophiles & Asgard Archaea | **3** |
+| **Archaea** | **Crenarchaeota** | Methanogens, Halophiles, Hyperthermophiles & Asgard Archaea | **2** |
+| **Archaea** | **Asgardarchaeota** | Methanogens, Halophiles, Hyperthermophiles & Asgard Archaea | **1** |
 | **Viruses** | **Heunggongvirae** | Herpesviruses | **2** |
-| **Total Universal Pool** | | **All 8 Taxonomic Ranks Across All Life** | **29748** |
+| **Total Universal Pool** | | **All 8 Taxonomic Ranks Across All Life** | **29754** |
 
 ---
 
@@ -45986,6 +45989,145 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | 'wodyetia Bifurcata' Yellow Decline Phytoplasma | *Candidatus Phytoplasma wodyetiae* | *Candidatus Phytoplasma* |
+
+</details>
+
+</details>
+
+</details>
+
+</details>
+
+</details>
+
+</details>
+
+<details>
+<summary>⬛ <b>Domain: Archaea</b> — 6 Species</summary>
+
+<details>
+<summary>🟫 <b>Kingdom: Euryarchaeota</b> — 3 Species</summary>
+
+<details>
+<summary>🟦 <b>Phylum: Chordata (Vertebrates & Allies)</b> — 3 Species</summary>
+
+<details>
+<summary>🟪 <b>Class: Methanobacteria</b> — 1 Species</summary>
+
+<details>
+<summary>🟥 <b>Order: Methanobacteriales</b> — 1 Species</summary>
+
+<details>
+<summary>🟧 <b>Family: Methanobacteriaceae</b> — 1 Species</summary>
+
+| Common Name | Scientific Name | 🟨 Genus |
+| :--- | :--- | :--- |
+| Human Gut Methanogen | *Methanobrevibacter smithii* | *Methanobrevibacter* |
+
+</details>
+
+</details>
+
+</details>
+<details>
+<summary>🟪 <b>Class: Halobacteria</b> — 1 Species</summary>
+
+<details>
+<summary>🟥 <b>Order: Halobacteriales</b> — 1 Species</summary>
+
+<details>
+<summary>🟧 <b>Family: Halobacteriaceae</b> — 1 Species</summary>
+
+| Common Name | Scientific Name | 🟨 Genus |
+| :--- | :--- | :--- |
+| Extreme Halophile Archaea | *Halobacterium salinarum* | *Halobacterium* |
+
+</details>
+
+</details>
+
+</details>
+<details>
+<summary>🟪 <b>Class: Thermococci</b> — 1 Species</summary>
+
+<details>
+<summary>🟥 <b>Order: Thermococcales</b> — 1 Species</summary>
+
+<details>
+<summary>🟧 <b>Family: Thermococcaceae</b> — 1 Species</summary>
+
+| Common Name | Scientific Name | 🟨 Genus |
+| :--- | :--- | :--- |
+| Radiation-Resistant Archaea | *Thermococcus gammatolerans* | *Thermococcus* |
+
+</details>
+
+</details>
+
+</details>
+
+</details>
+
+</details>
+<details>
+<summary>🟫 <b>Kingdom: Crenarchaeota</b> — 2 Species</summary>
+
+<details>
+<summary>🟦 <b>Phylum: Chordata (Vertebrates & Allies)</b> — 2 Species</summary>
+
+<details>
+<summary>🟪 <b>Class: Thermoprotei</b> — 2 Species</summary>
+
+<details>
+<summary>🟥 <b>Order: Desulfurococcales</b> — 1 Species</summary>
+
+<details>
+<summary>🟧 <b>Family: Pyrodictiaceae</b> — 1 Species</summary>
+
+| Common Name | Scientific Name | 🟨 Genus |
+| :--- | :--- | :--- |
+| Hydrothermal Vent Hyperthermophile | *Pyrolobus fumarii* | *Pyrolobus* |
+
+</details>
+
+</details>
+<details>
+<summary>🟥 <b>Order: Sulfolobales</b> — 1 Species</summary>
+
+<details>
+<summary>🟧 <b>Family: Sulfolobaceae</b> — 1 Species</summary>
+
+| Common Name | Scientific Name | 🟨 Genus |
+| :--- | :--- | :--- |
+| Acidophilic Thermophile | *Sulfolobus solfataricus* | *Sulfolobus* |
+
+</details>
+
+</details>
+
+</details>
+
+</details>
+
+</details>
+<details>
+<summary>🟫 <b>Kingdom: Asgardarchaeota</b> — 1 Species</summary>
+
+<details>
+<summary>🟦 <b>Phylum: Chordata (Vertebrates & Allies)</b> — 1 Species</summary>
+
+<details>
+<summary>🟪 <b>Class: Lokiarchaeia</b> — 1 Species</summary>
+
+<details>
+<summary>🟥 <b>Order: Lokiarchaeales</b> — 1 Species</summary>
+
+<details>
+<summary>🟧 <b>Family: Lokiarchaeaceae</b> — 1 Species</summary>
+
+| Common Name | Scientific Name | 🟨 Genus |
+| :--- | :--- | :--- |
+| Asgard Archaea | *Lokiarchaeum ossiferum* | *Candidatus Lokiarchaeum* |
 
 </details>
 

@@ -49,7 +49,7 @@ def main():
     print("=== Step 1: Loading Datasets ===")
     old_species = extract_species_from_old_catalog()
     print(f"Extracted {len(old_species)} species from species_catalog.md")
-    assert len(old_species) == 29748, f"Expected 29748 species, found {len(old_species)}"
+    assert len(old_species) == 29754, f"Expected 29754 species, found {len(old_species)}"
 
     tree_path = os.path.join(BASE_DIR, "data", "phylogeny_tree.json")
     with open(tree_path, "r", encoding="utf-8") as f:
@@ -151,6 +151,15 @@ def main():
                 tax_class = "Herviviricetes"
                 order = "Herpesvirales"
                 family = "Herpesviridae"
+            elif 2157 in lineage_ids:
+                domain = "Archaea"
+                kingdom = "Euryarchaeota"
+                for nid in lineage_ids:
+                    n = nodes.get(str(nid), {})
+                    if n.get("rank") == "Kingdom":
+                        kingdom = n.get("name")
+                    elif n.get("rank") == "Phylum":
+                        phylum = n.get("name")
             elif 2 in lineage_ids:
                 domain = "Bacteria"
                 # Determine bacterial kingdom & phylum
@@ -252,7 +261,7 @@ def main():
         resolved_species.append((common, scientific))
 
     print(f"Total resolved species: {len(resolved_species)}")
-    assert len(resolved_species) == 29748, "Resolved count must match exactly 29748"
+    assert len(resolved_species) == len(old_species), f"Resolved count {len(resolved_species)} must match {len(old_species)}"
 
     # Save enriched taxonomy catalog json
     with open(tax_cat_path, "w", encoding="utf-8") as f:
@@ -263,7 +272,7 @@ def main():
     md_lines = []
 
     # Title & Introduction
-    md_lines.append("# 🧬 Phylogenle Universal Taxonomic Directory (29,748 Species Across All Life)")
+    md_lines.append(f"# 🧬 Phylogenle Universal Taxonomic Directory ({len(old_species):,} Species Across All Life)")
     md_lines.append("")
     md_lines.append("Complete hierarchical taxonomic classification of all active species in the game catalog, organized systematically across the 8 universal biological ranks (⬛ **Domain** ➔ 🟫 **Kingdom** ➔ 🟦 **Phylum** ➔ 🟪 **Class** ➔ 🟥 **Order** ➔ 🟧 **Family** ➔ 🟨 **Genus** ➔ 🟩 **Species**).")
     md_lines.append("")
@@ -277,7 +286,7 @@ def main():
     md_lines.append("| :--- | :--- | :--- | :--- |")
 
     # Calculate domain & kingdom counts
-    domain_order = ["Eukaryota", "Bacteria", "Viruses"]
+    domain_order = ["Eukaryota", "Bacteria", "Archaea", "Viruses"]
     total_catalog_count = 0
 
     for dom in domain_order:
@@ -300,6 +309,8 @@ def main():
                 desc = "Proteobacteria / Gram-negative Bacteria"
             elif k_name == "Bacillati":
                 desc = "Firmicutes, Mycoplasmas / Gram-positive Bacteria"
+            elif k_name in ["Euryarchaeota", "Crenarchaeota", "Asgardarchaeota"]:
+                desc = "Methanogens, Halophiles, Hyperthermophiles & Asgard Archaea"
             elif k_name == "Heunggongvirae":
                 desc = "Herpesviruses"
             else:
@@ -322,11 +333,13 @@ def main():
         md_lines.append(f"<summary>⬛ <b>Domain: {dom}</b> — {dom_count:,} Species</summary>")
         md_lines.append("")
 
-        # Preferred kingdom ordering under Eukaryota
+        # Preferred kingdom ordering under Eukaryota / Bacteria / Archaea
         if dom == "Eukaryota":
             kingdom_order = ["Animalia", "Plantae", "Fungi", "Protista / Chromista"]
         elif dom == "Bacteria":
             kingdom_order = ["Pseudomonadati", "Bacillati"]
+        elif dom == "Archaea":
+            kingdom_order = ["Euryarchaeota", "Crenarchaeota", "Asgardarchaeota"]
         else:
             kingdom_order = sorted(k_dict.keys())
 
@@ -436,7 +449,7 @@ def main():
     print(f"Species in original species_catalog.md: {len(old_species)}")
     print(f"Species in new species_catalog_taxonomic.md: {len(new_species)}")
 
-    assert len(new_species) == 29748, f"Expected 29748 species, found {len(new_species)}"
+    assert len(new_species) == len(old_species), f"Expected {len(old_species)} species, found {len(new_species)}"
 
     old_set = set(old_species)
     new_set = set(new_species)
