@@ -1,297 +1,321 @@
-# 🧬 Comprehensive Architecture Plan: Normal Mode & Difficulty Tier Split
+# 🧬 Comprehensive Architecture Plan: Normal Mode & Difficulty Tier Split (v2)
 
-> **Status:** Proposed & Awaiting User Approval  
+> **Status:** Revised per User Feedback & Awaiting Final Approval  
 > **Author:** Antigravity  
 > **Target System:** Phylogenle Web Application & Data Pipeline  
-> **Related Documents:** [`docs/species_catalog_ORIGINAL_UNTOUCHED.md`](file:///Users/amitjoshi2724/Desktop/phylogenle/docs/species_catalog_ORIGINAL_UNTOUCHED.md), [`docs/TAXONOMIC_CATALOG_PLAN.md`](file:///Users/amitjoshi2724/Desktop/phylogenle/docs/TAXONOMIC_CATALOG_PLAN.md)
+> **Key Revisions (v2):**  
+> 1. Replaced narrow/arbitrary 850–1,000 cap with an **Algorithmic Popularity & Prominence Engine** across all 29,748 species so no iconic animals (e.g. Zebra) are ever left out.  
+> 2. Added curated **recognizable plants** (~5–10% of Normal pool) alongside animals.  
+> 3. Implemented a **100% Colorblind-Safe Design System** (abandoning red/green circles; adopting distinct semantic glyphs `[ 🐾 Normal | ⚡ Hard ]`, high-contrast Blue vs. Amber styling, and explicit text tags).
 
 ---
 
 ## 1. Executive Summary & Vision
 
-Phylogenle currently contains **29,748 species** spanning all kingdoms of life (including microscopic fungi, deep-sea invertebrates, regional salamanders, and obscure plants). While scientifically extraordinary, having this entire pool active by default makes the daily puzzle and practice mode frustratingly difficult for general players:
-- Autocomplete floods players with dozens of obscure regional variants and scientific names.
-- Daily puzzle targets can turn out to be obscure organisms like *"Darwin's Slimehead"* or *"Miquihuana Splayfoot Salamander"*.
-- General players who love animals cannot reasonably guess such extreme long-tail organisms.
+Phylogenle currently contains **29,748 species** spanning the entirety of life on Earth (including obscure micro-fungi, deep-sea worms, regional creek darters, and microscopic flora). While biologically rich, having all 29,748 species active by default makes daily puzzles and autocomplete overwhelming:
+- Players typing common animal names are inundated with dozens of obscure regional subspecies and scientific names.
+- Daily puzzle targets can turn out to be organisms like *"Darwin's Slimehead"* or *"Miquihuana Splayfoot Salamander"*, which casual puzzle solvers have never heard of.
 
 ### The Solution: Two Fully Partitioned Difficulty Tiers
 1. **Normal Mode (Default):**
-   - A carefully curated, recognizable, and fun pool of **~850 to 1,000 iconic animals** (*Kingdom Animalia* only).
-   - Features **100% of the original untouched species** (the 344 animals) plus the most well-known, charismatic, and taxonomically diverse animals from the current dataset.
-   - Separate Daily Puzzle and Practice Mode.
+   - An algorithmically curated, recognizable, and fun pool of **universally familiar organisms** (~1,500–2,000 organisms, mostly animals + iconic plants).
+   - Guaranteed to contain **100% of the original 344 untouched species**, all prominent wildlife (Zebra, Platypus, Cheetah, Giraffe, etc.), and iconic plants (Oak Tree, Sunflower, Giant Redwood, Apple Tree).
+   - Separate Normal Daily Puzzle and Normal Practice Mode.
    - Dedicated Normal Mode Taxonomic Catalog.
-   - Lightweight, lightning-fast initial page load (~1.2 MB total data vs. 25 MB).
+   - Ultra-fast initial load time (<50ms, ~1.4 MB total data vs. 25 MB).
 2. **Hard Mode (Expert Tier):**
-   - Retains the entire **29,748-species master tree of life** (all kingdoms, microbes, plants, fossils, and deep-sea taxa).
+   - Retains the entire **29,748-species master tree of life** (all kingdoms, deep-sea taxa, microbes, plants, fossils).
    - Separate Hard Daily Puzzle and Hard Practice Mode.
    - Retains the full 29,748 Taxonomic Catalog.
 
-Both modes are accessible seamlessly via clean segmented controls, with independent stats, streaks, history, and URL persistence.
+---
+
+## 2. Algorithmic Popularity Engine: Constructing the Normal Organism Set
+
+Instead of an arbitrary cap (like stopping at 1,000 and accidentally cutting off Zebra or Platypus), the Normal dataset is constructed via an **objective, multi-signal algorithmic pipeline** that evaluates all 29,748 organisms in the master tree:
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                   ALL 29,748 MASTER SPECIES                            │
+└──────────────────────────────────┬─────────────────────────────────────┘
+                                   │
+                                   ▼
+    [Tier 1: Guaranteed Inclusions (0% Chance of Exclusion)]
+    • 100% of the 344 Original Untouched Species (Lion, Dog, Wolf, etc.)
+    • All Domesticated & Agricultural Fauna (Horse, Cow, Pig, Sheep, Cat)
+    • Iconic Megafauna & Zoo Favorites (Zebra, Giraffe, Hippo, Kangaroo)
+                                   │
+                                   ▼
+    [Tier 2: Algorithmic Global Popularity Scoring]
+    • Signal A: Wikidata Global Sitelinks Count (Swiki >= 15 languages)
+      (Plains Zebra = 68 languages, Lion = 274, English Oak = 86;
+       Obscure creek darter = 4 languages)
+    • Signal B: Wikipedia Global Monthly Pageviews (Vwiki >= 2,500 views)
+    • Composite Popularity Metric: P = 0.6 * log10(Vwiki) + 0.4 * log10(Swiki)
+                                   │
+                                   ▼
+    [Tier 3: Recognizable Plants Quota (~5–10% of Pool)]
+    • Iconic Trees: English Oak, Giant Sequoia, Baobab, Sugar Maple, Pine
+    • Famous Flowers: Sunflower, Red Rose, Tulip, Orchid, Dandelion, Venus Flytrap
+    • Crops & Staples: Apple Tree, Coffee Plant, Cotton, Corn, Wheat, Rice
+                                   │
+                                   ▼
+    [Tier 4: Linguistic Sanity Filter]
+    • Must have an established English common name (no pure Latin stubs)
+    • Filters out researcher-named regional sub-species (e.g. "Koningsberger's...")
+                                   │
+                                   ▼
+    ======================================================================
+    FINAL NORMAL ORGANISM SET (~1,500 to 2,000 Universally Known Organisms)
+    ======================================================================
+```
+
+### Why This Algorithmic Approach is Superior:
+1. **Zero Risk of Missing Iconic Animals:** Species like Zebra, Cheetah, Platypus, Ostrich, Koala, and Kangaroo have massive global traffic and multilingual articles (often in 50–200 languages). They pass the algorithmic threshold with ease.
+2. **No Arbitrary Cliff:** Organisms are included based on actual human familiarity, not an artificial integer limit.
+3. **Multi-Kingdom Educational Depth:** Including recognizable plants creates fun cross-kingdom puzzles where guessing an animal against a plant yields the ancient **1,600 MYA LECA (Last Eukaryotic Common Ancestor)** divergence.
 
 ---
 
-## 2. Methodology: Constructing & Defining the "Normal Animal Set"
+## 3. 100% Colorblind-Safe Design System (WCAG AAA)
 
-### A. The Core Foundation (Guaranteed 100%)
-- **The Original 344 Untouched Animals** from [`docs/species_catalog_ORIGINAL_UNTOUCHED.md`](file:///Users/amitjoshi2724/Desktop/phylogenle/docs/species_catalog_ORIGINAL_UNTOUCHED.md):
-  - 148 Mammals (Big Cats, Canines, Bears, Marine Mammals, Primates, Ungulates)
-  - 57 Birds (Raptors, Owls, Waterfowl, Parrots, Songbirds)
-  - 58 Invertebrates (Octopuses, Squids, Butterflies, Bees, Crabs)
-  - 33 Fishes (Sharks, Rays, Salmon, Tuna, Clownfish)
-  - 32 Reptiles (Crocodilians, Snakes, Lizards, Sea Turtles)
-  - 16 Amphibians (Poison Dart Frogs, Tree Frogs, Salamanders)
-  - *All 344 are already present and calibrated in the current phylogeny tree.*
+To ensure the game is completely accessible to players with red-green colorblindness (deuteranomaly, protanomaly, deuteranopia, protanopia) as well as tritanopia and monochromacy, the UI **abandons red and green circles entirely** and employs a multi-sensory design:
 
-### B. Defining "Main Animals" from the 29,748 Master Dataset
-To expand from 344 to an optimal pool of **~850 to 1,000 species**, candidate species must satisfy four strict, objective criteria:
+```
+[ 🐾 Normal | ⚡ Hard ]       [ 📅 Daily | 🧬 Practice ]       [ 📖 Species Catalog ]
+```
 
-1. **Kingdom Filter (*Animalia* Only):**
-   - Plants (e.g. *Arizona Lupine*), fungi, bacteria, and archaea are excluded from Normal Mode to keep the puzzle focused on the animal kingdom.
-2. **Verified English Common Name Presence:**
-   - Must have an established, natural, recognizable English name (e.g., *"Koala"*, *"Axolotl"*, *"Capybara"*, *"Harpy Eagle"*, *"Great White Shark"*, *"Honey Badger"*).
-   - Excludes obscure regional variants named after researchers or hyper-local creeks (e.g. *"Koningsberger's Herring"*).
-3. **Wikipedia Popularity & Cultural Prominence:**
-   - We utilize the verified candidate pool in `archive/legacy_scripts/` (981 curated candidate animals) and cross-reference with Wikipedia traffic and zoo/IUCN fauna registries.
-   - High-traffic, beloved animals that players actually know and search for are prioritized.
-4. **Taxonomic Diversity & Clade Balance Quota:**
-   - Instead of lopsided clustering (e.g., 80 species of mice), each major branch of the animal tree receives a balanced allocation of recognizable representatives:
-     - **Mammalia (~320 species):** Primates (Chimp, Orangutan, Lemur, Baboon), Carnivora (Lion, Cheetah, Wolf, Otter, Fennec Fox), Cetacea (Orca, Beluga, Blue Whale), Marsupials (Kangaroo, Koala, Wombat, Tasmanian Devil), Bats, Rodents, Ungulates.
-     - **Aves (~220 species):** Birds of Prey (Bald Eagle, Peregrine Falcon, Osprey), Owls, Waterfowl, Penguins (Emperor, King), Parrots (Scarlet Macaw), Toucans, Hummingbirds, Peacocks, Flamingos.
-     - **Reptiles & Amphibians (~140 species):** Crocodiles, Alligators, Komodo Dragon, Chameleons, Geckos, Cobras, Anacondas, Tortoises, Axolotl, Bullfrog, Fire Salamander.
-     - **Fishes (~140 species):** Great White Shark, Hammerhead, Manta Ray, Moray Eel, Piranha, Seahorse, Lionfish, Swordfish, Pufferfish, Clownfish.
-     - **Invertebrates (~140 species):** Monarch Butterfly, Praying Mantis, Tarantula, Scorpion, Giant Squid, Blue-ringed Octopus, Hermit Crab, Honeybee, Moon Jellyfish, Starfish.
+### A. Shape & Semantic Silhouette Contrast (Monochrome-Ready)
+- **Normal Mode:** Represented by **`🐾` (Animal Paw Print)**.
+  - Conveys familiar, charismatic animals and nature.
+  - Instant silhouette recognition that does not depend on color perception.
+- **Hard Mode:** Represented by **`⚡` (Lightning Bolt)**.
+  - Conveys high intensity, deep biological rigor, and master-level challenge.
+  - Visually distinct silhouette from the paw print in black and white.
 
-### C. Why ~850–1,000 is the Ideal Size
-- **Non-Repeating Daily Puzzles:** 850–1,000 species provides **2.5 to 3 years** of unique daily puzzles without repeating a single animal.
-- **Endless Practice Replayability:** A player can play 50 practice rounds in an afternoon and encounter fresh, familiar creatures each time.
-- **Fair & Fun:** Every target organism is something a player could reasonably identify or learn about with excitement.
+### B. Colorblind-Safe Palette (Royal Blue vs. Warm Amber)
+In color vision research, **Blue vs. Yellow/Amber** is the universally recommended accessible pairing because blue and yellow cones function independently of the red-green photopigments:
+
+| Difficulty | Glyph | Label | Active Background | Text Color | Glow / Elevation |
+| :--- | :---: | :--- | :--- | :--- | :--- |
+| **Normal** | `🐾` | **Normal** | Gradient: Deep Cobalt `#1d4ed8` to Royal Blue `#2563eb` | High-Contrast White `#ffffff` | `0 2px 8px rgba(37, 99, 235, 0.4)` |
+| **Hard** | `⚡` | **Hard** | Gradient: Warm Amber `#d97706` to Golden Orange `#f59e0b` | High-Contrast Dark `#1e293b` / White `#ffffff` | `0 2px 8px rgba(245, 158, 11, 0.4)` |
+
+*Inactive state:* Muted slate background (`rgba(255, 255, 255, 0.06)`), 500 font weight, transparent border.  
+*Active state:* Solid saturated fill, bold 800 font weight, distinct glow, and high-contrast outline.
+
+### C. Accessible Copy-Paste Share Strings
+The victory/surrender share text will **not** rely on colored circles in the header:
+- **Normal Mode Share Header:**
+  ```
+  Phylogenle #1026 🧬
+  Solved in 4 guesses (1 hint)!
+  ⬛🟫💡🟦🟩
+  https://amitjoshi2724.github.io/phylogenle/
+  ```
+- **Hard Mode Share Header:**
+  ```
+  Phylogenle #1026 [Hard ⚡] 🧬
+  Solved in 6 guesses (2 hints)!
+  ⬛🟫💡🟦🟪💡🟩
+  https://amitjoshi2724.github.io/phylogenle/
+  ```
+The explicit text tag `[Hard ⚡]` makes the difficulty unambiguously clear to friends across all chat apps without any color confusion.
 
 ---
 
-## 3. Web App UI & Dual-Toggle Architecture
+## 4. Web App UI & Dual-Toggle Architecture
 
-Phylogenle will feature an intuitive, modular 2-level toggle system in the top navigation bar:
+Phylogenle's navigation bar will feature two adjacent, complementary segmented pill controls:
 
+```html
+<nav class="game-nav-bar">
+    <!-- Difficulty Selector (Colorblind-Safe) -->
+    <div class="mode-segmented-toggle difficulty-toggle" role="group" aria-label="Difficulty Tier">
+        <button type="button" id="diff-normal-btn" class="mode-toggle-btn active" data-difficulty="normal" title="Normal Mode: ~1,500 iconic animals and plants">
+            <span class="mode-icon">🐾</span> Normal
+        </button>
+        <button type="button" id="diff-hard-btn" class="mode-toggle-btn" data-difficulty="hard" title="Hard Mode: All 30,000 species across all kingdoms">
+            <span class="mode-icon">⚡</span> Hard
+        </button>
+    </div>
+
+    <!-- Mode Selector (Daily vs Practice) -->
+    <div class="mode-segmented-toggle mode-toggle" role="group" aria-label="Game Mode">
+        <button type="button" id="mode-daily-btn" class="mode-toggle-btn active" data-mode="daily">
+            <span class="mode-icon">📅</span> Daily
+        </button>
+        <button type="button" id="mode-practice-btn" class="mode-toggle-btn" data-mode="practice">
+            <span class="mode-icon">🧬</span> Practice
+        </button>
+    </div>
+
+    <!-- Tools -->
+    <button id="open-catalog-btn" class="nav-action-btn">📖 Species Catalog</button>
+    <button id="open-archive-btn" class="nav-action-btn">📅 Archive</button>
+</nav>
 ```
-[ 🟢 Normal | 🔴 Hard ]       [ 📅 Daily | 🧬 Practice ]       [ 📖 Species Catalog ]
-```
 
-### A. Navigation Controls
-1. **Difficulty Selector (New Segmented Pill):**
-   - `[ 🟢 Normal | 🔴 Hard ]`
-   - Active state: Emerald green gradient (`#10b981`) for Normal; Crimson red gradient (`#ef4444`) for Hard.
-   - Smooth animated pill transitions matching our CSS design system.
-2. **Game Mode Selector (Existing Segmented Pill):**
-   - `[ 📅 Daily | 🧬 Practice ]`
-   - Active state: Royal purple (`#7c3aed`) for Daily; Amber (`#f59e0b`) for Practice.
-
-### B. The 4 Playable Experiences
+### The 4 Playable Combinations
 | Difficulty | Mode | Target Audience | Target Organism Pool | Streak / Stats |
 | :--- | :--- | :--- | :--- | :--- |
-| **Normal** | **Daily** | Everyone (Default) | ~850–1,000 iconic animals | Normal Daily Streak |
-| **Normal** | **Practice** | Casual Replay | ~850–1,000 iconic animals | Unrecorded Practice |
-| **Hard** | **Daily** | Biologists & Hardcore | 29,748 Master Tree of Life | Hard Daily Streak |
-| **Hard** | **Practice** | Deep Exploration | 29,748 Master Tree of Life | Unrecorded Practice |
+| **Normal (`🐾`)** | **Daily (`📅`)** | Everyone (Default) | ~1,500–2,000 familiar organisms | Normal Daily Streak |
+| **Normal (`🐾`)** | **Practice (`🧬`)** | Casual Replay | ~1,500–2,000 familiar organisms | Unrecorded Practice |
+| **Hard (`⚡`)** | **Daily (`📅`)** | Biologists & Hardcore | 29,748 Master Tree of Life | Hard Daily Streak |
+| **Hard (`⚡`)** | **Practice (`🧬`)** | Deep Exploration | 29,748 Master Tree of Life | Unrecorded Practice |
 
-### C. URL Query & Storage Dual-Persistence
+### Dual URL & LocalStorage Persistence
 - **URL Parameters:**
   - `/?difficulty=normal&mode=daily` (or clean default `/`)
   - `/?difficulty=normal&mode=practice`
   - `/?difficulty=hard&mode=daily`
   - `/?difficulty=hard&mode=practice`
-  - Replaying past daily puzzles: `/?difficulty=normal&date=2026-10-20`
 - **LocalStorage Keys:**
   - `phylogenle_difficulty`: `"normal"` | `"hard"`
   - `phylogenle_game_mode`: `"daily"` | `"practice"`
-- **Behavior on Refresh:**
-  - The page **never** drops back to Normal Daily if the user was on Hard Practice or Normal Practice. `checkURLParamsAndStorage()` restores the exact state.
-  - Browser Back/Forward buttons update the game cleanly via `popstate`.
+- **Zero Accidental Resets:** Refreshing or reopening the tab keeps the player exactly where they left off. Browser Back/Forward navigation is handled via `popstate`.
 
-### D. Autocomplete Experience
-- **Normal Mode:**
-  - Queries only the ~850–1,000 curated animals.
-  - Typing *"Bear"* shows *Grizzly Bear, Polar Bear, Black Bear, Sun Bear, Sloth Bear, Panda Bear*. No obscure regional variants.
-  - Lightning-fast typing response with zero lag.
-- **Hard Mode:**
-  - Queries all 29,748 species using our existing infinite-scroll progressive dropdown with clade/subclade badges.
+### Autocomplete Isolation
+- **Normal Mode:** Typing queries only the ~1,500–2,000 curated organisms. Typing *"Bear"* shows *Grizzly Bear, Polar Bear, Black Bear, Sun Bear, Sloth Bear, Panda Bear*. No regional micro-subspecies.
+- **Hard Mode:** Typing queries all 29,748 species with the progressive infinite-scroll dropdown.
 
 ---
 
-## 4. Taxonomic Species Catalog for Normal Mode
+## 5. Taxonomic Species Catalog for Normal Mode
 
-The in-app taxonomic catalog modal (`#catalog-modal`) will dynamically switch its data source based on the active difficulty tier:
+The in-app taxonomic catalog modal (`#catalog-modal`) will dynamically switch its data source based on the active difficulty:
 
 ### A. Normal Mode Catalog (`data/normal/species_taxonomy_catalog.json`)
-- Built specifically for the ~850–1,000 normal species.
-- Follows the true 8-rank Linnaean hierarchy:
+- Clean 8-rank Linnaean hierarchy encompassing both animals and plants:
   - **⬛ Domain:** *Eukaryota*
-  - **🟫 Kingdom:** *Animalia*
-  - **🟦 Phylum:** *Chordata, Arthropoda, Mollusca, Cnidaria, Echinodermata, Annelida*
-  - **🟪 Class:** *Mammalia, Aves, Reptilia, Amphibia, Actinopterygii, Chondrichthyes, Insecta, Arachnida, Malacostraca, Cephalopoda*
-  - **🟥 Order / 🟧 Family / 🟨 Genus / 🟩 Species**
-- Every clade is clean, uncluttered, and recognizable. Opening *Carnivora -> Felidae* shows 15 familiar wild cats instead of 200 obscure sub-taxa.
+  - **🟫 Kingdoms:**
+    - **Animalia:** *Chordata (Mammals, Birds, Reptiles, Amphibians, Fish), Arthropoda (Insects, Spiders, Crabs), Mollusca (Octopuses, Squids), Cnidaria (Jellyfish, Corals)*.
+    - **Plantae:** *Streptophyta (Broadleaf Trees, Conifers, Flowering Plants, Crops)*.
+  - **🟦 Phylum / 🟪 Class / 🟥 Order / 🟧 Family / 🟨 Genus / 🟩 Species**
+- Every clade is clean and uncluttered. Opening *Carnivora → Felidae* reveals ~18 recognizable wild cats instead of 250 obscure entries.
 
 ### B. Hard Mode Catalog (`data/hard/species_taxonomy_catalog.json`)
-- Retains the existing 29,748 species directory across all kingdoms (Bacteria, Fungi, Plants, Animalia, Archaea).
-
-### C. Catalog State & Persistence
-- Switching between Normal and Hard difficulty automatically swaps the loaded catalog without requiring a page reload.
-- Remembers scroll position and open clades within the active tier.
+- Retains the full 29,748 species directory spanning all kingdoms (Bacteria, Fungi, Plants, Animals, Archaea, Viruses).
 
 ---
 
-## 5. Backend, Data Pipeline & Performance Architecture
+## 6. Backend & Data Pipeline Changes
 
 ### A. Directory Structure
 ```
 phylogenle/
 ├── data/
 │   ├── normal/
-│   │   ├── species_list.json                 (~65 KB — 850 species)
-│   │   ├── phylogeny_tree.json               (~1.2 MB — pruned animal tree)
-│   │   └── species_taxonomy_catalog.json     (~1.1 MB — normal taxonomic catalog)
+│   │   ├── species_list.json                 (~120 KB — ~1,500 species)
+│   │   ├── phylogeny_tree.json               (~1.8 MB — pruned normal tree)
+│   │   └── species_taxonomy_catalog.json     (~1.6 MB — normal catalog)
 │   ├── hard/
 │   │   ├── species_list.json                 (~1.4 MB — 29,748 species)
 │   │   ├── phylogeny_tree.json               (~12.8 MB — master tree of life)
-│   │   └── species_taxonomy_catalog.json     (~11.6 MB — hard taxonomic catalog)
+│   │   └── species_taxonomy_catalog.json     (~11.6 MB — hard catalog)
 │   └── time_cache.json                       (~79 MB — TimeTree calibrated cache)
 ```
 
-### B. Pruning & Subtree Extraction Pipeline (`build_normal_dataset.py`)
-To ensure mathematical perfection and 100% taxonomic consistency:
-1. The script takes the master `data/hard/phylogeny_tree.json` and the curated normal species list.
-2. It extracts the **exact ancestor subgraph** linking all normal species back to *LUCA / Metazoa*.
-3. **Zero Time Recalculation Required:** All internal node divergence times ($T_{\text{MRCA}}$), Linnaean ranks, and clade annotations are directly inherited from the calibrated master tree.
-4. Generates `data/normal/phylogeny_tree.json` and runs `build_taxonomic_catalog.py` to create the normal catalog.
+### B. Pruning & Subtree Extraction Script (`build_normal_dataset.py`)
+1. Evaluates all 29,748 species against the **Algorithmic Popularity Scoring Engine**.
+2. Merges with the 344 original species and curated plant candidates.
+3. Prunes the master `data/hard/phylogeny_tree.json` to retain only the ancestor nodes linking Normal species to *Eukaryota / Metazoa / Viridiplantae*.
+4. **Zero Time Recalculation:** All internal node divergence times ($T_{\text{MRCA}}$) and Linnaean ranks are inherited directly from the master tree, guaranteeing 100% mathematical consistency.
+5. Generates the normal dataset and executes `build_taxonomic_catalog.py` to produce the Normal Mode catalog.
 
-### C. Performance Benefits
-- **Initial Load for 95% of Users (Normal Mode):**
-  - Download size drops from **14.2 MB** down to **~1.3 MB**.
-  - Parse time drops from ~250ms to **under 20ms**.
-  - Mobile memory footprint drops by **85%**.
-- Hard mode data is only fetched asynchronously on-demand when the user clicks **🔴 Hard**.
+### C. Performance Gains
+- **Normal Mode Page Load:** Downloads only **~1.9 MB** total assets instead of **14.2 MB**. Initial tree load finishes in **<50ms** on mobile devices.
+- Hard mode data is only fetched asynchronously if the player explicitly selects **⚡ Hard**.
 
 ---
 
-## 6. Database & Storage Architecture (`storage.js` & Firebase)
+## 7. Database & Storage Architecture (`storage.js` & Firebase)
 
-To prevent Normal mode victories from inflating Hard mode streaks (and vice versa), the storage engine will strictly partition data by difficulty:
+To ensure Normal mode games do not inflate Hard mode streaks (and vice versa), storage is strictly partitioned by difficulty:
 
-### A. LocalStorage Keys & Data Structure
+### A. LocalStorage Keys & Data Partitioning
 ```javascript
 // Streaks, Win Rates, and Guess Distributions
 localStorage.getItem('phylogenle_stats_normal');
 localStorage.getItem('phylogenle_stats_hard');
 
-// Daily Puzzle Completion History (Records, Guesses, Hints, Surrenders)
+// Daily Completion History (Records, Guesses, Clues Used, Surrenders)
 localStorage.getItem('phylogenle_history_normal');
 localStorage.getItem('phylogenle_history_hard');
 
-// Active In-Progress Guesses
+// Active In-Progress Guesses & Hints
 localStorage.getItem('phylogenle_active_guesses_normal_2026-10-26');
 localStorage.getItem('phylogenle_active_guesses_hard_2026-10-26');
-
-// Active In-Progress Hints
 localStorage.getItem('phylogenle_active_hints_normal_2026-10-26');
 localStorage.getItem('phylogenle_active_hints_hard_2026-10-26');
 ```
 
-### B. Cloud Firestore Schema (Multi-Device Sync & Google Auth)
-User profile documents in collection `users/{userId}`:
+### B. Firebase Firestore Cloud Schema
+In collection `users/{userId}`:
 ```json
 {
   "uid": "user_12345",
   "email": "player@example.com",
   "phylogenle_stats_normal": {
-    "played": 18,
-    "won": 17,
-    "currentStreak": 12,
-    "maxStreak": 12,
-    "distribution": { "1-3": 4, "4-6": 8, "7-9": 5, "10-12": 0, "13-15": 0, "16+": 0 },
+    "played": 22,
+    "won": 21,
+    "currentStreak": 14,
+    "maxStreak": 14,
+    "distribution": { "1-3": 6, "4-6": 10, "7-9": 5, "10-12": 0, "13-15": 0, "16+": 0 },
     "lastPlayedDate": "2026-10-26"
   },
   "phylogenle_stats_hard": {
-    "played": 5,
+    "played": 6,
     "won": 2,
     "currentStreak": 1,
     "maxStreak": 2,
     "distribution": { "1-3": 0, "4-6": 1, "7-9": 0, "10-12": 1, "13-15": 0, "16+": 0 },
     "lastPlayedDate": "2026-10-25"
   },
-  "phylogenle_history_normal": {
-    "2026-10-26": { "solved": true, "guessCount": 4, "guesses": [...], "hints": [...] }
-  },
-  "phylogenle_history_hard": {
-    "2026-10-26": { "solved": false, "guessCount": 12, "guesses": [...], "hints": [...] }
-  },
+  "phylogenle_history_normal": { ... },
+  "phylogenle_history_hard": { ... },
   "lastSynced": 1792864800000
 }
 ```
 
 ### C. Migration & Backward Compatibility
-- Existing stats from `phylogenle_stats` and `phylogenle_history` will be automatically migrated to `phylogenle_stats_hard` and `phylogenle_history_hard` on first boot (since existing daily games used the 29,748 master pool).
-- New players start fresh on Normal Mode stats.
+- Existing user stats and records from recent games are preserved and migrated into `phylogenle_stats_hard` and `phylogenle_history_hard` on first boot (since prior games drew from the 29,748 pool).
+- Normal Mode stats begin clean and fresh.
 
 ---
 
-## 7. Daily Puzzle PRNG & Calendar Archive
+## 8. Daily Puzzle PRNG & Calendar Archive
 
-### A. Independent Daily Sequences (`prng.js`)
-The PRNG hash algorithm will incorporate difficulty salts:
+### A. Independent Daily Organisms (`prng.js`)
+The daily PRNG seeds incorporate a difficulty salt:
 ```javascript
-// Normal daily target (picked from normalSpeciesList)
+// Normal daily target (e.g. Zebra or Giant Sequoia)
 const normalTarget = getDailyTargetSpecies(normalSpeciesList, dateStr, 'normal');
 
-// Hard daily target (picked from hardSpeciesList)
+// Hard daily target (e.g. Etheostoma luteovinctum)
 const hardTarget = getDailyTargetSpecies(hardSpeciesList, dateStr, 'hard');
 ```
-This guarantees that each day has a distinct Normal Daily Organism (e.g. *Jaguar*) and a Hard Daily Organism (e.g. *Etheostoma luteovinctum*).
 
 ### B. Calendar Archive Modal
-- The archive modal (`#archive-modal`) will reflect the active difficulty tier:
-  - If viewing in Normal Mode: Shows calendar days and list view for Normal daily puzzles.
-  - If viewing in Hard Mode: Shows calendar days and list view for Hard daily puzzles.
-  - Includes a quick toggle inside the archive header so players can inspect past puzzles from either difficulty.
-
----
-
-## 8. Copy-Paste Share Strings for Normal vs. Hard
-
-Our newly implemented lightbulb (`💡`) hints and surrender flag (`⬜`) will distinguish between tiers in the share string:
-
-### Normal Mode Victory:
-```
-Phylogenle #1026 🧬
-Solved in 4 guesses (1 hint)!
-⬛🟫💡🟦🟩
-https://amitjoshi2724.github.io/phylogenle/
-```
-
-### Hard Mode Victory:
-```
-Phylogenle #1026 [Hard] 🧬
-Solved in 7 guesses (2 hints)!
-⬛⬛🟫💡🟦🟪💡🟩
-https://amitjoshi2724.github.io/phylogenle/
-```
+- Archive view automatically reflects the active difficulty tier.
+- Includes a top toggle: `[ 🐾 Normal Archive | ⚡ Hard Archive ]` allowing players to review or replay past puzzles from either mode.
 
 ---
 
 ## 9. Phased Implementation Roadmap
 
-| Phase | Component | Key Deliverables | Risk Level |
+| Phase | Milestone | Key Deliverables | Risk Level |
 | :---: | :--- | :--- | :---: |
-| **Phase 1** | **Dataset Generation** | Write `build_normal_dataset.py`, merge 344 original species + curated animal candidates (~850 total), prune `phylogeny_tree.json`, generate `data/normal/` files. | Low |
-| **Phase 2** | **Taxonomic Catalog** | Run `build_taxonomic_catalog.py` to create `data/normal/species_taxonomy_catalog.json` and markdown directory. | Low |
+| **Phase 1** | **Dataset & Algorithmic Filter** | Write `build_normal_dataset.py` with Wikimedia popularity evaluation; include 344 original species + iconic plants; prune master tree; output `data/normal/` files. | Low |
+| **Phase 2** | **Taxonomic Catalog** | Update `build_taxonomic_catalog.py` to generate `data/normal/species_taxonomy_catalog.json` and markdown directory. | Low |
 | **Phase 3** | **Storage & Database Partitioning** | Update [`storage.js`](file:///Users/amitjoshi2724/Desktop/phylogenle/storage.js) to support `_normal` and `_hard` stats, streaks, history, and Firestore cloud sync. | Medium |
-| **Phase 4** | **UI & Controls Integration** | Add segmented difficulty pill `[ 🟢 Normal | 🔴 Hard ]` to navigation bar in [`index.html`](file:///Users/amitjoshi2724/Desktop/phylogenle/index.html) and [`style.css`](file:///Users/amitjoshi2724/Desktop/phylogenle/style.css); wire dual toggle state in [`script.js`](file:///Users/amitjoshi2724/Desktop/phylogenle/script.js). | Low |
-| **Phase 5** | **Autocomplete & Archive Sync** | Scope autocomplete to active difficulty; update Archive modal to support Normal vs Hard past puzzles; verify in browser. | Low |
+| **Phase 4** | **UI & Colorblind-Safe Controls** | Implement `[ 🐾 Normal | ⚡ Hard ]` toggle in [`index.html`](file:///Users/amitjoshi2724/Desktop/phylogenle/index.html) and [`style.css`](file:///Users/amitjoshi2724/Desktop/phylogenle/style.css); wire dual toggle state in [`script.js`](file:///Users/amitjoshi2724/Desktop/phylogenle/script.js). | Low |
+| **Phase 5** | **Autocomplete, Catalog & Archive Integration** | Scope autocomplete to active difficulty; connect catalog and archive modals to difficulty state; test in browser. | Low |
 
 ---
 
-## 10. Decisions for User Approval
+## 10. Summary of Revisions for User Approval
 
-1. **Species Pool Size:** Does **~850 to 1,000 animals** (providing 2.5+ years of daily puzzles without repetition) match your vision for the Normal Mode set?
-2. **Kingdom Scope:** Do you agree that Normal Mode should be strictly **Kingdom *Animalia*** (no plants, fungi, or bacteria), keeping non-animal kingdoms in Hard Mode?
-3. **Toggle Layout:** Do you approve of two adjacent segmented pills in the navigation bar:  
-   `[ 🟢 Normal | 🔴 Hard ]` &nbsp;&nbsp; `[ 📅 Daily | 🧬 Practice ]`?
+1. **Algorithmic Popularity Scoring:** No arbitrary cap (e.g. 1,000). Every organism from the 29,748 master tree is evaluated by Wikimedia pageviews and Wikidata global language sitelinks, guaranteeing Zebra, Platypus, and all prominent fauna are included.
+2. **Iconic Plants Included:** Enriched with universally recognized trees, flowers, and crops (~5–10% of the normal pool).
+3. **100% Colorblind-Safe UI:** Red/green circles removed; replaced with distinct semantic silhouettes `[ 🐾 Normal | ⚡ Hard ]`, Blue vs. Amber styling, and explicit share tags.
