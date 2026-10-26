@@ -358,14 +358,23 @@ function bootPhylogenle() {
         isGameOver = true;
         if (inputSection) inputSection.style.display = 'none';
 
+        if (record.hints && record.hints.length > 0) {
+            revealedHints = [...record.hints];
+        } else {
+            revealedHints = [];
+        }
+
+        const hintCount = revealedHints.length;
+        const hintSuffix = hintCount > 0 ? ` (${hintCount} hint${hintCount === 1 ? '' : 's'})` : '';
+
         endTitle.textContent = record.solved ? "You found it! ⭐" : "Organism Revealed";
         endTitle.style.color = record.solved ? "var(--success-color)" : "var(--danger-color)";
         endMessage.innerHTML = `The organism was <strong>${record.targetSpecies || targetSpecies}</strong>.<br>` +
-            `<span style="font-size: 0.9rem; color: var(--text-secondary);">${record.solved ? `Solved in ${record.guessCount} guesses!` : 'Gave up.'}</span>`;
+            `<span style="font-size: 0.9rem; color: var(--text-secondary);">${record.solved ? `Solved in ${record.guessCount} guess${record.guessCount === 1 ? '' : 'es'}${hintSuffix}!` : 'Gave up.'}</span>`;
 
         const endEmojisRow = document.getElementById('end-emojis-row');
         if (endEmojisRow && record.guesses && record.guesses.length > 0) {
-            let emojis = record.guesses.map(g => getGuessRankEmoji(g)).join('');
+            let emojis = getGameTimelineEmojis(record.guesses, revealedHints);
             if (!record.solved) {
                 emojis += ' ⬜'; // White square indicates surrendered / revealed
             }
@@ -377,16 +386,41 @@ function bootPhylogenle() {
             guessesContainer.innerHTML = "";
             guesses = [];
             guessedSet.clear();
-            record.guesses.forEach(g => {
-                const guessKey = g.name.toLowerCase();
-                guessedSet.add(guessKey);
-                guesses.push(g);
-                addGuessToBoard(g.name, g.wikiTitle, {
-                    rank: g.lca_rank,
-                    lca_name: g.lca_name,
-                    major_name: g.major_name || g.lca_name,
-                    time: g.tmrca
-                }, g.isMatch);
+
+            // Interleave guesses and hints chronologically
+            const timeline = [];
+            record.guesses.forEach((g, idx) => {
+                timeline.push({
+                    type: 'guess',
+                    data: g,
+                    time: g.timestamp || (idx * 2)
+                });
+            });
+            revealedHints.forEach((h, idx) => {
+                timeline.push({
+                    type: 'hint',
+                    data: h,
+                    hintNumber: idx + 1,
+                    time: h.timestamp || (idx * 2 + 1)
+                });
+            });
+            timeline.sort((a, b) => a.time - b.time);
+
+            timeline.forEach(item => {
+                if (item.type === 'guess') {
+                    const g = item.data;
+                    const guessKey = g.name.toLowerCase();
+                    guessedSet.add(guessKey);
+                    guesses.push(g);
+                    addGuessToBoard(g.name, g.wikiTitle, {
+                        rank: g.lca_rank,
+                        lca_name: g.lca_name,
+                        major_name: g.major_name || g.lca_name,
+                        time: g.tmrca
+                    }, g.isMatch);
+                } else {
+                    addHintToBoard(item.data, item.hintNumber);
+                }
             });
             if (!record.solved) {
                 addSurrenderRow(record.targetSpecies || targetSpecies);
@@ -916,6 +950,30 @@ function bootPhylogenle() {
         return '⬛'; // black - nothing match
     }
 
+    function getGameTimelineEmojis(guessList = guesses, hintList = revealedHints) {
+        const timeline = [];
+        if (guessList && guessList.length > 0) {
+            guessList.forEach((g, idx) => {
+                timeline.push({
+                    type: 'guess',
+                    emoji: getGuessRankEmoji(g),
+                    time: g.timestamp || (idx * 2)
+                });
+            });
+        }
+        if (hintList && hintList.length > 0) {
+            hintList.forEach((h, idx) => {
+                timeline.push({
+                    type: 'hint',
+                    emoji: '💡',
+                    time: h.timestamp || (idx * 2 + 1)
+                });
+            });
+        }
+        timeline.sort((a, b) => a.time - b.time);
+        return timeline.map(item => item.emoji).join('');
+    }
+
     function getClosenessInfo(data, isMatch) {
         if (isMatch || data.rank === 'Species') {
             return {
@@ -1120,8 +1178,10 @@ function bootPhylogenle() {
         isGameOver = true;
         endTitle.textContent = win ? "You found it! 🏆" : "Organism Revealed 🏳️";
         endTitle.style.color = win ? "var(--success-color)" : "#f87171";
+        const hintCount = revealedHints.length;
+        const hintSuffix = hintCount > 0 ? ` (${hintCount} hint${hintCount === 1 ? '' : 's'})` : '';
         endMessage.innerHTML = `The organism was <strong>${targetSpecies}</strong>.<br>` +
-            `<span style="font-size: 0.9rem; color: var(--text-secondary);">${win ? `Solved in ${guesses.length} guess${guesses.length === 1 ? '' : 'es'}!` : 'Surrendered & revealed.'}</span>`;
+            `<span style="font-size: 0.9rem; color: var(--text-secondary);">${win ? `Solved in ${guesses.length} guess${guesses.length === 1 ? '' : 'es'}${hintSuffix}!` : 'Surrendered & revealed.'}</span>`;
 
         if (!win) {
             addSurrenderRow(targetSpecies);
@@ -1129,7 +1189,7 @@ function bootPhylogenle() {
 
         const endEmojisRow = document.getElementById('end-emojis-row');
         if (endEmojisRow) {
-            let emojis = guesses.map(g => getGuessRankEmoji(g)).join('');
+            let emojis = getGameTimelineEmojis(guesses, revealedHints);
             if (!win) {
                 emojis += ' ⬜'; // White square indicates surrendered / revealed
             }
@@ -1144,7 +1204,7 @@ function bootPhylogenle() {
         updateTree();
 
         if (!isUnlimited) {
-            recordDailyCompletion(currentDateStr, puzzleNum, win, guesses.length, guesses, targetSpecies);
+            recordDailyCompletion(currentDateStr, puzzleNum, win, guesses.length, guesses, targetSpecies, revealedHints);
             clearActiveGuesses(currentDateStr);
             if (win) {
                 setTimeout(() => openModal(statsModal), 1000);
@@ -2457,17 +2517,26 @@ function bootPhylogenle() {
         const history = getHistory();
         const record = history[currentDateStr];
         const isSolved = record ? record.solved : (isGameOver && guesses.some(g => g.isMatch));
-        const count = guesses.length;
+        const activeGuesses = (record && record.guesses && record.guesses.length > 0) ? record.guesses : guesses;
+        const activeHints = (record && record.hints) ? record.hints : revealedHints;
+        const count = activeGuesses.length;
+        const hintCount = activeHints.length;
 
-        // Emoji feedback row
-        let emojis = guesses.slice(0, 10).map(g => getGuessRankEmoji(g)).join('');
+        // Emoji feedback row with chronological hints (💡)
+        let emojis = getGameTimelineEmojis(activeGuesses, activeHints);
         if (!isSolved) {
             emojis += ' ⬜'; // Surrender / revealed indicator
         }
 
-        const shareText = `Phylogenle #${puzzleNum} 🧬\n` +
-            `${isSolved ? `Solved in ${count} guess${count === 1 ? '' : 'es'}!` : 'Revealed'}\n` +
-            `${emojis}${guesses.length > 10 ? '...' : ''}\n` +
+        const modeLabel = isUnlimited ? "Practice" : `#${puzzleNum}`;
+        const hintText = hintCount > 0 ? ` (${hintCount} hint${hintCount === 1 ? '' : 's'})` : '';
+        const statusText = isSolved
+            ? `Solved in ${count} guess${count === 1 ? '' : 'es'}${hintText}!`
+            : `Revealed${hintText}`;
+
+        const shareText = `Phylogenle ${modeLabel} 🧬\n` +
+            `${statusText}\n` +
+            `${emojis}\n` +
             `https://amitjoshi2724.github.io/phylogenle/`;
 
         if (navigator.clipboard) {

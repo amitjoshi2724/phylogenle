@@ -188,7 +188,7 @@ export function saveLocalStats(stats) {
 /**
  * Record puzzle completion (win or give up)
  */
-export function recordDailyCompletion(dateStr, puzzleNum, solved, guessCount, guesses, targetSpecies) {
+export function recordDailyCompletion(dateStr, puzzleNum, solved, guessCount, guesses, targetSpecies, hints = []) {
     const record = {
         dateStr,
         puzzleNum,
@@ -196,6 +196,7 @@ export function recordDailyCompletion(dateStr, puzzleNum, solved, guessCount, gu
         guessCount: Number(guessCount) || (guesses ? guesses.length : 1),
         targetSpecies,
         guesses: Array.isArray(guesses) ? [...guesses] : [],
+        hints: Array.isArray(hints) ? [...hints] : [],
         completed: true,
         timestamp: Date.now()
     };

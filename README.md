@@ -89,6 +89,14 @@ Phylogenle maps the 8 standard Linnaean biological ranks to a high-contrast, int
 | **🟫 Kingdom** | `🟫` | **Earth Brown** | `#a16207` | **~600 – 900 MYA** | **Same kingdom** (e.g. *Animalia*, *Plantae*, *Fungi*, *Protista*, *Bacteria*). |
 | **⬛ Domain** | `⬛` | **Jet Black** | `#475569` | **>1000 MYA** | **Cellular root** (*Eukaryota*, *Bacteria*, *Viruses*). |
 
+### 💡 The Hint Lightbulb (`💡`)
+- **Transparent Clue Tracking:** Whenever you reveal a taxonomic rank clue with the **💡 Hint** button, a `💡` is recorded chronologically into your emoji sequence:
+  ```
+  Phylogenle #1026 🧬
+  Solved in 4 guesses (2 hints)!
+  ⬛🟫💡🟦💡🟩
+  ```
+
 ### 🏳️ The Surrender Flag (`⬜` White Square)
 - **Solved Victory:** Your share string concludes with `🟩`:
   ```
