@@ -354,8 +354,8 @@ def main():
             md_lines.append(f"<summary>🟫 <b>Kingdom: {k_title}</b> — {k_count:,} Species</summary>")
             md_lines.append("")
 
-            # Sort phyla by species count descending
-            phyla_sorted = sorted(p_dict.keys(), key=lambda p: sum(len(sp) for c in p_dict[p].values() for o in c.values() for sp in o.values()), reverse=True)
+            # Sort phyla alphabetically A-Z
+            phyla_sorted = sorted(p_dict.keys(), key=lambda p: p.lower())
 
             for phylum in phyla_sorted:
                 c_dict = p_dict[phylum]
@@ -366,8 +366,8 @@ def main():
                 md_lines.append(f"<summary>🟦 <b>Phylum: {p_label}</b> — {p_count:,} Species</summary>")
                 md_lines.append("")
 
-                # Sort classes by count descending
-                classes_sorted = sorted(c_dict.keys(), key=lambda c: sum(len(sp) for o in c_dict[c].values() for sp in o.values()), reverse=True)
+                # Sort classes alphabetically A-Z
+                classes_sorted = sorted(c_dict.keys(), key=lambda c: c.lower())
 
                 for cls in classes_sorted:
                     o_dict = c_dict[cls]
@@ -378,8 +378,8 @@ def main():
                     md_lines.append(f"<summary>🟪 <b>Class: {cls_label}</b> — {cls_count:,} Species</summary>")
                     md_lines.append("")
 
-                    # Sort orders by count descending
-                    orders_sorted = sorted(o_dict.keys(), key=lambda o: sum(len(sp) for sp in o_dict[o].values()), reverse=True)
+                    # Sort orders alphabetically A-Z
+                    orders_sorted = sorted(o_dict.keys(), key=lambda o: o.lower())
 
                     for order in orders_sorted:
                         f_dict = o_dict[order]
@@ -389,8 +389,8 @@ def main():
                         md_lines.append(f"<summary>🟥 <b>Order: {order}</b> — {ord_count:,} Species</summary>")
                         md_lines.append("")
 
-                        # Sort families by count descending
-                        fams_sorted = sorted(f_dict.keys(), key=lambda f: len(f_dict[f]), reverse=True)
+                        # Sort families alphabetically A-Z
+                        fams_sorted = sorted(f_dict.keys(), key=lambda f: f.lower())
 
                         for fam in fams_sorted:
                             sp_list = f_dict[fam]

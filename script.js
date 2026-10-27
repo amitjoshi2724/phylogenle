@@ -103,19 +103,23 @@ function bootPhylogenle() {
 
     // Wikipedia Tooltip Setup
     const wikiTooltip = document.getElementById('wiki-tooltip');
-    const wikiTitle = wikiTooltip.querySelector('.wiki-title');
-    const wikiSnippet = wikiTooltip.querySelector('.wiki-snippet');
+    const wikiTitle = wikiTooltip ? wikiTooltip.querySelector('.wiki-title') : null;
+    const wikiSnippet = wikiTooltip ? wikiTooltip.querySelector('.wiki-snippet') : null;
+    const wikiCatalogBtn = document.getElementById('wiki-catalog-btn');
     let tooltipTimeout;
+    let currentTooltipTaxon = '';
 
     async function showWikiTooltip(e, rankName) {
+        if (!wikiTooltip) return;
         clearTimeout(tooltipTimeout);
+        currentTooltipTaxon = rankName || '';
         wikiTooltip.classList.remove('hidden');
         
-        let left = e.pageX + 15;
-        let top = e.pageY + 15;
+        let left = e.pageX + 10;
+        let top = e.pageY + 10;
         
-        if (left + 300 > window.innerWidth) {
-            left = window.innerWidth - 320;
+        if (left + 320 > window.innerWidth) {
+            left = Math.max(10, window.innerWidth - 330);
         }
         
         wikiTooltip.style.left = left + 'px';
@@ -128,31 +132,55 @@ function bootPhylogenle() {
             ? 'Root (LUCA)'
             : rankName;
         
-        wikiTitle.innerHTML = `<a href="https://en.wikipedia.org/wiki/${encodeURIComponent(normQuery)}" target="_blank">${displayTitle} &#8594;</a>`;
-        wikiSnippet.textContent = "Loading summary...";
+        if (wikiTitle) {
+            wikiTitle.innerHTML = `<a href="https://en.wikipedia.org/wiki/${encodeURIComponent(normQuery)}" target="_blank">${displayTitle} &#8594;</a>`;
+        }
+        if (wikiSnippet) {
+            wikiSnippet.textContent = "Loading summary...";
+        }
 
         try {
             const resp = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(normQuery)}`);
             const data = await resp.json();
-            if (data.extract) {
-                wikiSnippet.textContent = data.extract.substring(0, 180) + "...";
-            } else {
-                wikiSnippet.textContent = "No Wikipedia summary available.";
+            if (wikiSnippet) {
+                if (data.extract) {
+                    wikiSnippet.textContent = data.extract.substring(0, 180) + "...";
+                } else {
+                    wikiSnippet.textContent = "No Wikipedia summary available.";
+                }
             }
         } catch (err) {
-            wikiSnippet.textContent = "Error loading summary.";
+            if (wikiSnippet) {
+                wikiSnippet.textContent = "Error loading summary.";
+            }
         }
     }
 
     function hideWikiTooltip() {
+        if (!wikiTooltip) return;
         tooltipTimeout = setTimeout(() => {
             wikiTooltip.classList.add('hidden');
             wikiTooltip.style.pointerEvents = 'none';
-        }, 150);
+        }, 350);
     }
 
-    wikiTooltip.addEventListener('mouseenter', () => clearTimeout(tooltipTimeout));
-    wikiTooltip.addEventListener('mouseleave', hideWikiTooltip);
+    if (wikiTooltip) {
+        wikiTooltip.addEventListener('mouseenter', () => clearTimeout(tooltipTimeout));
+        wikiTooltip.addEventListener('mouseleave', hideWikiTooltip);
+    }
+
+    if (wikiCatalogBtn) {
+        wikiCatalogBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const targetTaxon = currentTooltipTaxon;
+            hideWikiTooltip();
+            if (targetTaxon) {
+                openCatalogAtTaxon(targetTaxon);
+            } else {
+                openCatalogModal();
+            }
+        });
+    }
 
     // Check URL parameters and persisted mode on load
     function checkURLParams() {
@@ -2163,6 +2191,109 @@ function bootPhylogenle() {
             }
         });
     }
+
+    async function openCatalogAtTaxon(taxonName) {
+        if (!catalogModal) return;
+        await openCatalogModal();
+        if (!catalogLoaded) {
+            await loadSpeciesCatalog();
+        }
+        if (catalogSearchInput && catalogSearchInput.value) {
+            catalogSearchInput.value = '';
+            renderCatalogView();
+        }
+
+        const raw = (taxonName || '').trim();
+        const clean = raw.toLowerCase();
+        if (!clean) return;
+
+        setTimeout(() => {
+            if (!catalogContent) return;
+
+            const cleanNoParen = clean.replace(/\(.*?\)/g, '').trim();
+            const sciMatch = raw.match(/\((.*?)\)/);
+            const sciName = sciMatch ? sciMatch[1].trim().toLowerCase() : '';
+
+            const summaries = Array.from(catalogContent.querySelectorAll('summary'));
+            let matchedSummary = null;
+
+            // 1. Look for matching rank summary header (Order, Family, Class, Phylum, Kingdom, Domain)
+            for (const s of summaries) {
+                const txt = s.textContent.toLowerCase();
+                if (txt.includes(`: ${clean}`) || 
+                    (cleanNoParen && txt.includes(`: ${cleanNoParen}`)) || 
+                    (sciName && txt.includes(`: ${sciName}`))) {
+                    matchedSummary = s;
+                    break;
+                }
+            }
+
+            // 2. Substring match in summary
+            if (!matchedSummary) {
+                for (const s of summaries) {
+                    const txt = s.textContent.toLowerCase();
+                    if (txt.includes(clean) || (cleanNoParen && txt.includes(cleanNoParen))) {
+                        matchedSummary = s;
+                        break;
+                    }
+                }
+            }
+
+            if (matchedSummary) {
+                const parentDetails = matchedSummary.closest('details');
+                if (parentDetails) parentDetails.open = true;
+
+                let ancestor = parentDetails ? parentDetails.parentElement.closest('details') : null;
+                while (ancestor) {
+                    ancestor.open = true;
+                    ancestor = ancestor.parentElement.closest('details');
+                }
+
+                setTimeout(() => {
+                    matchedSummary.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    matchedSummary.classList.remove('catalog-highlight-target');
+                    void matchedSummary.offsetWidth;
+                    matchedSummary.classList.add('catalog-highlight-target');
+                }, 80);
+                return;
+            }
+
+            // 3. Search in species table rows
+            const rows = Array.from(catalogContent.querySelectorAll('tbody tr'));
+            let matchedRow = null;
+            for (const tr of rows) {
+                const txt = tr.textContent.toLowerCase();
+                if (txt.includes(clean) || (cleanNoParen && txt.includes(cleanNoParen)) || (sciName && txt.includes(sciName))) {
+                    matchedRow = tr;
+                    break;
+                }
+            }
+
+            if (matchedRow) {
+                let ancestor = matchedRow.closest('details');
+                while (ancestor) {
+                    ancestor.open = true;
+                    ancestor = ancestor.parentElement.closest('details');
+                }
+
+                setTimeout(() => {
+                    matchedRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    matchedRow.classList.remove('catalog-highlight-target');
+                    void matchedRow.offsetWidth;
+                    matchedRow.classList.add('catalog-highlight-target');
+                }, 80);
+                return;
+            }
+
+            // 4. Fallback to search input
+            if (catalogSearchInput) {
+                catalogSearchInput.value = cleanNoParen || clean;
+                renderCatalogView();
+            }
+        }, 120);
+    }
+    window.openCatalogAtTaxon = openCatalogAtTaxon;
+    window.showWikiTooltip = showWikiTooltip;
 
     function renderCatalogSearchResults(query) {
         if (!catalogContent) return;
