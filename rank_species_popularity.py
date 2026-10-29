@@ -320,10 +320,11 @@ def main():
     else:
         print("\nStep 1: All Wikidata sitelinks already resolved. Skipping.")
 
-    # Step 2: Fallback lookup for species missing en_title
+    # Step 2: Fallback lookup for species missing en_title OR where title has not been canonical-verified
     needs_fallback = [
         s for s in species_data
         if not cache.get(s["scientific"], {}).get("en_title")
+        or not cache.get(s["scientific"], {}).get("canonical_verified")
     ]
     if needs_fallback:
         print(f"\nStep 2: Checking Wikipedia fallbacks & canonical titles for {len(needs_fallback):,} species...")
@@ -336,6 +337,9 @@ def main():
                 titles = []
                 c = s.get("common", "").strip()
                 sci = s.get("scientific", "").strip()
+                cached_title = cache.get(sci, {}).get("en_title")
+                if cached_title:
+                    titles.append(cached_title)
                 if c:
                     titles.append(c)
                     # Sentence-cased variant: e.g. "Bluespotted corydoras", "Blackhand sole"
@@ -380,6 +384,8 @@ def main():
                     if best_qid and best_swiki > cache.get(sci, {}).get("swiki", 0):
                         cache[sci]["qid"] = best_qid
                         cache[sci]["swiki"] = best_swiki
+                    if sci in cache:
+                        cache[sci]["canonical_verified"] = True
 
             processed = min(i + FB_BATCH, len(needs_fallback))
             if (i // FB_BATCH) % 10 == 0 or processed == len(needs_fallback):
@@ -475,17 +481,22 @@ def main():
         chunk = qids_to_query[i:i+50]
         url = "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=" + "|".join(chunk) + "&props=claims&format=json"
         req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-        try:
-            with urllib.request.urlopen(req, timeout=15) as resp:
-                data = json.loads(resp.read().decode("utf-8"))
-                for q, ent in data.get("entities", {}).items():
-                    claims = ent.get("claims", {})
-                    p31 = set(c.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") for c in claims.get("P31", []))
-                    p105 = set(c.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") for c in claims.get("P105", []))
-                    if q in ("Q5", "Q146") or ((p31 & VALID_P31) and not (p105 & HIGHER_RANKS)):
-                        valid_qids.add(q)
-        except Exception as e:
-            print(f"  Wikidata rank check error: {e}")
+        for attempt in range(3):
+            try:
+                with urllib.request.urlopen(req, timeout=15) as resp:
+                    data = json.loads(resp.read().decode("utf-8"))
+                    for q, ent in data.get("entities", {}).items():
+                        claims = ent.get("claims", {})
+                        p31 = set(c.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") for c in claims.get("P31", []))
+                        p105 = set(c.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") for c in claims.get("P105", []))
+                        if q in ("Q5", "Q146") or ((p31 & VALID_P31) and not (p105 & HIGHER_RANKS)):
+                            valid_qids.add(q)
+                break
+            except Exception as e:
+                if attempt < 2:
+                    time.sleep(2.0 * (attempt + 1))
+                else:
+                    print(f"  Wikidata rank check error after 3 attempts: {e}")
 
     extra_articles_count = 0
     for sci, prim, a, target, qid in candidates:
@@ -500,7 +511,7 @@ def main():
     print(f"Step 2B complete: Discovered {extra_articles_count} exclusive standalone articles for Option B rollup.")
 
     # Step 3: Fetch Wikipedia cumulative pageviews (Vwiki)
-    # Target species that don't have current period data OR have suspicious/falsely low views (<= 10)
+    # Target species that don't have current period data
     print(f"\nStep 3: Checking Wikipedia {DATE_LABEL} cumulative pageviews (Vwiki)...")
     need_views = []
     for s in species_data:
@@ -508,15 +519,14 @@ def main():
         rec = cache.get(sci, {})
         en_title = rec.get("en_title")
         if en_title:
-            is_suspicious_views = (rec.get("vwiki", 0) <= 10)
             is_missing_period = (rec.get("vwiki_period") != CACHE_PERIOD_KEY)
-            if is_suspicious_views or is_missing_period:
+            if is_missing_period:
                 need_views.append((sci, en_title, False))
         else:
             if rec.get("vwiki", 0) != 0:
                 rec["vwiki"] = 0
         for extra_t, eviews in rec.get("extra_articles", {}).items():
-            if eviews <= 10 or rec.get("vwiki_period") != CACHE_PERIOD_KEY:
+            if rec.get("vwiki_period") != CACHE_PERIOD_KEY:
                 need_views.append((sci, extra_t, True))
 
     unique_titles = {}

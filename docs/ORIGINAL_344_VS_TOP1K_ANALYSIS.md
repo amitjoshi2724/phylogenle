@@ -1,18 +1,37 @@
 # 🧬 Analysis: Original 344 Species vs. Top 1,000 Vwiki Rankings
 
-> **Analysis Date:** 2026-10-28  
-> **Dataset:** `species_ranking_by_vwiki.csv` (26,200 verified species)  
+> **Analysis Date:** 2026-10-29  
+> **Dataset:** `species_ranking_by_vwiki.csv` (empirical Wikimedia pageviews)  
 > **Baseline:** 344 Original Untouched Organisms  
 
 ## 1. Executive Summary
 
-- **Inside Top 1,000 (🐾 Easy Tier):** **252 / 344 (73.3%)**
-- **Inside Top 2,000 (🌿 Normal Tier):** **308 / 344 (89.5%)**
+### Comparison by Evaluation Mode:
+- **Option 3 Gameplay Perspective (Live in Game):** **257 / 344 (74.7%)** in Top 1,000
+- **Strict Species-Only Perspective:** **252 / 344 (73.3%)** in Top 1,000
+
+### Option 3 Tier Distribution:
+- **Inside Top 1,000 (🐾 Easy Tier):** **257 / 344 (74.7%)**
+- **Inside Top 2,000 (🌿 Normal Tier):** **309 / 344 (89.8%)**
 - **Inside Top 5,000 (🔬 Advanced Tier):** **339 / 344 (98.5%)**
 - **Master Tier Only (> 5,000):** **5 / 344 (1.5%)**
-- **Median Rank:** **#427**
+- **Median Rank:** **#395**
 
-## 2. Species Just Outside Top 1,000 (Ranks 1,001 – 2,000)
+## 2. Option 3 Recognizable Genuses Impact
+
+The 7 iconic baseline organisms where the English Wikipedia article covers the Genus:
+
+| Common Name | Species Binomial | Species Rank | Genus Taxon | Genus Rank | Rank Difference | Genus Views |
+| :--- | :--- | :---: | :--- | :---: | :---: | :---: |
+| **Gorilla** | *Gorilla gorilla* | #574 | *Gorilla* | **#26** | +548 | 2,145,135 |
+| **Giraffe** | *Giraffa camelopardalis* | #1,888 | *Giraffa* | **#48** | +1,840 | 1,725,569 |
+| **Orangutan** | *Pongo pygmaeus* | #554 | *Pongo* | **#61** | +493 | 1,532,594 |
+| **Coelacanth** | *Latimeria chalumnae* | #1,704 | *Latimeria* | **#93** | +1,611 | 1,271,248 |
+| **Chinchilla** | *Chinchilla lanigera* | #3,208 | *Chinchilla* | **#186** | +3,022 | 861,228 |
+| **Baboon** | *Papio anubis* | #1,380 | *Papio* | **#245** | +1,135 | 708,763 |
+| **Arapaima** | *Arapaima gigas* | #1,014 | *Arapaima* | **#289** | +725 | 603,950 |
+
+## 3. Organisms Just Outside Top 1,000 (Ranks 1,001 – 2,000)
 
 These organisms missed the 🐾 Easy (top 1k) cutoff, but comfortably qualify for the 🌿 Normal (top 2k) tier:
 
@@ -21,7 +40,6 @@ These organisms missed the 🐾 Easy (top 1k) cutoff, but comfortably qualify fo
 | #1,007 | +7 | Red Imported Fire Ant | *Solenopsis invicta* | 199,559 | 33 |
 | #1,008 | +8 | Common Warthog | *Phacochoerus africanus* | 198,349 | 68 |
 | #1,012 | +12 | Black Widow Spider | *Latrodectus mactans* | 196,342 | 41 |
-| #1,014 | +14 | Arapaima | *Arapaima gigas* | 196,262 | 57 |
 | #1,015 | +15 | Thorny Devil | *Moloch horridus* | 196,169 | 49 |
 | #1,022 | +22 | Wandering Albatross | *Diomedea exulans* | 194,315 | 52 |
 | #1,047 | +47 | Fire Salamander | *Salamandra salamandra* | 188,642 | 72 |
@@ -55,7 +73,6 @@ These organisms missed the 🐾 Easy (top 1k) cutoff, but comfortably qualify fo
 | #1,339 | +339 | Little Brown Bat | *Myotis lucifugus* | 148,034 | 31 |
 | #1,342 | +342 | Whooper Swan | *Cygnus cygnus* | 147,740 | 90 |
 | #1,362 | +362 | Common Earthworm | *Lumbricus terrestris* | 145,441 | 53 |
-| #1,380 | +380 | Baboon | *Papio anubis* | 143,616 | 61 |
 | #1,465 | +465 | Hard Clam | *Mercenaria mercenaria* | 134,211 | 19 |
 | #1,501 | +501 | Central Bearded Dragon | *Pogona vitticeps* | 130,875 | 41 |
 | #1,528 | +528 | Chambered Nautilus | *Nautilus pompilius* | 128,352 | 27 |
@@ -66,16 +83,14 @@ These organisms missed the 🐾 Easy (top 1k) cutoff, but comfortably qualify fo
 | #1,608 | +608 | White-handed Gibbon | *Hylobates lar* | 122,351 | 51 |
 | #1,662 | +662 | Black-tailed Prairie Dog | *Cynomys ludovicianus* | 118,320 | 39 |
 | #1,703 | +703 | Mole | *Talpa europaea* | 114,556 | 78 |
-| #1,704 | +704 | Coelacanth | *Latimeria chalumnae* | 114,531 | 45 |
 | #1,731 | +731 | Great Barracuda | *Sphyraena barracuda* | 113,177 | 40 |
 | #1,761 | +761 | Buff-tailed Bumblebee | *Bombus terrestris* | 111,183 | 44 |
 | #1,765 | +765 | European Stag Beetle | *Lucanus cervus* | 110,958 | 57 |
 | #1,786 | +786 | Electric Eel | *Electrophorus electricus* | 108,571 | 74 |
 | #1,806 | +806 | Common Wasp | *Vespula vulgaris* | 107,600 | 44 |
-| #1,888 | +888 | Giraffe | *Giraffa camelopardalis* | 101,619 | 139 |
 | #1,889 | +889 | Common Wombat | *Vombatus ursinus* | 101,608 | 48 |
 
-## 3. Species in Advanced Tier (Ranks 2,001 – 5,000)
+## 4. Species in Advanced Tier (Ranks 2,001 – 5,000)
 
 | Vwiki Rank | Off by (vs. 1k) | Common Name | Scientific Name | Cumulative Views | Sitelinks |
 | :---: | :---: | :--- | :--- | :---: | :---: |
@@ -94,7 +109,6 @@ These organisms missed the 🐾 Easy (top 1k) cutoff, but comfortably qualify fo
 | #2,988 | +1,988 | Purple Sea Urchin | *Strongylocentrotus purpuratus* | 55,313 | 16 |
 | #3,070 | +2,070 | Howler Monkey | *Alouatta palliata* | 53,292 | 33 |
 | #3,109 | +2,109 | Periodical Cicada | *Magicicada septendecim* | 52,279 | 19 |
-| #3,208 | +2,208 | Chinchilla | *Chinchilla lanigera* | 49,924 | 40 |
 | #3,304 | +2,304 | Tree Kangaroo | *Dendrolagus matschiei* | 47,520 | 35 |
 | #3,327 | +2,327 | Common Chameleon | *Chamaeleo chamaeleon* | 47,034 | 40 |
 | #3,362 | +2,362 | Common Starfish | *Asterias rubens* | 46,275 | 31 |
@@ -111,7 +125,7 @@ These organisms missed the 🐾 Easy (top 1k) cutoff, but comfortably qualify fo
 | #4,770 | +3,770 | Leafcutter Ant | *Atta cephalotes* | 26,128 | 14 |
 | #4,805 | +3,805 | Beadlet Anemone | *Actinia equina* | 25,787 | 31 |
 
-## 4. Species in Master Tier Only (Ranks > 5,000)
+## 5. Species in Master Tier Only (Ranks > 5,000)
 
 These organisms represent specialized microscopic, deep-sea, or obscure biological lineages present in the original 344:
 
