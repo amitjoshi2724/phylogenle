@@ -65,6 +65,39 @@ SPECIAL_TAXA_344 = {
     "Hylobates lar": {"taxon_sci": "Hylobates", "common": "Gibbon", "rank_level": "Genus"},
     "Syncerus caffer": {"taxon_sci": "Syncerus", "common": "African Buffalo", "rank_level": "Genus"},
     "Tursiops truncatus": {"taxon_sci": "Tursiops", "common": "Bottlenose Dolphin", "rank_level": "Genus"},
+    "Hippocampus kuda": {"taxon_sci": "Hippocampus", "common": "Seahorse", "rank_level": "Genus"},
+
+    # 3. Marine & Invertebrate Umbrella Taxa
+    "Sepia officinalis": {"taxon_sci": "Sepiida", "common": "Cuttlefish", "rank_level": "Order"},
+    "Asterias rubens": {"taxon_sci": "Asteroidea", "common": "Starfish", "rank_level": "Class"},
+    "Chamaeleo chamaeleon": {"taxon_sci": "Chamaeleonidae", "common": "Chameleon", "rank_level": "Family"},
+    "Loligo vulgaris": {"taxon_sci": "Decapodiformes", "common": "Squid", "rank_level": "Class"},
+    "Octopus vulgaris": {"taxon_sci": "Octopoda", "common": "Octopus", "rank_level": "Order"},
+    "Hypsibius exemplaris": {"taxon_sci": "Tardigrada", "common": "Tardigrade", "rank_level": "Phylum"},
+    "Anax imperator": {"taxon_sci": "Anisoptera", "common": "Dragonfly", "rank_level": "Order"},
+    "Pandinus imperator": {"taxon_sci": "Scorpiones", "common": "Scorpion", "rank_level": "Order"},
+    "Lumbricus terrestris": {"taxon_sci": "Lumbricina", "common": "Earthworm", "rank_level": "Order"},
+    "Strongylocentrotus purpuratus": {"taxon_sci": "Echinoidea", "common": "Sea Urchin", "rank_level": "Class"},
+    "Holothuria atra": {"taxon_sci": "Holothuroidea", "common": "Sea Cucumber", "rank_level": "Class"},
+    "Actinia equina": {"taxon_sci": "Actiniaria", "common": "Sea Anemone", "rank_level": "Order"},
+    "Dasyatis pastinaca": {"taxon_sci": "Myliobatiformes", "common": "Stingray", "rank_level": "Order"},
+
+    # 4. Additional Recognizable Animal Groups
+    "Mantis religiosa": {"taxon_sci": "Mantodea", "common": "Mantis", "rank_level": "Order"},
+    "Homarus americanus": {"taxon_sci": "Nephropidae", "common": "Lobster", "rank_level": "Family"},
+    "Bombus terrestris": {"taxon_sci": "Bombus", "common": "Bumblebee", "rank_level": "Genus"},
+    "Vespula vulgaris": {"taxon_sci": "Vespidae", "common": "Wasp", "rank_level": "Family"},
+    "Aplysina fistularis": {"taxon_sci": "Porifera", "common": "Sponge", "rank_level": "Phylum"},
+    "Lucanus cervus": {"taxon_sci": "Lucanidae", "common": "Stag Beetle", "rank_level": "Family"},
+    "Crassostrea gigas": {"taxon_sci": "Ostreidae", "common": "Oyster", "rank_level": "Family"},
+    "Mercenaria mercenaria": {"taxon_sci": "Bivalvia", "common": "Clam", "rank_level": "Class"},
+    "Helix pomatia": {"taxon_sci": "Gastropoda", "common": "Snail", "rank_level": "Class"},
+    "Archispirostreptus gigas": {"taxon_sci": "Diplopoda", "common": "Millipede", "rank_level": "Class"},
+    "Penaeus monodon": {"taxon_sci": "Dendrobranchiata", "common": "Prawn", "rank_level": "Order"},
+    "Deroceras reticulatum": {"taxon_sci": "Agriolimacidae", "common": "Slug", "rank_level": "Family"},
+    "Schmidtea mediterranea": {"taxon_sci": "Tricladida", "common": "Planarian", "rank_level": "Order"},
+    "Bufo bufo": {"taxon_sci": "Bufonidae", "common": "Toad", "rank_level": "Family"},
+    "Rana temporaria": {"taxon_sci": "Anura", "common": "Frog", "rank_level": "Order"},
 }
 SPECIAL_GENUSES_344 = SPECIAL_TAXA_344
 
