@@ -374,7 +374,9 @@ def main():
                                 best_qid = qid
                                 best_title = can_title
                     if best_title:
-                        cache[sci]["en_title"] = best_title
+                        if best_title != cache[sci].get("en_title"):
+                            cache[sci]["en_title"] = best_title
+                            cache[sci]["vwiki_period"] = None  # Invalidate cached views on title change
                     if best_qid and best_swiki > cache.get(sci, {}).get("swiki", 0):
                         cache[sci]["qid"] = best_qid
                         cache[sci]["swiki"] = best_swiki
@@ -445,9 +447,22 @@ def main():
             if clean_lower not in alias_to_sci:
                 alias_to_sci[clean_lower] = sci
 
-    # Domestic cat canonical article override
-    if "Felis catus" in cache and cache["Felis catus"].get("en_title") == "Felis catus":
-        cache["Felis catus"]["en_title"] = "Cat"
+    # Canonical article overrides for domestic & high-profile organisms where Wikidata SPARQL returned redirects
+    CANONICAL_OVERRIDES = {
+        "Canis lupus familiaris": "Dog",
+        "Felis catus": "Cat",
+        "Vicugna pacos": "Alpaca",
+        "Sphenodon punctatus": "Tuatara",
+        "Lithobates catesbeianus": "American bullfrog",
+        "Cebuella pygmaea": "Pygmy marmoset",
+        "Homo sapiens": "Human",
+        "Meleagris gallopavo": "Wild turkey",
+        "Bufo bufo": "Common toad",
+    }
+    for o_sci, o_target in CANONICAL_OVERRIDES.items():
+        if o_sci in cache and cache[o_sci].get("en_title") != o_target:
+            cache[o_sci]["en_title"] = o_target
+            cache[o_sci]["vwiki_period"] = None
 
     # Resolve candidate aliases
     resolved_aliases = query_enwiki_fallback_batch(list(alias_to_sci.keys()))
