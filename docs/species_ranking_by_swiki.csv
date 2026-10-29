@@ -41,8 +41,8 @@ Rank_Swiki,Swiki (Languages),Common Name,Scientific Name,Alternative Names / Ali
 40,146,Common Olive,Olea europaea,,Plantae,Magnoliopsida,Lamiales,Oleaceae,Olea europaea,36850
 41,146,Garden Pea,Lathyrus oleraceus,,Plantae,Magnoliopsida,Fabales,Fabaceae,Pea,138
 42,142,House Sparrow,Passer domesticus,,Animalia,Aves,Passeriformes,Passeridae,House sparrow,1007046
-43,139,Spinach,Spinacia oleracea,,Plantae,Magnoliopsida,Caryophyllales,Amaranthaceae,Spinach,533381
-44,139,Giraffe,Giraffa camelopardalis,,Animalia,Mammalia,Artiodactyla,Giraffidae,Northern giraffe,101619
+43,139,Giraffe,Giraffa camelopardalis,,Animalia,Mammalia,Artiodactyla,Giraffidae,Giraffe,1725569
+44,139,Spinach,Spinacia oleracea,,Plantae,Magnoliopsida,Caryophyllales,Amaranthaceae,Spinach,533381
 45,138,Brown Bear,Ursus arctos,Grizzly; Grizzly Bear; Silvertip Bear,Animalia,Mammalia,Carnivora,Ursidae,Brown bear (+ Grizzly bear),3034368
 46,137,Common Raven,Corvus corax,Raven,Animalia,Aves,Passeriformes,Corvidae,Common raven,886625
 47,137,Common Sunflower,Helianthus annuus,,Plantae,Magnoliopsida,Asterales,Asteraceae,Common sunflower,819981
@@ -831,10 +831,10 @@ Rank_Swiki,Swiki (Languages),Common Name,Scientific Name,Alternative Names / Ali
 830,60,Pygmy Cormorant,Microcarbo pygmaeus,,Animalia,Aves,Suliformes,Phalacrocoracidae,Pygmy cormorant,26776
 831,60,White-backed Woodpecker,Dendrocopos leucotos,,Animalia,Aves,Piciformes,Picidae,White-backed woodpecker,21952
 832,60,Little Crake,Zapornia parva,,Animalia,Aves,Gruiformes,Rallidae,Little crake,15928
-833,59,Bull Shark,Carcharhinus leucas,,Animalia,Chondrichthyes,Carcharhiniformes,Carcharhinidae,Bull shark,985157
-834,59,American Mastodon,Mammut americanum,Mastodon,Animalia,Mammalia,Proboscidea,Mammutidae,Mastodon,682912
-835,59,Amur Leopard,Panthera pardus orientalis,,Animalia,Mammalia,Carnivora,Felidae,Amur leopard,443640
-836,59,Gorilla,Gorilla gorilla,Western Gorilla,Animalia,Mammalia,Primates,Hominidae,Western gorilla,341207
+833,59,Gorilla,Gorilla gorilla,Western Gorilla,Animalia,Mammalia,Primates,Hominidae,Gorilla (+ Western gorilla),2486342
+834,59,Bull Shark,Carcharhinus leucas,,Animalia,Chondrichthyes,Carcharhiniformes,Carcharhinidae,Bull shark,985157
+835,59,American Mastodon,Mammut americanum,Mastodon,Animalia,Mammalia,Proboscidea,Mammutidae,Mastodon,682912
+836,59,Amur Leopard,Panthera pardus orientalis,,Animalia,Mammalia,Carnivora,Felidae,Amur leopard,443640
 837,59,Rusty-spotted Cat,Prionailurus rubiginosus,,Animalia,Mammalia,Carnivora,Felidae,Rusty-spotted cat,329808
 838,59,European Garden Spider,Araneus diadematus,,Animalia,Arachnida,Araneae,Araneidae,Araneus diadematus,312807
 839,59,Golden Shower Tree,Cassia fistula,,Plantae,Magnoliopsida,Fabales,Fabaceae,Cassia fistula,309559
@@ -894,23 +894,23 @@ Rank_Swiki,Swiki (Languages),Common Name,Scientific Name,Alternative Names / Ali
 893,58,Lapland Longspur,Calcarius lapponicus,,Animalia,Aves,Passeriformes,Fringillidae,Lapland longspur,28233
 894,58,Icterine Warbler,Hippolais icterina,,Animalia,Aves,Passeriformes,Sylviidae,Icterine warbler,23826
 895,58,Isabelline Wheatear,Oenanthe isabellina,,Animalia,Aves,Passeriformes,Muscicapidae,Isabelline wheatear,14158
-896,57,Steller's Sea Cow,Hydrodamalis gigas,,Animalia,Mammalia,Sirenia,Dugongidae,Steller's sea cow,605958
-897,57,Squirrel,Sciurus carolinensis,Eastern Gray Squirrel; Gray Squirrel,Animalia,Mammalia,Rodentia,Sciuridae,Eastern gray squirrel,497890
-898,57,Olm,Proteus anguinus,Olm Salamander,Animalia,Amphibia,Caudata,Proteidae,Olm,445142
-899,57,Asian Tiger Mosquito,Aedes albopictus,,Animalia,Insecta,Diptera,Culicidae,Aedes albopictus,434605
-900,57,Giant Otter,Pteronura brasiliensis,,Animalia,Mammalia,Carnivora,Mustelidae,Giant otter,420935
-901,57,American Badger,Taxidea taxus,,Animalia,Mammalia,Carnivora,Mustelidae,American badger,393425
-902,57,Yellow Fever Mosquito,Aedes aegypti,,Animalia,Insecta,Diptera,Culicidae,Aedes aegypti,387941
-903,57,Roselle,Hibiscus sabdariffa,,Plantae,Magnoliopsida,Malvales,Malvaceae,Roselle (plant),367402
-904,57,Orangutan,Pongo pygmaeus,Bornean Orangutan,Animalia,Mammalia,Primates,Hominidae,Bornean orangutan,353801
-905,57,Turbot,Scophthalmus maximus,,Animalia,Actinopteri,Pleuronectiformes,Scophthalmidae,Turbot,347283
-906,57,Titan Arum,Amorphophallus titanum,,Plantae,Magnoliopsida,Alismatales,Araceae,Amorphophallus titanum,281918
-907,57,Asiatic Tapir,Tapirus indicus,Malayan Tapir,Animalia,Mammalia,Perissodactyla,Tapiridae,Malayan tapir,266674
-908,57,Numbat,Myrmecobius fasciatus,,Animalia,Mammalia,Dasyuromorphia,Myrmecobiidae,Numbat,258777
-909,57,Great Hornbill,Buceros bicornis,,Animalia,Aves,Bucerotiformes,Bucerotidae,Great hornbill,241727
-910,57,Resplendent Quetzal,Pharomachrus mocinno,,Animalia,Aves,Trogoniformes,Trogonidae,Resplendent quetzal,226987
-911,57,Sulfur-crested Cockatoo,Cacatua galerita,Sulphur-Crested Cockatoo,Animalia,Aves,Psittaciformes,Cacatuidae,Sulphur-crested cockatoo,224753
-912,57,Arapaima,Arapaima gigas,,Animalia,Actinopteri,Osteoglossiformes,Osteoglossidae,Arapaima gigas,196262
+896,57,Orangutan,Pongo pygmaeus,Bornean Orangutan,Animalia,Mammalia,Primates,Hominidae,Orangutan (+ Bornean orangutan),1886395
+897,57,Steller's Sea Cow,Hydrodamalis gigas,,Animalia,Mammalia,Sirenia,Dugongidae,Steller's sea cow,605958
+898,57,Arapaima,Arapaima gigas,,Animalia,Actinopteri,Osteoglossiformes,Osteoglossidae,Arapaima,603950
+899,57,Squirrel,Sciurus carolinensis,Eastern Gray Squirrel; Gray Squirrel,Animalia,Mammalia,Rodentia,Sciuridae,Eastern gray squirrel,497890
+900,57,Olm,Proteus anguinus,Olm Salamander,Animalia,Amphibia,Caudata,Proteidae,Olm,445142
+901,57,Asian Tiger Mosquito,Aedes albopictus,,Animalia,Insecta,Diptera,Culicidae,Aedes albopictus,434605
+902,57,Giant Otter,Pteronura brasiliensis,,Animalia,Mammalia,Carnivora,Mustelidae,Giant otter,420935
+903,57,American Badger,Taxidea taxus,,Animalia,Mammalia,Carnivora,Mustelidae,American badger,393425
+904,57,Yellow Fever Mosquito,Aedes aegypti,,Animalia,Insecta,Diptera,Culicidae,Aedes aegypti,387941
+905,57,Roselle,Hibiscus sabdariffa,,Plantae,Magnoliopsida,Malvales,Malvaceae,Roselle (plant),367402
+906,57,Turbot,Scophthalmus maximus,,Animalia,Actinopteri,Pleuronectiformes,Scophthalmidae,Turbot,347283
+907,57,Titan Arum,Amorphophallus titanum,,Plantae,Magnoliopsida,Alismatales,Araceae,Amorphophallus titanum,281918
+908,57,Asiatic Tapir,Tapirus indicus,Malayan Tapir,Animalia,Mammalia,Perissodactyla,Tapiridae,Malayan tapir,266674
+909,57,Numbat,Myrmecobius fasciatus,,Animalia,Mammalia,Dasyuromorphia,Myrmecobiidae,Numbat,258777
+910,57,Great Hornbill,Buceros bicornis,,Animalia,Aves,Bucerotiformes,Bucerotidae,Great hornbill,241727
+911,57,Resplendent Quetzal,Pharomachrus mocinno,,Animalia,Aves,Trogoniformes,Trogonidae,Resplendent quetzal,226987
+912,57,Sulfur-crested Cockatoo,Cacatua galerita,Sulphur-Crested Cockatoo,Animalia,Aves,Psittaciformes,Cacatuidae,Sulphur-crested cockatoo,224753
 913,57,Brindled Gnu,Connochaetes taurinus,Blue Wildebeest,Animalia,Mammalia,Artiodactyla,Bovidae,Blue wildebeest,188304
 914,57,Ringed Seal,Pusa hispida,,Animalia,Mammalia,Carnivora,Phocidae,Ringed seal,186696
 915,57,Galapagos Penguin,Spheniscus mendiculus,,Animalia,Aves,Sphenisciformes,Spheniscidae,Galapagos penguin,183046
@@ -1593,36 +1593,36 @@ Rank_Swiki,Swiki (Languages),Common Name,Scientific Name,Alternative Names / Ali
 1592,46,Meadow Pea,Lathyrus pratensis,,Plantae,Magnoliopsida,Fabales,Fabaceae,Lathyrus pratensis,13085
 1593,46,Pine Bunting,Emberiza leucocephalos,,Animalia,Aves,Passeriformes,Fringillidae,Pine bunting,10550
 1594,46,Small Copper,Lucia limbaria,,Animalia,Insecta,Lepidoptera,Lycaenidae,Lycaena phlaeas,832
-1595,45,Mourning Dove,Zenaida macroura,,Animalia,Aves,Columbiformes,Columbidae,Mourning dove,798238
-1596,45,Russell's Viper,Daboia russelii,,Animalia,Lepidosauria,Squamata,Viperidae,Russell's viper,643168
-1597,45,Red-tailed Hawk,Buteo jamaicensis,,Animalia,Aves,Accipitriformes,Accipitridae,Red-tailed hawk,633170
-1598,45,Boomslang,Dispholidus typus,,Animalia,Lepidosauria,Squamata,Colubridae,Boomslang,543397
-1599,45,Lions Mane Jellyfish,Cyanea capillata,Lion'S Mane Jellyfish,Animalia,Scyphozoa,Semaeostomeae,Cyaneidae,Lion's mane jellyfish,499176
-1600,45,Shortfin Mako Shark,Isurus oxyrinchus,Mako; Mako Shark,Animalia,Chondrichthyes,Lamniformes,Lamnidae,Shortfin mako shark,473149
-1601,45,Alligator Snapping Turtle,Macrochelys temminckii,,Animalia,Chordata Incertae Sedis,Testudines,Chelydridae,Alligator snapping turtle,437400
-1602,45,Megamouth Shark,Megachasma pelagios,,Animalia,Chondrichthyes,Lamniformes,Megachasmidae,Megamouth shark,408724
-1603,45,River Otter,Lontra canadensis,North American River Otter; Northern American River Otter,Animalia,Mammalia,Carnivora,Mustelidae,North American river otter,405724
-1604,45,Leopard Gecko,Eublepharis macularius,,Animalia,Lepidosauria,Squamata,Eublepharidae,Leopard gecko,330860
-1605,45,American Anhinga,Anhinga anhinga,,Animalia,Aves,Suliformes,Anhingidae,Anhinga,260929
-1606,45,Atlas Moth,Attacus atlas,,Animalia,Insecta,Lepidoptera,Saturniidae,Attacus atlas,245724
-1607,45,German Evening Primrose,Oenothera biennis,,Plantae,Magnoliopsida,Myrtales,Onagraceae,Oenothera biennis,241471
-1608,45,Finger Millet,Eleusine coracana,,Plantae,Magnoliopsida,Poales,Poaceae,Finger millet,222735
-1609,45,Japanese Serow,Capricornis crispus,,Animalia,Mammalia,Artiodactyla,Bovidae,Japanese serow,214212
-1610,45,Chebulic Myrobalan,Terminalia chebula,,Plantae,Magnoliopsida,Myrtales,Combretaceae,Terminalia chebula,190444
-1611,45,Amazon Water-lily,Victoria amazonica,,Plantae,Magnoliopsida,Nymphaeales,Nymphaeaceae,Victoria amazonica,158371
-1612,45,African Rock Python,Python sebae,,Animalia,Lepidosauria,Squamata,Pythonidae,Central African rock python,149882
-1613,45,Bufflehead,Bucephala albeola,,Animalia,Aves,Anseriformes,Anatidae,Bufflehead,146926
-1614,45,Chum Salmon,Oncorhynchus keta,,Animalia,Actinopteri,Salmoniformes,Salmonidae,Chum salmon,144854
-1615,45,Degu,Octodon degus,Common Degu,Animalia,Mammalia,Rodentia,Octodontidae,Common degu,144445
-1616,45,Bugle,Ajuga reptans,,Plantae,Magnoliopsida,Lamiales,Lamiaceae,Ajuga reptans,141413
-1617,45,Magnificent Frigatebird,Fregata magnificens,,Animalia,Aves,Suliformes,Fregatidae,Magnificent frigatebird,138409
-1618,45,Giant Armadillo,Priodontes maximus,,Animalia,Mammalia,Cingulata,Chlamyphoridae,Giant armadillo,135059
-1619,45,Nile Tilapia,Oreochromis niloticus,,Animalia,Actinopteri,Cichliformes,Cichlidae,Nile tilapia,133600
-1620,45,Giant Forest Hog,Hylochoerus meinertzhageni,,Animalia,Mammalia,Artiodactyla,Suidae,Giant forest hog,132409
-1621,45,Snowy Egret,Egretta thula,,Animalia,Aves,Pelecaniformes,Ardeidae,Snowy egret,124849
-1622,45,Brazilwood,Paubrasilia echinata,,Plantae,Magnoliopsida,Fabales,Fabaceae,Paubrasilia,122694
-1623,45,Bay Cat,Catopuma badia,,Animalia,Mammalia,Carnivora,Felidae,Bay cat,116840
-1624,45,Coelacanth,Latimeria chalumnae,West Indian Ocean Coelacanth,Animalia,Chordata Incertae Sedis,Coelacanthiformes,Coelacanthidae,West Indian Ocean coelacanth,114531
+1595,45,Coelacanth,Latimeria chalumnae,West Indian Ocean Coelacanth,Animalia,Chordata Incertae Sedis,Coelacanthiformes,Coelacanthidae,Coelacanth,1271248
+1596,45,Mourning Dove,Zenaida macroura,,Animalia,Aves,Columbiformes,Columbidae,Mourning dove,798238
+1597,45,Russell's Viper,Daboia russelii,,Animalia,Lepidosauria,Squamata,Viperidae,Russell's viper,643168
+1598,45,Red-tailed Hawk,Buteo jamaicensis,,Animalia,Aves,Accipitriformes,Accipitridae,Red-tailed hawk,633170
+1599,45,Boomslang,Dispholidus typus,,Animalia,Lepidosauria,Squamata,Colubridae,Boomslang,543397
+1600,45,Lions Mane Jellyfish,Cyanea capillata,Lion'S Mane Jellyfish,Animalia,Scyphozoa,Semaeostomeae,Cyaneidae,Lion's mane jellyfish,499176
+1601,45,Shortfin Mako Shark,Isurus oxyrinchus,Mako; Mako Shark,Animalia,Chondrichthyes,Lamniformes,Lamnidae,Shortfin mako shark,473149
+1602,45,Alligator Snapping Turtle,Macrochelys temminckii,,Animalia,Chordata Incertae Sedis,Testudines,Chelydridae,Alligator snapping turtle,437400
+1603,45,Megamouth Shark,Megachasma pelagios,,Animalia,Chondrichthyes,Lamniformes,Megachasmidae,Megamouth shark,408724
+1604,45,River Otter,Lontra canadensis,North American River Otter; Northern American River Otter,Animalia,Mammalia,Carnivora,Mustelidae,North American river otter,405724
+1605,45,Leopard Gecko,Eublepharis macularius,,Animalia,Lepidosauria,Squamata,Eublepharidae,Leopard gecko,330860
+1606,45,American Anhinga,Anhinga anhinga,,Animalia,Aves,Suliformes,Anhingidae,Anhinga,260929
+1607,45,Atlas Moth,Attacus atlas,,Animalia,Insecta,Lepidoptera,Saturniidae,Attacus atlas,245724
+1608,45,German Evening Primrose,Oenothera biennis,,Plantae,Magnoliopsida,Myrtales,Onagraceae,Oenothera biennis,241471
+1609,45,Finger Millet,Eleusine coracana,,Plantae,Magnoliopsida,Poales,Poaceae,Finger millet,222735
+1610,45,Japanese Serow,Capricornis crispus,,Animalia,Mammalia,Artiodactyla,Bovidae,Japanese serow,214212
+1611,45,Chebulic Myrobalan,Terminalia chebula,,Plantae,Magnoliopsida,Myrtales,Combretaceae,Terminalia chebula,190444
+1612,45,Amazon Water-lily,Victoria amazonica,,Plantae,Magnoliopsida,Nymphaeales,Nymphaeaceae,Victoria amazonica,158371
+1613,45,African Rock Python,Python sebae,,Animalia,Lepidosauria,Squamata,Pythonidae,Central African rock python,149882
+1614,45,Bufflehead,Bucephala albeola,,Animalia,Aves,Anseriformes,Anatidae,Bufflehead,146926
+1615,45,Chum Salmon,Oncorhynchus keta,,Animalia,Actinopteri,Salmoniformes,Salmonidae,Chum salmon,144854
+1616,45,Degu,Octodon degus,Common Degu,Animalia,Mammalia,Rodentia,Octodontidae,Common degu,144445
+1617,45,Bugle,Ajuga reptans,,Plantae,Magnoliopsida,Lamiales,Lamiaceae,Ajuga reptans,141413
+1618,45,Magnificent Frigatebird,Fregata magnificens,,Animalia,Aves,Suliformes,Fregatidae,Magnificent frigatebird,138409
+1619,45,Giant Armadillo,Priodontes maximus,,Animalia,Mammalia,Cingulata,Chlamyphoridae,Giant armadillo,135059
+1620,45,Nile Tilapia,Oreochromis niloticus,,Animalia,Actinopteri,Cichliformes,Cichlidae,Nile tilapia,133600
+1621,45,Giant Forest Hog,Hylochoerus meinertzhageni,,Animalia,Mammalia,Artiodactyla,Suidae,Giant forest hog,132409
+1622,45,Snowy Egret,Egretta thula,,Animalia,Aves,Pelecaniformes,Ardeidae,Snowy egret,124849
+1623,45,Brazilwood,Paubrasilia echinata,,Plantae,Magnoliopsida,Fabales,Fabaceae,Paubrasilia,122694
+1624,45,Bay Cat,Catopuma badia,,Animalia,Mammalia,Carnivora,Felidae,Bay cat,116840
 1625,45,Monterey Pine,Pinus radiata,,Plantae,Pinopsida,Pinales,Pinaceae,Pinus radiata,107919
 1626,45,Victoria Crowned Pigeon,Goura victoria,Victoria Crowned-Pigeon,Animalia,Aves,Columbiformes,Columbidae,Victoria crowned pigeon,103943
 1627,45,Snapdragon,Antirrhinum majus,,Plantae,Magnoliopsida,Lamiales,Plantaginaceae,Antirrhinum majus,102596
@@ -2119,88 +2119,88 @@ Rank_Swiki,Swiki (Languages),Common Name,Scientific Name,Alternative Names / Ali
 2118,41,Lesser Short-toed Lark,Alaudala rufescens,,Animalia,Aves,Passeriformes,Alaudidae,Mediterranean short-toed lark,7505
 2119,41,Asian Desert Warbler,Sylvia nana,,Animalia,Aves,Passeriformes,Sylviidae,Asian desert warbler,934
 2120,41,Red Spider Mite,Tetranychus evansi,,Animalia,Arachnida,Trombidiformes,Tetranychidae,Tetranychus urticae,792
-2121,40,Goliath Birdeater,Theraphosa blondi,Goliath Birdeating Spider,Animalia,Arachnida,Araneae,Theraphosidae,Goliath birdeater,927102
-2122,40,Snake Plant,Sansevieria trifasciata,,Plantae,Magnoliopsida,Asparagales,Asparagaceae,Dracaena trifasciata,763874
-2123,40,Barred Owl,Strix varia,Northern Barred Owl,Animalia,Aves,Strigiformes,Strigidae,Barred owl,542460
-2124,40,Golden-capped Fruit Bat,Acerodon jubatus,Giant Golden-Crowned Flying Fox,Animalia,Mammalia,Chiroptera,Pteropodidae,Giant golden-crowned flying fox,488851
-2125,40,Common Snapping Turtle,Chelydra serpentina,,Animalia,Chordata Incertae Sedis,Testudines,Chelydridae,Common snapping turtle,476990
-2126,40,Lemon Shark,Negaprion brevirostris,,Animalia,Chondrichthyes,Carcharhiniformes,Carcharhinidae,Lemon shark,409996
-2127,40,American Sycamore,Platanus occidentalis,,Plantae,Magnoliopsida,Proteales,Platanaceae,Platanus occidentalis,366167
-2128,40,American Goldfinch,Spinus tristis,,Animalia,Aves,Passeriformes,Fringillidae,American goldfinch,356297
-2129,40,Nurse Shark,Ginglymostoma cirratum,,Animalia,Chondrichthyes,Orectolobiformes,Ginglymostomatidae,Nurse shark,320248
-2130,40,Chinook Salmon,Oncorhynchus tshawytscha,,Animalia,Actinopteri,Salmoniformes,Salmonidae,Chinook salmon,310349
-2131,40,Blue Crab,Callinectes sapidus,,Animalia,Malacostraca,Decapoda,Portunidae,Callinectes sapidus,265440
-2132,40,Giant Clam,Tridacna gigas,,Animalia,Bivalvia,Cardiida,Cardiidae,Giant clam,216232
-2133,40,Australian Brush-turkey,Alectura lathami,,Animalia,Aves,Galliformes,Megapodiidae,Australian brushturkey,187920
-2134,40,Pineapple Guava,Feijoa sellowiana,,Plantae,Magnoliopsida,Myrtales,Myrtaceae,Feijoa,180888
-2135,40,Porcelain Flower,Hoya carnosa,,Plantae,Magnoliopsida,Gentianales,Apocynaceae,Hoya carnosa,179913
-2136,40,Mongolian Gerbil,Meriones unguiculatus,,Animalia,Mammalia,Rodentia,Muridae,Mongolian gerbil,175110
-2137,40,Jojoba,Simmondsia chinensis,,Plantae,Magnoliopsida,Caryophyllales,Simmondsiaceae,Jojoba,168540
-2138,40,Mekong Giant Catfish,Pangasianodon gigas,,Animalia,Actinopteri,Siluriformes,Pangasiidae,Mekong giant catfish,166046
-2139,40,Giant Grouper,Epinephelus lanceolatus,,Animalia,Actinopteri,Perciformes,Serranidae,Giant grouper,155683
-2140,40,Saithe,Pollachius virens,,Animalia,Actinopteri,Gadiformes,Gadidae,Pollachius virens,144956
-2141,40,Surinam Cherry,Eugenia uniflora,,Plantae,Magnoliopsida,Myrtales,Myrtaceae,Eugenia uniflora,133345
-2142,40,Winged Bean,Psophocarpus tetragonolobus,,Plantae,Magnoliopsida,Fabales,Fabaceae,Winged bean,133082
-2143,40,Cluster Fig,Ficus racemosa,,Plantae,Magnoliopsida,Rosales,Moraceae,Ficus racemosa,131298
-2144,40,Tabasco Pepper,Capsicum frutescens,,Plantae,Magnoliopsida,Solanales,Solanaceae,Capsicum frutescens,131276
-2145,40,Dusky Dolphin,Sagmatias obscurus,,Animalia,Mammalia,Artiodactyla,Delphinidae,Dusky dolphin,130443
-2146,40,Red-headed Woodpecker,Melanerpes erythrocephalus,,Animalia,Aves,Piciformes,Picidae,Red-headed woodpecker,130066
-2147,40,Tufted Puffin,Fratercula cirrhata,,Animalia,Aves,Charadriiformes,Alcidae,Tufted puffin,126874
-2148,40,China Jute,Abutilon theophrasti,,Plantae,Magnoliopsida,Malvales,Malvaceae,Abutilon theophrasti,124541
-2149,40,Large Flying Fox,Pteropus vampyrus,,Animalia,Mammalia,Chiroptera,Pteropodidae,Large flying fox,121639
-2150,40,Hindu Datura,Datura metel,,Plantae,Magnoliopsida,Solanales,Solanaceae,Datura metel,121330
-2151,40,Australian Raven,Corvus coronoides,,Animalia,Aves,Passeriformes,Corvidae,Australian raven,121243
-2152,40,Eastern Chipmunk,Tamias striatus,,Animalia,Mammalia,Rodentia,Sciuridae,Eastern chipmunk,118094
-2153,40,Aspic Viper,Vipera aspis,,Animalia,Lepidosauria,Squamata,Viperidae,Vipera aspis,117659
-2154,40,Angled Luffa,Luffa acutangula,,Plantae,Magnoliopsida,Cucurbitales,Cucurbitaceae,Luffa acutangula,117290
-2155,40,Paper Birch,Betula papyrifera,,Plantae,Magnoliopsida,Fagales,Betulaceae,Betula papyrifera,115555
-2156,40,Great Barracuda,Sphyraena barracuda,,Animalia,Actinopteri,Sphyraenidae Allies,Sphyraenidae,Great barracuda,113177
-2157,40,Yellow-tailed Black-cockatoo,Zanda funerea,,Animalia,Aves,Psittaciformes,Cacatuidae,Yellow-tailed black cockatoo,106241
-2158,40,Yacare Caiman,Caiman yacare,,Animalia,Chordata Incertae Sedis,Crocodylia,Alligatoridae,Yacare caiman,104589
-2159,40,Egyptian Rousette,Rousettus aegyptiacus,,Animalia,Mammalia,Chiroptera,Pteropodidae,Egyptian fruit bat,99793
-2160,40,Superb Lyrebird,Menura novaehollandiae,,Animalia,Aves,Passeriformes,Menuridae,Superb lyrebird,99137
-2161,40,Common Wall Lizard,Podarcis muralis,,Animalia,Lepidosauria,Squamata,Lacertidae,Podarcis muralis,97581
-2162,40,Leopard Tortoise,Stigmochelys pardalis,,Animalia,Chordata Incertae Sedis,Testudines,Testudinidae,Leopard tortoise,92729
-2163,40,Tufted Capuchin,Sapajus apella,,Animalia,Mammalia,Primates,Cebidae,Tufted capuchin,92326
-2164,40,Bushpig,Potamochoerus larvatus,,Animalia,Mammalia,Artiodactyla,Suidae,Bushpig,91507
-2165,40,Peppered Moth,Biston betularia,Pepper-And-Salt Moth,Animalia,Insecta,Lepidoptera,Geometridae,Peppered moth,90773
-2166,40,Winter Cress,Barbarea vulgaris,,Plantae,Magnoliopsida,Brassicales,Brassicaceae,Barbarea vulgaris,87724
-2167,40,Western Gray Kangaroo,Macropus fuliginosus,Western Grey Kangaroo,Animalia,Mammalia,Diprotodontia,Macropodidae,Western grey kangaroo,87224
-2168,40,Pygmy Three-toed Sloth,Bradypus pygmaeus,,Animalia,Mammalia,Pilosa,Bradypodidae,Pygmy three-toed sloth,85594
-2169,40,Zebra Dove,Geopelia striata,,Animalia,Aves,Columbiformes,Columbidae,Zebra dove,84129
-2170,40,Birdeye Speedwell,Veronica persica,,Plantae,Magnoliopsida,Lamiales,Plantaginaceae,Veronica persica,82658
-2171,40,Bur-marigold,Bidens pilosa,,Plantae,Magnoliopsida,Asterales,Asteraceae,Bidens pilosa,82450
-2172,40,Climbing Perch,Anabas testudineus,,Animalia,Actinopteri,Anabantiformes,Anabantidae,Anabas testudineus,81089
-2173,40,Emerald Tree Boa,Corallus caninus,,Animalia,Lepidosauria,Squamata,Boidae,Emerald tree boa,80294
-2174,40,Japanese Kerria,Kerria japonica,,Plantae,Magnoliopsida,Rosales,Rosaceae,Kerria japonica,79778
-2175,40,Silky Shark,Carcharhinus falciformis,,Animalia,Chondrichthyes,Carcharhiniformes,Carcharhinidae,Silky shark,77703
-2176,40,Canvasback,Aythya valisineria,,Animalia,Aves,Anseriformes,Anatidae,Canvasback,71745
-2177,40,Verreaux's Eagle,Aquila verreauxii,,Animalia,Aves,Accipitriformes,Accipitridae,Verreaux's eagle,71576
-2178,40,Raggiana Bird of Paradise,Paradisaea raggiana,Raggiana Bird-Of-Paradise,Animalia,Aves,Passeriformes,Paradisaeidae,Raggiana bird-of-paradise,70003
-2179,40,Bearded Pig,Sus barbatus,,Animalia,Mammalia,Artiodactyla,Suidae,Bornean bearded pig,68639
-2180,40,Bead Tree,Adenanthera pavonina,,Plantae,Magnoliopsida,Fabales,Fabaceae,Adenanthera pavonina,68517
-2181,40,Hispaniolan Solenodon,Solenodon paradoxus,,Animalia,Mammalia,Eulipotyphla,Solenodontidae,Hispaniolan solenodon,66415
-2182,40,Spitting Cobra,Naja nigricollis,,Animalia,Lepidosauria,Squamata,Elapidae,Black-necked spitting cobra,64908
-2183,40,Swamp Wallaby,Wallabia bicolor,,Animalia,Mammalia,Diprotodontia,Macropodidae,Swamp wallaby,64443
-2184,40,Sicilian Sumac,Rhus coriaria,,Plantae,Magnoliopsida,Sapindales,Anacardiaceae,Rhus coriaria,64182
-2185,40,Bald Uakari,Cacajao calvus,,Animalia,Mammalia,Primates,Pitheciidae,Bald uakari,62754
-2186,40,Redhead,Aythya americana,,Animalia,Aves,Anseriformes,Anatidae,Redhead (bird),62211
-2187,40,Changeable Hawk-eagle,Nisaetus cirrhatus,,Animalia,Aves,Accipitriformes,Accipitridae,Changeable hawk-eagle,62176
-2188,40,Horned Screamer,Anhima cornuta,,Animalia,Aves,Anseriformes,Anhimidae,Horned screamer,58122
-2189,40,Black Skimmer,Rynchops niger,,Animalia,Aves,Charadriiformes,Laridae,Black skimmer,57786
-2190,40,Apple Mint,Mentha suaveolens,,Plantae,Magnoliopsida,Lamiales,Lamiaceae,Mentha suaveolens,57214
-2191,40,Indigo Macaw,Anodorhynchus leari,,Animalia,Aves,Psittaciformes,Psittacidae,Lear's macaw,56593
-2192,40,Short-tailed Shearwater,Ardenna tenuirostris,,Animalia,Aves,Procellariiformes,Procellariidae,Short-tailed shearwater,56363
-2193,40,Tarbagan Marmot,Marmota sibirica,,Animalia,Mammalia,Rodentia,Sciuridae,Tarbagan marmot,51427
-2194,40,Antarctic Minke Whale,Balaenoptera bonaerensis,,Animalia,Mammalia,Artiodactyla,Balaenopteridae,Antarctic minke whale,50183
-2195,40,Dwarf Gourami,Trichogaster lalius,,Animalia,Actinopteri,Anabantiformes,Osphronemidae,Dwarf gourami,50167
-2196,40,Chinchilla,Chinchilla lanigera,Long-Tailed Chinchilla,Animalia,Mammalia,Rodentia,Chinchillidae,Long-tailed chinchilla,49924
-2197,40,Japanese Marten,Martes melampus,,Animalia,Mammalia,Carnivora,Mustelidae,Japanese marten,49135
-2198,40,Common Chameleon,Chamaeleo chamaeleon,,Animalia,Lepidosauria,Squamata,Chamaeleonidae,Common chameleon,47034
-2199,40,Speckled Wood Butterfly,Pararge aegeria,,Animalia,Insecta,Lepidoptera,Nymphalidae,Speckled wood (butterfly),46343
-2200,40,Spotted-necked Otter,Hydrictis maculicollis,,Animalia,Mammalia,Carnivora,Mustelidae,Spotted-necked otter,45283
-2201,40,Yellow-backed Duiker,Cephalophus silvicultor,,Animalia,Mammalia,Artiodactyla,Bovidae,Yellow-backed duiker,45253
-2202,40,Sloth,Bradypus tridactylus,Pale-Throated Sloth,Animalia,Mammalia,Pilosa,Bradypodidae,Pale-throated sloth,44587
+2121,40,Sloth,Bradypus tridactylus,Pale-Throated Sloth,Animalia,Mammalia,Pilosa,Bradypodidae,Sloth (+ Pale-throated sloth),1185387
+2122,40,Goliath Birdeater,Theraphosa blondi,Goliath Birdeating Spider,Animalia,Arachnida,Araneae,Theraphosidae,Goliath birdeater,927102
+2123,40,Chinchilla,Chinchilla lanigera,Long-Tailed Chinchilla,Animalia,Mammalia,Rodentia,Chinchillidae,Chinchilla (+ Long-tailed chinchilla),911152
+2124,40,Snake Plant,Sansevieria trifasciata,,Plantae,Magnoliopsida,Asparagales,Asparagaceae,Dracaena trifasciata,763874
+2125,40,Barred Owl,Strix varia,Northern Barred Owl,Animalia,Aves,Strigiformes,Strigidae,Barred owl,542460
+2126,40,Golden-capped Fruit Bat,Acerodon jubatus,Giant Golden-Crowned Flying Fox,Animalia,Mammalia,Chiroptera,Pteropodidae,Giant golden-crowned flying fox,488851
+2127,40,Common Snapping Turtle,Chelydra serpentina,,Animalia,Chordata Incertae Sedis,Testudines,Chelydridae,Common snapping turtle,476990
+2128,40,Lemon Shark,Negaprion brevirostris,,Animalia,Chondrichthyes,Carcharhiniformes,Carcharhinidae,Lemon shark,409996
+2129,40,American Sycamore,Platanus occidentalis,,Plantae,Magnoliopsida,Proteales,Platanaceae,Platanus occidentalis,366167
+2130,40,American Goldfinch,Spinus tristis,,Animalia,Aves,Passeriformes,Fringillidae,American goldfinch,356297
+2131,40,Nurse Shark,Ginglymostoma cirratum,,Animalia,Chondrichthyes,Orectolobiformes,Ginglymostomatidae,Nurse shark,320248
+2132,40,Chinook Salmon,Oncorhynchus tshawytscha,,Animalia,Actinopteri,Salmoniformes,Salmonidae,Chinook salmon,310349
+2133,40,Blue Crab,Callinectes sapidus,,Animalia,Malacostraca,Decapoda,Portunidae,Callinectes sapidus,265440
+2134,40,Giant Clam,Tridacna gigas,,Animalia,Bivalvia,Cardiida,Cardiidae,Giant clam,216232
+2135,40,Australian Brush-turkey,Alectura lathami,,Animalia,Aves,Galliformes,Megapodiidae,Australian brushturkey,187920
+2136,40,Pineapple Guava,Feijoa sellowiana,,Plantae,Magnoliopsida,Myrtales,Myrtaceae,Feijoa,180888
+2137,40,Porcelain Flower,Hoya carnosa,,Plantae,Magnoliopsida,Gentianales,Apocynaceae,Hoya carnosa,179913
+2138,40,Mongolian Gerbil,Meriones unguiculatus,,Animalia,Mammalia,Rodentia,Muridae,Mongolian gerbil,175110
+2139,40,Jojoba,Simmondsia chinensis,,Plantae,Magnoliopsida,Caryophyllales,Simmondsiaceae,Jojoba,168540
+2140,40,Mekong Giant Catfish,Pangasianodon gigas,,Animalia,Actinopteri,Siluriformes,Pangasiidae,Mekong giant catfish,166046
+2141,40,Giant Grouper,Epinephelus lanceolatus,,Animalia,Actinopteri,Perciformes,Serranidae,Giant grouper,155683
+2142,40,Saithe,Pollachius virens,,Animalia,Actinopteri,Gadiformes,Gadidae,Pollachius virens,144956
+2143,40,Surinam Cherry,Eugenia uniflora,,Plantae,Magnoliopsida,Myrtales,Myrtaceae,Eugenia uniflora,133345
+2144,40,Winged Bean,Psophocarpus tetragonolobus,,Plantae,Magnoliopsida,Fabales,Fabaceae,Winged bean,133082
+2145,40,Cluster Fig,Ficus racemosa,,Plantae,Magnoliopsida,Rosales,Moraceae,Ficus racemosa,131298
+2146,40,Tabasco Pepper,Capsicum frutescens,,Plantae,Magnoliopsida,Solanales,Solanaceae,Capsicum frutescens,131276
+2147,40,Dusky Dolphin,Sagmatias obscurus,,Animalia,Mammalia,Artiodactyla,Delphinidae,Dusky dolphin,130443
+2148,40,Red-headed Woodpecker,Melanerpes erythrocephalus,,Animalia,Aves,Piciformes,Picidae,Red-headed woodpecker,130066
+2149,40,Tufted Puffin,Fratercula cirrhata,,Animalia,Aves,Charadriiformes,Alcidae,Tufted puffin,126874
+2150,40,China Jute,Abutilon theophrasti,,Plantae,Magnoliopsida,Malvales,Malvaceae,Abutilon theophrasti,124541
+2151,40,Large Flying Fox,Pteropus vampyrus,,Animalia,Mammalia,Chiroptera,Pteropodidae,Large flying fox,121639
+2152,40,Hindu Datura,Datura metel,,Plantae,Magnoliopsida,Solanales,Solanaceae,Datura metel,121330
+2153,40,Australian Raven,Corvus coronoides,,Animalia,Aves,Passeriformes,Corvidae,Australian raven,121243
+2154,40,Eastern Chipmunk,Tamias striatus,,Animalia,Mammalia,Rodentia,Sciuridae,Eastern chipmunk,118094
+2155,40,Aspic Viper,Vipera aspis,,Animalia,Lepidosauria,Squamata,Viperidae,Vipera aspis,117659
+2156,40,Angled Luffa,Luffa acutangula,,Plantae,Magnoliopsida,Cucurbitales,Cucurbitaceae,Luffa acutangula,117290
+2157,40,Paper Birch,Betula papyrifera,,Plantae,Magnoliopsida,Fagales,Betulaceae,Betula papyrifera,115555
+2158,40,Great Barracuda,Sphyraena barracuda,,Animalia,Actinopteri,Sphyraenidae Allies,Sphyraenidae,Great barracuda,113177
+2159,40,Yellow-tailed Black-cockatoo,Zanda funerea,,Animalia,Aves,Psittaciformes,Cacatuidae,Yellow-tailed black cockatoo,106241
+2160,40,Yacare Caiman,Caiman yacare,,Animalia,Chordata Incertae Sedis,Crocodylia,Alligatoridae,Yacare caiman,104589
+2161,40,Egyptian Rousette,Rousettus aegyptiacus,,Animalia,Mammalia,Chiroptera,Pteropodidae,Egyptian fruit bat,99793
+2162,40,Superb Lyrebird,Menura novaehollandiae,,Animalia,Aves,Passeriformes,Menuridae,Superb lyrebird,99137
+2163,40,Common Wall Lizard,Podarcis muralis,,Animalia,Lepidosauria,Squamata,Lacertidae,Podarcis muralis,97581
+2164,40,Leopard Tortoise,Stigmochelys pardalis,,Animalia,Chordata Incertae Sedis,Testudines,Testudinidae,Leopard tortoise,92729
+2165,40,Tufted Capuchin,Sapajus apella,,Animalia,Mammalia,Primates,Cebidae,Tufted capuchin,92326
+2166,40,Bushpig,Potamochoerus larvatus,,Animalia,Mammalia,Artiodactyla,Suidae,Bushpig,91507
+2167,40,Peppered Moth,Biston betularia,Pepper-And-Salt Moth,Animalia,Insecta,Lepidoptera,Geometridae,Peppered moth,90773
+2168,40,Winter Cress,Barbarea vulgaris,,Plantae,Magnoliopsida,Brassicales,Brassicaceae,Barbarea vulgaris,87724
+2169,40,Western Gray Kangaroo,Macropus fuliginosus,Western Grey Kangaroo,Animalia,Mammalia,Diprotodontia,Macropodidae,Western grey kangaroo,87224
+2170,40,Pygmy Three-toed Sloth,Bradypus pygmaeus,,Animalia,Mammalia,Pilosa,Bradypodidae,Pygmy three-toed sloth,85594
+2171,40,Zebra Dove,Geopelia striata,,Animalia,Aves,Columbiformes,Columbidae,Zebra dove,84129
+2172,40,Birdeye Speedwell,Veronica persica,,Plantae,Magnoliopsida,Lamiales,Plantaginaceae,Veronica persica,82658
+2173,40,Bur-marigold,Bidens pilosa,,Plantae,Magnoliopsida,Asterales,Asteraceae,Bidens pilosa,82450
+2174,40,Climbing Perch,Anabas testudineus,,Animalia,Actinopteri,Anabantiformes,Anabantidae,Anabas testudineus,81089
+2175,40,Emerald Tree Boa,Corallus caninus,,Animalia,Lepidosauria,Squamata,Boidae,Emerald tree boa,80294
+2176,40,Japanese Kerria,Kerria japonica,,Plantae,Magnoliopsida,Rosales,Rosaceae,Kerria japonica,79778
+2177,40,Silky Shark,Carcharhinus falciformis,,Animalia,Chondrichthyes,Carcharhiniformes,Carcharhinidae,Silky shark,77703
+2178,40,Canvasback,Aythya valisineria,,Animalia,Aves,Anseriformes,Anatidae,Canvasback,71745
+2179,40,Verreaux's Eagle,Aquila verreauxii,,Animalia,Aves,Accipitriformes,Accipitridae,Verreaux's eagle,71576
+2180,40,Raggiana Bird of Paradise,Paradisaea raggiana,Raggiana Bird-Of-Paradise,Animalia,Aves,Passeriformes,Paradisaeidae,Raggiana bird-of-paradise,70003
+2181,40,Bearded Pig,Sus barbatus,,Animalia,Mammalia,Artiodactyla,Suidae,Bornean bearded pig,68639
+2182,40,Bead Tree,Adenanthera pavonina,,Plantae,Magnoliopsida,Fabales,Fabaceae,Adenanthera pavonina,68517
+2183,40,Hispaniolan Solenodon,Solenodon paradoxus,,Animalia,Mammalia,Eulipotyphla,Solenodontidae,Hispaniolan solenodon,66415
+2184,40,Spitting Cobra,Naja nigricollis,,Animalia,Lepidosauria,Squamata,Elapidae,Black-necked spitting cobra,64908
+2185,40,Swamp Wallaby,Wallabia bicolor,,Animalia,Mammalia,Diprotodontia,Macropodidae,Swamp wallaby,64443
+2186,40,Sicilian Sumac,Rhus coriaria,,Plantae,Magnoliopsida,Sapindales,Anacardiaceae,Rhus coriaria,64182
+2187,40,Bald Uakari,Cacajao calvus,,Animalia,Mammalia,Primates,Pitheciidae,Bald uakari,62754
+2188,40,Redhead,Aythya americana,,Animalia,Aves,Anseriformes,Anatidae,Redhead (bird),62211
+2189,40,Changeable Hawk-eagle,Nisaetus cirrhatus,,Animalia,Aves,Accipitriformes,Accipitridae,Changeable hawk-eagle,62176
+2190,40,Horned Screamer,Anhima cornuta,,Animalia,Aves,Anseriformes,Anhimidae,Horned screamer,58122
+2191,40,Black Skimmer,Rynchops niger,,Animalia,Aves,Charadriiformes,Laridae,Black skimmer,57786
+2192,40,Apple Mint,Mentha suaveolens,,Plantae,Magnoliopsida,Lamiales,Lamiaceae,Mentha suaveolens,57214
+2193,40,Indigo Macaw,Anodorhynchus leari,,Animalia,Aves,Psittaciformes,Psittacidae,Lear's macaw,56593
+2194,40,Short-tailed Shearwater,Ardenna tenuirostris,,Animalia,Aves,Procellariiformes,Procellariidae,Short-tailed shearwater,56363
+2195,40,Tarbagan Marmot,Marmota sibirica,,Animalia,Mammalia,Rodentia,Sciuridae,Tarbagan marmot,51427
+2196,40,Antarctic Minke Whale,Balaenoptera bonaerensis,,Animalia,Mammalia,Artiodactyla,Balaenopteridae,Antarctic minke whale,50183
+2197,40,Dwarf Gourami,Trichogaster lalius,,Animalia,Actinopteri,Anabantiformes,Osphronemidae,Dwarf gourami,50167
+2198,40,Japanese Marten,Martes melampus,,Animalia,Mammalia,Carnivora,Mustelidae,Japanese marten,49135
+2199,40,Common Chameleon,Chamaeleo chamaeleon,,Animalia,Lepidosauria,Squamata,Chamaeleonidae,Common chameleon,47034
+2200,40,Speckled Wood Butterfly,Pararge aegeria,,Animalia,Insecta,Lepidoptera,Nymphalidae,Speckled wood (butterfly),46343
+2201,40,Spotted-necked Otter,Hydrictis maculicollis,,Animalia,Mammalia,Carnivora,Mustelidae,Spotted-necked otter,45283
+2202,40,Yellow-backed Duiker,Cephalophus silvicultor,,Animalia,Mammalia,Artiodactyla,Bovidae,Yellow-backed duiker,45253
 2203,40,Toque Macaque,Macaca sinica,,Animalia,Mammalia,Primates,Cercopithecidae,Toque macaque,42556
 2204,40,Cuban Red Macaw,Ara tricolor,,Animalia,Aves,Psittaciformes,Psittacidae,Cuban macaw,42247
 2205,40,Banded Linsang,Prionodon linsang,,Animalia,Mammalia,Carnivora,Viverridae,Banded linsang,42194
@@ -24089,9 +24089,9 @@ Rank_Swiki,Swiki (Languages),Common Name,Scientific Name,Alternative Names / Ali
 24088,8,Virgin Tiger Moth,Apantesis virgo,,Animalia,Insecta,Lepidoptera,Erebidae,Apantesis virgo,184
 24089,8,Lancet Clubtail,Gomphus exilis,,Animalia,Insecta,Odonata,Gomphidae,Phanogomphus exilis,129
 24090,8,Green Blenny,Brockius striatus,,Animalia,Actinopteri,Blenniiformes,Labrisomidae,Brockius striatus,71
-24091,7,Cicada Killer,Sphecius speciosus,,Animalia,Insecta,Hymenoptera,Crabronidae,Sphecius speciosus,325719
-24092,7,Tarantula Hawk,Pepsis grossa,,Animalia,Insecta,Hymenoptera,Pompilidae,Pepsis grossa,90801
-24093,7,Dingo,Canis lupus dingo,Grey Wolf,Animalia,Mammalia,Carnivora,Canidae,Canis lupus dingo,71754
+24091,7,Dingo,Canis lupus dingo,Grey Wolf,Animalia,Mammalia,Carnivora,Canidae,Dingo,1337486
+24092,7,Cicada Killer,Sphecius speciosus,,Animalia,Insecta,Hymenoptera,Crabronidae,Sphecius speciosus,325719
+24093,7,Tarantula Hawk,Pepsis grossa,,Animalia,Insecta,Hymenoptera,Pompilidae,Pepsis grossa,90801
 24094,7,Honeyvine,Cynanchum laeve,,Plantae,Magnoliopsida,Gentianales,Apocynaceae,Cynanchum laeve,45076
 24095,7,Pennsylvania Wood Cockroach,Parcoblatta pensylvanica,,Animalia,Insecta,Blattodea,Blattellidae,Pennsylvania wood cockroach,36722
 24096,7,Gray Brocket,Subulo gouazoubira,,Animalia,Mammalia,Artiodactyla,Cervidae,Gray brocket,31145
