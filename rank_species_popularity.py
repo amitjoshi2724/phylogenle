@@ -500,7 +500,7 @@ def main():
     print(f"Step 2B complete: Discovered {extra_articles_count} exclusive standalone articles for Option B rollup.")
 
     # Step 3: Fetch Wikipedia cumulative pageviews (Vwiki)
-    # Target species that don't have current period data OR were recorded with 0 views
+    # Target species that don't have current period data OR have suspicious/falsely low views (<= 10)
     print(f"\nStep 3: Checking Wikipedia {DATE_LABEL} cumulative pageviews (Vwiki)...")
     need_views = []
     for s in species_data:
@@ -508,12 +508,15 @@ def main():
         rec = cache.get(sci, {})
         en_title = rec.get("en_title")
         if en_title:
-            is_falsely_zero = (rec.get("vwiki", 0) == 0)
+            is_suspicious_views = (rec.get("vwiki", 0) <= 10)
             is_missing_period = (rec.get("vwiki_period") != CACHE_PERIOD_KEY)
-            if is_falsely_zero or is_missing_period:
+            if is_suspicious_views or is_missing_period:
                 need_views.append((sci, en_title, False))
+        else:
+            if rec.get("vwiki", 0) != 0:
+                rec["vwiki"] = 0
         for extra_t, eviews in rec.get("extra_articles", {}).items():
-            if eviews == 0 or rec.get("vwiki_period") != CACHE_PERIOD_KEY:
+            if eviews <= 10 or rec.get("vwiki_period") != CACHE_PERIOD_KEY:
                 need_views.append((sci, extra_t, True))
 
     unique_titles = {}
@@ -650,14 +653,29 @@ def main():
             "en_title": full_title,
         })
 
-    # Sort 1: By Swiki descending (primary: swiki, secondary: vwiki, tertiary: common name)
-    by_swiki = sorted(all_ranked, key=lambda x: (x["swiki"], x["vwiki"], x["common"]), reverse=True)
+    # Filter out entries with <= 1 language or <= 1 pageview, and blank titles
+    # 1. By Swiki: Species with established cross-language presence and verified English article (Swiki > 1 and Vwiki > 1)
+    by_swiki = sorted(
+        [item for item in all_ranked if item.get("swiki", 0) > 1 and item.get("vwiki", 0) > 1 and bool(item.get("en_title", "").strip())],
+        key=lambda x: (x["swiki"], x["vwiki"], x["common"]),
+        reverse=True
+    )
+    swiki_ranks = {item["scientific"]: r + 1 for r, item in enumerate(by_swiki)}
 
-    # Sort 2: By Vwiki descending (primary: vwiki, secondary: swiki, tertiary: common name)
-    by_vwiki = sorted(all_ranked, key=lambda x: (x["vwiki"], x["swiki"], x["common"]), reverse=True)
-
-    # Compute ranks
+    # 2. By Vwiki: Species with verified English Wikipedia articles and traffic (Vwiki > 1, Swiki > 1, and non-blank title)
+    by_vwiki = sorted(
+        [item for item in all_ranked if item.get("vwiki", 0) > 1 and item.get("swiki", 0) > 1 and bool(item.get("en_title", "").strip())],
+        key=lambda x: (x["vwiki"], x["swiki"], x["common"]),
+        reverse=True
+    )
     vwiki_ranks = {item["scientific"]: r + 1 for r, item in enumerate(by_vwiki)}
+
+    # 3. Combined: Species with verified presence in both metrics (Swiki > 1 and Vwiki > 1)
+    combined_candidates = [
+        item for item in all_ranked
+        if item.get("swiki", 0) > 1 and item.get("vwiki", 0) > 1 and bool(item.get("en_title", "").strip())
+    ]
+    by_combined = sorted(combined_candidates, key=lambda x: (x["swiki"], x["vwiki"], x["common"]), reverse=True)
 
     # 1. Write Comprehensive Ranking by Swiki CSV (All unique species ranked #1 to #N by Swiki)
     print(f"Writing comprehensive Swiki rankings to {SWIKI_CSV_PATH}...")
@@ -716,8 +734,9 @@ def main():
             "Alternative Names / Aliases", "Kingdom", "Class", "Order", "Family", 
             "Swiki (Languages)", f"Vwiki ({DATE_LABEL} Cumulative Views)", "Wikipedia Title"
         ])
-        for r_s, item in enumerate(by_swiki, 1):
-            r_v = vwiki_ranks.get(item["scientific"], len(by_vwiki))
+        for item in by_combined:
+            r_s = swiki_ranks.get(item["scientific"], "")
+            r_v = vwiki_ranks.get(item["scientific"], "")
             writer.writerow([
                 r_s,
                 r_v,
@@ -735,9 +754,9 @@ def main():
 
     print("\n" + "=" * 70)
     print("✅ Complete! All 3 comprehensive ranking documents written:")
-    print(f"  1. By Swiki: {SWIKI_CSV_PATH} ({len(by_swiki):,} unique species)")
-    print(f"  2. By Vwiki: {VWIKI_CSV_PATH} ({len(by_vwiki):,} unique species)")
-    print(f"  3. Combined: {CSV_PATH} ({len(by_swiki):,} unique species)")
+    print(f"  1. By Swiki: {SWIKI_CSV_PATH} ({len(by_swiki):,} verified species with Swiki > 1)")
+    print(f"  2. By Vwiki: {VWIKI_CSV_PATH} ({len(by_vwiki):,} verified species with Vwiki > 1 and valid title)")
+    print(f"  3. Combined: {CSV_PATH} ({len(by_combined):,} verified species with both Swiki & Vwiki > 1)")
     print("=" * 70)
     print("\nPhase 1A Harvester & Ranker completed successfully!")
 
