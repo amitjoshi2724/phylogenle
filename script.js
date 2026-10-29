@@ -261,9 +261,9 @@ function bootPhylogenle() {
                 }
 
                 const [speciesResp, treeResp, aliasesResp] = await Promise.all([
-                    allSpecies.length === 0 ? fetch('data/species_list.json?v=tree_10') : Promise.resolve(null),
-                    !phylogenyTree ? fetch('data/phylogeny_tree.json?v=tree_10') : Promise.resolve(null),
-                    !speciesAliases ? fetch('data/species_aliases.json?v=tree_10') : Promise.resolve(null)
+                    allSpecies.length === 0 ? fetch('data/species_list.json?v=taxa_v1') : Promise.resolve(null),
+                    !phylogenyTree ? fetch('data/phylogeny_tree.json?v=taxa_v1') : Promise.resolve(null),
+                    !speciesAliases ? fetch('data/species_aliases.json?v=taxa_v1') : Promise.resolve(null)
                 ]);
 
                 if (speciesResp) {
@@ -614,9 +614,15 @@ function bootPhylogenle() {
         if (!val) {
             currentFilteredCandidates = allSpecies;
         } else {
-            const startsWith = [];
-            const wordMatch = [];
-            const subMatch = [];
+            const exactCommon = [];
+            const exactSci = [];
+            const headNounMatches = [];
+            const prefixWordMatches = [];
+            const prefixMatches = [];
+            const wordMatches = [];
+            const subMatches = [];
+
+            const seenSpecies = new Set();
 
             for (let i = 0; i < allSpecies.length; i++) {
                 const species = allSpecies[i];
@@ -624,39 +630,64 @@ function bootPhylogenle() {
                 const idx = sLower.indexOf(val);
                 if (idx === -1) continue;
 
-                if (idx === 0) {
-                    startsWith.push(species);
+                const common = sLower.split(' (')[0];
+                const m = sLower.match(/\((.*?)\)/);
+                const sci = m ? m[1] : '';
+
+                seenSpecies.add(sLower);
+
+                if (common === val) {
+                    exactCommon.push(species);
+                } else if (sci === val) {
+                    exactSci.push(species);
+                } else if (common.endsWith(' ' + val) || common.endsWith('-' + val)) {
+                    headNounMatches.push(species);
+                } else if (common.startsWith(val + ' ') || common.startsWith(val + '-')) {
+                    prefixWordMatches.push(species);
+                } else if (idx === 0) {
+                    prefixMatches.push(species);
                 } else if (sLower[idx - 1] === ' ' || sLower[idx - 1] === '(' || sLower[idx - 1] === '-') {
-                    wordMatch.push(species);
+                    wordMatches.push(species);
                 } else {
-                    subMatch.push(species);
+                    subMatches.push(species);
                 }
             }
 
-            const aliasMatches = [];
-            const seenCanonical = new Set(
-                startsWith.map(s => s.toLowerCase())
-                    .concat(wordMatch.map(s => s.toLowerCase()), subMatch.map(s => s.toLowerCase()))
-            );
-
+            const exactAliasMatches = [];
+            const partialAliasMatches = [];
             if (speciesAliases && val.length >= 2) {
                 for (const [alias, canonical] of Object.entries(speciesAliases)) {
                     const aLower = alias.toLowerCase();
                     const aIdx = aLower.indexOf(val);
                     if (aIdx !== -1) {
                         const canLower = canonical.toLowerCase();
-                        if (!seenCanonical.has(canLower)) {
-                            seenCanonical.add(canLower);
-                            aliasMatches.push({
+                        if (!seenSpecies.has(canLower)) {
+                            seenSpecies.add(canLower);
+                            const aliasObj = {
                                 species: canonical,
                                 matchedAlias: alias
-                            });
+                            };
+                            if (aLower === val || aLower.endsWith(' ' + val)) {
+                                exactAliasMatches.push(aliasObj);
+                            } else {
+                                partialAliasMatches.push(aliasObj);
+                            }
                         }
                     }
                 }
             }
 
-            currentFilteredCandidates = [...startsWith, ...wordMatch, ...aliasMatches, ...subMatch];
+            currentFilteredCandidates = [
+                ...exactCommon,
+                ...exactAliasMatches,
+                ...exactSci,
+                ...headNounMatches,
+                ...prefixWordMatches,
+                ...prefixMatches,
+                ...partialAliasMatches,
+                ...wordMatches,
+                ...subMatches
+            ];
         }
 
         autocompleteList.innerHTML = '';
