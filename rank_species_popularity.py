@@ -335,8 +335,8 @@ def main():
             sci_to_titles = {}
             for s in batch:
                 titles = []
-                c = s.get("common", "").strip()
-                sci = s.get("scientific", "").strip()
+                c = (s.get("common") or "").strip()
+                sci = (s.get("scientific") or "").strip()
                 cached_title = cache.get(sci, {}).get("en_title")
                 if cached_title:
                     titles.append(cached_title)
@@ -406,8 +406,8 @@ def main():
     genus_counts = {}
     family_counts = {}
     for s in species_data:
-        g = s.get("genus", "").lower()
-        fam = s.get("family", "").lower()
+        g = (s.get("genus") or "").lower()
+        fam = (s.get("family") or "").lower()
         if g: genus_counts[g] = genus_counts.get(g, 0) + 1
         if fam: family_counts[fam] = family_counts.get(fam, 0) + 1
     for g, c in genus_counts.items():
@@ -435,7 +435,7 @@ def main():
         return (cl in umbrella_words or cl in polytypic_genera or cl in polytypic_families)
 
     catalog_scis = set(s["scientific"] for s in species_data)
-    catalog_commons_lower = set(s.get("common", "").lower() for s in species_data if s.get("common"))
+    catalog_commons_lower = set((s.get("common") or "").lower() for s in species_data if s.get("common"))
 
     # Map aliases to species
     alias_to_sci = {}
@@ -607,7 +607,7 @@ def main():
     species_by_sci = {}
     for s in species_data:
         sci = s["scientific"]
-        comm = s.get("common", "").strip()
+        comm = (s.get("common") or "").strip()
         if sci not in species_by_sci:
             species_by_sci[sci] = {
                 "common": comm,
@@ -666,7 +666,7 @@ def main():
     # Filter out entries with <= 1 language or <= 1 pageview, and blank titles
     # 1. By Swiki: Species with established cross-language presence and verified English article (Swiki > 1 and Vwiki > 1)
     by_swiki = sorted(
-        [item for item in all_ranked if item.get("swiki", 0) > 1 and item.get("vwiki", 0) > 1 and bool(item.get("en_title", "").strip())],
+        [item for item in all_ranked if item.get("swiki", 0) > 1 and item.get("vwiki", 0) > 1 and bool((item.get("en_title") or "").strip())],
         key=lambda x: (x["swiki"], x["vwiki"], x["common"]),
         reverse=True
     )
@@ -674,7 +674,7 @@ def main():
 
     # 2. By Vwiki: Species with verified English Wikipedia articles and traffic (Vwiki > 1, Swiki > 1, and non-blank title)
     by_vwiki = sorted(
-        [item for item in all_ranked if item.get("vwiki", 0) > 1 and item.get("swiki", 0) > 1 and bool(item.get("en_title", "").strip())],
+        [item for item in all_ranked if item.get("vwiki", 0) > 1 and item.get("swiki", 0) > 1 and bool((item.get("en_title") or "").strip())],
         key=lambda x: (x["vwiki"], x["swiki"], x["common"]),
         reverse=True
     )
@@ -683,7 +683,7 @@ def main():
     # 3. Combined: Species with verified presence in both metrics (Swiki > 1 and Vwiki > 1)
     combined_candidates = [
         item for item in all_ranked
-        if item.get("swiki", 0) > 1 and item.get("vwiki", 0) > 1 and bool(item.get("en_title", "").strip())
+        if item.get("swiki", 0) > 1 and item.get("vwiki", 0) > 1 and bool((item.get("en_title") or "").strip())
     ]
     by_combined = sorted(combined_candidates, key=lambda x: (x["swiki"], x["vwiki"], x["common"]), reverse=True)
 

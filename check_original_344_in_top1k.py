@@ -21,15 +21,52 @@ STATIC_344_PATH = os.path.join(BASE_DIR, "data", "original_344_species.json")
 VWIKI_CSV = os.path.join(BASE_DIR, "docs", "species_ranking_by_vwiki.csv")
 REPORT_MD = os.path.join(BASE_DIR, "docs", "ORIGINAL_344_VS_TOP1K_ANALYSIS.md")
 
-SPECIAL_GENUSES_344 = {
-    "Giraffa camelopardalis": {"genus_sci": "Giraffa", "common": "Giraffe"},
-    "Gorilla gorilla": {"genus_sci": "Gorilla", "common": "Gorilla"},
-    "Pongo pygmaeus": {"genus_sci": "Pongo", "common": "Orangutan"},
-    "Latimeria chalumnae": {"genus_sci": "Latimeria", "common": "Coelacanth"},
-    "Chinchilla lanigera": {"genus_sci": "Chinchilla", "common": "Chinchilla"},
-    "Papio anubis": {"genus_sci": "Papio", "common": "Baboon"},
-    "Arapaima gigas": {"genus_sci": "Arapaima", "common": "Arapaima"},
+SPECIAL_TAXA_344 = {
+    # 1. Higher Taxa (Orders, Suborders, Families, Subfamilies, Clades)
+    "Bradypus tridactylus": {"taxon_sci": "Folivora", "common": "Sloth", "rank_level": "Suborder"},
+    "Loxodonta africana": {"taxon_sci": "Elephantidae", "common": "Elephant", "rank_level": "Family"},
+    "Gymnopis multiplicata": {"taxon_sci": "Gymnophiona", "common": "Caecilian", "rank_level": "Order"},
+    "Erinaceus europaeus": {"taxon_sci": "Erinaceinae", "common": "Hedgehog", "rank_level": "Subfamily"},
+    "Phoca vitulina": {"taxon_sci": "Pinnipedia", "common": "Seal", "rank_level": "Clade"},
+    "Didelphis virginiana": {"taxon_sci": "Didelphidae", "common": "Opossum", "rank_level": "Family"},
+
+    # 2. Iconic Genera
+    "Apteryx mantelli": {"taxon_sci": "Apteryx", "common": "Kiwi", "rank_level": "Genus"},
+    "Ateles geoffroyi": {"taxon_sci": "Ateles", "common": "Spider Monkey", "rank_level": "Genus"},
+    "Alouatta palliata": {"taxon_sci": "Alouatta", "common": "Howler Monkey", "rank_level": "Genus"},
+    "Dendrolagus matschiei": {"taxon_sci": "Dendrolagus", "common": "Tree Kangaroo", "rank_level": "Genus"},
+    "Giraffa camelopardalis": {"taxon_sci": "Giraffa", "common": "Giraffe", "rank_level": "Genus"},
+    "Gorilla gorilla": {"taxon_sci": "Gorilla", "common": "Gorilla", "rank_level": "Genus"},
+    "Pongo pygmaeus": {"taxon_sci": "Pongo", "common": "Orangutan", "rank_level": "Genus"},
+    "Papio anubis": {"taxon_sci": "Papio", "common": "Baboon", "rank_level": "Genus"},
+    "Latimeria chalumnae": {"taxon_sci": "Latimeria", "common": "Coelacanth", "rank_level": "Genus"},
+    "Chinchilla lanigera": {"taxon_sci": "Chinchilla", "common": "Chinchilla", "rank_level": "Genus"},
+    "Arapaima gigas": {"taxon_sci": "Arapaima", "common": "Arapaima", "rank_level": "Genus"},
+    "Desmodus rotundus": {"taxon_sci": "Desmodus", "common": "Vampire Bat", "rank_level": "Genus"},
+    "Diceros bicornis": {"taxon_sci": "Diceros", "common": "Black Rhinoceros", "rank_level": "Genus"},
+    "Rattus norvegicus": {"taxon_sci": "Rattus", "common": "Rat", "rank_level": "Genus"},
+    "Mus musculus": {"taxon_sci": "Mus", "common": "Mouse", "rank_level": "Genus"},
+    "Sciurus carolinensis": {"taxon_sci": "Sciurus", "common": "Tree Squirrel", "rank_level": "Genus"},
+    "Sciurus vulgaris": {"taxon_sci": "Sciurus", "common": "Tree Squirrel", "rank_level": "Genus"},
+    "Oryctolagus cuniculus": {"taxon_sci": "Oryctolagus", "common": "Rabbit", "rank_level": "Genus"},
+    "Lepus europaeus": {"taxon_sci": "Lepus", "common": "Hare", "rank_level": "Genus"},
+    "Erethizon dorsatum": {"taxon_sci": "Erethizon", "common": "Porcupine", "rank_level": "Genus"},
+    "Castor canadensis": {"taxon_sci": "Castor", "common": "Beaver", "rank_level": "Genus"},
+    "Talpa europaea": {"taxon_sci": "Talpidae", "common": "Mole", "rank_level": "Family"},
+    "Dasypus novemcinctus": {"taxon_sci": "Dasypus", "common": "Long-nosed Armadillo", "rank_level": "Genus"},
+    "Trichechus manatus": {"taxon_sci": "Trichechus", "common": "Manatee", "rank_level": "Genus"},
+    "Struthio camelus": {"taxon_sci": "Struthio", "common": "Ostrich", "rank_level": "Genus"},
+    "Meleagris gallopavo": {"taxon_sci": "Meleagris", "common": "Turkey", "rank_level": "Genus"},
+    "Ophiophagus hannah": {"taxon_sci": "Ophiophagus", "common": "King Cobra", "rank_level": "Genus"},
+    "Python bivittatus": {"taxon_sci": "Python", "common": "Python", "rank_level": "Genus"},
+    "Python regius": {"taxon_sci": "Python", "common": "Python", "rank_level": "Genus"},
+    "Nycticebus coucang": {"taxon_sci": "Nycticebus", "common": "Slow Loris", "rank_level": "Genus"},
+    "Lontra canadensis": {"taxon_sci": "Lontra", "common": "River Otter", "rank_level": "Genus"},
+    "Hylobates lar": {"taxon_sci": "Hylobates", "common": "Gibbon", "rank_level": "Genus"},
+    "Syncerus caffer": {"taxon_sci": "Syncerus", "common": "African Buffalo", "rank_level": "Genus"},
+    "Tursiops truncatus": {"taxon_sci": "Tursiops", "common": "Bottlenose Dolphin", "rank_level": "Genus"},
 }
+SPECIAL_GENUSES_344 = SPECIAL_TAXA_344
 
 def get_original_344():
     """Retrieve the 344 original baseline species from static file or git history."""
@@ -126,24 +163,33 @@ def main():
 
             # Option 3 Evaluation
             rec_opt3 = dict(rec_strict)
-            if sci in SPECIAL_GENUSES_344:
-                genus_sci = SPECIAL_GENUSES_344[sci]["genus_sci"]
-                if genus_sci in vwiki_by_sci:
-                    g_info = vwiki_by_sci[genus_sci]
-                    rec_opt3["rank"] = g_info["rank"]
-                    rec_opt3["views"] = g_info["views"]
-                    rec_opt3["title"] = g_info["title"]
-                    rec_opt3["is_genus_rollup"] = True
-                    rec_opt3["species_rank"] = info["rank"]
-                    rec_opt3["genus_sci"] = genus_sci
+            if sci in SPECIAL_TAXA_344:
+                taxon_sci = SPECIAL_TAXA_344[sci]["taxon_sci"]
+                rank_level = SPECIAL_TAXA_344[sci]["rank_level"]
+                group_common = SPECIAL_TAXA_344[sci]["common"]
+                if taxon_sci in vwiki_by_sci:
+                    g_info = vwiki_by_sci[taxon_sci]
+                    gain = info["rank"] - g_info["rank"]
+                    if g_info["rank"] < info["rank"]:
+                        rec_opt3["rank"] = g_info["rank"]
+                        rec_opt3["views"] = g_info["views"]
+                        rec_opt3["title"] = g_info["title"]
+                        rec_opt3["is_taxon_rollup"] = True
+                        rec_opt3["species_rank"] = info["rank"]
+                        rec_opt3["taxon_sci"] = taxon_sci
+                        rec_opt3["rank_level"] = rank_level
+
                     genus_impact_comparison.append({
-                        "common": comm,
+                        "common": group_common,
+                        "species_comm": comm,
                         "species_sci": sci,
                         "species_rank": info["rank"],
                         "species_views": info["views"],
-                        "genus_sci": genus_sci,
-                        "genus_rank": g_info["rank"],
-                        "genus_views": g_info["views"],
+                        "taxon_sci": taxon_sci,
+                        "rank_level": rank_level,
+                        "taxon_rank": g_info["rank"],
+                        "taxon_views": g_info["views"],
+                        "rank_gain": gain,
                     })
 
             if rec_opt3["rank"] <= 1000:
@@ -156,7 +202,7 @@ def main():
     outside_top_1k_strict.sort(key=lambda x: x["rank"])
     in_top_1k_opt3.sort(key=lambda x: x["rank"])
     outside_top_1k_opt3.sort(key=lambda x: x["rank"])
-    genus_impact_comparison.sort(key=lambda x: x["genus_rank"])
+    genus_impact_comparison.sort(key=lambda x: x["rank_gain"], reverse=True)
 
     # Categorize outside top 1k by difficulty tiers (Option 3 perspective)
     normal_tier_opt3 = [x for x in outside_top_1k_opt3 if 1000 < x["rank"] <= 2000]
@@ -165,6 +211,8 @@ def main():
 
     all_ranks_opt3 = [x["rank"] for x in in_top_1k_opt3 + outside_top_1k_opt3]
     median_rank_opt3 = sorted(all_ranks_opt3)[len(all_ranks_opt3) // 2] if all_ranks_opt3 else 0
+
+    promoted_count = len(in_top_1k_opt3) - len(in_top_1k_strict)
 
     print("\n📊 SUMMARY RESULTS:")
     print("-" * 70)
@@ -175,21 +223,21 @@ def main():
     print(f"   🐾 Inside Top 1,000 (Easy Tier):    {len(in_top_1k_strict):>3} / {len(orig_344)} ({len(in_top_1k_strict)/len(orig_344)*100:>5.1f}%)")
     print(f"   🌿 Outside Top 1,000:               {len(outside_top_1k_strict):>3} / {len(orig_344)} ({len(outside_top_1k_strict)/len(orig_344)*100:>5.1f}%)")
     print("-" * 70)
-    print("2. OPTION 3 GAMEPLAY PERSPECTIVE (Live Genus Match Support):")
-    print(f"   🐾 Inside Top 1,000 (Easy Tier):    {len(in_top_1k_opt3):>3} / {len(orig_344)} ({len(in_top_1k_opt3)/len(orig_344)*100:>5.1f}%)  [+5 net organisms promoted into Top 1k]")
+    print("2. OPTION 3 GAMEPLAY PERSPECTIVE (Live Genus/Taxon Match Support):")
+    print(f"   🐾 Inside Top 1,000 (Easy Tier):    {len(in_top_1k_opt3):>3} / {len(orig_344)} ({len(in_top_1k_opt3)/len(orig_344)*100:>5.1f}%)  [+{promoted_count} net organisms promoted into Top 1k]")
     print(f"   🌿 Ranks 1,001 – 2,000 (Normal):    {len(normal_tier_opt3):>3} / {len(orig_344)} ({len(normal_tier_opt3)/len(orig_344)*100:>5.1f}%)  [Cumulative: {len(in_top_1k_opt3)+len(normal_tier_opt3)} / {len(orig_344)} ({(len(in_top_1k_opt3)+len(normal_tier_opt3))/len(orig_344)*100:.1f}%)]")
     print(f"   🔬 Ranks 2,001 – 5,000 (Advanced):  {len(advanced_tier_opt3):>3} / {len(orig_344)} ({len(advanced_tier_opt3)/len(orig_344)*100:>5.1f}%)  [Cumulative: {len(in_top_1k_opt3)+len(normal_tier_opt3)+len(advanced_tier_opt3)} / {len(orig_344)} ({(len(in_top_1k_opt3)+len(normal_tier_opt3)+len(advanced_tier_opt3))/len(orig_344)*100:.1f}%)]")
     print(f"   ⚡ Ranks > 5,000 (Master Only):     {len(master_tier_opt3):>3} / {len(orig_344)} ({len(master_tier_opt3)/len(orig_344)*100:>5.1f}%)")
     print(f"   Median Rank of Original Set:        #{median_rank_opt3:,}")
     print("-" * 70)
 
-    print("\n🦁 OPTION 3 RECOGNIZABLE GENUSES COMPARISON:")
-    print(f"{'Organism':<12} | {'Species Sci':<26} | {'Species Rank':>12} | {'Genus Sci':<12} | {'Genus Rank':>10} | {'Rank Gain':>10}")
-    print("-" * 92)
+    print("\n🦁 OPTION 3 RECOGNIZABLE TAXA & GENUSES COMPARISON:")
+    print(f"{'Organism':<18} | {'Taxon Level':<10} | {'Species Sci':<26} | {'Species Rank':>12} | {'Taxon Sci':<14} | {'Taxon Rank':>10} | {'Rank Gain':>10}")
+    print("-" * 115)
     for g in genus_impact_comparison:
-        gain = g["species_rank"] - g["genus_rank"]
+        gain = g["species_rank"] - g["taxon_rank"]
         gain_str = f"+{gain:,}" if gain > 0 else f"{gain:,}"
-        print(f"{g['common']:<12} | {g['species_sci']:<26} | #{g['species_rank']:>11,} | {g['genus_sci']:<12} | #{g['genus_rank']:>9,} | {gain_str:>10}")
+        print(f"{g['common']:<18} | {g['rank_level']:<10} | {g['species_sci']:<26} | #{g['species_rank']:>11,} | {g['taxon_sci']:<14} | #{g['taxon_rank']:>9,} | {gain_str:>10}")
 
     print("\n🔍 TOP 15 ORGANISMS JUST OUTSIDE TOP 1,000 (Closest to Cutoff, Option 3):")
     print(f"{'Rank':>6} | {'Off By':>7} | {'Common Name':<28} | {'Scientific Name':<26} | {'Views':>10}")
@@ -224,14 +272,14 @@ def main():
         f.write(f"- **Master Tier Only (> 5,000):** **{len(master_tier_opt3)} / {len(orig_344)} ({len(master_tier_opt3)/len(orig_344)*100:.1f}%)**\n")
         f.write(f"- **Median Rank:** **#{median_rank_opt3:,}**\n\n")
 
-        f.write("## 2. Option 3 Recognizable Genuses Impact\n\n")
-        f.write("The 7 iconic baseline organisms where the English Wikipedia article covers the Genus:\n\n")
-        f.write("| Common Name | Species Binomial | Species Rank | Genus Taxon | Genus Rank | Rank Difference | Genus Views |\n")
-        f.write("| :--- | :--- | :---: | :--- | :---: | :---: | :---: |\n")
+        f.write("## 2. Option 3 Recognizable Taxa & Genuses Impact\n\n")
+        f.write(f"The {len(genus_impact_comparison)} iconic baseline organisms where the English Wikipedia article covers the Genus, Suborder, Family, or Order:\n\n")
+        f.write("| Common Name | Taxonomic Level | Species Binomial | Species Rank | Option 3 Taxon | Taxon Rank | Rank Gain | Taxon Views |\n")
+        f.write("| :--- | :--- | :--- | :---: | :--- | :---: | :---: | :---: |\n")
         for g in genus_impact_comparison:
-            gain = g["species_rank"] - g["genus_rank"]
+            gain = g["species_rank"] - g["taxon_rank"]
             gain_str = f"+{gain:,}" if gain > 0 else f"{gain:,}"
-            f.write(f"| **{g['common']}** | *{g['species_sci']}* | #{g['species_rank']:,} | *{g['genus_sci']}* | **#{g['genus_rank']:,}** | {gain_str} | {g['genus_views']:,} |\n")
+            f.write(f"| **{g['common']}** | {g['rank_level']} | *{g['species_sci']}* | #{g['species_rank']:,} | *{g['taxon_sci']}* | **#{g['taxon_rank']:,}** | {gain_str} | {g['taxon_views']:,} |\n")
 
         f.write("\n## 3. Organisms Just Outside Top 1,000 (Ranks 1,001 – 2,000)\n\n")
         f.write("These organisms missed the 🐾 Easy (top 1k) cutoff, but comfortably qualify for the 🌿 Normal (top 2k) tier:\n\n")

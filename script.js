@@ -787,6 +787,7 @@ function bootPhylogenle() {
         'hedgehog (erinaceinae)': { genus: 'Erinaceinae', common: 'Hedgehog', sciLower: 'erinaceinae', rank: 'Subfamily' },
         'seal (pinnipedia)': { genus: 'Pinnipedia', common: 'Seal', sciLower: 'pinnipedia', rank: 'Clade' },
         'opossum (didelphidae)': { genus: 'Didelphidae', common: 'Opossum', sciLower: 'didelphidae', rank: 'Family' },
+        'mole (talpidae)': { genus: 'Talpidae', common: 'Mole', sciLower: 'talpidae', rank: 'Family' },
     };
 
     function getGenusFromEntry(entryStr) {
