@@ -86,24 +86,29 @@ def query_wikidata_batch(scientific_names):
     )
     
     results = {}
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            data_json = json.loads(resp.read().decode("utf-8"))
-            for row in data_json.get("results", {}).get("bindings", []):
-                sci = row["scientificName"]["value"]
-                sitelinks = int(row["sitelinks"]["value"])
-                qid = row["item"]["value"].split("/")[-1]
-                en_title = row.get("enTitle", {}).get("value")
-                
-                # Keep highest sitelinks if duplicate taxon item exists
-                if sci not in results or sitelinks > results[sci]["swiki"]:
-                    results[sci] = {
-                        "qid": qid,
-                        "swiki": sitelinks,
-                        "en_title": en_title,
-                    }
-    except Exception as e:
-        print(f"  SPARQL batch error ({len(scientific_names)} names): {e}")
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=35) as resp:
+                data_json = json.loads(resp.read().decode("utf-8"))
+                for row in data_json.get("results", {}).get("bindings", []):
+                    sci = row["scientificName"]["value"]
+                    sitelinks = int(row["sitelinks"]["value"])
+                    qid = row["item"]["value"].split("/")[-1]
+                    en_title = row.get("enTitle", {}).get("value")
+                    
+                    # Keep highest sitelinks if duplicate taxon item exists
+                    if sci not in results or sitelinks > results[sci]["swiki"]:
+                        results[sci] = {
+                            "qid": qid,
+                            "swiki": sitelinks,
+                            "en_title": en_title,
+                        }
+                return results
+        except Exception as e:
+            if attempt < 2:
+                time.sleep(2 ** attempt)
+            else:
+                print(f"  SPARQL batch error ({len(scientific_names)} names) after 3 attempts: {e}")
     return results
 
 def query_enwiki_fallback_batch(titles):
@@ -132,44 +137,49 @@ def query_enwiki_fallback_batch(titles):
             headers={"User-Agent": USER_AGENT, "Content-Type": "application/x-www-form-urlencoded"},
         )
         
-        try:
-            with urllib.request.urlopen(req, timeout=15) as resp:
-                data_json = json.loads(resp.read().decode("utf-8"))
-                pages = data_json.get("query", {}).get("pages", {})
-                canonical_map = {}
-                for pid, pinfo in pages.items():
-                    if pid != "-1" and "pageprops" in pinfo:
-                        qid = pinfo["pageprops"].get("wikibase_item")
-                        canonical_title = pinfo.get("title")
-                        if qid and canonical_title:
-                            canonical_map[canonical_title] = (qid, canonical_title)
-                            canonical_map[canonical_title.lower()] = (qid, canonical_title)
+        for attempt in range(3):
+            try:
+                with urllib.request.urlopen(req, timeout=15) as resp:
+                    data_json = json.loads(resp.read().decode("utf-8"))
+                    pages = data_json.get("query", {}).get("pages", {})
+                    canonical_map = {}
+                    for pid, pinfo in pages.items():
+                        if pid != "-1" and "pageprops" in pinfo:
+                            qid = pinfo["pageprops"].get("wikibase_item")
+                            canonical_title = pinfo.get("title")
+                            if qid and canonical_title:
+                                canonical_map[canonical_title] = (qid, canonical_title)
+                                canonical_map[canonical_title.lower()] = (qid, canonical_title)
 
-                alias_to_target = {}
-                for norm in data_json.get("query", {}).get("normalized", []):
-                    alias_to_target[norm["from"]] = norm["to"]
-                    alias_to_target[norm["from"].lower()] = norm["to"]
-                for red in data_json.get("query", {}).get("redirects", []):
-                    alias_to_target[red["from"]] = red["to"]
-                    alias_to_target[red["from"].lower()] = red["to"]
+                    alias_to_target = {}
+                    for norm in data_json.get("query", {}).get("normalized", []):
+                        alias_to_target[norm["from"]] = norm["to"]
+                        alias_to_target[norm["from"].lower()] = norm["to"]
+                    for red in data_json.get("query", {}).get("redirects", []):
+                        alias_to_target[red["from"]] = red["to"]
+                        alias_to_target[red["from"].lower()] = red["to"]
 
-                for t in chunk:
-                    curr = t
-                    for _ in range(5):
-                        if curr in canonical_map:
-                            results[t] = canonical_map[curr]
-                            break
-                        if curr.lower() in canonical_map:
-                            results[t] = canonical_map[curr.lower()]
-                            break
-                        if curr in alias_to_target:
-                            curr = alias_to_target[curr]
-                        elif curr.lower() in alias_to_target:
-                            curr = alias_to_target[curr.lower()]
-                        else:
-                            break
-        except Exception as e:
-            print(f"  EnWiki fallback batch error: {e}")
+                    for t in chunk:
+                        curr = t
+                        for _ in range(5):
+                            if curr in canonical_map:
+                                results[t] = canonical_map[curr]
+                                break
+                            if curr.lower() in canonical_map:
+                                results[t] = canonical_map[curr.lower()]
+                                break
+                            if curr in alias_to_target:
+                                curr = alias_to_target[curr]
+                            elif curr.lower() in alias_to_target:
+                                curr = alias_to_target[curr.lower()]
+                            else:
+                                break
+                    break
+            except Exception as e:
+                if attempt < 2:
+                    time.sleep(2.0 * (attempt + 1))
+                else:
+                    print(f"  EnWiki fallback batch error: {e}")
     return results
 
 def query_wikidata_sitelinks_by_qids(qids):
@@ -259,8 +269,13 @@ def main():
     cache = load_cache()
     print(f"Loaded {len(cache):,} species records from cache")
 
-    # Step 1: Query Wikidata for Swiki and en_title (only for uncached species)
-    missing_wikidata = [s for s in species_data if s["scientific"] not in cache or "swiki" not in cache[s["scientific"]]]
+    # Step 1: Query Wikidata for Swiki and en_title (only for uncached species OR species where qid is None)
+    missing_wikidata = [
+        s for s in species_data 
+        if s["scientific"] not in cache 
+        or cache[s["scientific"]].get("qid") is None 
+        or "swiki" not in cache[s["scientific"]]
+    ]
     if missing_wikidata:
         print(f"\nStep 1: Resolving Wikidata sitelinks for {len(missing_wikidata):,} species...")
         BATCH_SIZE = 120
@@ -283,17 +298,18 @@ def main():
                         "en_title": batch_results[sci]["en_title"],
                     }
                 else:
-                    cache[sci] = {
-                        "common": s.get("common", ""),
-                        "scientific": sci,
-                        "kingdom": s.get("kingdom", ""),
-                        "class": s.get("class", ""),
-                        "order": s.get("order", ""),
-                        "family": s.get("family", ""),
-                        "qid": None,
-                        "swiki": 0,
-                        "en_title": None,
-                    }
+                    if sci not in cache or cache[sci].get("qid") is None:
+                        cache[sci] = {
+                            "common": s.get("common", ""),
+                            "scientific": sci,
+                            "kingdom": s.get("kingdom", ""),
+                            "class": s.get("class", ""),
+                            "order": s.get("order", ""),
+                            "family": s.get("family", ""),
+                            "qid": None,
+                            "swiki": 0,
+                            "en_title": None,
+                        }
             processed = min(i + BATCH_SIZE, len(missing_wikidata))
             if (i // BATCH_SIZE) % 5 == 0 or processed == len(missing_wikidata):
                 print(f"  Processed {processed:,} / {len(missing_wikidata):,} species in Step 1...")
@@ -318,12 +334,27 @@ def main():
             sci_to_titles = {}
             for s in batch:
                 titles = []
-                if s.get("common"):
-                    titles.append(s["common"])
-                if s.get("scientific"):
-                    titles.append(s["scientific"])
-                titles_to_check.extend(titles)
-                sci_to_titles[s["scientific"]] = titles
+                c = s.get("common", "").strip()
+                sci = s.get("scientific", "").strip()
+                if c:
+                    titles.append(c)
+                    # Sentence-cased variant: e.g. "Bluespotted corydoras", "Blackhand sole"
+                    titles.append(c[0].upper() + c[1:].lower())
+                    if "-" in c:
+                        c_no = c.replace("-", " ")
+                        titles.append(c_no)
+                        titles.append(c_no[0].upper() + c_no[1:].lower())
+                if sci:
+                    titles.append(sci)
+                    if sci.endswith("ii"):
+                        titles.append(sci[:-1])
+                    elif sci.endswith("us"):
+                        titles.append(sci[:-2] + "a")
+                    elif sci.endswith("a"):
+                        titles.append(sci[:-1] + "us")
+                clean_titles = list(dict.fromkeys(titles))
+                titles_to_check.extend(clean_titles)
+                sci_to_titles[s["scientific"]] = clean_titles
 
             resolved_map = query_enwiki_fallback_batch(titles_to_check)
             if resolved_map:
@@ -352,7 +383,7 @@ def main():
             if (i // FB_BATCH) % 10 == 0 or processed == len(needs_fallback):
                 print_progress(processed, len(needs_fallback), prefix="Resolving Fallbacks")
                 save_cache(cache)
-            time.sleep(0.05)
+            time.sleep(0.2)
         save_cache(cache)
         print("\nStep 2 complete. All redirects and canonical articles resolved.")
     else:
