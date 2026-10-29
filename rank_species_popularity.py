@@ -447,7 +447,7 @@ def main():
             if clean_lower not in alias_to_sci:
                 alias_to_sci[clean_lower] = sci
 
-    # Canonical article overrides for domestic & high-profile organisms where Wikidata SPARQL returned redirects or split taxa
+    # Canonical article overrides for domestic & high-profile organisms where Wikidata SPARQL returned redirects, synonym splits, or missing sitelinks
     CANONICAL_OVERRIDES = {
         "Canis lupus familiaris": "Dog",
         "Felis catus": "Cat",
@@ -456,9 +456,6 @@ def main():
         "Lithobates catesbeianus": "American bullfrog",
         "Cebuella pygmaea": "Pygmy marmoset",
         "Homo sapiens": "Human",
-        "Meleagris gallopavo": "Wild turkey",
-        "Bufo bufo": "Common toad",
-        "Bradypus tridactylus": "Pale-throated sloth",
         "Canis lupus dingo": "Dingo",
         # Special Genuses
         "Giraffa": "Giraffe",
