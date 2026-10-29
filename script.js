@@ -768,15 +768,25 @@ function bootPhylogenle() {
         }
     }
 
-    // Known special genuses in Phylogenle
+    // Known special higher taxa & genuses in Phylogenle
     const SPECIAL_GENUS_MAP = {
-        'giraffe (giraffa)': { genus: 'Giraffa', common: 'Giraffe', sciLower: 'giraffa' },
-        'gorilla (gorilla)': { genus: 'Gorilla', common: 'Gorilla', sciLower: 'gorilla' },
-        'orangutan (pongo)': { genus: 'Pongo', common: 'Orangutan', sciLower: 'pongo' },
-        'coelacanth (latimeria)': { genus: 'Latimeria', common: 'Coelacanth', sciLower: 'latimeria' },
-        'chinchilla (chinchilla)': { genus: 'Chinchilla', common: 'Chinchilla', sciLower: 'chinchilla' },
-        'baboon (papio)': { genus: 'Papio', common: 'Baboon', sciLower: 'papio' },
-        'arapaima (arapaima)': { genus: 'Arapaima', common: 'Arapaima', sciLower: 'arapaima' },
+        'giraffe (giraffa)': { genus: 'Giraffa', common: 'Giraffe', sciLower: 'giraffa', rank: 'Genus' },
+        'gorilla (gorilla)': { genus: 'Gorilla', common: 'Gorilla', sciLower: 'gorilla', rank: 'Genus' },
+        'orangutan (pongo)': { genus: 'Pongo', common: 'Orangutan', sciLower: 'pongo', rank: 'Genus' },
+        'coelacanth (latimeria)': { genus: 'Latimeria', common: 'Coelacanth', sciLower: 'latimeria', rank: 'Genus' },
+        'chinchilla (chinchilla)': { genus: 'Chinchilla', common: 'Chinchilla', sciLower: 'chinchilla', rank: 'Genus' },
+        'baboon (papio)': { genus: 'Papio', common: 'Baboon', sciLower: 'papio', rank: 'Genus' },
+        'arapaima (arapaima)': { genus: 'Arapaima', common: 'Arapaima', sciLower: 'arapaima', rank: 'Genus' },
+        'kiwi (apteryx)': { genus: 'Apteryx', common: 'Kiwi', sciLower: 'apteryx', rank: 'Genus' },
+        'spider monkey (ateles)': { genus: 'Ateles', common: 'Spider Monkey', sciLower: 'ateles', rank: 'Genus' },
+        'howler monkey (alouatta)': { genus: 'Alouatta', common: 'Howler Monkey', sciLower: 'alouatta', rank: 'Genus' },
+        'tree kangaroo (dendrolagus)': { genus: 'Dendrolagus', common: 'Tree Kangaroo', sciLower: 'dendrolagus', rank: 'Genus' },
+        'sloth (folivora)': { genus: 'Folivora', common: 'Sloth', sciLower: 'folivora', rank: 'Suborder' },
+        'elephant (elephantidae)': { genus: 'Elephantidae', common: 'Elephant', sciLower: 'elephantidae', rank: 'Family' },
+        'caecilian (gymnophiona)': { genus: 'Gymnophiona', common: 'Caecilian', sciLower: 'gymnophiona', rank: 'Order' },
+        'hedgehog (erinaceinae)': { genus: 'Erinaceinae', common: 'Hedgehog', sciLower: 'erinaceinae', rank: 'Subfamily' },
+        'seal (pinnipedia)': { genus: 'Pinnipedia', common: 'Seal', sciLower: 'pinnipedia', rank: 'Clade' },
+        'opossum (didelphidae)': { genus: 'Didelphidae', common: 'Opossum', sciLower: 'didelphidae', rank: 'Family' },
     };
 
     function getGenusFromEntry(entryStr) {
@@ -785,7 +795,7 @@ function bootPhylogenle() {
         if (SPECIAL_GENUS_MAP[key]) return SPECIAL_GENUS_MAP[key];
         const m = entryStr.match(/\(([A-Z][a-z]+)\)$/);
         if (m) {
-            return { genus: m[1], common: entryStr.split(' (')[0], sciLower: m[1].toLowerCase() };
+            return { genus: m[1], common: entryStr.split(' (')[0], sciLower: m[1].toLowerCase(), rank: 'Genus' };
         }
         return null;
     }
@@ -795,7 +805,20 @@ function bootPhylogenle() {
         const gKey = guessStr.toLowerCase();
         const gLatinMatch = guessStr.match(/\((.*?)\)/);
         const gSci = gLatinMatch ? gLatinMatch[1].toLowerCase() : gKey;
-        return gSci === targetGenusObj.sciLower || gSci.startsWith(targetGenusObj.sciLower + ' ');
+        if (gSci === targetGenusObj.sciLower || gSci.startsWith(targetGenusObj.sciLower + ' ')) {
+            return true;
+        }
+        // Universal phylogenetic lineage check for any rank (Order, Suborder, Family, Genus)
+        if (phylogenyTree && phylogenyTree.species) {
+            const linG = phylogenyTree.species[gKey];
+            const targetKey = `${targetGenusObj.common} (${targetGenusObj.genus})`.toLowerCase();
+            const linT = phylogenyTree.species[targetKey];
+            if (linG && linT && linT.length > 0) {
+                const targetTaxid = linT[linT.length - 1];
+                if (linG.includes(targetTaxid)) return true;
+            }
+        }
+        return false;
     }
 
     function getEvolutionaryComparison(guess, target) {
@@ -807,18 +830,19 @@ function bootPhylogenle() {
         if (guessKey === targetKey) {
             const latinMatch = guess.match(/\((.*?)\)/);
             const sci = latinMatch ? latinMatch[1] : guess;
-            const rank = targetGenusInfo ? "Genus" : "Species";
+            const rank = targetGenusInfo ? (targetGenusInfo.rank || "Genus") : "Species";
             return { time: 0.0, rank: rank, lca_name: sci, major_name: sci, major_rank: rank, major_time: 0.0 };
         }
 
-        // 2. Target is a special Genus, and guessed species belongs to that Genus!
+        // 2. Target is a special Genus or Higher Taxon, and guessed species belongs to that group!
         if (targetGenusInfo && doesGuessBelongToTargetGenus(guess, targetGenusInfo)) {
+            const rankLabel = targetGenusInfo.rank || "Genus";
             return {
                 time: 0.0,
-                rank: "Genus",
+                rank: rankLabel,
                 lca_name: targetGenusInfo.genus,
                 major_name: targetGenusInfo.genus,
-                major_rank: "Genus",
+                major_rank: rankLabel,
                 major_time: 0.0
             };
         }
@@ -1458,12 +1482,13 @@ function bootPhylogenle() {
 
         let genusNoticeHtml = '';
         if (targetGenusInfo) {
+            const rankLabel = targetGenusInfo.rank || 'Genus';
             genusNoticeHtml = `
                 <div class="genus-notice-box" style="background: rgba(234, 179, 8, 0.12); border: 1px solid rgba(234, 179, 8, 0.45); border-radius: 8px; padding: 10px 14px; margin: 10px 0 8px 0; color: #fef08a; font-size: 0.92rem; text-align: left; line-height: 1.45;">
                     <div style="display: flex; align-items: center; gap: 8px; font-weight: 700; color: #facc15; margin-bottom: 4px;">
-                        <span style="font-size: 1.15rem;">🌿</span> Taxonomic Notice: Today's organism is a Genus!
+                        <span style="font-size: 1.15rem;">🌿</span> Taxonomic Notice: Today's organism was a ${escapeHtml(rankLabel)}!
                     </div>
-                    <div>Today's mystery target was actually the <strong>Genus ${escapeHtml(targetGenusInfo.genus)}</strong> (<em>${escapeHtml(canonicalCommon)}</em>), which encompasses multiple recognized biological species.</div>
+                    <div>Today's mystery target was actually the <strong>${escapeHtml(rankLabel)} ${escapeHtml(targetGenusInfo.genus)}</strong> (<em>${escapeHtml(canonicalCommon)}</em>), which encompasses multiple recognized biological species.</div>
                 </div>
             `;
         }
