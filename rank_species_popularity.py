@@ -447,29 +447,7 @@ def main():
             if clean_lower not in alias_to_sci:
                 alias_to_sci[clean_lower] = sci
 
-    # Canonical article overrides for domestic & high-profile organisms where Wikidata SPARQL returned redirects, synonym splits, or missing sitelinks
-    CANONICAL_OVERRIDES = {
-        "Canis lupus familiaris": "Dog",
-        "Felis catus": "Cat",
-        "Vicugna pacos": "Alpaca",
-        "Sphenodon punctatus": "Tuatara",
-        "Lithobates catesbeianus": "American bullfrog",
-        "Cebuella pygmaea": "Pygmy marmoset",
-        "Homo sapiens": "Human",
-        "Canis lupus dingo": "Dingo",
-        # Special Genuses
-        "Giraffa": "Giraffe",
-        "Gorilla": "Gorilla",
-        "Pongo": "Orangutan",
-        "Latimeria": "Coelacanth",
-        "Chinchilla": "Chinchilla",
-        "Papio": "Baboon",
-        "Arapaima": "Arapaima",
-    }
-    for o_sci, o_target in CANONICAL_OVERRIDES.items():
-        if o_sci in cache and cache[o_sci].get("en_title") != o_target:
-            cache[o_sci]["en_title"] = o_target
-            cache[o_sci]["vwiki_period"] = None
+
 
     # Resolve candidate aliases
     resolved_aliases = query_enwiki_fallback_batch(list(alias_to_sci.keys()))
