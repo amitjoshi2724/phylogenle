@@ -468,14 +468,6 @@ def main():
         "Chinchilla": "Chinchilla",
         "Papio": "Baboon",
         "Arapaima": "Arapaima",
-        # Individual Species (True species-level articles)
-        "Giraffa camelopardalis": "Northern giraffe",
-        "Gorilla gorilla": "Western gorilla",
-        "Pongo pygmaeus": "Bornean orangutan",
-        "Latimeria chalumnae": "West Indian Ocean coelacanth",
-        "Chinchilla lanigera": "Long-tailed chinchilla",
-        "Papio anubis": "Olive baboon",
-        "Arapaima gigas": "Arapaima gigas",
     }
     for o_sci, o_target in CANONICAL_OVERRIDES.items():
         if o_sci in cache and cache[o_sci].get("en_title") != o_target:
