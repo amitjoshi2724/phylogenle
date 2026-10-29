@@ -261,9 +261,9 @@ function bootPhylogenle() {
                 }
 
                 const [speciesResp, treeResp, aliasesResp] = await Promise.all([
-                    allSpecies.length === 0 ? fetch('data/species_list.json?v=tree_9') : Promise.resolve(null),
-                    !phylogenyTree ? fetch('data/phylogeny_tree.json?v=tree_9') : Promise.resolve(null),
-                    !speciesAliases ? fetch('data/species_aliases.json?v=tree_9') : Promise.resolve(null)
+                    allSpecies.length === 0 ? fetch('data/species_list.json?v=tree_10') : Promise.resolve(null),
+                    !phylogenyTree ? fetch('data/phylogeny_tree.json?v=tree_10') : Promise.resolve(null),
+                    !speciesAliases ? fetch('data/species_aliases.json?v=tree_10') : Promise.resolve(null)
                 ]);
 
                 if (speciesResp) {
@@ -531,7 +531,7 @@ function bootPhylogenle() {
                     wikiTitle: wiki,
                     isMystery: true,
                     isMatch: record.solved,
-                    emoji: record.solved ? '🟩' : '⬜'
+                    emoji: record.solved ? (getGenusFromEntry(record.targetSpecies || targetSpecies) ? '🟨' : '🟩') : '⬜'
                 }]
             });
         }
@@ -768,13 +768,59 @@ function bootPhylogenle() {
         }
     }
 
+    // Known special genuses in Phylogenle
+    const SPECIAL_GENUS_MAP = {
+        'giraffe (giraffa)': { genus: 'Giraffa', common: 'Giraffe', sciLower: 'giraffa' },
+        'gorilla (gorilla)': { genus: 'Gorilla', common: 'Gorilla', sciLower: 'gorilla' },
+        'orangutan (pongo)': { genus: 'Pongo', common: 'Orangutan', sciLower: 'pongo' },
+        'coelacanth (latimeria)': { genus: 'Latimeria', common: 'Coelacanth', sciLower: 'latimeria' },
+        'chinchilla (chinchilla)': { genus: 'Chinchilla', common: 'Chinchilla', sciLower: 'chinchilla' },
+        'baboon (papio)': { genus: 'Papio', common: 'Baboon', sciLower: 'papio' },
+        'arapaima (arapaima)': { genus: 'Arapaima', common: 'Arapaima', sciLower: 'arapaima' },
+    };
+
+    function getGenusFromEntry(entryStr) {
+        if (!entryStr) return null;
+        const key = entryStr.toLowerCase();
+        if (SPECIAL_GENUS_MAP[key]) return SPECIAL_GENUS_MAP[key];
+        const m = entryStr.match(/\(([A-Z][a-z]+)\)$/);
+        if (m) {
+            return { genus: m[1], common: entryStr.split(' (')[0], sciLower: m[1].toLowerCase() };
+        }
+        return null;
+    }
+
+    function doesGuessBelongToTargetGenus(guessStr, targetGenusObj) {
+        if (!guessStr || !targetGenusObj) return false;
+        const gKey = guessStr.toLowerCase();
+        const gLatinMatch = guessStr.match(/\((.*?)\)/);
+        const gSci = gLatinMatch ? gLatinMatch[1].toLowerCase() : gKey;
+        return gSci === targetGenusObj.sciLower || gSci.startsWith(targetGenusObj.sciLower + ' ');
+    }
+
     function getEvolutionaryComparison(guess, target) {
         const guessKey = guess.toLowerCase();
         const targetKey = target.toLowerCase();
+        const targetGenusInfo = getGenusFromEntry(target);
+
+        // 1. Direct string match
         if (guessKey === targetKey) {
             const latinMatch = guess.match(/\((.*?)\)/);
             const sci = latinMatch ? latinMatch[1] : guess;
-            return { time: 0.0, rank: "Species", lca_name: sci, major_name: sci, major_rank: "Species", major_time: 0.0 };
+            const rank = targetGenusInfo ? "Genus" : "Species";
+            return { time: 0.0, rank: rank, lca_name: sci, major_name: sci, major_rank: rank, major_time: 0.0 };
+        }
+
+        // 2. Target is a special Genus, and guessed species belongs to that Genus!
+        if (targetGenusInfo && doesGuessBelongToTargetGenus(guess, targetGenusInfo)) {
+            return {
+                time: 0.0,
+                rank: "Genus",
+                lca_name: targetGenusInfo.genus,
+                major_name: targetGenusInfo.genus,
+                major_rank: "Genus",
+                major_time: 0.0
+            };
         }
         if (phylogenyTree && phylogenyTree.species && phylogenyTree.nodes) {
             const linG = phylogenyTree.species[guessKey];
@@ -909,7 +955,9 @@ function bootPhylogenle() {
             alert("Evolutionary comparison data not available for this pair.");
             return;
         }
-        const isMatch = guessKey === targetSpecies.toLowerCase();
+        const targetGenusInfo = getGenusFromEntry(targetSpecies);
+        const isMatch = (guessKey === targetSpecies.toLowerCase()) || 
+                        (targetGenusInfo && doesGuessBelongToTargetGenus(validGuess, targetGenusInfo));
 
         const latinNameMatch = validGuess.match(/\((.*?)\)/);
         const wikiTitle = latinNameMatch ? latinNameMatch[1] : validGuess;
@@ -1125,7 +1173,11 @@ function bootPhylogenle() {
     hintBtn?.addEventListener('click', handleHintRequest);
 
     function getGuessRankEmoji(g) {
-        if (g.isMatch || g.lca_rank === 'Species') return '🟩';
+        if (g.isMatch) {
+            if (g.lca_rank === 'Genus') return '🟨';
+            return '🟩';
+        }
+        if (g.lca_rank === 'Species') return '🟩';
         const r = g.lca_rank;
         if (r === 'Genus') return '🟨'; // yellow - genus match
         if (r === 'Family') return '🟧'; // orange - family
@@ -1161,7 +1213,27 @@ function bootPhylogenle() {
     }
 
     function getClosenessInfo(data, isMatch) {
-        if (isMatch || data.rank === 'Species') {
+        if (isMatch) {
+            if (data.rank === 'Genus') {
+                return {
+                    rank: 'Genus',
+                    emoji: '🟨',
+                    label: 'Genus (Match) (0 MYA)',
+                    shortLabel: 'Genus (Match)',
+                    cssClass: 'closeness-genus',
+                    squareClass: 'square-genus'
+                };
+            }
+            return {
+                rank: 'Species',
+                emoji: '🟩',
+                label: 'Species (Match) (0 MYA)',
+                shortLabel: 'Species (Match)',
+                cssClass: 'closeness-species',
+                squareClass: 'square-species'
+            };
+        }
+        if (data.rank === 'Species') {
             return {
                 rank: 'Species',
                 emoji: '🟩',
@@ -1382,6 +1454,19 @@ function bootPhylogenle() {
 
         const canonicalCommon = targetSpecies.split(' (')[0];
         const allAliases = getAliasesForSpecies(targetSpecies, speciesAliases);
+        const targetGenusInfo = getGenusFromEntry(targetSpecies);
+
+        let genusNoticeHtml = '';
+        if (targetGenusInfo) {
+            genusNoticeHtml = `
+                <div class="genus-notice-box" style="background: rgba(234, 179, 8, 0.12); border: 1px solid rgba(234, 179, 8, 0.45); border-radius: 8px; padding: 10px 14px; margin: 10px 0 8px 0; color: #fef08a; font-size: 0.92rem; text-align: left; line-height: 1.45;">
+                    <div style="display: flex; align-items: center; gap: 8px; font-weight: 700; color: #facc15; margin-bottom: 4px;">
+                        <span style="font-size: 1.15rem;">🌿</span> Taxonomic Notice: Today's organism is a Genus!
+                    </div>
+                    <div>Today's mystery target was actually the <strong>Genus ${escapeHtml(targetGenusInfo.genus)}</strong> (<em>${escapeHtml(canonicalCommon)}</em>), which encompasses multiple recognized biological species.</div>
+                </div>
+            `;
+        }
 
         let aliasInfoHtml = '';
         if (targetPresentationName && targetPresentationName.toLowerCase() !== canonicalCommon.toLowerCase()) {
@@ -1395,6 +1480,7 @@ function bootPhylogenle() {
         }
 
         endMessage.innerHTML = `The organism was <strong>${targetSpecies}</strong>.<br>` +
+            genusNoticeHtml +
             aliasInfoHtml +
             `<span style="font-size: 0.9rem; color: var(--text-secondary); display: inline-block; margin-top: 6px;">${win ? `Solved in ${guesses.length} guess${guesses.length === 1 ? '' : 'es'}${hintSuffix}!` : 'Surrendered & revealed.'}</span>`;
 
@@ -1405,7 +1491,9 @@ function bootPhylogenle() {
         const endEmojisRow = document.getElementById('end-emojis-row');
         if (endEmojisRow) {
             let emojis = getGameTimelineEmojis(guesses, revealedHints);
-            if (!win) {
+            if (win) {
+                emojis += ' ✅'; // Always append green checkbox after all game wins
+            } else {
                 emojis += ' ⬜'; // White square indicates surrendered / revealed
             }
             endEmojisRow.textContent = emojis;
@@ -1492,7 +1580,10 @@ function bootPhylogenle() {
     function getNodeDisplayEmoji(d) {
         if (d.data.emoji) return d.data.emoji;
         if (d.data.isMystery) {
-            if (d.data.isMatch) return '🟩';
+            if (d.data.isMatch) {
+                const targetGenusInfo = getGenusFromEntry(targetSpecies);
+                return (targetGenusInfo && targetGenusInfo.genus) ? '🟨' : '🟩';
+            }
             if (isGameOver) return '⬜';
             return '⬜';
         }
@@ -1546,7 +1637,9 @@ function bootPhylogenle() {
         const mysteryName = isRevealed ? targetSpecies.split(' (')[0] : "?";
         const latinMatch = targetSpecies.match(/\((.*?)\)/);
         const mysteryWiki = latinMatch ? latinMatch[1] : mysteryName;
-        const mysteryEmoji = hasMatch ? '🟩' : (isGameOver ? '⬜' : '⬜');
+        const targetGenusInfo = getGenusFromEntry(targetSpecies);
+        const matchRankEmoji = (targetGenusInfo && targetGenusInfo.genus) ? '🟨' : '🟩';
+        const mysteryEmoji = hasMatch ? matchRankEmoji : (isGameOver ? '⬜' : '⬜');
         const mysteryNode = {
             name: mysteryName,
             wikiTitle: mysteryWiki,
@@ -2976,7 +3069,9 @@ function bootPhylogenle() {
 
         // Emoji feedback row with chronological hints (💡)
         let emojis = getGameTimelineEmojis(activeGuesses, activeHints);
-        if (!isSolved) {
+        if (isSolved) {
+            emojis += ' ✅'; // Always append green checkbox after all game wins
+        } else {
             emojis += ' ⬜'; // Surrender / revealed indicator
         }
 

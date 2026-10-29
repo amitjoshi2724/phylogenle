@@ -458,14 +458,24 @@ def main():
         "Homo sapiens": "Human",
         "Meleagris gallopavo": "Wild turkey",
         "Bufo bufo": "Common toad",
-        "Giraffa camelopardalis": "Giraffe",
-        "Gorilla gorilla": "Gorilla",
-        "Bradypus tridactylus": "Sloth",
-        "Latimeria chalumnae": "Coelacanth",
-        "Chinchilla lanigera": "Chinchilla",
+        "Bradypus tridactylus": "Pale-throated sloth",
         "Canis lupus dingo": "Dingo",
-        "Pongo pygmaeus": "Orangutan",
-        "Arapaima gigas": "Arapaima",
+        # Special Genuses
+        "Giraffa": "Giraffe",
+        "Gorilla": "Gorilla",
+        "Pongo": "Orangutan",
+        "Latimeria": "Coelacanth",
+        "Chinchilla": "Chinchilla",
+        "Papio": "Baboon",
+        "Arapaima": "Arapaima",
+        # Individual Species (True species-level articles)
+        "Giraffa camelopardalis": "Northern giraffe",
+        "Gorilla gorilla": "Western gorilla",
+        "Pongo pygmaeus": "Bornean orangutan",
+        "Latimeria chalumnae": "West Indian Ocean coelacanth",
+        "Chinchilla lanigera": "Long-tailed chinchilla",
+        "Papio anubis": "Olive baboon",
+        "Arapaima gigas": "Arapaima gigas",
     }
     for o_sci, o_target in CANONICAL_OVERRIDES.items():
         if o_sci in cache and cache[o_sci].get("en_title") != o_target:
