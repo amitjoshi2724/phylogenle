@@ -47,19 +47,18 @@ def extract_species_from_old_catalog():
 
 def main():
     print("=== Step 1: Loading Datasets ===")
-    old_species = extract_species_from_old_catalog()
-    print(f"Extracted {len(old_species)} species from species_catalog.md")
-    assert len(old_species) == 29754, f"Expected 29754 species, found {len(old_species)}"
+    tax_cat_path = os.path.join(BASE_DIR, "data", "species_taxonomy_catalog.json")
+    with open(tax_cat_path, "r", encoding="utf-8") as f:
+        tax_cat = json.load(f)
+    print(f"Loaded {len(tax_cat):,} unique species from {tax_cat_path}")
+
+    old_species = [(s["common"], s["scientific"]) for s in tax_cat]
 
     tree_path = os.path.join(BASE_DIR, "data", "phylogeny_tree.json")
     with open(tree_path, "r", encoding="utf-8") as f:
         tree = json.load(f)
     species_map = tree["species"]
     nodes = tree["nodes"]
-
-    tax_cat_path = os.path.join(BASE_DIR, "data", "species_taxonomy_catalog.json")
-    with open(tax_cat_path, "r", encoding="utf-8") as f:
-        tax_cat = json.load(f)
 
     # Index tax_cat by (common.lower(), scientific.lower()) and by display.lower()
     tax_by_pair = {}

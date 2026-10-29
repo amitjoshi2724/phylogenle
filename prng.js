@@ -99,3 +99,53 @@ export function getDailyTargetSpecies(allSpecies, dateStr) {
     const index = Math.floor(rng() * allSpecies.length);
     return allSpecies[index];
 }
+
+/**
+ * Extract all clean, human-readable aliases for a canonical species.
+ * E.g., for "Puma (Puma concolor)", returns ["Catamount", "Cougar", "Florida Panther", "Mountain Lion", "Panther"].
+ */
+export function getAliasesForSpecies(canonicalSpecies, aliasesDict) {
+    if (!aliasesDict || !canonicalSpecies) return [];
+    const targetLower = canonicalSpecies.toLowerCase();
+    const latinMatch = canonicalSpecies.match(/\((.*?)\)/);
+    const targetLatin = latinMatch ? latinMatch[1].toLowerCase() : "";
+    const primaryCommon = canonicalSpecies.split(" (")[0].trim().toLowerCase();
+
+    const matches = new Set();
+    for (const [alias, canonical] of Object.entries(aliasesDict)) {
+        if (alias.includes("(") || alias.includes(")")) continue;
+        const canLower = canonical.toLowerCase();
+        const canLatinMatch = canonical.match(/\((.*?)\)/);
+        const canLatin = canLatinMatch ? canLatinMatch[1].toLowerCase() : "";
+        
+        if (canLower === targetLower || (targetLatin && canLatin === targetLatin)) {
+            const aliasClean = alias.trim();
+            if (aliasClean.toLowerCase() !== primaryCommon && aliasClean.toLowerCase() !== targetLatin) {
+                const titleCased = aliasClean.split(" ")
+                    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+                    .join(" ");
+                matches.add(titleCased);
+            }
+        }
+    }
+    return Array.from(matches).sort();
+}
+
+/**
+ * Deterministically select a presentation name (either the canonical common name or one of its recognized aliases)
+ * for a daily or practice round.
+ * Guarantees 100% multiplayer parity worldwide on any given puzzle date while adding rich variety.
+ */
+export function getTargetPresentationName(canonicalSpecies, aliasesDict, seedKey) {
+    if (!canonicalSpecies) return "";
+    const primaryCommon = canonicalSpecies.split(" (")[0].trim();
+    const aliases = getAliasesForSpecies(canonicalSpecies, aliasesDict);
+    if (!aliases || aliases.length === 0) return primaryCommon;
+
+    const availableNames = [primaryCommon, ...aliases];
+    const seedVal = hashString(`phylogenle-alias-${seedKey}-${canonicalSpecies}`);
+    const rng = createMulberry32(seedVal);
+    const index = Math.floor(rng() * availableNames.length);
+    return availableNames[index];
+}
+

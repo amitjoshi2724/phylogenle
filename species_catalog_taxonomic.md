@@ -1,4 +1,4 @@
-# 🧬 Phylogenle Universal Taxonomic Directory (29,754 Species Across All Life)
+# 🧬 Phylogenle Universal Taxonomic Directory (29,490 Species Across All Life)
 
 Complete hierarchical taxonomic classification of all active species in the game catalog, organized systematically across the 8 universal biological ranks (⬛ **Domain** ➔ 🟫 **Kingdom** ➔ 🟦 **Phylum** ➔ 🟪 **Class** ➔ 🟥 **Order** ➔ 🟧 **Family** ➔ 🟨 **Genus** ➔ 🟩 **Species**).
 
@@ -8,25 +8,25 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 | ⬛ Domain | 🟫 Kingdom | Primary Groups Included | Species Count |
 | :--- | :--- | :--- | :--- |
-| **Eukaryota** | **Animalia** | Chordates (Mammals, Birds, Reptiles, Amphibians, Fishes) & Invertebrates | **27792** |
+| **Eukaryota** | **Animalia** | Chordates (Mammals, Birds, Reptiles, Amphibians, Fishes) & Invertebrates | **27529** |
 | **Eukaryota** | **Plantae** | Flowering Plants (Angiosperms), Conifers, Ferns, Mosses, Green Algae | **1862** |
-| **Eukaryota** | **Fungi** | Yeasts, Molds, Mushrooms, Lichens | **55** |
+| **Eukaryota** | **Fungi** | Yeasts, Molds, Mushrooms, Lichens | **54** |
 | **Eukaryota** | **Protista / Chromista** | Red Algae, Brown Algae, Kelps, Water Molds | **17** |
 | **Bacteria** | **Bacillati** | Firmicutes, Mycoplasmas / Gram-positive Bacteria | **4** |
 | **Bacteria** | **Pseudomonadati** | Proteobacteria / Gram-negative Bacteria | **16** |
-| **Archaea** | **Euryarchaeota** | Methanogens, Halophiles, Hyperthermophiles & Asgard Archaea | **3** |
 | **Archaea** | **Crenarchaeota** | Methanogens, Halophiles, Hyperthermophiles & Asgard Archaea | **2** |
 | **Archaea** | **Asgardarchaeota** | Methanogens, Halophiles, Hyperthermophiles & Asgard Archaea | **1** |
+| **Archaea** | **Euryarchaeota** | Methanogens, Halophiles, Hyperthermophiles & Asgard Archaea | **3** |
 | **Viruses** | **Heunggongvirae** | Herpesviruses | **2** |
-| **Total Universal Pool** | | **All 8 Taxonomic Ranks Across All Life** | **29754** |
+| **Total Universal Pool** | | **All 8 Taxonomic Ranks Across All Life** | **29490** |
 
 ---
 
 <details>
-<summary>⬛ <b>Domain: Eukaryota</b> — 29,726 Species</summary>
+<summary>⬛ <b>Domain: Eukaryota</b> — 29,462 Species</summary>
 
 <details>
-<summary>🟫 <b>Kingdom: Animalia (Metazoa)</b> — 27,792 Species</summary>
+<summary>🟫 <b>Kingdom: Animalia (Metazoa)</b> — 27,529 Species</summary>
 
 <details>
 <summary>🟦 <b>Phylum: Acanthocephala</b> — 1 Species</summary>
@@ -52,10 +52,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟦 <b>Phylum: Annelida (Segmented Worms)</b> — 25 Species</summary>
+<summary>🟦 <b>Phylum: Annelida (Segmented Worms)</b> — 24 Species</summary>
 
 <details>
-<summary>🟪 <b>Class: Clitellata</b> — 14 Species</summary>
+<summary>🟪 <b>Class: Clitellata</b> — 13 Species</summary>
 
 <details>
 <summary>🟥 <b>Order: Crassiclitellata</b> — 5 Species</summary>
@@ -95,7 +95,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Hirudinida</b> — 4 Species</summary>
+<summary>🟥 <b>Order: Hirudinida</b> — 3 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Haemadipsidae</b> — 1 Species</summary>
@@ -106,11 +106,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Hirudinidae</b> — 3 Species</summary>
+<summary>🟧 <b>Family: Hirudinidae</b> — 2 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| European Medicinal Leech | *Hirudo medicinalis* | *Hirudo* |
 | Medicinal Leech | *Hirudo medicinalis* | *Hirudo* |
 | North American Leech | *Macrobdella decora* | *Macrobdella* |
 
@@ -276,10 +275,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟦 <b>Phylum: Arthropoda (Insects, Arachnids & Crustaceans)</b> — 2,430 Species</summary>
+<summary>🟦 <b>Phylum: Arthropoda (Insects, Arachnids & Crustaceans)</b> — 2,404 Species</summary>
 
 <details>
-<summary>🟪 <b>Class: Arachnida (Arachnids)</b> — 170 Species</summary>
+<summary>🟪 <b>Class: Arachnida (Arachnids)</b> — 161 Species</summary>
 
 <details>
 <summary>🟥 <b>Order: Amblypygi</b> — 3 Species</summary>
@@ -304,7 +303,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Araneae</b> — 55 Species</summary>
+<summary>🟥 <b>Order: Araneae</b> — 50 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Actinopodidae</b> — 1 Species</summary>
@@ -333,13 +332,12 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Ctenidae</b> — 3 Species</summary>
+<summary>🟧 <b>Family: Ctenidae</b> — 2 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Armed Spider | *Phoneutria nigriventer* | *Phoneutria* |
 | Brazilian Amazonian Armed Spider | *Phoneutria reidyi* | *Phoneutria* |
-| Brazilian Armed Spider | *Phoneutria nigriventer* | *Phoneutria* |
 
 </details>
 <details>
@@ -427,13 +425,12 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Sicariidae</b> — 4 Species</summary>
+<summary>🟧 <b>Family: Sicariidae</b> — 3 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Arizona Brown Spider | *Loxosceles arizonica* | *Loxosceles* |
 | Brown Recluse | *Loxosceles reclusa* | *Loxosceles* |
-| Brown Recluse Spider | *Loxosceles reclusa* | *Loxosceles* |
 | Chilean Recluse Spider | *Loxosceles laeta* | *Loxosceles* |
 
 </details>
@@ -455,7 +452,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Theraphosidae</b> — 13 Species</summary>
+<summary>🟧 <b>Family: Theraphosidae</b> — 12 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -465,7 +462,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Cobalt Blue Tarantula | *Cyriopagopus lividus* | *Cyriopagopus* |
 | Costa Rican Zebra Tarantula | *Aphonopelma seemanni* | *Aphonopelma* |
 | Goliath Birdeater | *Theraphosa blondi* | *Theraphosa* |
-| Goliath Birdeating Spider | *Theraphosa blondi* | *Theraphosa* |
 | King Baboon Spider | *Pelinobius muticus* | *Pelinobius* |
 | Mexican Redknee Tarantula | *Brachypelma hamorii* | *Brachypelma* |
 | Pinktoe Tarantula | *Avicularia avicularia* | *Avicularia* |
@@ -475,21 +471,19 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Theridiidae</b> — 13 Species</summary>
+<summary>🟧 <b>Family: Theridiidae</b> — 11 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Black Katipo | *Latrodectus atritus* | *Latrodectus* |
 | Black Widow | *Latrodectus mactans* | *Latrodectus* |
 | Black Widow | *Latrodectus tredecimguttatus* | *Latrodectus* |
-| Black Widow Spider | *Latrodectus mactans* | *Latrodectus* |
 | Brown Widow | *Latrodectus geometricus* | *Latrodectus* |
 | Common House Spider | *Parasteatoda tepidariorum* | *Parasteatoda* |
 | Hawaiian Happy Face Spider | *Theridion grallator* | *Theridion* |
 | Northern Black Widow | *Latrodectus variolus* | *Latrodectus* |
 | Red-legged Widow | *Latrodectus bishopi* | *Latrodectus* |
 | Redback Spider | *Latrodectus hasseltii* | *Latrodectus* |
-| Southern Black Widow | *Latrodectus mactans* | *Latrodectus* |
 | True Katipo | *Latrodectus katipo* | *Latrodectus* |
 | Western Black Widow | *Latrodectus hesperus* | *Latrodectus* |
 
@@ -497,7 +491,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Ixodida</b> — 31 Species</summary>
+<summary>🟥 <b>Order: Ixodida</b> — 30 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Argasidae</b> — 1 Species</summary>
@@ -508,12 +502,11 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Ixodidae</b> — 30 Species</summary>
+<summary>🟧 <b>Family: Ixodidae</b> — 29 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | American Dog Tick | *Dermacentor variabilis* | *Dermacentor* |
-| Black-legged Tick | *Ixodes scapularis* | *Ixodes* |
 | Blacklegged Tick | *Ixodes scapularis* | *Ixodes* |
 | Blue-tongued Lizard Tick | *Bothriocroton hydrosauri* | *Bothriocroton* |
 | Bont Tick | *Amblyomma hebraeum* | *Amblyomma* |
@@ -610,7 +603,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Sarcoptiformes</b> — 10 Species</summary>
+<summary>🟥 <b>Order: Sarcoptiformes</b> — 9 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Acaridae</b> — 1 Species</summary>
@@ -655,27 +648,25 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Pyroglyphidae</b> — 3 Species</summary>
+<summary>🟧 <b>Family: Pyroglyphidae</b> — 2 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | American House Dust Mite | *Dermatophagoides farinae* | *Dermatophagoides* |
 | Dust Mite | *Dermatophagoides pteronyssinus* | *Dermatophagoides* |
-| European House Dust Mite | *Dermatophagoides pteronyssinus* | *Dermatophagoides* |
 
 </details>
 
 </details>
 <details>
-<summary>🟥 <b>Order: Scorpiones</b> — 30 Species</summary>
+<summary>🟥 <b>Order: Scorpiones</b> — 28 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Buthidae</b> — 19 Species</summary>
+<summary>🟧 <b>Family: Buthidae</b> — 17 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | African Black Tail Scorpion | *Parabuthus liosoma* | *Parabuthus* |
-| Arizona Bark Scorpion | *Centruroides sculpturatus* | *Centruroides* |
 | Bark Scorpion | *Centruroides sculpturatus* | *Centruroides* |
 | Brazilian Scorpion | *Tityus serrulatus* | *Tityus* |
 | Central Asian Scorpion | *Orthochirus scrobiculosus* | *Orthochirus* |
@@ -684,7 +675,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Common European Scorpion | *Buthus occitanus* | *Buthus* |
 | Deathstalker | *Leiurus quinquestriatus* | *Leiurus* |
 | East African Scorpion | *Babycurus centrurimorphus* | *Babycurus* |
-| Egyptian Scorpion | *Leiurus quinquestriatus* | *Leiurus* |
 | Fattail Scorpion | *Androctonus hoggarensis* | *Androctonus* |
 | Indian Red Scorpion | *Hottentotta tamulus* | *Hottentotta* |
 | Lesser Asian Scorpion | *Mesobuthus eupeus* | *Mesobuthus* |
@@ -990,7 +980,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟪 <b>Class: Diplopoda</b> — 4 Species</summary>
+<summary>🟪 <b>Class: Diplopoda</b> — 3 Species</summary>
 
 <details>
 <summary>🟥 <b>Order: Julida</b> — 1 Species</summary>
@@ -1019,14 +1009,13 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Spirostreptida</b> — 2 Species</summary>
+<summary>🟥 <b>Order: Spirostreptida</b> — 1 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Spirostreptidae</b> — 2 Species</summary>
+<summary>🟧 <b>Family: Spirostreptidae</b> — 1 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| African Giant Black Millipede | *Archispirostreptus gigas* | *Archispirostreptus* |
 | Giant African Millipede | *Archispirostreptus gigas* | *Archispirostreptus* |
 
 </details>
@@ -1035,7 +1024,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟪 <b>Class: Insecta (Insects)</b> — 2,048 Species</summary>
+<summary>🟪 <b>Class: Insecta (Insects)</b> — 2,034 Species</summary>
 
 <details>
 <summary>🟥 <b>Order: Archaeognatha</b> — 1 Species</summary>
@@ -1051,17 +1040,16 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Blattodea</b> — 40 Species</summary>
+<summary>🟥 <b>Order: Blattodea</b> — 39 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Blaberidae</b> — 11 Species</summary>
+<summary>🟧 <b>Family: Blaberidae</b> — 10 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Argentinian Wood Cockroach | *Blaptica dubia* | *Blaptica* |
 | Australian Wood Cockroach | *Panesthia australis* | *Panesthia* |
 | Death's Head Cockroach | *Blaberus craniifer* | *Blaberus* |
-| Giant Madagascar Hissing Cockroach | *Gromphadorhina portentosa* | *Gromphadorhina* |
 | Gray Cockroach | *Nauphoeta cinerea* | *Nauphoeta* |
 | Madagascar Hissing Cockroach | *Gromphadorhina laevigata* | *Gromphadorhina* |
 | Madagascar Hissing Cockroach | *Gromphadorhina portentosa* | *Gromphadorhina* |
@@ -1166,7 +1154,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Coleoptera</b> — 252 Species</summary>
+<summary>🟥 <b>Order: Coleoptera</b> — 250 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Anthicidae</b> — 1 Species</summary>
@@ -1344,7 +1332,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Coccinellidae</b> — 21 Species</summary>
+<summary>🟧 <b>Family: Coccinellidae</b> — 20 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -1360,7 +1348,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Pine Ladybird | *Exochomus quadripustulatus* | *Exochomus* |
 | Scarce Seven-spotted Ladybird | *Coccinella magnifica* | *Coccinella* |
 | Seven-spot Ladybird | *Coccinella septempunctata* | *Coccinella* |
-| Seven-spotted Ladybird | *Coccinella septempunctata* | *Coccinella* |
 | Sixteen-spot Ladybird | *Halyzia sedecimpunctata* | *Halyzia* |
 | Squash Beetle | *Epilachna borealis* | *Epilachna* |
 | Threestriped Lady Beetle | *Brumoides suturalis* | *Brumoides* |
@@ -1637,7 +1624,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Tenebrionidae</b> — 14 Species</summary>
+<summary>🟧 <b>Family: Tenebrionidae</b> — 13 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -1654,7 +1641,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Red Flour Beetle | *Tribolium castaneum* | *Tribolium* |
 | Small-eyed Flour Beetle | *Palorus ratzeburgii* | *Palorus* |
 | Yellow Mealworm | *Tenebrio molitor* | *Tenebrio* |
-| Yellow Mealworm Beetle | *Tenebrio molitor* | *Tenebrio* |
 
 </details>
 <details>
@@ -1676,16 +1662,16 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | European Earwig | *Forficula auricularia* | *Forficula* |
-| European Earwig) | *Forficula auricularia complex sp. A sensu Guillet et al. (2000)* | *Forficula* |
-| European Earwig) | *Forficula auricularia complex sp. B sensu Guillet et al. (2000)* | *Forficula* |
-| European Earwig) | *Forficula auricularia complex sp. A sensu Guillet et al. (2000* | *Forficula* |
-| European Earwig) | *Forficula auricularia complex sp. B sensu Guillet et al. (2000* | *Forficula* |
+| European Earwig | *Forficula auricularia complex sp. A sensu Guillet et al. (2000* | *Forficula* |
+| European Earwig | *Forficula auricularia complex sp. A sensu Guillet et al. (2000)* | *Forficula* |
+| European Earwig | *Forficula auricularia complex sp. B sensu Guillet et al. (2000* | *Forficula* |
+| European Earwig | *Forficula auricularia complex sp. B sensu Guillet et al. (2000)* | *Forficula* |
 
 </details>
 
 </details>
 <details>
-<summary>🟥 <b>Order: Diptera</b> — 134 Species</summary>
+<summary>🟥 <b>Order: Diptera</b> — 133 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Agromyzidae</b> — 9 Species</summary>
@@ -1869,7 +1855,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Muscidae</b> — 10 Species</summary>
+<summary>🟧 <b>Family: Muscidae</b> — 9 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -1878,7 +1864,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Black Dump Fly | *Hydrotaea aenescens* | *Hydrotaea* |
 | Face Fly | *Musca autumnalis* | *Musca* |
 | Horn Fly | *Haematobia irritans* | *Haematobia* |
-| House Fly | *Musca domestica* | *Musca* |
 | Housefly | *Musca domestica* | *Musca* |
 | Pepper Fruit Fly | *Atherigona orientalis* | *Atherigona* |
 | Sorghum Shoot Fly | *Atherigona soccata* | *Atherigona* |
@@ -2054,7 +2039,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Hemiptera</b> — 213 Species</summary>
+<summary>🟥 <b>Order: Hemiptera</b> — 212 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Adelgidae</b> — 6 Species</summary>
@@ -2192,7 +2177,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Cicadidae</b> — 12 Species</summary>
+<summary>🟧 <b>Family: Cicadidae</b> — 11 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -2202,7 +2187,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Korean Horse Cicada | *Cryptotympana dubia* | *Cryptotympana* |
 | Periodical Cicada | *Magicicada septendecim* | *Magicicada* |
 | Seventeen-year Cicada | *Magicicada cassinii* | *Magicicada* |
-| Seventeen-year Cicada | *Magicicada septendecim* | *Magicicada* |
 | Seventeen-year Cicada | *Magicicada septendecula* | *Magicicada* |
 | Thirteen-year Cicada | *Magicicada neotredecim* | *Magicicada* |
 | Thirteen-year Cicada | *Magicicada tredecassini* | *Magicicada* |
@@ -2538,7 +2522,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Hymenoptera</b> — 118 Species</summary>
+<summary>🟥 <b>Order: Hymenoptera</b> — 116 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Ampulicidae</b> — 1 Species</summary>
@@ -2549,7 +2533,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Apidae</b> — 18 Species</summary>
+<summary>🟧 <b>Family: Apidae</b> — 17 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -2569,7 +2553,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Little Honeybee | *Apis florea* | *Apis* |
 | Red-tailed Bumblebee | *Bombus lapidarius* | *Bombus* |
 | Southern Carpenter Bee | *Xylocopa micans* | *Xylocopa* |
-| Western Honey Bee | *Apis mellifera* | *Apis* |
 | White-tailed Bumblebee | *Bombus lucorum* | *Bombus* |
 
 </details>
@@ -2683,7 +2666,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Formicidae</b> — 29 Species</summary>
+<summary>🟧 <b>Family: Formicidae</b> — 28 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -2711,7 +2694,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Red Bulldog Ant | *Myrmecia gulosa* | *Myrmecia* |
 | Red Fire Ant | *Solenopsis invicta* | *Solenopsis* |
 | Red Harvester Ant | *Pogonomyrmex barbatus* | *Pogonomyrmex* |
-| Red Imported Fire Ant | *Solenopsis invicta* | *Solenopsis* |
 | Sananna Strobe Ant | *Opisthopsis haddoni* | *Opisthopsis* |
 | Savanna Spiny Ant | *Polyrhachis senilis* | *Polyrhachis* |
 | Sugar Ant | *Camponotus consobrinus* | *Camponotus* |
@@ -2850,7 +2832,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Lepidoptera</b> — 1,056 Species</summary>
+<summary>🟥 <b>Order: Lepidoptera</b> — 1,050 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Adelidae</b> — 1 Species</summary>
@@ -2877,13 +2859,11 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Bombycidae</b> — 4 Species</summary>
+<summary>🟧 <b>Family: Bombycidae</b> — 2 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| Domestic Silk Moth | *Bombyx mori* | *Bombyx* |
 | Domestic Silkmoth | *Bombyx mori* | *Bombyx* |
-| Domestic Silkworm | *Bombyx mori* | *Bombyx* |
 | Wild Silkworm | *Bombyx mandarina* | *Bombyx* |
 
 </details>
@@ -3048,7 +3028,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Geometridae</b> — 110 Species</summary>
+<summary>🟧 <b>Family: Geometridae</b> — 109 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -3114,7 +3094,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Peloponnesian Wave | *Idaea albitorquata* | *Idaea* |
 | Pencil Pine Moth | *Dirce aesiodora* | *Dirce* |
 | Pencilled Wave | *Idaea calunetaria* | *Idaea* |
-| Pepper-and-salt Moth | *Biston betularia* | *Biston* |
 | Peppered Moth | *Biston betularia* | *Biston* |
 | Petite Wave | *Scopula minorata* | *Scopula* |
 | Pistachio Emerald Moth | *Hethemia pistasciaria* | *Hethemia* |
@@ -3818,7 +3797,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Papilionidae</b> — 55 Species</summary>
+<summary>🟧 <b>Family: Papilionidae</b> — 53 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -3841,7 +3820,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Common Mormon | *Papilio polytes* | *Papilio* |
 | Common Peacock | *Papilio polyctor* | *Papilio* |
 | Common Red Apollo | *Parnassius epaphus* | *Parnassius* |
-| Common Yellow Swallowtail | *Papilio machaon* | *Papilio* |
 | Crimson Rose Swallowtail | *Pachliopta hector* | *Pachliopta* |
 | Desert Apollo | *Hypermnestra helios* | *Hypermnestra* |
 | Dingy Swallowtail | *Papilio anactus* | *Papilio* |
@@ -3861,7 +3839,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Macleay's Swallowtail | *Graphium macleayanum* | *Graphium* |
 | Noble Swallowtail | *Papilio nobilis* | *Papilio* |
 | Paris Peacock Swallowtail | *Papilio paris* | *Papilio* |
-| Pipe-vine Swallowtail | *Battus philenor* | *Battus* |
 | Pipevine Swallowtail | *Battus philenor* | *Battus* |
 | Regal Apollo | *Parnassius charltonius* | *Parnassius* |
 | Regal Swallowtail | *Papilio rex* | *Papilio* |
@@ -3880,7 +3857,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Pieridae</b> — 69 Species</summary>
+<summary>🟧 <b>Family: Pieridae</b> — 68 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -3917,7 +3894,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Indian Cabbage White | *Pieris canidia* | *Pieris* |
 | Labrador Sulphur | *Colias nastes* | *Colias* |
 | Large Cabbage White | *Pieris brassicae* | *Pieris* |
-| Large White / Cabbage White | *Pieris brassicae* | *Pieris* |
 | Lemon Migrant | *Catopsilia pomona* | *Catopsilia* |
 | Lesse's Greenish Black Tip | *Euchloe lessei* | *Euchloe* |
 | Lesser Clouded Yellow | *Colias chrysotheme* | *Colias* |
@@ -4191,7 +4167,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Mantodea</b> — 7 Species</summary>
+<summary>🟥 <b>Order: Mantodea</b> — 6 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Hymenopodidae</b> — 3 Species</summary>
@@ -4204,12 +4180,11 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Mantidae</b> — 4 Species</summary>
+<summary>🟧 <b>Family: Mantidae</b> — 3 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Chinese Praying Mantis | *Tenodera sinensis* | *Tenodera* |
-| European Praying Mantis | *Mantis religiosa* | *Mantis* |
 | Praying Mantis | *Mantis religiosa* | *Mantis* |
 | Stick Mantis | *Heterochaeta strachani* | *Heterochaeta* |
 
@@ -4871,7 +4846,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟪 <b>Class: Malacostraca (Crabs, Lobsters & Shrimps)</b> — 185 Species</summary>
+<summary>🟪 <b>Class: Malacostraca (Crabs, Lobsters & Shrimps)</b> — 183 Species</summary>
 
 <details>
 <summary>🟥 <b>Order: Amphipoda</b> — 3 Species</summary>
@@ -4902,7 +4877,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Decapoda</b> — 172 Species</summary>
+<summary>🟥 <b>Order: Decapoda</b> — 171 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Alpheidae</b> — 3 Species</summary>
@@ -5240,11 +5215,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Penaeidae</b> — 12 Species</summary>
+<summary>🟧 <b>Family: Penaeidae</b> — 11 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| Black Tiger Shrimp | *Penaeus monodon* | *Penaeus* |
 | Blue Shrimp | *Penaeus stylirostris* | *Penaeus* |
 | Brown Shrimp | *Penaeus aztecus* | *Penaeus* |
 | Giant Tiger Prawn | *Penaeus monodon* | *Penaeus* |
@@ -5395,7 +5369,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Isopoda</b> — 5 Species</summary>
+<summary>🟥 <b>Order: Isopoda</b> — 4 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Armadillidae</b> — 1 Species</summary>
@@ -5406,11 +5380,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Armadillidiidae</b> — 2 Species</summary>
+<summary>🟧 <b>Family: Armadillidiidae</b> — 1 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| Common Pill Woodlouse | *Armadillidium vulgare* | *Armadillidium* |
 | Common Pillbug | *Armadillidium vulgare* | *Armadillidium* |
 
 </details>
@@ -5572,16 +5545,16 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟦 <b>Phylum: Chordata (Vertebrates & Allies)</b> — 24,861 Species</summary>
+<summary>🟦 <b>Phylum: Chordata (Vertebrates & Allies)</b> — 24,642 Species</summary>
 
 <details>
-<summary>🟪 <b>Class: Actinopteri (Ray-finned Fishes)</b> — 9,064 Species</summary>
+<summary>🟪 <b>Class: Actinopteri (Ray-finned Fishes)</b> — 9,037 Species</summary>
 
 <details>
-<summary>🟥 <b>Order: Acanthuriformes</b> — 71 Species</summary>
+<summary>🟥 <b>Order: Acanthuriformes</b> — 70 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Acanthuridae</b> — 69 Species</summary>
+<summary>🟧 <b>Family: Acanthuridae</b> — 68 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -5627,7 +5600,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Orangespine Unicornfish | *Naso lituratus* | *Naso* |
 | Orangespot Surgeonfish | *Acanthurus olivaceus* | *Acanthurus* |
 | Palelipped Surgeonfish | *Acanthurus leucocheilus* | *Acanthurus* |
-| Palette Surgeonfish | *Paracanthurus hepatus* | *Paracanthurus* |
 | Razor Surgeonfish | *Prionurus laticlavius* | *Prionurus* |
 | Regal Blue Tang | *Paracanthurus hepatus* | *Paracanthurus* |
 | Ringtail Surgeonfish | *Acanthurus blochii* | *Acanthurus* |
@@ -5675,10 +5647,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Acipenseriformes</b> — 29 Species</summary>
+<summary>🟥 <b>Order: Acipenseriformes</b> — 27 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Acipenseridae</b> — 26 Species</summary>
+<summary>🟧 <b>Family: Acipenseridae</b> — 25 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -5688,7 +5660,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Amur Sturgeon | *Acipenser schrenckii* | *Acipenser* |
 | Atlantic Sturgeon | *Acipenser oxyrinchus* | *Acipenser* |
 | Beluga | *Huso huso* | *Huso* |
-| Beluga Sturgeon | *Huso huso* | *Huso* |
 | Bester | *Acipenser ruthenus x Huso huso* | *Acipenser* |
 | Chinese Sturgeon | *Acipenser sinensis* | *Acipenser* |
 | Dwarf Sturgeon | *Pseudoscaphirhynchus hermanni* | *Pseudoscaphirhynchus* |
@@ -5711,13 +5682,12 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Polyodontidae</b> — 3 Species</summary>
+<summary>🟧 <b>Family: Polyodontidae</b> — 2 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | American Paddlefish | *Polyodon spathula* | *Polyodon* |
 | Chinese Swordfish | *Psephurus gladius* | *Psephurus* |
-| Mississippi Paddlefish | *Polyodon spathula* | *Polyodon* |
 
 </details>
 
@@ -6109,7 +6079,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Anguilliformes</b> — 230 Species</summary>
+<summary>🟥 <b>Order: Anguilliformes</b> — 228 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Anguillidae</b> — 17 Species</summary>
@@ -6259,7 +6229,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Muraenidae</b> — 73 Species</summary>
+<summary>🟧 <b>Family: Muraenidae</b> — 72 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -6287,7 +6257,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Giant Moray | *Gymnothorax javanicus* | *Gymnothorax* |
 | Goldentail Moray | *Gymnothorax miliaris* | *Gymnothorax* |
 | Green Moray | *Gymnothorax funebris* | *Gymnothorax* |
-| Green Moray Eel | *Gymnothorax funebris* | *Gymnothorax* |
 | Greyface Moray | *Gymnothorax thyrsoideus* | *Gymnothorax* |
 | Highfin Moray | *Gymnothorax pseudothyrsoideus* | *Gymnothorax* |
 | Honeycomb Moray | *Muraena melanotis* | *Muraena* |
@@ -6347,14 +6316,13 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Nemichthyidae</b> — 6 Species</summary>
+<summary>🟧 <b>Family: Nemichthyidae</b> — 5 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Avocet Snipe-eel | *Avocettina infans* | *Avocettina* |
 | Bowers' Snipe Eel | *Avocettina bowersii* | *Avocettina* |
 | Labichthys Carinatus | *Labichthys carinatus* | *Labichthys* |
-| Labichthys Carinatus Gill & Ryder, 1883 | *Labichthys carinatus* | *Labichthys* |
 | Slender Snipe Eel | *Nemichthys scolopaceus* | *Nemichthys* |
 | Spotted Snipe Eel | *Nemichthys curvirostris* | *Nemichthys* |
 
@@ -7662,7 +7630,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Carangiformes</b> — 140 Species</summary>
+<summary>🟥 <b>Order: Carangiformes</b> — 139 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Carangidae</b> — 127 Species</summary>
@@ -7799,11 +7767,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Coryphaenidae</b> — 2 Species</summary>
+<summary>🟧 <b>Family: Coryphaenidae</b> — 1 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| Common Dolphinfish | *Coryphaena hippurus* | *Coryphaena* |
 | Mahi-mahi | *Coryphaena hippurus* | *Coryphaena* |
 
 </details>
@@ -8268,7 +8235,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Characiformes</b> — 127 Species</summary>
+<summary>🟥 <b>Order: Characiformes</b> — 126 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Acestrorhamphidae</b> — 29 Species</summary>
@@ -8350,12 +8317,11 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Bryconidae</b> — 3 Species</summary>
+<summary>🟧 <b>Family: Bryconidae</b> — 2 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Dorado | *Salminus brasiliensis* | *Salminus* |
-| Golden Dorado | *Salminus brasiliensis* | *Salminus* |
 | Machaca | *Brycon guatemalensis* | *Brycon* |
 
 </details>
@@ -8768,7 +8734,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Clupeiformes</b> — 226 Species</summary>
+<summary>🟥 <b>Order: Clupeiformes</b> — 225 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Chirocentridae</b> — 2 Species</summary>
@@ -8780,7 +8746,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Clupeidae</b> — 113 Species</summary>
+<summary>🟧 <b>Family: Clupeidae</b> — 112 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -8823,7 +8789,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Delicate Round Herring | *Spratelloides delicatulus* | *Spratelloides* |
 | Dwarf Noodlefish | *Sundasalanx praecox* | *Sundasalanx* |
 | Dwarf Round Herring | *Jenkinsia lamprotaenia* | *Jenkinsia* |
-| European Pilchard | *Sardina pilchardus* | *Sardina* |
 | European Sardine | *Sardina pilchardus* | *Sardina* |
 | European Sprat | *Sprattus sprattus* | *Sprattus* |
 | Falkland Sprat | *Sprattus fuegensis* | *Sprattus* |
@@ -9975,8 +9940,8 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Creek Loach | *Schistura beavani* | *Schistura* |
 | Dwarf Zipper Loach | *Paracanthocobitis zonalternans* | *Paracanthocobitis* |
 | Eightbarbel Loach | *Lefua costata* | *Lefua* |
-| Fluvial Eight-barbel Loach) | *Lefua sp. (sensu Hosoya 1993)* | *Lefua* |
-| Fluvial Eight-barbel Loach) | *Lefua sp. (sensu Hosoya 1993* | *Lefua* |
+| Fluvial Eight-barbel Loach | *Lefua sp. (sensu Hosoya 1993* | *Lefua* |
+| Fluvial Eight-barbel Loach | *Lefua sp. (sensu Hosoya 1993)* | *Lefua* |
 | Half-banded Loach | *Schistura savona* | *Schistura* |
 | Issyk-kul Naked Loach | *Triplophysa ulacholica* | *Triplophysa* |
 | Kashgarian Loach | *Triplophysa yarkandensis* | *Triplophysa* |
@@ -10432,7 +10397,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Elopiformes</b> — 7 Species</summary>
+<summary>🟥 <b>Order: Elopiformes</b> — 6 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Elopidae</b> — 4 Species</summary>
@@ -10446,11 +10411,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Megalopidae</b> — 3 Species</summary>
+<summary>🟧 <b>Family: Megalopidae</b> — 2 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| Atlantic Tarpon | *Megalops atlanticus* | *Megalops* |
 | Indo-pacific Tarpon | *Megalops cyprinoides* | *Megalops* |
 | Tarpon | *Megalops atlanticus* | *Megalops* |
 
@@ -10566,7 +10530,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Gadiformes</b> — 187 Species</summary>
+<summary>🟥 <b>Order: Gadiformes</b> — 186 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Bregmacerotidae</b> — 6 Species</summary>
@@ -10645,7 +10609,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Macrouridae</b> — 97 Species</summary>
+<summary>🟧 <b>Family: Macrouridae</b> — 96 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -10743,7 +10707,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Upturned Snout Rattail | *Coelorinchus mycterismus* | *Coelorinchus* |
 | Vaillant's Grenadier | *Bathygadus melanobranchus* | *Bathygadus* |
 | Ventrifossa Fusca | *Ventrifossa fusca* | *Ventrifossa* |
-| Ventrifossa Fusca Okamura, 1982 | *Ventrifossa fusca* | *Ventrifossa* |
 | Western Softhead Grenadier | *Malacocephalus occidentalis* | *Malacocephalus* |
 | Whitson's Grenadier | *Macrourus whitsoni* | *Macrourus* |
 
@@ -10869,8 +10832,8 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Murray Jollytail | *Galaxias rostratus* | *Galaxias* |
 | Northern Galaxias | *Galaxias sp. 'northern'* | *Galaxias* |
 | Northland Mudfish | *Neochanna heleios* | *Neochanna* |
-| Pool Burn Galaxias) | *Galaxias sp. D (Allibone et al., 1996)* | *Galaxias* |
-| Pool Burn Galaxias) | *Galaxias sp. D (Allibone et al., 1996* | *Galaxias* |
+| Pool Burn Galaxias | *Galaxias sp. D (Allibone et al., 1996* | *Galaxias* |
+| Pool Burn Galaxias | *Galaxias sp. D (Allibone et al., 1996)* | *Galaxias* |
 | Shortjaw Kokopu | *Galaxias postvectis* | *Galaxias* |
 | Southern Flathead Galaxias | *Galaxias sp. 'southern'* | *Galaxias* |
 | Spotted Mountain Trout | *Galaxias truttaceus* | *Galaxias* |
@@ -10932,7 +10895,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Gobiiformes</b> — 584 Species</summary>
+<summary>🟥 <b>Order: Gobiiformes</b> — 583 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Eleotridae</b> — 52 Species</summary>
@@ -10994,7 +10957,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Gobiidae</b> — 525 Species</summary>
+<summary>🟧 <b>Family: Gobiidae</b> — 524 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -11192,7 +11155,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Girdled Goby | *Priolepis cincta* | *Priolepis* |
 | Glass Goby | *Coryphopterus hyalinus* | *Coryphopterus* |
 | Glossogobius Intermedius | *Glossogobius intermedius* | *Glossogobius* |
-| Glossogobius Intermedius Aurich, 1938 | *Glossogobius intermedius* | *Glossogobius* |
 | Gold-specked Prawn-goby | *Ctenogobiops pomastictus* | *Ctenogobiops* |
 | Gold-streaked Prawn-goby | *Ctenogobiops aurocingulus* | *Ctenogobiops* |
 | Golden Goby | *Gobius auratus* | *Gobius* |
@@ -11744,14 +11706,13 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Istiophoriformes</b> — 12 Species</summary>
+<summary>🟥 <b>Order: Istiophoriformes</b> — 11 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Istiophoridae</b> — 11 Species</summary>
+<summary>🟧 <b>Family: Istiophoridae</b> — 10 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| Atlantic Blue Marlin | *Makaira nigricans* | *Makaira* |
 | Atlantic White Marlin | *Kajikia albida* | *Kajikia* |
 | Black Marlin | *Istiompax indica* | *Istiompax* |
 | Blue Marlin | *Makaira nigricans* | *Makaira* |
@@ -12308,7 +12269,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Lampriformes</b> — 18 Species</summary>
+<summary>🟥 <b>Order: Lampriformes</b> — 17 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Lampridae</b> — 6 Species</summary>
@@ -12333,12 +12294,11 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Regalecidae</b> — 3 Species</summary>
+<summary>🟧 <b>Family: Regalecidae</b> — 2 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Giant Oarfish | *Regalecus glesne* | *Regalecus* |
-| King of Herrings | *Regalecus glesne* | *Regalecus* |
 | Oarfish | *Regalecus russelii* | *Regalecus* |
 
 </details>
@@ -12408,7 +12368,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Lophiiformes</b> — 93 Species</summary>
+<summary>🟥 <b>Order: Lophiiformes</b> — 92 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Antennariidae</b> — 29 Species</summary>
@@ -12520,12 +12480,11 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Melanocetidae</b> — 3 Species</summary>
+<summary>🟧 <b>Family: Melanocetidae</b> — 2 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Deep-sea Anglerfish | *Melanocetus johnsonii* | *Melanocetus* |
-| Humpback Anglerfish | *Melanocetus johnsonii* | *Melanocetus* |
 | Murray's Abyssal Anglerfish | *Melanocetus murrayi* | *Melanocetus* |
 
 </details>
@@ -12583,7 +12542,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Lutjaniformes</b> — 170 Species</summary>
+<summary>🟥 <b>Order: Lutjaniformes</b> — 169 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Haemulidae</b> — 67 Species</summary>
@@ -12660,7 +12619,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Lutjanidae</b> — 103 Species</summary>
+<summary>🟧 <b>Family: Lutjanidae</b> — 102 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -12724,7 +12683,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Mottled Fusilier | *Dipterygonotus balteatus* | *Dipterygonotus* |
 | Mullet Snapper | *Lutjanus aratus* | *Lutjanus* |
 | Mutton Snapper | *Lutjanus analis* | *Lutjanus* |
-| Northern Red Snapper | *Lutjanus campechanus* | *Lutjanus* |
 | Oblique-banded Snapper | *Pristipomoides zonatus* | *Pristipomoides* |
 | One-stripe Fusilier | *Pterocaesio tessellata* | *Pterocaesio* |
 | Onespot Snapper | *Lutjanus monostigma* | *Lutjanus* |
@@ -12826,16 +12784,15 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Moronidae Allies</b> — 7 Species</summary>
+<summary>🟥 <b>Order: Moronidae Allies</b> — 6 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Moronidae</b> — 7 Species</summary>
+<summary>🟧 <b>Family: Moronidae</b> — 6 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | European Seabass | *Dicentrarchus labrax* | *Dicentrarchus* |
 | Striped Bass | *Morone saxatilis* | *Morone* |
-| Striped Sea-bass | *Morone saxatilis* | *Morone* |
 | White Bass | *Morone chrysops* | *Morone* |
 | White Bass X Striped Sea-bass | *Morone chrysops x Morone saxatilis* | *Morone* |
 | White Perch | *Morone americana* | *Morone* |
@@ -13236,7 +13193,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Osteoglossiformes</b> — 17 Species</summary>
+<summary>🟥 <b>Order: Osteoglossiformes</b> — 16 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Mormyridae</b> — 5 Species</summary>
@@ -13261,7 +13218,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Osteoglossidae</b> — 8 Species</summary>
+<summary>🟧 <b>Family: Osteoglossidae</b> — 7 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -13271,7 +13228,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Australian Bonytongue | *Scleropages jardinii* | *Scleropages* |
 | Black Arawana | *Osteoglossum ferreirai* | *Osteoglossum* |
 | Silver Arawana | *Osteoglossum bicirrhosum* | *Osteoglossum* |
-| Silver Arowana | *Osteoglossum bicirrhosum* | *Osteoglossum* |
 | Spotted Bonytongue | *Scleropages leichardti* | *Scleropages* |
 
 </details>
@@ -13314,7 +13270,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Perciformes</b> — 1,218 Species</summary>
+<summary>🟥 <b>Order: Perciformes</b> — 1,214 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Agonidae</b> — 28 Species</summary>
@@ -13899,7 +13855,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Percidae</b> — 248 Species</summary>
+<summary>🟧 <b>Family: Percidae</b> — 247 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -14060,7 +14016,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Paleback Darter | *Etheostoma pallididorsum* | *Etheostoma* |
 | Pearl Darter | *Percina aurora* | *Percina* |
 | Piedmont Darter | *Percina crassa* | *Percina* |
-| Pikeperch | *Sander lucioperca* | *Sander* |
 | Pinewoods Darter | *Etheostoma mariae* | *Etheostoma* |
 | Rainbow Darter | *Etheostoma caeruleum* | *Etheostoma* |
 | Redband Darter | *Etheostoma luteovinctum* | *Etheostoma* |
@@ -14715,7 +14670,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Synanceiidae</b> — 14 Species</summary>
+<summary>🟧 <b>Family: Synanceiidae</b> — 13 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -14727,7 +14682,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Painted Stinger | *Minous pictus* | *Minous* |
 | Pitted Stonefish | *Erosa erosa* | *Erosa* |
 | Plumstriped Stingfish | *Minous versicolor* | *Minous* |
-| Reef Stonefish | *Synanceia verrucosa* | *Synanceia* |
 | Spotted Ghoul | *Inimicus sinensis* | *Inimicus* |
 | Stonefish | *Synanceia verrucosa* | *Synanceia* |
 | Threestick Stingfish | *Choridactylus natalensis* | *Choridactylus* |
@@ -14742,7 +14696,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 | :--- | :--- | :--- |
 | Bearded Roguefish | *Tetraroge barbata* | *Tetraroge* |
 | Cockatoo Waspfish | *Ablabys taenianotus* | *Ablabys* |
-| Fortesque Waspfish) | *Centropogon australis (in: ray-finned fishes)* | *Centropogon* |
+| Fortesque Waspfish | *Centropogon australis (in: ray-finned fishes)* | *Centropogon* |
 | Irksome Goblinfish | *Trichosomus trachinoides* | *Trichosomus* |
 | Leaf Goblinfish | *Neovespicula depressifrons* | *Neovespicula* |
 | Redfin Waspfish | *Hypodytes rubripinnis* | *Hypodytes* |
@@ -14772,7 +14726,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Triglidae</b> — 44 Species</summary>
+<summary>🟧 <b>Family: Triglidae</b> — 42 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -14795,9 +14749,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Latchet | *Pterygotrigla polyommata* | *Pterygotrigla* |
 | Leopard Searobin | *Prionotus scitulus* | *Prionotus* |
 | Lepidotrigla Kanagashira | *Lepidotrigla kanagashira* | *Lepidotrigla* |
-| Lepidotrigla Kanagashira Kamohara, 1936 | *Lepidotrigla kanagashira* | *Lepidotrigla* |
 | Lepidotrigla Longifaciata | *Lepidotrigla longifaciata* | *Lepidotrigla* |
-| Lepidotrigla Longifaciata Yatou, 1981 | *Lepidotrigla longifaciata* | *Lepidotrigla* |
 | Lesser Gurnard | *Chelidonichthys queketti* | *Chelidonichthys* |
 | Long-finned Gurnard | *Lepidotrigla argus* | *Lepidotrigla* |
 | Longfin Gurnard | *Chelidonichthys obscurus* | *Chelidonichthys* |
@@ -15340,10 +15292,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Polymixiiformes</b> — 6 Species</summary>
+<summary>🟥 <b>Order: Polymixiiformes</b> — 5 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Polymixiidae</b> — 6 Species</summary>
+<summary>🟧 <b>Family: Polymixiidae</b> — 5 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -15351,7 +15303,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Busakhin's Beardfish | *Polymixia busakhini* | *Polymixia* |
 | Pacific Beardfish | *Polymixia berndti* | *Polymixia* |
 | Polymixia Sazanovi | *Polymixia sazonovi* | *Polymixia* |
-| Polymixia Sazanovi Kotlyar, 1992 | *Polymixia sazonovi* | *Polymixia* |
 | Silver Eye | *Polymixia japonica* | *Polymixia* |
 
 </details>
@@ -15475,10 +15426,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Pomacentridae Allies</b> — 268 Species</summary>
+<summary>🟥 <b>Order: Pomacentridae Allies</b> — 267 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Pomacentridae</b> — 268 Species</summary>
+<summary>🟧 <b>Family: Pomacentridae</b> — 267 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -15632,7 +15583,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Night Sergeant | *Abudefduf taurus* | *Abudefduf* |
 | Obscure Damsel | *Pomacentrus adelus* | *Pomacentrus* |
 | Ocean Humbug Damselfish | *Dascyllus abudafur* | *Dascyllus* |
-| Ocellaris Clownfish | *Amphiprion ocellaris* | *Amphiprion* |
 | Ocellate Damselfish | *Pomacentrus vaiuli* | *Pomacentrus* |
 | Ocellated Damsel | *Neoglyphidodon bonang* | *Neoglyphidodon* |
 | Oman Anemonefish | *Amphiprion omanensis* | *Amphiprion* |
@@ -15854,10 +15804,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Salmoniformes</b> — 76 Species</summary>
+<summary>🟥 <b>Order: Salmoniformes</b> — 75 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Salmonidae</b> — 76 Species</summary>
+<summary>🟧 <b>Family: Salmonidae</b> — 75 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -15926,7 +15876,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Prespa Trout | *Salmo peristericus* | *Salmo* |
 | Pygmy Whitefish | *Prosopium coulterii* | *Prosopium* |
 | Rainbow Trout | *Oncorhynchus mykiss* | *Oncorhynchus* |
-| River Trout | *Salmo trutta* | *Salmo* |
 | Round Whitefish | *Prosopium cylindraceum* | *Prosopium* |
 | Shortjaw Cisco | *Coregonus zenithicus* | *Coregonus* |
 | Sichuan Taimen | *Hucho bleekeri* | *Hucho* |
@@ -16422,7 +16371,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Siluriformes</b> — 359 Species</summary>
+<summary>🟥 <b>Order: Siluriformes</b> — 358 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Amblycipitidae</b> — 3 Species</summary>
@@ -16918,14 +16867,13 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Siluridae</b> — 16 Species</summary>
+<summary>🟧 <b>Family: Siluridae</b> — 15 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Amur Catfish | *Silurus asotus* | *Silurus* |
 | Aristotle's Catfish | *Silurus aristotelis* | *Silurus* |
 | Butter Catfish | *Ompok bimaculatus* | *Ompok* |
-| European Catfish | *Silurus glanis* | *Silurus* |
 | Ghost Catfish | *Kryptopterus minor* | *Kryptopterus* |
 | Glass Catfish | *Kryptopterus bicirrhis* | *Kryptopterus* |
 | Goan Catfish | *Ompok malabaricus* | *Ompok* |
@@ -17382,7 +17330,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Syngnathiformes</b> — 204 Species</summary>
+<summary>🟥 <b>Order: Syngnathiformes</b> — 203 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Aulostomidae</b> — 3 Species</summary>
@@ -17543,7 +17491,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Syngnathidae</b> — 102 Species</summary>
+<summary>🟧 <b>Family: Syngnathidae</b> — 101 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -17636,7 +17584,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Spiny Pipehorse | *Solegnathus spinosissimus* | *Solegnathus* |
 | Spotted Pipefish | *Stigmatopora argus* | *Stigmatopora* |
 | Spotted Seahorse | *Hippocampus hilonis* | *Hippocampus* |
-| Spotted Seahorse | *Hippocampus kuda* | *Hippocampus* |
 | Straightnose Pipefish | *Nerophis ophidion* | *Nerophis* |
 | Straightstick Pipefish | *Trachyrhamphus longirostris* | *Trachyrhamphus* |
 | Sydney's Pygmy Pipehorse | *Idiotropiscis lumnitzeri* | *Idiotropiscis* |
@@ -17654,7 +17601,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Tetraodontiformes</b> — 254 Species</summary>
+<summary>🟥 <b>Order: Tetraodontiformes</b> — 253 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Aracanidae</b> — 8 Species</summary>
@@ -17840,7 +17787,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Tetraodontidae</b> — 103 Species</summary>
+<summary>🟧 <b>Family: Tetraodontidae</b> — 102 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -17932,7 +17879,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Southern Puffer | *Sphoeroides nephelus* | *Sphoeroides* |
 | Spider-eye Puffer | *Canthigaster amboinensis* | *Canthigaster* |
 | Spiny Blaasop | *Tylerius spinosissimus* | *Tylerius* |
-| Spotted Green Pufferfish | *Tetraodon nigroviridis* | *Tetraodon* |
 | Spotted Sharpnose | *Canthigaster solandri* | *Canthigaster* |
 | Spotted Sharpnosed Puffer | *Canthigaster punctatissima* | *Canthigaster* |
 | Starry Toadfish | *Arothron stellatus* | *Arothron* |
@@ -18184,10 +18130,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟪 <b>Class: Amphibia (Amphibians)</b> — 3,402 Species</summary>
+<summary>🟪 <b>Class: Amphibia (Amphibians)</b> — 3,385 Species</summary>
 
 <details>
-<summary>🟥 <b>Order: Anura</b> — 2,918 Species</summary>
+<summary>🟥 <b>Order: Anura</b> — 2,907 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Allophrynidae</b> — 1 Species</summary>
@@ -18233,11 +18179,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Alytidae</b> — 11 Species</summary>
+<summary>🟧 <b>Family: Alytidae</b> — 10 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| Common Midwife Toad | *Alytes obstetricans* | *Alytes* |
 | Corsican Painted Frog | *Discoglossus montalentii* | *Discoglossus* |
 | Hula Painted Frog | *Latonia nigriventer* | *Latonia* |
 | Iberian Midwife Toad | *Alytes cisternasii* | *Alytes* |
@@ -18404,13 +18349,12 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Bombinatoridae</b> — 11 Species</summary>
+<summary>🟧 <b>Family: Bombinatoridae</b> — 10 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Appenine Yellow-bellied Toad | *Bombina pachypus* | *Bombina* |
 | Busuanga Jungle Toad | *Barbourula busuangensis* | *Barbourula* |
-| European Fire-bellied Toad | *Bombina bombina* | *Bombina* |
 | Fire-bellied Toad | *Bombina bombina* | *Bombina* |
 | Hubei Firebelly Toad | *Bombina microdeladigitora* | *Bombina* |
 | Kalimantan Jungle Toad | *Barbourula kalimantanensis* | *Barbourula* |
@@ -18472,7 +18416,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Bufonidae</b> — 263 Species</summary>
+<summary>🟧 <b>Family: Bufonidae</b> — 261 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -18549,7 +18493,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Eastern Leopard Toad | *Sclerophrys pardalis* | *Sclerophrys* |
 | Eichwald's Toad | *Bufo eichwaldi* | *Bufo* |
 | Elegant Stubfoot Toad | *Atelopus gracilis* | *Atelopus* |
-| European Green Toad | *Bufotes balearicus* | *Bufotes* |
 | European Green Toad | *Bufotes viridis* | *Bufotes* |
 | Falcon Toad | *Rhinella sternosignata* | *Rhinella* |
 | Ferguson's Toad | *Duttaphrynus scaber* | *Duttaphrynus* |
@@ -18615,7 +18558,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Malaya Stream Toad | *Ansonia malayana* | *Ansonia* |
 | Malcolm's Ethiopian Toad | *Altiphrynoides malcolmi* | *Altiphrynoides* |
 | Marbled Toad | *Incilius marmoreus* | *Incilius* |
-| Marine Toad | *Rhinella marina* | *Rhinella* |
 | Matang Stream Toad | *Ansonia leptopus* | *Ansonia* |
 | Mcgregor's Stream Toad | *Ansonia mcgregori* | *Ansonia* |
 | Mertens' Smalltongue Toad | *Werneria mertensiana* | *Werneria* |
@@ -18750,7 +18692,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Centrolenidae</b> — 69 Species</summary>
+<summary>🟧 <b>Family: Centrolenidae</b> — 68 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -18799,7 +18741,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Plantation Glass Frog | *Hyalinobatrachium colymbiphyllum* | *Hyalinobatrachium* |
 | Puyo Giant Glass Frog | *Nymphargus mariae* | *Nymphargus* |
 | Resplendent Cochran Frog | *Cochranella resplendens* | *Cochranella* |
-| Reticulated Glass Frog | *Hyalinobatrachium valerioi* | *Hyalinobatrachium* |
 | Rio Coca Cochran Frog | *Nymphargus siren* | *Nymphargus* |
 | Rio Glass Frog | *Vitreorana eurygnatha* | *Vitreorana* |
 | Sabin's Glassfrog | *Centrolene sabini* | *Centrolene* |
@@ -18978,7 +18919,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Dendrobatidae</b> — 72 Species</summary>
+<summary>🟧 <b>Family: Dendrobatidae</b> — 70 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -19000,7 +18941,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Demonic Poison Frog | *Minyobates steyermarki* | *Minyobates* |
 | Duellman's Poison Dart Frog | *Ranitomeya uakarii* | *Ranitomeya* |
 | Dyeing Dart Frog | *Dendrobates tinctorius* | *Dendrobates* |
-| Dyeing Poison Frog | *Dendrobates tinctorius* | *Dendrobates* |
 | Ecuador Poison Frog | *Ameerega bilinguis* | *Ameerega* |
 | Espada's Rocket Frog | *Hyloxalus pulchellus* | *Hyloxalus* |
 | Forest Rocket Frog | *Hyloxalus sylvaticus* | *Hyloxalus* |
@@ -19048,7 +18988,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Tarapoto Poison Frog | *Ameerega altamazonica* | *Ameerega* |
 | Three-striped Poison Frog | *Ameerega trivittata* | *Ameerega* |
 | Turquoise-bellied Poison Frog | *Epipedobates espinosai* | *Epipedobates* |
-| Yellow-banded Poison Dart Frog | *Dendrobates leucomelas* | *Dendrobates* |
 | Yellow-headed Poison Frog | *Dendrobates leucomelas* | *Dendrobates* |
 | Yellow-spotted Frog | *Ameerega flavopicta* | *Ameerega* |
 | Yellow-striped Poison Frog | *Dendrobates truncatus* | *Dendrobates* |
@@ -19353,7 +19292,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Hylidae</b> — 347 Species</summary>
+<summary>🟧 <b>Family: Hylidae</b> — 344 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -19362,7 +19301,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Alfaro's Treefrog | *Boana alfaroi* | *Boana* |
 | Almendariz's Treefrog | *Boana almendarizae* | *Boana* |
 | Amapa Treefrog | *Boana dentei* | *Boana* |
-| American Green Tree Frog | *Dryophytes cinereus* | *Dryophytes* |
 | Annam Treefrog | *Hyla simplex* | *Hyla* |
 | Armed Treefrog | *Hyloscirtus armatus* | *Hyloscirtus* |
 | Assam Treefrog | *Hyla annectans* | *Hyla* |
@@ -19417,7 +19355,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Cayenne Slender-legged Treefrog | *Osteocephalus leprieurii* | *Osteocephalus* |
 | Ceiba Stream Frog | *Atlantihyla spinipollex* | *Atlantihyla* |
 | Chaco Treefrog | *Boana raniceps* | *Boana* |
-| Chameleon Treefrog | *Dryophytes versicolor* | *Dryophytes* |
 | Charazani Treefrog | *Hyloscirtus charazani* | *Hyloscirtus* |
 | Chinese Tree Toad | *Hyla chinensis* | *Hyla* |
 | Chirique-flusse Treefrog | *Boana pugnax* | *Boana* |
@@ -19596,7 +19533,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Rabbs' Fringe-limbed Treefrog | *Ecnomiohyla rabborum* | *Ecnomiohyla* |
 | Red Snouted Treefrog | *Scinax ruber* | *Scinax* |
 | Red-eyed Leaf Frog | *Agalychnis callidryas* | *Agalychnis* |
-| Red-eyed Tree Frog | *Agalychnis callidryas* | *Agalychnis* |
 | Red-rimmed Leaf Frog | *Phyllomedusa boliviana* | *Phyllomedusa* |
 | Red-skirted Treefrog | *Dendropsophus rhodopeplus* | *Dendropsophus* |
 | Red-spotted Argentina Frog | *Nyctimantis siemersi* | *Nyctimantis* |
@@ -20843,7 +20779,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Ranidae</b> — 243 Species</summary>
+<summary>🟧 <b>Family: Ranidae</b> — 242 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -21007,7 +20943,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Mountain Yellow-legged Frog | *Rana muscosa* | *Rana* |
 | Nevada Yellow-legged Frog | *Rana sierrae* | *Rana* |
 | Nicobar Island Frog | *Indosylvirana nicobariensis* | *Indosylvirana* |
-| North American Green Frog | *Lithobates clamitans* | *Lithobates* |
 | Northeast China Rough-skinned Frog | *Glandirana emeljanovi* | *Glandirana* |
 | Northern Leopard Frog | *Lithobates pipiens* | *Lithobates* |
 | Northwest Mexico Leopard Frog | *Lithobates magnaocularis* | *Lithobates* |
@@ -21467,7 +21402,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Caudata</b> — 457 Species</summary>
+<summary>🟥 <b>Order: Caudata</b> — 451 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Ambystomatidae</b> — 33 Species</summary>
@@ -21592,7 +21527,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Plethodontidae</b> — 273 Species</summary>
+<summary>🟧 <b>Family: Plethodontidae</b> — 272 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -21673,7 +21608,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Dusky Salamander | *Desmognathus fuscus* | *Desmognathus* |
 | Dwarf Blackbelly Salamander | *Desmognathus folkertsi* | *Desmognathus* |
 | Dwarf Splayfoot Salamander | *Chiropterotriton dimidiatus* | *Chiropterotriton* |
-| Eastern Red-backed Salamander | *Plethodon cinereus* | *Plethodon* |
 | Ecuador Mushroomtongue Salamander | *Bolitoglossa equatoriana* | *Bolitoglossa* |
 | El Cielo Salamander | *Chiropterotriton cieloensis* | *Chiropterotriton* |
 | Engelhardt's Mushroomtongue Salamander | *Bolitoglossa engelhardti* | *Bolitoglossa* |
@@ -21872,18 +21806,16 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Proteidae</b> — 8 Species</summary>
+<summary>🟧 <b>Family: Proteidae</b> — 6 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Alabama Waterdog | *Necturus alabamensis* | *Necturus* |
-| Common Mudpuppy | *Necturus maculosus* | *Necturus* |
 | Dwarf Waterdog | *Necturus punctatus* | *Necturus* |
 | Gulf Coast Waterdog | *Necturus beyeri* | *Necturus* |
 | Mudpuppy | *Necturus maculosus* | *Necturus* |
 | Neuse River Waterdog | *Necturus lewisi* | *Necturus* |
 | Olm | *Proteus anguinus* | *Proteus* |
-| Olm Salamander | *Proteus anguinus* | *Proteus* |
 
 </details>
 <details>
@@ -21898,7 +21830,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Salamandridae</b> — 80 Species</summary>
+<summary>🟧 <b>Family: Salamandridae</b> — 77 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -21953,7 +21885,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Ngoc Linh Crocodile Newt | *Tylototriton ngoclinhensis* | *Tylototriton* |
 | North African Fire Salamander | *Salamandra algira* | *Salamandra* |
 | Northern Banded Newt | *Ommatotriton ophryticus* | *Ommatotriton* |
-| Northern Crested Newt | *Triturus cristatus* | *Triturus* |
 | Oolong Fire-bellied Newt | *Hypselotriton oolong* | *Hypselotriton* |
 | Oriental Fire-bellied Newt | *Hypselotriton orientalis* | *Hypselotriton* |
 | Palmate Newt | *Lissotriton helveticus* | *Lissotriton* |
@@ -21963,12 +21894,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Red-tailed Knobby Newt | *Tylototriton kweichowensis* | *Tylototriton* |
 | Rough-skinned Newt | *Taricha granulosa* | *Taricha* |
 | Ryukyu Spiny Newt | *Echinotriton andersoni* | *Echinotriton* |
-| Smooth Newt | *Lissotriton vulgaris* | *Lissotriton* |
 | South Italian Newt | *Lissotriton italicus* | *Lissotriton* |
 | Southern Banded Newt | *Ommatotriton vittatus* | *Ommatotriton* |
 | Southern Marbled Newt | *Triturus pygmaeus* | *Triturus* |
 | Southern Sichuan Crocodile Newt | *Tylototriton pseudoverrucosus* | *Tylototriton* |
-| Spanish Ribbed Newt | *Pleurodeles waltl* | *Pleurodeles* |
 | Spectacled Salamander | *Salamandrina terdigitata* | *Salamandrina* |
 | Spotless Stout Newt | *Paramesotriton labiatus* | *Paramesotriton* |
 | Striped Newt | *Notophthalmus perstriatus* | *Notophthalmus* |
@@ -22149,13 +22078,13 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟪 <b>Class: Aves (Birds)</b> — 4,651 Species</summary>
+<summary>🟪 <b>Class: Aves (Birds)</b> — 4,613 Species</summary>
 
 <details>
-<summary>🟥 <b>Order: Accipitriformes</b> — 143 Species</summary>
+<summary>🟥 <b>Order: Accipitriformes</b> — 140 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Accipitridae</b> — 135 Species</summary>
+<summary>🟧 <b>Family: Accipitridae</b> — 132 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -22169,7 +22098,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Ayres's Hawk-eagle | *Hieraaetus ayresii* | *Hieraaetus* |
 | Bald Eagle | *Haliaeetus leucocephalus* | *Haliaeetus* |
 | Barred Honey-buzzard | *Pernis celebensis* | *Pernis* |
-| Bearded Vulture | *Gypaetus barbatus* | *Gypaetus* |
 | Besra | *Accipiter virgatus* | *Accipiter* |
 | Black Eagle | *Ictinaetus malaiensis* | *Ictinaetus* |
 | Black Goshawk | *Accipiter melanoleucus* | *Accipiter* |
@@ -22199,7 +22127,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Doria's Goshawk | *Megatriorchis doriae* | *Megatriorchis* |
 | Eastern Marsh-harrier | *Circus spilonotus* | *Circus* |
 | Egyptian Vulture | *Neophron percnopterus* | *Neophron* |
-| Eurasian Griffon | *Gyps fulvus* | *Gyps* |
 | Eurasian Sparrowhawk | *Accipiter nisus* | *Accipiter* |
 | European Honey-buzzard | *Pernis apivorus* | *Pernis* |
 | Eyles's Harrier | *Circus teauteensis* | *Circus* |
@@ -22258,7 +22185,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Red-tailed Hawk | *Buteo jamaicensis* | *Buteo* |
 | Ridgway's Hawk | *Buteo ridgwayi* | *Buteo* |
 | Roadside Hawk | *Rupornis magnirostris* | *Rupornis* |
-| Rough-legged Buzzard | *Buteo lagopus* | *Buteo* |
 | Rough-legged Hawk | *Buteo lagopus* | *Buteo* |
 | Rueppell's Griffon | *Gyps rueppelli* | *Gyps* |
 | Rufous Crab-hawk | *Buteogallus aequinoctialis* | *Buteogallus* |
@@ -22328,10 +22254,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Anseriformes</b> — 133 Species</summary>
+<summary>🟥 <b>Order: Anseriformes</b> — 129 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Anatidae</b> — 129 Species</summary>
+<summary>🟧 <b>Family: Anatidae</b> — 125 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -22375,17 +22301,14 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Common Pochard | *Aythya ferina* | *Aythya* |
 | Common Shelduck | *Tadorna tadorna* | *Tadorna* |
 | Common Teal | *Anas crecca* | *Anas* |
-| Common Whooper | *Cygnus cygnus* | *Cygnus* |
 | Coscoroba Swan | *Coscoroba coscoroba* | *Coscoroba* |
 | Cotton Pygmy Goose | *Nettapus coromandelianus* | *Nettapus* |
 | Crested Duck | *Lophonetta specularioides* | *Lophonetta* |
 | Crested Shelduck | *Tadorna cristata* | *Tadorna* |
 | Domestic Duck X Muscovy Duck | *Anas platyrhynchos x Cairina moschata* | *Anas* |
-| Domestic Goose | *Anser anser* | *Anser* |
 | Eastern Spot-billed Duck | *Anas zonorhyncha* | *Anas* |
 | Egyptian Goose | *Alopochen aegyptiaca* | *Alopochen* |
 | Emperor Goose | *Anser canagicus* | *Anser* |
-| Eurasian Teal | *Anas crecca* | *Anas* |
 | Eurasian Wigeon | *Mareca penelope* | *Mareca* |
 | European Common Scoter | *Melanitta nigra* | *Melanitta* |
 | Falcated Duck | *Mareca falcata* | *Mareca* |
@@ -22414,7 +22337,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Lesser White-fronted Goose | *Anser erythropus* | *Anser* |
 | Long-tailed Duck | *Clangula hyemalis* | *Clangula* |
 | Mallard | *Anas platyrhynchos* | *Anas* |
-| Mallard Duck | *Anas platyrhynchos* | *Anas* |
 | Mandarin Duck | *Aix galericulata* | *Aix* |
 | Maned Duck | *Chenonetta jubata* | *Chenonetta* |
 | Marbled Teal | *Marmaronetta angustirostris* | *Marmaronetta* |
@@ -22608,17 +22530,16 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Apterygiformes</b> — 6 Species</summary>
+<summary>🟥 <b>Order: Apterygiformes</b> — 5 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Apterygidae</b> — 6 Species</summary>
+<summary>🟧 <b>Family: Apterygidae</b> — 5 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Great Spotted Kiwi | *Apteryx haastii* | *Apteryx* |
 | Kiwi | *Apteryx mantelli* | *Apteryx* |
 | Little Spotted Kiwi | *Apteryx owenii* | *Apteryx* |
-| North Island Brown Kiwi | *Apteryx mantelli* | *Apteryx* |
 | Okarito Brown Kiwi | *Apteryx rowi* | *Apteryx* |
 | Southern Brown Kiwi | *Apteryx australis* | *Apteryx* |
 
@@ -22716,7 +22637,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Caprimulgiformes</b> — 53 Species</summary>
+<summary>🟥 <b>Order: Caprimulgiformes</b> — 52 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Aegothelidae</b> — 1 Species</summary>
@@ -22736,7 +22657,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Caprimulgidae</b> — 47 Species</summary>
+<summary>🟧 <b>Family: Caprimulgidae</b> — 46 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -22753,7 +22674,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Eared Poorwill | *Nyctiphrynus mcleodii* | *Nyctiphrynus* |
 | Egyptian Mightjar | *Caprimulgus aegyptius* | *Caprimulgus* |
 | Eurasian Nightjar | *Caprimulgus europaeus* | *Caprimulgus* |
-| European Nightjar | *Caprimulgus europaeus* | *Caprimulgus* |
 | Fiery-necked Nightjar | *Caprimulgus pectoralis* | *Caprimulgus* |
 | Golden Nightjar | *Caprimulgus eximius* | *Caprimulgus* |
 | Great Eared-nightjar | *Lyncornis macrotis* | *Lyncornis* |
@@ -23157,10 +23077,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Ciconiiformes</b> — 12 Species</summary>
+<summary>🟥 <b>Order: Ciconiiformes</b> — 11 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Ciconiidae</b> — 11 Species</summary>
+<summary>🟧 <b>Family: Ciconiidae</b> — 10 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -23169,7 +23089,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Greater Adjutant | *Leptoptilos dubius* | *Leptoptilos* |
 | Jabiru Stork | *Jabiru mycteria* | *Jabiru* |
 | Marabou Stork | *Leptoptilos crumenifer* | *Leptoptilos* |
-| Maribou Stork | *Leptoptilos crumenifer* | *Leptoptilos* |
 | Oriental Stork | *Ciconia boyciana* | *Ciconia* |
 | Saddle-billed Stork | *Ephippiorhynchus senegalensis* | *Ephippiorhynchus* |
 | White Stork | *Ciconia ciconia* | *Ciconia* |
@@ -23201,10 +23120,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Columbiformes</b> — 134 Species</summary>
+<summary>🟥 <b>Order: Columbiformes</b> — 131 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Columbidae</b> — 133 Species</summary>
+<summary>🟧 <b>Family: Columbidae</b> — 130 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -23243,7 +23162,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Ecuadorian Ground-dove | *Columbina buckleyi* | *Columbina* |
 | Emerald-spotted Wood-dove | *Turtur chalcospilos* | *Turtur* |
 | Eurasian Collared Dove | *Streptopelia decaocto* | *Streptopelia* |
-| Eurasian Collared-dove | *Streptopelia decaocto* | *Streptopelia* |
 | European Turtle Dove | *Streptopelia turtur* | *Streptopelia* |
 | Flame-breasted Fruit-dove | *Ptilinopus marchei* | *Ptilinopus* |
 | Forest Dove | *Aplopelia simplex* | *Aplopelia* |
@@ -23296,7 +23214,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Ring-necked Dove | *Streptopelia capicola* | *Streptopelia* |
 | Ringneck Dove | *Streptopelia risoria* | *Streptopelia* |
 | Rock Dove | *Columba livia* | *Columba* |
-| Rock Pigeon | *Columba livia* | *Columba* |
 | Ruddy Ground Dove | *Columbina talpacoti* | *Columbina* |
 | Ruddy Pigeon | *Patagioenas subvinacea* | *Patagioenas* |
 | Ruddy Quail-dove | *Geotrygon montana* | *Geotrygon* |
@@ -23322,7 +23239,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Tanna Fruit-dove | *Ptilinopus tannensis* | *Ptilinopus* |
 | Thick-billed Ground-dove | *Pampusana salamonis* | *Pampusana* |
 | Victoria Crowned Pigeon | *Goura victoria* | *Goura* |
-| Victoria Crowned-pigeon | *Goura victoria* | *Goura* |
 | Violaceous Quail-dove | *Geotrygon violacea* | *Geotrygon* |
 | Western Bronze Ground-dove | *Pampusana beccarii* | *Pampusana* |
 | Western Bronze-naped Pigeon | *Columba iriditorques* | *Columba* |
@@ -23651,7 +23567,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Galliformes</b> — 176 Species</summary>
+<summary>🟥 <b>Order: Galliformes</b> — 174 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Cracidae</b> — 25 Species</summary>
@@ -23738,7 +23654,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Phasianidae</b> — 120 Species</summary>
+<summary>🟧 <b>Family: Phasianidae</b> — 118 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -23766,6 +23682,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Chestnut-naped Francolin | *Pternistis castaneicollis* | *Pternistis* |
 | Chestnut-necklaced Partridge | *Tropicoperdix charltonii* | *Tropicoperdix* |
 | Chicken | *Gallus gallus* | *Gallus* |
+| Chicken | *Gallus gallus domesticus* | *Gallus* |
 | Chinese Bamboo-partridge | *Bambusicola thoracicus* | *Bambusicola* |
 | Chinese Francolin | *Francolinus pintadeanus* | *Francolinus* |
 | Chinese Grouse | *Tetrastes sewerzowi* | *Tetrastes* |
@@ -23781,7 +23698,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Crested Partridge | *Rollulus rouloul* | *Rollulus* |
 | Crestless Fireback | *Lophura erythrophthalma* | *Lophura* |
 | Daurian Partridge | *Perdix dauurica* | *Perdix* |
-| Domestic Chicken | *Gallus gallus domesticus* | *Gallus* |
 | Edwards's Pheasant | *Lophura edwardsi* | *Lophura* |
 | Elliot's Pheasant | *Syrmaticus ellioti* | *Syrmaticus* |
 | Erckel's Francolin | *Pternistis erckelii* | *Pternistis* |
@@ -23824,7 +23740,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Philby's Partridge | *Alectoris philbyi* | *Alectoris* |
 | Przewalski's Partridge | *Alectoris magna* | *Alectoris* |
 | Rain Quail | *Coturnix coromandelica* | *Coturnix* |
-| Red Junglefowl | *Gallus gallus* | *Gallus* |
 | Red Spurfowl | *Galloperdix spadicea* | *Galloperdix* |
 | Red-billed Francolin | *Pternistis adspersus* | *Pternistis* |
 | Red-billed Partridge | *Arborophila rubrirostris* | *Arborophila* |
@@ -23860,22 +23775,20 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Western Capercaillie | *Tetrao urogallus* | *Tetrao* |
 | White-eared Pheasant | *Crossoptilon crossoptilon* | *Crossoptilon* |
 | White-tailed Ptarmigan | *Lagopus leucura* | *Lagopus* |
-| Wild Turkey | *Meleagris gallopavo* | *Meleagris* |
 | Willow Ptarmigan | *Lagopus lagopus* | *Lagopus* |
 
 </details>
 
 </details>
 <details>
-<summary>🟥 <b>Order: Gaviiformes</b> — 4 Species</summary>
+<summary>🟥 <b>Order: Gaviiformes</b> — 3 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Gaviidae</b> — 4 Species</summary>
+<summary>🟧 <b>Family: Gaviidae</b> — 3 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Common Loon | *Gavia immer* | *Gavia* |
-| Great Northern Loon | *Gavia immer* | *Gavia* |
 | Pacific Loon | *Gavia pacifica* | *Gavia* |
 | Red-throated Loon | *Gavia stellata* | *Gavia* |
 
@@ -23883,7 +23796,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Gruiformes</b> — 96 Species</summary>
+<summary>🟥 <b>Order: Gruiformes</b> — 94 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Aptornithidae</b> — 2 Species</summary>
@@ -23903,7 +23816,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Gruidae</b> — 17 Species</summary>
+<summary>🟧 <b>Family: Gruidae</b> — 15 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -23913,9 +23826,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Brolga | *Antigone rubicunda* | *Antigone* |
 | Common Crane | *Grus grus* | *Grus* |
 | Demoiselle Crane | *Anthropoides virgo* | *Anthropoides* |
-| Eurasian Crane | *Grus grus* | *Grus* |
 | Grey Crowned Crane | *Balearica regulorum* | *Balearica* |
-| Grey Crowned-crane | *Balearica regulorum* | *Balearica* |
 | Hooded Crane | *Grus monacha* | *Grus* |
 | Red-crowned Crane | *Grus japonensis* | *Grus* |
 | Sandhill Crane | *Antigone canadensis* | *Antigone* |
@@ -24117,7 +24028,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Passeriformes</b> — 2,514 Species</summary>
+<summary>🟥 <b>Order: Passeriformes</b> — 2,508 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Acanthisittidae</b> — 4 Species</summary>
@@ -24287,8 +24198,8 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| Long-billed Greenbul) | *Bernieria madagascariensis (Gmelin, 1789)* | *Bernieria* |
-| Long-billed Greenbul) | *Bernieria madagascariensis (Gmelin, 1789* | *Bernieria* |
+| Long-billed Greenbul | *Bernieria madagascariensis (Gmelin, 1789* | *Bernieria* |
+| Long-billed Greenbul | *Bernieria madagascariensis (Gmelin, 1789)* | *Bernieria* |
 | Spectacled Tetraka | *Xanthomixis zosterops* | *Xanthomixis* |
 | Wedge-tailed Jery | *Hartertula flavoviridis* | *Hartertula* |
 
@@ -24968,7 +24879,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Fringillidae</b> — 124 Species</summary>
+<summary>🟧 <b>Family: Fringillidae</b> — 122 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -24978,7 +24889,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Andean Siskin | *Spinus spinescens* | *Spinus* |
 | Anianiau | *Magumma parva* | *Magumma* |
 | Antillean Siskin | *Spinus dominicensis* | *Spinus* |
-| Atlantic Canary | *Serinus canaria* | *Serinus* |
 | Bachman's Sparrow | *Peucaea aestivalis* | *Peucaea* |
 | Beautiful Rosefinch | *Carpodacus pulcherrimus* | *Carpodacus* |
 | Black Siskin | *Spinus atratus* | *Spinus* |
@@ -25010,7 +24920,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Eurasian Goldfinch | *Carduelis carduelis* | *Carduelis* |
 | Eurasian Linnet | *Linaria cannabina* | *Linaria* |
 | Eurasian Siskin | *Spinus spinus* | *Spinus* |
-| European Goldfinch | *Carduelis carduelis* | *Carduelis* |
 | European Greenfinch | *Chloris chloris* | *Chloris* |
 | European Serin | *Serinus serinus* | *Serinus* |
 | Finsch's Euphonia | *Euphonia finschi* | *Euphonia* |
@@ -25151,7 +25060,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Hirundinidae</b> — 24 Species</summary>
+<summary>🟧 <b>Family: Hirundinidae</b> — 23 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -25169,7 +25078,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Forrest Swallow | *Petrochelidon fuliginosa* | *Petrochelidon* |
 | Mangbettu Saw-wing | *Psalidoprocne mangbettorum* | *Psalidoprocne* |
 | Mountain Saw-wing | *Psalidoprocne fuliginosa* | *Psalidoprocne* |
-| Northern House-martin | *Delichon urbicum* | *Delichon* |
 | Northern Rough-winged Swallow | *Stelgidopteryx serripennis* | *Stelgidopteryx* |
 | Peruvian Martin | *Progne murphyi* | *Progne* |
 | Petit's Sawwing | *Psalidoprocne petiti* | *Psalidoprocne* |
@@ -25950,7 +25858,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Paradisaeidae</b> — 17 Species</summary>
+<summary>🟧 <b>Family: Paradisaeidae</b> — 16 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -25965,7 +25873,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Lesser Bird Of Paradise | *Paradisaea minor* | *Paradisaea* |
 | Magnificent Riflebird | *Ptiloris magnificus* | *Ptiloris* |
 | Raggiana Bird of Paradise | *Paradisaea raggiana* | *Paradisaea* |
-| Raggiana Bird-of-paradise | *Paradisaea raggiana* | *Paradisaea* |
 | Red Bird Of Paradise | *Paradisaea rubra* | *Paradisaea* |
 | Superb Bird Of Paradise | *Lophorina superba* | *Lophorina* |
 | Trumpet Manucode | *Phonygammus keraudrenii* | *Phonygammus* |
@@ -25992,7 +25899,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Paridae</b> — 50 Species</summary>
+<summary>🟧 <b>Family: Paridae</b> — 49 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -26013,7 +25920,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Dark-grey Tit | *Periparus rufonuchalis* | *Periparus* |
 | Dusky Tit | *Melaniparus funereus* | *Melaniparus* |
 | Elegant Tit | *Pardaliparus elegans* | *Pardaliparus* |
-| Eurasian Blue Tit | *Cyanistes caeruleus* | *Cyanistes* |
 | Eurasian Penduline-tit | *Remiz pendulinus* | *Remiz* |
 | Fuerteventura Blue Tit | *Cyanistes degener* | *Cyanistes* |
 | Great Tit | *Parus major* | *Parus* |
@@ -27097,7 +27003,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Turdidae</b> — 81 Species</summary>
+<summary>🟧 <b>Family: Turdidae</b> — 80 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -27119,7 +27025,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Chestnut-capped Thrush | *Geokichla interpres* | *Geokichla* |
 | Chiguanco Thrush | *Turdus chiguanco* | *Turdus* |
 | Clay-colored Robin | *Turdus grayi* | *Turdus* |
-| Common Blackbird | *Turdus merula* | *Turdus* |
 | Dagua Thrush | *Turdus daguae* | *Turdus* |
 | Dahomey Forest Robin | *Stiphrornis dahomeyensis* | *Stiphrornis* |
 | Dark-sided Thrush | *Zoothera marginata* | *Zoothera* |
@@ -27371,10 +27276,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Pelecaniformes</b> — 59 Species</summary>
+<summary>🟥 <b>Order: Pelecaniformes</b> — 58 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Ardeidae</b> — 34 Species</summary>
+<summary>🟧 <b>Family: Ardeidae</b> — 33 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -27382,7 +27287,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Australasian Bittern | *Botaurus poiciloptilus* | *Botaurus* |
 | Black Bittern | *Ixobrychus flavicollis* | *Ixobrychus* |
 | Black-crowned Night Heron | *Nycticorax nycticorax* | *Nycticorax* |
-| Black-crowned Night-heron | *Nycticorax nycticorax* | *Nycticorax* |
 | Black-headed Heron | *Ardea melanocephala* | *Ardea* |
 | Boat-billed Heron | *Cochlearius cochlearius* | *Cochlearius* |
 | Cattle Egret | *Bubulcus ibis* | *Bubulcus* |
@@ -27502,7 +27406,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Piciformes</b> — 201 Species</summary>
+<summary>🟥 <b>Order: Piciformes</b> — 200 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Bucconidae</b> — 14 Species</summary>
@@ -27600,7 +27504,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Picidae</b> — 114 Species</summary>
+<summary>🟧 <b>Family: Picidae</b> — 113 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -27651,7 +27555,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Gray-crowned Woodpecker | *Colaptes auricularis* | *Colaptes* |
 | Gray-headed Woodpecker | *Dendropicos spodocephalus* | *Dendropicos* |
 | Great Rufous Woodcreeper | *Dendrocopos major* | *Dendrocopos* |
-| Great Spotted Woodpecker | *Dendrocopos major* | *Dendrocopos* |
 | Greater Flameback | *Chrysocolaptes lucidus* | *Chrysocolaptes* |
 | Greater Yellownape | *Chrysophlegma flavinucha* | *Chrysophlegma* |
 | Green-backed Woodpecker | *Campethera cailliautii* | *Campethera* |
@@ -27910,10 +27813,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Psittaciformes</b> — 261 Species</summary>
+<summary>🟥 <b>Order: Psittaciformes</b> — 258 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Cacatuidae</b> — 19 Species</summary>
+<summary>🟧 <b>Family: Cacatuidae</b> — 18 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -27930,7 +27833,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Salmon-crested Cockatoo | *Cacatua moluccensis* | *Cacatua* |
 | Slender-billed Black-cockatoo | *Zanda latirostris* | *Zanda* |
 | Sulfur-crested Cockatoo | *Cacatua galerita* | *Cacatua* |
-| Sulphur-crested Cockatoo | *Cacatua galerita* | *Cacatua* |
 | Tanimbar Cockatoo | *Cacatua goffiniana* | *Cacatua* |
 | Western Long-billed Cockatoo | *Cacatua pastinator* | *Cacatua* |
 | White Cockatoo | *Cacatua alba* | *Cacatua* |
@@ -27939,11 +27841,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Psittacidae</b> — 202 Species</summary>
+<summary>🟧 <b>Family: Psittacidae</b> — 200 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| African Grey Parrot | *Psittacus erithacus* | *Psittacus* |
 | Alexandrine Parakeet | *Psittacula eupatria* | *Psittacula* |
 | Andean Parakeet | *Bolborhynchus orbygnesius* | *Bolborhynchus* |
 | Antipodes Island Green Parakeet | *Cyanoramphus unicolor* | *Cyanoramphus* |
@@ -28120,7 +28021,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Sulphur-breasted Parakeet | *Aratinga maculata* | *Aratinga* |
 | Sulphur-winged Parakeet | *Pyrrhura hoffmanni* | *Pyrrhura* |
 | Sun Conure | *Aratinga solstitialis* | *Aratinga* |
-| Sun Parakeet | *Aratinga solstitialis* | *Aratinga* |
 | Superb Parrot | *Polytelis swainsonii* | *Polytelis* |
 | Swift Parrot | *Lathamus discolor* | *Lathamus* |
 | Thick-billed Parrot | *Rhynchopsitta pachyrhyncha* | *Rhynchopsitta* |
@@ -28233,14 +28133,13 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Sphenisciformes</b> — 25 Species</summary>
+<summary>🟥 <b>Order: Sphenisciformes</b> — 21 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Spheniscidae</b> — 25 Species</summary>
+<summary>🟧 <b>Family: Spheniscidae</b> — 21 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| Adelie Penguin | *Pygoscelis adeliae* | *Pygoscelis* |
 | Adélie Penguin | *Pygoscelis adeliae* | *Pygoscelis* |
 | African Penguin | *Spheniscus demersus* | *Spheniscus* |
 | Chinstrap Penguin | *Pygoscelis antarcticus* | *Pygoscelis* |
@@ -28250,9 +28149,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Galapagos Penguin | *Spheniscus mendiculus* | *Spheniscus* |
 | Gentoo Penguin | *Pygoscelis papua* | *Pygoscelis* |
 | Humboldt's Penguin | *Spheniscus humboldti* | *Spheniscus* |
-| Jackass Penguin | *Spheniscus demersus* | *Spheniscus* |
 | King Penguin | *Aptenodytes patagonicus* | *Aptenodytes* |
-| Little Blue Penguin | *Eudyptula minor* | *Eudyptula* |
 | Little Penguin | *Eudyptula minor* | *Eudyptula* |
 | Macaroni Penguin | *Eudyptes chrysolophus* | *Eudyptes* |
 | Magellanic Penguin | *Spheniscus magellanicus* | *Spheniscus* |
@@ -28260,7 +28157,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Rockhopper Penguin | *Eudyptes chrysocome* | *Eudyptes* |
 | Royal Penguin | *Eudyptes schlegeli* | *Eudyptes* |
 | Snares Penguin | *Eudyptes robustus* | *Eudyptes* |
-| Southern Rockhopper Penguin | *Eudyptes chrysocome* | *Eudyptes* |
 | Southern Rockhopper Penguin | *Eudyptes filholi* | *Eudyptes* |
 | Waitaha Penguin | *Megadyptes waitaha* | *Megadyptes* |
 | White-flippered Penguin | *Eudyptula albosignata* | *Eudyptula* |
@@ -28270,10 +28166,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Strigiformes</b> — 114 Species</summary>
+<summary>🟥 <b>Order: Strigiformes</b> — 111 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Strigidae</b> — 94 Species</summary>
+<summary>🟧 <b>Family: Strigidae</b> — 92 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -28299,7 +28195,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Crested Owl | *Lophostrix cristata* | *Lophostrix* |
 | Desert Tawny Owl | *Strix hadorami* | *Strix* |
 | Eastern Screech Owl | *Megascops asio* | *Megascops* |
-| Eastern Screech-owl | *Megascops asio* | *Megascops* |
 | Elegant Scops-owl | *Otus elegans* | *Otus* |
 | Elf Owl | *Micrathene whitneyi* | *Micrathene* |
 | Eurasian Eagle-owl | *Bubo bubo* | *Bubo* |
@@ -28331,7 +28226,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Mountain Pygmy-owl | *Glaucidium gnoma* | *Glaucidium* |
 | Mountain Scops Owl | *Otus spilocephalus* | *Otus* |
 | Nduk Eagle-owl | *Bubo vosseleri* | *Bubo* |
-| Northern Barred Owl | *Strix varia* | *Strix* |
 | Northern Boobook | *Ninox japonica* | *Ninox* |
 | Northern Hawk-owl | *Surnia ulula* | *Surnia* |
 | Northern Saw-whet Owl | *Aegolius acadicus* | *Aegolius* |
@@ -28374,7 +28268,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Tytonidae</b> — 20 Species</summary>
+<summary>🟧 <b>Family: Tytonidae</b> — 19 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -28384,7 +28278,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Australian Masked-owl | *Tyto novaehollandiae* | *Tyto* |
 | Barn Owl | *Tyto alba* | *Tyto* |
 | Bismarck Masked-owl | *Tyto aurantia* | *Tyto* |
-| Common Barn Owl | *Tyto alba* | *Tyto* |
 | Eastern Barn Owl | *Tyto javanica* | *Tyto* |
 | Eastern Grass-owl | *Tyto longimembris* | *Tyto* |
 | Greater Sooty-owl | *Tyto tenebricosa* | *Tyto* |
@@ -28403,15 +28296,13 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Struthioniformes</b> — 3 Species</summary>
+<summary>🟥 <b>Order: Struthioniformes</b> — 1 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Struthionidae</b> — 3 Species</summary>
+<summary>🟧 <b>Family: Struthionidae</b> — 1 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| African Ostrich | *Struthio camelus* | *Struthio* |
-| Common Ostrich | *Struthio camelus* | *Struthio* |
 | Ostrich | *Struthio camelus* | *Struthio* |
 
 </details>
@@ -28550,13 +28441,13 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟪 <b>Class: Chondrichthyes (Sharks, Rays & Chimaeras)</b> — 744 Species</summary>
+<summary>🟪 <b>Class: Chondrichthyes (Sharks, Rays & Chimaeras)</b> — 737 Species</summary>
 
 <details>
-<summary>🟥 <b>Order: Carcharhiniformes</b> — 174 Species</summary>
+<summary>🟥 <b>Order: Carcharhiniformes</b> — 173 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Carcharhinidae</b> — 62 Species</summary>
+<summary>🟧 <b>Family: Carcharhinidae</b> — 61 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -28586,7 +28477,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Ganges Shark | *Glyphis gangeticus* | *Glyphis* |
 | Graceful Shark | *Carcharhinus amblyrhynchoides* | *Carcharhinus* |
 | Great Hammerhead | *Sphyrna mokarran* | *Sphyrna* |
-| Great Hammerhead Shark | *Sphyrna mokarran* | *Sphyrna* |
 | Grey Reef Shark | *Carcharhinus amblyrhynchos* | *Carcharhinus* |
 | Grey Sharpnose Shark | *Rhizoprionodon oligolinx* | *Rhizoprionodon* |
 | Hardnose Shark | *Carcharhinus macloti* | *Carcharhinus* |
@@ -28890,16 +28780,15 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Lamniformes</b> — 13 Species</summary>
+<summary>🟥 <b>Order: Lamniformes</b> — 12 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Alopiidae</b> — 4 Species</summary>
+<summary>🟧 <b>Family: Alopiidae</b> — 3 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Bigeye Thresher | *Alopias superciliosus* | *Alopias* |
 | Pelagic Thresher | *Alopias pelagicus* | *Alopias* |
-| Pelagic Thresher Shark | *Alopias pelagicus* | *Alopias* |
 | Thresher Shark | *Alopias vulpinus* | *Alopias* |
 
 </details>
@@ -28957,7 +28846,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Myliobatiformes</b> — 149 Species</summary>
+<summary>🟥 <b>Order: Myliobatiformes</b> — 147 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Dasyatidae</b> — 67 Species</summary>
@@ -29058,7 +28947,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Myliobatidae</b> — 37 Species</summary>
+<summary>🟧 <b>Family: Myliobatidae</b> — 35 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -29072,13 +28961,11 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Bullnose Eagle Ray | *Myliobatis freminvillei* | *Myliobatis* |
 | Chilean Devil Ray | *Mobula tarapacana* | *Mobula* |
 | Chilean Eagle Ray | *Myliobatis chilensis* | *Myliobatis* |
-| Coastal Manta Ray | *Mobula alfredi* | *Mobula* |
 | Common Eagle Ray | *Myliobatis aquila* | *Myliobatis* |
 | Cownose Ray | *Rhinoptera bonasus* | *Rhinoptera* |
 | Devil Fish | *Mobula mobular* | *Mobula* |
 | Eagle Ray | *Myliobatis tenuicaudatus* | *Myliobatis* |
 | Giant Manta | *Mobula birostris* | *Mobula* |
-| Giant Oceanic Manta Ray | *Mobula birostris* | *Mobula* |
 | Japanese Eagle Ray | *Myliobatis tobijei* | *Myliobatis* |
 | Javanese Cownose Ray | *Rhinoptera javanica* | *Rhinoptera* |
 | Lesser Devil Ray | *Mobula hypostoma* | *Mobula* |
@@ -29280,7 +29167,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Rajiformes</b> — 152 Species</summary>
+<summary>🟥 <b>Order: Rajiformes</b> — 151 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Anacanthobatidae</b> — 2 Species</summary>
@@ -29366,7 +29253,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Rajidae</b> — 90 Species</summary>
+<summary>🟧 <b>Family: Rajidae</b> — 89 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -29395,7 +29282,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Browneye Skate | *Okamejei schmidti* | *Okamejei* |
 | California Ray | *Caliraja inornata* | *Caliraja* |
 | Clearnose Skate | *Rostroraja eglanteria* | *Rostroraja* |
-| Common Skate | *Dipturus batis* | *Dipturus* |
 | Cuckoo Ray | *Leucoraja naevus* | *Leucoraja* |
 | Deep-water Ray | *Rajella bathyphila* | *Rajella* |
 | Endeavour Skate | *Dentiraja endeavouri* | *Dentiraja* |
@@ -29546,7 +29432,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Squaliformes</b> — 83 Species</summary>
+<summary>🟥 <b>Order: Squaliformes</b> — 81 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Centrophoridae</b> — 14 Species</summary>
@@ -29570,11 +29456,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Dalatiidae</b> — 5 Species</summary>
+<summary>🟧 <b>Family: Dalatiidae</b> — 4 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| Cookie Cutter Shark | *Isistius brasiliensis* | *Isistius* |
 | Cookiecutter Shark | *Isistius brasiliensis* | *Isistius* |
 | Kitefin Shark | *Dalatias licha* | *Dalatias* |
 | Smalleye Pygmy Shark | *Squaliolus aliae* | *Squaliolus* |
@@ -29641,12 +29526,11 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Somniosidae</b> — 11 Species</summary>
+<summary>🟧 <b>Family: Somniosidae</b> — 10 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Greenland Shark | *Somniosus microcephalus* | *Somniosus* |
-| Greenland Sleeper Shark | *Somniosus microcephalus* | *Somniosus* |
 | Japanese Velvet Dogfish | *Scymnodon ichiharai* | *Scymnodon* |
 | Knifetooth Dogfish | *Scymnodon ringens* | *Scymnodon* |
 | Little Sleeper Shark | *Somniosus rostratus* | *Somniosus* |
@@ -29773,7 +29657,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟪 <b>Class: Chordata Incertae Sedis</b> — 249 Species</summary>
+<summary>🟪 <b>Class: Chordata Incertae Sedis</b> — 239 Species</summary>
 
 <details>
 <summary>🟥 <b>Order: Ceratodontiformes</b> — 6 Species</summary>
@@ -29808,23 +29692,21 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Coelacanthiformes</b> — 4 Species</summary>
+<summary>🟥 <b>Order: Coelacanthiformes</b> — 2 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Coelacanthidae</b> — 4 Species</summary>
+<summary>🟧 <b>Family: Coelacanthidae</b> — 2 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Coelacanth | *Latimeria chalumnae* | *Latimeria* |
-| Indonesian Coelacanth | *Latimeria menadoensis* | *Latimeria* |
 | Menado Coelacanth | *Latimeria menadoensis* | *Latimeria* |
-| West Indian Ocean Coelacanth | *Latimeria chalumnae* | *Latimeria* |
 
 </details>
 
 </details>
 <details>
-<summary>🟥 <b>Order: Crocodylia</b> — 27 Species</summary>
+<summary>🟥 <b>Order: Crocodylia</b> — 25 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Alligatoridae</b> — 8 Species</summary>
@@ -29842,19 +29724,17 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Crocodylidae</b> — 17 Species</summary>
+<summary>🟧 <b>Family: Crocodylidae</b> — 15 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | African Slender-snouted Crocodile | *Mecistops cataphractus* | *Mecistops* |
 | American Crocodile | *Crocodylus acutus* | *Crocodylus* |
-| Australian Saltwater Crocodile | *Crocodylus porosus* | *Crocodylus* |
 | Cuban Crocodile | *Crocodylus rhombifer* | *Crocodylus* |
 | Dwarf Crocodile | *Osteolaemus tetraspis* | *Osteolaemus* |
 | Johnstone River Crocodile | *Crocodylus johnstoni* | *Crocodylus* |
 | Marsh Crocodile | *Crocodylus palustris* | *Crocodylus* |
 | Morelet's Crocodile | *Crocodylus moreletii* | *Crocodylus* |
-| Mugger Crocodile | *Crocodylus palustris* | *Crocodylus* |
 | New Guinea Crocodile | *Crocodylus novaeguineae* | *Crocodylus* |
 | Nile Crocodile | *Crocodylus niloticus* | *Crocodylus* |
 | Orinoco Crocodile | *Crocodylus intermedius* | *Crocodylus* |
@@ -29877,7 +29757,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Testudines</b> — 212 Species</summary>
+<summary>🟥 <b>Order: Testudines</b> — 206 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Carettochelyidae</b> — 1 Species</summary>
@@ -29888,7 +29768,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Chelidae</b> — 25 Species</summary>
+<summary>🟧 <b>Family: Chelidae</b> — 24 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -29899,7 +29779,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Hoge's Toadhead Turtle | *Ranacephala hogei* | *Ranacephala* |
 | Manning River Turtle | *Myuchelys purvisi* | *Myuchelys* |
 | Mary River Turtle | *Elusor macrurus* | *Elusor* |
-| Mata Mata | *Chelus fimbriata* | *Chelus* |
 | Matamata | *Chelus fimbriata* | *Chelus* |
 | Mccord's Snakeneck Turtle | *Chelodina mccordi* | *Chelodina* |
 | Murray River Turtle | *Emydura macquarii* | *Emydura* |
@@ -29920,7 +29799,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Cheloniidae</b> — 9 Species</summary>
+<summary>🟧 <b>Family: Cheloniidae</b> — 6 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -29928,10 +29807,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Flatback Sea Turtle | *Natator depressus* | *Natator* |
 | Green Sea Turtle | *Chelonia mydas* | *Chelonia* |
 | Hawksbill Sea Turtle | *Eretmochelys imbricata* | *Eretmochelys* |
-| Kemp's Ridley Sea Turtle | *Lepidochelys kempii* | *Lepidochelys* |
-| Loggerhead Sea Turtle | *Caretta caretta* | *Caretta* |
 | Loggerhead Turtle | *Caretta caretta* | *Caretta* |
-| Olive Ridley Sea Turtle | *Lepidochelys olivacea* | *Lepidochelys* |
 | Pacific Ridley | *Lepidochelys olivacea* | *Lepidochelys* |
 
 </details>
@@ -29955,7 +29831,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Emydidae</b> — 29 Species</summary>
+<summary>🟧 <b>Family: Emydidae</b> — 28 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -29967,7 +29843,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Common Box Turtle | *Terrapene carolina* | *Terrapene* |
 | Cuatro Cienegas Slider | *Trachemys taylori* | *Trachemys* |
 | Diamondback Terrapin | *Malaclemys terrapin* | *Malaclemys* |
-| Eastern Box Turtle | *Terrapene carolina* | *Terrapene* |
 | European Pond Turtle | *Emys orbicularis* | *Emys* |
 | False Map Turtle | *Graptemys pseudogeographica* | *Graptemys* |
 | Florida Cooter | *Pseudemys floridana* | *Pseudemys* |
@@ -30096,13 +29971,12 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Testudinidae</b> — 57 Species</summary>
+<summary>🟧 <b>Family: Testudinidae</b> — 56 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Abingdon Island Giant Tortoise | *Chelonoidis abingdonii* | *Chelonoidis* |
 | African Spurred Tortoise | *Centrochelys sulcata* | *Centrochelys* |
-| Agassiz's Desert Tortoise | *Gopherus agassizii* | *Gopherus* |
 | Albury's Tortoise | *Chelonoidis alburyorum* | *Chelonoidis* |
 | Alcedo Volcano Giant Tortoise | *Chelonoidis vandenburghi* | *Chelonoidis* |
 | Aldabra Giant Tortoise | *Aldabrachelys gigantea* | *Aldabrachelys* |
@@ -30187,13 +30061,13 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟪 <b>Class: Cladistia</b> — 12 Species</summary>
+<summary>🟪 <b>Class: Cladistia</b> — 11 Species</summary>
 
 <details>
-<summary>🟥 <b>Order: Polypteriformes</b> — 12 Species</summary>
+<summary>🟥 <b>Order: Polypteriformes</b> — 11 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Polypteridae</b> — 12 Species</summary>
+<summary>🟧 <b>Family: Polypteridae</b> — 11 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -30206,7 +30080,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Ornate Bichir | *Polypterus ornatipinnis* | *Polypterus* |
 | Reedfish | *Erpetoichthys calabaricus* | *Erpetoichthys* |
 | Saddled Bichir | *Polypterus endlicherii* | *Polypterus* |
-| Senegal Bichir | *Polypterus senegalus* | *Polypterus* |
 | Shortfin Bichir | *Polypterus palmas* | *Polypterus* |
 | West African Bichir | *Polypterus retropinnis* | *Polypterus* |
 
@@ -30249,7 +30122,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟪 <b>Class: Lepidosauria</b> — 2,354 Species</summary>
+<summary>🟪 <b>Class: Lepidosauria</b> — 2,340 Species</summary>
 
 <details>
 <summary>🟥 <b>Order: Sphenodontia</b> — 2 Species</summary>
@@ -30266,7 +30139,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Squamata</b> — 2,352 Species</summary>
+<summary>🟥 <b>Order: Squamata</b> — 2,338 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Acrochordidae</b> — 3 Species</summary>
@@ -30279,7 +30152,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Agamidae</b> — 112 Species</summary>
+<summary>🟧 <b>Family: Agamidae</b> — 111 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -30321,7 +30194,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Ethiopian Ridgeback Agama | *Xenagama zonura* | *Xenagama* |
 | Five-lined Earless Dragon | *Tympanocryptis pentalineata* | *Tympanocryptis* |
 | Frilled Dragon | *Chlamydosaurus kingii* | *Chlamydosaurus* |
-| Frilled Lizard | *Chlamydosaurus kingii* | *Chlamydosaurus* |
 | Giant Forest Dragon | *Gonocephalus grandis* | *Gonocephalus* |
 | Gilbert's Lashtail | *Lophognathus gilberti* | *Lophognathus* |
 | Gnaraloo Heath Dragon | *Ctenophorus parviceps* | *Ctenophorus* |
@@ -30475,14 +30347,13 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Boidae</b> — 24 Species</summary>
+<summary>🟧 <b>Family: Boidae</b> — 23 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Abaco Island Boa | *Chilabothrus exsul* | *Chilabothrus* |
 | Belau Bevelnosed Boa | *Candoia superciliosa* | *Candoia* |
 | Boa | *Boa constrictor* | *Boa* |
-| Boa Constrictor | *Boa constrictor* | *Boa* |
 | Brown Rainbow Boa | *Epicrates maurus* | *Epicrates* |
 | Conception Bank Silver Boa | *Chilabothrus argentum* | *Chilabothrus* |
 | Cuban Boa | *Chilabothrus angulifer* | *Chilabothrus* |
@@ -30567,7 +30438,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Colubridae</b> — 309 Species</summary>
+<summary>🟧 <b>Family: Colubridae</b> — 308 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -30866,7 +30737,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Western Crowned Snake | *Meizodon coronatus* | *Meizodon* |
 | Western Foxsnake | *Pantherophis ramspotti* | *Pantherophis* |
 | Western Patchnose Snake | *Salvadora hexalepis* | *Salvadora* |
-| Western Rat Snake | *Pantherophis obsoletus* | *Pantherophis* |
 | Western Ratsnake | *Pantherophis obsoletus* | *Pantherophis* |
 | Western Shovelnose Snake | *Sonora occipitalis* | *Sonora* |
 | Western Terrestrial Garter Snake | *Thamnophis elegans* | *Thamnophis* |
@@ -31188,7 +31058,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Elapidae</b> — 160 Species</summary>
+<summary>🟧 <b>Family: Elapidae</b> — 158 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -31259,7 +31129,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Kalimantan Sea Snake | *Hydrophis sibauensis* | *Hydrophis* |
 | Kellogg's Coral Snake | *Sinomicrurus kelloggi* | *Sinomicrurus* |
 | Kimberley Death Adder | *Acanthophis cryptamydros* | *Acanthophis* |
-| King Cobra | *Ophiophagus hannah* | *Ophiophagus* |
 | King's Seasnake | *Hydrophis kingii* | *Hydrophis* |
 | Krefft's Dwarf Snake | *Cacophis krefftii* | *Cacophis* |
 | Lake Cronin Snake | *Paroplocephalus atriceps* | *Paroplocephalus* |
@@ -31348,7 +31217,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Woodlark Or Fergusson Island Forest Snake | *Toxicocalamus longissimus* | *Toxicocalamus* |
 | Yaoshan Coral Snake | *Sinomicrurus wongii* | *Sinomicrurus* |
 | Yellow Sea Snake | *Hydrophis spiralis* | *Hydrophis* |
-| Yellow-bellied Sea Snake | *Hydrophis platurus* | *Hydrophis* |
 | Yellow-faced Whipsnake | *Demansia psammophis* | *Demansia* |
 | Yellow-lipped Sea Krait | *Laticauda colubrina* | *Laticauda* |
 | Zweifel's Beaked Seasnake | *Hydrophis zweifeli* | *Hydrophis* |
@@ -31373,7 +31241,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Gekkonidae</b> — 305 Species</summary>
+<summary>🟧 <b>Family: Gekkonidae</b> — 304 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -31643,7 +31511,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Tiny Scaled Gecko | *Lygodactylus bivittis* | *Lygodactylus* |
 | Titiwangsa Slender Gecko | *Hemiphyllodactylus titiwangsaensis* | *Hemiphyllodactylus* |
 | Tokay | *Gekko gecko* | *Gekko* |
-| Tokay Gecko | *Gekko gecko* | *Gekko* |
 | Transvall Rock Gecko | *Afroedura transvaalica* | *Afroedura* |
 | Travancore Rock Gecko | *Hemidactylus paaragowli* | *Hemidactylus* |
 | Treutler's Gecko | *Hemidactylus treutleri* | *Hemidactylus* |
@@ -31774,7 +31641,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Iguanidae</b> — 51 Species</summary>
+<summary>🟧 <b>Family: Iguanidae</b> — 49 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -31787,7 +31654,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Camilas Patagonian Rocky Lizard | *Phymaturus camilae* | *Phymaturus* |
 | Cofan Woodlizard | *Enyalioides cofanorum* | *Enyalioides* |
 | Common Basilisk | *Basiliscus basiliscus* | *Basiliscus* |
-| Common Green Iguana | *Iguana iguana* | *Iguana* |
 | Cope's Leopard Lizard | *Gambelia copeii* | *Gambelia* |
 | Crested Iguana | *Brachylophus vitiensis* | *Brachylophus* |
 | Curicen Tree Iguana | *Liolaemus curicensis* | *Liolaemus* |
@@ -31813,7 +31679,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Peak Tree Iguana | *Liolaemus chillanensis* | *Liolaemus* |
 | Red-throated Woodlizard | *Enyalioides rubrigularis* | *Enyalioides* |
 | Rhinoceros Iguana | *Cyclura cornuta* | *Cyclura* |
-| Rhinocerus Iguana | *Cyclura cornuta* | *Cyclura* |
 | Ricord's Ground Iguana | *Cyclura ricordi* | *Cyclura* |
 | Robert's Tree Iguana | *Liolaemus robertmertensi* | *Liolaemus* |
 | Rothschilds Woodlizard | *Enyalioides sophiarothschildae* | *Enyalioides* |
@@ -31832,7 +31697,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Lacertidae</b> — 99 Species</summary>
+<summary>🟧 <b>Family: Lacertidae</b> — 98 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -31868,7 +31733,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Danford's Lizard | *Anatololacerta danfordi* | *Anatololacerta* |
 | Doria's Long-tailed Lizard | *Latastia doriai* | *Latastia* |
 | Elburs Lizard | *Darevskia defilippii* | *Darevskia* |
-| European Green Lizard | *Lacerta viridis* | *Lacerta* |
 | Fahimi's Racerunner | *Eremias fahimii* | *Eremias* |
 | Filfola Wall Lizard | *Podarcis filfolensis* | *Podarcis* |
 | Formosa Grass Lizard | *Takydromus formosanus* | *Takydromus* |
@@ -32192,7 +32056,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Pythonidae</b> — 32 Species</summary>
+<summary>🟧 <b>Family: Pythonidae</b> — 30 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -32204,7 +32068,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Blood Python | *Python curtus* | *Python* |
 | Boelen's Python | *Simalia boeleni* | *Simalia* |
 | Borneo Python | *Python breitensteini* | *Python* |
-| Burmese Python | *Python bivittatus* | *Python* |
 | Carpet Python | *Morelia spilota* | *Morelia* |
 | Centralian Carpet Python | *Morelia bredli* | *Morelia* |
 | Children's Python | *Antaresia childreni* | *Antaresia* |
@@ -32212,7 +32075,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Green Tree Python | *Morelia viridis* | *Morelia* |
 | Halmahera Python | *Simalia tracyae* | *Simalia* |
 | Indian Python | *Python molurus* | *Python* |
-| Indian Rock Python | *Python molurus* | *Python* |
 | Kinghorn's Python | *Simalia kinghorni* | *Simalia* |
 | Large-blotched Python | *Antaresia stimsoni* | *Antaresia* |
 | Oenpelli Rock Python | *Nyctophilopython oenpelliensis* | *Nyctophilopython* |
@@ -32749,11 +32611,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Varanidae</b> — 24 Species</summary>
+<summary>🟧 <b>Family: Varanidae</b> — 23 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| Asian Water Monitor | *Varanus salvator* | *Varanus* |
 | Banggai Island Monitor | *Varanus melinus* | *Varanus* |
 | Bangon Monitor Lizard | *Varanus bangonorum* | *Varanus* |
 | Bogert's Monitor | *Varanus bogerti* | *Varanus* |
@@ -32780,7 +32641,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Viperidae</b> — 157 Species</summary>
+<summary>🟧 <b>Family: Viperidae</b> — 155 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -32816,8 +32677,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Central Asian Pitviper | *Gloydius intermedius* | *Gloydius* |
 | Chinese Moccasin | *Deinagkistrodon acutus* | *Deinagkistrodon* |
 | Coastal Viper | *Montivipera xanthina* | *Montivipera* |
-| Common European Adder | *Vipera berus* | *Vipera* |
-| Common Lancehead | *Bothrops atrox* | *Bothrops* |
 | Copperhead | *Agkistrodon contortrix* | *Agkistrodon* |
 | Costa Rica Montane Pitviper | *Cerrophidion sasai* | *Cerrophidion* |
 | Cotiara | *Bothrops cotiara* | *Bothrops* |
@@ -33011,7 +32870,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟪 <b>Class: Mammalia (Mammals)</b> — 4,343 Species</summary>
+<summary>🟪 <b>Class: Mammalia (Mammals)</b> — 4,238 Species</summary>
 
 <details>
 <summary>🟥 <b>Order: Afrosoricida</b> — 49 Species</summary>
@@ -33082,7 +32941,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Artiodactyla</b> — 363 Species</summary>
+<summary>🟥 <b>Order: Artiodactyla</b> — 346 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Antilocapridae</b> — 1 Species</summary>
@@ -33104,14 +32963,13 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Balaenopteridae</b> — 11 Species</summary>
+<summary>🟧 <b>Family: Balaenopteridae</b> — 10 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Antarctic Minke Whale | *Balaenoptera bonaerensis* | *Balaenoptera* |
 | Blue Whale | *Balaenoptera musculus* | *Balaenoptera* |
 | Bryde's Whale | *Balaenoptera brydei* | *Balaenoptera* |
-| Common Minke Whale | *Balaenoptera acutorostrata* | *Balaenoptera* |
 | Eden's Whale | *Balaenoptera edeni* | *Balaenoptera* |
 | Fin Whale | *Balaenoptera physalus* | *Balaenoptera* |
 | Humpback Whale | *Megaptera novaeangliae* | *Megaptera* |
@@ -33122,13 +32980,12 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Bovidae</b> — 157 Species</summary>
+<summary>🟧 <b>Family: Bovidae</b> — 150 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Abbott's Duiker | *Cephalophus spadix* | *Cephalophus* |
 | Aders's Duiker | *Leucocephalophus adersi* | *Leucocephalophus* |
-| African Buffalo | *Syncerus caffer* | *Syncerus* |
 | Alpine Ibex | *Capra ibex* | *Capra* |
 | American Bison | *Bison bison* | *Bison* |
 | Ancient Bison | *Bison antiquus* | *Bison* |
@@ -33153,7 +33010,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Blackbuck | *Antilope cervicapra* | *Antilope* |
 | Blue Antelope | *Hippotragus leucophaeus* | *Hippotragus* |
 | Blue Duiker | *Philantomba monticola* | *Philantomba* |
-| Blue Wildebeest | *Connochaetes taurinus* | *Connochaetes* |
 | Bohar Reedbuck | *Redunca redunca* | *Redunca* |
 | Bongo | *Tragelaphus eurycerus* | *Tragelaphus* |
 | Brindled Gnu | *Connochaetes taurinus* | *Connochaetes* |
@@ -33162,6 +33018,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Cape Buffalo | *Syncerus caffer* | *Syncerus* |
 | Cape Grysbok | *Raphicerus melanotis* | *Raphicerus* |
 | Carabao | *Bubalus kerabau* | *Bubalus* |
+| Cattle | *Bos taurus* | *Bos* |
 | Chamois | *Rupicapra rupicapra* | *Rupicapra* |
 | Chinese Goral | *Naemorhedus griseus* | *Naemorhedus* |
 | Chinese Serow | *Capricornis milneedwardsii* | *Capricornis* |
@@ -33173,10 +33030,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Cuvier's Gazelle | *Gazella cuvieri* | *Gazella* |
 | Dall Sheep | *Ovis dalli* | *Ovis* |
 | Dama Gazelle | *Nanger dama* | *Nanger* |
-| Domestic Cattle | *Bos taurus* | *Bos* |
-| Domestic Cow | *Bos taurus* | *Bos* |
-| Domestic Goat | *Capra hircus* | *Capra* |
-| Domestic Sheep | *Ovis aries* | *Ovis* |
 | Domestic Yak | *Bos grunniens* | *Bos* |
 | Dorcas Gazelle | *Gazella dorcas* | *Gazella* |
 | Dwarf Bharal | *Pseudois schaeferi* | *Pseudois* |
@@ -33228,7 +33081,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Nyala | *Tragelaphus angasii* | *Tragelaphus* |
 | Ogilby's Duiker | *Cephalophorus ogilbyi* | *Cephalophorus* |
 | Oribi | *Ourebia ourebi* | *Ourebia* |
-| Ox | *Bos taurus* | *Bos* |
 | Peters' Duiker | *Cephalophorus callipygus* | *Cephalophorus* |
 | Przewalski's Gazelle | *Procapra przewalskii* | *Procapra* |
 | Puku | *Kobus vardonii* | *Kobus* |
@@ -33248,7 +33100,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Saola | *Pseudoryx nghetinhensis* | *Pseudoryx* |
 | Saudi Gazelle | *Gazella saudiya* | *Gazella* |
 | Scimitar Oryx | *Oryx dammah* | *Oryx* |
-| Scimitar-horned Oryx | *Oryx dammah* | *Oryx* |
 | Sharpe's Grysbok | *Raphicerus sharpei* | *Raphicerus* |
 | Sheep | *Ovis aries* | *Ovis* |
 | Siberian Ibex | *Capra sibirica* | *Capra* |
@@ -33286,24 +33137,22 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Camelidae</b> — 10 Species</summary>
+<summary>🟧 <b>Family: Camelidae</b> — 8 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Alpaca | *Vicugna pacos* | *Vicugna* |
 | Arabian Camel | *Camelus dromedarius* | *Camelus* |
 | Bactrian Camel | *Camelus bactrianus* | *Camelus* |
-| Dromedary Camel | *Camelus dromedarius* | *Camelus* |
 | Guanaco | *Lama guanicoe* | *Lama* |
 | Llama | *Lama glama* | *Lama* |
 | Llamanaco | *Lama glama x Lama guanicoe* | *Lama* |
-| Vicugna | *Vicugna vicugna* | *Vicugna* |
 | Vicuña | *Vicugna vicugna* | *Vicugna* |
 | Wild Bactrian Camel | *Camelus ferus* | *Camelus* |
 
 </details>
 <details>
-<summary>🟧 <b>Family: Cervidae</b> — 56 Species</summary>
+<summary>🟧 <b>Family: Cervidae</b> — 54 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -33323,7 +33172,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Ecuador Red Brocket | *Mazama rufina* | *Mazama* |
 | Eld's Deer | *Rucervus eldii* | *Rucervus* |
 | Elk | *Cervus canadensis* | *Cervus* |
-| Eurasian Elk | *Alces alces* | *Alces* |
 | Fallow Deer | *Dama dama* | *Dama* |
 | Fea's Muntjac | *Muntiacus feae* | *Muntiacus* |
 | Giant Muntjac | *Muntiacus vuquangensis* | *Muntiacus* |
@@ -33359,14 +33207,13 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Sika Deer | *Cervus nippon* | *Cervus* |
 | Tufted Deer | *Elaphodus cephalophus* | *Elaphodus* |
 | Visayan Spotted Deer | *Rusa alfredi* | *Rusa* |
-| Western Roe Deer | *Capreolus capreolus* | *Capreolus* |
 | White-lipped Deer | *Cervus albirostris* | *Cervus* |
 | White-tailed Deer | *Odocoileus virginianus* | *Odocoileus* |
 | Yucatan Brown Brocket | *Odocoileus pandora* | *Odocoileus* |
 
 </details>
 <details>
-<summary>🟧 <b>Family: Delphinidae</b> — 43 Species</summary>
+<summary>🟧 <b>Family: Delphinidae</b> — 40 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -33381,7 +33228,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Burrunan Dolphin | *Tursiops australis* | *Tursiops* |
 | Clymene Dolphin | *Stenella clymene* | *Stenella* |
 | Commerson's Dolphin | *Cephalorhynchus commersonii* | *Cephalorhynchus* |
-| Common Bottlenose Dolphin | *Tursiops truncatus* | *Tursiops* |
 | Dusky Dolphin | *Sagmatias obscurus* | *Sagmatias* |
 | False Killer Whale | *Pseudorca crassidens* | *Pseudorca* |
 | Fraser's Dolphin | *Lagenodelphis hosei* | *Lagenodelphis* |
@@ -33394,7 +33240,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Indo-pacific Bottlenose Dolphin | *Tursiops aduncus* | *Tursiops* |
 | Indo-pacific Humpbacked Dolphin | *Sousa chinensis* | *Sousa* |
 | Irrawaddy Dolphin | *Orcaella brevirostris* | *Orcaella* |
-| Killer Whale | *Orcinus orca* | *Orcinus* |
 | Long-beaked Common Dolphin | *Delphinus capensis* | *Delphinus* |
 | Long-finned Pilot Whale | *Globicephala melas* | *Globicephala* |
 | Melon-headed Whale | *Peponocephala electra* | *Peponocephala* |
@@ -33407,7 +33252,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Risso's Dolphin | *Grampus griseus* | *Grampus* |
 | Rough-toothed Dolphin | *Steno bredanensis* | *Steno* |
 | Saddleback Dolphin | *Delphinus delphis* | *Delphinus* |
-| Short-beaked Common Dolphin | *Delphinus delphis* | *Delphinus* |
 | Short-finned Pilot Whale | *Globicephala macrorhynchus* | *Globicephala* |
 | Southern Right Whale Dolphin | *Lissodelphis peronii* | *Lissodelphis* |
 | Spinner Dolphin | *Stenella longirostris* | *Stenella* |
@@ -33416,12 +33260,11 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Eschrichtiidae</b> — 2 Species</summary>
+<summary>🟧 <b>Family: Eschrichtiidae</b> — 1 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Gray Whale | *Eschrichtius robustus* | *Eschrichtius* |
-| Grey Whale | *Eschrichtius robustus* | *Eschrichtius* |
 
 </details>
 <details>
@@ -33535,7 +33378,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Suidae</b> — 17 Species</summary>
+<summary>🟧 <b>Family: Suidae</b> — 16 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -33555,7 +33398,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Pygmy Hog | *Porcula salvania* | *Porcula* |
 | Red River Hog | *Potamochoerus porcus* | *Potamochoerus* |
 | Visayan Warty Pig | *Sus cebifrons* | *Sus* |
-| Wild Boar | *Sus scrofa* | *Sus* |
 
 </details>
 <details>
@@ -33611,24 +33453,22 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Carnivora</b> — 312 Species</summary>
+<summary>🟥 <b>Order: Carnivora</b> — 293 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Ailuridae</b> — 2 Species</summary>
+<summary>🟧 <b>Family: Ailuridae</b> — 1 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| Lesser Panda | *Ailurus fulgens* | *Ailurus* |
 | Red Panda | *Ailurus fulgens* | *Ailurus* |
 
 </details>
 <details>
-<summary>🟧 <b>Family: Canidae</b> — 45 Species</summary>
+<summary>🟧 <b>Family: Canidae</b> — 42 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | African Golden Wolf | *Canis lupaster* | *Canis* |
-| African Hunting Dog | *Lycaon pictus* | *Lycaon* |
 | African Wild Dog | *Lycaon pictus* | *Lycaon* |
 | Arctic Fox | *Vulpes lagopus* | *Vulpes* |
 | Bat-eared Fox | *Otocyon megalotis* | *Otocyon* |
@@ -33647,13 +33487,11 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Dingo | *Canis lupus dingo* | *Canis* |
 | Dire Wolf | *Aenocyon dirus* | *Aenocyon* |
 | Dog | *Canis lupus familiaris* | *Canis* |
-| Domestic Dog | *Canis lupus familiaris* | *Canis* |
 | Ethiopian Wolf | *Canis simensis* | *Canis* |
 | Falkland Islands Wolf | *Dusicyon australis* | *Dusicyon* |
 | Fennec Fox | *Vulpes zerda* | *Vulpes* |
 | Golden Jackal | *Canis aureus* | *Canis* |
 | Gray Fox | *Urocyon cinereoargenteus* | *Urocyon* |
-| Gray Wolf | *Canis lupus* | *Canis* |
 | Himalayan Wolf | *Canis himalayensis* | *Canis* |
 | Hoary Fox | *Lycalopex vetulus* | *Lycalopex* |
 | Island Gray Fox | *Urocyon littoralis* | *Urocyon* |
@@ -33687,7 +33525,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Felidae</b> — 51 Species</summary>
+<summary>🟧 <b>Family: Felidae</b> — 49 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -33703,13 +33541,11 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Bobcat | *Lynx rufus* | *Lynx* |
 | Canada Lynx | *Lynx canadensis* | *Lynx* |
 | Caracal | *Caracal caracal* | *Caracal* |
+| Cat | *Felis catus* | *Felis* |
 | Cheetah | *Acinonyx jubatus* | *Acinonyx* |
 | Clouded Leopard | *Neofelis nebulosa* | *Neofelis* |
 | Colocolo | *Leopardus colocola* | *Leopardus* |
-| Cougar | *Puma concolor* | *Puma* |
-| Domestic Cat | *Felis catus* | *Felis* |
 | Eurasian Cave Lion | *Panthera spelaea* | *Panthera* |
-| Eurasian Lynx | *Lynx lynx* | *Lynx* |
 | European Saber-tooth Cat | *Homotherium latidens* | *Homotherium* |
 | Fishing Cat | *Prionailurus viverrinus* | *Prionailurus* |
 | Flat-headed Cat | *Prionailurus planiceps* | *Prionailurus* |
@@ -33782,7 +33618,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Hyaenidae</b> — 6 Species</summary>
+<summary>🟧 <b>Family: Hyaenidae</b> — 5 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -33790,7 +33626,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Brown Hyena | *Parahyaena brunnea* | *Parahyaena* |
 | Hyena | *Crocuta crocuta* | *Crocuta* |
 | Spotted Hyena | *Crocuta crocuta spelaea* | *Crocuta* |
-| Spotted Hyena | *Crocuta crocuta* | *Crocuta* |
 | Striped Hyena | *Hyaena hyaena* | *Hyaena* |
 
 </details>
@@ -33813,7 +33648,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Mustelidae</b> — 63 Species</summary>
+<summary>🟧 <b>Family: Mustelidae</b> — 57 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -33836,10 +33671,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Congo Clawless Otter | *Aonyx congicus* | *Aonyx* |
 | Cuc Phuong Ferret-badger | *Melogale cucphuongensis* | *Melogale* |
 | Domestic Ferret | *Mustela putorius furo* | *Mustela* |
-| Ermine | *Mustela erminea* | *Mustela* |
 | Eurasian Badger | *Meles meles* | *Meles* |
-| Eurasian River Otter | *Lutra lutra* | *Lutra* |
-| European Badger | *Meles meles* | *Meles* |
 | European Mink | *Mustela lutreola* | *Mustela* |
 | European Otter | *Lutra lutra* | *Lutra* |
 | European Pine Marten | *Martes martes* | *Martes* |
@@ -33849,7 +33681,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Greater Grison | *Galictis vittata* | *Galictis* |
 | Haida Ermine | *Mustela haidarum* | *Mustela* |
 | Hairy-nosed Otter | *Lutra sumatrana* | *Lutra* |
-| Honey Badger | *Mellivora capensis* | *Mellivora* |
 | Japanese Badger | *Meles anakuma* | *Meles* |
 | Japanese Marten | *Martes melampus* | *Martes* |
 | Javan Ferret Badger | *Melogale orientalis* | *Melogale* |
@@ -33860,8 +33691,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Marine Otter | *Lontra felina* | *Lontra* |
 | Mountain Weasel | *Mustela altaica* | *Mustela* |
 | Neotropical River Otter | *Lontra longicaudis* | *Lontra* |
-| North American River Otter | *Lontra canadensis* | *Lontra* |
-| Northern American River Otter | *Lontra canadensis* | *Lontra* |
 | Patagonian Weasel | *Lyncodon patagonicus* | *Lyncodon* |
 | Polecat-ferret Hybrid | *Mustela putorius x Mustela putorius furo* | *Mustela* |
 | Ratel | *Mellivora capensis* | *Mellivora* |
@@ -33921,7 +33750,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Phocidae</b> — 23 Species</summary>
+<summary>🟧 <b>Family: Phocidae</b> — 21 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -33931,8 +33760,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Caspian Seal | *Pusa caspica* | *Pusa* |
 | Crabeater Seal | *Lobodon carcinophaga* | *Lobodon* |
 | Gray Seal | *Halichoerus grypus* | *Halichoerus* |
-| Grey Seal | *Halichoerus grypus* | *Halichoerus* |
-| Harbor Seal | *Phoca vitulina* | *Phoca* |
 | Harp Seal | *Pagophilus groenlandicus* | *Phoca* |
 | Harp Seal | *Phoca groenlandica* | *Phoca* |
 | Hawaiian Monk Seal | *Neomonachus schauinslandi* | *Neomonachus* |
@@ -33974,23 +33801,20 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Ursidae</b> — 19 Species</summary>
+<summary>🟧 <b>Family: Ursidae</b> — 16 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | American Black Bear | *Ursus americanus* | *Ursus* |
 | Asian Black Bear | *Ursus thibetanus* | *Ursus* |
-| Asiatic Black Bear | *Ursus thibetanus* | *Ursus* |
 | Bear | *Ursus sp.* | *Ursus* |
 | Brown Bear | *Ursus arctos* | *Ursus* |
 | Cave Bear | *Ursus spelaeus* | *Ursus* |
 | Deninger's Bear | *Ursus deningeri* | *Ursus* |
 | Gamssulzen Cave Bear | *Ursus ingressus* | *Ursus* |
-| Giant Panda | *Ailuropoda melanoleuca* | *Ailuropoda* |
 | Giant Short-faced Bear | *Arctodus simus* | *Arctodus* |
 | Kodiak Bear | *Ursus arctos middendorffi* | *Ursus* |
 | Kudaro Cave Bear | *Ursus kudarensis* | *Ursus* |
-| Malayan Sun Bear | *Helarctos malayanus* | *Helarctos* |
 | Panda | *Ailuropoda melanoleuca* | *Ailuropoda* |
 | Polar Bear | *Ursus maritimus* | *Ursus* |
 | Sloth Bear | *Melursus ursinus* | *Melursus* |
@@ -34000,7 +33824,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Viverridae</b> — 24 Species</summary>
+<summary>🟧 <b>Family: Viverridae</b> — 23 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -34023,7 +33847,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Owston's Palm Civet | *Chrotogale owstoni* | *Chrotogale* |
 | Panther Genet | *Genetta maculata* | *Genetta* |
 | Small Indian Civet | *Viverricula indica* | *Viverricula* |
-| Small-spotted Genet | *Genetta genetta* | *Genetta* |
 | Small-toothed Palm Civet | *Arctogalidia trivirgata* | *Arctogalidia* |
 | Sri Lankan Brown Palm Civet | *Paradoxurus montanus* | *Paradoxurus* |
 | Sulawesi Palm Civet | *Macrogalidia musschenbroekii* | *Macrogalidia* |
@@ -34033,7 +33856,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Chiroptera</b> — 778 Species</summary>
+<summary>🟥 <b>Order: Chiroptera</b> — 776 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Cistugidae</b> — 2 Species</summary>
@@ -34333,7 +34156,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Phyllostomidae</b> — 98 Species</summary>
+<summary>🟧 <b>Family: Phyllostomidae</b> — 97 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -34352,7 +34175,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Carriker's Round-eared Bat | *Lophostoma carrikeri* | *Lophostoma* |
 | Choco Broad-nosed Bat | *Platyrrhinus chocoensis* | *Platyrrhinus* |
 | Common Sword-nosed Bat | *Lonchorhina aurita* | *Lonchorhina* |
-| Common Vampire Bat | *Desmodus rotundus* | *Desmodus* |
 | Cozumelan Golden Bat | *Mimon cozumelae* | *Mimon* |
 | Cuban Fig-eating Bat | *Phyllops falcatus* | *Phyllops* |
 | D'orbigny's Round-eared Bat | *Lophostoma silvicola* | *Lophostoma* |
@@ -34438,7 +34260,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Pteropodidae</b> — 122 Species</summary>
+<summary>🟧 <b>Family: Pteropodidae</b> — 121 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -34472,7 +34294,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Franquet's Epauletted Bat | *Epomops franqueti* | *Epomops* |
 | Gambian Epauletted Fruit Bat | *Epomophorus gambianus* | *Epomophorus* |
 | Geoffroy's Rousette | *Rousettus amplexicaudatus* | *Rousettus* |
-| Giant Golden-crowned Flying Fox | *Acerodon jubatus* | *Acerodon* |
 | Gilliard's Flying Fox | *Pteropus gilliardi* | *Pteropus* |
 | Golden Short-palated Fruit Bat | *Casinycteris argynnis* | *Casinycteris* |
 | Golden-capped Fruit Bat | *Acerodon jubatus* | *Acerodon* |
@@ -34949,7 +34770,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Cingulata</b> — 16 Species</summary>
+<summary>🟥 <b>Order: Cingulata</b> — 15 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Chlamyphoridae</b> — 9 Species</summary>
@@ -34968,7 +34789,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Dasypodidae</b> — 7 Species</summary>
+<summary>🟧 <b>Family: Dasypodidae</b> — 6 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -34976,7 +34797,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Great Long-nosed Armadillo | *Dasypus kappleri* | *Dasypus* |
 | Hairy Long-nosed Armadillo | *Dasypus pilosus* | *Dasypus* |
 | Llanos Long-nosed Armadillo | *Dasypus sabanicola* | *Dasypus* |
-| Nine-banded Armadillo | *Dasypus novemcinctus* | *Dasypus* |
 | Seven-banded Armadillo | *Dasypus septemcinctus* | *Dasypus* |
 | Southern Long-nosed Armadillo | *Dasypus hybridus* | *Dasypus* |
 
@@ -34984,7 +34804,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Dasyuromorphia</b> — 68 Species</summary>
+<summary>🟥 <b>Order: Dasyuromorphia</b> — 67 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Dasyuridae</b> — 65 Species</summary>
@@ -35067,12 +34887,11 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Thylacinidae</b> — 2 Species</summary>
+<summary>🟧 <b>Family: Thylacinidae</b> — 1 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Tasmanian Wolf | *Thylacinus cynocephalus* | *Thylacinus* |
-| Thylacine / Tasmanian Tiger | *Thylacinus cynocephalus* | *Thylacinus* |
 
 </details>
 
@@ -35092,10 +34911,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Didelphimorphia</b> — 82 Species</summary>
+<summary>🟥 <b>Order: Didelphimorphia</b> — 80 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Didelphidae</b> — 82 Species</summary>
+<summary>🟧 <b>Family: Didelphidae</b> — 80 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -35146,7 +34965,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Long-tailed Fat-tailed Opossum | *Thylamys macrura* | *Thylamys* |
 | Mexican Mouse Opossum | *Marmosa mexicana* | *Marmosa* |
 | Murine Mouse Opossum | *Marmosa murina* | *Marmosa* |
-| North American Opossum | *Didelphis virginiana* | *Didelphis* |
 | Northern Gracile Opossum | *Gracilinanus marica* | *Gracilinanus* |
 | Northern Three-striped Opossum | *Monodelphis americana* | *Monodelphis* |
 | Ojasti's Slender Mouse Opossum | *Marmosops ojastii* | *Marmosops* |
@@ -35173,7 +34991,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Theresa's Short-tailed Opossum | *Monodelphis theresa* | *Monodelphis* |
 | Thick-tailed Opossum | *Lutreolina crassicaudata* | *Lutreolina* |
 | Tyleria Mouse Opossum | *Marmosa tyleriana* | *Marmosa* |
-| Virginia Opossum | *Didelphis virginiana* | *Didelphis* |
 | Voss' Slender Opossum | *Marmosops creightoni* | *Marmosops* |
 | Water Opossum | *Chironectes minimus* | *Chironectes* |
 | Western Woolly Opossum | *Caluromys lanatus* | *Caluromys* |
@@ -35186,7 +35003,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Diprotodontia</b> — 113 Species</summary>
+<summary>🟥 <b>Order: Diprotodontia</b> — 107 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Acrobatidae</b> — 2 Species</summary>
@@ -35207,7 +35024,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Macropodidae</b> — 58 Species</summary>
+<summary>🟧 <b>Family: Macropodidae</b> — 54 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -35228,17 +35045,14 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Doria's Tree Kangaroo | *Dendrolagus dorianus* | *Dendrolagus* |
 | Dusky Pademelon | *Thylogale brunii* | *Thylogale* |
 | Eastern Gray Kangaroo | *Macropus giganteus* | *Macropus* |
-| Eastern Grey Kangaroo | *Macropus giganteus* | *Macropus* |
 | Godman's Rock Wallaby | *Petrogale godmani* | *Petrogale* |
 | Golden-mantled Tree Kangaroo | *Dendrolagus pulcherrimus* | *Dendrolagus* |
 | Goodfellow's Tree Kangaroo | *Dendrolagus goodfellowi* | *Dendrolagus* |
 | Grizzled Tree Kangaroo | *Dendrolagus inustus* | *Dendrolagus* |
-| Huon Tree Kangaroo | *Dendrolagus matschiei* | *Dendrolagus* |
 | Kangaroo | *Macropus rufus* | *Osphranter* |
 | Kangaroo | *Macropus sp.* | *Macropus* |
 | Lesser Forest Wallaby | *Dorcopsulus vanheurni* | *Dorcopsulus* |
 | Lowland Tree Kangaroo | *Dendrolagus spadix* | *Dendrolagus* |
-| Matschie's Tree-kangaroo | *Dendrolagus matschiei* | *Dendrolagus* |
 | Monjon | *Petrogale burbidgei* | *Petrogale* |
 | Nabarlek | *Petrogale concinna* | *Petrogale* |
 | Northern Nail-tailed Wallaby | *Onychogalea unguifera* | *Onychogalea* |
@@ -35265,7 +35079,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Unadorned Rock Wallaby | *Petrogale inornata* | *Petrogale* |
 | Western Bush Wallaby | *Notamacropus irma* | *Notamacropus* |
 | Western Gray Kangaroo | *Macropus fuliginosus* | *Macropus* |
-| Western Grey Kangaroo | *Macropus fuliginosus* | *Macropus* |
 | Whiptail Wallaby | *Notamacropus parryi* | *Notamacropus* |
 | White-striped Dorcopsis | *Dorcopsis hageni* | *Dorcopsis* |
 | Wilkin's Rock-wallaby | *Petrogale wilkinsi* | *Petrogale* |
@@ -35287,7 +35100,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Phalangeridae</b> — 13 Species</summary>
+<summary>🟧 <b>Family: Phalangeridae</b> — 12 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -35295,7 +35108,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Banggai Cuscus | *Strigocuscus pelengensis* | *Strigocuscus* |
 | Black-spotted Cuscus | *Spilocuscus rufoniger* | *Spilocuscus* |
 | Common Brushtail | *Trichosurus vulpecula* | *Trichosurus* |
-| Common Brushtail Possum | *Trichosurus vulpecula* | *Trichosurus* |
 | Coppery Brushtail | *Trichosurus johnstonii* | *Trichosurus* |
 | Gray Cuscus | *Phalanger orientalis* | *Phalanger* |
 | Little Celebes Cuscus | *Strigocuscus celebensis* | *Strigocuscus* |
@@ -35332,11 +35144,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Pseudocheiridae</b> — 15 Species</summary>
+<summary>🟧 <b>Family: Pseudocheiridae</b> — 14 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| Common Ring-tailed Possum | *Pseudocheirus peregrinus* | *Pseudocheirus* |
 | Common Ringtail Possum | *Pseudocheirus peregrinus* | *Pseudocheirus* |
 | Coppery Ringtail Possum | *Pseudochirops cupreus* | *Pseudochirops* |
 | D'albertis' Ringtail | *Pseudochirops albertisii* | *Pseudochirops* |
@@ -35374,10 +35185,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Eulipotyphla</b> — 301 Species</summary>
+<summary>🟥 <b>Order: Eulipotyphla</b> — 297 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Erinaceidae</b> — 21 Species</summary>
+<summary>🟧 <b>Family: Erinaceidae</b> — 19 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -35388,7 +35199,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Desert Hedgehog | *Paraechinus aethiopicus* | *Paraechinus* |
 | Dwarf Gymnure | *Hylomys parvus* | *Hylomys* |
 | Eastern Forest Hedgehog | *Mesechinus orientalis* | *Mesechinus* |
-| European Hedgehog | *Erinaceus europaeus* | *Erinaceus* |
 | Hainan Gymnure | *Neohylomys hainanensis* | *Neohylomys* |
 | Hedgehog | *Erinaceus europaeus* | *Erinaceus* |
 | Hugh's Hedgehog | *Mesechinus hughi* | *Mesechinus* |
@@ -35401,7 +35211,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Shrew Gymnure | *Neotetracus sinensis* | *Neotetracus* |
 | Southern African Hedgehog | *Atelerix frontalis* | *Atelerix* |
 | Southern White-breasted Hedgehog | *Erinaceus concolor* | *Erinaceus* |
-| Western European Hedgehog | *Erinaceus europaeus* | *Erinaceus* |
 
 </details>
 <details>
@@ -35414,7 +35223,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Soricidae</b> — 248 Species</summary>
+<summary>🟧 <b>Family: Soricidae</b> — 247 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -35488,7 +35297,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Elongated Shrew | *Crocidura elongata* | *Crocidura* |
 | Eurasian Pygmy Shrew | *Sorex minutus* | *Sorex* |
 | Eurasian Water Shrew | *Neomys fodiens* | *Neomys* |
-| European Shrew | *Sorex araneus* | *Sorex* |
 | Even-toothed Shrew | *Sorex isodon* | *Sorex* |
 | Flat-headed Water Shrew | *Chimarrogale platycephalus* | *Chimarrogale* |
 | Flat-skulled Shrew | *Sorex roboratus* | *Sorex* |
@@ -35669,7 +35477,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Talpidae</b> — 30 Species</summary>
+<summary>🟧 <b>Family: Talpidae</b> — 29 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -35677,7 +35485,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Caucasian Mole | *Talpa caucasica* | *Talpa* |
 | Eastern Mole | *Scalopus aquaticus* | *Scalopus* |
 | Echigo Mole | *Mogera etigo* | *Mogera* |
-| European Mole | *Talpa europaea* | *Talpa* |
 | Gansu Mole | *Scapanulus oweni* | *Scapanulus* |
 | Gracile Shrew Mole | *Uropsilus gracilis* | *Uropsilus* |
 | Greater Chinese Mole | *Euroscaptor grandis* | *Euroscaptor* |
@@ -35708,14 +35515,13 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Hyracoidea</b> — 5 Species</summary>
+<summary>🟥 <b>Order: Hyracoidea</b> — 4 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Procaviidae</b> — 5 Species</summary>
+<summary>🟧 <b>Family: Procaviidae</b> — 4 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| Cape Rock Hyrax | *Procavia capensis* | *Procavia* |
 | Rock Hyrax | *Procavia capensis* | *Procavia* |
 | Southern Tree Hyrax | *Dendrohyrax arboreus* | *Dendrohyrax* |
 | Western Tree Hyrax | *Dendrohyrax dorsalis* | *Dendrohyrax* |
@@ -35725,10 +35531,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Lagomorpha</b> — 79 Species</summary>
+<summary>🟥 <b>Order: Lagomorpha</b> — 77 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Leporidae</b> — 52 Species</summary>
+<summary>🟧 <b>Family: Leporidae</b> — 50 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -35752,8 +35558,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Eastern Cottontail | *Sylvilagus floridanus* | *Sylvilagus* |
 | Ethiopian Hare | *Lepus fagani* | *Lepus* |
 | Ethiopian Highland Hare | *Lepus starcki* | *Lepus* |
-| European Hare | *Lepus europaeus* | *Lepus* |
-| European Rabbit | *Oryctolagus cuniculus* | *Oryctolagus* |
 | Granada Hare | *Lepus granatensis* | *Lepus* |
 | Greater Red Rock Rabbit | *Pronolagus crassicaudatus* | *Pronolagus* |
 | Hainan Hare | *Lepus hainanus* | *Lepus* |
@@ -35869,7 +35673,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Monotremata</b> — 7 Species</summary>
+<summary>🟥 <b>Order: Monotremata</b> — 6 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Ornithorhynchidae</b> — 1 Species</summary>
@@ -35880,14 +35684,13 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Tachyglossidae</b> — 6 Species</summary>
+<summary>🟧 <b>Family: Tachyglossidae</b> — 5 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Australian Echidna | *Tachyglossus aculeatus* | *Tachyglossus* |
 | Eastern Long-beaked Echidna | *Zaglossus bartoni* | *Zaglossus* |
 | Long-beaked Echidna | *Zaglossus bruijni* | *Zaglossus* |
-| Short-beaked Echidna | *Tachyglossus aculeatus* | *Tachyglossus* |
 | Sir David's Long-beaked Echidna | *Zaglossus attenboroughi* | *Zaglossus* |
 | Western Long-beaked Echidna | *Zaglossus bruijnii* | *Zaglossus* |
 
@@ -35926,10 +35729,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Peramelemorphia</b> — 21 Species</summary>
+<summary>🟥 <b>Order: Peramelemorphia</b> — 20 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Peramelidae</b> — 11 Species</summary>
+<summary>🟧 <b>Family: Peramelidae</b> — 10 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -35937,7 +35740,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Desert Bandicoot | *Perameles eremiana* | *Perameles* |
 | Eastern Barred Bandicoot | *Perameles gunnii* | *Perameles* |
 | Golden Bandicoot | *Isoodon auratus* | *Isoodon* |
-| Greater Bilby | *Macrotis lagotis* | *Macrotis* |
 | Lesser Bilby | *Macrotis leucura* | *Macrotis* |
 | Long-nosed Bandicoot | *Perameles nasuta* | *Perameles* |
 | Northern Brown Bandicoot | *Isoodon macrourus* | *Isoodon* |
@@ -35966,15 +35768,14 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Perissodactyla</b> — 31 Species</summary>
+<summary>🟥 <b>Order: Perissodactyla</b> — 26 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Equidae</b> — 16 Species</summary>
+<summary>🟧 <b>Family: Equidae</b> — 15 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | African Wild Ass | *Equus africanus* | *Equus* |
-| Domestic Horse | *Equus caballus* | *Equus* |
 | Donkey | *Equus asinus* | *Equus* |
 | Grevy's Zebra | *Equus grevyi* | *Equus* |
 | Hinny | *Equus caballus x Equus asinus* | *Equus* |
@@ -35992,12 +35793,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Rhinocerotidae</b> — 8 Species</summary>
+<summary>🟧 <b>Family: Rhinocerotidae</b> — 6 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| Black Rhinoceros | *Diceros bicornis* | *Diceros* |
-| Greater Indian Rhinoceros | *Rhinoceros unicornis* | *Rhinoceros* |
 | Indian Rhinoceros | *Rhinoceros unicornis* | *Rhinoceros* |
 | Javan Rhinoceros | *Rhinoceros sondaicus* | *Rhinoceros* |
 | Rhinoceros | *Diceros bicornis* | *Diceros* |
@@ -36007,7 +35806,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Tapiridae</b> — 7 Species</summary>
+<summary>🟧 <b>Family: Tapiridae</b> — 5 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -36015,18 +35814,16 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Baird's Tapir | *Tapirus bairdii* | *Tapirus* |
 | Brazilian Tapir | *Tapirus terrestris* | *Tapirus* |
 | Little Black Tapir | *Tapirus kabomani* | *Tapirus* |
-| Malayan Tapir | *Tapirus indicus* | *Tapirus* |
 | Mountain Tapir | *Tapirus pinchaque* | *Tapirus* |
-| South American Tapir | *Tapirus terrestris* | *Tapirus* |
 
 </details>
 
 </details>
 <details>
-<summary>🟥 <b>Order: Pholidota</b> — 12 Species</summary>
+<summary>🟥 <b>Order: Pholidota</b> — 10 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Manidae</b> — 12 Species</summary>
+<summary>🟧 <b>Family: Manidae</b> — 10 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -36037,8 +35834,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Indian Pangolin | *Manis crassicaudata* | *Manis* |
 | Indo Burmese Pangolin | *Manis aurita* | *Manis* |
 | Long-tailed Pangolin | *Phataginus tetradactyla* | *Phataginus* |
-| Malayan Pangolin | *Manis javanica* | *Manis* |
-| Palawan Pangolin | *Manis culionensis* | *Manis* |
 | Sunda Pangolin | *Manis culionensis* | *Manis* |
 | Sunda Pangolin | *Manis javanica* | *Manis* |
 | Tree Pangolin | *Phataginus tricuspis* | *Phataginus* |
@@ -36047,16 +35842,15 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Pilosa</b> — 15 Species</summary>
+<summary>🟥 <b>Order: Pilosa</b> — 13 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Bradypodidae</b> — 6 Species</summary>
+<summary>🟧 <b>Family: Bradypodidae</b> — 5 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Brown-throated Sloth | *Bradypus variegatus* | *Bradypus* |
 | Maned Three-toed Sloth | *Bradypus torquatus* | *Bradypus* |
-| Pale-throated Sloth | *Bradypus tridactylus* | *Bradypus* |
 | Pygmy Three-toed Sloth | *Bradypus pygmaeus* | *Bradypus* |
 | Sloth | *Bradypus tridactylus* | *Bradypus* |
 | Southern Maned Three-toed Sloth | *Bradypus crinitus* | *Bradypus* |
@@ -36071,13 +35865,12 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Megalonychidae</b> — 4 Species</summary>
+<summary>🟧 <b>Family: Megalonychidae</b> — 3 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Hoffmann's Two-fingered Sloth | *Choloepus hoffmanni* | *Choloepus* |
 | Jefferson's Ground Sloth | *Megalonyx jeffersonii* | *Megalonyx* |
-| Linnaeus's Two-toed Sloth | *Choloepus didactylus* | *Choloepus* |
 | Southern Two-toed Sloth | *Choloepus didactylus* | *Choloepus* |
 
 </details>
@@ -36102,7 +35895,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Primates</b> — 411 Species</summary>
+<summary>🟥 <b>Order: Primates</b> — 392 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Aotidae</b> — 7 Species</summary>
@@ -36119,7 +35912,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Atelidae</b> — 30 Species</summary>
+<summary>🟧 <b>Family: Atelidae</b> — 26 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -36127,21 +35920,17 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Black Spider Monkey | *Ateles chamek* | *Ateles* |
 | Black Spider Monkey X Brown-headed Spider Monkey | *Ateles paniscus x Ateles fusciceps* | *Ateles* |
 | Black-and-red Howler Monkey | *Alouatta belzebul* | *Alouatta* |
-| Black-handed Spider Monkey | *Ateles geoffroyi* | *Ateles* |
 | Bolivian Red Howler Monkey | *Alouatta sara* | *Alouatta* |
 | Brown Spider Monkey | *Ateles hybridus* | *Ateles* |
 | Brown Woolly Monkey | *Lagothrix lagotricha* | *Lagothrix* |
 | Brown-headed Spider Monkey | *Ateles fusciceps* | *Ateles* |
 | Colombian Woolly Monkey | *Lagothrix lugens* | *Lagothrix* |
-| Geoffroy's Spider Monkey | *Ateles geoffroyi* | *Ateles* |
 | Gray Woolly Monkey | *Lagothrix cana* | *Lagothrix* |
 | Howler Monkey | *Alouatta guariba* | *Alouatta* |
 | Howler Monkey | *Alouatta palliata* | *Alouatta* |
 | Howler Monkey | *Alouatta seniculus* | *Alouatta* |
 | Howler Monkey | *Alouatta sp.* | *Alouatta* |
 | Jurua Red Howler | *Alouatta juara* | *Alouatta* |
-| Mantled Howler | *Alouatta palliata* | *Alouatta* |
-| Mantled Howler Monkey | *Alouatta palliata* | *Alouatta* |
 | Maranhao Red-handed Howler | *Alouatta ululata* | *Alouatta* |
 | Peruvian Woolly Monkey | *Lagothrix tschudii* | *Lagothrix* |
 | Peruvian Yellow-tailed Woolly Monkey | *Lagothrix flavicauda* | *Lagothrix* |
@@ -36156,7 +35945,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Cebidae</b> — 61 Species</summary>
+<summary>🟧 <b>Family: Cebidae</b> — 58 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -36165,7 +35954,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Black Capuchin | *Sapajus nigritus* | *Sapajus* |
 | Black Squirrel Monkey | *Saimiri vanzolinii* | *Saimiri* |
 | Black-and-red Tamarin | *Leontocebus nigricollis* | *Leontocebus* |
-| Black-chinned Emperor Tamarin | *Saguinus imperator* | *Saguinus* |
 | Black-handed Tamarin | *Saguinus niger* | *Saguinus* |
 | Black-pencilled Marmoset | *Callithrix penicillata* | *Callithrix* |
 | Black-striped Capuchin | *Sapajus libidinosus* | *Sapajus* |
@@ -36216,15 +36004,13 @@ All sections are collapsed by default—click on any branch to expand and explor
 | White-eared Marmoset | *Callithrix aurita* | *Callithrix* |
 | White-faced Sapajou | *Cebus capucinus* | *Cebus* |
 | White-fronted Capuchin | *Cebus albifrons* | *Cebus* |
-| White-headed Capuchin | *Cebus capucinus* | *Cebus* |
 | White-mantled Tamarin | *Saguinus melanoleucus* | *Saguinus* |
-| White-tufted-ear Marmoset | *Callithrix jacchus* | *Callithrix* |
 | Wied's Marmoset | *Callithrix kuhlii* | *Callithrix* |
 | Yellow-breasted Capuchin | *Sapajus xanthosternos* | *Sapajus* |
 
 </details>
 <details>
-<summary>🟧 <b>Family: Cercopithecidae</b> — 132 Species</summary>
+<summary>🟧 <b>Family: Cercopithecidae</b> — 128 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -36237,7 +36023,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Bale Mountains Vervet | *Chlorocebus djamdjamensis* | *Chlorocebus* |
 | Banded Leaf Monkey | *Presbytis femoralis* | *Presbytis* |
 | Barbary Ape | *Macaca sylvanus* | *Macaca* |
-| Barbary Macaque | *Macaca sylvanus* | *Macaca* |
 | Black Colobus | *Colobus satanas* | *Colobus* |
 | Black Crested Mangabey | *Lophocebus aterrimus* | *Lophocebus* |
 | Black Snub-nosed Monkey | *Rhinopithecus bieti* | *Rhinopithecus* |
@@ -36307,7 +36092,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Nepal Gray Langur | *Semnopithecus schistaceus* | *Semnopithecus* |
 | Nilgiri Langur | *Trachypithecus johnii* | *Trachypithecus* |
 | Northern Pig-tailed Macaque | *Macaca leonina* | *Macaca* |
-| Olive Baboon | *Papio anubis* | *Papio* |
 | Olive Colobus | *Procolobus verus* | *Procolobus* |
 | Owl-faced Monkey | *Cercopithecus hamlyni* | *Cercopithecus* |
 | Pennant's Red Colobus | *Piliocolobus pennantii* | *Piliocolobus* |
@@ -36322,7 +36106,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Red Shanked Douc Langur | *Pygathrix nemaeus* | *Pygathrix* |
 | Red-eared Guenon | *Cercopithecus erythrotis* | *Cercopithecus* |
 | Red-tailed Monkey | *Cercopithecus ascanius* | *Cercopithecus* |
-| Rhesus Monkey | *Macaca mulatta* | *Macaca* |
 | Sarawak Surili | *Presbytis chrysomelas* | *Presbytis* |
 | Sclater's Guenon | *Cercopithecus sclateri* | *Cercopithecus* |
 | Shortridge's Langur | *Trachypithecus shortridgei* | *Trachypithecus* |
@@ -36350,7 +36133,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Ugandan Red Colobus | *Piliocolobus tephrosceles* | *Piliocolobus* |
 | Uzungwa Red Colobus | *Piliocolobus gordonorum* | *Piliocolobus* |
 | Vervet | *Chlorocebus pygerythrus* | *Chlorocebus* |
-| Vervet Monkey | *Chlorocebus pygerythrus* | *Chlorocebus* |
 | Western Red Colobus | *Piliocolobus badius* | *Piliocolobus* |
 | White-fronted Langur | *Presbytis frontata* | *Presbytis* |
 | White-headed Langur | *Trachypithecus poliocephalus* | *Trachypithecus* |
@@ -36403,7 +36185,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Galagidae</b> — 17 Species</summary>
+<summary>🟧 <b>Family: Galagidae</b> — 16 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -36415,7 +36197,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Matschie's Galago | *Galago matschiei* | *Galago* |
 | Moholi Bushbaby | *Galago moholi* | *Galago* |
 | Rondo Bushbaby | *Galagoides rondoensis* | *Galagoides* |
-| Senegal Bushbaby | *Galago senegalensis* | *Galago* |
 | Senegal Galago | *Galago senegalensis* | *Galago* |
 | Silvery Greater Galago | *Otolemur monteiri* | *Otolemur* |
 | Small-eared Galago | *Otolemur garnettii* | *Otolemur* |
@@ -36427,33 +36208,29 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Hominidae</b> — 12 Species</summary>
+<summary>🟧 <b>Family: Hominidae</b> — 9 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Bonobo | *Pan paniscus* | *Pan* |
-| Bornean Orangutan | *Pongo pygmaeus* | *Pongo* |
 | Chimpanzee | *Pan troglodytes* | *Pan* |
 | Eastern Gorilla | *Gorilla beringei* | *Gorilla* |
 | Gorilla | *Gorilla gorilla* | *Gorilla* |
 | Heidelberg Man | *Homo heidelbergensis* | *Homo* |
 | Human | *Homo sapiens* | *Homo* |
 | Orangutan | *Pongo pygmaeus* | *Pongo* |
-| Pygmy Chimpanzee | *Pan paniscus* | *Pan* |
 | Sumatran Orangutan | *Pongo abelii* | *Pongo* |
 | Tapanuli Orangutan | *Pongo tapanuliensis* | *Pongo* |
-| Western Gorilla | *Gorilla gorilla* | *Gorilla* |
 
 </details>
 <details>
-<summary>🟧 <b>Family: Hylobatidae</b> — 21 Species</summary>
+<summary>🟧 <b>Family: Hylobatidae</b> — 19 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Agile Gibbon | *Hylobates agilis* | *Hylobates* |
 | Black Crested Gibbon | *Nomascus concolor* | *Nomascus* |
 | Bornean White-bearded Gibbon | *Hylobates albibarbis* | *Hylobates* |
-| Common Gibbon | *Hylobates lar* | *Hylobates* |
 | Eastern Gray Gibbon | *Hylobates funereus* | *Hylobates* |
 | Eastern Hoolock Gibbon | *Hoolock leuconedys* | *Hoolock* |
 | Gibbon | *Hylobates sp.* | *Hylobates* |
@@ -36470,11 +36247,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Silvery Gibbon | *Hylobates moloch* | *Hylobates* |
 | Skywalker Hoolock Gibbon | *Hoolock tianxing* | *Hoolock* |
 | Southern White-cheeked Gibbon | *Nomascus siki* | *Nomascus* |
-| White-handed Gibbon | *Hylobates lar* | *Hylobates* |
 
 </details>
 <details>
-<summary>🟧 <b>Family: Indriidae</b> — 15 Species</summary>
+<summary>🟧 <b>Family: Indriidae</b> — 14 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -36490,7 +36266,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Southern Wooly Lemur | *Avahi meridionalis* | *Avahi* |
 | Tattersall's Sifaka | *Propithecus tattersalli* | *Propithecus* |
 | Van Der Decken's Sifaka | *Propithecus deckenii* | *Propithecus* |
-| Verreaux's Sifaka | *Propithecus verreauxi* | *Propithecus* |
 | White Sifaka | *Propithecus verreauxi* | *Propithecus* |
 | Woolly Lemur | *Avahi laniger* | *Avahi* |
 
@@ -36540,7 +36315,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Lorisidae</b> — 13 Species</summary>
+<summary>🟧 <b>Family: Lorisidae</b> — 12 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -36556,7 +36331,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Pygmy Slow Loris | *Xanthonycticebus pygmaeus* | *Xanthonycticebus* |
 | Slender Loris | *Loris tardigradus* | *Loris* |
 | Slow Loris | *Nycticebus coucang* | *Nycticebus* |
-| Sunda Slow Loris | *Nycticebus coucang* | *Nycticebus* |
 
 </details>
 <details>
@@ -36630,21 +36404,18 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Proboscidea</b> — 10 Species</summary>
+<summary>🟥 <b>Order: Proboscidea</b> — 7 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Elephantidae</b> — 9 Species</summary>
+<summary>🟧 <b>Family: Elephantidae</b> — 6 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | African Bush Elephant | *Loxodonta africana* | *Loxodonta* |
 | African Forest Elephant | *Loxodonta cyclotis* | *Loxodonta* |
-| African Savanna Elephant | *Loxodonta africana* | *Loxodonta* |
 | Asian Elephant | *Elephas maximus* | *Elephas* |
-| Asiatic Elephant | *Elephas maximus* | *Elephas* |
 | Channel Islands Mammoth | *Mammuthus exilis* | *Mammuthus* |
 | Columbian Mammoth | *Mammuthus columbi* | *Mammuthus* |
-| Elephant | *Loxodonta africana* | *Loxodonta* |
 | Woolly Mammoth | *Mammuthus primigenius* | *Mammuthus* |
 
 </details>
@@ -36659,7 +36430,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Rodentia</b> — 1,613 Species</summary>
+<summary>🟥 <b>Order: Rodentia</b> — 1,597 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Abrocomidae</b> — 7 Species</summary>
@@ -36748,41 +36519,36 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Castoridae</b> — 4 Species</summary>
+<summary>🟧 <b>Family: Castoridae</b> — 2 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| American Beaver | *Castor canadensis* | *Castor* |
 | Beaver | *Castor canadensis* | *Castor* |
 | Eurasian Beaver | *Castor fiber* | *Castor* |
-| North American Beaver | *Castor canadensis* | *Castor* |
 
 </details>
 <details>
-<summary>🟧 <b>Family: Caviidae</b> — 11 Species</summary>
+<summary>🟧 <b>Family: Caviidae</b> — 9 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Brazilian Guinea Pig | *Cavia aperea* | *Cavia* |
 | Climbing Cavy | *Kerodon acrobata* | *Kerodon* |
 | Cuis | *Galea musteloides* | *Galea* |
-| Domestic Guinea Pig | *Cavia porcellus* | *Cavia* |
 | Greater Guinea Pig | *Cavia magna* | *Cavia* |
 | Guinea Pig | *Cavia porcellus* | *Cavia* |
 | Montane Guinea Pig | *Cavia tschudii* | *Cavia* |
 | Patagonian Cavy | *Dolichotis patagonum* | *Dolichotis* |
-| Patagonian Mara | *Dolichotis patagonum* | *Dolichotis* |
 | Rock Cavy | *Kerodon rupestris* | *Kerodon* |
 | Shiny Guinea Pig | *Cavia fulgida* | *Cavia* |
 
 </details>
 <details>
-<summary>🟧 <b>Family: Chinchillidae</b> — 7 Species</summary>
+<summary>🟧 <b>Family: Chinchillidae</b> — 6 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Chinchilla | *Chinchilla lanigera* | *Chinchilla* |
-| Long-tailed Chinchilla | *Chinchilla lanigera* | *Chinchilla* |
 | Northern Viscacha | *Lagidium peruanum* | *Lagidium* |
 | Plains Viscacha | *Lagostomus maximus* | *Lagostomus* |
 | Short-tailed Chinchilla | *Chinchilla chinchilla* | *Chinchilla* |
@@ -37488,14 +37254,13 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Erethizontidae</b> — 6 Species</summary>
+<summary>🟧 <b>Family: Erethizontidae</b> — 5 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Bicolor-spined Porcupine | *Coendou bicolor* | *Coendou* |
 | Bristle-spined Rat | *Chaetomys subspinosus* | *Chaetomys* |
 | Mexican Hairy Dwarf Porcupine | *Coendou mexicanus* | *Coendou* |
-| North American Porcupine | *Erethizon dorsatum* | *Erethizon* |
 | Porcupine | *Erethizon dorsatum* | *Erethizon* |
 | Roosmalen's Dwarf Porcupine | *Coendou roosmalenorum* | *Coendou* |
 
@@ -37654,7 +37419,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Muridae</b> — 481 Species</summary>
+<summary>🟧 <b>Family: Muridae</b> — 477 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -37681,7 +37446,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Arc Mountain Wood Mouse | *Hylomyscus arcimontensis* | *Hylomyscus* |
 | Arnhem Land Rock Rat | *Zyzomys maini* | *Zyzomys* |
 | Arvicanthis Somalicus | *Arvicanthis neumanni* | *Arvicanthis* |
-| Arvicanthis Somalicus Thomas, 1903 | *Arvicanthis neumanni* | *Arvicanthis* |
 | Ash-gray Pseudomys | *Pseudomys albocinereus* | *Pseudomys* |
 | Asia Minor Spiny Mouse | *Acomys cilicicus* | *Acomys* |
 | Australian Dusky Field Rat | *Rattus sordidus* | *Rattus* |
@@ -37720,7 +37484,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Broad-toothed Field Mouse | *Apodemus mystacinus* | *Apodemus* |
 | Brockman's Myomyscus | *Ochromyscus brockmani* | *Ochromyscus* |
 | Brown Desert Mouse | *Pseudomys desertor* | *Pseudomys* |
-| Brown Rat | *Rattus norvegicus* | *Rattus* |
 | Brush-tailed Hairy-footed Gerbil | *Gerbillurus vallinus* | *Gerbillurus* |
 | Brush-tailed Rabbit-rat | *Conilurus penicillatus* | *Conilurus* |
 | Buffoon Striped Grass Mouse | *Lemniscomys macculus* | *Lemniscomys* |
@@ -37854,7 +37617,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Hog-nosed Shrew Rat | *Echiothrix leucura* | *Echiothrix* |
 | Hoogerwerf's Rat | *Rattus hoogerwerfi* | *Rattus* |
 | Hoogstraal's Gerbil | *Gerbillus hoogstrali* | *Gerbillus* |
-| House Mouse | *Mus musculus* | *Mus* |
 | Hyrcanian Field Mouse | *Apodemus hyrcanicus* | *Apodemus* |
 | Indian Bush Rat | *Golunda ellioti* | *Golunda* |
 | Indochinese Forest Rat | *Rattus andamanensis* | *Rattus* |
@@ -37979,7 +37741,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Northern Hopping Mouse | *Notomys aquilo* | *Notomys* |
 | Northern Luzon Giant Cloud Rat | *Phloeomys pallidus* | *Phloeomys* |
 | Northern Savanna Gerbil | *Gerbilliscus kempi* | *Gerbilliscus* |
-| Norway Rat | *Rattus norvegicus* | *Rattus* |
 | Nyika Rock Rat | *Aethomys nyikae* | *Aethomys* |
 | Occidental Gerbil | *Gerbillus occiduus* | *Gerbillus* |
 | Ochraceous-bellied Bornean Maxomys | *Crunomys ochraceiventer* | *Crunomys* |
@@ -38193,12 +37954,11 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Octodontidae</b> — 7 Species</summary>
+<summary>🟧 <b>Family: Octodontidae</b> — 6 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Chalchalero Viscacha-rat | *Tympanoctomys loschalchalerosorum* | *Tympanoctomys* |
-| Common Degu | *Octodon degus* | *Octodon* |
 | Coruro | *Spalacopus cyanus* | *Spalacopus* |
 | Degu | *Octodon degus* | *Octodon* |
 | Moon-toothed Degu | *Octodon lunatus* | *Octodon* |
@@ -38232,7 +37992,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Sciuridae</b> — 240 Species</summary>
+<summary>🟧 <b>Family: Sciuridae</b> — 235 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -38292,10 +38052,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Dusky Palm Squirrel | *Funambulus sublineatus* | *Funambulus* |
 | Ear-spot Squirrel | *Callosciurus adamsi* | *Callosciurus* |
 | Eastern Chipmunk | *Tamias striatus* | *Tamias* |
-| Eastern Gray Squirrel | *Sciurus carolinensis* | *Sciurus* |
-| Eurasian Red Squirrel | *Sciurus vulgaris* | *Sciurus* |
 | European Ground Squirrel | *Spermophilus citellus* | *Spermophilus* |
-| European Marmot | *Marmota marmota* | *Marmota* |
 | Fiery Squirrel | *Sciurus flammifer* | *Sciurus* |
 | Finlayson's Squirrel | *Callosciurus finlaysonii* | *Callosciurus* |
 | Fire-footed Rope Squirrel | *Funisciurus pyrropus* | *Funisciurus* |
@@ -38308,7 +38065,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Gambian Sun Squireel | *Heliosciurus gambianus* | *Heliosciurus* |
 | Golden-mantled Ground Squirrel | *Callospermophilus lateralis* | *Callospermophilus* |
 | Gray Marmot | *Marmota baibacina* | *Marmota* |
-| Gray Squirrel | *Sciurus carolinensis* | *Sciurus* |
 | Gray-bellied Squirrel | *Callosciurus caniceps* | *Callosciurus* |
 | Gray-cheeked Flying Squirrel | *Hylopetes lepidus* | *Hylopetes* |
 | Gray-collared Chipmunk | *Neotamias cinereicollis* | *Neotamias* |
@@ -38465,7 +38221,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | White-tailed Antelope Squirrel | *Ammospermophilus leucurus* | *Ammospermophilus* |
 | White-tailed Prairie Dog | *Cynomys leucurus* | *Cynomys* |
 | Whitish Dwarf Squirrel | *Prosciurillus leucomus* | *Prosciurillus* |
-| Woodchuck | *Marmota monax* | *Marmota* |
 | Woolly Flying Squirrel | *Eupetaurus cinereus* | *Eupetaurus* |
 | Wyoming Ground Squirrel | *Urocitellus elegans* | *Urocitellus* |
 | Yellow Ground Squirrel | *Spermophilus fulvus* | *Spermophilus* |
@@ -38553,7 +38308,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Sirenia</b> — 6 Species</summary>
+<summary>🟥 <b>Order: Sirenia</b> — 5 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Dugongidae</b> — 2 Species</summary>
@@ -38565,14 +38320,13 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Trichechidae</b> — 4 Species</summary>
+<summary>🟧 <b>Family: Trichechidae</b> — 3 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | African Manatee | *Trichechus senegalensis* | *Trichechus* |
 | Amazon Manatee | *Trichechus inunguis* | *Trichechus* |
 | Manatee | *Trichechus manatus* | *Trichechus* |
-| West Indian Manatee | *Trichechus manatus* | *Trichechus* |
 
 </details>
 
@@ -38628,16 +38382,16 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟦 <b>Phylum: Cnidaria (Jellyfishes, Corals & Anemones)</b> — 69 Species</summary>
+<summary>🟦 <b>Phylum: Cnidaria (Jellyfishes, Corals & Anemones)</b> — 64 Species</summary>
 
 <details>
-<summary>🟪 <b>Class: Anthozoa</b> — 48 Species</summary>
+<summary>🟪 <b>Class: Anthozoa</b> — 47 Species</summary>
 
 <details>
-<summary>🟥 <b>Order: Actiniaria</b> — 15 Species</summary>
+<summary>🟥 <b>Order: Actiniaria</b> — 14 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Actiniidae</b> — 9 Species</summary>
+<summary>🟧 <b>Family: Actiniidae</b> — 8 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -38647,7 +38401,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Clonal Anemone | *Anthopleura elegantissima* | *Anthopleura* |
 | Giant Caribbean Anemone | *Condylactis gigantea* | *Condylactis* |
 | Giant Green Anemone | *Anthopleura xanthogrammica* | *Anthopleura* |
-| Giant Green Sea Anemone | *Anthopleura xanthogrammica* | *Anthopleura* |
 | Mottled Anemone | *Urticina crassicornis* | *Urticina* |
 | Snake-locks Sea Anemone | *Anemonia sulcata* | *Anemonia* |
 
@@ -38896,7 +38649,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟪 <b>Class: Hydrozoa</b> — 9 Species</summary>
+<summary>🟪 <b>Class: Hydrozoa</b> — 8 Species</summary>
 
 <details>
 <summary>🟥 <b>Order: Anthoathecata</b> — 4 Species</summary>
@@ -38951,15 +38704,14 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Siphonophorae</b> — 2 Species</summary>
+<summary>🟥 <b>Order: Siphonophorae</b> — 1 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Physaliidae</b> — 2 Species</summary>
+<summary>🟧 <b>Family: Physaliidae</b> — 1 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Portuguese Man O War | *Physalia physalis* | *Physalia* |
-| Portuguese Man O' War | *Physalia physalis* | *Physalia* |
 
 </details>
 
@@ -38967,10 +38719,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟪 <b>Class: Scyphozoa</b> — 10 Species</summary>
+<summary>🟪 <b>Class: Scyphozoa</b> — 7 Species</summary>
 
 <details>
-<summary>🟥 <b>Order: Rhizostomeae</b> — 3 Species</summary>
+<summary>🟥 <b>Order: Rhizostomeae</b> — 2 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Cassiopeidae</b> — 1 Species</summary>
@@ -38981,25 +38733,23 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Stomolophidae</b> — 2 Species</summary>
+<summary>🟧 <b>Family: Stomolophidae</b> — 1 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Cannonball Jelly | *Stomolophus meleagris* | *Stomolophus* |
-| Cannonball Jellyfish | *Stomolophus meleagris* | *Stomolophus* |
 
 </details>
 
 </details>
 <details>
-<summary>🟥 <b>Order: Semaeostomeae</b> — 7 Species</summary>
+<summary>🟥 <b>Order: Semaeostomeae</b> — 5 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Cyaneidae</b> — 2 Species</summary>
+<summary>🟧 <b>Family: Cyaneidae</b> — 1 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| Lion's Mane Jellyfish | *Cyanea capillata* | *Cyanea* |
 | Lions Mane Jellyfish | *Cyanea capillata* | *Cyanea* |
 
 </details>
@@ -39012,14 +38762,13 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Ulmaridae</b> — 4 Species</summary>
+<summary>🟧 <b>Family: Ulmaridae</b> — 3 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Brownbanded Moon Jelly | *Aurelia limbata* | *Aurelia* |
 | Eggyolk Jelly | *Phacellophora camtschatica* | *Phacellophora* |
 | Moon Jelly | *Aurelia aurita* | *Aurelia* |
-| Moon Jellyfish | *Aurelia aurita* | *Aurelia* |
 
 </details>
 
@@ -39029,22 +38778,20 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟦 <b>Phylum: Ctenophora</b> — 3 Species</summary>
+<summary>🟦 <b>Phylum: Ctenophora</b> — 1 Species</summary>
 
 <details>
-<summary>🟪 <b>Class: Tentaculata</b> — 3 Species</summary>
+<summary>🟪 <b>Class: Tentaculata</b> — 1 Species</summary>
 
 <details>
-<summary>🟥 <b>Order: Lobata</b> — 3 Species</summary>
+<summary>🟥 <b>Order: Lobata</b> — 1 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Bolinopsidae</b> — 3 Species</summary>
+<summary>🟧 <b>Family: Bolinopsidae</b> — 1 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Sea Walnut | *Mnemiopsis leidyi* | *Mnemiopsis* |
-| Sea Walnut Comb Jelly | *Mnemiopsis leidyi* | *Mnemiopsis* |
-| Warty Comb Jelly | *Mnemiopsis leidyi* | *Mnemiopsis* |
 
 </details>
 
@@ -39054,25 +38801,23 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟦 <b>Phylum: Echinodermata (Sea Stars, Urchins & Allies)</b> — 39 Species</summary>
+<summary>🟦 <b>Phylum: Echinodermata (Sea Stars, Urchins & Allies)</b> — 36 Species</summary>
 
 <details>
-<summary>🟪 <b>Class: Asteroidea</b> — 13 Species</summary>
+<summary>🟪 <b>Class: Asteroidea</b> — 11 Species</summary>
 
 <details>
-<summary>🟥 <b>Order: Forcipulatida</b> — 8 Species</summary>
+<summary>🟥 <b>Order: Forcipulatida</b> — 6 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Asteriidae</b> — 8 Species</summary>
+<summary>🟧 <b>Family: Asteriidae</b> — 6 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Common Starfish | *Asterias rubens* | *Asterias* |
-| European Starfish | *Asterias rubens* | *Asterias* |
 | Forbes's Starfish | *Asterias forbesi* | *Asterias* |
 | Northern Pacific Seastar | *Asterias amurensis* | *Asterias* |
 | Ochre Sea Star | *Pisaster ochraceus* | *Pisaster* |
-| Purple Sea Star | *Pisaster ochraceus* | *Pisaster* |
 | Spiny Starfish | *Marthasterias glacialis* | *Marthasterias* |
 | Sunflower Sea Star | *Pycnopodia helianthoides* | *Pycnopodia* |
 
@@ -39150,7 +38895,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟪 <b>Class: Echinoidea</b> — 17 Species</summary>
+<summary>🟪 <b>Class: Echinoidea</b> — 16 Species</summary>
 
 <details>
 <summary>🟥 <b>Order: Arbacioida</b> — 2 Species</summary>
@@ -39167,7 +38912,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Camarodonta</b> — 10 Species</summary>
+<summary>🟥 <b>Order: Camarodonta</b> — 9 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Echinidae</b> — 2 Species</summary>
@@ -39179,12 +38924,11 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Echinometridae</b> — 3 Species</summary>
+<summary>🟧 <b>Family: Echinometridae</b> — 2 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Pencil Urchin | *Heterocentrotus mammillatus* | *Heterocentrotus* |
-| Red Slate Pencil Urchin | *Heterocentrotus mammillatus* | *Heterocentrotus* |
 | Rock Boring Urchin | *Echinometra lucunter* | *Echinometra* |
 
 </details>
@@ -39347,10 +39091,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟦 <b>Phylum: Mollusca (Mollusks)</b> — 275 Species</summary>
+<summary>🟦 <b>Phylum: Mollusca (Mollusks)</b> — 270 Species</summary>
 
 <details>
-<summary>🟪 <b>Class: Bivalvia (Clams & Mussels)</b> — 104 Species</summary>
+<summary>🟪 <b>Class: Bivalvia (Clams & Mussels)</b> — 103 Species</summary>
 
 <details>
 <summary>🟥 <b>Order: Adapedonta</b> — 4 Species</summary>
@@ -39589,7 +39333,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Pectinida</b> — 8 Species</summary>
+<summary>🟥 <b>Order: Pectinida</b> — 7 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Anomiidae</b> — 1 Species</summary>
@@ -39600,11 +39344,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Pectinidae</b> — 7 Species</summary>
+<summary>🟧 <b>Family: Pectinidae</b> — 6 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| Atlantic Sea Scallop | *Placopecten magellanicus* | *Placopecten* |
 | Bay Scallop | *Argopecten irradians* | *Argopecten* |
 | Japanese Scallop | *Chlamys nipponensis* | *Chlamys* |
 | Noble Scallop | *Mimachlamys nobilis* | *Mimachlamys* |
@@ -39754,7 +39497,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟪 <b>Class: Cephalopoda (Squids, Octopuses & Cuttlefishes)</b> — 49 Species</summary>
+<summary>🟪 <b>Class: Cephalopoda (Squids, Octopuses & Cuttlefishes)</b> — 47 Species</summary>
 
 <details>
 <summary>🟥 <b>Order: Myopsida</b> — 4 Species</summary>
@@ -39787,7 +39530,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Octopoda</b> — 15 Species</summary>
+<summary>🟥 <b>Order: Octopoda</b> — 14 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Eledonidae</b> — 2 Species</summary>
@@ -39807,7 +39550,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Octopodidae</b> — 12 Species</summary>
+<summary>🟧 <b>Family: Octopodidae</b> — 11 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -39820,7 +39563,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Maori Octopus | *Macroctopus maorum* | *Macroctopus* |
 | Mexican Four-eyed Octopus | *Octopus maya* | *Octopus* |
 | Mimic Octopus | *Thaumoctopus mimicus* | *Thaumoctopus* |
-| Southern Blue-ringed Octopus | *Hapalochlaena maculosa* | *Hapalochlaena* |
 | Southern Sand Octopus | *Octopus kaurna* | *Octopus* |
 | Verill's Two-spot Octopus | *Octopus bimaculatus* | *Octopus* |
 
@@ -39828,7 +39570,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Oegopsida</b> — 21 Species</summary>
+<summary>🟥 <b>Order: Oegopsida</b> — 20 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Architeuthidae</b> — 1 Species</summary>
@@ -39880,7 +39622,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Ommastrephidae</b> — 7 Species</summary>
+<summary>🟧 <b>Family: Ommastrephidae</b> — 6 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
@@ -39888,7 +39630,6 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Gould's Flying Squid | *Nototodarus gouldi* | *Nototodarus* |
 | Humboldt Squid | *Dosidicus gigas* | *Dosidicus* |
 | Japanese Flying Squid | *Todarodes pacificus* | *Todarodes* |
-| Jumbo Flying Squid | *Dosidicus gigas* | *Dosidicus* |
 | Neon Flying Squid | *Ommastrephes bartramii* | *Ommastrephes* |
 | Sloane's Squid | *Nototodarus sloanii* | *Nototodarus* |
 
@@ -39938,7 +39679,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟪 <b>Class: Gastropoda (Snails & Slugs)</b> — 119 Species</summary>
+<summary>🟪 <b>Class: Gastropoda (Snails & Slugs)</b> — 117 Species</summary>
 
 <details>
 <summary>🟥 <b>Order: Acmaeidae Allies</b> — 1 Species</summary>
@@ -40091,7 +39832,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| Common Red-stem Fig) | *Ficus variegata (in: eudicots* | *Ficus* |
+| Common Red-stem Fig | *Ficus variegata (in: eudicots* | *Ficus* |
 
 </details>
 <details>
@@ -40167,7 +39908,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Neogastropoda</b> — 23 Species</summary>
+<summary>🟥 <b>Order: Neogastropoda</b> — 22 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Buccinidae</b> — 2 Species</summary>
@@ -40179,13 +39920,12 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Conidae</b> — 8 Species</summary>
+<summary>🟧 <b>Family: Conidae</b> — 7 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Atlantic Fish-hunting Cone | *Conus ermineus* | *Conus* |
 | Circumcision Cone | *Conus circumcisus* | *Conus* |
-| Cloth-of-gold Cone | *Conus textile* | *Conus* |
 | Geography Cone | *Conus geographus* | *Conus* |
 | Magus Cone | *Conus magus* | *Conus* |
 | Striated Cone | *Conus striatus* | *Conus* |
@@ -40421,7 +40161,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Stylommatophora</b> — 20 Species</summary>
+<summary>🟥 <b>Order: Stylommatophora</b> — 19 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Achatinidae</b> — 2 Species</summary>
@@ -40467,12 +40207,11 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Helicidae</b> — 4 Species</summary>
+<summary>🟧 <b>Family: Helicidae</b> — 3 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Banded Wood Snail | *Cepaea nemoralis* | *Cepaea* |
-| Brown Garden Snail | *Cornu aspersum* | *Cornu* |
 | Garden Snail | *Cornu aspersum* | *Cornu* |
 | Roman Snail | *Helix pomatia* | *Helix* |
 
@@ -40596,13 +40335,13 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟦 <b>Phylum: Nematoda (Roundworms)</b> — 42 Species</summary>
+<summary>🟦 <b>Phylum: Nematoda (Roundworms)</b> — 41 Species</summary>
 
 <details>
-<summary>🟪 <b>Class: Chromadorea</b> — 39 Species</summary>
+<summary>🟪 <b>Class: Chromadorea</b> — 38 Species</summary>
 
 <details>
-<summary>🟥 <b>Order: Rhabditida</b> — 39 Species</summary>
+<summary>🟥 <b>Order: Rhabditida</b> — 38 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Ancylostomatidae</b> — 4 Species</summary>
@@ -40634,13 +40373,12 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Ascarididae</b> — 7 Species</summary>
+<summary>🟧 <b>Family: Ascarididae</b> — 6 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Bear Roundworm | *Baylisascaris transfuga* | *Baylisascaris* |
 | Common Roundworm | *Ascaris lumbricoides* | *Ascaris* |
-| Giant Intestinal Roundworm | *Ascaris lumbricoides* | *Ascaris* |
 | Giant Panda Roundworm | *Baylisascaris schroederi* | *Baylisascaris* |
 | Pig Roundworm | *Ascaris suum* | *Ascaris* |
 | Raccoon Roundworm | *Baylisascaris procyonis* | *Baylisascaris* |
@@ -41018,10 +40756,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟦 <b>Phylum: Porifera (Sponges)</b> — 24 Species</summary>
+<summary>🟦 <b>Phylum: Porifera (Sponges)</b> — 23 Species</summary>
 
 <details>
-<summary>🟪 <b>Class: Demospongiae</b> — 21 Species</summary>
+<summary>🟪 <b>Class: Demospongiae</b> — 20 Species</summary>
 
 <details>
 <summary>🟥 <b>Order: Agelasida</b> — 1 Species</summary>
@@ -41066,7 +40804,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟥 <b>Order: Dictyoceratida</b> — 6 Species</summary>
+<summary>🟥 <b>Order: Dictyoceratida</b> — 5 Species</summary>
 
 <details>
 <summary>🟧 <b>Family: Irciniidae</b> — 1 Species</summary>
@@ -41077,12 +40815,11 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟧 <b>Family: Spongiidae</b> — 5 Species</summary>
+<summary>🟧 <b>Family: Spongiidae</b> — 4 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
 | Bath Sponge | *Spongia officinalis* | *Spongia* |
-| Commercial Sponge | *Spongia officinalis* | *Spongia* |
 | Elephant Ear Sponge | *Spongia agaricina* | *Spongia* |
 | Horse Sponge | *Hippospongia communis* | *Hippospongia* |
 | Sheepswool Sponge | *Hippospongia lachne* | *Hippospongia* |
@@ -41845,7 +41582,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Clustered Bellflower | *Campanula glomerata* | *Campanula* |
 | Common Harebell | *Campanula rotundifolia* | *Campanula* |
 | Creeping Bellflower | *Campanula rapunculoides* | *Campanula* |
-| Fortesque Waspfish) | *Centropogon australis (in: ray-finned fishes* | *Centropogon* |
+| Fortesque Waspfish | *Centropogon australis (in: ray-finned fishes* | *Centropogon* |
 | Mountain Harebell | *Campanula lasiocarpa* | *Campanula* |
 | Nettle-leaved Bellflower | *Campanula trachelium* | *Campanula* |
 | Peach-leaved Bellflower | *Campanula persicifolia* | *Campanula* |
@@ -44020,7 +43757,7 @@ All sections are collapsed by default—click on any branch to expand and explor
 | Chinese Banyan | *Ficus microcarpa* | *Ficus* |
 | Cluster Fig | *Ficus racemosa* | *Ficus* |
 | Common Fig | *Ficus carica* | *Ficus* |
-| Common Red-stem Fig) | *Ficus variegata (in: eudicots)* | *Ficus* |
+| Common Red-stem Fig | *Ficus variegata (in: eudicots)* | *Ficus* |
 | Council-tree | *Ficus altissima* | *Ficus* |
 | Creeping Fig | *Ficus pumila* | *Ficus* |
 | Fiddle-leaf Fig | *Ficus lyrata* | *Ficus* |
@@ -44975,10 +44712,10 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟫 <b>Kingdom: Fungi</b> — 55 Species</summary>
+<summary>🟫 <b>Kingdom: Fungi</b> — 54 Species</summary>
 
 <details>
-<summary>🟦 <b>Phylum: Ascomycota (Sac Fungi & Yeasts)</b> — 30 Species</summary>
+<summary>🟦 <b>Phylum: Ascomycota (Sac Fungi & Yeasts)</b> — 29 Species</summary>
 
 <details>
 <summary>🟪 <b>Class: Dothideomycetes</b> — 7 Species</summary>
@@ -45186,17 +44923,16 @@ All sections are collapsed by default—click on any branch to expand and explor
 
 </details>
 <details>
-<summary>🟪 <b>Class: Saccharomycetes (Budding Yeasts)</b> — 2 Species</summary>
+<summary>🟪 <b>Class: Saccharomycetes (Budding Yeasts)</b> — 1 Species</summary>
 
 <details>
-<summary>🟥 <b>Order: Saccharomycetales</b> — 2 Species</summary>
+<summary>🟥 <b>Order: Saccharomycetales</b> — 1 Species</summary>
 
 <details>
-<summary>🟧 <b>Family: Saccharomycetaceae</b> — 2 Species</summary>
+<summary>🟧 <b>Family: Saccharomycetaceae</b> — 1 Species</summary>
 
 | Common Name | Scientific Name | 🟨 Genus |
 | :--- | :--- | :--- |
-| Brewer's Yeast | *Saccharomyces cerevisiae* | *Saccharomyces* |
 | Yeast | *Saccharomyces cerevisiae* | *Saccharomyces* |
 
 </details>

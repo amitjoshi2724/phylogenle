@@ -9,8 +9,10 @@ import {
     getDateForPuzzleNumber,
     getDailyTargetSpecies, 
     parseDate, 
-    formatDate 
-} from './prng.js?v=tree_order_3';
+    formatDate,
+    getAliasesForSpecies,
+    getTargetPresentationName
+} from './prng.js?v=tree_order_4';
 import { 
     recordDailyCompletion, 
     getStats, 
@@ -69,6 +71,7 @@ function bootPhylogenle() {
     let allSpecies = [];
     let speciesAliases = null;
     let targetSpecies = "";
+    let targetPresentationName = "";
     let targetData = {};
     let phylogenyTree = null;
     let currentFocus = -1;
@@ -76,6 +79,17 @@ function bootPhylogenle() {
     let guessedSet = new Set();
     let revealedHints = [];
     let isGameOver = false;
+
+    // HTML escape helper
+    function escapeHtml(str) {
+        if (!str) return '';
+        return String(str)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#039;');
+    }
 
     // Wikipedia Normalization Helper
     function getNormalizedWikiTitle(title) {
@@ -272,9 +286,13 @@ function bootPhylogenle() {
 
             if (isUnlimited) {
                 targetSpecies = allSpecies[Math.floor(Math.random() * allSpecies.length)];
+                targetPresentationName = getTargetPresentationName(targetSpecies, speciesAliases, Date.now() + "_" + Math.random().toString(36).slice(2));
             } else {
                 targetSpecies = getDailyTargetSpecies(allSpecies, currentDateStr);
+                targetPresentationName = getTargetPresentationName(targetSpecies, speciesAliases, currentDateStr);
             }
+            window.targetSpecies = targetSpecies;
+            window.targetPresentationName = targetPresentationName;
 
             // Reset round variables
             guesses = [];
@@ -343,7 +361,7 @@ function bootPhylogenle() {
                     // Keep only hints that belong to the active target species
                     const validHints = activeHints.filter(h => {
                         if (h.type === 'species') {
-                            const common = targetSpecies.split(' (')[0];
+                            const common = (targetPresentationName || targetSpecies.split(' (')[0]).trim();
                             return h.name.includes(`"${common[0]}"`);
                         }
                         return targetRanks[h.rank] && targetRanks[h.rank].name.toLowerCase() === h.name.toLowerCase();
@@ -390,7 +408,7 @@ function bootPhylogenle() {
                                 lca_name: g.lca_name,
                                 major_name: g.major_name || g.lca_name,
                                 time: g.tmrca
-                            }, g.isMatch);
+                            }, g.isMatch, g.guessedAlias);
                         } else {
                             addHintToBoard(item.data, item.hintNumber);
                         }
@@ -424,10 +442,27 @@ function bootPhylogenle() {
         const hintCount = revealedHints.length;
         const hintSuffix = hintCount > 0 ? ` (${hintCount} hint${hintCount === 1 ? '' : 's'})` : '';
 
+        const finishedTarget = record.targetSpecies || targetSpecies;
+        const canonicalCommon = finishedTarget.split(' (')[0];
+        const allAliases = getAliasesForSpecies(finishedTarget, speciesAliases);
+        const presName = getTargetPresentationName(finishedTarget, speciesAliases, currentDateStr);
+
+        let aliasInfoHtml = '';
+        if (presName && presName.toLowerCase() !== canonicalCommon.toLowerCase()) {
+            aliasInfoHtml += `<div style="font-size: 0.85rem; color: #a5b4fc; margin-top: 4px;">Featured round presentation name: <strong>${escapeHtml(presName)}</strong></div>`;
+        }
+        if (allAliases && allAliases.length > 0) {
+            const otherAliases = allAliases.filter(a => a.toLowerCase() !== presName.toLowerCase());
+            if (otherAliases.length > 0) {
+                aliasInfoHtml += `<div style="font-size: 0.8rem; opacity: 0.85; color: var(--text-secondary); margin-top: 2px;">Also known as: <em>${escapeHtml(otherAliases.join(', '))}</em></div>`;
+            }
+        }
+
         endTitle.textContent = record.solved ? "You found it! ⭐" : "Organism Revealed";
         endTitle.style.color = record.solved ? "var(--success-color)" : "var(--danger-color)";
-        endMessage.innerHTML = `The organism was <strong>${record.targetSpecies || targetSpecies}</strong>.<br>` +
-            `<span style="font-size: 0.9rem; color: var(--text-secondary);">${record.solved ? `Solved in ${record.guessCount} guess${record.guessCount === 1 ? '' : 'es'}${hintSuffix}!` : 'Gave up.'}</span>`;
+        endMessage.innerHTML = `The organism was <strong>${finishedTarget}</strong>.<br>` +
+            aliasInfoHtml +
+            `<span style="font-size: 0.9rem; color: var(--text-secondary); display: inline-block; margin-top: 6px;">${record.solved ? `Solved in ${record.guessCount} guess${record.guessCount === 1 ? '' : 'es'}${hintSuffix}!` : 'Gave up.'}</span>`;
 
         const endEmojisRow = document.getElementById('end-emojis-row');
         if (endEmojisRow && record.guesses && record.guesses.length > 0) {
@@ -474,7 +509,7 @@ function bootPhylogenle() {
                         lca_name: g.lca_name,
                         major_name: g.major_name || g.lca_name,
                         time: g.tmrca
-                    }, g.isMatch);
+                    }, g.isMatch, g.guessedAlias);
                 } else {
                     addHintToBoard(item.data, item.hintNumber);
                 }
@@ -521,8 +556,9 @@ function bootPhylogenle() {
         for (let i = 0; i < nextBatch.length; i++) {
             const item = nextBatch[i];
             const species = typeof item === 'string' ? item : item.species;
-            const aliasTag = (typeof item === 'object' && item.matchedAlias)
-                ? ` <span class="alias-tag" style="opacity: 0.75; font-size: 0.85em; font-style: italic; color: #a5b4fc;">(aka ${item.matchedAlias})</span>`
+            const matchedAlias = (typeof item === 'object' && item.matchedAlias) ? item.matchedAlias : '';
+            const aliasTag = matchedAlias
+                ? ` <span class="alias-tag" style="opacity: 0.75; font-size: 0.85em; font-style: italic; color: #a5b4fc;">(aka ${escapeHtml(matchedAlias)})</span>`
                 : '';
             let displayHtml = species;
             if (val) {
@@ -533,10 +569,11 @@ function bootPhylogenle() {
             }
             displayHtml += aliasTag;
 
+            const aliasAttr = matchedAlias ? ` data-alias="${escapeHtml(matchedAlias)}"` : '';
             if (guessedSet.has(species.toLowerCase())) {
-                batchHTML += `<li class="autocomplete-item guessed-item" style="opacity: 0.45; pointer-events: none; cursor: default;" data-value="${species}">${displayHtml} (Already Guessed)</li>`;
+                batchHTML += `<li class="autocomplete-item guessed-item" style="opacity: 0.45; pointer-events: none; cursor: default;" data-value="${escapeHtml(species)}"${aliasAttr}>${displayHtml} (Already Guessed)</li>`;
             } else {
-                batchHTML += `<li class="autocomplete-item" data-value="${species}">${displayHtml}</li>`;
+                batchHTML += `<li class="autocomplete-item" data-value="${escapeHtml(species)}"${aliasAttr}>${displayHtml}</li>`;
             }
         }
 
@@ -647,6 +684,12 @@ function bootPhylogenle() {
         if (item && !item.classList.contains('guessed-item')) {
             e.preventDefault();
             animalInput.value = item.getAttribute('data-value');
+            const aliasAttr = item.getAttribute('data-alias');
+            if (aliasAttr) {
+                animalInput.dataset.matchedAlias = aliasAttr;
+            } else {
+                delete animalInput.dataset.matchedAlias;
+            }
             closeDropdown();
             handleGuess();
         }
@@ -692,8 +735,14 @@ function bootPhylogenle() {
             e.preventDefault();
             if (currentFocus > -1 && x && x[currentFocus]) {
                 const val = x[currentFocus].getAttribute('data-value');
+                const aliasAttr = x[currentFocus].getAttribute('data-alias');
                 if (val) {
                     animalInput.value = val;
+                    if (aliasAttr) {
+                        animalInput.dataset.matchedAlias = aliasAttr;
+                    } else {
+                        delete animalInput.dataset.matchedAlias;
+                    }
                     closeDropdown();
                     handleGuess();
                 }
@@ -789,11 +838,17 @@ function bootPhylogenle() {
         const guess = animalInput.value.trim();
         if (!guess) return;
 
+        let guessedAlias = animalInput.dataset.matchedAlias || null;
+        delete animalInput.dataset.matchedAlias;
+
         let validGuess = allSpecies.find(s => s.toLowerCase() === guess.toLowerCase());
         if (!validGuess && speciesAliases) {
             const aliasMatch = speciesAliases[guess.toLowerCase()];
             if (aliasMatch) {
                 validGuess = allSpecies.find(s => s.toLowerCase() === aliasMatch.toLowerCase());
+                if (validGuess && !guessedAlias) {
+                    guessedAlias = guess;
+                }
             }
         }
         if (!validGuess) {
@@ -812,7 +867,10 @@ function bootPhylogenle() {
             for (const [alias, canonical] of Object.entries(speciesAliases)) {
                 if (alias.startsWith(g)) {
                     validGuess = allSpecies.find(s => s.toLowerCase() === canonical.toLowerCase());
-                    if (validGuess) break;
+                    if (validGuess) {
+                        if (!guessedAlias) guessedAlias = alias;
+                        break;
+                    }
                 }
             }
         }
@@ -824,6 +882,18 @@ function bootPhylogenle() {
         if (!validGuess) {
             alert("Please select a recognized organism from the list.");
             return;
+        }
+
+        // Clean & format guessedAlias
+        if (guessedAlias) {
+            const canonicalCommon = validGuess.split(' (')[0].toLowerCase();
+            if (guessedAlias.toLowerCase() === canonicalCommon || guessedAlias.toLowerCase() === validGuess.toLowerCase()) {
+                guessedAlias = null;
+            } else {
+                guessedAlias = guessedAlias.split(' ')
+                    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+                    .join(' ');
+            }
         }
 
         const guessKey = validGuess.toLowerCase();
@@ -847,6 +917,7 @@ function bootPhylogenle() {
         const guessObj = {
             name: validGuess,
             wikiTitle: wikiTitle,
+            guessedAlias: guessedAlias || null,
             lca_rank: data.rank,
             lca_name: data.lca_name || data.rank,
             major_name: data.major_name || data.lca_name || data.rank,
@@ -859,7 +930,7 @@ function bootPhylogenle() {
 
         guesses.push(guessObj);
         if (targetAlertContainer) targetAlertContainer.innerHTML = '';
-        addGuessToBoard(validGuess, wikiTitle, data, isMatch);
+        addGuessToBoard(validGuess, wikiTitle, data, isMatch, guessedAlias);
         updateTree();
 
         // Save active progress if daily
@@ -871,6 +942,19 @@ function bootPhylogenle() {
         closeDropdown();
 
         if (isMatch) {
+            if (targetAlertContainer && guessedAlias) {
+                const canonicalCommon = targetSpecies.split(' (')[0];
+                const latinMatch = targetSpecies.match(/\((.*?)\)/);
+                const canonicalLatin = latinMatch ? latinMatch[1] : '';
+                targetAlertContainer.innerHTML = `
+                    <div class="alias-success-banner" style="background: rgba(34, 197, 94, 0.15); border: 1px solid rgba(34, 197, 94, 0.4); border-radius: 8px; padding: 10px 14px; margin-bottom: 12px; display: flex; align-items: center; gap: 10px; font-size: 0.95rem; color: #86efac; animation: fadeIn 0.3s ease;">
+                        <span style="font-size: 1.3rem;">🌟</span>
+                        <div>
+                            <strong>Correct!</strong> You guessed <strong>${escapeHtml(guessedAlias)}</strong>, which is an accepted alias of <strong>${escapeHtml(canonicalCommon)}</strong> <em>(${escapeHtml(canonicalLatin)})</em>.
+                        </div>
+                    </div>
+                `;
+            }
             finishGame(true);
         }
     }
@@ -947,7 +1031,7 @@ function bootPhylogenle() {
 
         // 4. If all 6 ranks are matched or hinted, provide a species clue
         if (!hintedRanks.has('Species')) {
-            const common = targetSpecies.split(' (')[0];
+            const common = (targetPresentationName || targetSpecies.split(' (')[0]).trim();
             const latinMatch = targetSpecies.match(/\((.*?)\)/);
             const latin = latinMatch ? latinMatch[1] : common;
             return {
@@ -1158,7 +1242,7 @@ function bootPhylogenle() {
         };
     }
 
-    function addGuessToBoard(guessName, wikiTitle, data, isMatch) {
+    function addGuessToBoard(guessName, wikiTitle, data, isMatch, guessedAlias = null) {
         const closeness = getClosenessInfo(data, isMatch);
         const row = document.createElement('div');
         row.className = `guess-row ${closeness.cssClass}`;
@@ -1180,9 +1264,15 @@ function bootPhylogenle() {
         // Primary: Unicode square emoji; Fallback: CSS rank-square-icon
         const iconHtml = closeness.emoji || `<span class="rank-square-icon ${closeness.squareClass}"></span>`;
 
+        let aliasBadgeHtml = '';
+        if (guessedAlias) {
+            aliasBadgeHtml = `<span class="guess-alias-badge" style="display: block; font-size: 0.8rem; opacity: 0.82; color: #a5b4fc; margin-top: 2px;">(guessed as "${escapeHtml(guessedAlias)}")</span>`;
+        }
+
         row.innerHTML = `
             <div class="guess-header">
                 <span class="guess-name ${matchClass} taxa-link">${guessName}</span>
+                ${aliasBadgeHtml}
             </div>
             <div class="guess-subrow">
                 <span class="closeness-pill ${closeness.cssClass}" title="${closeness.label}">
@@ -1216,9 +1306,16 @@ function bootPhylogenle() {
         const wikiTitle = latinMatch ? latinMatch[1] : commonName;
         const row = document.createElement('div');
         row.className = 'guess-row closeness-surrender';
+
+        let aliasBadgeHtml = '';
+        if (targetPresentationName && targetPresentationName.toLowerCase() !== commonName.toLowerCase()) {
+            aliasBadgeHtml = `<span class="guess-alias-badge" style="display: block; font-size: 0.8rem; opacity: 0.82; color: #a5b4fc; margin-top: 2px;">(Featured as "${escapeHtml(targetPresentationName)}")</span>`;
+        }
+
         row.innerHTML = `
             <div class="guess-header">
                 <span class="guess-name match-exact taxa-link">${species}</span>
+                ${aliasBadgeHtml}
             </div>
             <div class="guess-subrow">
                 <span class="closeness-pill closeness-surrender" title="Organism Revealed">
@@ -1282,8 +1379,24 @@ function bootPhylogenle() {
         endTitle.style.color = win ? "var(--success-color)" : "#f87171";
         const hintCount = revealedHints.length;
         const hintSuffix = hintCount > 0 ? ` (${hintCount} hint${hintCount === 1 ? '' : 's'})` : '';
+
+        const canonicalCommon = targetSpecies.split(' (')[0];
+        const allAliases = getAliasesForSpecies(targetSpecies, speciesAliases);
+
+        let aliasInfoHtml = '';
+        if (targetPresentationName && targetPresentationName.toLowerCase() !== canonicalCommon.toLowerCase()) {
+            aliasInfoHtml += `<div style="font-size: 0.85rem; color: #a5b4fc; margin-top: 4px;">Featured round presentation name: <strong>${escapeHtml(targetPresentationName)}</strong></div>`;
+        }
+        if (allAliases && allAliases.length > 0) {
+            const otherAliases = allAliases.filter(a => a.toLowerCase() !== targetPresentationName.toLowerCase());
+            if (otherAliases.length > 0) {
+                aliasInfoHtml += `<div style="font-size: 0.8rem; opacity: 0.85; color: var(--text-secondary); margin-top: 2px;">Also known as: <em>${escapeHtml(otherAliases.join(', '))}</em></div>`;
+            }
+        }
+
         endMessage.innerHTML = `The organism was <strong>${targetSpecies}</strong>.<br>` +
-            `<span style="font-size: 0.9rem; color: var(--text-secondary);">${win ? `Solved in ${guesses.length} guess${guesses.length === 1 ? '' : 'es'}${hintSuffix}!` : 'Surrendered & revealed.'}</span>`;
+            aliasInfoHtml +
+            `<span style="font-size: 0.9rem; color: var(--text-secondary); display: inline-block; margin-top: 6px;">${win ? `Solved in ${guesses.length} guess${guesses.length === 1 ? '' : 'es'}${hintSuffix}!` : 'Surrendered & revealed.'}</span>`;
 
         if (!win) {
             addSurrenderRow(targetSpecies);
