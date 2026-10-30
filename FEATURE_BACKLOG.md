@@ -14,6 +14,8 @@
   - **Batch Versioning (`batch_id`):** Group organisms into date-bounded pools (e.g., `Batch 1` active from launch through `2026-10-31`; `Batch 2` unlocked starting `2026-11-01`).
   - **Date-Gated Selection:** When computing the daily puzzle for date $D$, the PRNG only selects candidates from batches where $\text{release\_date} \le D$.
   - **Universal Catalog Sync:** While the PRNG target selection is date-bounded, the master catalog, autocomplete search, and guess evaluation remain universal and always up-to-date.
+- **💬 Amit's Raw Notes:**
+  - *(Drop quick thoughts, quirks, or ideas for this item here)*
 
 ---
 
@@ -26,6 +28,8 @@
     - Player's Google Profile Picture (PFP).
     - Or an avatar emoji of their choosing (presenting animal and plant emojis as primary suggestions: 🦁, 🐬, 🦉, 🌿, 🍄, 🐙, 🦊, 🐢).
   - **Live Guess Feed:** Each guess appears in real-time labeled with the player's name and avatar, updating the phylogenetic tree cooperatively.
+- **💬 Amit's Raw Notes:**
+  - *(Drop quick thoughts, quirks, or ideas for this item here)*
 
 ---
 
@@ -35,6 +39,8 @@
   - **Target Selection:** Search and choose any organism from the catalog—either a specific species (*Peregrine Falcon*, *Atlantic Sand Fiddler Crab*) or a common umbrella taxon (*Barn Owl*, *Fiddler Crab*, *Electric Eel*).
   - **Secure Link Encoding:** Encode the target ID in the URL hash or query string (e.g., `?custom=...`) using lightweight encryption/obfuscation so inspecting the URL does not spoil the answer.
   - **Custom Gameplay Screen:** Displays "Custom Puzzle by [Friend]" with standard divergence feedback and a customized victory share banner.
+- **💬 Amit's Raw Notes:**
+  - *(Drop quick thoughts, quirks, or ideas for this item here)*
 
 ---
 
@@ -43,6 +49,8 @@
 - **Design Directives:**
   - Retain the iconic DNA double-helix theme (`🧬`), but fuse it with phylogenetic tree branching / cladogram nodes.
   - Deliver clean, responsive SVG assets for both light and dark backgrounds, browser favicon, and OpenGraph social preview cards.
+- **💬 Amit's Raw Notes:**
+  - *(Drop quick thoughts, quirks, or ideas for this item here)*
 
 ---
 
@@ -53,6 +61,8 @@
   - Victory and Game Over celebration banners.
   - Clade category badges (e.g. 🦁 Mammals, 🦅 Birds, 🌿 Plants, 🍄 Fungi, 🦠 Microbes).
   - Interactive tree divergence cards and autocomplete hints.
+- **💬 Amit's Raw Notes:**
+  - *(Drop quick thoughts, quirks, or ideas for this item here)*
 
 ---
 
@@ -63,3 +73,17 @@
   - Was it excluded from ranked difficulty tiers because $S_{\text{wiki}} \le 1$ or $V_{\text{wiki}} \le 1$?
   - Does it need an alias mapped in `data/species_aliases.json` (e.g. colloquial or regional common names)?
   - Does it represent an umbrella group that needs an explicit higher-level taxon node in `data/phylogeny_tree.json`?
+- **💬 Amit's Raw Notes:**
+  - *(Drop quick thoughts, quirks, or ideas for this item here)*
+
+---
+
+## 🧠 Amit's Scratchpad & Brain Dump (Raw / Unformatted Notes)
+
+> 💡 **No Rules / No Formatting Required:**  
+> Use this section as your personal scratchpad. Ramble, paste links, dump half-baked thoughts, list random animals to check, or vent about anything here. The assistant will always read this section to understand your thoughts without you having to clean it up or format it!
+
+<!-- 👇 DROP YOUR RAW RAMBLINGS / BRAIN DUMPS BELOW THIS LINE 👇 -->
+
+
+
