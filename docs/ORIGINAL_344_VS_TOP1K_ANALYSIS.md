@@ -1,128 +1,149 @@
 # 🧬 Analysis: Original 344 Species vs. Top 1,000 Vwiki Rankings
 
-> **Analysis Date:** 2026-10-29  
+> **Analysis Date:** 2026-10-30  
 > **Dataset:** `species_ranking_by_vwiki.csv` (empirical Wikimedia pageviews)  
 > **Baseline:** 344 Original Untouched Organisms  
 
 ## 1. Executive Summary
 
 ### Comparison by Evaluation Mode:
-- **Option 3 Gameplay Perspective (Live in Game):** **318 / 344 (92.4%)** in Top 1,000
+- **Option 3 Gameplay Perspective (Live in Game):** **327 / 344 (95.1%)** in Top 1,000
 - **Strict Species-Only Perspective:** **241 / 344 (70.1%)** in Top 1,000
 
 ### Option 3 Tier Distribution:
-- **Inside Top 1,000 (🐾 Easy Tier):** **318 / 344 (92.4%)**
-- **Inside Top 2,000 (🌿 Normal Tier):** **340 / 344 (98.8%)**
+- **Inside Top 1,000 (🐾 Easy Tier):** **327 / 344 (95.1%)**
+- **Inside Top 2,000 (🌿 Normal Tier):** **344 / 344 (100.0%)**
 - **Inside Top 5,000 (🔬 Advanced Tier):** **344 / 344 (100.0%)**
 - **Master Tier Only (> 5,000):** **0 / 344 (0.0%)**
-- **Median Rank:** **#303**
+- **Median Rank:** **#298**
 
 ## 2. Option 3 Recognizable Taxa & Genuses Impact
 
-The 100 iconic baseline organisms where the English Wikipedia article covers the Genus, Suborder, Family, or Order:
+The 121 iconic baseline organisms where the English Wikipedia article covers the Genus, Suborder, Family, or Order:
 
 | Common Name | Taxonomic Level | Species Binomial | Species Rank | Option 3 Taxon | Taxon Rank | Rank Gain | Taxon Views |
 | :--- | :--- | :--- | :---: | :--- | :---: | :---: | :---: |
-| **Caecilian** | Order | *Gymnopis multiplicata* | #17,413 | *Gymnophiona* | **#644** | +16,769 | 348,203 |
-| **Tardigrade** | Phylum | *Hypsibius exemplaris* | #7,459 | *Tardigrada* | **#26** | +7,433 | 2,247,127 |
-| **Planarian** | Order | *Schmidtea mediterranea* | #7,303 | *Tricladida* | **#805** | +6,498 | 274,316 |
-| **Slug** | Family | *Deroceras reticulatum* | #5,571 | *Agriolimacidae* | **#457** | +5,114 | 492,072 |
-| **Sea Cucumber** | Class | *Holothuria atra* | #5,310 | *Holothuroidea* | **#331** | +4,979 | 635,717 |
-| **Sea Anemone** | Order | *Actinia equina* | #4,896 | *Actiniaria* | **#374** | +4,522 | 570,737 |
-| **Seahorse** | Genus | *Hippocampus kuda* | #4,497 | *Hippocampus* | **#213** | +4,284 | 880,481 |
-| **Squid** | Class | *Loligo vulgaris* | #3,978 | *Decapodiformes* | **#268** | +3,710 | 768,194 |
-| **Poison Dart Frog** | Family | *Dendrobates tinctorius* | #3,900 | *Dendrobatidae* | **#320** | +3,580 | 649,580 |
-| **Blue-ringed octopus** | Genus | *Hapalochlaena maculosa* | #3,679 | *Hapalochlaena* | **#104** | +3,575 | 1,274,892 |
-| **Mosquito** | Family | *Anopheles gambiae* | #3,509 | *Culicidae* | **#111** | +3,398 | 1,259,066 |
-| **Dragonfly** | Order | *Anax imperator* | #3,462 | *Anisoptera* | **#159** | +3,303 | 1,048,873 |
-| **Stingray** | Order | *Dasyatis pastinaca* | #3,521 | *Myliobatiformes* | **#264** | +3,257 | 779,248 |
-| **Starfish** | Class | *Asterias rubens* | #3,453 | *Asteroidea* | **#254** | +3,199 | 801,295 |
-| **Slow Loris** | Genus | *Nycticebus coucang* | #3,674 | *Nycticebus* | **#496** | +3,178 | 454,277 |
-| **Chameleon** | Family | *Chamaeleo chamaeleon* | #3,418 | *Chamaeleonidae* | **#243** | +3,175 | 819,924 |
-| **Cicada** | Family | *Magicicada septendecim* | #3,200 | *Cicadidae* | **#70** | +3,130 | 1,523,445 |
-| **Chinchilla** | Genus | *Chinchilla lanigera* | #3,299 | *Chinchilla* | **#222** | +3,077 | 861,228 |
-| **Sea Urchin** | Class | *Strongylocentrotus purpuratus* | #3,079 | *Echinoidea* | **#228** | +2,851 | 858,627 |
-| **Kiwi** | Genus | *Apteryx mantelli* | #2,835 | *Apteryx* | **#126** | +2,709 | 1,178,121 |
-| **Tree Kangaroo** | Genus | *Dendrolagus matschiei* | #3,395 | *Dendrolagus* | **#748** | +2,647 | 300,140 |
-| **Sponge** | Phylum | *Aplysina fistularis* | #2,815 | *Porifera* | **#251** | +2,564 | 806,240 |
-| **Tarantula** | Family | *Brachypelma hamorii* | #2,673 | *Theraphosidae* | **#191** | +2,482 | 934,100 |
-| **Howler Monkey** | Genus | *Alouatta palliata* | #3,161 | *Alouatta* | **#921** | +2,240 | 241,829 |
-| **Oyster** | Family | *Crassostrea gigas* | #2,524 | *Ostreidae* | **#290** | +2,234 | 722,272 |
-| **Sloth** | Suborder | *Bradypus tridactylus* | #2,178 | *Folivora* | **#134** | +2,044 | 1,142,165 |
-| **Moray Eel** | Family | *Gymnothorax javanicus* | #2,494 | *Muraenidae* | **#459** | +2,035 | 491,708 |
-| **Cuttlefish** | Order | *Sepia officinalis* | #2,176 | *Sepiida* | **#175** | +2,001 | 982,814 |
-| **Newt** | Subfamily | *Lissotriton vulgaris* | #2,461 | *Pleurodelinae* | **#485** | +1,976 | 465,343 |
-| **Spider Monkey** | Genus | *Ateles geoffroyi* | #2,467 | *Ateles* | **#542** | +1,925 | 415,780 |
-| **Giraffe** | Genus | *Giraffa camelopardalis* | #1,975 | *Giraffa* | **#56** | +1,919 | 1,725,569 |
-| **Lionfish** | Genus | *Pterois volitans* | #2,167 | *Pterois* | **#275** | +1,892 | 741,145 |
-| **Wombat** | Family | *Vombatus ursinus* | #1,976 | *Vombatidae* | **#121** | +1,855 | 1,220,950 |
-| **Millipede** | Class | *Archispirostreptus gigas* | #2,171 | *Diplopoda* | **#347** | +1,824 | 609,716 |
-| **Bumblebee** | Genus | *Bombus terrestris* | #1,848 | *Bombus* | **#155** | +1,693 | 1,057,674 |
-| **Coelacanth** | Genus | *Latimeria chalumnae* | #1,791 | *Latimeria* | **#107** | +1,684 | 1,271,248 |
-| **Wasp** | Family | *Vespula vulgaris* | #1,893 | *Vespidae* | **#210** | +1,683 | 886,747 |
-| **Frog** | Order | *Rana temporaria* | #1,617 | *Anura* | **#35** | +1,582 | 2,048,190 |
-| **Barracuda** | Genus | *Sphyraena barracuda* | #1,818 | *Sphyraena* | **#282** | +1,536 | 733,646 |
-| **Mole** | Family | *Talpa europaea* | #1,790 | *Talpidae* | **#258** | +1,532 | 796,859 |
-| **Prairie Dog** | Genus | *Cynomys ludovicianus* | #1,749 | *Cynomys* | **#314** | +1,435 | 663,084 |
-| **Nautilus** | Family | *Nautilus pompilius* | #1,615 | *Nautilidae* | **#229** | +1,386 | 858,051 |
-| **Snail** | Class | *Helix pomatia* | #1,669 | *Gastropoda* | **#308** | +1,361 | 680,730 |
-| **Gibbon** | Genus | *Hylobates lar* | #1,695 | *Hylobates* | **#340** | +1,355 | 620,243 |
-| **Swallowtail Butterfly** | Family | *Papilio machaon* | #1,690 | *Papilionidae* | **#442** | +1,248 | 504,382 |
-| **Swan** | Genus | *Cygnus cygnus* | #1,429 | *Cygnus* | **#182** | +1,247 | 969,709 |
-| **Scorpion** | Order | *Pandinus imperator* | #1,372 | *Scorpiones* | **#137** | +1,235 | 1,128,831 |
-| **Horseshoe Crab** | Family | *Limulus polyphemus* | #1,342 | *Limulidae* | **#108** | +1,234 | 1,263,466 |
-| **Baboon** | Genus | *Papio anubis* | #1,467 | *Papio* | **#297** | +1,170 | 708,763 |
-| **Catfish** | Order | *Ictalurus punctatus* | #1,296 | *Siluriformes* | **#164** | +1,132 | 1,013,202 |
-| **Earthworm** | Order | *Lumbricus terrestris* | #1,449 | *Lumbricina* | **#337** | +1,112 | 625,973 |
-| **Hummingbird** | Family | *Archilochus colubris* | #1,221 | *Trochilidae* | **#114** | +1,107 | 1,250,040 |
-| **Octopus** | Order | *Octopus vulgaris* | #1,146 | *Octopoda* | **#47** | +1,099 | 1,825,040 |
-| **Stag Beetle** | Family | *Lucanus cervus* | #1,852 | *Lucanidae* | **#754** | +1,098 | 297,542 |
-| **Kangaroo** | Genus | *Macropus giganteus* | #1,079 | *Macropus* | **#30** | +1,049 | 2,122,501 |
-| **Piranha** | Family | *Pygocentrus nattereri* | #1,335 | *Serrasalmidae* | **#289** | +1,046 | 724,648 |
-| **Clam** | Class | *Mercenaria mercenaria* | #1,552 | *Bivalvia* | **#533** | +1,019 | 423,910 |
-| **Hedgehog** | Subfamily | *Erinaceus europaeus* | #1,141 | *Erinaceinae* | **#124** | +1,017 | 1,198,254 |
-| **Anglerfish** | Order | *Melanocetus johnsonii* | #1,085 | *Lophiiformes* | **#73** | +1,012 | 1,486,903 |
-| **Clownfish** | Genus | *Amphiprion ocellaris* | #1,292 | *Amphiprion* | **#333** | +959 | 632,287 |
-| **Box Jellyfish** | Class | *Chironex fleckeri* | #1,182 | *Cubozoa* | **#261** | +921 | 785,893 |
-| **Salamander** | Order | *Salamandra salamandra* | #1,133 | *Caudata* | **#221** | +912 | 862,097 |
-| **Mantis** | Order | *Mantis religiosa* | #1,058 | *Mantodea* | **#150** | +908 | 1,068,871 |
-| **Mantis Shrimp** | Order | *Odontodactylus scyllarus* | #1,046 | *Stomatopoda* | **#147** | +899 | 1,082,717 |
-| **Porpoise** | Family | *Phocoena phocoena* | #1,298 | *Phocoenidae* | **#411** | +887 | 533,615 |
-| **Tarsier** | Family | *Carlito syrichta* | #1,290 | *Tarsiidae* | **#426** | +864 | 516,739 |
-| **Prawn** | Order | *Penaeus monodon* | #1,396 | *Dendrobranchiata* | **#534** | +862 | 423,794 |
-| **Vampire Bat** | Genus | *Desmodus rotundus* | #1,341 | *Desmodus* | **#489** | +852 | 463,852 |
-| **Lobster** | Family | *Homarus americanus* | #1,060 | *Nephropidae* | **#208** | +852 | 894,673 |
-| **Pelican** | Genus | *Pelecanus occidentalis* | #1,170 | *Pelecanus* | **#355** | +815 | 599,242 |
-| **Goose** | Genus | *Anser anser* | #1,075 | *Anser* | **#293** | +782 | 713,460 |
-| **Porcupine** | Genus | *Erethizon dorsatum* | #952 | *Erethizon* | **#192** | +760 | 932,169 |
-| **Manatee** | Genus | *Trichechus manatus* | #901 | *Trichechus* | **#146** | +755 | 1,092,463 |
-| **Arapaima** | Genus | *Arapaima gigas* | #1,099 | *Arapaima* | **#351** | +748 | 603,950 |
-| **Cormorant** | Family | *Phalacrocorax carbo* | #1,034 | *Phalacrocoracidae* | **#303** | +731 | 691,354 |
-| **Hare** | Genus | *Lepus europaeus* | #959 | *Lepus* | **#238** | +721 | 836,738 |
-| **Bottlenose Dolphin** | Genus | *Tursiops truncatus* | #1,233 | *Tursiops* | **#578** | +655 | 385,941 |
-| **Toad** | Family | *Bufo bufo* | #1,313 | *Bufonidae* | **#672** | +641 | 334,481 |
-| **Gorilla** | Genus | *Gorilla gorilla* | #654 | *Gorilla* | **#29** | +625 | 2,145,135 |
-| **Seal** | Clade | *Phoca vitulina* | #691 | *Pinnipedia* | **#103** | +588 | 1,280,030 |
-| **Orangutan** | Genus | *Pongo pygmaeus* | #633 | *Pongo* | **#69** | +564 | 1,532,594 |
-| **Fire Ant** | Genus | *Solenopsis invicta* | #1,092 | *Solenopsis* | **#565** | +527 | 396,096 |
-| **Warthog** | Genus | *Phacochoerus africanus* | #1,093 | *Phacochoerus* | **#577** | +516 | 386,768 |
-| **Beaver** | Genus | *Castor canadensis* | #583 | *Castor* | **#90** | +493 | 1,368,835 |
-| **Turkey** | Genus | *Meleagris gallopavo* | #446 | *Meleagris* | **#2** | +444 | 9,145,211 |
-| **Opossum** | Family | *Didelphis virginiana* | #465 | *Didelphidae* | **#37** | +428 | 1,990,819 |
-| **Rabbit** | Genus | *Oryctolagus cuniculus* | #432 | *Oryctolagus* | **#41** | +391 | 1,948,854 |
-| **Elephant** | Family | *Loxodonta africana* | #286 | *Elephantidae* | **#15** | +271 | 2,715,467 |
-| **Ostrich** | Genus | *Struthio camelus* | #415 | *Struthio* | **#232** | +183 | 853,421 |
-| **Black Rhinoceros** | Genus | *Diceros bicornis* | #453 | *Diceros* | **#451** | +2 | 497,789 |
-| **African Buffalo** | Genus | *Syncerus caffer* | #345 | *Syncerus* | **#343** | +2 | 612,682 |
-| **King Cobra** | Genus | *Ophiophagus hannah* | #84 | *Ophiophagus* | **#83** | +1 | 1,425,097 |
-| **Python** | Genus | *Python regius* | #390 | *Python* | **#1,107** | -717 | 194,740 |
-| **Python** | Genus | *Python bivittatus* | #375 | *Python* | **#1,107** | -732 | 194,740 |
-| **Rat** | Genus | *Rattus norvegicus* | #387 | *Rattus* | **#1,259** | -872 | 168,949 |
-| **Tree Squirrel** | Genus | *Sciurus carolinensis* | #450 | *Sciurus* | **#2,278** | -1,828 | 84,432 |
-| **Tree Squirrel** | Genus | *Sciurus vulgaris* | #245 | *Sciurus* | **#2,278** | -2,033 | 84,432 |
-| **Mouse** | Genus | *Mus musculus* | #416 | *Mus* | **#2,508** | -2,092 | 74,881 |
-| **River Otter** | Genus | *Lontra canadensis* | #556 | *Lontra* | **#2,756** | -2,200 | 64,770 |
-| **Long-nosed Armadillo** | Genus | *Dasypus novemcinctus* | #802 | *Dasypus* | **#3,011** | -2,209 | 57,271 |
+| **Caecilian** | Order | *Gymnopis multiplicata* | #17,433 | *Gymnophiona* | **#659** | +16,774 | 348,203 |
+| **Tardigrade** | Phylum | *Hypsibius exemplaris* | #7,479 | *Tardigrada* | **#28** | +7,451 | 2,247,127 |
+| **Planarian** | Order | *Schmidtea mediterranea* | #7,323 | *Tricladida* | **#820** | +6,503 | 274,316 |
+| **Slug** | Family | *Deroceras reticulatum* | #5,591 | *Agriolimacidae* | **#469** | +5,122 | 492,072 |
+| **Sea Cucumber** | Class | *Holothuria atra* | #5,330 | *Holothuroidea* | **#340** | +4,990 | 635,717 |
+| **Sea Anemone** | Order | *Actinia equina* | #4,916 | *Actiniaria* | **#385** | +4,531 | 570,737 |
+| **Seahorse** | Genus | *Hippocampus kuda* | #4,517 | *Hippocampus* | **#222** | +4,295 | 880,481 |
+| **Pufferfish** | Family | *Tetraodon nigroviridis* | #4,707 | *Tetraodontidae* | **#417** | +4,290 | 542,342 |
+| **Leafcutter Ant** | Genus | *Atta cephalotes* | #4,881 | *Atta* | **#1,107** | +3,774 | 200,569 |
+| **Squid** | Class | *Loligo vulgaris* | #3,998 | *Decapodiformes* | **#277** | +3,721 | 768,194 |
+| **Poison Dart Frog** | Family | *Dendrobates tinctorius* | #3,920 | *Dendrobatidae* | **#329** | +3,591 | 649,580 |
+| **Blue-ringed octopus** | Genus | *Hapalochlaena maculosa* | #3,699 | *Hapalochlaena* | **#108** | +3,591 | 1,274,892 |
+| **Mosquito** | Family | *Anopheles gambiae* | #3,529 | *Culicidae* | **#115** | +3,414 | 1,259,066 |
+| **Dragonfly** | Order | *Anax imperator* | #3,482 | *Anisoptera* | **#164** | +3,318 | 1,048,873 |
+| **Stingray** | Order | *Dasyatis pastinaca* | #3,541 | *Myliobatiformes* | **#273** | +3,268 | 779,248 |
+| **Starfish** | Class | *Asterias rubens* | #3,473 | *Asteroidea* | **#263** | +3,210 | 801,295 |
+| **Chameleon** | Family | *Chamaeleo chamaeleon* | #3,438 | *Chamaeleonidae* | **#252** | +3,186 | 819,924 |
+| **Slow Loris** | Genus | *Nycticebus coucang* | #3,694 | *Nycticebus* | **#509** | +3,185 | 454,277 |
+| **Cicada** | Family | *Magicicada septendecim* | #3,220 | *Cicadidae* | **#73** | +3,147 | 1,523,445 |
+| **Chinchilla** | Genus | *Chinchilla lanigera* | #3,319 | *Chinchilla* | **#231** | +3,088 | 861,228 |
+| **Sea Urchin** | Class | *Strongylocentrotus purpuratus* | #3,099 | *Echinoidea* | **#237** | +2,862 | 858,627 |
+| **Kiwi** | Genus | *Apteryx mantelli* | #2,855 | *Apteryx* | **#130** | +2,725 | 1,178,121 |
+| **Tree Kangaroo** | Genus | *Dendrolagus matschiei* | #3,415 | *Dendrolagus* | **#763** | +2,652 | 300,140 |
+| **Goliath Beetle** | Genus | *Goliathus goliatus* | #4,508 | *Goliathus* | **#1,863** | +2,645 | 111,366 |
+| **Sponge** | Phylum | *Aplysina fistularis* | #2,835 | *Porifera* | **#260** | +2,575 | 806,240 |
+| **Tarantula** | Family | *Brachypelma hamorii* | #2,693 | *Theraphosidae* | **#198** | +2,495 | 934,100 |
+| **Comb Jelly** | Phylum | *Mnemiopsis leidyi* | #2,937 | *Ctenophora* | **#479** | +2,458 | 482,694 |
+| **Howler Monkey** | Genus | *Alouatta palliata* | #3,181 | *Alouatta* | **#936** | +2,245 | 241,829 |
+| **Oyster** | Family | *Crassostrea gigas* | #2,543 | *Ostreidae* | **#299** | +2,244 | 722,272 |
+| **Sloth** | Suborder | *Bradypus tridactylus* | #2,197 | *Folivora* | **#138** | +2,059 | 1,142,165 |
+| **Moray Eel** | Family | *Gymnothorax javanicus* | #2,513 | *Muraenidae* | **#471** | +2,042 | 491,708 |
+| **Cuttlefish** | Order | *Sepia officinalis* | #2,195 | *Sepiida* | **#180** | +2,015 | 982,814 |
+| **Newt** | Subfamily | *Lissotriton vulgaris* | #2,480 | *Pleurodelinae* | **#498** | +1,982 | 465,343 |
+| **Giraffe** | Genus | *Giraffa camelopardalis* | #1,994 | *Giraffa* | **#59** | +1,935 | 1,725,569 |
+| **Spider Monkey** | Genus | *Ateles geoffroyi* | #2,486 | *Ateles* | **#555** | +1,931 | 415,780 |
+| **Lionfish** | Genus | *Pterois volitans* | #2,186 | *Pterois* | **#284** | +1,902 | 741,145 |
+| **Wombat** | Family | *Vombatus ursinus* | #1,995 | *Vombatidae* | **#125** | +1,870 | 1,220,950 |
+| **Millipede** | Class | *Archispirostreptus gigas* | #2,190 | *Diplopoda* | **#357** | +1,833 | 609,716 |
+| **Bumblebee** | Genus | *Bombus terrestris* | #1,867 | *Bombus* | **#160** | +1,707 | 1,057,674 |
+| **Coelacanth** | Genus | *Latimeria chalumnae* | #1,809 | *Latimeria* | **#111** | +1,698 | 1,271,248 |
+| **Wasp** | Family | *Vespula vulgaris* | #1,912 | *Vespidae* | **#219** | +1,693 | 886,747 |
+| **Frog** | Order | *Rana temporaria* | #1,635 | *Anura* | **#37** | +1,598 | 2,048,190 |
+| **Electric Eel** | Genus | *Electrophorus electricus* | #1,892 | *Electrophorus* | **#345** | +1,547 | 629,695 |
+| **Barracuda** | Genus | *Sphyraena barracuda* | #1,836 | *Sphyraena* | **#291** | +1,545 | 733,646 |
+| **Mole** | Family | *Talpa europaea* | #1,808 | *Talpidae* | **#267** | +1,541 | 796,859 |
+| **Prairie Dog** | Genus | *Cynomys ludovicianus* | #1,767 | *Cynomys* | **#323** | +1,444 | 663,084 |
+| **Nautilus** | Family | *Nautilus pompilius* | #1,633 | *Nautilidae* | **#238** | +1,395 | 858,051 |
+| **Snail** | Class | *Helix pomatia* | #1,687 | *Gastropoda* | **#317** | +1,370 | 680,730 |
+| **Gibbon** | Genus | *Hylobates lar* | #1,713 | *Hylobates* | **#350** | +1,363 | 620,243 |
+| **Swan** | Genus | *Cygnus cygnus* | #1,447 | *Cygnus* | **#188** | +1,259 | 969,709 |
+| **Swallowtail Butterfly** | Family | *Papilio machaon* | #1,708 | *Papilionidae* | **#454** | +1,254 | 504,382 |
+| **Scorpion** | Order | *Pandinus imperator* | #1,390 | *Scorpiones* | **#142** | +1,248 | 1,128,831 |
+| **Horseshoe Crab** | Family | *Limulus polyphemus* | #1,360 | *Limulidae* | **#112** | +1,248 | 1,263,466 |
+| **Baboon** | Genus | *Papio anubis* | #1,485 | *Papio* | **#306** | +1,179 | 708,763 |
+| **Ladybird** | Family | *Coccinella septempunctata* | #1,339 | *Coccinellidae* | **#184** | +1,155 | 976,980 |
+| **Catfish** | Order | *Ictalurus punctatus* | #1,314 | *Siluriformes* | **#169** | +1,145 | 1,013,202 |
+| **Hummingbird** | Family | *Archilochus colubris* | #1,238 | *Trochilidae* | **#118** | +1,120 | 1,250,040 |
+| **Earthworm** | Order | *Lumbricus terrestris* | #1,467 | *Lumbricina* | **#347** | +1,120 | 625,973 |
+| **Octopus** | Order | *Octopus vulgaris* | #1,163 | *Octopoda* | **#49** | +1,114 | 1,825,040 |
+| **Stag Beetle** | Family | *Lucanus cervus* | #1,871 | *Lucanidae* | **#769** | +1,102 | 297,542 |
+| **Kangaroo** | Genus | *Macropus giganteus* | #1,095 | *Macropus* | **#32** | +1,063 | 2,124,308 |
+| **Piranha** | Family | *Pygocentrus nattereri* | #1,353 | *Serrasalmidae* | **#298** | +1,055 | 724,648 |
+| **Bearded Dragon** | Genus | *Pogona vitticeps* | #1,606 | *Pogona* | **#575** | +1,031 | 400,123 |
+| **Hedgehog** | Subfamily | *Erinaceus europaeus* | #1,158 | *Erinaceinae* | **#128** | +1,030 | 1,198,254 |
+| **Anglerfish** | Order | *Melanocetus johnsonii* | #1,101 | *Lophiiformes* | **#76** | +1,025 | 1,486,903 |
+| **Clam** | Class | *Mercenaria mercenaria* | #1,570 | *Bivalvia* | **#546** | +1,024 | 423,910 |
+| **Clownfish** | Genus | *Amphiprion ocellaris* | #1,310 | *Amphiprion* | **#342** | +968 | 632,287 |
+| **Box Jellyfish** | Class | *Chironex fleckeri* | #1,199 | *Cubozoa* | **#270** | +929 | 785,893 |
+| **Albatross** | Family | *Diomedea exulans* | #1,125 | *Diomedeidae* | **#204** | +921 | 924,227 |
+| **Salamander** | Order | *Salamandra salamandra* | #1,150 | *Caudata* | **#230** | +920 | 862,097 |
+| **Mantis** | Order | *Mantis religiosa* | #1,074 | *Mantodea* | **#155** | +919 | 1,068,871 |
+| **Black Widow Spider** | Genus | *Latrodectus mactans* | #1,114 | *Latrodectus* | **#197** | +917 | 935,454 |
+| **Mantis Shrimp** | Order | *Odontodactylus scyllarus* | #1,062 | *Stomatopoda* | **#152** | +910 | 1,082,717 |
+| **Porpoise** | Family | *Phocoena phocoena* | #1,316 | *Phocoenidae* | **#423** | +893 | 533,615 |
+| **Tarsier** | Family | *Carlito syrichta* | #1,308 | *Tarsiidae* | **#438** | +870 | 516,739 |
+| **Prawn** | Order | *Penaeus monodon* | #1,414 | *Dendrobranchiata* | **#547** | +867 | 423,794 |
+| **Lobster** | Family | *Homarus americanus* | #1,076 | *Nephropidae* | **#217** | +859 | 894,673 |
+| **Vampire Bat** | Genus | *Desmodus rotundus* | #1,359 | *Desmodus* | **#502** | +857 | 463,852 |
+| **Pelican** | Genus | *Pelecanus occidentalis* | #1,187 | *Pelecanus* | **#365** | +822 | 599,242 |
+| **Sea Lion** | Subfamily | *Zalophus californianus* | #1,026 | *Otariinae* | **#211** | +815 | 912,072 |
+| **Goose** | Genus | *Anser anser* | #1,091 | *Anser* | **#302** | +789 | 713,460 |
+| **Porcupine** | Genus | *Erethizon dorsatum* | #967 | *Erethizon* | **#199** | +768 | 932,169 |
+| **Manatee** | Genus | *Trichechus manatus* | #916 | *Trichechus* | **#151** | +765 | 1,092,463 |
+| **Arapaima** | Genus | *Arapaima gigas* | #1,116 | *Arapaima* | **#361** | +755 | 603,950 |
+| **Cormorant** | Family | *Phalacrocorax carbo* | #1,050 | *Phalacrocoracidae* | **#312** | +738 | 691,354 |
+| **Hare** | Genus | *Lepus europaeus* | #974 | *Lepus* | **#247** | +727 | 836,738 |
+| **Bottlenose Dolphin** | Genus | *Tursiops truncatus* | #1,250 | *Tursiops* | **#593** | +657 | 385,941 |
+| **Toad** | Family | *Bufo bufo* | #1,331 | *Bufonidae* | **#687** | +644 | 334,481 |
+| **Gorilla** | Genus | *Gorilla gorilla* | #669 | *Gorilla* | **#31** | +638 | 2,145,135 |
+| **Seal** | Clade | *Phoca vitulina* | #706 | *Pinnipedia* | **#107** | +599 | 1,280,030 |
+| **Orangutan** | Genus | *Pongo pygmaeus* | #648 | *Pongo* | **#72** | +576 | 1,532,594 |
+| **Fire Ant** | Genus | *Solenopsis invicta* | #1,109 | *Solenopsis* | **#579** | +530 | 396,096 |
+| **Warthog** | Genus | *Phacochoerus africanus* | #1,110 | *Phacochoerus* | **#592** | +518 | 386,768 |
+| **Beaver** | Genus | *Castor canadensis* | #598 | *Castor* | **#94** | +504 | 1,368,835 |
+| **Turkey** | Genus | *Meleagris gallopavo* | #458 | *Meleagris* | **#2** | +456 | 9,145,211 |
+| **Barn Owl** | Genus | *Tyto alba* | #1,039 | *Tyto* | **#590** | +449 | 387,592 |
+| **Opossum** | Family | *Didelphis virginiana* | #477 | *Didelphidae* | **#39** | +438 | 1,990,819 |
+| **Rabbit** | Genus | *Oryctolagus cuniculus* | #444 | *Oryctolagus* | **#43** | +401 | 1,948,854 |
+| **Elephant** | Family | *Loxodonta africana* | #295 | *Elephantidae* | **#15** | +280 | 2,715,467 |
+| **Hyena** | Family | *Crocuta crocuta* | #332 | *Hyaenidae* | **#77** | +255 | 1,480,798 |
+| **Lynx** | Genus | *Lynx lynx* | #384 | *Lynx* | **#141** | +243 | 1,131,565 |
+| **Ostrich** | Genus | *Struthio camelus* | #427 | *Struthio* | **#241** | +186 | 853,421 |
+| **Macaque** | Genus | *Macaca mulatta* | #511 | *Macaca* | **#366** | +145 | 598,859 |
+| **Fiddler Crab** | Family | *Uca pugilator* | #1,286 | *Ocypodidae* | **#1,282** | +4 | 168,626 |
+| **Giant Clam** | Genus | *Tridacna gigas* | #1,038 | *Tridacna* | **#1,035** | +3 | 216,856 |
+| **Raccoon** | Genus | *Procyon lotor* | #27 | *Procyon* | **#25** | +2 | 2,270,162 |
+| **Black Rhinoceros** | Genus | *Diceros bicornis* | #465 | *Diceros* | **#463** | +2 | 497,789 |
+| **African Buffalo** | Genus | *Syncerus caffer* | #355 | *Syncerus* | **#353** | +2 | 612,682 |
+| **Giant Panda** | Genus | *Ailuropoda melanoleuca* | #20 | *Ailuropoda* | **#19** | +1 | 2,542,645 |
+| **Hippopotamus** | Family | *Hippopotamus amphibius* | #53 | *Hippopotamidae* | **#52** | +1 | 1,780,359 |
+| **Kangaroo** | Genus | *Macropus rufus* | #33 | *Macropus* | **#32** | +1 | 2,124,308 |
+| **King Cobra** | Genus | *Ophiophagus hannah* | #88 | *Ophiophagus* | **#87** | +1 | 1,425,097 |
+| **Python** | Genus | *Python regius* | #401 | *Python* | **#1,124** | -723 | 194,740 |
+| **Python** | Genus | *Python bivittatus* | #386 | *Python* | **#1,124** | -738 | 194,740 |
+| **Rat** | Genus | *Rattus norvegicus* | #398 | *Rattus* | **#1,276** | -878 | 168,949 |
+| **Clawed Frog** | Genus | *Xenopus laevis* | #1,657 | *Xenopus* | **#2,586** | -929 | 72,234 |
+| **Tree Squirrel** | Genus | *Sciurus carolinensis* | #462 | *Sciurus* | **#2,297** | -1,835 | 84,432 |
+| **Tree Squirrel** | Genus | *Sciurus vulgaris* | #254 | *Sciurus* | **#2,297** | -2,043 | 84,432 |
+| **Mouse** | Genus | *Mus musculus* | #428 | *Mus* | **#2,527** | -2,099 | 74,881 |
+| **River Otter** | Genus | *Lontra canadensis* | #569 | *Lontra* | **#2,776** | -2,207 | 64,770 |
+| **Long-nosed Armadillo** | Genus | *Dasypus novemcinctus* | #817 | *Dasypus* | **#3,031** | -2,214 | 57,271 |
 
 ## 3. Organisms Just Outside Top 1,000 (Ranks 1,001 – 2,000)
 
@@ -130,37 +151,28 @@ These organisms missed the 🐾 Easy (top 1k) cutoff, but comfortably qualify fo
 
 | Vwiki Rank | Off by (vs. 1k) | Common Name | Scientific Name | Cumulative Views | Sitelinks |
 | :---: | :---: | :--- | :--- | :---: | :---: |
-| #1,011 | +11 | California Sea Lion | *Zalophus californianus* | 218,492 | 48 |
-| #1,015 | +15 | Wood Duck | *Aix sponsa* | 217,644 | 54 |
-| #1,022 | +22 | Giant Clam | *Tridacna gigas* | 216,232 | 40 |
-| #1,023 | +23 | Barn Owl | *Tyto alba* | 216,229 | 104 |
-| #1,097 | +97 | Black Widow Spider | *Latrodectus mactans* | 196,342 | 41 |
-| #1,100 | +100 | Thorny Devil | *Moloch horridus* | 196,169 | 49 |
-| #1,108 | +108 | Wandering Albatross | *Diomedea exulans* | 194,315 | 52 |
-| #1,153 | +153 | Ringed Seal | *Pusa hispida* | 186,696 | 57 |
-| #1,154 | +154 | California Quail | *Callipepla californica* | 186,693 | 33 |
-| #1,211 | +211 | Golden Lion Tamarin | *Leontopithecus rosalia* | 175,767 | 47 |
-| #1,251 | +251 | Regal Blue Tang | *Paracanthurus hepatus* | 169,792 | 43 |
-| #1,252 | +252 | Gelada | *Theropithecus gelada* | 169,779 | 58 |
-| #1,254 | +254 | Goliath Frog | *Conraua goliath* | 169,552 | 49 |
-| #1,267 | +267 | Siamang | *Symphalangus syndactylus* | 168,284 | 60 |
-| #1,268 | +268 | Fiddler Crab | *Uca pugilator* | 168,137 | 34 |
-| #1,273 | +273 | Red-eyed Tree Frog | *Agalychnis callidryas* | 167,689 | 48 |
-| #1,321 | +321 | Seven-spot Ladybird | *Coccinella septempunctata* | 161,899 | 65 |
-| #1,356 | +356 | Japanese Giant Salamander | *Andrias japonicus* | 155,937 | 43 |
-| #1,426 | +426 | Little Brown Bat | *Myotis lucifugus* | 148,034 | 31 |
-| #1,588 | +588 | Central Bearded Dragon | *Pogona vitticeps* | 130,875 | 41 |
-| #1,639 | +639 | African Clawed Frog | *Xenopus laevis* | 126,647 | 39 |
-| #1,873 | +873 | Electric Eel | *Electrophorus electricus* | 108,571 | 74 |
+| #1,030 | +30 | Wood Duck | *Aix sponsa* | 217,644 | 54 |
+| #1,035 | +35 | Giant Clam | *Tridacna gigas* | 216,856 | 40 |
+| #1,107 | +107 | Leafcutter Ant | *Atta cephalotes* | 200,569 | 14 |
+| #1,117 | +117 | Thorny Devil | *Moloch horridus* | 196,169 | 49 |
+| #1,170 | +170 | Ringed Seal | *Pusa hispida* | 186,696 | 57 |
+| #1,171 | +171 | California Quail | *Callipepla californica* | 186,693 | 33 |
+| #1,228 | +228 | Golden Lion Tamarin | *Leontopithecus rosalia* | 175,767 | 47 |
+| #1,268 | +268 | Regal Blue Tang | *Paracanthurus hepatus* | 169,792 | 43 |
+| #1,269 | +269 | Gelada | *Theropithecus gelada* | 169,779 | 58 |
+| #1,271 | +271 | Goliath Frog | *Conraua goliath* | 169,552 | 49 |
+| #1,282 | +282 | Fiddler Crab | *Uca pugilator* | 168,626 | 34 |
+| #1,285 | +285 | Siamang | *Symphalangus syndactylus* | 168,284 | 60 |
+| #1,291 | +291 | Red-eyed Tree Frog | *Agalychnis callidryas* | 167,689 | 48 |
+| #1,374 | +374 | Japanese Giant Salamander | *Andrias japonicus* | 155,937 | 43 |
+| #1,444 | +444 | Little Brown Bat | *Myotis lucifugus* | 148,034 | 31 |
+| #1,657 | +657 | African Clawed Frog | *Xenopus laevis* | 126,647 | 39 |
+| #1,863 | +863 | Goliath Beetle | *Goliathus goliatus* | 111,366 | 17 |
 
 ## 4. Species in Advanced Tier (Ranks 2,001 – 5,000)
 
 | Vwiki Rank | Off by (vs. 1k) | Common Name | Scientific Name | Cumulative Views | Sitelinks |
 | :---: | :---: | :--- | :--- | :---: | :---: |
-| #2,917 | +1,917 | Sea Walnut Comb Jelly | *Mnemiopsis leidyi* | 59,877 | 26 |
-| #4,488 | +3,488 | Goliath Beetle | *Goliathus goliatus* | 30,041 | 17 |
-| #4,687 | +3,687 | Green Spotted Puffer | *Tetraodon nigroviridis* | 27,802 | 22 |
-| #4,861 | +3,861 | Leafcutter Ant | *Atta cephalotes* | 26,128 | 14 |
 
 ## 5. Species in Master Tier Only (Ranks > 5,000)
 

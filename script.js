@@ -801,6 +801,27 @@ function bootPhylogenle() {
 
     // Known special higher taxa & genuses in Phylogenle
     const SPECIAL_GENUS_MAP = {
+
+        'fiddler crab (ocypodidae)': { genus: 'Ocypodidae', common: 'Fiddler Crab', sciLower: 'ocypodidae', rank: 'Family' },
+        'barn owl (tyto)': { genus: 'Tyto', common: 'Barn Owl', sciLower: 'tyto', rank: 'Genus' },
+        'electric eel (electrophorus)': { genus: 'Electrophorus', common: 'Electric Eel', sciLower: 'electrophorus', rank: 'Genus' },
+        'leafcutter ant (atta)': { genus: 'Atta', common: 'Leafcutter Ant', sciLower: 'atta', rank: 'Genus' },
+        'goliath beetle (goliathus)': { genus: 'Goliathus', common: 'Goliath Beetle', sciLower: 'goliathus', rank: 'Genus' },
+        'black widow spider (latrodectus)': { genus: 'Latrodectus', common: 'Black Widow Spider', sciLower: 'latrodectus', rank: 'Genus' },
+        'sea lion (otariinae)': { genus: 'Otariinae', common: 'Sea Lion', sciLower: 'otariinae', rank: 'Subfamily' },
+        'comb jelly (ctenophora)': { genus: 'Ctenophora', common: 'Comb Jelly', sciLower: 'ctenophora', rank: 'Phylum' },
+        'pufferfish (tetraodontidae)': { genus: 'Tetraodontidae', common: 'Pufferfish', sciLower: 'tetraodontidae', rank: 'Family' },
+        'bearded dragon (pogona)': { genus: 'Pogona', common: 'Bearded Dragon', sciLower: 'pogona', rank: 'Genus' },
+        'clawed frog (xenopus)': { genus: 'Xenopus', common: 'Clawed Frog', sciLower: 'xenopus', rank: 'Genus' },
+        'macaque (macaca)': { genus: 'Macaca', common: 'Macaque', sciLower: 'macaca', rank: 'Genus' },
+        'lynx (lynx)': { genus: 'Lynx', common: 'Lynx', sciLower: 'lynx', rank: 'Genus' },
+        'giant panda (ailuropoda)': { genus: 'Ailuropoda', common: 'Giant Panda', sciLower: 'ailuropoda', rank: 'Genus' },
+        'raccoon (procyon)': { genus: 'Procyon', common: 'Raccoon', sciLower: 'procyon', rank: 'Genus' },
+        'hyena (hyaenidae)': { genus: 'Hyaenidae', common: 'Hyena', sciLower: 'hyaenidae', rank: 'Family' },
+        'hippopotamus (hippopotamidae)': { genus: 'Hippopotamidae', common: 'Hippopotamus', sciLower: 'hippopotamidae', rank: 'Family' },
+        'ladybird (coccinellidae)': { genus: 'Coccinellidae', common: 'Ladybird', sciLower: 'coccinellidae', rank: 'Family' },
+        'albatross (diomedeidae)': { genus: 'Diomedeidae', common: 'Albatross', sciLower: 'diomedeidae', rank: 'Family' },
+        'giant clam (tridacna)': { genus: 'Tridacna', common: 'Giant Clam', sciLower: 'tridacna', rank: 'Genus' },
         'giraffe (giraffa)': { genus: 'Giraffa', common: 'Giraffe', sciLower: 'giraffa', rank: 'Genus' },
         'gorilla (gorilla)': { genus: 'Gorilla', common: 'Gorilla', sciLower: 'gorilla', rank: 'Genus' },
         'orangutan (pongo)': { genus: 'Pongo', common: 'Orangutan', sciLower: 'pongo', rank: 'Genus' },

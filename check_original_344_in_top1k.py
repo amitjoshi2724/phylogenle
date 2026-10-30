@@ -22,7 +22,28 @@ VWIKI_CSV = os.path.join(BASE_DIR, "docs", "species_ranking_by_vwiki.csv")
 REPORT_MD = os.path.join(BASE_DIR, "docs", "ORIGINAL_344_VS_TOP1K_ANALYSIS.md")
 
 SPECIAL_TAXA_344 = {
-    # 1. Higher Taxa (Orders, Suborders, Families, Subfamilies, Clades)
+
+    "Uca pugilator": {"taxon_sci": "Ocypodidae", "common": "Fiddler Crab", "rank_level": "Family"},
+    "Tyto alba": {"taxon_sci": "Tyto", "common": "Barn Owl", "rank_level": "Genus"},
+    "Electrophorus electricus": {"taxon_sci": "Electrophorus", "common": "Electric Eel", "rank_level": "Genus"},
+    "Atta cephalotes": {"taxon_sci": "Atta", "common": "Leafcutter Ant", "rank_level": "Genus"},
+    "Goliathus goliatus": {"taxon_sci": "Goliathus", "common": "Goliath Beetle", "rank_level": "Genus"},
+    "Latrodectus mactans": {"taxon_sci": "Latrodectus", "common": "Black Widow Spider", "rank_level": "Genus"},
+    "Zalophus californianus": {"taxon_sci": "Otariinae", "common": "Sea Lion", "rank_level": "Subfamily"},
+    "Mnemiopsis leidyi": {"taxon_sci": "Ctenophora", "common": "Comb Jelly", "rank_level": "Phylum"},
+    "Tetraodon nigroviridis": {"taxon_sci": "Tetraodontidae", "common": "Pufferfish", "rank_level": "Family"},
+    "Pogona vitticeps": {"taxon_sci": "Pogona", "common": "Bearded Dragon", "rank_level": "Genus"},
+    "Xenopus laevis": {"taxon_sci": "Xenopus", "common": "Clawed Frog", "rank_level": "Genus"},
+    "Macaca mulatta": {"taxon_sci": "Macaca", "common": "Macaque", "rank_level": "Genus"},
+    "Lynx lynx": {"taxon_sci": "Lynx", "common": "Lynx", "rank_level": "Genus"},
+    "Ailuropoda melanoleuca": {"taxon_sci": "Ailuropoda", "common": "Giant Panda", "rank_level": "Genus"},
+    "Procyon lotor": {"taxon_sci": "Procyon", "common": "Raccoon", "rank_level": "Genus"},
+    "Crocuta crocuta": {"taxon_sci": "Hyaenidae", "common": "Hyena", "rank_level": "Family"},
+    "Hippopotamus amphibius": {"taxon_sci": "Hippopotamidae", "common": "Hippopotamus", "rank_level": "Family"},
+    "Macropus rufus": {"taxon_sci": "Macropus", "common": "Kangaroo", "rank_level": "Genus"},
+    "Coccinella septempunctata": {"taxon_sci": "Coccinellidae", "common": "Ladybird", "rank_level": "Family"},
+    "Diomedea exulans": {"taxon_sci": "Diomedeidae", "common": "Albatross", "rank_level": "Family"},
+    "Tridacna gigas": {"taxon_sci": "Tridacna", "common": "Giant Clam", "rank_level": "Genus"},    # 1. Higher Taxa (Orders, Suborders, Families, Subfamilies, Clades)
     "Bradypus tridactylus": {"taxon_sci": "Folivora", "common": "Sloth", "rank_level": "Suborder"},
     "Loxodonta africana": {"taxon_sci": "Elephantidae", "common": "Elephant", "rank_level": "Family"},
     "Gymnopis multiplicata": {"taxon_sci": "Gymnophiona", "common": "Caecilian", "rank_level": "Order"},
