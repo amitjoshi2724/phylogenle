@@ -1248,6 +1248,38 @@
     transform: translateX(2px);
 }
 
+/* Rank-Specific Details Border & Summary Accents */
+.catalog-content details details details details details details {
+    border-left-color: rgba(249, 115, 22, 0.25); /* Family: Orange */
+}
+.catalog-content details details details details details details[open] {
+    border-left-color: rgba(249, 115, 22, 0.6);
+}
+.catalog-content details details details details details details > summary:hover {
+    color: #fb923c;
+}
+.catalog-content details details details details details details[open] > summary::before {
+    color: #fb923c;
+}
+
+.catalog-content details details details details details details details {
+    border-left-color: rgba(234, 179, 8, 0.25); /* Genus: Yellow */
+}
+.catalog-content details details details details details details details[open] {
+    border-left-color: rgba(234, 179, 8, 0.65);
+}
+.catalog-content details details details details details details details > summary {
+    font-size: 0.91rem;
+    background: rgba(234, 179, 8, 0.04);
+}
+.catalog-content details details details details details details details > summary:hover {
+    background: rgba(234, 179, 8, 0.1);
+    color: #facc15;
+}
+.catalog-content details details details details details details details[open] > summary::before {
+    color: #facc15;
+}
+
 .catalog-tree-actions {
     display: flex;
     gap: 8px;

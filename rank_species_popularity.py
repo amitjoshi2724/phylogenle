@@ -269,6 +269,12 @@ def main():
     cache = load_cache()
     print(f"Loaded {len(cache):,} species records from cache")
 
+    # Check for --csv-only fast mode
+    if "--csv-only" in sys.argv:
+        print("\n[--csv-only mode]: Skipping network harvesting and compiling CSVs directly from cache & aliases...")
+        compile_ranking_csvs(species_data, cache)
+        return
+
     # Step 1: Query Wikidata for Swiki and en_title (only for uncached species OR species where qid is None)
     missing_wikidata = [
         s for s in species_data 
@@ -320,11 +326,10 @@ def main():
     else:
         print("\nStep 1: All Wikidata sitelinks already resolved. Skipping.")
 
-    # Step 2: Fallback lookup for species missing en_title OR where title has not been canonical-verified
+    # Step 2: Fallback lookup for species where title has not been canonical-verified
     needs_fallback = [
         s for s in species_data
-        if not cache.get(s["scientific"], {}).get("en_title")
-        or not cache.get(s["scientific"], {}).get("canonical_verified")
+        if not cache.get(s["scientific"], {}).get("canonical_verified")
     ]
     if needs_fallback:
         print(f"\nStep 2: Checking Wikipedia fallbacks & canonical titles for {len(needs_fallback):,} species...")
@@ -384,8 +389,10 @@ def main():
                     if best_qid and best_swiki > cache.get(sci, {}).get("swiki", 0):
                         cache[sci]["qid"] = best_qid
                         cache[sci]["swiki"] = best_swiki
-                    if sci in cache:
-                        cache[sci]["canonical_verified"] = True
+            for s in batch:
+                sci = s["scientific"]
+                if sci in cache:
+                    cache[sci]["canonical_verified"] = True
 
             processed = min(i + FB_BATCH, len(needs_fallback))
             if (i // FB_BATCH) % 10 == 0 or processed == len(needs_fallback):
@@ -398,117 +405,119 @@ def main():
         print("\nStep 2: All canonical titles already resolved. Skipping.")
 
     # Step 2B: Option B - Discover Exclusive Standalone Articles (Cultivars, Subspecies & Domestic Forms)
-    print("\nStep 2B: Option B - Discovering exclusive standalone articles (cultivars, subspecies)...")
-    
-    # Precompute umbrella words & polytypic genera/families
-    polytypic_genera = set()
-    polytypic_families = set()
-    genus_counts = {}
-    family_counts = {}
-    for s in species_data:
-        g = (s.get("genus") or "").lower()
-        fam = (s.get("family") or "").lower()
-        if g: genus_counts[g] = genus_counts.get(g, 0) + 1
-        if fam: family_counts[fam] = family_counts.get(fam, 0) + 1
-    for g, c in genus_counts.items():
-        if c > 1: polytypic_genera.add(g)
-    for fam, c in family_counts.items():
-        if c > 1: polytypic_families.add(fam)
+    existing_extra_count = sum(len(rec.get("extra_articles", {})) for rec in cache.values())
+    if existing_extra_count > 0 and "--rediscover-subspecies" not in sys.argv:
+        print(f"\nStep 2B: {existing_extra_count} exclusive standalone articles already discovered and cached. Skipping.")
+    else:
+        print("\nStep 2B: Option B - Discovering exclusive standalone articles (cultivars, subspecies)...")
+        
+        # Precompute umbrella words & polytypic genera/families
+        polytypic_genera = set()
+        polytypic_families = set()
+        genus_counts = {}
+        family_counts = {}
+        for s in species_data:
+            g = (s.get("genus") or "").lower()
+            fam = (s.get("family") or "").lower()
+            if g: genus_counts[g] = genus_counts.get(g, 0) + 1
+            if fam: family_counts[fam] = family_counts.get(fam, 0) + 1
+        for g, c in genus_counts.items():
+            if c > 1: polytypic_genera.add(g)
+        for fam, c in family_counts.items():
+            if c > 1: polytypic_families.add(fam)
 
-    umbrella_words = {
-        "elephant", "salmon", "crow", "tuna", "shark", "whale", "dolphin", "frog", "toad",
-        "snake", "lizard", "turtle", "tortoise", "bear", "duck", "goose", "owl", "eagle",
-        "hawk", "falcon", "sparrow", "finch", "warbler", "thrush", "pigeon", "dove",
-        "bat", "mouse", "rat", "squirrel", "deer", "antelope", "gazelle", "monkey", "baboon",
-        "beetle", "butterfly", "moth", "ant", "bee", "wasp", "fly", "spider", "crab", "lobster",
-        "shrimp", "snail", "slug", "clam", "mussel", "oyster", "squid", "octopus", "jellyfish",
-        "coral", "anemone", "worm", "sponge", "tree", "flower", "grass", "fern", "moss",
-        "mushroom", "fungus", "lichen", "alga", "algae", "bacteria", "bacterium", "virus",
-        "fish", "bird", "mammal", "reptile", "amphibian", "insect", "animal", "plant",
-        "dory", "timber wolf", "panther", "puma", "feline", "gator", "bullfrog", "buffalo", "bison", "alligator", "cod",
-        "penguin", "otter", "zebra", "crocodile", "anaconda", "raven", "manta ray", "mako shark", "clownfish",
-        "hammerhead shark", "badger", "echidna", "wolf", "grey wolf", "gray wolf", "sirenia", "trout"
-    }
+        umbrella_words = {
+            "elephant", "salmon", "crow", "tuna", "shark", "whale", "dolphin", "frog", "toad",
+            "snake", "lizard", "turtle", "tortoise", "bear", "duck", "goose", "owl", "eagle",
+            "hawk", "falcon", "sparrow", "finch", "warbler", "thrush", "pigeon", "dove",
+            "bat", "mouse", "rat", "squirrel", "deer", "antelope", "gazelle", "monkey", "baboon",
+            "beetle", "butterfly", "moth", "ant", "bee", "wasp", "fly", "spider", "crab", "lobster",
+            "shrimp", "snail", "slug", "clam", "mussel", "oyster", "squid", "octopus", "jellyfish",
+            "coral", "anemone", "worm", "sponge", "tree", "flower", "grass", "fern", "moss",
+            "mushroom", "fungus", "lichen", "alga", "algae", "bacteria", "bacterium", "virus",
+            "fish", "bird", "mammal", "reptile", "amphibian", "insect", "animal", "plant",
+            "dory", "timber wolf", "panther", "puma", "feline", "gator", "bullfrog", "buffalo", "bison", "alligator", "cod",
+            "penguin", "otter", "zebra", "crocodile", "anaconda", "raven", "manta ray", "mako shark", "clownfish",
+            "hammerhead shark", "badger", "echidna", "wolf", "grey wolf", "gray wolf", "sirenia", "trout"
+        }
 
-    def is_umbrella(t):
-        cl = t.strip().lower()
-        return (cl in umbrella_words or cl in polytypic_genera or cl in polytypic_families)
+        def is_umbrella(t):
+            cl = t.strip().lower()
+            return (cl in umbrella_words or cl in polytypic_genera or cl in polytypic_families)
 
-    catalog_scis = set(s["scientific"] for s in species_data)
-    catalog_commons_lower = set((s.get("common") or "").lower() for s in species_data if s.get("common"))
+        catalog_scis = set(s["scientific"] for s in species_data)
+        catalog_commons_lower = set((s.get("common") or "").lower() for s in species_data if s.get("common"))
 
-    # Map aliases to species
-    alias_to_sci = {}
-    if os.path.exists(ALIASES_PATH):
-        with open(ALIASES_PATH, "r", encoding="utf-8") as f:
-            raw_aliases = json.load(f)
-        for a, target in raw_aliases.items():
-            m = re.search(r"\(([^)]+)\)$", target)
-            sci = m.group(1).strip() if m else target.strip()
-            comm = target[:m.start()].strip() if m else ""
-            if a.lower() == sci.lower() or a.lower() == comm.lower() or "(" in a:
+        # Map aliases to species
+        alias_to_sci = {}
+        if os.path.exists(ALIASES_PATH):
+            with open(ALIASES_PATH, "r", encoding="utf-8") as f:
+                raw_aliases = json.load(f)
+            for a, target in raw_aliases.items():
+                m = re.search(r"\(([^)]+)\)$", target)
+                sci = m.group(1).strip() if m else target.strip()
+                comm = target[:m.start()].strip() if m else ""
+                if a.lower() == sci.lower() or a.lower() == comm.lower() or "(" in a:
+                    continue
+                clean_a = a.strip()
+                clean_lower = clean_a.lower()
+                if clean_lower not in alias_to_sci:
+                    alias_to_sci[clean_lower] = sci
+
+        # Resolve candidate aliases
+        resolved_aliases = query_enwiki_fallback_batch(list(alias_to_sci.keys()))
+        candidates = []
+        qids_to_query = []
+        for a, sci in alias_to_sci.items():
+            if is_umbrella(a): continue
+            res = resolved_aliases.get(a)
+            if not res: continue
+            qid, target = res
+            if not target or not qid: continue
+            prim = cache.get(sci, {}).get("en_title", "")
+            if target.strip().lower() == prim.strip().lower(): continue
+            if is_umbrella(target): continue
+            if target in catalog_scis or target.lower() in catalog_commons_lower:
                 continue
-            clean_a = a.strip()
-            clean_lower = clean_a.lower()
-            if clean_lower not in alias_to_sci:
-                alias_to_sci[clean_lower] = sci
+            candidates.append((sci, prim, a, target, qid))
+            qids_to_query.append(qid)
 
+        # Query Wikidata for P31 and P105
+        VALID_P31 = {"Q16521", "Q23038290", "Q767728", "Q4886", "Q15926588", "Q11004", "Q55983715", "Q207106", "Q146"}
+        HIGHER_RANKS = {"Q35409", "Q36732", "Q38348", "Q16428", "2455704", "Q34740"}
+        valid_qids = set()
+        for i in range(0, len(qids_to_query), 50):
+            chunk = qids_to_query[i:i+50]
+            url = "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=" + "|".join(chunk) + "&props=claims&format=json"
+            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+            for attempt in range(3):
+                try:
+                    with urllib.request.urlopen(req, timeout=15) as resp:
+                        data = json.loads(resp.read().decode("utf-8"))
+                        for q, ent in data.get("entities", {}).items():
+                            claims = ent.get("claims", {})
+                            p31 = set(c.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") for c in claims.get("P31", []))
+                            p105 = set(c.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") for c in claims.get("P105", []))
+                            if q in ("Q5", "Q146") or ((p31 & VALID_P31) and not (p105 & HIGHER_RANKS)):
+                                valid_qids.add(q)
+                    break
+                except Exception as e:
+                    if attempt < 2:
+                        time.sleep(2.0 * (attempt + 1))
+                    else:
+                        print(f"  Wikidata rank check error after 3 attempts: {e}")
 
+        extra_articles_count = 0
+        for sci, prim, a, target, qid in candidates:
+            if qid in valid_qids:
+                if "extra_articles" not in cache[sci]:
+                    cache[sci]["extra_articles"] = {}
+                if target not in cache[sci]["extra_articles"]:
+                    cache[sci]["extra_articles"][target] = 0
+                    extra_articles_count += 1
 
-    # Resolve candidate aliases
-    resolved_aliases = query_enwiki_fallback_batch(list(alias_to_sci.keys()))
-    candidates = []
-    qids_to_query = []
-    for a, sci in alias_to_sci.items():
-        if is_umbrella(a): continue
-        res = resolved_aliases.get(a)
-        if not res: continue
-        qid, target = res
-        if not target or not qid: continue
-        prim = cache.get(sci, {}).get("en_title", "")
-        if target.strip().lower() == prim.strip().lower(): continue
-        if is_umbrella(target): continue
-        if target in catalog_scis or target.lower() in catalog_commons_lower:
-            continue
-        candidates.append((sci, prim, a, target, qid))
-        qids_to_query.append(qid)
-
-    # Query Wikidata for P31 and P105
-    VALID_P31 = {"Q16521", "Q23038290", "Q767728", "Q4886", "Q15926588", "Q11004", "Q55983715", "Q207106", "Q146"}
-    HIGHER_RANKS = {"Q35409", "Q36732", "Q38348", "Q16428", "Q2455704", "Q34740"}
-    valid_qids = set()
-    for i in range(0, len(qids_to_query), 50):
-        chunk = qids_to_query[i:i+50]
-        url = "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=" + "|".join(chunk) + "&props=claims&format=json"
-        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-        for attempt in range(3):
-            try:
-                with urllib.request.urlopen(req, timeout=15) as resp:
-                    data = json.loads(resp.read().decode("utf-8"))
-                    for q, ent in data.get("entities", {}).items():
-                        claims = ent.get("claims", {})
-                        p31 = set(c.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") for c in claims.get("P31", []))
-                        p105 = set(c.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") for c in claims.get("P105", []))
-                        if q in ("Q5", "Q146") or ((p31 & VALID_P31) and not (p105 & HIGHER_RANKS)):
-                            valid_qids.add(q)
-                break
-            except Exception as e:
-                if attempt < 2:
-                    time.sleep(2.0 * (attempt + 1))
-                else:
-                    print(f"  Wikidata rank check error after 3 attempts: {e}")
-
-    extra_articles_count = 0
-    for sci, prim, a, target, qid in candidates:
-        if qid in valid_qids:
-            if "extra_articles" not in cache[sci]:
-                cache[sci]["extra_articles"] = {}
-            if target not in cache[sci]["extra_articles"]:
-                cache[sci]["extra_articles"][target] = 0
-                extra_articles_count += 1
-
-    save_cache(cache)
-    print(f"Step 2B complete: Discovered {extra_articles_count} exclusive standalone articles for Option B rollup.")
+        save_cache(cache)
+        print(f"Step 2B complete: Discovered {extra_articles_count} exclusive standalone articles for Option B rollup.")
 
     # Step 3: Fetch Wikipedia cumulative pageviews (Vwiki)
     # Target species that don't have current period data
@@ -574,6 +583,9 @@ def main():
         print(f"All {DATE_LABEL} pageviews already cached and valid! Skipping Step 3.")
 
     # Step 4: Deduplicate Catalog by Scientific Name & Output Comprehensive CSV Documents
+    compile_ranking_csvs(species_data, cache)
+
+def compile_ranking_csvs(species_data, cache):
     print("\nStep 4: Deduplicating by primary species ID and compiling ranking CSV documents...")
 
     # Load alternative common name aliases from data/species_aliases.json
@@ -591,8 +603,16 @@ def main():
                 target_comm = ""
 
             clean_a = alias_key.strip()
-            # Skip if alias matches scientific name or primary common name
-            if clean_a.lower() == target_sci.lower() or clean_a.lower() == target_comm.lower():
+            c_low = clean_a.lower()
+            t_comm_low = target_comm.lower()
+            t_sci_low = target_sci.lower()
+
+            # Skip if alias matches scientific name, common name, or trivial plural
+            if c_low == t_sci_low or c_low == t_comm_low:
+                continue
+            if t_comm_low and (c_low == t_comm_low + "s" or c_low == t_comm_low + "es"):
+                continue
+            if t_sci_low and c_low == t_sci_low + "s":
                 continue
             # Skip formatted display strings with parentheses
             if "(" in clean_a or ")" in clean_a:
@@ -604,6 +624,7 @@ def main():
             sci_to_aliases[target_sci].add(clean_formatted)
 
     # Group catalog entries by scientific name to eliminate duplicate common name rows
+    total_species = len(species_data)
     species_by_sci = {}
     for s in species_data:
         sci = s["scientific"]

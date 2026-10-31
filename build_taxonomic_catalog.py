@@ -112,160 +112,32 @@ def main():
 
     print("\n=== Step 2: Resolving 8-Rank Taxonomic Lineage for All Species ===")
     # Nested catalog tree:
-    # tree_hierarchy[domain][kingdom][phylum][class_name][order][family] -> list of (common, scientific, genus)
-    tree_hierarchy = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(list))))))
+    # tree_hierarchy[domain][kingdom][phylum][class_name][order][family][genus] -> list of (common, scientific, genus)
+    tree_hierarchy = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(list)))))))
 
     resolved_species = []
     enriched_catalog = []
 
-    for common, scientific in old_species:
-        # Match display key in tree
-        c_low = common.lower()
-        s_low = scientific.lower()
-        display_key = f"{c_low} ({s_low})"
+    for entry in tax_cat:
+        common = entry.get("common", "")
+        scientific = entry.get("scientific", "")
+        domain = entry.get("domain") or "Eukaryota"
+        kingdom = entry.get("kingdom") or "Animalia"
+        phylum = entry.get("phylum") or "Chordata"
+        tax_class = entry.get("class") or "Unknown Class"
+        order = entry.get("order") or "Unknown Order"
+        family = entry.get("family") or "Unknown Family"
+        genus = entry.get("genus") or (scientific.split()[0] if scientific else "Unknown Genus")
 
-        lineage_ids = species_map.get(display_key)
-        if not lineage_ids:
-            # Fallback by scientific match
-            for k, ids in species_map.items():
-                if f"({s_low})" in k:
-                    lineage_ids = ids
-                    break
-
-        # Defaults
-        domain = "Eukaryota"
-        kingdom = "Animalia"
-        phylum = "Chordata"
-        tax_class = "Unknown Class"
-        order = "Unknown Order"
-        family = "Unknown Family"
-        genus = scientific.split()[0] if scientific else "Unknown Genus"
-
-        if lineage_ids:
-            # 1. Exact Domain resolution by root TaxID
-            if 10239 in lineage_ids:
-                domain = "Viruses"
-                kingdom = "Heunggongvirae"
-                phylum = "Peploviricota"
-                tax_class = "Herviviricetes"
-                order = "Herpesvirales"
-                family = "Herpesviridae"
-            elif 2157 in lineage_ids:
-                domain = "Archaea"
-                kingdom = "Euryarchaeota"
-                for nid in lineage_ids:
-                    n = nodes.get(str(nid), {})
-                    if n.get("rank") == "Kingdom":
-                        kingdom = n.get("name")
-                    elif n.get("rank") == "Phylum":
-                        phylum = n.get("name")
-            elif 2 in lineage_ids:
-                domain = "Bacteria"
-                # Determine bacterial kingdom & phylum
-                kingdom = "Pseudomonadati"
-                for nid in lineage_ids:
-                    n = nodes.get(str(nid), {})
-                    if n.get("rank") == "Kingdom":
-                        kingdom = n.get("major_name") or n.get("name")
-                    elif n.get("rank") == "Phylum":
-                        phylum = n.get("major_name") or n.get("name")
-            elif 2759 in lineage_ids:
-                domain = "Eukaryota"
-                # 2. Exact Eukaryota Kingdom resolution by clade TaxID
-                if 33208 in lineage_ids:
-                    kingdom = "Animalia"
-                elif 33090 in lineage_ids:
-                    kingdom = "Plantae"
-                elif 4751 in lineage_ids:
-                    kingdom = "Fungi"
-                else:
-                    kingdom = "Protista / Chromista"
-
-            # Extract Phylum, Class, Order, Family, Genus from lineage
-            for nid in lineage_ids:
-                n = nodes.get(str(nid), {})
-                rank = n.get("rank")
-                name = n.get("name", "")
-                major = n.get("major_name") or name
-
-                if rank == "Phylum":
-                    phylum = major
-                elif rank == "Class":
-                    tax_class = major
-                elif rank == "Order":
-                    order = major
-                elif rank == "Family":
-                    family = major
-                elif rank == "Genus":
-                    genus = major
-
-            # Biological standardizations & fallbacks
-            if kingdom == "Protista / Chromista" and phylum in ["Chordata", "Unknown Phylum"]:
-                for nid in lineage_ids:
-                    n = nodes.get(str(nid), {})
-                    if n.get("name") in ["Rhodophyta", "Oomycota", "Ochrophyta", "Amoebozoa"]:
-                        phylum = n.get("name")
-                        break
-
-            if tax_class == "Unknown Class":
-                if phylum in ["Chordata", "Arthropoda", "Mollusca"]:
-                    tax_class = f"{phylum} Incertae Sedis"
-                else:
-                    tax_class = f"{phylum} Group"
-
-            if order == "Unknown Order":
-                for nid in lineage_ids:
-                    n = nodes.get(str(nid), {})
-                    node_name = n.get("name", "")
-                    if node_name.endswith("formes") or node_name.endswith("ales"):
-                        order = node_name
-                        break
-                if order == "Unknown Order":
-                    if family != "Unknown Family":
-                        order = f"{family} Allies"
-                    else:
-                        order = f"{tax_class} Incertae Sedis"
-
-            if family == "Unknown Family":
-                if genus and genus != "Unknown Genus":
-                    family = f"{genus} Group"
-                else:
-                    family = f"{order} Incertae Sedis"
-
-        # Genus extraction
-        if not genus or genus == "Unknown Genus":
-            genus = scientific.split()[0] if scientific else "Unknown Genus"
-
-        tree_hierarchy[domain][kingdom][phylum][tax_class][order][family].append({
+        tree_hierarchy[domain][kingdom][phylum][tax_class][order][family][genus].append({
             "common": common,
             "scientific": scientific,
             "genus": genus
         })
-
-        enriched_catalog.append({
-            "display": f"{common} ({scientific})",
-            "common": common,
-            "scientific": scientific,
-            "clade": kingdom if kingdom in ["Plantae", "Fungi", "Protista / Chromista"] else ("Invertebrates" if phylum != "Chordata" and kingdom == "Animalia" else tax_class),
-            "subclade": order,
-            "domain": domain,
-            "kingdom": kingdom,
-            "phylum": phylum,
-            "class": tax_class,
-            "order": order,
-            "family": family,
-            "genus": genus
-        })
-
         resolved_species.append((common, scientific))
 
     print(f"Total resolved species: {len(resolved_species)}")
     assert len(resolved_species) == len(old_species), f"Resolved count {len(resolved_species)} must match {len(old_species)}"
-
-    # Save enriched taxonomy catalog json
-    with open(tax_cat_path, "w", encoding="utf-8") as f:
-        json.dump(enriched_catalog, f, indent=2)
-    print(f"Successfully saved enriched {tax_cat_path} with 8-rank metadata!")
 
     print("\n=== Step 3: Formatting Hierarchical Markdown Document ===")
     md_lines = []
@@ -292,7 +164,7 @@ def main():
         if dom not in tree_hierarchy: continue
         k_dict = tree_hierarchy[dom]
         for k_name, p_dict in k_dict.items():
-            k_count = sum(len(sp_list) for p in p_dict.values() for c in p.values() for o in c.values() for sp_list in o.values())
+            k_count = sum(len(sp_list) for p in p_dict.values() for c in p.values() for o in c.values() for f in o.values() for sp_list in f.values())
             total_catalog_count += k_count
 
             # Descriptive summary
@@ -326,7 +198,7 @@ def main():
     for dom in domain_order:
         if dom not in tree_hierarchy: continue
         k_dict = tree_hierarchy[dom]
-        dom_count = sum(len(sp_list) for p_dict in k_dict.values() for p in p_dict.values() for c in p.values() for o in c.values() for sp_list in o.values())
+        dom_count = sum(len(sp_list) for p_dict in k_dict.values() for p in p_dict.values() for c in p.values() for o in c.values() for f in o.values() for sp_list in f.values())
 
         md_lines.append("<details>")
         md_lines.append(f"<summary>⬛ <b>Domain: {dom}</b> — {dom_count:,} Species</summary>")
@@ -345,7 +217,7 @@ def main():
         for k_name in kingdom_order:
             if k_name not in k_dict: continue
             p_dict = k_dict[k_name]
-            k_count = sum(len(sp_list) for p in p_dict.values() for c in p.values() for o in c.values() for sp_list in o.values())
+            k_count = sum(len(sp_list) for p in p_dict.values() for c in p.values() for o in c.values() for f in o.values() for sp_list in f.values())
 
             k_title = f"{k_name} (Metazoa)" if k_name == "Animalia" else f"{k_name} (Viridiplantae)" if k_name == "Plantae" else k_name
 
@@ -358,7 +230,7 @@ def main():
 
             for phylum in phyla_sorted:
                 c_dict = p_dict[phylum]
-                p_count = sum(len(sp_list) for c in c_dict.values() for o in c.values() for sp_list in o.values())
+                p_count = sum(len(sp_list) for c in c_dict.values() for o in c.values() for f in o.values() for sp_list in f.values())
                 p_label = f"{phylum} ({PHYLUM_COMMON[phylum]})" if phylum in PHYLUM_COMMON else phylum
 
                 md_lines.append("<details>")
@@ -370,7 +242,7 @@ def main():
 
                 for cls in classes_sorted:
                     o_dict = c_dict[cls]
-                    cls_count = sum(len(sp_list) for o in o_dict.values() for sp_list in o.values())
+                    cls_count = sum(len(sp_list) for o in o_dict.values() for f in o.values() for sp_list in f.values())
                     cls_label = f"{cls} ({CLASS_COMMON[cls]})" if cls in CLASS_COMMON else cls
 
                     md_lines.append("<details>")
@@ -382,7 +254,7 @@ def main():
 
                     for order in orders_sorted:
                         f_dict = o_dict[order]
-                        ord_count = sum(len(sp_list) for sp_list in f_dict.values())
+                        ord_count = sum(len(sp_list) for g_dict in f_dict.values() for sp_list in g_dict.values())
 
                         md_lines.append("<details>")
                         md_lines.append(f"<summary>🟥 <b>Order: {order}</b> — {ord_count:,} Species</summary>")
@@ -392,18 +264,32 @@ def main():
                         fams_sorted = sorted(f_dict.keys(), key=lambda f: f.lower())
 
                         for fam in fams_sorted:
-                            sp_list = f_dict[fam]
-                            # Sort species alphabetically by common name
-                            sp_list.sort(key=lambda s: s["common"].lower())
+                            g_dict = f_dict[fam]
+                            fam_count = sum(len(sp_list) for sp_list in g_dict.values())
 
                             md_lines.append("<details>")
-                            md_lines.append(f"<summary>🟧 <b>Family: {fam}</b> — {len(sp_list)} Species</summary>")
+                            md_lines.append(f"<summary>🟧 <b>Family: {fam}</b> — {fam_count:,} Species</summary>")
                             md_lines.append("")
-                            md_lines.append("| Common Name | Scientific Name | 🟨 Genus |")
-                            md_lines.append("| :--- | :--- | :--- |")
 
-                            for sp in sp_list:
-                                md_lines.append(f"| {sp['common']} | *{sp['scientific']}* | *{sp['genus']}* |")
+                            # Sort genera alphabetically A-Z
+                            genera_sorted = sorted(g_dict.keys(), key=lambda g: g.lower())
+
+                            for genus in genera_sorted:
+                                sp_list = g_dict[genus]
+                                # Sort species alphabetically by common name
+                                sp_list.sort(key=lambda s: s["common"].lower())
+
+                                md_lines.append("<details>")
+                                md_lines.append(f"<summary>🟨 <b>Genus: {genus}</b> — {len(sp_list):,} Species</summary>")
+                                md_lines.append("")
+                                md_lines.append("| Common Name | Scientific Name |")
+                                md_lines.append("| :--- | :--- |")
+
+                                for sp in sp_list:
+                                    md_lines.append(f"| {sp['common']} | *{sp['scientific']}* |")
+
+                                md_lines.append("")
+                                md_lines.append("</details>")
 
                             md_lines.append("")
                             md_lines.append("</details>")
@@ -440,7 +326,7 @@ def main():
         line_s = line.strip()
         if line_s.startswith('|') and not line_s.startswith('| :---') and not line_s.startswith('| Common Name') and not line_s.startswith('| ⬛ Domain') and not line_s.startswith('| **Total'):
             parts = [p.strip() for p in line_s.split('|')[1:-1]]
-            if len(parts) >= 3 and parts[1].startswith('*') and parts[1].endswith('*') and not parts[1].startswith('**'):
+            if len(parts) >= 2 and parts[1].startswith('*') and parts[1].endswith('*') and not parts[1].startswith('**'):
                 scientific = parts[1].strip('*').strip()
                 common = parts[0].strip()
                 new_species.append((common, scientific))

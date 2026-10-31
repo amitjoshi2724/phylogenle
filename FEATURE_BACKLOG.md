@@ -16,6 +16,7 @@
   - **Universal Catalog Sync:** While the PRNG target selection is date-bounded, the master catalog, autocomplete search, and guess evaluation remain universal and always up-to-date.
 - **💬 Amit's Raw Notes:**
   - *(Drop quick thoughts, quirks, or ideas for this item here)*
+  Yea like there should be some sort of index (one for each game mode btw) that knows that batch 1 has this many things, so the prng should never pick more than that number of things from batch 1 for the days in which only batch 1 is active. then for the days where batch 2 is active, generate a random number from 1 to n where n is the number of things in batch 1 + the number of things in batch 2, and then go into the right batch using arithmetic and then find out what the target is. the practice mode should always be up-to-date btw
 
 ---
 
@@ -30,6 +31,7 @@
   - **Live Guess Feed:** Each guess appears in real-time labeled with the player's name and avatar, updating the phylogenetic tree cooperatively.
 - **💬 Amit's Raw Notes:**
   - *(Drop quick thoughts, quirks, or ideas for this item here)*
+  like uk how in spaceship flight you can join a server with a code, and then you see other people joining with their little cursor things, and you can see their names and their little cursors, and you can see them solving the puzzle, and you can see them chatting with each other? something like that but for phylogenle. so basically you copy the link, send it to your friend, and then they join the server with the code, and then you can see them on the phylogenetic tree, and you can see them guessing, and you can see them chatting with each other. except you can't see their names or their cursors or them guessing, you can only see the things that they guess, and you can see the phylogenetic tree updating in real time with their guesses. so yeah, basically just spaceship flight but for phylogenle.
 
 ---
 
@@ -41,6 +43,7 @@
   - **Custom Gameplay Screen:** Displays "Custom Puzzle by [Friend]" with standard divergence feedback and a customized victory share banner.
 - **💬 Amit's Raw Notes:**
   - *(Drop quick thoughts, quirks, or ideas for this item here)*
+  yea as long as the encryption is not genuinely readable by a casual human its chill. even textbook rsa is fine right? idk tho u decide
 
 ---
 
@@ -51,7 +54,7 @@
   - Deliver clean, responsive SVG assets for both light and dark backgrounds, browser favicon, and OpenGraph social preview cards.
 - **💬 Amit's Raw Notes:**
   - *(Drop quick thoughts, quirks, or ideas for this item here)*
-
+yea ill j try to ai generate ts. my idea is to maybe have square emojis and the tree and the dna thingy kinda fused together, or maybe just a cool abstract logo with those things somewhere in it. something that 
 ---
 
 ### 5. 🐾 UI Polish: Thematic Nature & Animal Emoji Decoration

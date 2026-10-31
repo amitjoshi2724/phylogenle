@@ -11,7 +11,8 @@ import {
     parseDate, 
     formatDate,
     getAliasesForSpecies,
-    getTargetPresentationName
+    getTargetPresentationName,
+    EPOCH_DATE_STR
 } from './prng.js?v=tree_order_4';
 import { 
     recordDailyCompletion, 
@@ -274,6 +275,7 @@ function bootPhylogenle() {
                 if (treeResp) {
                     if (!treeResp.ok) throw new Error(`HTTP ${treeResp.status} loading phylogeny tree`);
                     phylogenyTree = await treeResp.json();
+                    buildCatalogCladeIndex();
                 }
 
                 if (aliasesResp) {
@@ -303,7 +305,11 @@ function bootPhylogenle() {
             gameEndPanel.classList.add('hidden');
             renderHintsCard();
             if (inputSection) inputSection.style.display = 'flex';
-            animalInput.value = '';
+            if (animalInput && animalInput.parentElement) animalInput.parentElement.style.display = '';
+            if (guessBtn) guessBtn.style.display = '';
+            if (giveUpBtn) giveUpBtn.style.display = '';
+            if (hintBtn) hintBtn.style.display = '';
+            if (animalInput) animalInput.value = '';
 
             if (targetAlertContainer) targetAlertContainer.innerHTML = '';
 
@@ -1637,9 +1643,11 @@ function bootPhylogenle() {
             endEmojisRow.textContent = emojis;
         }
 
-        animalInput.parentElement.style.display = 'none';
-        guessBtn.style.display = 'none';
-        giveUpBtn.style.display = 'none';
+        if (inputSection) inputSection.style.display = 'none';
+        if (animalInput && animalInput.parentElement) animalInput.parentElement.style.display = '';
+        if (guessBtn) guessBtn.style.display = '';
+        if (giveUpBtn) giveUpBtn.style.display = '';
+        if (hintBtn) hintBtn.style.display = '';
         gameEndPanel.classList.remove('hidden');
 
         updateTree();
@@ -2358,6 +2366,7 @@ function bootPhylogenle() {
 
             if (taxResp.ok) {
                 catalogTaxonomyData = await taxResp.json();
+                buildCatalogCladeIndex();
             }
 
             catalogLoaded = true;
@@ -2417,6 +2426,8 @@ function bootPhylogenle() {
                 html += `<h1>${formatInlineMarkdown(trimmed.substring(2))}</h1>`;
             } else if (trimmed === '---') {
                 html += '<hr>';
+            } else if (trimmed.startsWith('<details') || trimmed.startsWith('</details') || trimmed.startsWith('<summary') || trimmed.startsWith('</summary>')) {
+                html += trimmed + '\n';
             } else if (trimmed) {
                 html += `<p>${formatInlineMarkdown(trimmed)}</p>`;
             }
@@ -2472,8 +2483,102 @@ function bootPhylogenle() {
         return tempDiv.innerHTML;
     }
 
+    let catalogSearchMatches = [];
+    let catalogSearchRenderedCount = 0;
+    const CATALOG_SEARCH_CHUNK_SIZE = 150;
+    let catalogSearchScrollAttached = false;
+
+    let catalogCladeIndex = null;
+    let catalogSpeciesLookup = null;
+    let catalogNodeNameToNode = null;
+
+    function buildCatalogCladeIndex() {
+        if (!phylogenyTree || !catalogTaxonomyData || catalogCladeIndex) return;
+
+        const cladeToSpecies = new Map();
+        const nodeNames = new Map();
+        catalogNodeNameToNode = new Map();
+
+        // 1. Map node ID -> lowercase clean name and catalogNodeNameToNode
+        if (phylogenyTree.nodes) {
+            for (const [nid, node] of Object.entries(phylogenyTree.nodes)) {
+                if (node.name) {
+                    const cleanName = node.name.toLowerCase().trim();
+                    nodeNames.set(Number(nid), cleanName);
+                    if (!catalogNodeNameToNode.has(cleanName)) {
+                        catalogNodeNameToNode.set(cleanName, node);
+                    }
+                }
+            }
+        }
+
+        // 2. Map species keys to catalogTaxonomyData items for fast lookup
+        catalogSpeciesLookup = new Map();
+        for (let i = 0; i < catalogTaxonomyData.length; i++) {
+            const item = catalogTaxonomyData[i];
+            const disp = (item.display || `${item.common} (${item.scientific})`).toLowerCase().trim();
+            catalogSpeciesLookup.set(disp, item);
+            if (item.scientific) {
+                catalogSpeciesLookup.set(item.scientific.toLowerCase().trim(), item);
+            }
+            if (item.common) {
+                catalogSpeciesLookup.set(item.common.toLowerCase().trim(), item);
+            }
+        }
+
+        // 3. Map every clade name to a Set of matching catalog items
+        if (phylogenyTree.species) {
+            for (const [spKey, nids] of Object.entries(phylogenyTree.species)) {
+                const catItem = catalogSpeciesLookup.get(spKey) || 
+                                (spKey.includes('(') ? catalogSpeciesLookup.get(spKey.match(/\((.*?)\)/)?.[1]?.toLowerCase()) : null);
+                if (!catItem || !Array.isArray(nids)) continue;
+
+                for (let i = 0; i < nids.length; i++) {
+                    const cname = nodeNames.get(nids[i]);
+                    if (cname) {
+                        let itemSet = cladeToSpecies.get(cname);
+                        if (!itemSet) {
+                            itemSet = new Set();
+                            cladeToSpecies.set(cname, itemSet);
+                        }
+                        itemSet.add(catItem);
+                    }
+                }
+            }
+        }
+
+        catalogCladeIndex = cladeToSpecies;
+    }
+
+    function getTaxonVariants(query) {
+        const q = (query || '').toLowerCase().trim();
+        const variants = new Set([q]);
+        if (q.endsWith('s') && q.length > 3) variants.add(q.slice(0, -1));
+        if (q.endsWith('ids') && q.length > 4) {
+            variants.add(q.slice(0, -3) + 'idae');
+            variants.add(q.slice(0, -3) + 'ida');
+        }
+        if (q.endsWith('id') && q.length > 3) {
+            variants.add(q.slice(0, -2) + 'idae');
+            variants.add(q.slice(0, -2) + 'ida');
+        }
+        if (q.endsWith('e') && q.length > 3) {
+            variants.add(q.slice(0, -1) + 'a');
+        }
+        if (q.endsWith('an') && q.length > 4) {
+            variants.add(q.slice(0, -2) + 'a');
+        }
+        return Array.from(variants);
+    }
+
     function renderCatalogView() {
         if (!catalogContent) return;
+
+        if (catalogSearchScrollAttached) {
+            catalogContent.removeEventListener('scroll', handleCatalogSearchScroll);
+            catalogSearchScrollAttached = false;
+        }
+
         const searchQuery = catalogSearchInput ? catalogSearchInput.value.toLowerCase().trim() : '';
 
         if (searchQuery) {
@@ -2486,7 +2591,7 @@ function bootPhylogenle() {
                 <button type="button" id="catalog-expand-all-btn" class="tree-action-btn">➕ Expand All</button>
                 <button type="button" id="catalog-collapse-all-btn" class="tree-action-btn">➖ Collapse All</button>
                 <span style="font-size: 0.8rem; color: var(--text-secondary); margin-left: auto;">
-                    All 8 ranks collapsed by default — click any level (Domain ➔ Kingdom ➔ Phylum ➔ Class ➔ Order ➔ Family) to expand
+                    All 8 ranks collapsed by default — click any level (Domain ➔ Kingdom ➔ Phylum ➔ Class ➔ Order ➔ Family ➔ Genus) to expand
                 </span>
             </div>
         `;
@@ -2542,14 +2647,20 @@ function bootPhylogenle() {
         if (!catalogLoaded) {
             await loadSpeciesCatalog();
         }
-        if (catalogSearchInput && catalogSearchInput.value) {
-            catalogSearchInput.value = '';
-            renderCatalogView();
-        }
 
         const raw = (taxonName || '').trim();
         const clean = raw.toLowerCase();
         if (!clean) return;
+
+        buildCatalogCladeIndex();
+
+        // Clear search input initially
+        if (catalogSearchInput && catalogSearchInput.value) {
+            catalogSearchInput.value = '';
+        }
+        if (catalogSearchClear) {
+            catalogSearchClear.classList.add('hidden');
+        }
 
         setTimeout(() => {
             if (!catalogContent) return;
@@ -2629,9 +2740,10 @@ function bootPhylogenle() {
                 return;
             }
 
-            // 4. Fallback to search input
+            // 4. Clade / Taxon search (for intermediate clades, superfamilies, orders like Muroidea, Tetrapoda, Glires)
             if (catalogSearchInput) {
-                catalogSearchInput.value = cleanNoParen || clean;
+                catalogSearchInput.value = raw;
+                if (catalogSearchClear) catalogSearchClear.classList.remove('hidden');
                 renderCatalogView();
             }
         }, 120);
@@ -2641,57 +2753,134 @@ function bootPhylogenle() {
 
     function renderCatalogSearchResults(query) {
         if (!catalogContent) return;
-        let matches = [];
 
+        if (catalogSearchScrollAttached) {
+            catalogContent.removeEventListener('scroll', handleCatalogSearchScroll);
+            catalogSearchScrollAttached = false;
+        }
+
+        buildCatalogCladeIndex();
+
+        const cleanQ = query.toLowerCase().trim();
+        const queryVariants = getTaxonVariants(cleanQ);
+
+        let matches = [];
+        const seen = new Set();
+
+        // 1. Direct taxonomic fields matching
         if (catalogTaxonomyData && Array.isArray(catalogTaxonomyData)) {
             for (let i = 0; i < catalogTaxonomyData.length; i++) {
                 const item = catalogTaxonomyData[i];
-                if ((item.common && item.common.toLowerCase().includes(query)) ||
-                    (item.scientific && item.scientific.toLowerCase().includes(query)) ||
-                    (item.genus && item.genus.toLowerCase().includes(query)) ||
-                    (item.family && item.family.toLowerCase().includes(query)) ||
-                    (item.order && item.order.toLowerCase().includes(query)) ||
-                    (item.class && item.class.toLowerCase().includes(query)) ||
-                    (item.phylum && item.phylum.toLowerCase().includes(query)) ||
-                    (item.kingdom && item.kingdom.toLowerCase().includes(query)) ||
-                    (item.domain && item.domain.toLowerCase().includes(query))) {
+                if ((item.common && item.common.toLowerCase().includes(cleanQ)) ||
+                    (item.scientific && item.scientific.toLowerCase().includes(cleanQ)) ||
+                    (item.genus && item.genus.toLowerCase().includes(cleanQ)) ||
+                    (item.family && item.family.toLowerCase().includes(cleanQ)) ||
+                    (item.order && item.order.toLowerCase().includes(cleanQ)) ||
+                    (item.class && item.class.toLowerCase().includes(cleanQ)) ||
+                    (item.phylum && item.phylum.toLowerCase().includes(cleanQ)) ||
+                    (item.kingdom && item.kingdom.toLowerCase().includes(cleanQ)) ||
+                    (item.domain && item.domain.toLowerCase().includes(cleanQ))) {
+                    seen.add(item);
                     matches.push(item);
-                    if (matches.length >= 100) break;
                 }
             }
         } else {
             for (let i = 0; i < allSpecies.length; i++) {
                 const sp = allSpecies[i];
-                if (sp.toLowerCase().includes(query)) {
+                if (sp.toLowerCase().includes(cleanQ)) {
                     const common = sp.split(' (')[0];
                     const sciMatch = sp.match(/\((.*?)\)/);
-                    matches.push({
+                    const item = {
                         display: sp,
                         common: common,
                         scientific: sciMatch ? sciMatch[1] : '',
                         clade: '',
                         subclade: ''
-                    });
-                    if (matches.length >= 100) break;
+                    };
+                    seen.add(sp);
+                    matches.push(item);
                 }
             }
         }
 
+        // 2. Comprehensive Clade & Phylogenetic Lineage Indexing
+        if (catalogCladeIndex) {
+            // First: exact matches on any variant (e.g. muroidea, amniota, glires)
+            for (const v of queryVariants) {
+                const exactSet = catalogCladeIndex.get(v);
+                if (exactSet) {
+                    for (const item of exactSet) {
+                        if (!seen.has(item)) {
+                            seen.add(item);
+                            matches.push(item);
+                        }
+                    }
+                }
+            }
+
+            // Second: substring matches on clades if query length >= 4
+            if (cleanQ.length >= 4) {
+                for (const [cname, itemSet] of catalogCladeIndex.entries()) {
+                    for (const v of queryVariants) {
+                        if (cname.includes(v)) {
+                            for (const item of itemSet) {
+                                if (!seen.has(item)) {
+                                    seen.add(item);
+                                    matches.push(item);
+                                }
+                            }
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+
+        catalogSearchMatches = matches;
+        catalogSearchRenderedCount = 0;
+
         if (matches.length === 0) {
             catalogContent.innerHTML = `
                 <div class="catalog-empty-notice">
-                    No organisms found matching "<strong>${query}</strong>".<br>
+                    No organisms found matching "<strong>${escapeHtml(query)}</strong>".<br>
                     <span style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 6px; display: inline-block;">
-                        Try searching by genus (*Amphiprion*, *Panthera*), family (Felidae, Percidae), order, or common name.
+                        Try searching by genus (*Amphiprion*, *Panthera*), family (Felidae, Percidae), order (Rodentia, Carnivora), or clade (Muroidea, Tetrapoda).
                     </span>
                 </div>
             `;
             return;
         }
 
+        // Check if there is known clade metadata to present
+        let cladeBannerHtml = '';
+        if (catalogNodeNameToNode) {
+            for (const v of queryVariants) {
+                const nodeInfo = catalogNodeNameToNode.get(v);
+                if (nodeInfo) {
+                    cladeBannerHtml = `
+                        <div class="catalog-clade-banner" style="background: rgba(99, 102, 241, 0.15); border: 1px solid rgba(99, 102, 241, 0.4); border-radius: 8px; padding: 0.5rem 0.85rem; margin: 0.5rem 0 0.85rem 0; font-size: 0.85rem; color: #c7d2fe;">
+                            🧬 Taxonomic Clade: <strong>${escapeHtml(nodeInfo.name)}</strong>
+                            ${nodeInfo.rank ? ` &bull; Rank: <span style="color: #fbbf24;">${escapeHtml(nodeInfo.rank)}</span>` : ''}
+                            ${nodeInfo.major_name && nodeInfo.major_name.toLowerCase() !== nodeInfo.name.toLowerCase() ? ` &bull; Major Linnaean Group: <strong>${escapeHtml(nodeInfo.major_name)}</strong>` : ''}
+                            ${nodeInfo.time ? ` &bull; Divergence Age: ~${nodeInfo.time} Mya` : ''}
+                        </div>
+                    `;
+                    break;
+                }
+            }
+        }
+
+        const initialBatch = matches.slice(0, CATALOG_SEARCH_CHUNK_SIZE);
+        catalogSearchRenderedCount = initialBatch.length;
+
+        const subtitleText = matches.length <= CATALOG_SEARCH_CHUNK_SIZE
+            ? `Showing all ${matches.length.toLocaleString()} matching organisms (click "🎯 Guess" to select):`
+            : `Found <strong>${matches.length.toLocaleString()}</strong> matching organisms. Showing <span id="catalog-search-count">${catalogSearchRenderedCount.toLocaleString()}</span> (scroll down to browse all):`;
+
         let html = `
-            <h2>🔍 Search Results for "${query}"</h2>
-            <p style="color: var(--text-secondary); font-size: 0.85rem;">Showing top ${matches.length} matching organisms (click "🎯 Guess" to select):</p>
+            <h2>🔍 Search Results for "${escapeHtml(query)}"</h2>
+            ${cladeBannerHtml}
+            <p id="catalog-search-subtitle" style="color: var(--text-secondary); font-size: 0.85rem;">${subtitleText}</p>
             <table class="catalog-table">
                 <thead>
                     <tr>
@@ -2702,10 +2891,29 @@ function bootPhylogenle() {
                         <th style="width: 100px;">Action</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody id="catalog-search-tbody">
+                    ${renderCatalogSearchRowsHtml(initialBatch)}
+                </tbody>
+            </table>
+            <div id="catalog-search-scroll-status" style="text-align: center; padding: 12px; font-size: 0.82rem; color: var(--text-secondary);">
+                ${matches.length > catalogSearchRenderedCount 
+                    ? `Showing ${catalogSearchRenderedCount.toLocaleString()} of ${matches.length.toLocaleString()} organisms — scroll down to load more`
+                    : `✓ All ${matches.length.toLocaleString()} matching organisms loaded`}
+            </div>
         `;
 
-        for (const m of matches) {
+        catalogContent.innerHTML = html;
+        catalogContent.scrollTop = 0;
+
+        if (catalogSearchRenderedCount < matches.length) {
+            catalogContent.addEventListener('scroll', handleCatalogSearchScroll);
+            catalogSearchScrollAttached = true;
+        }
+    }
+
+    function renderCatalogSearchRowsHtml(items) {
+        let rowsHtml = '';
+        for (const m of items) {
             const fullSpecies = m.display || `${m.common} (${m.scientific})`;
             const lineageParts = [];
             if (m.kingdom) lineageParts.push(m.kingdom);
@@ -2714,20 +2922,51 @@ function bootPhylogenle() {
             if (m.family && !m.family.includes('Incertae')) lineageParts.push(m.family);
             const lineageStr = lineageParts.join(' ➔ ') || (m.clade ? `${m.clade} • ${m.subclade}` : '');
 
-            html += `
+            rowsHtml += `
                 <tr>
-                    <td><strong>${m.common}</strong></td>
-                    <td><em>${m.scientific}</em></td>
-                    <td><span style="color: #fbbf24;">*${m.genus || m.scientific.split(' ')[0]}*</span></td>
-                    <td><span style="font-size: 0.78rem; color: #94a3b8;">${lineageStr}</span></td>
+                    <td><strong>${escapeHtml(m.common || '')}</strong></td>
+                    <td><em>${escapeHtml(m.scientific || '')}</em></td>
+                    <td><span style="color: #fbbf24;">*${escapeHtml(m.genus || (m.scientific ? m.scientific.split(' ')[0] : ''))}*</span></td>
+                    <td><span style="font-size: 0.78rem; color: #94a3b8;">${escapeHtml(lineageStr)}</span></td>
                     <td><button class="catalog-guess-btn" data-species="${encodeURIComponent(fullSpecies)}">🎯 Guess</button></td>
                 </tr>
             `;
         }
+        return rowsHtml;
+    }
 
-        html += `</tbody></table>`;
-        catalogContent.innerHTML = html;
-        catalogContent.scrollTop = 0;
+    function handleCatalogSearchScroll() {
+        if (!catalogContent || catalogSearchRenderedCount >= catalogSearchMatches.length) return;
+        const { scrollTop, scrollHeight, clientHeight } = catalogContent;
+        if (scrollTop + clientHeight >= scrollHeight - 350) {
+            const nextBatch = catalogSearchMatches.slice(catalogSearchRenderedCount, catalogSearchRenderedCount + CATALOG_SEARCH_CHUNK_SIZE);
+            if (nextBatch.length > 0) {
+                const tbody = document.getElementById('catalog-search-tbody');
+                if (tbody) {
+                    tbody.insertAdjacentHTML('beforeend', renderCatalogSearchRowsHtml(nextBatch));
+                }
+                catalogSearchRenderedCount += nextBatch.length;
+
+                const countSpan = document.getElementById('catalog-search-count');
+                if (countSpan) {
+                    countSpan.textContent = catalogSearchRenderedCount.toLocaleString();
+                }
+
+                const statusDiv = document.getElementById('catalog-search-scroll-status');
+                if (statusDiv) {
+                    if (catalogSearchRenderedCount >= catalogSearchMatches.length) {
+                        statusDiv.textContent = `✓ All ${catalogSearchMatches.length.toLocaleString()} matching organisms loaded`;
+                    } else {
+                        statusDiv.textContent = `Showing ${catalogSearchRenderedCount.toLocaleString()} of ${catalogSearchMatches.length.toLocaleString()} organisms — scroll down to load more`;
+                    }
+                }
+
+                if (catalogSearchRenderedCount >= catalogSearchMatches.length) {
+                    catalogContent.removeEventListener('scroll', handleCatalogSearchScroll);
+                    catalogSearchScrollAttached = false;
+                }
+            }
+        }
     }
 
     // Catalog event bindings
@@ -3062,8 +3301,10 @@ function bootPhylogenle() {
         const curDate = parseDate(todayStr);
         const q = query.trim().toLowerCase();
 
-        // Show last 60 days in list
-        for (let i = 0; i < 60; i++) {
+        // Show all days from today back to epoch (no artificial truncation)
+        const epochDate = parseDate(EPOCH_DATE_STR);
+        const dayDiff = Math.max(0, Math.round((curDate - epochDate) / (1000 * 60 * 60 * 24)));
+        for (let i = 0; i <= dayDiff; i++) {
             const d = new Date(curDate);
             d.setDate(d.getDate() - i);
             const dateStr = formatDate(d);
@@ -3237,6 +3478,11 @@ function bootPhylogenle() {
     }
 
     document.getElementById('share-score-btn')?.addEventListener('click', shareScore);
+
+    window.addEventListener('popstate', () => {
+        checkURLParams();
+        initGame();
+    });
 
     // Initial load
     checkURLParams();
