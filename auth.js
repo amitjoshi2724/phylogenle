@@ -160,6 +160,9 @@ export function renderAuthUI(user) {
                     <div class="account-status-row">
                         <span class="cloud-status-dot"></span> Cloud Synced
                     </div>
+                    <button id="account-open-stats-btn" class="account-stats-btn" style="background: rgba(59, 130, 246, 0.16); border: 1px solid rgba(96, 165, 250, 0.45); color: #93c5fd; border-radius: 8px; padding: 0.48rem 0.65rem; font-size: 0.8rem; font-weight: 600; cursor: pointer; margin-top: 0.25rem; text-align: left; display: flex; align-items: center; gap: 6px; transition: all 0.2s;">
+                        <span>📊</span> My Games &amp; Statistics
+                    </button>
                     <button id="signout-btn" class="account-signout-btn">Sign Out</button>
                 </div>
             </div>
@@ -168,6 +171,17 @@ export function renderAuthUI(user) {
         const userInfoBtn = document.getElementById('user-info-btn');
         const dropdown = document.getElementById('identity-dropdown');
         const signoutBtn = document.getElementById('signout-btn');
+        const accountStatsBtn = document.getElementById('account-open-stats-btn');
+
+        if (accountStatsBtn) {
+            accountStatsBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                if (dropdown) dropdown.classList.remove('active');
+                if (userInfoBtn) userInfoBtn.setAttribute('aria-expanded', 'false');
+                const statsBtn = document.getElementById('stats-modal-btn');
+                if (statsBtn) statsBtn.click();
+            });
+        }
 
         if (userInfoBtn && dropdown) {
             userInfoBtn.addEventListener('click', (e) => {

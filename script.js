@@ -17,8 +17,10 @@ import {
 } from './prng.js?v=tree_order_4';
 import { 
     recordDailyCompletion, 
+    recordPracticeCompletion,
     getStats, 
     getHistory, 
+    getAllGamesLedger,
     getRecordForDate, 
     saveActiveGuesses, 
     loadActiveGuesses, 
@@ -27,9 +29,10 @@ import {
     loadActiveHints,
     clearActiveHints,
     resetDateRecord,
-    resetAllHistory
+    resetAllHistory,
+    onStorageChange
 } from './storage.js';
-import './auth.js'; // Initializes Google Auth singleton & UI
+import { getCurrentUser, onAuthChange } from './auth.js'; // Initializes Google Auth singleton & UI
 
 function bootPhylogenle() {
     // DOM Elements
@@ -1298,7 +1301,7 @@ function bootPhylogenle() {
         hint.timestamp = Date.now();
         revealedHints.push(hint);
         if (!isUnlimited) {
-            saveActiveHints(currentDateStr, revealedHints);
+            saveActiveHints(currentDateStr, revealedHints, { targetSpecies, puzzleNum });
         }
 
         addHintToBoard(hint, revealedHints.length);
@@ -1655,6 +1658,8 @@ function bootPhylogenle() {
             if (win) {
                 setTimeout(() => openModal(statsModal), 1000);
             }
+        } else {
+            recordPracticeCompletion(win, guesses.length, guesses, targetSpecies, revealedHints);
         }
     }
 
@@ -3398,39 +3403,441 @@ function bootPhylogenle() {
     }
 
     // ==========================================================================
-    // Statistics Modal Rendering
+    // Statistics & Past Games History Modal Rendering
     // ==========================================================================
-    function renderStatsModal() {
-        const stats = getStats();
+    let selectedStatsGameId = null;
 
-        document.getElementById('stat-played').textContent = stats.played;
-        const winPct = stats.played > 0 ? Math.round((stats.won / stats.played) * 100) : 0;
-        document.getElementById('stat-win-pct').textContent = `${winPct}%`;
-        document.getElementById('stat-streak').textContent = stats.currentStreak;
-        document.getElementById('stat-max-streak').textContent = stats.maxStreak;
+    const RANK_ACCURACY_PCT = {
+        'Species': 100.0,
+        'Genus': 85.7,
+        'Family': 71.4,
+        'Order': 57.1,
+        'Class': 42.9,
+        'Phylum': 28.6,
+        'Kingdom': 14.3,
+        'Domain': 5.0
+    };
 
-        const distContainer = document.getElementById('score-distribution-bars');
-        if (!distContainer) return;
+    function computeGameAccuracy(rec) {
+        if (rec.completed && rec.solved) return 100.0;
+        const gList = Array.isArray(rec.guesses) ? rec.guesses : [];
+        if (gList.length === 0) return 0.0;
+        let best = 5.0;
+        for (const g of gList) {
+            if (g.isMatch) return 100.0;
+            const r = g.lca_rank || g.rank || 'Domain';
+            const score = RANK_ACCURACY_PCT[r] || 5.0;
+            if (score > best) best = score;
+        }
+        return best;
+    }
 
-        const buckets = ['1-3', '4-6', '7-9', '10-12', '13-15', '16+'];
-        const dist = stats.distribution || {};
-        const maxVal = Math.max(1, ...buckets.map(b => dist[b] || 0));
+    function getGameVisualCategory(rec) {
+        if (!rec.completed) return 'unfinished';
+        if (!rec.solved) return 'gaveup';
+        const hintCount = Array.isArray(rec.hints) ? rec.hints.length : 0;
+        if (hintCount > 0) return 'hint';
+        const gCount = rec.guessCount || (Array.isArray(rec.guesses) ? rec.guesses.length : 0);
+        if (gCount > 0 && gCount <= 3) return 'snipe';
+        return 'solved';
+    }
 
-        distContainer.innerHTML = buckets.map(bucket => {
-            const count = dist[bucket] || 0;
-            const pct = Math.max(8, Math.round((count / maxVal) * 100));
-            return `
-                <div class="dist-row">
-                    <span class="dist-label">${bucket}</span>
-                    <div class="dist-bar-wrapper">
-                        <div class="dist-bar" style="width: ${count > 0 ? pct : 8}%;">
-                            <span>${count}</span>
+    function getCategorySwatchColor(cat) {
+        if (cat === 'snipe') return '#eab308';
+        if (cat === 'hint') return '#ec4899';
+        if (cat === 'solved') return '#8b5cf6';
+        if (cat === 'unfinished') return '#38bdf8';
+        return 'transparent';
+    }
+
+    function formatDisplayDateMMDDYYYY(dateStr, timestamp) {
+        if (dateStr && /^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
+            const [y, m, d] = dateStr.split('-');
+            return `${Number(m)}/${Number(d)}/${y}`;
+        }
+        if (timestamp) {
+            const dt = new Date(timestamp);
+            if (!isNaN(dt.getTime())) {
+                return `${dt.getMonth() + 1}/${dt.getDate()}/${dt.getFullYear()}`;
+            }
+        }
+        return dateStr || '—';
+    }
+
+    function resolveOrganismTitleForRecord(rec) {
+        if (!rec.completed) {
+            return 'Mystery Organism (In Progress)';
+        }
+        if (rec.targetSpecies) {
+            return rec.targetSpecies;
+        }
+        // Fallback for legacy completed records missing targetSpecies:
+        // Check if last winning guess has name, or deterministically compute from dateStr
+        if (Array.isArray(rec.guesses) && rec.guesses.length > 0) {
+            const matchGuess = rec.guesses.find(g => g.isMatch);
+            if (matchGuess && matchGuess.name) return matchGuess.name;
+        }
+        if (rec.dateStr && allAnimals && allAnimals.length > 0) {
+            try {
+                const resolved = getDailyTargetSpecies(
+                    rec.dateStr,
+                    allAnimals,
+                    phylogenyTree ? phylogenyTree.species : null,
+                    phylogenyTree ? phylogenyTree.nodes : null,
+                    speciesPopularity
+                );
+                if (resolved) return resolved;
+            } catch (e) {
+                // ignore
+            }
+        }
+        return `Daily Puzzle #${rec.puzzleNum || ''}`.trim();
+    }
+
+    function renderStatsHeatmap(ledger, includeUnfinished) {
+        const monthsEl = document.getElementById('stats-heatmap-months');
+        const gridEl = document.getElementById('stats-heatmap-grid');
+        const unfinLegend = document.getElementById('heatmap-legend-unfinished');
+        if (!monthsEl || !gridEl) return;
+
+        if (unfinLegend) {
+            unfinLegend.classList.toggle('hidden', !includeUnfinished);
+        }
+
+        // Index daily records by YYYY-MM-DD (prefer completed daily over unfinished)
+        const byDate = {};
+        for (const rec of ledger) {
+            const dStr = rec.dateStr;
+            if (!dStr) continue;
+            if (!byDate[dStr] || (rec.completed && !byDate[dStr].completed) || (rec.mode === 'daily' && byDate[dStr].mode !== 'daily')) {
+                byDate[dStr] = rec;
+            }
+        }
+
+        // Build 53 weeks (371 days) ending on Saturday of the current week
+        const today = parseDate(getTodayDateStr());
+        const endSaturday = new Date(today);
+        endSaturday.setDate(today.getDate() + (6 - today.getDay()));
+
+        const totalWeeks = 53;
+        const startSunday = new Date(endSaturday);
+        startSunday.setDate(endSaturday.getDate() - (totalWeeks * 7 - 1));
+
+        const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+        const monthCellsHtml = [];
+        const dayCellsHtml = [];
+        let lastMonth = -1;
+
+        for (let w = 0; w < totalWeeks; w++) {
+            const weekStart = new Date(startSunday);
+            weekStart.setDate(startSunday.getDate() + w * 7);
+            // Determine if a new month starts in this week
+            let label = '';
+            for (let d = 0; d < 7; d++) {
+                const cur = new Date(weekStart);
+                cur.setDate(weekStart.getDate() + d);
+                if (cur.getDate() === 1 || (w === 0 && d === 0)) {
+                    const m = cur.getMonth();
+                    if (m !== lastMonth) {
+                        label = monthNames[m];
+                        lastMonth = m;
+                    }
+                    break;
+                }
+            }
+            monthCellsHtml.push(`<div class="heatmap-month-label">${label}</div>`);
+
+            for (let d = 0; d < 7; d++) {
+                const cur = new Date(weekStart);
+                cur.setDate(weekStart.getDate() + d);
+                const dStr = formatDate(cur);
+                const isFuture = dStr > getTodayDateStr();
+                const rec = !isFuture ? byDate[dStr] : null;
+
+                if (rec) {
+                    const cat = getGameVisualCategory(rec);
+                    const orgTitle = resolveOrganismTitleForRecord(rec);
+                    const gCount = rec.guessCount || (Array.isArray(rec.guesses) ? rec.guesses.length : 0);
+                    const statusLabel = !rec.completed
+                        ? `Unfinished (${gCount} guesses)`
+                        : (rec.solved ? `Solved in ${gCount} guess${gCount === 1 ? '' : 'es'}` : `Gave up (${gCount} guesses)`);
+                    const tooltip = `${formatDisplayDateMMDDYYYY(dStr)} • ${rec.mode === 'practice' ? 'Practice' : `Daily #${rec.puzzleNum}`} — ${orgTitle} (${statusLabel})`;
+                    dayCellsHtml.push(
+                        `<div class="heatmap-cell has-game cell-${cat}" data-game-id="${escapeHtml(rec.id)}" data-date="${dStr}" title="${escapeHtml(tooltip)}"></div>`
+                    );
+                } else {
+                    dayCellsHtml.push(
+                        `<div class="heatmap-cell" data-date="${dStr}" title="${formatDisplayDateMMDDYYYY(dStr)}"></div>`
+                    );
+                }
+            }
+        }
+
+        monthsEl.innerHTML = monthCellsHtml.join('');
+        gridEl.innerHTML = dayCellsHtml.join('');
+
+        gridEl.querySelectorAll('.heatmap-cell.has-game').forEach(cell => {
+            cell.addEventListener('click', () => {
+                const gId = cell.getAttribute('data-game-id');
+                if (gId) openStatsGameDetail(gId, ledger);
+            });
+        });
+    }
+
+    function openStatsGameDetail(gameId, ledger) {
+        const drawer = document.getElementById('stats-game-detail-drawer');
+        if (!drawer) return;
+
+        const rec = ledger.find(r => r.id === gameId);
+        if (!rec) {
+            drawer.classList.add('hidden');
+            return;
+        }
+
+        // If the game is unfinished, resume it directly on the board so we never spoil it
+        if (!rec.completed && rec.dateStr) {
+            closeModal(statsModal);
+            loadPuzzleForDate(rec.dateStr);
+            return;
+        }
+
+        selectedStatsGameId = gameId;
+        document.querySelectorAll('#stats-history-tbody tr').forEach(tr => {
+            tr.classList.toggle('is-selected', tr.getAttribute('data-game-id') === gameId);
+        });
+
+        const orgTitle = resolveOrganismTitleForRecord(rec);
+        const commonName = orgTitle.split(' (')[0];
+        const gList = Array.isArray(rec.guesses) ? rec.guesses : [];
+        const hList = Array.isArray(rec.hints) ? rec.hints : [];
+        const gCount = rec.guessCount || gList.length;
+        const acc = computeGameAccuracy(rec).toFixed(1);
+        const modeBadge = rec.mode === 'practice' ? '∞ Practice' : `Daily #${rec.puzzleNum || getPuzzleNumber(rec.dateStr)}`;
+        const dateDisp = formatDisplayDateMMDDYYYY(rec.dateStr, rec.timestamp);
+        const outcomeLabel = rec.solved
+            ? (gCount <= 3 && hList.length === 0 ? `🎯 Sniped in ${gCount} guess${gCount === 1 ? '' : 'es'}` : `✅ Solved in ${gCount} guess${gCount === 1 ? '' : 'es'}`)
+            : `🏳️ Gave Up (${gCount} guess${gCount === 1 ? '' : 'es'})`;
+
+        const guessesHtml = gList.length > 0
+            ? gList.map((g, idx) => {
+                const emoji = getGuessRankEmoji(g);
+                const gName = (g.name || 'Unknown').split(' (')[0];
+                const lca = g.lca_name || g.lca_rank || 'Domain';
+                const tmrcaStr = g.tmrca === 0 ? '0 MYA' : (typeof g.tmrca === 'number' && g.tmrca > 0 ? `${g.tmrca.toFixed(1)} MYA` : '');
+                return `
+                    <div class="detail-guess-chip" title="${escapeHtml(g.name || '')} • Shared Clade: ${escapeHtml(lca)}">
+                        <div class="detail-guess-left">
+                            <span class="detail-guess-idx">#${idx + 1}</span>
+                            <span>${emoji}</span>
+                            <span class="detail-guess-name">${escapeHtml(gName)}</span>
                         </div>
+                        <span class="detail-guess-right">${escapeHtml(lca)}${tmrcaStr ? ` • ${tmrcaStr}` : ''}</span>
+                    </div>
+                `;
+            }).join('')
+            : `<div style="font-size: 0.78rem; color: #64748b;">No individual guess log recorded for this game.</div>`;
+
+        const hintsSummaryHtml = hList.length > 0
+            ? `<div style="font-size: 0.75rem; color: #f472b6;">💡 Hints used (${hList.length}): ${hList.map(h => `${escapeHtml(h.rank)}: ${escapeHtml(h.name)}`).join(' • ')}</div>`
+            : '';
+
+        drawer.innerHTML = `
+            <div class="detail-drawer-header">
+                <div>
+                    <div class="detail-drawer-title">
+                        <span>${escapeHtml(orgTitle)}</span>
+                        <span style="font-size: 0.75rem; font-weight: 600; padding: 2px 8px; border-radius: 999px; background: rgba(139, 92, 246, 0.2); color: #c4b5fd;">${escapeHtml(outcomeLabel)}</span>
+                    </div>
+                    <div class="detail-drawer-subtitle">
+                        ${escapeHtml(modeBadge)} • ${escapeHtml(dateDisp)} • Accuracy: ${acc}% • Hints: ${hList.length}
                     </div>
                 </div>
+                <div class="detail-drawer-actions">
+                    <button type="button" id="detail-open-catalog-btn" class="detail-action-btn" title="View organism in Universal Species Catalog">📖 Open in Catalog</button>
+                    ${rec.mode !== 'practice' && rec.dateStr ? `<button type="button" id="detail-load-board-btn" class="detail-action-btn" title="Load this date's puzzle on the game board">🗺️ View on Board</button>` : ''}
+                    <button type="button" id="detail-close-drawer-btn" class="detail-close-btn" title="Close breakdown">✕</button>
+                </div>
+            </div>
+            ${hintsSummaryHtml}
+            <div class="detail-guesses-list">
+                ${guessesHtml}
+            </div>
+        `;
+        drawer.classList.remove('hidden');
+
+        document.getElementById('detail-close-drawer-btn')?.addEventListener('click', () => {
+            selectedStatsGameId = null;
+            drawer.classList.add('hidden');
+            document.querySelectorAll('#stats-history-tbody tr').forEach(tr => tr.classList.remove('is-selected'));
+        });
+
+        document.getElementById('detail-open-catalog-btn')?.addEventListener('click', () => {
+            closeModal(statsModal);
+            openCatalogAtTaxon(commonName);
+        });
+
+        document.getElementById('detail-load-board-btn')?.addEventListener('click', () => {
+            if (rec.dateStr) {
+                closeModal(statsModal);
+                loadPuzzleForDate(rec.dateStr);
+            }
+        });
+    }
+
+    function renderStatsHistoryTable(ledger) {
+        const tbody = document.getElementById('stats-history-tbody');
+        const totalEl = document.getElementById('stats-total-count');
+        const searchInput = document.getElementById('stats-history-search');
+        if (!tbody) return;
+
+        const query = (searchInput ? searchInput.value : '').trim().toLowerCase();
+        const filtered = ledger.filter(rec => {
+            if (!query) return true;
+            const orgTitle = resolveOrganismTitleForRecord(rec).toLowerCase();
+            const puzStr = rec.mode === 'practice' ? 'practice' : `#${rec.puzzleNum || ''}`;
+            const dateDisp = formatDisplayDateMMDDYYYY(rec.dateStr, rec.timestamp).toLowerCase();
+            const rawDate = (rec.dateStr || '').toLowerCase();
+            return orgTitle.includes(query) || puzStr.includes(query) || dateDisp.includes(query) || rawDate.includes(query);
+        });
+
+        if (totalEl) {
+            totalEl.textContent = String(filtered.length);
+        }
+
+        if (filtered.length === 0) {
+            tbody.innerHTML = `
+                <tr class="stats-empty-row">
+                    <td colspan="6">No games recorded yet. Play a Daily or Practice puzzle and your history will automatically be saved here!</td>
+                </tr>
+            `;
+            return;
+        }
+
+        tbody.innerHTML = filtered.map(rec => {
+            const cat = getGameVisualCategory(rec);
+            const dotColor = getCategorySwatchColor(cat);
+            const dotStyle = cat === 'gaveup'
+                ? 'background: transparent; border: 1.5px solid #94a3b8;'
+                : (cat === 'unfinished' ? 'background: rgba(56,189,248,0.3); border: 1.5px dashed #38bdf8;' : `background: ${dotColor};`);
+            const orgTitle = resolveOrganismTitleForRecord(rec);
+            const hintCount = Array.isArray(rec.hints) ? rec.hints.length : 0;
+            const hintsCell = hintCount > 0 ? `${hintCount}` : '—';
+            const gCount = rec.guessCount || (Array.isArray(rec.guesses) ? rec.guesses.length : 0);
+            const acc = computeGameAccuracy(rec).toFixed(1);
+            const dailyCell = rec.mode === 'practice' ? '∞ Practice' : `#${rec.puzzleNum || getPuzzleNumber(rec.dateStr)}`;
+            const dateCell = formatDisplayDateMMDDYYYY(rec.dateStr, rec.timestamp);
+            const isSelected = selectedStatsGameId && selectedStatsGameId === rec.id;
+
+            const orgCellHtml = rec.completed
+                ? `<span class="history-status-dot" style="${dotStyle}"></span><span class="history-organism-link">${escapeHtml(orgTitle)}</span>`
+                : `<span class="history-status-dot" style="${dotStyle}"></span><span class="history-organism-unfinished">${escapeHtml(orgTitle)} — Click to Resume</span>`;
+
+            return `
+                <tr data-game-id="${escapeHtml(rec.id)}" class="${isSelected ? 'is-selected' : ''}" title="${rec.completed ? 'Click to inspect guesses & details' : 'Click to resume this unfinished game'}">
+                    <td class="col-organism">${orgCellHtml}</td>
+                    <td class="col-hints">${hintsCell}</td>
+                    <td class="col-guesses">${gCount}</td>
+                    <td class="col-accuracy">${acc}%</td>
+                    <td class="col-daily">${escapeHtml(dailyCell)}</td>
+                    <td class="col-date">${escapeHtml(dateCell)}</td>
+                </tr>
             `;
         }).join('');
+
+        tbody.querySelectorAll('tr[data-game-id]').forEach(tr => {
+            tr.addEventListener('click', () => {
+                const gId = tr.getAttribute('data-game-id');
+                if (gId) openStatsGameDetail(gId, ledger);
+            });
+        });
     }
+
+    function renderStatsModal() {
+        const stats = getStats();
+        const unfinishedToggle = document.getElementById('stats-unfinished-toggle');
+        const includeUnfinished = Boolean(unfinishedToggle && unfinishedToggle.checked);
+        const ledger = getAllGamesLedger({ includeUnfinished });
+
+        // Update Account Sync Badge
+        const syncBadge = document.getElementById('stats-account-sync-badge');
+        if (syncBadge) {
+            const user = getCurrentUser ? getCurrentUser() : null;
+            if (user) {
+                syncBadge.textContent = `☁️ Synced (${user.email || user.displayName || 'Account'})`;
+                syncBadge.classList.add('is-synced');
+            } else {
+                syncBadge.textContent = '💾 Saved Locally (Sign in to sync across devices)';
+                syncBadge.classList.remove('is-synced');
+            }
+        }
+
+        // Top Summary Cards
+        const playedEl = document.getElementById('stat-played');
+        const streakEl = document.getElementById('stat-streak');
+        const maxStreakEl = document.getElementById('stat-max-streak');
+        const meanGuessesEl = document.getElementById('stat-mean-guesses');
+        const winPctEl = document.getElementById('stat-win-pct');
+
+        if (playedEl) playedEl.textContent = stats.played;
+        if (streakEl) streakEl.textContent = stats.currentStreak;
+        if (maxStreakEl) maxStreakEl.textContent = stats.maxStreak;
+        if (meanGuessesEl) meanGuessesEl.textContent = (stats.meanGuesses || 0).toFixed(1);
+        const winPct = stats.played > 0 ? Math.round((stats.won / stats.played) * 100) : 0;
+        if (winPctEl) winPctEl.textContent = `${winPct}%`;
+
+        // Render 52-Week Activity Heatmap & Past Games Table
+        renderStatsHeatmap(ledger, includeUnfinished);
+        renderStatsHistoryTable(ledger);
+
+        // Render Guess Distribution Bars
+        const distContainer = document.getElementById('score-distribution-bars');
+        if (distContainer) {
+            const buckets = ['1-3', '4-6', '7-9', '10-12', '13-15', '16+'];
+            const dist = stats.distribution || {};
+            const maxVal = Math.max(1, ...buckets.map(b => dist[b] || 0));
+
+            distContainer.innerHTML = buckets.map(bucket => {
+                const count = dist[bucket] || 0;
+                const pct = Math.max(8, Math.round((count / maxVal) * 100));
+                return `
+                    <div class="dist-row">
+                        <span class="dist-label">${bucket}</span>
+                        <div class="dist-bar-wrapper">
+                            <div class="dist-bar" style="width: ${count > 0 ? pct : 8}%;">
+                                <span>${count}</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+    }
+
+    document.getElementById('stats-unfinished-toggle')?.addEventListener('change', () => {
+        renderStatsModal();
+    });
+
+    document.getElementById('stats-history-search')?.addEventListener('input', () => {
+        const unfinishedToggle = document.getElementById('stats-unfinished-toggle');
+        const includeUnfinished = Boolean(unfinishedToggle && unfinishedToggle.checked);
+        const ledger = getAllGamesLedger({ includeUnfinished });
+        renderStatsHistoryTable(ledger);
+    });
+
+    onStorageChange(() => {
+        if (statsModal && statsModal.classList.contains('active')) {
+            renderStatsModal();
+        }
+        if (archiveModal && archiveModal.classList.contains('active')) {
+            renderArchiveModal();
+        }
+    });
+
+    onAuthChange(() => {
+        if (statsModal && statsModal.classList.contains('active')) {
+            renderStatsModal();
+        }
+    });
 
     // Share Score Functionality
     function shareScore() {

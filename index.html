@@ -6,7 +6,7 @@
     <title>Phylogenle - The Daily Evolutionary Puzzle</title>
     <meta name="description" content="A daily biological puzzle game. Guess the mystery organism by evolutionary divergence time (TMRCA) and taxonomic hierarchy.">
     <link rel="stylesheet" href="style.css?v=tree_order_4">
-    <link rel="stylesheet" href="modals.css?v=squares_2">
+    <link rel="stylesheet" href="modals.css?v=stats_history_1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
@@ -238,51 +238,105 @@
         </div>
     </div>
 
-    <!-- Statistics Modal -->
+    <!-- Statistics & Game History Modal -->
     <div id="stats-modal" class="modal-backdrop">
-        <div class="modal-dialog">
+        <div class="modal-dialog stats-modal-dialog">
             <div class="modal-header">
-                <h3 class="modal-title">📊 Player Statistics</h3>
+                <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+                    <h3 class="modal-title">Your Statistics</h3>
+                    <span id="stats-account-sync-badge" class="stats-sync-badge">💾 Saved Locally</span>
+                </div>
                 <button class="modal-close-btn" data-close="stats-modal">&times;</button>
             </div>
-            <div class="modal-body">
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <span id="stat-played" class="stat-num">0</span>
-                        <span class="stat-label">Played</span>
+            <div class="modal-body stats-modal-body">
+                <!-- Top Summary Cards (Row 1: 3 cards, Row 2: 2 cards) -->
+                <div class="stats-cards-top-row">
+                    <div class="stat-hero-card">
+                        <span id="stat-played" class="stat-hero-num">0</span>
+                        <span class="stat-hero-label">Games Played</span>
                     </div>
-                    <div class="stat-card">
-                        <span id="stat-win-pct" class="stat-num">0%</span>
-                        <span class="stat-label">Win %</span>
+                    <div class="stat-hero-card">
+                        <span class="stat-hero-num"><span id="stat-streak">0</span> <span class="stat-hero-emoji">🌱</span></span>
+                        <span class="stat-hero-label">Current Streak</span>
                     </div>
-                    <div class="stat-card">
-                        <span id="stat-streak" class="stat-num">0</span>
-                        <span class="stat-label">Current Streak</span>
+                    <div class="stat-hero-card">
+                        <span class="stat-hero-num"><span class="stat-hero-emoji">⚡</span> <span id="stat-max-streak">0</span></span>
+                        <span class="stat-hero-label">Max Streak</span>
                     </div>
-                    <div class="stat-card">
-                        <span id="stat-max-streak" class="stat-num">0</span>
-                        <span class="stat-label">Max Streak</span>
+                </div>
+                <div class="stats-cards-second-row">
+                    <div class="stat-hero-card">
+                        <span id="stat-mean-guesses" class="stat-hero-num">0.0</span>
+                        <span class="stat-hero-label">Mean Guess Count</span>
+                    </div>
+                    <div class="stat-hero-card">
+                        <span id="stat-win-pct" class="stat-hero-num">0%</span>
+                        <span class="stat-hero-label">Win Rate</span>
                     </div>
                 </div>
 
-                <div class="distribution-section">
-                    <h4 class="section-title">Guess Distribution</h4>
-                    <div id="score-distribution-bars" class="dist-bars">
-                        <!-- Populated dynamically -->
+                <!-- Controls Bar (Unfinished Toggle & Total Count) -->
+                <div class="stats-history-toolbar">
+                    <div class="stats-toolbar-left">
+                        <label class="stats-toggle-control" for="stats-unfinished-toggle">
+                            <span class="stats-toggle-text">Unfinished</span>
+                            <input type="checkbox" id="stats-unfinished-toggle">
+                            <span class="stats-toggle-Track"></span>
+                        </label>
+                        <input type="text" id="stats-history-search" class="stats-history-search-input" placeholder="Filter by organism, #puzzle, or date...">
+                    </div>
+                    <div class="stats-toolbar-right">
+                        <span class="stats-total-label">Total: <strong id="stats-total-count">0</strong></span>
                     </div>
                 </div>
 
-                <div class="color-legend-guide" style="margin-top: 1rem;">
-                    <span class="legend-chip">⬛ Domain</span>
-                    <span class="legend-chip">🟫 Kingdom</span>
-                    <span class="legend-chip">🟦 Phylum</span>
-                    <span class="legend-chip">🟪 Class</span>
-                    <span class="legend-chip">🟥 Order</span>
-                    <span class="legend-chip">🟧 Family</span>
-                    <span class="legend-chip">🟨 Genus</span>
-                    <span class="legend-chip">🟩 Exact</span>
-                    <span class="legend-chip">⬜ Surrender</span>
+                <!-- 52-Week Activity Heatmap -->
+                <div class="stats-heatmap-section">
+                    <div class="stats-heatmap-scroll">
+                        <div id="stats-heatmap-months" class="stats-heatmap-months"></div>
+                        <div id="stats-heatmap-grid" class="stats-heatmap-grid"></div>
+                    </div>
+                    <div class="stats-heatmap-legend">
+                        <span class="heatmap-legend-item"><span class="heatmap-swatch swatch-solved"></span> Solved (no hints)</span>
+                        <span class="heatmap-legend-item"><span class="heatmap-swatch swatch-hint"></span> Used hint</span>
+                        <span class="heatmap-legend-item"><span class="heatmap-swatch swatch-snipe"></span> 🎯 Snipe</span>
+                        <span class="heatmap-legend-item"><span class="heatmap-swatch swatch-gaveup"></span> Gave up</span>
+                        <span id="heatmap-legend-unfinished" class="heatmap-legend-item hidden"><span class="heatmap-swatch swatch-unfinished"></span> Unfinished</span>
+                    </div>
                 </div>
+
+                <!-- Expandable Game Replay / Guess Breakdown Drawer -->
+                <div id="stats-game-detail-drawer" class="stats-game-detail-drawer hidden"></div>
+
+                <!-- Past Games Table -->
+                <div class="stats-history-table-wrapper">
+                    <table class="stats-history-table">
+                        <thead>
+                            <tr>
+                                <th class="col-organism">Organism</th>
+                                <th class="col-hints">Hints</th>
+                                <th class="col-guesses">Guesses</th>
+                                <th class="col-accuracy">Accuracy</th>
+                                <th class="col-daily">Daily #</th>
+                                <th class="col-date">Date</th>
+                            </tr>
+                        </thead>
+                        <tbody id="stats-history-tbody">
+                            <!-- Populated dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Collapsible Guess Distribution & Share Section -->
+                <details class="stats-distribution-details">
+                    <summary class="stats-distribution-summary">📈 View Guess Distribution &amp; Share</summary>
+                    <div class="distribution-section" style="margin-top: 0.75rem;">
+                        <div id="score-distribution-bars" class="dist-bars">
+                            <!-- Populated dynamically -->
+                        </div>
+                    </div>
+                </details>
+
                 <div class="share-actions-row">
                     <button id="share-score-btn" class="share-btn">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
