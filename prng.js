@@ -101,30 +101,71 @@ export function getDailyTargetSpecies(allSpecies, dateStr) {
 }
 
 /**
+ * Extract the scientific name from a "Common Name (Scientific Name)" string,
+ * safely handling nested parentheses inside the scientific name.
+ */
+export function extractScientificName(displayStr) {
+    if (!displayStr) return "";
+    const idx = displayStr.indexOf(" (");
+    if (idx !== -1 && displayStr.endsWith(")")) {
+        return displayStr.slice(idx + 2, -1).trim();
+    }
+    const m = displayStr.match(/\((.+)\)$/);
+    return m ? m[1].trim() : "";
+}
+
+/**
+ * Title-case an English vernacular name without capitalizing letters after apostrophes
+ * (e.g., "man's best friend" -> "Man's Best Friend", "duck-billed platypus" -> "Duck-Billed Platypus").
+ */
+export function formatVernacularName(str) {
+    if (!str) return "";
+    return str.replace(/[A-Za-z]+('[A-Za-z]+)?/g, (word) => {
+        return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    });
+}
+
+/**
  * Extract all clean, human-readable aliases for a canonical species.
  * E.g., for "Puma (Puma concolor)", returns ["Catamount", "Cougar", "Florida Panther", "Mountain Lion", "Panther"].
  */
 export function getAliasesForSpecies(canonicalSpecies, aliasesDict) {
     if (!aliasesDict || !canonicalSpecies) return [];
     const targetLower = canonicalSpecies.toLowerCase();
-    const latinMatch = canonicalSpecies.match(/\((.*?)\)/);
-    const targetLatin = latinMatch ? latinMatch[1].toLowerCase() : "";
+    const targetLatin = extractScientificName(canonicalSpecies).toLowerCase();
+    const targetGenus = targetLatin ? targetLatin.split(" ")[0] : "";
     const primaryCommon = canonicalSpecies.split(" (")[0].trim().toLowerCase();
+
+    const LATIN_SYNONYM_PREFIXES = new Set([
+        "felis", "canis", "ursus", "bos", "equus", "cervus", "sus", "panthera",
+        "balaena", "delphinus", "testudo", "rana", "lacerta", "falco", "strix",
+        "anas", "homo", "elephas", "simia", "vespertilio", "viverra", "mustela",
+        "lutra", "phoca", "squalus", "salmo", "cyprinus", "gadus", "cancer",
+        "aranea", "papilio", "apis", "formica", "brassica", "solanum", "ficus",
+        "quercus", "pinus", "prunus", "citrus", "rosa", "iris"
+    ]);
 
     const matches = new Set();
     for (const [alias, canonical] of Object.entries(aliasesDict)) {
-        if (alias.includes("(") || alias.includes(")")) continue;
+        if (!alias || alias.includes("(") || alias.includes(")") || alias.includes(":") || alias.includes("/")) continue;
         const canLower = canonical.toLowerCase();
-        const canLatinMatch = canonical.match(/\((.*?)\)/);
-        const canLatin = canLatinMatch ? canLatinMatch[1].toLowerCase() : "";
-        
+        const canLatin = extractScientificName(canonical).toLowerCase();
+
         if (canLower === targetLower || (targetLatin && canLatin === targetLatin)) {
             const aliasClean = alias.trim();
-            if (aliasClean.toLowerCase() !== primaryCommon && aliasClean.toLowerCase() !== targetLatin) {
-                const titleCased = aliasClean.split(" ")
-                    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
-                    .join(" ");
-                matches.add(titleCased);
+            const aliasLower = aliasClean.toLowerCase();
+            const firstWord = aliasLower.split(/\s+/)[0];
+            if (LATIN_SYNONYM_PREFIXES.has(firstWord) && !primaryCommon.split(/\s+/).includes(firstWord)) {
+                continue;
+            }
+            if (
+                aliasLower.length >= 3 &&
+                aliasLower !== primaryCommon &&
+                aliasLower !== targetLatin &&
+                aliasLower !== targetGenus &&
+                /^[a-z][a-z\s\-']+[a-z]$/.test(aliasLower)
+            ) {
+                matches.add(formatVernacularName(aliasClean));
             }
         }
     }

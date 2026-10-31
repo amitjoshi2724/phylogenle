@@ -7700,20 +7700,6 @@
     "genus": "Aquarana"
   },
   {
-    "display": "American Bullfrog (Lithobates catesbeianus)",
-    "common": "American Bullfrog",
-    "scientific": "Lithobates catesbeianus",
-    "clade": "Amphibia",
-    "subclade": "Anura",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Amphibia",
-    "order": "Anura",
-    "family": "Ranidae",
-    "genus": "Aquarana"
-  },
-  {
     "display": "American Burying Beetle (Nicrophorus americanus)",
     "common": "American Burying Beetle",
     "scientific": "Nicrophorus americanus",
@@ -13482,8 +13468,8 @@
     "genus": "Coregonus"
   },
   {
-    "display": "Arctic Cisco (Coregonus migratorius)",
-    "common": "Arctic Cisco",
+    "display": "Omul (Coregonus migratorius)",
+    "common": "Omul",
     "scientific": "Coregonus migratorius",
     "clade": "Actinopteri",
     "subclade": "Salmoniformes",
@@ -14616,7 +14602,7 @@
     "genus": "Etheostoma"
   },
   {
-    "display": "Armadillo (Dasypus novemcinctus)",
+    "display": "Nine-banded Armadillo (Dasypus novemcinctus)",
     "common": "Nine-banded Armadillo",
     "scientific": "Dasypus novemcinctus",
     "clade": "Mammalia",
@@ -18074,20 +18060,6 @@
     "genus": "Salmo"
   },
   {
-    "display": "Atlantic Sand Fiddler Crab (Leptuca pugilator)",
-    "common": "Atlantic Sand Fiddler Crab",
-    "scientific": "Leptuca pugilator",
-    "clade": "Invertebrates",
-    "subclade": "Decapoda",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Arthropoda",
-    "class": "Malacostraca",
-    "order": "Decapoda",
-    "family": "Ocypodidae",
-    "genus": "Leptuca"
-  },
-  {
     "display": "Atlantic Sawtail Cat Shark (Galeus atlanticus)",
     "common": "Atlantic Sawtail Cat Shark",
     "scientific": "Galeus atlanticus",
@@ -19374,20 +19346,6 @@
     "order": "Osmeriformes",
     "family": "Retropinnidae",
     "genus": "Prototroctes"
-  },
-  {
-    "display": "Australian Green Tree Frog (Ranoidea caerulea)",
-    "common": "Australian Green Tree Frog",
-    "scientific": "Ranoidea caerulea",
-    "clade": "Amphibia",
-    "subclade": "Anura",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Amphibia",
-    "order": "Anura",
-    "family": "Pelodryadidae",
-    "genus": "Pelodryas"
   },
   {
     "display": "Australian Gregory (Plectroglyphidodon apicalis)",
@@ -21084,7 +21042,7 @@
     "genus": "Babyrousa"
   },
   {
-    "display": "Baboon (Papio anubis)",
+    "display": "Olive Baboon (Papio anubis)",
     "common": "Olive Baboon",
     "scientific": "Papio anubis",
     "clade": "Mammalia",
@@ -26404,7 +26362,7 @@
     "genus": "Calendulauda"
   },
   {
-    "display": "Barn Owl (Tyto alba)",
+    "display": "Western Barn Owl (Tyto alba)",
     "common": "Western Barn Owl",
     "scientific": "Tyto alba",
     "clade": "Aves",
@@ -27734,7 +27692,7 @@
     "genus": "Leiocephalus"
   },
   {
-    "display": "Bat (Desmodus rotundus)",
+    "display": "Common Vampire Bat (Desmodus rotundus)",
     "common": "Common Vampire Bat",
     "scientific": "Desmodus rotundus",
     "clade": "Mammalia",
@@ -29666,7 +29624,7 @@
     "genus": "Elaphe"
   },
   {
-    "display": "Beaver (Castor canadensis)",
+    "display": "North American Beaver (Castor canadensis)",
     "common": "North American Beaver",
     "scientific": "Castor canadensis",
     "clade": "Mammalia",
@@ -38864,7 +38822,7 @@
     "genus": "Demansia"
   },
   {
-    "display": "Black Widow (Latrodectus mactans)",
+    "display": "Southern Black Widow (Latrodectus mactans)",
     "common": "Southern Black Widow",
     "scientific": "Latrodectus mactans",
     "clade": "Invertebrates",
@@ -38878,8 +38836,8 @@
     "genus": "Latrodectus"
   },
   {
-    "display": "Black Widow (Latrodectus tredecimguttatus)",
-    "common": "Black Widow",
+    "display": "Mediterranean Black Widow (Latrodectus tredecimguttatus)",
+    "common": "Mediterranean Black Widow",
     "scientific": "Latrodectus tredecimguttatus",
     "clade": "Invertebrates",
     "subclade": "Araneae",
@@ -38892,8 +38850,8 @@
     "genus": "Latrodectus"
   },
   {
-    "display": "Black Widow (Stygnobrotula latebricola)",
-    "common": "Black Widow",
+    "display": "Black Brotula (Stygnobrotula latebricola)",
+    "common": "Black Brotula",
     "scientific": "Stygnobrotula latebricola",
     "clade": "Actinopteri",
     "subclade": "Ophidiiformes",
@@ -39315,20 +39273,6 @@
     "display": "Black-backed Jackal (Canis mesomelas)",
     "common": "Black-backed Jackal",
     "scientific": "Canis mesomelas",
-    "clade": "Mammalia",
-    "subclade": "Carnivora",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Mammalia",
-    "order": "Carnivora",
-    "family": "Canidae",
-    "genus": "Canis"
-  },
-  {
-    "display": "Black-backed Jackal (Lupulella mesomelas)",
-    "common": "Black-backed Jackal",
-    "scientific": "Lupulella mesomelas",
     "clade": "Mammalia",
     "subclade": "Carnivora",
     "domain": "Eukaryota",
@@ -48832,20 +48776,6 @@
     "genus": "Symphysodon"
   },
   {
-    "display": "Blue Discus (Symphysodon aequifasciatus)",
-    "common": "Blue Discus",
-    "scientific": "Symphysodon aequifasciatus",
-    "clade": "Actinopteri",
-    "subclade": "Cichliformes",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Actinopteri",
-    "order": "Cichliformes",
-    "family": "Cichlidae",
-    "genus": "Symphysodon"
-  },
-  {
     "display": "Blue Dragon Sea Slug (Glaucus atlanticus)",
     "common": "Blue Dragon Sea Slug",
     "scientific": "Glaucus atlanticus",
@@ -49516,20 +49446,6 @@
     "order": "Asparagales",
     "family": "Asparagaceae",
     "genus": "Hosta"
-  },
-  {
-    "display": "Blue Poison Dart Frog (Dendrobates tinctorius azureus)",
-    "common": "Blue Poison Dart Frog",
-    "scientific": "Dendrobates tinctorius azureus",
-    "clade": "Amphibia",
-    "subclade": "Anura",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Amphibia",
-    "order": "Anura",
-    "family": "Dendrobatidae",
-    "genus": "Dendrobates"
   },
   {
     "display": "Blue Porterweed (Stachytarpheta jamaicensis)",
@@ -50806,7 +50722,7 @@
     "genus": "Tanygnathus"
   },
   {
-    "display": "Blue-ringed Octopus (Hapalochlaena maculosa)",
+    "display": "Southern Blue-ringed Octopus (Hapalochlaena maculosa)",
     "common": "Southern Blue-ringed Octopus",
     "scientific": "Hapalochlaena maculosa",
     "clade": "Invertebrates",
@@ -56042,7 +55958,7 @@
     "genus": "Peucaea"
   },
   {
-    "display": "Bottlenose Dolphin (Tursiops truncatus)",
+    "display": "Common Bottlenose Dolphin (Tursiops truncatus)",
     "common": "Common Bottlenose Dolphin",
     "scientific": "Tursiops truncatus",
     "clade": "Mammalia",
@@ -68152,7 +68068,7 @@
     "genus": "Hypsugo"
   },
   {
-    "display": "Caecilian (Gymnopis multiplicata)",
+    "display": "Purple Caecilian (Gymnopis multiplicata)",
     "common": "Purple Caecilian",
     "scientific": "Gymnopis multiplicata",
     "clade": "Amphibia",
@@ -71176,7 +71092,7 @@
     "genus": "Cereopsis"
   },
   {
-    "display": "Cape Buffalo (Syncerus caffer)",
+    "display": "African Buffalo (Syncerus caffer)",
     "common": "African Buffalo",
     "scientific": "Syncerus caffer",
     "clade": "Mammalia",
@@ -80584,8 +80500,8 @@
     "genus": "Etheostoma"
   },
   {
-    "display": "Chicken (Gallus gallus)",
-    "common": "Chicken",
+    "display": "Red Junglefowl (Gallus gallus)",
+    "common": "Red Junglefowl",
     "scientific": "Gallus gallus",
     "clade": "Aves",
     "subclade": "Galliformes",
@@ -81592,7 +81508,7 @@
     "genus": "Bolitoglossa"
   },
   {
-    "display": "Chinchilla (Chinchilla lanigera)",
+    "display": "Long-tailed Chinchilla (Chinchilla lanigera)",
     "common": "Long-tailed Chinchilla",
     "scientific": "Chinchilla lanigera",
     "clade": "Mammalia",
@@ -86030,20 +85946,6 @@
     "genus": "Anilios"
   },
   {
-    "display": "Clawed Frog (Xenopus sp.)",
-    "common": "Clawed Frog",
-    "scientific": "Xenopus sp.",
-    "clade": "Amphibia",
-    "subclade": "Anura",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Amphibia",
-    "order": "Anura",
-    "family": "Pipidae",
-    "genus": "Xenopus"
-  },
-  {
     "display": "Clay Robber Frog (Haddadus binotatus)",
     "common": "Clay Robber Frog",
     "scientific": "Haddadus binotatus",
@@ -87010,7 +86912,7 @@
     "genus": "Sitona"
   },
   {
-    "display": "Clown Anemonefish (Amphiprion ocellaris)",
+    "display": "Ocellaris Clownfish (Amphiprion ocellaris)",
     "common": "Ocellaris Clownfish",
     "scientific": "Amphiprion ocellaris",
     "clade": "Actinopteri",
@@ -87990,7 +87892,7 @@
     "genus": "Rachycentron"
   },
   {
-    "display": "Cobra (Ophiophagus hannah)",
+    "display": "King Cobra (Ophiophagus hannah)",
     "common": "King Cobra",
     "scientific": "Ophiophagus hannah",
     "clade": "Lepidosauria",
@@ -88620,7 +88522,7 @@
     "genus": "Pseudoterranova"
   },
   {
-    "display": "Coelacanth (Latimeria chalumnae)",
+    "display": "West Indian Ocean Coelacanth (Latimeria chalumnae)",
     "common": "West Indian Ocean Coelacanth",
     "scientific": "Latimeria chalumnae",
     "clade": "Chordata Incertae Sedis",
@@ -91406,20 +91308,6 @@
     "genus": "Somateria"
   },
   {
-    "display": "Common Eland (Taurotragus oryx)",
-    "common": "Common Eland",
-    "scientific": "Taurotragus oryx",
-    "clade": "Mammalia",
-    "subclade": "Artiodactyla",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Mammalia",
-    "order": "Artiodactyla",
-    "family": "Bovidae",
-    "genus": "Tragelaphus"
-  },
-  {
     "display": "Common Eland (Tragelaphus oryx)",
     "common": "Common Eland",
     "scientific": "Tragelaphus oryx",
@@ -92834,7 +92722,7 @@
     "genus": "Oligosoma"
   },
   {
-    "display": "Common Newt (Lissotriton vulgaris)",
+    "display": "Smooth Newt (Lissotriton vulgaris)",
     "common": "Smooth Newt",
     "scientific": "Lissotriton vulgaris",
     "clade": "Amphibia",
@@ -93280,20 +93168,6 @@
     "order": "Lepidoptera",
     "family": "Nymphalidae",
     "genus": "Lethe"
-  },
-  {
-    "display": "Common Red-stem Fig (Ficus variegata (in: eudicots)",
-    "common": "Common Red-stem Fig",
-    "scientific": "Ficus variegata (in: eudicots",
-    "clade": "Invertebrates",
-    "subclade": "Littorinimorpha",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Mollusca",
-    "class": "Gastropoda",
-    "order": "Littorinimorpha",
-    "family": "Ficidae",
-    "genus": "Ficus"
   },
   {
     "display": "Common Red-stem Fig (Ficus variegata (in: eudicots))",
@@ -108402,8 +108276,8 @@
     "genus": "Sphaerodactylus"
   },
   {
-    "display": "Desert Ant (Cataglyphis bicolor)",
-    "common": "Desert Ant",
+    "display": "Sahara Desert Ant (Cataglyphis bicolor)",
+    "common": "Sahara Desert Ant",
     "scientific": "Cataglyphis bicolor",
     "clade": "Invertebrates",
     "subclade": "Hymenoptera",
@@ -116662,8 +116536,8 @@
     "genus": "Mus"
   },
   {
-    "display": "Earthworm (Metaphire sieboldi)",
-    "common": "Earthworm",
+    "display": "Japanese Mountain Earthworm (Metaphire sieboldi)",
+    "common": "Japanese Mountain Earthworm",
     "scientific": "Metaphire sieboldi",
     "clade": "Invertebrates",
     "subclade": "Crassiclitellata",
@@ -117726,7 +117600,7 @@
     "genus": "Hylobates"
   },
   {
-    "display": "Eastern Gray Kangaroo (Macropus giganteus)",
+    "display": "Eastern Grey Kangaroo (Macropus giganteus)",
     "common": "Eastern Grey Kangaroo",
     "scientific": "Macropus giganteus",
     "clade": "Mammalia",
@@ -120792,7 +120666,7 @@
     "genus": "Acmella"
   },
   {
-    "display": "Electric Eel (Electrophorus electricus)",
+    "display": "Greater Electric Eel (Electrophorus electricus)",
     "common": "Greater Electric Eel",
     "scientific": "Electrophorus electricus",
     "clade": "Actinopteri",
@@ -124950,62 +124824,6 @@
     "genus": "Forficula"
   },
   {
-    "display": "European Earwig (Forficula auricularia complex sp. A sensu Guillet et al. (2000)",
-    "common": "European Earwig",
-    "scientific": "Forficula auricularia complex sp. A sensu Guillet et al. (2000",
-    "clade": "Invertebrates",
-    "subclade": "Dermaptera",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Arthropoda",
-    "class": "Insecta",
-    "order": "Dermaptera",
-    "family": "Forficulidae",
-    "genus": "Forficula"
-  },
-  {
-    "display": "European Earwig (Forficula auricularia complex sp. A sensu Guillet et al. (2000))",
-    "common": "European Earwig",
-    "scientific": "Forficula auricularia complex sp. A sensu Guillet et al. (2000)",
-    "clade": "Invertebrates",
-    "subclade": "Dermaptera",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Arthropoda",
-    "class": "Insecta",
-    "order": "Dermaptera",
-    "family": "Forficulidae",
-    "genus": "Forficula"
-  },
-  {
-    "display": "European Earwig (Forficula auricularia complex sp. B sensu Guillet et al. (2000)",
-    "common": "European Earwig",
-    "scientific": "Forficula auricularia complex sp. B sensu Guillet et al. (2000",
-    "clade": "Invertebrates",
-    "subclade": "Dermaptera",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Arthropoda",
-    "class": "Insecta",
-    "order": "Dermaptera",
-    "family": "Forficulidae",
-    "genus": "Forficula"
-  },
-  {
-    "display": "European Earwig (Forficula auricularia complex sp. B sensu Guillet et al. (2000))",
-    "common": "European Earwig",
-    "scientific": "Forficula auricularia complex sp. B sensu Guillet et al. (2000)",
-    "clade": "Invertebrates",
-    "subclade": "Dermaptera",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Arthropoda",
-    "class": "Insecta",
-    "order": "Dermaptera",
-    "family": "Forficulidae",
-    "genus": "Forficula"
-  },
-  {
     "display": "European Eel (Anguilla anguilla)",
     "common": "European Eel",
     "scientific": "Anguilla anguilla",
@@ -125191,20 +125009,6 @@
     "display": "European Hake (Merluccius merluccius)",
     "common": "European Hake",
     "scientific": "Merluccius merluccius",
-    "clade": "Actinopteri",
-    "subclade": "Gadiformes",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Actinopteri",
-    "order": "Gadiformes",
-    "family": "Merlucciidae",
-    "genus": "Merluccius"
-  },
-  {
-    "display": "European Hake (Merluccius vulgaris)",
-    "common": "European Hake",
-    "scientific": "Merluccius vulgaris",
     "clade": "Actinopteri",
     "subclade": "Gadiformes",
     "domain": "Eukaryota",
@@ -125429,20 +125233,6 @@
     "display": "European Peacock (Aglais io)",
     "common": "European Peacock",
     "scientific": "Aglais io",
-    "clade": "Invertebrates",
-    "subclade": "Lepidoptera",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Arthropoda",
-    "class": "Insecta",
-    "order": "Lepidoptera",
-    "family": "Nymphalidae",
-    "genus": "Nymphalis"
-  },
-  {
-    "display": "European Peacock (Nymphalis io)",
-    "common": "European Peacock",
-    "scientific": "Nymphalis io",
     "clade": "Invertebrates",
     "subclade": "Lepidoptera",
     "domain": "Eukaryota",
@@ -129290,7 +129080,7 @@
     "genus": "Ficus"
   },
   {
-    "display": "Fiddler Crab (Uca pugilator)",
+    "display": "Atlantic Sand Fiddler Crab (Uca pugilator)",
     "common": "Atlantic Sand Fiddler Crab",
     "scientific": "Uca pugilator",
     "clade": "Invertebrates",
@@ -131516,8 +131306,8 @@
     "genus": "Metelectrona"
   },
   {
-    "display": "Flag (Iris germanica)",
-    "common": "Flag",
+    "display": "Bearded Iris (Iris germanica)",
+    "common": "Bearded Iris",
     "scientific": "Iris germanica",
     "clade": "Plantae",
     "subclade": "Asparagales",
@@ -132398,8 +132188,8 @@
     "genus": "Lathyrus"
   },
   {
-    "display": "Flat-skulled Marsupial Mouse (Planigale gilesi)",
-    "common": "Flat-skulled Marsupial Mouse",
+    "display": "Paucident Planigale (Planigale gilesi)",
+    "common": "Paucident Planigale",
     "scientific": "Planigale gilesi",
     "clade": "Mammalia",
     "subclade": "Dasyuromorphia",
@@ -132412,8 +132202,8 @@
     "genus": "Planigale"
   },
   {
-    "display": "Flat-skulled Marsupial Mouse (Planigale tenuirostris)",
-    "common": "Flat-skulled Marsupial Mouse",
+    "display": "Narrow-nosed Planigale (Planigale tenuirostris)",
+    "common": "Narrow-nosed Planigale",
     "scientific": "Planigale tenuirostris",
     "clade": "Mammalia",
     "subclade": "Dasyuromorphia",
@@ -133742,20 +133532,6 @@
     "genus": "Oligocottus"
   },
   {
-    "display": "Fluvial Eight-barbel Loach (Lefua sp. (sensu Hosoya 1993)",
-    "common": "Fluvial Eight-barbel Loach",
-    "scientific": "Lefua sp. (sensu Hosoya 1993",
-    "clade": "Actinopteri",
-    "subclade": "Cypriniformes",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Actinopteri",
-    "order": "Cypriniformes",
-    "family": "Nemacheilidae",
-    "genus": "Lefua"
-  },
-  {
     "display": "Fluvial Eight-barbel Loach (Lefua sp. (sensu Hosoya 1993))",
     "common": "Fluvial Eight-barbel Loach",
     "scientific": "Lefua sp. (sensu Hosoya 1993)",
@@ -135042,20 +134818,6 @@
     "order": "Centrarchiformes",
     "family": "Terapontidae",
     "genus": "Leiopotherapon"
-  },
-  {
-    "display": "Fortesque Waspfish (Centropogon australis (in: ray-finned fishes)",
-    "common": "Fortesque Waspfish",
-    "scientific": "Centropogon australis (in: ray-finned fishes",
-    "clade": "Plantae",
-    "subclade": "Asterales",
-    "domain": "Eukaryota",
-    "kingdom": "Plantae",
-    "phylum": "Streptophyta",
-    "class": "Magnoliopsida",
-    "order": "Asterales",
-    "family": "Campanulaceae",
-    "genus": "Centropogon"
   },
   {
     "display": "Fortesque Waspfish (Centropogon australis (in: ray-finned fishes))",
@@ -137620,8 +137382,8 @@
     "genus": "Ostorhinchus"
   },
   {
-    "display": "Fruit Fly (Drosophila gunungcola)",
-    "common": "Fruit Fly",
+    "display": "Indonesian Fruit Fly (Drosophila gunungcola)",
+    "common": "Indonesian Fruit Fly",
     "scientific": "Drosophila gunungcola",
     "clade": "Invertebrates",
     "subclade": "Diptera",
@@ -138654,20 +138416,6 @@
     "order": "Carcharhiniformes",
     "family": "Carcharhinidae",
     "genus": "Carcharhinus"
-  },
-  {
-    "display": "Galapagos Tortoise (Chelonoidis nigra)",
-    "common": "Galapagos Tortoise",
-    "scientific": "Chelonoidis nigra",
-    "clade": "Chordata Incertae Sedis",
-    "subclade": "Testudines",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Chordata Incertae Sedis",
-    "order": "Testudines",
-    "family": "Testudinidae",
-    "genus": "Chelonoidis"
   },
   {
     "display": "Galapagos Triplefin Blenny (Lepidonectes corallicola)",
@@ -140910,8 +140658,8 @@
     "genus": "Boulengerochromis"
   },
   {
-    "display": "Giant Clam (Tridacna gigas)",
-    "common": "Giant Clam",
+    "display": "True Giant Clam (Tridacna gigas)",
+    "common": "True Giant Clam",
     "scientific": "Tridacna gigas",
     "clade": "Invertebrates",
     "subclade": "Cardiida",
@@ -142464,20 +142212,6 @@
     "genus": "Giardia"
   },
   {
-    "display": "Gibbon (Hylobates sp.)",
-    "common": "Gibbon",
-    "scientific": "Hylobates sp.",
-    "clade": "Mammalia",
-    "subclade": "Primates",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Mammalia",
-    "order": "Primates",
-    "family": "Hylobatidae",
-    "genus": "Hylobates"
-  },
-  {
     "display": "Gibbous Shiner (Cyprinella garmani)",
     "common": "Gibbous Shiner",
     "scientific": "Cyprinella garmani",
@@ -142898,7 +142632,7 @@
     "genus": "Panax"
   },
   {
-    "display": "Giraffe (Giraffa camelopardalis)",
+    "display": "Northern Giraffe (Giraffa camelopardalis)",
     "common": "Northern Giraffe",
     "scientific": "Giraffa camelopardalis",
     "clade": "Mammalia",
@@ -147602,7 +147336,7 @@
     "genus": "Chrysiptera"
   },
   {
-    "display": "Goliath Beetle (Goliathus goliatus)",
+    "display": "Royal Goliath Beetle (Goliathus goliatus)",
     "common": "Royal Goliath Beetle",
     "scientific": "Goliathus goliatus",
     "clade": "Invertebrates",
@@ -147994,20 +147728,6 @@
     "genus": "Bagarius"
   },
   {
-    "display": "Goose (Anser sp.)",
-    "common": "Goose",
-    "scientific": "Anser sp.",
-    "clade": "Aves",
-    "subclade": "Anseriformes",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Aves",
-    "order": "Anseriformes",
-    "family": "Anatidae",
-    "genus": "Anser"
-  },
-  {
     "display": "Gooseberry Sawfly (Euura ribesii)",
     "common": "Gooseberry Sawfly",
     "scientific": "Euura ribesii",
@@ -148218,7 +147938,7 @@
     "genus": "Chaetocercus"
   },
   {
-    "display": "Gorilla (Gorilla gorilla)",
+    "display": "Western Gorilla (Gorilla gorilla)",
     "common": "Western Gorilla",
     "scientific": "Gorilla gorilla",
     "clade": "Mammalia",
@@ -152292,20 +152012,6 @@
     "genus": "Argynnis"
   },
   {
-    "display": "Great Spangled Fritillary (Speyeria cybele)",
-    "common": "Great Spangled Fritillary",
-    "scientific": "Speyeria cybele",
-    "clade": "Invertebrates",
-    "subclade": "Lepidoptera",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Arthropoda",
-    "class": "Insecta",
-    "order": "Lepidoptera",
-    "family": "Nymphalidae",
-    "genus": "Argynnis"
-  },
-  {
     "display": "Great Spotted Kiwi (Apteryx haastii)",
     "common": "Great Spotted Kiwi",
     "scientific": "Apteryx haastii",
@@ -155260,8 +154966,8 @@
     "genus": "Anaxyrus"
   },
   {
-    "display": "Green Tree Frog (Dryophytes cinereus)",
-    "common": "Green Tree Frog",
+    "display": "American Green Tree Frog (Dryophytes cinereus)",
+    "common": "American Green Tree Frog",
     "scientific": "Dryophytes cinereus",
     "clade": "Amphibia",
     "subclade": "Anura",
@@ -162512,8 +162218,8 @@
     "genus": "Tettigarcta"
   },
   {
-    "display": "Hairy Conger (Bassanago hirsutus)",
-    "common": "Hairy Conger",
+    "display": "Deepsea Conger (Bassanago hirsutus)",
+    "common": "Deepsea Conger",
     "scientific": "Bassanago hirsutus",
     "clade": "Actinopteri",
     "subclade": "Anguilliformes",
@@ -164164,7 +163870,7 @@
     "genus": "Acanthodactylus"
   },
   {
-    "display": "Hare (Lepus europaeus)",
+    "display": "European Hare (Lepus europaeus)",
     "common": "European Hare",
     "scientific": "Lepus europaeus",
     "clade": "Mammalia",
@@ -164512,20 +164218,6 @@
     "order": "Gobiiformes",
     "family": "Gobiidae",
     "genus": "Trimma"
-  },
-  {
-    "display": "Harp Seal (Pagophilus groenlandicus)",
-    "common": "Harp Seal",
-    "scientific": "Pagophilus groenlandicus",
-    "clade": "Mammalia",
-    "subclade": "Carnivora",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Mammalia",
-    "order": "Carnivora",
-    "family": "Phocidae",
-    "genus": "Phoca"
   },
   {
     "display": "Harp Seal (Phoca groenlandica)",
@@ -166110,7 +165802,7 @@
     "genus": "Torilis"
   },
   {
-    "display": "Hedgehog (Erinaceus europaeus)",
+    "display": "European Hedgehog (Erinaceus europaeus)",
     "common": "European Hedgehog",
     "scientific": "Erinaceus europaeus",
     "clade": "Mammalia",
@@ -169176,7 +168868,7 @@
     "genus": "Echinochloa"
   },
   {
-    "display": "Hippopotamus (Hippopotamus amphibius)",
+    "display": "Common Hippopotamus (Hippopotamus amphibius)",
     "common": "Common Hippopotamus",
     "scientific": "Hippopotamus amphibius",
     "clade": "Mammalia",
@@ -169902,20 +169594,6 @@
     "order": "Artiodactyla",
     "family": "Cervidae",
     "genus": "Axis"
-  },
-  {
-    "display": "Hog Deer (Hyelaphus porcinus)",
-    "common": "Hog Deer",
-    "scientific": "Hyelaphus porcinus",
-    "clade": "Mammalia",
-    "subclade": "Artiodactyla",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Mammalia",
-    "order": "Artiodactyla",
-    "family": "Cervidae",
-    "genus": "Hyelaphus"
   },
   {
     "display": "Hog Peanut (Amphicarpaea bracteata)",
@@ -172438,8 +172116,8 @@
     "genus": "Sylvisorex"
   },
   {
-    "display": "Howler Monkey (Alouatta guariba)",
-    "common": "Howler Monkey",
+    "display": "Brown Howler Monkey (Alouatta guariba)",
+    "common": "Brown Howler Monkey",
     "scientific": "Alouatta guariba",
     "clade": "Mammalia",
     "subclade": "Primates",
@@ -172452,7 +172130,7 @@
     "genus": "Alouatta"
   },
   {
-    "display": "Howler Monkey (Alouatta palliata)",
+    "display": "Mantled Howler (Alouatta palliata)",
     "common": "Mantled Howler",
     "scientific": "Alouatta palliata",
     "clade": "Mammalia",
@@ -172466,23 +172144,9 @@
     "genus": "Alouatta"
   },
   {
-    "display": "Howler Monkey (Alouatta seniculus)",
-    "common": "Howler Monkey",
+    "display": "Colombian Red Howler Monkey (Alouatta seniculus)",
+    "common": "Colombian Red Howler Monkey",
     "scientific": "Alouatta seniculus",
-    "clade": "Mammalia",
-    "subclade": "Primates",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Mammalia",
-    "order": "Primates",
-    "family": "Atelidae",
-    "genus": "Alouatta"
-  },
-  {
-    "display": "Howler Monkey (Alouatta sp.)",
-    "common": "Howler Monkey",
-    "scientific": "Alouatta sp.",
     "clade": "Mammalia",
     "subclade": "Primates",
     "domain": "Eukaryota",
@@ -173796,7 +173460,7 @@
     "genus": "Pyrolobus"
   },
   {
-    "display": "Hyena (Crocuta crocuta)",
+    "display": "Spotted Hyena (Crocuta crocuta)",
     "common": "Spotted Hyena",
     "scientific": "Crocuta crocuta",
     "clade": "Mammalia",
@@ -175460,20 +175124,6 @@
     "order": "Testudines",
     "family": "Trionychidae",
     "genus": "Lissemys"
-  },
-  {
-    "display": "Indian Flying Fox (Pteropus giganteus)",
-    "common": "Indian Flying Fox",
-    "scientific": "Pteropus giganteus",
-    "clade": "Mammalia",
-    "subclade": "Chiroptera",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Mammalia",
-    "order": "Chiroptera",
-    "family": "Pteropodidae",
-    "genus": "Pteropus"
   },
   {
     "display": "Indian Flying Fox (Pteropus medius)",
@@ -186830,7 +186480,7 @@
     "genus": "Osteomugil"
   },
   {
-    "display": "Kangaroo (Macropus rufus)",
+    "display": "Red Kangaroo (Macropus rufus)",
     "common": "Red Kangaroo",
     "scientific": "Macropus rufus",
     "clade": "Mammalia",
@@ -186842,20 +186492,6 @@
     "order": "Diprotodontia",
     "family": "Macropodidae",
     "genus": "Osphranter"
-  },
-  {
-    "display": "Kangaroo (Macropus sp.)",
-    "common": "Kangaroo",
-    "scientific": "Macropus sp.",
-    "clade": "Mammalia",
-    "subclade": "Diprotodontia",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Mammalia",
-    "order": "Diprotodontia",
-    "family": "Macropodidae",
-    "genus": "Macropus"
   },
   {
     "display": "Kangaroo Grass (Themeda triandra)",
@@ -190386,7 +190022,7 @@
     "genus": "Crocidura"
   },
   {
-    "display": "Kiwi (Apteryx mantelli)",
+    "display": "North Island Brown Kiwi (Apteryx mantelli)",
     "common": "North Island Brown Kiwi",
     "scientific": "Apteryx mantelli",
     "clade": "Aves",
@@ -192850,8 +192486,8 @@
     "genus": "Barbus"
   },
   {
-    "display": "Kura Barbel (Barbus lacerta)",
-    "common": "Kura Barbel",
+    "display": "Lizard Barbel (Barbus lacerta)",
+    "common": "Lizard Barbel",
     "scientific": "Barbus lacerta",
     "clade": "Actinopteri",
     "subclade": "Cypriniformes",
@@ -198926,7 +198562,7 @@
     "genus": "Brachycaudus"
   },
   {
-    "display": "Leafcutter Ant (Atta cephalotes)",
+    "display": "Cephalotes Leafcutter Ant (Atta cephalotes)",
     "common": "Cephalotes Leafcutter Ant",
     "scientific": "Atta cephalotes",
     "clade": "Invertebrates",
@@ -200676,8 +200312,8 @@
     "genus": "Himantura"
   },
   {
-    "display": "Leopard Whipray (Himantura undulata)",
-    "common": "Leopard Whipray",
+    "display": "Honeycomb Whipray (Himantura undulata)",
+    "common": "Honeycomb Whipray",
     "scientific": "Himantura undulata",
     "clade": "Chondrichthyes",
     "subclade": "Myliobatiformes",
@@ -207060,20 +206696,6 @@
     "genus": "Delphinus"
   },
   {
-    "display": "Long-beaked Echidna (Zaglossus bruijni)",
-    "common": "Long-beaked Echidna",
-    "scientific": "Zaglossus bruijni",
-    "clade": "Mammalia",
-    "subclade": "Monotremata",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Mammalia",
-    "order": "Monotremata",
-    "family": "Tachyglossidae",
-    "genus": "Zaglossus"
-  },
-  {
     "display": "Long-billed Antwren (Stymphalornis acutirostris)",
     "common": "Long-billed Antwren",
     "scientific": "Stymphalornis acutirostris",
@@ -207142,20 +206764,6 @@
     "order": "Passeriformes",
     "family": "Certhiidae",
     "genus": "Ramphocaenus"
-  },
-  {
-    "display": "Long-billed Greenbul (Bernieria madagascariensis (Gmelin, 1789)",
-    "common": "Long-billed Greenbul",
-    "scientific": "Bernieria madagascariensis (Gmelin, 1789",
-    "clade": "Aves",
-    "subclade": "Passeriformes",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Aves",
-    "order": "Passeriformes",
-    "family": "Bernieridae",
-    "genus": "Bernieria"
   },
   {
     "display": "Long-billed Greenbul (Bernieria madagascariensis (Gmelin, 1789))",
@@ -213374,7 +212982,7 @@
     "genus": "Eleutherodactylus"
   },
   {
-    "display": "Lynx (Lynx lynx)",
+    "display": "Eurasian Lynx (Lynx lynx)",
     "common": "Eurasian Lynx",
     "scientific": "Lynx lynx",
     "clade": "Mammalia",
@@ -213528,7 +213136,7 @@
     "genus": "Eleutherodactylus"
   },
   {
-    "display": "Macaque (Macaca mulatta)",
+    "display": "Rhesus Macaque (Macaca mulatta)",
     "common": "Rhesus Macaque",
     "scientific": "Macaca mulatta",
     "clade": "Mammalia",
@@ -217812,7 +217420,7 @@
     "genus": "Dionda"
   },
   {
-    "display": "Manatee (Trichechus manatus)",
+    "display": "West Indian Manatee (Trichechus manatus)",
     "common": "West Indian Manatee",
     "scientific": "Trichechus manatus",
     "clade": "Mammalia",
@@ -230608,7 +230216,7 @@
     "genus": "Amblypharyngodon"
   },
   {
-    "display": "Mole (Talpa europaea)",
+    "display": "European Mole (Talpa europaea)",
     "common": "European Mole",
     "scientific": "Talpa europaea",
     "clade": "Mammalia",
@@ -235676,7 +235284,7 @@
     "genus": "Oenanthe"
   },
   {
-    "display": "Mouse (Mus musculus)",
+    "display": "House Mouse (Mus musculus)",
     "common": "House Mouse",
     "scientific": "Mus musculus",
     "clade": "Mammalia",
@@ -243348,8 +242956,8 @@
     "genus": "Pezoporus"
   },
   {
-    "display": "Night Sergeant (Abudefduf concolor)",
-    "common": "Night Sergeant",
+    "display": "Dusky Sergeant (Abudefduf concolor)",
+    "common": "Dusky Sergeant",
     "scientific": "Abudefduf concolor",
     "clade": "Actinopteri",
     "subclade": "Pomacentridae Allies",
@@ -245992,20 +245600,6 @@
     "order": "Diprotodontia",
     "family": "Petauridae",
     "genus": "Petaurus"
-  },
-  {
-    "display": "Northern Goshawk (Accipiter gentilis)",
-    "common": "Northern Goshawk",
-    "scientific": "Accipiter gentilis",
-    "clade": "Aves",
-    "subclade": "Accipitriformes",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Aves",
-    "order": "Accipitriformes",
-    "family": "Accipitridae",
-    "genus": "Astur"
   },
   {
     "display": "Northern Goshawk (Astur gentilis)",
@@ -249100,20 +248694,6 @@
     "order": "Lampriformes",
     "family": "Regalecidae",
     "genus": "Regalecus"
-  },
-  {
-    "display": "Oat (Avena sp.)",
-    "common": "Oat",
-    "scientific": "Avena sp.",
-    "clade": "Plantae",
-    "subclade": "Poales",
-    "domain": "Eukaryota",
-    "kingdom": "Plantae",
-    "phylum": "Streptophyta",
-    "class": "Magnoliopsida",
-    "order": "Poales",
-    "family": "Poaceae",
-    "genus": "Avena"
   },
   {
     "display": "Oats (Avena sativa)",
@@ -253106,7 +252686,7 @@
     "genus": "Papaver"
   },
   {
-    "display": "Opossum (Didelphis virginiana)",
+    "display": "Virginia Opossum (Didelphis virginiana)",
     "common": "Virginia Opossum",
     "scientific": "Didelphis virginiana",
     "clade": "Mammalia",
@@ -254618,7 +254198,7 @@
     "genus": "Chaenopsis"
   },
   {
-    "display": "Orangutan (Pongo pygmaeus)",
+    "display": "Bornean Orangutan (Pongo pygmaeus)",
     "common": "Bornean Orangutan",
     "scientific": "Pongo pygmaeus",
     "clade": "Mammalia",
@@ -256550,7 +256130,7 @@
     "genus": "Pandion"
   },
   {
-    "display": "Ostrich (Struthio camelus)",
+    "display": "Common Ostrich (Struthio camelus)",
     "common": "Common Ostrich",
     "scientific": "Struthio camelus",
     "clade": "Aves",
@@ -258566,20 +258146,6 @@
     "genus": "Sebastes"
   },
   {
-    "display": "Pacific Oyster (Crassostrea gigas)",
-    "common": "Pacific Oyster",
-    "scientific": "Crassostrea gigas",
-    "clade": "Invertebrates",
-    "subclade": "Ostreida",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Mollusca",
-    "class": "Bivalvia",
-    "order": "Ostreida",
-    "family": "Ostreidae",
-    "genus": "Magallana"
-  },
-  {
     "display": "Pacific Oyster (Magallana gigas)",
     "common": "Pacific Oyster",
     "scientific": "Magallana gigas",
@@ -259241,20 +258807,6 @@
     "display": "Pacific White-sided Dolphin (Lagenorhynchus obliquidens)",
     "common": "Pacific White-sided Dolphin",
     "scientific": "Lagenorhynchus obliquidens",
-    "clade": "Mammalia",
-    "subclade": "Artiodactyla",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Mammalia",
-    "order": "Artiodactyla",
-    "family": "Delphinidae",
-    "genus": "Sagmatias"
-  },
-  {
-    "display": "Pacific White-sided Dolphin (Sagmatias obliquidens)",
-    "common": "Pacific White-sided Dolphin",
-    "scientific": "Sagmatias obliquidens",
     "clade": "Mammalia",
     "subclade": "Artiodactyla",
     "domain": "Eukaryota",
@@ -262724,7 +262276,7 @@
     "genus": "Dromiciops"
   },
   {
-    "display": "Panda (Ailuropoda melanoleuca)",
+    "display": "Giant Panda (Ailuropoda melanoleuca)",
     "common": "Giant Panda",
     "scientific": "Ailuropoda melanoleuca",
     "clade": "Mammalia",
@@ -276206,20 +275758,6 @@
     "genus": "Puntius"
   },
   {
-    "display": "Pool Burn Galaxias (Galaxias sp. D (Allibone et al., 1996)",
-    "common": "Pool Burn Galaxias",
-    "scientific": "Galaxias sp. D (Allibone et al., 1996",
-    "clade": "Actinopteri",
-    "subclade": "Galaxiiformes",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Actinopteri",
-    "order": "Galaxiiformes",
-    "family": "Galaxiidae",
-    "genus": "Galaxias"
-  },
-  {
     "display": "Pool Burn Galaxias (Galaxias sp. D (Allibone et al., 1996))",
     "common": "Pool Burn Galaxias",
     "scientific": "Galaxias sp. D (Allibone et al., 1996)",
@@ -276570,7 +276108,7 @@
     "genus": "Hoya"
   },
   {
-    "display": "Porcupine (Erethizon dorsatum)",
+    "display": "North American Porcupine (Erethizon dorsatum)",
     "common": "North American Porcupine",
     "scientific": "Erethizon dorsatum",
     "clade": "Mammalia",
@@ -277634,7 +277172,7 @@
     "genus": "Hipposideros"
   },
   {
-    "display": "Praying Mantis (Mantis religiosa)",
+    "display": "European Praying Mantis (Mantis religiosa)",
     "common": "European Praying Mantis",
     "scientific": "Mantis religiosa",
     "clade": "Invertebrates",
@@ -278696,20 +278234,6 @@
     "order": "Artiodactyla",
     "family": "Bovidae",
     "genus": "Procapra"
-  },
-  {
-    "display": "Przewalski's Horse (Equus ferus przewalskii)",
-    "common": "Przewalski's Horse",
-    "scientific": "Equus ferus przewalskii",
-    "clade": "Mammalia",
-    "subclade": "Perissodactyla",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Mammalia",
-    "order": "Perissodactyla",
-    "family": "Equidae",
-    "genus": "Equus"
   },
   {
     "display": "Przewalski's Horse (Equus przewalskii)",
@@ -280784,20 +280308,6 @@
     "genus": "Micromys"
   },
   {
-    "display": "Pygmy Hippopotamus (Choeropsis liberiensis)",
-    "common": "Pygmy Hippopotamus",
-    "scientific": "Choeropsis liberiensis",
-    "clade": "Mammalia",
-    "subclade": "Artiodactyla",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Mammalia",
-    "order": "Artiodactyla",
-    "family": "Hippopotamidae",
-    "genus": "Hexaprotodon"
-  },
-  {
     "display": "Pygmy Hippopotamus (Hexaprotodon liberiensis)",
     "common": "Pygmy Hippopotamus",
     "scientific": "Hexaprotodon liberiensis",
@@ -281554,7 +281064,7 @@
     "genus": "Cardinalis"
   },
   {
-    "display": "Python (Python bivittatus)",
+    "display": "Burmese Python (Python bivittatus)",
     "common": "Burmese Python",
     "scientific": "Python bivittatus",
     "clade": "Lepidosauria",
@@ -282170,7 +281680,7 @@
     "genus": "Luciobarbus"
   },
   {
-    "display": "Rabbit (Oryctolagus cuniculus)",
+    "display": "European Rabbit (Oryctolagus cuniculus)",
     "common": "European Rabbit",
     "scientific": "Oryctolagus cuniculus",
     "clade": "Mammalia",
@@ -282282,7 +281792,7 @@
     "genus": "Ecnomiohyla"
   },
   {
-    "display": "Raccoon (Procyon lotor)",
+    "display": "Common Raccoon (Procyon lotor)",
     "common": "Common Raccoon",
     "scientific": "Procyon lotor",
     "clade": "Mammalia",
@@ -284018,7 +283528,7 @@
     "genus": "Potamotrygon"
   },
   {
-    "display": "Rat (Rattus norvegicus)",
+    "display": "Brown Rat (Rattus norvegicus)",
     "common": "Brown Rat",
     "scientific": "Rattus norvegicus",
     "clade": "Mammalia",
@@ -285152,7 +284662,7 @@
     "genus": "Protomelas"
   },
   {
-    "display": "Red Fire Ant (Solenopsis invicta)",
+    "display": "Red Imported Fire Ant (Solenopsis invicta)",
     "common": "Red Imported Fire Ant",
     "scientific": "Solenopsis invicta",
     "clade": "Invertebrates",
@@ -285500,20 +285010,6 @@
     "order": "Perciformes",
     "family": "Cottidae",
     "genus": "Hemilepidotus"
-  },
-  {
-    "display": "Red Kangaroo (Osphranter rufus)",
-    "common": "Red Kangaroo",
-    "scientific": "Osphranter rufus",
-    "clade": "Mammalia",
-    "subclade": "Diprotodontia",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Mammalia",
-    "order": "Diprotodontia",
-    "family": "Macropodidae",
-    "genus": "Osphranter"
   },
   {
     "display": "Red Keelback (Pseudagkistrodon rudis)",
@@ -293636,7 +293132,7 @@
     "genus": "Pterygoplichthys"
   },
   {
-    "display": "Rhinoceros (Diceros bicornis)",
+    "display": "Black Rhinoceros (Diceros bicornis)",
     "common": "Black Rhinoceros",
     "scientific": "Diceros bicornis",
     "clade": "Mammalia",
@@ -296296,7 +295792,7 @@
     "genus": "Acacia"
   },
   {
-    "display": "River Otter (Lontra canadensis)",
+    "display": "North American River Otter (Lontra canadensis)",
     "common": "North American River Otter",
     "scientific": "Lontra canadensis",
     "clade": "Mammalia",
@@ -315378,7 +314874,7 @@
     "genus": "Etheostoma"
   },
   {
-    "display": "Seal (Phoca vitulina)",
+    "display": "Harbor Seal (Phoca vitulina)",
     "common": "Harbor Seal",
     "scientific": "Phoca vitulina",
     "clade": "Mammalia",
@@ -329966,7 +329462,7 @@
     "genus": "Polyipnus"
   },
   {
-    "display": "Sloth (Bradypus tridactylus)",
+    "display": "Pale-throated Sloth (Bradypus tridactylus)",
     "common": "Pale-throated Sloth",
     "scientific": "Bradypus tridactylus",
     "clade": "Mammalia",
@@ -330022,7 +329518,7 @@
     "genus": "Etheostoma"
   },
   {
-    "display": "Slow Loris (Nycticebus coucang)",
+    "display": "Sunda Slow Loris (Nycticebus coucang)",
     "common": "Sunda Slow Loris",
     "scientific": "Nycticebus coucang",
     "clade": "Mammalia",
@@ -330963,20 +330459,6 @@
     "display": "Small Tortoiseshell (Aglais urticae)",
     "common": "Small Tortoiseshell",
     "scientific": "Aglais urticae",
-    "clade": "Invertebrates",
-    "subclade": "Lepidoptera",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Arthropoda",
-    "class": "Insecta",
-    "order": "Lepidoptera",
-    "family": "Nymphalidae",
-    "genus": "Nymphalis"
-  },
-  {
-    "display": "Small Tortoiseshell (Nymphalis urticae)",
-    "common": "Small Tortoiseshell",
-    "scientific": "Nymphalis urticae",
     "clade": "Invertebrates",
     "subclade": "Lepidoptera",
     "domain": "Eukaryota",
@@ -340466,8 +339948,8 @@
     "genus": "Anaxyrus"
   },
   {
-    "display": "Southern Toadlet (Pseudophryne dendyi)",
-    "common": "Southern Toadlet",
+    "display": "Dendy's Toadlet (Pseudophryne dendyi)",
+    "common": "Dendy's Toadlet",
     "scientific": "Pseudophryne dendyi",
     "clade": "Amphibia",
     "subclade": "Anura",
@@ -343112,23 +342594,9 @@
     "genus": "Anchoa"
   },
   {
-    "display": "Spider Monkey (Ateles geoffroyi)",
+    "display": "Geoffroy's Spider Monkey (Ateles geoffroyi)",
     "common": "Geoffroy's Spider Monkey",
     "scientific": "Ateles geoffroyi",
-    "clade": "Mammalia",
-    "subclade": "Primates",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Mammalia",
-    "order": "Primates",
-    "family": "Atelidae",
-    "genus": "Ateles"
-  },
-  {
-    "display": "Spider Monkey (Ateles sp.)",
-    "common": "Spider Monkey",
-    "scientific": "Ateles sp.",
     "clade": "Mammalia",
     "subclade": "Primates",
     "domain": "Eukaryota",
@@ -347564,8 +347032,8 @@
     "genus": "Alopecion"
   },
   {
-    "display": "Spotted Hyena (Crocuta crocuta spelaea)",
-    "common": "Spotted Hyena",
+    "display": "Cave Hyena (Crocuta crocuta spelaea)",
+    "common": "Cave Hyena",
     "scientific": "Crocuta crocuta spelaea",
     "clade": "Mammalia",
     "subclade": "Carnivora",
@@ -350084,7 +349552,7 @@
     "genus": "Pagrus"
   },
   {
-    "display": "Squirrel (Sciurus carolinensis)",
+    "display": "Eastern Gray Squirrel (Sciurus carolinensis)",
     "common": "Eastern Gray Squirrel",
     "scientific": "Sciurus carolinensis",
     "clade": "Mammalia",
@@ -350854,8 +350322,8 @@
     "genus": "Uranoscopus"
   },
   {
-    "display": "Stargazer (Uranoscopus scaber)",
-    "common": "Stargazer",
+    "display": "Atlantic Stargazer (Uranoscopus scaber)",
+    "common": "Atlantic Stargazer",
     "scientific": "Uranoscopus scaber",
     "clade": "Actinopteri",
     "subclade": "Uranoscopiformes",
@@ -358008,8 +357476,8 @@
     "genus": "Acerodon"
   },
   {
-    "display": "Sunda Pangolin (Manis culionensis)",
-    "common": "Sunda Pangolin",
+    "display": "Philippine Pangolin (Manis culionensis)",
+    "common": "Philippine Pangolin",
     "scientific": "Manis culionensis",
     "clade": "Mammalia",
     "subclade": "Pholidota",
@@ -359254,8 +358722,8 @@
     "genus": "Anthias"
   },
   {
-    "display": "Swallowtail Butterfly (Papilio machaon)",
-    "common": "Swallowtail Butterfly",
+    "display": "Old World Swallowtail (Papilio machaon)",
+    "common": "Old World Swallowtail",
     "scientific": "Papilio machaon",
     "clade": "Invertebrates",
     "subclade": "Lepidoptera",
@@ -369166,8 +368634,8 @@
     "genus": "Halichoeres"
   },
   {
-    "display": "Threespot Wrasse (Halichoeres trispilus)",
-    "common": "Threespot Wrasse",
+    "display": "Triplespot Wrasse (Halichoeres trispilus)",
+    "common": "Triplespot Wrasse",
     "scientific": "Halichoeres trispilus",
     "clade": "Actinopteri",
     "subclade": "Labriformes",
@@ -373562,7 +373030,7 @@
     "genus": "Erica"
   },
   {
-    "display": "Tree Kangaroo (Dendrolagus matschiei)",
+    "display": "Matschie's Tree-kangaroo (Dendrolagus matschiei)",
     "common": "Matschie's Tree-kangaroo",
     "scientific": "Dendrolagus matschiei",
     "clade": "Mammalia",
@@ -375592,8 +375060,8 @@
     "genus": "Proterorhinus"
   },
   {
-    "display": "Tubenose Goby (Proterorhinus semilunaris)",
-    "common": "Tubenose Goby",
+    "display": "Western Tubenose Goby (Proterorhinus semilunaris)",
+    "common": "Western Tubenose Goby",
     "scientific": "Proterorhinus semilunaris",
     "clade": "Actinopteri",
     "subclade": "Gobiiformes",
@@ -376446,7 +375914,7 @@
     "genus": "Parus"
   },
   {
-    "display": "Turkey (Meleagris gallopavo)",
+    "display": "Wild Turkey (Meleagris gallopavo)",
     "common": "Wild Turkey",
     "scientific": "Meleagris gallopavo",
     "clade": "Aves",
@@ -398594,8 +398062,8 @@
     "genus": "Scolopsis"
   },
   {
-    "display": "Whitecheek Shark (Carcharhinus coatesi)",
-    "common": "Whitecheek Shark",
+    "display": "Australian Blackspot Shark (Carcharhinus coatesi)",
+    "common": "Australian Blackspot Shark",
     "scientific": "Carcharhinus coatesi",
     "clade": "Chondrichthyes",
     "subclade": "Carcharhiniformes",
@@ -398709,20 +398177,6 @@
     "display": "Whitefin Sharksucker (Echeneis naucratoides)",
     "common": "Whitefin Sharksucker",
     "scientific": "Echeneis naucratoides",
-    "clade": "Actinopteri",
-    "subclade": "Carangiformes",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Actinopteri",
-    "order": "Carangiformes",
-    "family": "Echeneidae",
-    "genus": "Echeneis"
-  },
-  {
-    "display": "Whitefin Sharksucker (Echeneis neucratoides)",
-    "common": "Whitefin Sharksucker",
-    "scientific": "Echeneis neucratoides",
     "clade": "Actinopteri",
     "subclade": "Carangiformes",
     "domain": "Eukaryota",
@@ -407372,8 +406826,8 @@
     "genus": "Platyrhina"
   },
   {
-    "display": "Yellow-spotted Frog (Ameerega flavopicta)",
-    "common": "Yellow-spotted Frog",
+    "display": "Lutz's Poison Frog (Ameerega flavopicta)",
+    "common": "Lutz's Poison Frog",
     "scientific": "Ameerega flavopicta",
     "clade": "Amphibia",
     "subclade": "Anura",
@@ -412048,20 +411502,6 @@
     "genus": "Eurytides"
   },
   {
-    "display": "Zebra Swallowtail (Protographium marcellus)",
-    "common": "Zebra Swallowtail",
-    "scientific": "Protographium marcellus",
-    "clade": "Invertebrates",
-    "subclade": "Lepidoptera",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Arthropoda",
-    "class": "Insecta",
-    "order": "Lepidoptera",
-    "family": "Papilionidae",
-    "genus": "Eurytides"
-  },
-  {
     "display": "Zebra Tilefish (Branchiostegus semifasciatus)",
     "common": "Zebra Tilefish",
     "scientific": "Branchiostegus semifasciatus",
@@ -412950,21 +412390,6 @@
     "genus": "Papio"
   },
   {
-    "display": "Arapaima (Arapaima)",
-    "common": "Arapaima",
-    "scientific": "Arapaima",
-    "taxonomic_rank": "genus",
-    "clade": "Actinopteri",
-    "subclade": "Osteoglossiformes",
-    "domain": "Eukaryota",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Actinopteri",
-    "order": "Osteoglossiformes",
-    "family": "Arapaimidae",
-    "genus": "Arapaima"
-  },
-  {
     "common": "Sloth",
     "scientific": "Folivora",
     "kingdom": "Animalia",
@@ -412974,7 +412399,8 @@
     "family": "Bradypodidae",
     "genus": null,
     "species": null,
-    "rank": "suborder"
+    "rank": "suborder",
+    "display": "Sloth (Folivora)"
   },
   {
     "common": "Elephant",
@@ -412986,7 +412412,8 @@
     "family": "Elephantidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Elephant (Elephantidae)"
   },
   {
     "common": "Caecilian",
@@ -412998,7 +412425,8 @@
     "family": "Dermophiidae",
     "genus": null,
     "species": null,
-    "rank": "order"
+    "rank": "order",
+    "display": "Caecilian (Gymnophiona)"
   },
   {
     "common": "Hedgehog",
@@ -413010,7 +412438,8 @@
     "family": "Erinaceidae",
     "genus": null,
     "species": null,
-    "rank": "subfamily"
+    "rank": "subfamily",
+    "display": "Hedgehog (Erinaceinae)"
   },
   {
     "common": "Seal",
@@ -413022,7 +412451,8 @@
     "family": "Phocidae",
     "genus": null,
     "species": null,
-    "rank": "clade"
+    "rank": "clade",
+    "display": "Seal (Pinnipedia)"
   },
   {
     "common": "Opossum",
@@ -413034,7 +412464,8 @@
     "family": "Didelphidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Opossum (Didelphidae)"
   },
   {
     "common": "Kiwi",
@@ -413046,7 +412477,8 @@
     "family": "Apterygidae",
     "genus": "Apteryx",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Kiwi (Apteryx)"
   },
   {
     "common": "Spider Monkey",
@@ -413058,7 +412490,8 @@
     "family": "Atelidae",
     "genus": "Ateles",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Spider Monkey (Ateles)"
   },
   {
     "common": "Howler Monkey",
@@ -413070,7 +412503,8 @@
     "family": "Atelidae",
     "genus": "Alouatta",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Howler Monkey (Alouatta)"
   },
   {
     "common": "Tree Kangaroo",
@@ -413082,7 +412516,8 @@
     "family": "Macropodidae",
     "genus": "Dendrolagus",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Tree Kangaroo (Dendrolagus)"
   },
   {
     "common": "Vampire Bat",
@@ -413094,19 +412529,8 @@
     "family": "Phyllostomidae",
     "genus": "Desmodus",
     "species": null,
-    "rank": "genus"
-  },
-  {
-    "common": "Black Rhinoceros",
-    "scientific": "Diceros",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Mammalia",
-    "order": "Perissodactyla",
-    "family": "Rhinocerotidae",
-    "genus": "Diceros",
-    "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Vampire Bat (Desmodus)"
   },
   {
     "common": "Rat",
@@ -413118,7 +412542,8 @@
     "family": "Muridae",
     "genus": "Rattus",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Rat (Rattus)"
   },
   {
     "common": "Mouse",
@@ -413130,7 +412555,8 @@
     "family": "Muridae",
     "genus": "Mus",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Mouse (Mus)"
   },
   {
     "common": "Tree Squirrel",
@@ -413142,7 +412568,8 @@
     "family": "Sciuridae",
     "genus": "Sciurus",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Tree Squirrel (Sciurus)"
   },
   {
     "common": "Rabbit",
@@ -413154,7 +412581,8 @@
     "family": "Leporidae",
     "genus": "Oryctolagus",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Rabbit (Oryctolagus)"
   },
   {
     "common": "Hare",
@@ -413166,7 +412594,8 @@
     "family": "Leporidae",
     "genus": "Lepus",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Hare (Lepus)"
   },
   {
     "common": "Porcupine",
@@ -413178,7 +412607,8 @@
     "family": "Erethizontidae",
     "genus": "Erethizon",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Porcupine (Erethizon)"
   },
   {
     "common": "Beaver",
@@ -413190,19 +412620,8 @@
     "family": "Castoridae",
     "genus": "Castor",
     "species": null,
-    "rank": "genus"
-  },
-  {
-    "common": "Mole",
-    "scientific": "Talpa",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Mammalia",
-    "order": "Eulipotyphla",
-    "family": "Talpidae",
-    "genus": "Talpa",
-    "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Beaver (Castor)"
   },
   {
     "common": "Long-nosed Armadillo",
@@ -413214,7 +412633,8 @@
     "family": "Dasypodidae",
     "genus": "Dasypus",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Long-nosed Armadillo (Dasypus)"
   },
   {
     "common": "Manatee",
@@ -413226,7 +412646,8 @@
     "family": "Trichechidae",
     "genus": "Trichechus",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Manatee (Trichechus)"
   },
   {
     "common": "Ostrich",
@@ -413238,7 +412659,8 @@
     "family": "Struthionidae",
     "genus": "Struthio",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Ostrich (Struthio)"
   },
   {
     "common": "Turkey",
@@ -413250,19 +412672,8 @@
     "family": "Phasianidae",
     "genus": "Meleagris",
     "species": null,
-    "rank": "genus"
-  },
-  {
-    "common": "King Cobra",
-    "scientific": "Ophiophagus",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Lepidosauria",
-    "order": "Squamata",
-    "family": "Elapidae",
-    "genus": "Ophiophagus",
-    "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Turkey (Meleagris)"
   },
   {
     "common": "Python",
@@ -413274,7 +412685,8 @@
     "family": "Pythonidae",
     "genus": "Python",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Python (Python)"
   },
   {
     "common": "Slow Loris",
@@ -413286,7 +412698,8 @@
     "family": "Lorisidae",
     "genus": "Nycticebus",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Slow Loris (Nycticebus)"
   },
   {
     "common": "River Otter",
@@ -413298,7 +412711,8 @@
     "family": "Mustelidae",
     "genus": "Lontra",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "River Otter (Lontra)"
   },
   {
     "common": "Gibbon",
@@ -413310,19 +412724,8 @@
     "family": "Hylobatidae",
     "genus": "Hylobates",
     "species": null,
-    "rank": "genus"
-  },
-  {
-    "common": "African Buffalo",
-    "scientific": "Syncerus",
-    "kingdom": "Animalia",
-    "phylum": "Chordata",
-    "class": "Mammalia",
-    "order": "Artiodactyla",
-    "family": "Bovidae",
-    "genus": "Syncerus",
-    "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Gibbon (Hylobates)"
   },
   {
     "common": "Bottlenose Dolphin",
@@ -413334,7 +412737,8 @@
     "family": "Delphinidae",
     "genus": "Tursiops",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Bottlenose Dolphin (Tursiops)"
   },
   {
     "common": "Mole",
@@ -413346,7 +412750,8 @@
     "family": "Talpidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Mole (Talpidae)"
   },
   {
     "common": "Cuttlefish",
@@ -413358,7 +412763,8 @@
     "family": "Sepiidae",
     "genus": null,
     "species": null,
-    "rank": "order"
+    "rank": "order",
+    "display": "Cuttlefish (Sepiida)"
   },
   {
     "common": "Starfish",
@@ -413370,7 +412776,8 @@
     "family": "Asteriidae",
     "genus": null,
     "species": null,
-    "rank": "class"
+    "rank": "class",
+    "display": "Starfish (Asteroidea)"
   },
   {
     "common": "Chameleon",
@@ -413382,7 +412789,8 @@
     "family": "Chamaeleonidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Chameleon (Chamaeleonidae)"
   },
   {
     "common": "Squid",
@@ -413394,7 +412802,8 @@
     "family": "Loliginidae",
     "genus": null,
     "species": null,
-    "rank": "class"
+    "rank": "class",
+    "display": "Squid (Decapodiformes)"
   },
   {
     "common": "Octopus",
@@ -413406,7 +412815,8 @@
     "family": "Octopodidae",
     "genus": null,
     "species": null,
-    "rank": "order"
+    "rank": "order",
+    "display": "Octopus (Octopoda)"
   },
   {
     "common": "Seahorse",
@@ -413418,7 +412828,8 @@
     "family": "Syngnathidae",
     "genus": "Hippocampus",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Seahorse (Hippocampus)"
   },
   {
     "common": "Tardigrade",
@@ -413430,7 +412841,8 @@
     "family": "Hypsibiidae",
     "genus": null,
     "species": null,
-    "rank": "phylum"
+    "rank": "phylum",
+    "display": "Tardigrade (Tardigrada)"
   },
   {
     "common": "Dragonfly",
@@ -413442,7 +412854,8 @@
     "family": "Aeshnidae",
     "genus": null,
     "species": null,
-    "rank": "order"
+    "rank": "order",
+    "display": "Dragonfly (Anisoptera)"
   },
   {
     "common": "Scorpion",
@@ -413454,7 +412867,8 @@
     "family": "Scorpionidae",
     "genus": null,
     "species": null,
-    "rank": "order"
+    "rank": "order",
+    "display": "Scorpion (Scorpiones)"
   },
   {
     "common": "Earthworm",
@@ -413466,7 +412880,8 @@
     "family": "Lumbricidae",
     "genus": null,
     "species": null,
-    "rank": "order"
+    "rank": "order",
+    "display": "Earthworm (Lumbricina)"
   },
   {
     "common": "Sea Urchin",
@@ -413478,7 +412893,8 @@
     "family": "Strongylocentrotidae",
     "genus": null,
     "species": null,
-    "rank": "class"
+    "rank": "class",
+    "display": "Sea Urchin (Echinoidea)"
   },
   {
     "common": "Sea Cucumber",
@@ -413490,7 +412906,8 @@
     "family": "Holothuriidae",
     "genus": null,
     "species": null,
-    "rank": "class"
+    "rank": "class",
+    "display": "Sea Cucumber (Holothuroidea)"
   },
   {
     "common": "Sea Anemone",
@@ -413502,7 +412919,8 @@
     "family": "Actiniidae",
     "genus": null,
     "species": null,
-    "rank": "order"
+    "rank": "order",
+    "display": "Sea Anemone (Actiniaria)"
   },
   {
     "common": "Stingray",
@@ -413514,7 +412932,8 @@
     "family": "Dasyatidae",
     "genus": null,
     "species": null,
-    "rank": "order"
+    "rank": "order",
+    "display": "Stingray (Myliobatiformes)"
   },
   {
     "common": "Mantis",
@@ -413526,7 +412945,8 @@
     "family": "Mantidae",
     "genus": null,
     "species": null,
-    "rank": "order"
+    "rank": "order",
+    "display": "Mantis (Mantodea)"
   },
   {
     "common": "Lobster",
@@ -413538,7 +412958,8 @@
     "family": "Nephropidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Lobster (Nephropidae)"
   },
   {
     "common": "Bumblebee",
@@ -413550,7 +412971,8 @@
     "family": "Apidae",
     "genus": "Bombus",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Bumblebee (Bombus)"
   },
   {
     "common": "Wasp",
@@ -413562,7 +412984,8 @@
     "family": "Vespidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Wasp (Vespidae)"
   },
   {
     "common": "Sponge",
@@ -413574,7 +412997,8 @@
     "family": "Aplysinidae",
     "genus": null,
     "species": null,
-    "rank": "phylum"
+    "rank": "phylum",
+    "display": "Sponge (Porifera)"
   },
   {
     "common": "Stag Beetle",
@@ -413586,7 +413010,8 @@
     "family": "Lucanidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Stag Beetle (Lucanidae)"
   },
   {
     "common": "Oyster",
@@ -413598,7 +413023,8 @@
     "family": "Ostreidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Oyster (Ostreidae)"
   },
   {
     "common": "Clam",
@@ -413610,7 +413036,8 @@
     "family": "Veneridae",
     "genus": null,
     "species": null,
-    "rank": "class"
+    "rank": "class",
+    "display": "Clam (Bivalvia)"
   },
   {
     "common": "Snail",
@@ -413622,7 +413049,8 @@
     "family": "Helicidae",
     "genus": null,
     "species": null,
-    "rank": "class"
+    "rank": "class",
+    "display": "Snail (Gastropoda)"
   },
   {
     "common": "Millipede",
@@ -413634,7 +413062,8 @@
     "family": "Spirostreptidae",
     "genus": null,
     "species": null,
-    "rank": "class"
+    "rank": "class",
+    "display": "Millipede (Diplopoda)"
   },
   {
     "common": "Prawn",
@@ -413646,7 +413075,8 @@
     "family": "Penaeidae",
     "genus": null,
     "species": null,
-    "rank": "order"
+    "rank": "order",
+    "display": "Prawn (Dendrobranchiata)"
   },
   {
     "common": "Slug",
@@ -413658,7 +413088,8 @@
     "family": "Agriolimacidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Slug (Agriolimacidae)"
   },
   {
     "common": "Planarian",
@@ -413670,7 +413101,8 @@
     "family": "Dugesiidae",
     "genus": null,
     "species": null,
-    "rank": "order"
+    "rank": "order",
+    "display": "Planarian (Tricladida)"
   },
   {
     "common": "Toad",
@@ -413682,7 +413114,8 @@
     "family": "Bufonidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Toad (Bufonidae)"
   },
   {
     "common": "Frog",
@@ -413694,7 +413127,8 @@
     "family": "Ranidae",
     "genus": null,
     "species": null,
-    "rank": "order"
+    "rank": "order",
+    "display": "Frog (Anura)"
   },
   {
     "common": "Lionfish",
@@ -413706,7 +413140,8 @@
     "family": "Scorpaenidae",
     "genus": "Pterois",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Lionfish (Pterois)"
   },
   {
     "common": "Newt",
@@ -413718,7 +413153,8 @@
     "family": "Salamandridae",
     "genus": null,
     "species": null,
-    "rank": "subfamily"
+    "rank": "subfamily",
+    "display": "Newt (Pleurodelinae)"
   },
   {
     "common": "Blue-ringed octopus",
@@ -413730,7 +413166,8 @@
     "family": "Octopodidae",
     "genus": "Hapalochlaena",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Blue-ringed octopus (Hapalochlaena)"
   },
   {
     "common": "Moray Eel",
@@ -413742,7 +413179,8 @@
     "family": "Muraenidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Moray Eel (Muraenidae)"
   },
   {
     "common": "Nautilus",
@@ -413754,7 +413192,8 @@
     "family": "Nautilidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Nautilus (Nautilidae)"
   },
   {
     "common": "Mantis Shrimp",
@@ -413766,7 +413205,8 @@
     "family": "Odontodactylidae",
     "genus": null,
     "species": null,
-    "rank": "order"
+    "rank": "order",
+    "display": "Mantis Shrimp (Stomatopoda)"
   },
   {
     "common": "Box Jellyfish",
@@ -413778,7 +413218,8 @@
     "family": "Chirodropidae",
     "genus": null,
     "species": null,
-    "rank": "class"
+    "rank": "class",
+    "display": "Box Jellyfish (Cubozoa)"
   },
   {
     "common": "Horseshoe Crab",
@@ -413790,7 +413231,8 @@
     "family": "Limulidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Horseshoe Crab (Limulidae)"
   },
   {
     "common": "Anglerfish",
@@ -413802,7 +413244,8 @@
     "family": "Melanocetidae",
     "genus": null,
     "species": null,
-    "rank": "order"
+    "rank": "order",
+    "display": "Anglerfish (Lophiiformes)"
   },
   {
     "common": "Catfish",
@@ -413814,7 +413257,8 @@
     "family": "Ictaluridae",
     "genus": null,
     "species": null,
-    "rank": "order"
+    "rank": "order",
+    "display": "Catfish (Siluriformes)"
   },
   {
     "common": "Porpoise",
@@ -413826,7 +413270,8 @@
     "family": "Phocoenidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Porpoise (Phocoenidae)"
   },
   {
     "common": "Barracuda",
@@ -413838,7 +413283,8 @@
     "family": "Sphyraenidae",
     "genus": "Sphyraena",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Barracuda (Sphyraena)"
   },
   {
     "common": "Clownfish",
@@ -413850,7 +413296,8 @@
     "family": "Pomacentridae",
     "genus": "Amphiprion",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Clownfish (Amphiprion)"
   },
   {
     "common": "Piranha",
@@ -413862,7 +413309,8 @@
     "family": "Serrasalmidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Piranha (Serrasalmidae)"
   },
   {
     "common": "Cicada",
@@ -413874,7 +413322,8 @@
     "family": "Cicadidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Cicada (Cicadidae)"
   },
   {
     "common": "Mosquito",
@@ -413886,7 +413335,8 @@
     "family": "Culicidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Mosquito (Culicidae)"
   },
   {
     "common": "Tarantula",
@@ -413898,7 +413348,8 @@
     "family": "Theraphosidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Tarantula (Theraphosidae)"
   },
   {
     "common": "Swallowtail Butterfly",
@@ -413910,7 +413361,8 @@
     "family": "Papilionidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Swallowtail Butterfly (Papilionidae)"
   },
   {
     "common": "Salamander",
@@ -413922,7 +413374,8 @@
     "family": "Salamandridae",
     "genus": null,
     "species": null,
-    "rank": "order"
+    "rank": "order",
+    "display": "Salamander (Caudata)"
   },
   {
     "common": "Poison Dart Frog",
@@ -413934,7 +413387,8 @@
     "family": "Dendrobatidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Poison Dart Frog (Dendrobatidae)"
   },
   {
     "common": "Wombat",
@@ -413946,7 +413400,8 @@
     "family": "Vombatidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Wombat (Vombatidae)"
   },
   {
     "common": "Warthog",
@@ -413958,7 +413413,8 @@
     "family": "Suidae",
     "genus": "Phacochoerus",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Warthog (Phacochoerus)"
   },
   {
     "common": "Prairie Dog",
@@ -413970,7 +413426,8 @@
     "family": "Sciuridae",
     "genus": "Cynomys",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Prairie Dog (Cynomys)"
   },
   {
     "common": "Hummingbird",
@@ -413982,7 +413439,8 @@
     "family": "Trochilidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Hummingbird (Trochilidae)"
   },
   {
     "common": "Pelican",
@@ -413994,7 +413452,8 @@
     "family": "Pelecanidae",
     "genus": "Pelecanus",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Pelican (Pelecanus)"
   },
   {
     "common": "Swan",
@@ -414006,7 +413465,8 @@
     "family": "Anatidae",
     "genus": "Cygnus",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Swan (Cygnus)"
   },
   {
     "common": "Goose",
@@ -414018,7 +413478,8 @@
     "family": "Anatidae",
     "genus": "Anser",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Goose (Anser)"
   },
   {
     "common": "Kangaroo",
@@ -414030,7 +413491,8 @@
     "family": "Macropodidae",
     "genus": "Macropus",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Kangaroo (Macropus)"
   },
   {
     "common": "Cormorant",
@@ -414042,7 +413504,8 @@
     "family": "Phalacrocoracidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Cormorant (Phalacrocoracidae)"
   },
   {
     "common": "Tarsier",
@@ -414054,7 +413517,8 @@
     "family": "Tarsiidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Tarsier (Tarsiidae)"
   },
   {
     "common": "Fire Ant",
@@ -414066,7 +413530,8 @@
     "family": "Formicidae",
     "genus": "Solenopsis",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Fire Ant (Solenopsis)"
   },
   {
     "common": "Fiddler Crab",
@@ -414078,7 +413543,8 @@
     "family": "Ocypodidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Fiddler Crab (Ocypodidae)"
   },
   {
     "common": "Barn Owl",
@@ -414090,7 +413556,8 @@
     "family": "Tytonidae",
     "genus": "Tyto",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Barn Owl (Tyto)"
   },
   {
     "common": "Electric Eel",
@@ -414102,7 +413569,8 @@
     "family": "Gymnotidae",
     "genus": "Electrophorus",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Electric Eel (Electrophorus)"
   },
   {
     "common": "Leafcutter Ant",
@@ -414114,7 +413582,8 @@
     "family": "Formicidae",
     "genus": "Atta",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Leafcutter Ant (Atta)"
   },
   {
     "common": "Goliath Beetle",
@@ -414126,7 +413595,8 @@
     "family": "Scarabaeidae",
     "genus": "Goliathus",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Goliath Beetle (Goliathus)"
   },
   {
     "common": "Black Widow Spider",
@@ -414138,7 +413608,8 @@
     "family": "Theridiidae",
     "genus": "Latrodectus",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Black Widow Spider (Latrodectus)"
   },
   {
     "common": "Sea Lion",
@@ -414150,7 +413621,8 @@
     "family": "Otariidae",
     "genus": null,
     "species": null,
-    "rank": "subfamily"
+    "rank": "subfamily",
+    "display": "Sea Lion (Otariinae)"
   },
   {
     "common": "Comb Jelly",
@@ -414162,7 +413634,8 @@
     "family": "Bolinopsidae",
     "genus": null,
     "species": null,
-    "rank": "phylum"
+    "rank": "phylum",
+    "display": "Comb Jelly (Ctenophora)"
   },
   {
     "common": "Pufferfish",
@@ -414174,7 +413647,8 @@
     "family": "Tetraodontidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Pufferfish (Tetraodontidae)"
   },
   {
     "common": "Bearded Dragon",
@@ -414186,7 +413660,8 @@
     "family": "Agamidae",
     "genus": "Pogona",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Bearded Dragon (Pogona)"
   },
   {
     "common": "Clawed Frog",
@@ -414198,7 +413673,8 @@
     "family": "Pipidae",
     "genus": "Xenopus",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Clawed Frog (Xenopus)"
   },
   {
     "common": "Macaque",
@@ -414210,7 +413686,8 @@
     "family": "Cercopithecidae",
     "genus": "Macaca",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Macaque (Macaca)"
   },
   {
     "common": "Lynx",
@@ -414222,10 +413699,11 @@
     "family": "Felidae",
     "genus": "Lynx",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Lynx (Lynx)"
   },
   {
-    "common": "Giant Panda",
+    "common": "Panda",
     "scientific": "Ailuropoda",
     "kingdom": "Animalia",
     "phylum": "Chordata",
@@ -414234,7 +413712,8 @@
     "family": "Ursidae",
     "genus": "Ailuropoda",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Panda (Ailuropoda)"
   },
   {
     "common": "Raccoon",
@@ -414246,7 +413725,8 @@
     "family": "Procyonidae",
     "genus": "Procyon",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Raccoon (Procyon)"
   },
   {
     "common": "Hyena",
@@ -414258,7 +413738,8 @@
     "family": "Hyaenidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Hyena (Hyaenidae)"
   },
   {
     "common": "Hippopotamus",
@@ -414270,7 +413751,8 @@
     "family": "Hippopotamidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Hippopotamus (Hippopotamidae)"
   },
   {
     "common": "Ladybird",
@@ -414282,7 +413764,8 @@
     "family": "Coccinellidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Ladybird (Coccinellidae)"
   },
   {
     "common": "Albatross",
@@ -414294,7 +413777,8 @@
     "family": "Diomedeidae",
     "genus": null,
     "species": null,
-    "rank": "family"
+    "rank": "family",
+    "display": "Albatross (Diomedeidae)"
   },
   {
     "common": "Giant Clam",
@@ -414306,6 +413790,7 @@
     "family": "Cardiidae",
     "genus": "Tridacna",
     "species": null,
-    "rank": "genus"
+    "rank": "genus",
+    "display": "Giant Clam (Tridacna)"
   }
 ]

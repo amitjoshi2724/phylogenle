@@ -182,14 +182,43 @@ def query_enwiki_fallback_batch(titles):
                     print(f"  EnWiki fallback batch error: {e}")
     return results
 
+BIOLOGICAL_P31 = {
+    "Q16521", "Q23038290", "Q310890", "Q47487597", "Q713623",
+    "Q55983715", "Q4886", "Q15926588", "Q207106", "Q146", "Q5"
+}
+DISAMBIGUATION_P31 = {"Q4167410", "Q22808320", "Q15407973"}
+HIGHER_RANKS = {
+    "Q35409", "Q36732", "Q38348", "Q16428", "Q2455704", "Q34740",
+    "Q5867051", "Q5867959", "Q5868144", "Q2889003", "Q2136103", "Q713623"
+}
+
+def format_title_case(s):
+    """Title-case an English vernacular name without capitalizing letters after apostrophes."""
+    if not s:
+        return ""
+    return re.sub(
+        r"[A-Za-z]+('[A-Za-z]+)?",
+        lambda m: m.group(0)[0].upper() + m.group(0)[1:].lower(),
+        s,
+    )
+
+def extract_scientific_from_display(display_str):
+    """Extract scientific name from 'Common Name (Scientific Name)' safely with nested parens."""
+    if not display_str:
+        return "", ""
+    idx = display_str.find(" (")
+    if idx != -1 and display_str.endswith(")"):
+        return display_str[:idx].strip(), display_str[idx + 2 : -1].strip()
+    return "", display_str.strip()
+
 def query_wikidata_sitelinks_by_qids(qids):
-    """Query wbgetentities for a list of QIDs to get their sitelink counts."""
+    """Query wbgetentities for a list of QIDs to get sitelink counts and verify biological P31/P225 claims."""
     if not qids:
         return {}
     results = {}
     for i in range(0, len(qids), 50):
         chunk = qids[i:i + 50]
-        url = f"https://www.wikidata.org/w/api.php?action=wbgetentities&ids={'|'.join(chunk)}&props=sitelinks&format=json"
+        url = f"https://www.wikidata.org/w/api.php?action=wbgetentities&ids={'|'.join(chunk)}&props=sitelinks|claims&format=json"
         req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
         try:
             with urllib.request.urlopen(req, timeout=15) as resp:
@@ -197,9 +226,29 @@ def query_wikidata_sitelinks_by_qids(qids):
                 for qid, ent in data_json.get("entities", {}).items():
                     sitelinks = ent.get("sitelinks", {})
                     en_title = sitelinks.get("enwiki", {}).get("title")
+                    claims = ent.get("claims", {})
+                    p31 = {
+                        c.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id")
+                        for c in claims.get("P31", [])
+                        if isinstance(c.get("mainsnak", {}).get("datavalue", {}).get("value"), dict)
+                    }
+                    p105 = {
+                        c.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id")
+                        for c in claims.get("P105", [])
+                        if isinstance(c.get("mainsnak", {}).get("datavalue", {}).get("value"), dict)
+                    }
+                    p225 = {
+                        c.get("mainsnak", {}).get("datavalue", {}).get("value")
+                        for c in claims.get("P225", [])
+                        if isinstance(c.get("mainsnak", {}).get("datavalue", {}).get("value"), str)
+                    }
+                    is_bio = bool((p31 & BIOLOGICAL_P31) or p225 or qid in ("Q5", "Q146")) and not bool(p31 & DISAMBIGUATION_P31)
                     results[qid] = {
                         "swiki": len(sitelinks),
                         "en_title": en_title,
+                        "is_bio": is_bio,
+                        "p225": p225,
+                        "p105": p105,
                     }
         except Exception as e:
             print(f"  QID sitelinks error: {e}")
@@ -365,19 +414,35 @@ def main():
                 titles_to_check.extend(clean_titles)
                 sci_to_titles[s["scientific"]] = clean_titles
 
+            all_catalog_scis = {sp["scientific"] for sp in species_data}
             resolved_map = query_enwiki_fallback_batch(titles_to_check)
             if resolved_map:
                 qids_to_query = list(set(qid for qid, _ in resolved_map.values() if qid))
                 qid_data = query_wikidata_sitelinks_by_qids(qids_to_query) if qids_to_query else {}
                 for s in batch:
                     sci = s["scientific"]
+                    s_rank = s.get("rank", "Species")
                     best_qid = None
                     best_swiki = cache.get(sci, {}).get("swiki", 0)
                     best_title = cache.get(sci, {}).get("en_title")
+                    has_step1_qid = bool(cache.get(sci, {}).get("qid"))
                     for t in sci_to_titles[sci]:
                         if t in resolved_map:
                             qid, can_title = resolved_map[t]
-                            s_count = qid_data.get(qid, {}).get("swiki", 0) if qid else 0
+                            qmeta = qid_data.get(qid, {}) if qid else {}
+                            if not qmeta.get("is_bio"):
+                                continue
+                            p225_set = qmeta.get("p225", set())
+                            p105_set = qmeta.get("p105", set())
+                            # Reject if candidate QID's P225 belongs to a different catalog taxon
+                            if p225_set and sci not in p225_set:
+                                if any(other in all_catalog_scis for other in p225_set):
+                                    continue
+                                if s_rank == "Species" and (p105_set & HIGHER_RANKS):
+                                    continue
+                                if has_step1_qid:
+                                    continue
+                            s_count = qmeta.get("swiki", 0)
                             if s_count > best_swiki or not best_title:
                                 best_swiki = max(best_swiki, s_count)
                                 best_qid = qid
@@ -447,6 +512,11 @@ def main():
 
         catalog_scis = set(s["scientific"] for s in species_data)
         catalog_commons_lower = set((s.get("common") or "").lower() for s in species_data if s.get("common"))
+        all_primary_en_titles = set(
+            (rec.get("en_title") or "").strip().lower()
+            for rec in cache.values()
+            if rec.get("en_title")
+        )
 
         # Map aliases to species
         alias_to_sci = {}
@@ -454,9 +524,7 @@ def main():
             with open(ALIASES_PATH, "r", encoding="utf-8") as f:
                 raw_aliases = json.load(f)
             for a, target in raw_aliases.items():
-                m = re.search(r"\(([^)]+)\)$", target)
-                sci = m.group(1).strip() if m else target.strip()
-                comm = target[:m.start()].strip() if m else ""
+                comm, sci = extract_scientific_from_display(target)
                 if a.lower() == sci.lower() or a.lower() == comm.lower() or "(" in a:
                     continue
                 clean_a = a.strip()
@@ -476,6 +544,7 @@ def main():
             if not target or not qid: continue
             prim = cache.get(sci, {}).get("en_title", "")
             if target.strip().lower() == prim.strip().lower(): continue
+            if target.strip().lower() in all_primary_en_titles: continue
             if is_umbrella(target): continue
             if target in catalog_scis or target.lower() in catalog_commons_lower:
                 continue
@@ -484,7 +553,6 @@ def main():
 
         # Query Wikidata for P31 and P105
         VALID_P31 = {"Q16521", "Q23038290", "Q767728", "Q4886", "Q15926588", "Q11004", "Q55983715", "Q207106", "Q146"}
-        HIGHER_RANKS = {"Q35409", "Q36732", "Q38348", "Q16428", "2455704", "Q34740"}
         valid_qids = set()
         for i in range(0, len(qids_to_query), 50):
             chunk = qids_to_query[i:i+50]
@@ -496,9 +564,9 @@ def main():
                         data = json.loads(resp.read().decode("utf-8"))
                         for q, ent in data.get("entities", {}).items():
                             claims = ent.get("claims", {})
-                            p31 = set(c.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") for c in claims.get("P31", []))
-                            p105 = set(c.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") for c in claims.get("P105", []))
-                            if q in ("Q5", "Q146") or ((p31 & VALID_P31) and not (p105 & HIGHER_RANKS)):
+                            p31 = set(c.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") for c in claims.get("P31", []) if isinstance(c.get("mainsnak", {}).get("datavalue", {}).get("value"), dict))
+                            p105 = set(c.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") for c in claims.get("P105", []) if isinstance(c.get("mainsnak", {}).get("datavalue", {}).get("value"), dict))
+                            if q in ("Q5", "Q146") or ((p31 & VALID_P31) and not (p105 & HIGHER_RANKS) and not (p31 & DISAMBIGUATION_P31)):
                                 valid_qids.add(q)
                     break
                 except Exception as e:
@@ -587,6 +655,9 @@ def main():
 
 def compile_ranking_csvs(species_data, cache):
     print("\nStep 4: Deduplicating by primary species ID and compiling ranking CSV documents...")
+    from harvest_and_audit_species_aliases import build_vocabularies, is_clean_vernacular_alias
+
+    dict_words, catalog_eng_words, latin_words, _ = build_vocabularies(species_data)
 
     # Load alternative common name aliases from data/species_aliases.json
     sci_to_aliases = {}
@@ -594,34 +665,13 @@ def compile_ranking_csvs(species_data, cache):
         with open(ALIASES_PATH, "r", encoding="utf-8") as f:
             raw_aliases = json.load(f)
         for alias_key, canonical_target in raw_aliases.items():
-            m = re.search(r"\(([^)]+)\)$", canonical_target)
-            if m:
-                target_sci = m.group(1).strip()
-                target_comm = canonical_target[:m.start()].strip()
-            else:
-                target_sci = canonical_target.strip()
-                target_comm = ""
-
+            target_comm, target_sci = extract_scientific_from_display(canonical_target)
             clean_a = alias_key.strip()
-            c_low = clean_a.lower()
-            t_comm_low = target_comm.lower()
-            t_sci_low = target_sci.lower()
-
-            # Skip if alias matches scientific name, common name, or trivial plural
-            if c_low == t_sci_low or c_low == t_comm_low:
+            # Only include clean human vernacular aliases in the human-facing CSV column
+            if not is_clean_vernacular_alias(clean_a, target_comm, target_sci, dict_words, catalog_eng_words, latin_words):
                 continue
-            if t_comm_low and (c_low == t_comm_low + "s" or c_low == t_comm_low + "es"):
-                continue
-            if t_sci_low and c_low == t_sci_low + "s":
-                continue
-            # Skip formatted display strings with parentheses
-            if "(" in clean_a or ")" in clean_a:
-                continue
-            
-            clean_formatted = clean_a.title()
-            if target_sci not in sci_to_aliases:
-                sci_to_aliases[target_sci] = set()
-            sci_to_aliases[target_sci].add(clean_formatted)
+            clean_formatted = format_title_case(clean_a)
+            sci_to_aliases.setdefault(target_sci, set()).add(clean_formatted)
 
     # Group catalog entries by scientific name to eliminate duplicate common name rows
     total_species = len(species_data)
@@ -638,16 +688,43 @@ def compile_ranking_csvs(species_data, cache):
                 "class": s.get("class", ""),
                 "order": s.get("order", ""),
                 "family": s.get("family", ""),
+                "rank": s.get("rank", "Species"),
             }
         else:
             if comm:
                 species_by_sci[sci]["all_commons"].add(comm)
                 curr = species_by_sci[sci]["common"]
-                # Keep shorter or more concise common name as primary
                 if not curr or len(comm) < len(curr):
                     species_by_sci[sci]["common"] = comm
 
     print(f"Aggregated {total_species:,} catalog entries into {len(species_by_sci):,} unique biological species.")
+
+    # Enforce 1-to-1 primary en_title ownership invariant across all species
+    title_groups = {}
+    for sci in species_by_sci:
+        rec = cache.get(sci, {})
+        en_t = (rec.get("en_title") or "").strip()
+        if en_t:
+            title_groups.setdefault(en_t, []).append(sci)
+
+    losing_scis = set()
+    for en_t, scis in title_groups.items():
+        if len(scis) > 1:
+            t_low = en_t.lower()
+            def owner_score(sc):
+                sp = species_by_sci[sc]
+                rk = sp.get("rank", "Species")
+                comm_low = (sp.get("common") or "").lower()
+                return (
+                    1 if sc.lower() == t_low else 0,
+                    1 if comm_low == t_low else 0,
+                    1 if rk != "Species" else 0,
+                    cache.get(sc, {}).get("swiki", 0),
+                    -len(sc),
+                )
+            scis_sorted = sorted(scis, key=owner_score, reverse=True)
+            for loser in scis_sorted[1:]:
+                losing_scis.add(loser)
 
     all_ranked = []
     for sci, s in species_by_sci.items():
@@ -659,17 +736,23 @@ def compile_ranking_csvs(species_data, cache):
         aliases_list = sorted(list(combined_aliases))
         aliases_str = "; ".join(aliases_list)
 
-        base_vwiki = rec.get("vwiki", 0)
-        extra_articles_dict = rec.get("extra_articles", {})
-        extra_views = sum(extra_articles_dict.values())
-        total_vwiki = base_vwiki + extra_views
-
-        primary_title = rec.get("en_title", "")
-        if extra_articles_dict:
-            extra_titles_str = ", ".join(sorted(extra_articles_dict.keys()))
-            full_title = f"{primary_title} (+ {extra_titles_str})" if primary_title else extra_titles_str
+        if sci in losing_scis:
+            total_vwiki = 0
+            full_title = ""
+            swiki_val = 0
         else:
-            full_title = primary_title
+            base_vwiki = rec.get("vwiki", 0)
+            extra_articles_dict = rec.get("extra_articles", {})
+            extra_views = sum(extra_articles_dict.values())
+            total_vwiki = base_vwiki + extra_views
+
+            primary_title = rec.get("en_title", "")
+            if extra_articles_dict:
+                extra_titles_str = ", ".join(sorted(extra_articles_dict.keys()))
+                full_title = f"{primary_title} (+ {extra_titles_str})" if primary_title else extra_titles_str
+            else:
+                full_title = primary_title
+            swiki_val = rec.get("swiki", 0)
 
         all_ranked.append({
             "common": s["common"],
@@ -679,7 +762,7 @@ def compile_ranking_csvs(species_data, cache):
             "class": s["class"],
             "order": s["order"],
             "family": s["family"],
-            "swiki": rec.get("swiki", 0),
+            "swiki": swiki_val,
             "vwiki": total_vwiki,
             "en_title": full_title,
         })

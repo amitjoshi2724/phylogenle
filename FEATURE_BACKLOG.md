@@ -88,5 +88,8 @@ yea ill j try to ai generate ts. my idea is to maybe have square emojis and the 
 
 <!-- 👇 DROP YOUR RAW RAMBLINGS / BRAIN DUMPS BELOW THIS LINE 👇 -->
 
+- fix readme to show that the target organism is not necessarily a species, sometimes genus or family or even order
 
+- alias overrides; sometimes the most common name for a species is not the shortest, so it wasn't selected as the main common name
 
+- more umbrella taxa? such as collapsing all fiddler crabs into "fiddler crab", all pumas into "puma", etc. i want there to be a good selection of umbrella taxa

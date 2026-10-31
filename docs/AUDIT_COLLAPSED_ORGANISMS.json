@@ -8,9 +8,10 @@
     "umbrella_scientific": "Ocypodidae",
     "umbrella_rank": "family",
     "qid": "Q1329937",
-    "wikipedia_article": "Fiddler_crab",
+    "wikipedia_article": "Fiddler crab",
     "wikipedia_views": 168626,
-    "reason": "Uca pugilator is strictly the Atlantic sand fiddler crab. Calling it 'Fiddler Crab' collapsed all ~100 fiddler crab species in family Ocypodidae onto one species."
+    "reason": "Uca pugilator is strictly the Atlantic sand fiddler crab. Calling it 'Fiddler Crab' collapsed all ~100 fiddler crab species in family Ocypodidae onto one species.",
+    "swiki": 34
   },
   {
     "baseline_entry": "Barn Owl (Tyto alba)",
@@ -20,10 +21,11 @@
     "umbrella_common": "Barn Owl",
     "umbrella_scientific": "Tyto",
     "umbrella_rank": "genus",
-    "qid": "Q25317",
-    "wikipedia_article": "Barn_owl",
+    "qid": "Q131528250",
+    "wikipedia_article": "Barn owl",
     "wikipedia_views": 387592,
-    "reason": "Tyto alba is specifically the Western barn owl. Calling it 'Barn Owl' collapsed genus Tyto (18 owl species) into this single binomial."
+    "reason": "Tyto alba is specifically the Western barn owl. Calling it 'Barn Owl' collapsed genus Tyto (18 owl species) into this single binomial.",
+    "swiki": 46
   },
   {
     "baseline_entry": "Electric Eel (Electrophorus electricus)",
@@ -33,10 +35,11 @@
     "umbrella_common": "Electric Eel",
     "umbrella_scientific": "Electrophorus",
     "umbrella_rank": "genus",
-    "qid": "Q201235",
-    "wikipedia_article": "Electric_eel",
+    "qid": "Q18926800",
+    "wikipedia_article": "Electric eel",
     "wikipedia_views": 629695,
-    "reason": "Electrophorus electricus is one of 3 distinct electric eel species (alongside E. voltai and E. varii). Genus Electrophorus holds 630k pageviews."
+    "reason": "Electrophorus electricus is one of 3 distinct electric eel species (alongside E. voltai and E. varii). Genus Electrophorus holds 630k pageviews.",
+    "swiki": 25
   },
   {
     "baseline_entry": "Leafcutter Ant (Atta cephalotes)",
@@ -46,9 +49,11 @@
     "umbrella_common": "Leafcutter Ant",
     "umbrella_scientific": "Atta",
     "umbrella_rank": "genus",
-    "wikipedia_article": "Leafcutter_ant",
+    "wikipedia_article": "Leafcutter ant",
     "wikipedia_views": 200569,
-    "reason": "Atta cephalotes is just one species of leafcutter ant. The broad group 'Leafcutter Ant' spans genera Atta and Acromyrmex (47 species)."
+    "reason": "Atta cephalotes is just one species of leafcutter ant. The broad group 'Leafcutter Ant' spans genera Atta and Acromyrmex (47 species).",
+    "qid": "Q882257",
+    "swiki": 28
   },
   {
     "baseline_entry": "Goliath Beetle (Goliathus goliatus)",
@@ -60,7 +65,9 @@
     "umbrella_rank": "genus",
     "wikipedia_article": "Goliathus",
     "wikipedia_views": 111366,
-    "reason": "Goliathus goliatus is specifically the royal goliath beetle. Genus Goliathus contains 5 massive beetle species."
+    "reason": "Goliathus goliatus is specifically the royal goliath beetle. Genus Goliathus contains 5 massive beetle species.",
+    "qid": "Q492946",
+    "swiki": 41
   },
   {
     "baseline_entry": "Black Widow Spider (Latrodectus mactans)",
@@ -72,7 +79,9 @@
     "umbrella_rank": "genus",
     "wikipedia_article": "Latrodectus",
     "wikipedia_views": 935454,
-    "reason": "Latrodectus mactans is the southern black widow. The worldwide 'Black widow spider' article covers genus Latrodectus (34 species, 935k views)."
+    "reason": "Latrodectus mactans is the southern black widow. The worldwide 'Black widow spider' article covers genus Latrodectus (34 species, 935k views).",
+    "qid": "Q385932",
+    "swiki": 49
   },
   {
     "baseline_entry": "California Sea Lion (Zalophus californianus)",
@@ -82,9 +91,11 @@
     "umbrella_common": "Sea Lion",
     "umbrella_scientific": "Otariinae",
     "umbrella_rank": "subfamily",
-    "wikipedia_article": "Sea_lion",
+    "wikipedia_article": "Sea lion",
     "wikipedia_views": 912072,
-    "reason": "Zalophus californianus is specifically the California sea lion. The general animal concept 'Sea Lion' (subfamily Otariinae) has 912k views."
+    "reason": "Zalophus californianus is specifically the California sea lion. The general animal concept 'Sea Lion' (subfamily Otariinae) has 912k views.",
+    "qid": "Q3887135",
+    "swiki": 62
   },
   {
     "baseline_entry": "Sea Walnut Comb Jelly (Mnemiopsis leidyi)",
@@ -96,7 +107,9 @@
     "umbrella_rank": "phylum",
     "wikipedia_article": "Ctenophora",
     "wikipedia_views": 482694,
-    "reason": "Mnemiopsis leidyi is specifically the sea walnut / warty comb jelly. 'Comb Jelly' is the entire phylum Ctenophora (483k views)."
+    "reason": "Mnemiopsis leidyi is specifically the sea walnut / warty comb jelly. 'Comb Jelly' is the entire phylum Ctenophora (483k views).",
+    "qid": "Q102778",
+    "swiki": 83
   },
   {
     "baseline_entry": "Green Spotted Puffer (Tetraodon nigroviridis)",
@@ -108,7 +121,9 @@
     "umbrella_rank": "family",
     "wikipedia_article": "Tetraodontidae",
     "wikipedia_views": 542342,
-    "reason": "Tetraodon nigroviridis is specifically the green spotted puffer. 'Pufferfish' is the worldwide family Tetraodontidae (542k views)."
+    "reason": "Tetraodon nigroviridis is specifically the green spotted puffer. 'Pufferfish' is the worldwide family Tetraodontidae (542k views).",
+    "qid": "Q201701",
+    "swiki": 72
   },
   {
     "baseline_entry": "Central Bearded Dragon (Pogona vitticeps)",
@@ -120,7 +135,9 @@
     "umbrella_rank": "genus",
     "wikipedia_article": "Pogona",
     "wikipedia_views": 400123,
-    "reason": "Pogona vitticeps is the central bearded dragon. Genus Pogona covers all 6 bearded dragon species (400k views)."
+    "reason": "Pogona vitticeps is the central bearded dragon. Genus Pogona covers all 6 bearded dragon species (400k views).",
+    "qid": "Q743973",
+    "swiki": 36
   },
   {
     "baseline_entry": "African Clawed Frog (Xenopus laevis)",
@@ -132,7 +149,9 @@
     "umbrella_rank": "genus",
     "wikipedia_article": "Xenopus",
     "wikipedia_views": 72234,
-    "reason": "Xenopus laevis is the African clawed frog. Genus Xenopus represents all clawed frogs."
+    "reason": "Xenopus laevis is the African clawed frog. Genus Xenopus represents all clawed frogs.",
+    "qid": "Q1342298",
+    "swiki": 33
   },
   {
     "baseline_entry": "Macaque (Macaca mulatta)",
@@ -144,7 +163,9 @@
     "umbrella_rank": "genus",
     "wikipedia_article": "Macaque",
     "wikipedia_views": 598859,
-    "reason": "Macaca mulatta is specifically the rhesus macaque. Genus Macaca encompasses 23 species (599k views)."
+    "reason": "Macaca mulatta is specifically the rhesus macaque. Genus Macaca encompasses 23 species (599k views).",
+    "qid": "Q177601",
+    "swiki": 90
   },
   {
     "baseline_entry": "Lynx (Lynx lynx)",
@@ -156,19 +177,23 @@
     "umbrella_rank": "genus",
     "wikipedia_article": "Lynx",
     "wikipedia_views": 1131565,
-    "reason": "Lynx lynx is specifically the Eurasian lynx. Genus Lynx encompasses all 4 lynx species (1.13M views)."
+    "reason": "Lynx lynx is specifically the Eurasian lynx. Genus Lynx encompasses all 4 lynx species (1.13M views).",
+    "qid": "Q677014",
+    "swiki": 117
   },
   {
     "baseline_entry": "Panda (Ailuropoda melanoleuca)",
     "species_scientific": "Ailuropoda melanoleuca",
     "current_catalog_common": "Panda",
     "restored_species_common": "Giant Panda",
-    "umbrella_common": "Giant Panda",
+    "umbrella_common": "Panda",
     "umbrella_scientific": "Ailuropoda",
     "umbrella_rank": "genus",
-    "wikipedia_article": "Giant_panda",
-    "wikipedia_views": 2542645,
-    "reason": "Ailuropoda melanoleuca was called 'Panda', conflicting with Red Panda (Ailurus fulgens). Restores Giant Panda and genus Ailuropoda."
+    "wikipedia_article": "Ailuropoda",
+    "wikipedia_views": 93310,
+    "reason": "Ailuropoda melanoleuca was called 'Panda', conflicting with Red Panda (Ailurus fulgens). Restores Giant Panda and genus Ailuropoda.",
+    "qid": "Q535979",
+    "swiki": 33
   },
   {
     "baseline_entry": "Raccoon (Procyon lotor)",
@@ -178,9 +203,11 @@
     "umbrella_common": "Raccoon",
     "umbrella_scientific": "Procyon",
     "umbrella_rank": "genus",
-    "wikipedia_article": "Raccoon",
-    "wikipedia_views": 2270162,
-    "reason": "Procyon lotor is specifically the North American / common raccoon. Genus Procyon represents all 3 raccoon species (2.27M views)."
+    "wikipedia_article": "Procyon (genus)",
+    "wikipedia_views": 193843,
+    "reason": "Procyon lotor is specifically the North American / common raccoon. Genus Procyon represents all 3 raccoon species (2.27M views).",
+    "qid": "Q148856",
+    "swiki": 54
   },
   {
     "baseline_entry": "Hyena (Crocuta crocuta)",
@@ -192,7 +219,9 @@
     "umbrella_rank": "family",
     "wikipedia_article": "Hyena",
     "wikipedia_views": 1480798,
-    "reason": "Crocuta crocuta is the spotted hyena. Family Hyaenidae represents all 4 hyena species (1.48M views)."
+    "reason": "Crocuta crocuta is the spotted hyena. Family Hyaenidae represents all 4 hyena species (1.48M views).",
+    "qid": "Q42046",
+    "swiki": 144
   },
   {
     "baseline_entry": "Hippopotamus (Hippopotamus amphibius)",
@@ -202,9 +231,11 @@
     "umbrella_common": "Hippopotamus",
     "umbrella_scientific": "Hippopotamidae",
     "umbrella_rank": "family",
-    "wikipedia_article": "Hippopotamus",
-    "wikipedia_views": 1780359,
-    "reason": "Hippopotamus amphibius is the common hippopotamus. Family Hippopotamidae covers both common and pygmy hippos (1.78M views)."
+    "wikipedia_article": "Hippopotamidae",
+    "wikipedia_views": 160859,
+    "reason": "Hippopotamus amphibius is the common hippopotamus. Family Hippopotamidae covers both common and pygmy hippos (1.78M views).",
+    "qid": "Q213336",
+    "swiki": 75
   },
   {
     "baseline_entry": "Kangaroo (Macropus rufus)",
@@ -216,7 +247,9 @@
     "umbrella_rank": "genus",
     "wikipedia_article": "Kangaroo",
     "wikipedia_views": 2124308,
-    "reason": "Macropus rufus is specifically the red kangaroo. Genus Macropus / Kangaroo already exists as umbrella; species name must be Red Kangaroo."
+    "reason": "Macropus rufus is specifically the red kangaroo. Genus Macropus / Kangaroo already exists as umbrella; species name must be Red Kangaroo.",
+    "qid": "Q5070208",
+    "swiki": 126
   },
   {
     "baseline_entry": "Seven-spot Ladybird (Coccinella septempunctata)",
@@ -228,7 +261,9 @@
     "umbrella_rank": "family",
     "wikipedia_article": "Coccinellidae",
     "wikipedia_views": 976980,
-    "reason": "Coccinella septempunctata is the seven-spot ladybird. Family Coccinellidae represents all ladybirds / ladybugs (977k views)."
+    "reason": "Coccinella septempunctata is the seven-spot ladybird. Family Coccinellidae represents all ladybirds / ladybugs (977k views).",
+    "qid": "Q25327",
+    "swiki": 119
   },
   {
     "baseline_entry": "Wandering Albatross (Diomedea exulans)",
@@ -240,18 +275,22 @@
     "umbrella_rank": "family",
     "wikipedia_article": "Albatross",
     "wikipedia_views": 924227,
-    "reason": "Diomedea exulans is the wandering albatross. Family Diomedeidae represents all 22 albatross species (924k views)."
+    "reason": "Diomedea exulans is the wandering albatross. Family Diomedeidae represents all 22 albatross species (924k views).",
+    "qid": "Q55805",
+    "swiki": 99
   },
   {
     "baseline_entry": "Giant Clam (Tridacna gigas)",
     "species_scientific": "Tridacna gigas",
     "current_catalog_common": "Giant Clam",
-    "restored_species_common": "Giant Clam",
+    "restored_species_common": "True Giant Clam",
     "umbrella_common": "Giant Clam",
     "umbrella_scientific": "Tridacna",
     "umbrella_rank": "genus",
-    "wikipedia_article": "Giant_clam",
-    "wikipedia_views": 216856,
-    "reason": "Tridacna gigas is the largest giant clam. Genus Tridacna represents all 12 giant clam species."
+    "wikipedia_article": "Tridacna",
+    "wikipedia_views": 37184,
+    "reason": "Tridacna gigas is the largest giant clam. Genus Tridacna represents all 12 giant clam species.",
+    "qid": "Q2387255",
+    "swiki": 24
   }
 ]

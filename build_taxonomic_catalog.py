@@ -3,7 +3,7 @@
 build_taxonomic_catalog.py
 
 Generates species_catalog_taxonomic.md:
-A true 8-rank Linnaean hierarchical directory of all 29,748 species in Phylogenle.
+A true 8-rank Linnaean hierarchical directory of all 29,564 organisms in Phylogenle.
 Structure:
   ⬛ Domain (Eukaryota, Bacteria, Viruses)
     └── 🟫 Kingdom (Animalia, Plantae, Fungi, Protista, Pseudomonadati, Bacillati, Heunggongvirae)
@@ -27,23 +27,6 @@ def clean_name(s):
     if not s:
         return ""
     return re.sub(r'\s+', ' ', s).strip()
-
-def extract_species_from_old_catalog():
-    old_catalog_path = os.path.join(BASE_DIR, "species_catalog.md")
-    with open(old_catalog_path, "r", encoding="utf-8") as f:
-        lines = f.readlines()
-
-    species_list = []
-    for line in lines:
-        line_s = line.strip()
-        if line_s.startswith('|') and not line_s.startswith('| :---') and not line_s.startswith('| Common Name') and not line_s.startswith('| Clade') and not line_s.startswith('| **Total'):
-            parts = [p.strip() for p in line_s.split('|')[1:-1]]
-            if len(parts) >= 2 and parts[1].startswith('*') and parts[1].endswith('*'):
-                scientific = parts[1].strip('*').strip()
-                if not scientific.isdigit():
-                    common = parts[0].strip()
-                    species_list.append((common, scientific))
-    return species_list
 
 def main():
     print("=== Step 1: Loading Datasets ===")

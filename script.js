@@ -12,6 +12,7 @@ import {
     formatDate,
     getAliasesForSpecies,
     getTargetPresentationName,
+    extractScientificName,
     EPOCH_DATE_STR
 } from './prng.js?v=tree_order_4';
 import { 
@@ -637,8 +638,7 @@ function bootPhylogenle() {
                 if (idx === -1) continue;
 
                 const common = sLower.split(' (')[0];
-                const m = sLower.match(/\((.*?)\)/);
-                const sci = m ? m[1] : '';
+                const sci = extractScientificName(sLower);
 
                 seenSpecies.add(sLower);
 
@@ -821,7 +821,7 @@ function bootPhylogenle() {
         'clawed frog (xenopus)': { genus: 'Xenopus', common: 'Clawed Frog', sciLower: 'xenopus', rank: 'Genus' },
         'macaque (macaca)': { genus: 'Macaca', common: 'Macaque', sciLower: 'macaca', rank: 'Genus' },
         'lynx (lynx)': { genus: 'Lynx', common: 'Lynx', sciLower: 'lynx', rank: 'Genus' },
-        'giant panda (ailuropoda)': { genus: 'Ailuropoda', common: 'Giant Panda', sciLower: 'ailuropoda', rank: 'Genus' },
+        'panda (ailuropoda)': { genus: 'Ailuropoda', common: 'Panda', sciLower: 'ailuropoda', rank: 'Genus' },
         'raccoon (procyon)': { genus: 'Procyon', common: 'Raccoon', sciLower: 'procyon', rank: 'Genus' },
         'hyena (hyaenidae)': { genus: 'Hyaenidae', common: 'Hyena', sciLower: 'hyaenidae', rank: 'Family' },
         'hippopotamus (hippopotamidae)': { genus: 'Hippopotamidae', common: 'Hippopotamus', sciLower: 'hippopotamidae', rank: 'Family' },
@@ -922,8 +922,7 @@ function bootPhylogenle() {
     function doesGuessBelongToTargetGenus(guessStr, targetGenusObj) {
         if (!guessStr || !targetGenusObj) return false;
         const gKey = guessStr.toLowerCase();
-        const gLatinMatch = guessStr.match(/\((.*?)\)/);
-        const gSci = gLatinMatch ? gLatinMatch[1].toLowerCase() : gKey;
+        const gSci = (extractScientificName(guessStr) || gKey).toLowerCase();
         if (gSci === targetGenusObj.sciLower || gSci.startsWith(targetGenusObj.sciLower + ' ')) {
             return true;
         }
@@ -947,8 +946,7 @@ function bootPhylogenle() {
 
         // 1. Direct string match
         if (guessKey === targetKey) {
-            const latinMatch = guess.match(/\((.*?)\)/);
-            const sci = latinMatch ? latinMatch[1] : guess;
+            const sci = extractScientificName(guess) || guess;
             const rank = targetGenusInfo ? (targetGenusInfo.rank || "Genus") : "Species";
             return { time: 0.0, rank: rank, lca_name: sci, major_name: sci, major_rank: rank, major_time: 0.0 };
         }
@@ -1031,6 +1029,15 @@ function bootPhylogenle() {
         delete animalInput.dataset.matchedAlias;
 
         let validGuess = allSpecies.find(s => s.toLowerCase() === guess.toLowerCase());
+        if (!validGuess) {
+            // Check exact common name or scientific name before aliases so primary names are never shadowed
+            const g = guess.toLowerCase();
+            validGuess = allSpecies.find(s => {
+                const common = s.split(' (')[0].toLowerCase();
+                const sci = extractScientificName(s).toLowerCase();
+                return common === g || sci === g;
+            });
+        }
         if (!validGuess && speciesAliases) {
             const aliasMatch = speciesAliases[guess.toLowerCase()];
             if (aliasMatch) {
@@ -1039,16 +1046,6 @@ function bootPhylogenle() {
                     guessedAlias = guess;
                 }
             }
-        }
-        if (!validGuess) {
-            // Also match common name, scientific name inside parentheses, or prefix
-            const g = guess.toLowerCase();
-            validGuess = allSpecies.find(s => {
-                const common = s.split(' (')[0].toLowerCase();
-                const sciMatch = s.match(/\((.*?)\)/);
-                const sci = sciMatch ? sciMatch[1].toLowerCase() : '';
-                return common === g || sci === g;
-            });
         }
         if (!validGuess && speciesAliases) {
             // Check prefix in aliases
@@ -2351,7 +2348,7 @@ function bootPhylogenle() {
         catalogContent.innerHTML = `
             <div class="catalog-loading">
                 <span class="catalog-spinner">🧬</span>
-                <p>Loading Universal Taxonomic Directory (29,748 species)...</p>
+                <p>Loading Universal Taxonomic Directory (29,564 species)...</p>
             </div>
         `;
 
@@ -2530,7 +2527,7 @@ function bootPhylogenle() {
         if (phylogenyTree.species) {
             for (const [spKey, nids] of Object.entries(phylogenyTree.species)) {
                 const catItem = catalogSpeciesLookup.get(spKey) || 
-                                (spKey.includes('(') ? catalogSpeciesLookup.get(spKey.match(/\((.*?)\)/)?.[1]?.toLowerCase()) : null);
+                                (spKey.includes('(') ? catalogSpeciesLookup.get(extractScientificName(spKey).toLowerCase()) : null);
                 if (!catItem || !Array.isArray(nids)) continue;
 
                 for (let i = 0; i < nids.length; i++) {

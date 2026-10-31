@@ -36,7 +36,7 @@ SPECIAL_TAXA_344 = {
     "Xenopus laevis": {"taxon_sci": "Xenopus", "common": "Clawed Frog", "rank_level": "Genus"},
     "Macaca mulatta": {"taxon_sci": "Macaca", "common": "Macaque", "rank_level": "Genus"},
     "Lynx lynx": {"taxon_sci": "Lynx", "common": "Lynx", "rank_level": "Genus"},
-    "Ailuropoda melanoleuca": {"taxon_sci": "Ailuropoda", "common": "Giant Panda", "rank_level": "Genus"},
+    "Ailuropoda melanoleuca": {"taxon_sci": "Ailuropoda", "common": "Panda", "rank_level": "Genus"},
     "Procyon lotor": {"taxon_sci": "Procyon", "common": "Raccoon", "rank_level": "Genus"},
     "Crocuta crocuta": {"taxon_sci": "Hyaenidae", "common": "Hyena", "rank_level": "Family"},
     "Hippopotamus amphibius": {"taxon_sci": "Hippopotamidae", "common": "Hippopotamus", "rank_level": "Family"},
