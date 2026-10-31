@@ -340,28 +340,12 @@ function bootPhylogenle() {
                     }
                 }
 
-                // Check if target changed compared to the active saved session
-                if (savedTargetSpecies && savedTargetSpecies !== targetSpecies && activeGuesses && activeGuesses.length > 0) {
-                    if (targetAlertContainer) {
-                        targetAlertContainer.innerHTML = `
-                            <div class="target-mismatch-banner">
-                                <div style="font-size: 1.5rem; line-height: 1;">⚠️</div>
-                                <div class="mismatch-content">
-                                    <strong>Target Organism Updated</strong>
-                                    <p>The daily target organism has changed since your last active session. You can continue or restart the puzzle fresh.</p>
-                                </div>
-                                <button type="button" id="target-mismatch-restart-btn" class="restart-pill-btn">🔄 Restart Puzzle</button>
-                            </div>
-                        `;
-                        const restartBtn = document.getElementById('target-mismatch-restart-btn');
-                        if (restartBtn) {
-                            restartBtn.addEventListener('click', () => {
-                                clearActiveGuesses(currentDateStr);
-                                clearActiveHints(currentDateStr);
-                                initGame();
-                            });
-                        }
-                    }
+                // Always lock to the active session's target organism so in-progress puzzles continue uninterrupted
+                if (savedTargetSpecies && activeGuesses && activeGuesses.length > 0 && allSpecies.includes(savedTargetSpecies)) {
+                    targetSpecies = savedTargetSpecies;
+                    targetPresentationName = getTargetPresentationName(targetSpecies, speciesAliases, currentDateStr);
+                    window.targetSpecies = targetSpecies;
+                    window.targetPresentationName = targetPresentationName;
                 }
 
                 // Check for in-progress saved hints with sanity check against targetSpecies

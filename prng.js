@@ -94,6 +94,10 @@ export function getDailyTargetSpecies(allSpecies, dateStr) {
         const pinned = allSpecies.find(s => s.toLowerCase() === 'orangespine unicornfish (naso lituratus)');
         if (pinned) return pinned;
     }
+    if (dateStr === '2026-10-31') {
+        const pinned = allSpecies.find(s => s.toLowerCase() === 'flatjaw minnow (tampichthys mandibularis)');
+        if (pinned) return pinned;
+    }
     const seedVal = hashString(`phylogenle-daily-${dateStr}`);
     const rng = createMulberry32(seedVal);
     const index = Math.floor(rng() * allSpecies.length);
