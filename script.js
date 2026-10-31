@@ -1272,11 +1272,20 @@ function bootPhylogenle() {
                 <span class="feedback-badge feedback-rank taxa-link" data-taxa="${wikiTitle}">
                     ${rank}: ${hint.name}
                 </span>
+                <button type="button" class="guess-catalog-btn" title="Open ${rank}: ${hint.name} in Species Catalog">📖 Catalog</button>
                 <span class="feedback-badge feedback-time" title="Ancestral divergence time for this rank">
                     Diverged: ${timeStr}
                 </span>
             </div>
         `;
+
+        const catalogBtn = row.querySelector('.guess-catalog-btn');
+        if (catalogBtn) {
+            catalogBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                openCatalogAtTaxon(hint.name, rank);
+            });
+        }
 
         const taxaLinks = row.querySelectorAll('.taxa-link');
         taxaLinks.forEach(el => {
@@ -1494,6 +1503,7 @@ function bootPhylogenle() {
                     ${iconHtml} ${closeness.shortLabel}
                 </span>
                 <span class="feedback-badge feedback-rank ${matchClass} taxa-link" data-taxa="${lcaName}">${rankBadgeText}</span>
+                <button type="button" class="guess-catalog-btn" title="Open in Species Catalog">📖 Catalog</button>
                 <span class="feedback-badge feedback-time ${matchClass}" title="Estimated evolutionary divergence time">Diverged: ${timeStr}</span>
             </div>
         `;
@@ -1511,6 +1521,19 @@ function bootPhylogenle() {
         taxaSpan.addEventListener('click', () => {
             window.open(`https://en.wikipedia.org/wiki/${encodeURIComponent(lcaName)}`, '_blank');
         });
+
+        const catalogBtn = row.querySelector('.guess-catalog-btn');
+        if (catalogBtn) {
+            catalogBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                if (isMatch || data.rank === 'Species') {
+                    openCatalogAtTaxon(wikiTitle, 'Species');
+                } else {
+                    const targetLinnaeanName = majorName || lcaName;
+                    openCatalogAtTaxon(targetLinnaeanName, data.rank);
+                }
+            });
+        }
 
         guessesContainer.prepend(row);
     }
@@ -1537,6 +1560,7 @@ function bootPhylogenle() {
                     ⬜ Revealed
                 </span>
                 <span class="feedback-badge feedback-rank match-exact taxa-link" data-taxa="${commonName}">Target Organism</span>
+                <button type="button" class="guess-catalog-btn" title="Open ${commonName} in Species Catalog">📖 Catalog</button>
                 <span class="feedback-badge feedback-time match-exact">Gave Up</span>
             </div>
         `;
@@ -1546,6 +1570,15 @@ function bootPhylogenle() {
         nameSpan.addEventListener('click', () => {
             window.open(`https://en.wikipedia.org/wiki/${encodeURIComponent(wikiTitle)}`, '_blank');
         });
+
+        const catalogBtn = row.querySelector('.guess-catalog-btn');
+        if (catalogBtn) {
+            catalogBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                openCatalogAtTaxon(wikiTitle, 'Species');
+            });
+        }
+
         guessesContainer.prepend(row);
     }
 
@@ -2643,7 +2676,7 @@ function bootPhylogenle() {
         });
     }
 
-    async function openCatalogAtTaxon(taxonName) {
+    async function openCatalogAtTaxon(taxonName, targetRank = null) {
         if (!catalogModal) return;
         await openCatalogModal();
         if (!catalogLoaded) {
@@ -2651,86 +2684,117 @@ function bootPhylogenle() {
         }
 
         const raw = (taxonName || '').trim();
-        const clean = raw.toLowerCase();
-        if (!clean) return;
+        if (!raw && !targetRank) return;
 
         buildCatalogCladeIndex();
 
-        // Clear search input initially
+        // 1. Reset search mode and restore the full Linnaean tree view if search view was active
+        let needsTreeRerender = false;
         if (catalogSearchInput && catalogSearchInput.value) {
             catalogSearchInput.value = '';
+            needsTreeRerender = true;
         }
         if (catalogSearchClear) {
             catalogSearchClear.classList.add('hidden');
+        }
+        if (catalogSearchScrollAttached || !catalogContent.querySelector('.catalog-tree-actions')) {
+            needsTreeRerender = true;
+        }
+        if (needsTreeRerender) {
+            renderCatalogView();
+        }
+
+        // 2. Resolve target Linnaean rank and name systematically
+        let resolvedRank = targetRank ? targetRank.trim() : null;
+        let resolvedName = raw;
+
+        // If raw has an intermediate clade in parens like "Actinopteri (Clupeocephala)", extract primary name
+        if (resolvedName.includes('(') && !resolvedRank) {
+            const m = resolvedName.match(/^(.*?)\s*\(/);
+            if (m && m[1].trim()) {
+                resolvedName = m[1].trim();
+            }
+        }
+
+        // If targetRank was not explicitly passed, inspect phylogenyTree nodes or catalogNodeNameToNode
+        if (!resolvedRank && raw) {
+            const rawLower = raw.toLowerCase().trim();
+            let node = (catalogNodeNameToNode && catalogNodeNameToNode.get(rawLower)) || null;
+            if (!node && phylogenyTree && phylogenyTree.nodes) {
+                node = Object.values(phylogenyTree.nodes).find(n => n.name && n.name.toLowerCase() === rawLower);
+            }
+            if (node) {
+                resolvedRank = node.rank;
+                resolvedName = node.major_name || node.name;
+            }
         }
 
         setTimeout(() => {
             if (!catalogContent) return;
 
-            const cleanNoParen = clean.replace(/\(.*?\)/g, '').trim();
-            const sciMatch = raw.match(/\((.*?)\)/);
-            const sciName = sciMatch ? sciMatch[1].trim().toLowerCase() : '';
-
+            const cleanName = resolvedName.toLowerCase().trim();
+            const cleanRank = resolvedRank ? resolvedRank.toLowerCase().trim() : '';
             const summaries = Array.from(catalogContent.querySelectorAll('summary'));
             let matchedSummary = null;
 
-            // 1. Look for matching rank summary header (Order, Family, Class, Phylum, Kingdom, Domain)
-            for (const s of summaries) {
-                const txt = s.textContent.toLowerCase();
-                if (txt.includes(`: ${clean}`) || 
-                    (cleanNoParen && txt.includes(`: ${cleanNoParen}`)) || 
-                    (sciName && txt.includes(`: ${sciName}`))) {
-                    matchedSummary = s;
-                    break;
-                }
-            }
-
-            // 2. Substring match in summary
-            if (!matchedSummary) {
+            // Strategy A: Match by rank and name in summary (e.g. "Order: Cypriniformes" or "Class: Actinopteri")
+            if (cleanRank && cleanName) {
                 for (const s of summaries) {
                     const txt = s.textContent.toLowerCase();
-                    if (txt.includes(clean) || (cleanNoParen && txt.includes(cleanNoParen))) {
+                    if (txt.includes(`${cleanRank}:`) && txt.includes(cleanName)) {
                         matchedSummary = s;
                         break;
                     }
                 }
             }
 
-            if (matchedSummary) {
-                const parentDetails = matchedSummary.closest('details');
-                if (parentDetails) parentDetails.open = true;
+            // Strategy B: Match summary header containing ": <name>" or exact name
+            if (!matchedSummary && cleanName) {
+                for (const s of summaries) {
+                    const txt = s.textContent.toLowerCase();
+                    if (txt.includes(`: ${cleanName}`) || txt.includes(cleanName)) {
+                        matchedSummary = s;
+                        break;
+                    }
+                }
+            }
 
-                let ancestor = parentDetails ? parentDetails.parentElement.closest('details') : null;
-                while (ancestor) {
-                    ancestor.open = true;
-                    ancestor = ancestor.parentElement.closest('details');
+            // Strategy C: If a summary was found, open all parent details up to the root and scroll it into view
+            if (matchedSummary) {
+                let current = matchedSummary.closest('details');
+                while (current) {
+                    current.open = true;
+                    current = current.parentElement ? current.parentElement.closest('details') : null;
                 }
 
                 setTimeout(() => {
                     matchedSummary.scrollIntoView({ behavior: 'smooth', block: 'center' });
                     matchedSummary.classList.remove('catalog-highlight-target');
-                    void matchedSummary.offsetWidth;
+                    void matchedSummary.offsetWidth; // force reflow
                     matchedSummary.classList.add('catalog-highlight-target');
                 }, 80);
                 return;
             }
 
-            // 3. Search in species table rows
+            // Strategy D: Search species table rows (for species names like "Atlantic Salmon" or "Salmo salar")
             const rows = Array.from(catalogContent.querySelectorAll('tbody tr'));
             let matchedRow = null;
+            const sciMatch = raw.match(/\((.*?)\)/);
+            const sciName = sciMatch ? sciMatch[1].trim().toLowerCase() : '';
+
             for (const tr of rows) {
                 const txt = tr.textContent.toLowerCase();
-                if (txt.includes(clean) || (cleanNoParen && txt.includes(cleanNoParen)) || (sciName && txt.includes(sciName))) {
+                if (txt.includes(cleanName) || (sciName && txt.includes(sciName))) {
                     matchedRow = tr;
                     break;
                 }
             }
 
             if (matchedRow) {
-                let ancestor = matchedRow.closest('details');
-                while (ancestor) {
-                    ancestor.open = true;
-                    ancestor = ancestor.parentElement.closest('details');
+                let current = matchedRow.closest('details');
+                while (current) {
+                    current.open = true;
+                    current = current.parentElement ? current.parentElement.closest('details') : null;
                 }
 
                 setTimeout(() => {
@@ -2742,13 +2806,9 @@ function bootPhylogenle() {
                 return;
             }
 
-            // 4. Clade / Taxon search (for intermediate clades, superfamilies, orders like Muroidea, Tetrapoda, Glires)
-            if (catalogSearchInput) {
-                catalogSearchInput.value = raw;
-                if (catalogSearchClear) catalogSearchClear.classList.remove('hidden');
-                renderCatalogView();
-            }
-        }, 120);
+            // Never replace the entire catalog tree with a search view when opening ranks!
+            console.warn(`Taxon not found in Linnaean catalog tree: ${resolvedRank || 'Taxon'} ${resolvedName}`);
+        }, 100);
     }
     window.openCatalogAtTaxon = openCatalogAtTaxon;
     window.showWikiTooltip = showWikiTooltip;

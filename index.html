@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Phylogenle - The Daily Evolutionary Puzzle</title>
     <meta name="description" content="A daily biological puzzle game. Guess the mystery organism by evolutionary divergence time (TMRCA) and taxonomic hierarchy.">
-    <link rel="stylesheet" href="style.css?v=tree_order_4">
-    <link rel="stylesheet" href="modals.css?v=stats_history_1">
+    <link rel="stylesheet" href="style.css?v=kofi_header_catalog_1">
+    <link rel="stylesheet" href="modals.css?v=kofi_header_catalog_1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
@@ -32,6 +32,18 @@
                 <button id="stats-modal-btn" class="nav-btn" title="Statistics & Streaks">📊 Stats</button>
                 <button id="help-modal-btn" class="nav-btn" title="How to Play">❓ Help</button>
                 <button id="catalog-nav-btn" class="nav-btn" title="Universal Species Catalog & Taxonomy">📖 Catalog</button>
+                <div id="kofi-widget-container" class="nav-kofi-container">
+                    <script src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+                    <script>
+                        try {
+                            kofiwidget2.init('Support on Ko-fi', '#72a4f2', 'I2I81CDN0L');
+                            document.getElementById('kofi-widget-container').innerHTML = kofiwidget2.getHTML();
+                        } catch (e) {
+                            console.error('Ko-fi widget error:', e);
+                            document.getElementById('kofi-widget-container').innerHTML = '<a href="https://ko-fi.com/I2I81CDN0L" target="_blank" rel="noopener noreferrer" class="nav-btn nav-kofi-fallback-btn" title="Support me on Ko-fi">☕ Support</a>';
+                        }
+                    </script>
+                </div>
                 <div id="auth-container" class="auth-pill-container"></div>
             </div>
         </nav>
@@ -39,6 +51,11 @@
         <header>
             <h1>PHYLOGENLE</h1>
             <p class="subtitle">Deduce the mystery organism by evolutionary distance and taxonomy</p>
+            <div class="header-credits">
+                <span>Developed by <strong>Amit Joshi</strong></span>
+                <span class="header-credits-dot">•</span>
+                <a href="https://github.com/amitjoshi2724" target="_blank" rel="noopener noreferrer">GitHub: @amitjoshi2724</a>
+            </div>
         </header>
 
         <main class="main-layout">
@@ -93,25 +110,6 @@
                 
                 <div class="guesses-container" id="guesses-container">
                     <!-- Guesses will appear here -->
-                </div>
-                
-                <div class="credits-section" style="margin: 15px 0 10px 0; display: flex; align-items: center; gap: 15px; flex-wrap: wrap;">
-                    <div style="display: flex; flex-direction: column; gap: 2px;">
-                        <span style="font-size: 0.85rem; color: #94a3b8;">Developed by <strong>Amit Joshi</strong></span>
-                        <a href="https://github.com/amitjoshi2724" target="_blank"
-                            style="color: #60a5fa; text-decoration: none; font-size: 0.8rem;">GitHub: @amitjoshi2724</a>
-                    </div>
-                    <div id="kofi-widget-container" style="display: flex; align-items: center;">
-                        <script src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-                        <script>
-                            try {
-                                kofiwidget2.init('Support me on Ko-fi', '#72a4f2', 'I2I81CDN0L');
-                                kofiwidget2.draw();
-                            } catch (e) {
-                                console.error('Ko-fi widget error:', e);
-                            }
-                        </script>
-                    </div>
                 </div>
 
                 <!-- In-App Species Catalog Trigger at Bottom -->
