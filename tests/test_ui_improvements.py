@@ -42,6 +42,15 @@ class TestUIAndCatalogImprovements(unittest.TestCase):
         self.assertIn("resolvedRank", script_js)
         self.assertIn("resolvedName", script_js)
 
+    def test_scrollable_guesses_container(self):
+        style_css = (ROOT / "style.css").read_text(encoding="utf-8")
+        self.assertIn(".guesses-container", style_css)
+        self.assertIn("max-height: 490px", style_css)
+        self.assertIn("overflow-y: auto", style_css)
+
+        script_js = (ROOT / "script.js").read_text(encoding="utf-8")
+        self.assertIn("guessesContainer.scrollTop = 0", script_js)
+
 
 if __name__ == "__main__":
     unittest.main()

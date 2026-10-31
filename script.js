@@ -1281,6 +1281,7 @@ function bootPhylogenle() {
         });
 
         guessesContainer.prepend(row);
+        guessesContainer.scrollTop = 0;
     }
 
     function handleHintRequest() {
@@ -1520,6 +1521,7 @@ function bootPhylogenle() {
         }
 
         guessesContainer.prepend(row);
+        guessesContainer.scrollTop = 0;
     }
 
     function addSurrenderRow(species) {
@@ -1564,6 +1566,7 @@ function bootPhylogenle() {
         }
 
         guessesContainer.prepend(row);
+        guessesContainer.scrollTop = 0;
     }
 
     // In-App Confirmation Modal (Replaces browser confirm() popups for clean mobile UX)

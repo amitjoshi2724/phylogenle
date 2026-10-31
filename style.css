@@ -259,7 +259,38 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
-    min-height: 300px;
+    max-height: 490px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 4px 6px 4px 2px;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(96, 165, 250, 0.4) rgba(15, 23, 42, 0.3);
+}
+
+.guesses-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.guesses-container::-webkit-scrollbar-track {
+    background: rgba(15, 23, 42, 0.4);
+    border-radius: 999px;
+}
+
+.guesses-container::-webkit-scrollbar-thumb {
+    background: rgba(96, 165, 250, 0.35);
+    border-radius: 999px;
+    transition: background 0.2s;
+}
+
+.guesses-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(96, 165, 250, 0.65);
+}
+
+@media (max-width: 860px) {
+    .guesses-container {
+        max-height: 400px;
+    }
 }
 
 .guess-row {
