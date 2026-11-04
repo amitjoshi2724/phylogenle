@@ -417,7 +417,6 @@ function bootPhylogenle() {
             styleTag.innerHTML = isDark ? getDarkThemeCss() : getLightThemeCss();
         }
     }
-    }
 
     let speciesLookupIndex = null;
     function getSpeciesLookupIndex() {
