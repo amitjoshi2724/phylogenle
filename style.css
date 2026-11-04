@@ -354,6 +354,18 @@ h1 {
     color: var(--warning-color);
 }
 
+.feedback-subclade {
+    color: #c084fc;
+    border-color: rgba(192, 132, 252, 0.4);
+    background: rgba(168, 85, 247, 0.12);
+}
+
+.feedback-subclade:hover {
+    color: #ffffff;
+    border-color: #d8b4fe;
+    background: rgba(168, 85, 247, 0.28);
+}
+
 .match-exact {
     background: rgba(16, 185, 129, 0.2);
     border-color: var(--success-color);

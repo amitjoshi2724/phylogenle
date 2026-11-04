@@ -238,12 +238,38 @@ function bootPhylogenle() {
         currentTheme: localStorage.getItem('phylogenle_wiki_theme') || 'dark'
     };
 
+    // Client-side cache for fetched Wikipedia articles (in-memory & sessionStorage)
+    const wikiArticleCache = new Map();
+
+    function getCachedWikiArticle(title) {
+        if (!title) return null;
+        const key = title.toLowerCase().trim().replace(/ /g, '_');
+        if (wikiArticleCache.has(key)) return wikiArticleCache.get(key);
+        try {
+            const stored = sessionStorage.getItem(`phylo_wiki_${key}`);
+            if (stored) {
+                const parsed = JSON.parse(stored);
+                wikiArticleCache.set(key, parsed);
+                return parsed;
+            }
+        } catch (e) {}
+        return null;
+    }
+
+    function setCachedWikiArticle(title, data) {
+        if (!title || !data) return;
+        const key = title.toLowerCase().trim().replace(/ /g, '_');
+        wikiArticleCache.set(key, data);
+        try {
+            sessionStorage.setItem(`phylo_wiki_${key}`, JSON.stringify(data));
+        } catch (e) {}
+    }
+
     function openWikiDrawer() {
         if (!wikiDrawer) return;
         wikiDrawer.classList.remove('hidden');
         if (wikiDrawerBackdrop) wikiDrawerBackdrop.classList.remove('hidden');
         wikiDrawerState.isOpen = true;
-        document.body.classList.add('modal-open');
     }
 
     function closeWikiDrawer() {
@@ -251,34 +277,47 @@ function bootPhylogenle() {
         wikiDrawer.classList.add('hidden');
         if (wikiDrawerBackdrop) wikiDrawerBackdrop.classList.add('hidden');
         wikiDrawerState.isOpen = false;
-        const activeModal = document.querySelector('.modal-backdrop.active, .modal:not(.hidden)');
-        if (!activeModal) {
-            document.body.classList.remove('modal-open');
-        }
     }
 
     function getDarkThemeCss() {
         return `
-            :root { color-scheme: dark; }
+            :root {
+                color-scheme: dark;
+                --background-color-base: #0b1120;
+                --color-base: #e2e8f0;
+                --border-color-base: rgba(255, 255, 255, 0.14);
+            }
             html, body {
                 background-color: #0b1120 !important;
                 color: #e2e8f0 !important;
                 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
-                padding-bottom: 4rem !important;
-                margin: 0 !important;
                 line-height: 1.6 !important;
+            }
+            body {
+                padding: 16px 20px 4rem 20px !important;
+                box-sizing: border-box !important;
+                margin: 0 auto !important;
+                max-width: 900px !important;
             }
             header, .pcs-edit-section-header {
                 background-color: #0b1120 !important;
                 color: #f8fafc !important;
+                padding: 0.5rem 0 !important;
             }
             .pcs-edit-section-title { color: #f8fafc !important; }
             #pcs-edit-section-title-description { color: #94a3b8 !important; }
             h1, h2, h3, h4, h5, h6 {
                 color: #f8fafc !important;
                 border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
+                padding-bottom: 0.3rem !important;
+                margin-top: 1.5rem !important;
+                margin-bottom: 0.75rem !important;
             }
-            p, span, li, dt, dd, td, th { color: #cbd5e1 !important; }
+            p {
+                color: #cbd5e1;
+                margin-bottom: 1rem !important;
+                line-height: 1.65 !important;
+            }
             b, strong { color: #f1f5f9 !important; }
             a {
                 color: #60a5fa !important;
@@ -288,14 +327,19 @@ function bootPhylogenle() {
             }
             a:hover { color: #93c5fd !important; text-decoration-color: #93c5fd !important; }
             a:visited { color: #a78bfa !important; }
-            table, .infobox, .taxobox, .navbox, .metadata, .pcs-infobox {
+            table, .infobox, .taxobox, .navbox, .metadata, .pcs-infobox, .wikitable {
                 background-color: #1e293b !important;
                 color: #cbd5e1 !important;
                 border: 1px solid rgba(255, 255, 255, 0.14) !important;
                 border-radius: 8px !important;
+                margin: 1rem auto !important;
             }
-            table th, table td {
-                background-color: rgba(30, 41, 59, 0.8) !important;
+            table th {
+                background-color: #1e293b !important;
+                color: #f1f5f9 !important;
+            }
+            table td {
+                background-color: rgba(30, 41, 59, 0.6) !important;
                 border-color: rgba(255, 255, 255, 0.08) !important;
                 color: #cbd5e1 !important;
             }
@@ -315,8 +359,13 @@ function bootPhylogenle() {
                 background-color: #ffffff !important;
                 color: #202122 !important;
                 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
-                padding-bottom: 4rem !important;
                 line-height: 1.6 !important;
+            }
+            body {
+                padding: 16px 20px 4rem 20px !important;
+                box-sizing: border-box !important;
+                margin: 0 auto !important;
+                max-width: 900px !important;
             }
             .pcs-edit-section-link, .edit-page, .pcs-header-inner-right { display: none !important; }
         `;
@@ -324,6 +373,11 @@ function bootPhylogenle() {
 
     function buildWikiArticleHtml(rawHtml, theme = 'dark') {
         let html = rawHtml;
+
+        // Redirect Wikimedia meta API URLs to en.wikipedia.org so stylesheets load without policy blocks
+        html = html.replace(/href="\/\/meta\.wikimedia\.org\/api\/rest_v1\//g, 'href="https://en.wikipedia.org/api/rest_v1/');
+        html = html.replace(/src="\/\/meta\.wikimedia\.org\/api\/rest_v1\//g, 'src="https://en.wikipedia.org/api/rest_v1/');
+
         if (html.includes('<base ')) {
             html = html.replace(/<base[^>]*>/i, '<base href="https://en.wikipedia.org/wiki/">');
         } else {
@@ -331,6 +385,10 @@ function bootPhylogenle() {
         }
         html = html.replace(/href="\/\//g, 'href="https://');
         html = html.replace(/src="\/\//g, 'src="https://');
+
+        if (theme === 'dark') {
+            html = html.replace(/<html([^>]*)class="([^"]*)"/i, '<html$1class="$2 skin-theme-clientpref-night"');
+        }
 
         const themeCss = theme === 'light' ? getLightThemeCss() : getDarkThemeCss();
         const snippet = `<style id="phylogenle-wiki-theme">${themeCss}</style>`;
@@ -358,6 +416,7 @@ function bootPhylogenle() {
             }
             styleTag.innerHTML = isDark ? getDarkThemeCss() : getLightThemeCss();
         }
+    }
     }
 
     let speciesLookupIndex = null;
@@ -416,13 +475,21 @@ function bootPhylogenle() {
     }
 
     async function fetchWikiMobileHtml(articleTitle) {
+        const cached = getCachedWikiArticle(articleTitle);
+        if (cached) {
+            return cached;
+        }
+
         const norm = getNormalizedWikiTitle(articleTitle).replace(/ /g, '_');
         const url = `https://en.wikipedia.org/api/rest_v1/page/mobile-html/${encodeURIComponent(norm)}`;
 
         try {
             const resp = await fetch(url);
             if (resp.ok) {
-                return { ok: true, html: await resp.text(), title: norm };
+                const res = { ok: true, html: await resp.text(), title: norm };
+                setCachedWikiArticle(articleTitle, res);
+                setCachedWikiArticle(norm, res);
+                return res;
             }
         } catch (e) {
             // Network or CORS fallback
@@ -434,14 +501,24 @@ function bootPhylogenle() {
                 const fallbackNorm = inside[1].trim().replace(/ /g, '_');
                 try {
                     const fResp = await fetch(`https://en.wikipedia.org/api/rest_v1/page/mobile-html/${encodeURIComponent(fallbackNorm)}`);
-                    if (fResp.ok) return { ok: true, html: await fResp.text(), title: fallbackNorm };
+                    if (fResp.ok) {
+                        const res = { ok: true, html: await fResp.text(), title: fallbackNorm };
+                        setCachedWikiArticle(articleTitle, res);
+                        setCachedWikiArticle(fallbackNorm, res);
+                        return res;
+                    }
                 } catch (e) {}
             }
             const outside = articleTitle.split('(')[0].trim().replace(/ /g, '_');
             if (outside) {
                 try {
                     const fResp2 = await fetch(`https://en.wikipedia.org/api/rest_v1/page/mobile-html/${encodeURIComponent(outside)}`);
-                    if (fResp2.ok) return { ok: true, html: await fResp2.text(), title: outside };
+                    if (fResp2.ok) {
+                        const res = { ok: true, html: await fResp2.text(), title: outside };
+                        setCachedWikiArticle(articleTitle, res);
+                        setCachedWikiArticle(outside, res);
+                        return res;
+                    }
                 } catch (e) {}
             }
         }
@@ -454,7 +531,10 @@ function bootPhylogenle() {
                     const matchedTitle = searchData[1][0].replace(/ /g, '_');
                     const matchedResp = await fetch(`https://en.wikipedia.org/api/rest_v1/page/mobile-html/${encodeURIComponent(matchedTitle)}`);
                     if (matchedResp.ok) {
-                        return { ok: true, html: await matchedResp.text(), title: matchedTitle };
+                        const res = { ok: true, html: await matchedResp.text(), title: matchedTitle };
+                        setCachedWikiArticle(articleTitle, res);
+                        setCachedWikiArticle(matchedTitle, res);
+                        return res;
                     }
                 }
             }
@@ -1973,17 +2053,25 @@ function bootPhylogenle() {
         const timeStr = data.time === 0 ? "0.0 MYA (Match)" : (data.time === -1.0 ? "Unknown (>500 MYA)" : `${data.time.toFixed(1)} MYA`);
         const lcaName = data.lca_name || data.rank;
         const majorName = data.major_name || lcaName;
-        const cladeCommon = getCladeCommonName(majorName) || getCladeCommonName(lcaName);
+        const majorRank = data.major_rank || data.rank;
 
-        let rankBadgeText = `${data.rank}: ${lcaName}`;
+        const majorCommon = getCladeCommonName(majorName);
+        const lcaCommon = getCladeCommonName(lcaName);
+
+        let mainRankBadgeHtml = '';
+        let subcladeBadgeHtml = '';
+
         if (isMatch || data.rank === 'Species') {
-            rankBadgeText = `Species: ${lcaName}`;
-        } else if (majorName && majorName !== lcaName && majorName !== 'Unknown' && lcaName !== 'Unknown') {
-            const commonPart = cladeCommon ? ` (${cladeCommon})` : '';
-            rankBadgeText = `${data.rank}: ${majorName} (${lcaName})${commonPart}`;
-        } else if (majorName && majorName !== 'Unknown') {
-            const commonPart = cladeCommon ? ` (${cladeCommon})` : '';
-            rankBadgeText = `${data.rank}: ${majorName}${commonPart}`;
+            mainRankBadgeHtml = `<span class="feedback-badge feedback-rank ${matchClass} taxa-link" data-taxa="${lcaName}">Species: ${lcaName}</span>`;
+        } else {
+            const majorCommonText = majorCommon ? ` (${majorCommon})` : '';
+            mainRankBadgeHtml = `<span class="feedback-badge feedback-rank ${matchClass} taxa-link" data-taxa="${majorName}" title="Main Taxonomic Rank: ${majorRank}: ${majorName}${majorCommonText}">${majorRank}: ${majorName}${majorCommonText}</span>`;
+
+            // If the LCA is a specific intermediate subclade distinct from the main Linnaean rank:
+            if (lcaName && majorName && lcaName.toLowerCase() !== majorName.toLowerCase() && lcaName !== 'Unknown') {
+                const lcaCommonText = lcaCommon ? ` (${lcaCommon})` : '';
+                subcladeBadgeHtml = `<span class="feedback-badge feedback-subclade taxa-link" data-taxa="${lcaName}" title="Evolutionary Subclade LCA: ${lcaName}${lcaCommonText}">Subclade: ${lcaName}${lcaCommonText}</span>`;
+            }
         }
 
         // Primary: Unicode square emoji; Fallback: CSS rank-square-icon
@@ -1994,7 +2082,7 @@ function bootPhylogenle() {
             aliasBadgeHtml = `<span class="guess-alias-badge" style="display: block; font-size: 0.8rem; opacity: 0.82; color: #a5b4fc; margin-top: 2px;">(guessed as "${escapeHtml(guessedAlias)}")</span>`;
         }
 
-        const wikiTargetTaxa = isMatch ? wikiTitle : (majorName && majorName !== 'Unknown' ? majorName : lcaName);
+        const wikiTargetTaxa = isMatch ? wikiTitle : (lcaName && lcaName !== 'Unknown' ? lcaName : majorName);
 
         row.innerHTML = `
             <div class="guess-header">
@@ -2005,7 +2093,8 @@ function bootPhylogenle() {
                 <span class="closeness-pill ${closeness.cssClass}" title="${closeness.label}">
                     ${iconHtml} ${closeness.shortLabel}
                 </span>
-                <span class="feedback-badge feedback-rank ${matchClass} taxa-link" data-taxa="${lcaName}">${rankBadgeText}</span>
+                ${mainRankBadgeHtml}
+                ${subcladeBadgeHtml}
                 <button type="button" class="guess-wiki-btn" title="Open Wikipedia article for ${wikiTargetTaxa}">🌐 Wiki</button>
                 <button type="button" class="guess-catalog-btn" title="Open in Species Catalog">📖 Catalog</button>
                 <span class="feedback-badge feedback-time ${matchClass}" title="Estimated evolutionary divergence time">Diverged: ${timeStr}</span>
@@ -2021,21 +2110,34 @@ function bootPhylogenle() {
             openWikiArticle(wikiTitle, 'Species');
         });
 
-        const taxaSpan = row.querySelector('.feedback-rank');
-        taxaSpan.addEventListener('mouseenter', (e) => showWikiTooltip(e, lcaName));
-        taxaSpan.addEventListener('mouseleave', hideWikiTooltip);
-        taxaSpan.addEventListener('click', (e) => {
-            e.stopPropagation();
-            hideWikiTooltip();
-            openWikiArticle(lcaName, data.rank, cladeCommon);
-        });
+        const mainRankSpan = row.querySelector('.feedback-rank');
+        if (mainRankSpan) {
+            mainRankSpan.addEventListener('mouseenter', (e) => showWikiTooltip(e, majorName));
+            mainRankSpan.addEventListener('mouseleave', hideWikiTooltip);
+            mainRankSpan.addEventListener('click', (e) => {
+                e.stopPropagation();
+                hideWikiTooltip();
+                openWikiArticle(majorName, majorRank, majorCommon);
+            });
+        }
+
+        const subcladeSpan = row.querySelector('.feedback-subclade');
+        if (subcladeSpan) {
+            subcladeSpan.addEventListener('mouseenter', (e) => showWikiTooltip(e, lcaName));
+            subcladeSpan.addEventListener('mouseleave', hideWikiTooltip);
+            subcladeSpan.addEventListener('click', (e) => {
+                e.stopPropagation();
+                hideWikiTooltip();
+                openWikiArticle(lcaName, 'Subclade', lcaCommon);
+            });
+        }
 
         const wikiBtn = row.querySelector('.guess-wiki-btn');
         if (wikiBtn) {
             wikiBtn.addEventListener('click', (e) => {
                 e.stopPropagation();
                 hideWikiTooltip();
-                openWikiArticle(wikiTargetTaxa, isMatch ? 'Species' : data.rank, cladeCommon);
+                openWikiArticle(wikiTargetTaxa, isMatch ? 'Species' : (lcaName !== majorName ? 'Subclade' : majorRank), lcaCommon || majorCommon);
             });
         }
 
