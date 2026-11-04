@@ -152,7 +152,15 @@ function bootPhylogenle() {
             : rankName;
         
         if (wikiTitle) {
-            wikiTitle.innerHTML = `<a href="https://en.wikipedia.org/wiki/${encodeURIComponent(normQuery)}" target="_blank">${displayTitle} &#8594;</a>`;
+            wikiTitle.innerHTML = `<span class="wiki-title-link" role="button" tabindex="0" title="Read full Wikipedia article inside Phylogenle" style="cursor: pointer; text-decoration: underline;">${displayTitle} &#8594;</span>`;
+            const linkEl = wikiTitle.querySelector('.wiki-title-link');
+            if (linkEl) {
+                linkEl.addEventListener('click', (ev) => {
+                    ev.preventDefault();
+                    hideWikiTooltip();
+                    openWikiArticle(normQuery);
+                });
+            }
         }
         if (wikiSnippet) {
             wikiSnippet.textContent = "Loading summary...";
@@ -197,6 +205,468 @@ function bootPhylogenle() {
                 openCatalogAtTaxon(targetTaxon);
             } else {
                 openCatalogModal();
+            }
+        });
+    }
+
+    // Wikipedia In-App Reader Drawer Elements & State
+    const wikiDrawer = document.getElementById('wiki-drawer');
+    const wikiDrawerBackdrop = document.getElementById('wiki-drawer-backdrop');
+    const wikiDrawerTitle = document.getElementById('wiki-drawer-title');
+    const wikiDrawerSubtitle = document.getElementById('wiki-drawer-subtitle');
+    const wikiDrawerIframe = document.getElementById('wiki-drawer-iframe');
+    const wikiNavBack = document.getElementById('wiki-nav-back');
+    const wikiNavForward = document.getElementById('wiki-nav-forward');
+    const wikiNavReload = document.getElementById('wiki-nav-reload');
+    const wikiGuessBtn = document.getElementById('wiki-guess-btn');
+    const wikiCatalogShortcutBtn = document.getElementById('wiki-catalog-shortcut-btn');
+    const wikiThemeToggleBtn = document.getElementById('wiki-theme-toggle-btn');
+    const wikiExternalBtn = document.getElementById('wiki-external-btn');
+    const wikiDrawerCloseBtn = document.getElementById('wiki-drawer-close-btn');
+    const wikiDrawerLoading = document.getElementById('wiki-drawer-loading');
+    const wikiDrawerError = document.getElementById('wiki-drawer-error');
+    const wikiErrorMessage = document.getElementById('wiki-error-message');
+    const wikiErrorRetryBtn = document.getElementById('wiki-error-retry-btn');
+    const wikiTooltipReaderBtn = document.getElementById('wiki-tooltip-reader-btn');
+
+    let wikiDrawerState = {
+        isOpen: false,
+        history: [], // [{ title, rank, commonName }]
+        currentIndex: -1,
+        currentTitle: '',
+        currentRank: '',
+        currentTheme: localStorage.getItem('phylogenle_wiki_theme') || 'dark'
+    };
+
+    function openWikiDrawer() {
+        if (!wikiDrawer) return;
+        wikiDrawer.classList.remove('hidden');
+        if (wikiDrawerBackdrop) wikiDrawerBackdrop.classList.remove('hidden');
+        wikiDrawerState.isOpen = true;
+        document.body.classList.add('modal-open');
+    }
+
+    function closeWikiDrawer() {
+        if (!wikiDrawer) return;
+        wikiDrawer.classList.add('hidden');
+        if (wikiDrawerBackdrop) wikiDrawerBackdrop.classList.add('hidden');
+        wikiDrawerState.isOpen = false;
+        const activeModal = document.querySelector('.modal-backdrop.active, .modal:not(.hidden)');
+        if (!activeModal) {
+            document.body.classList.remove('modal-open');
+        }
+    }
+
+    function getDarkThemeCss() {
+        return `
+            :root { color-scheme: dark; }
+            html, body {
+                background-color: #0b1120 !important;
+                color: #e2e8f0 !important;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+                padding-bottom: 4rem !important;
+                margin: 0 !important;
+                line-height: 1.6 !important;
+            }
+            header, .pcs-edit-section-header {
+                background-color: #0b1120 !important;
+                color: #f8fafc !important;
+            }
+            .pcs-edit-section-title { color: #f8fafc !important; }
+            #pcs-edit-section-title-description { color: #94a3b8 !important; }
+            h1, h2, h3, h4, h5, h6 {
+                color: #f8fafc !important;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
+            }
+            p, span, li, dt, dd, td, th { color: #cbd5e1 !important; }
+            b, strong { color: #f1f5f9 !important; }
+            a {
+                color: #60a5fa !important;
+                text-decoration: underline !important;
+                text-decoration-color: rgba(96, 165, 250, 0.4) !important;
+                cursor: pointer !important;
+            }
+            a:hover { color: #93c5fd !important; text-decoration-color: #93c5fd !important; }
+            a:visited { color: #a78bfa !important; }
+            table, .infobox, .taxobox, .navbox, .metadata, .pcs-infobox {
+                background-color: #1e293b !important;
+                color: #cbd5e1 !important;
+                border: 1px solid rgba(255, 255, 255, 0.14) !important;
+                border-radius: 8px !important;
+            }
+            table th, table td {
+                background-color: rgba(30, 41, 59, 0.8) !important;
+                border-color: rgba(255, 255, 255, 0.08) !important;
+                color: #cbd5e1 !important;
+            }
+            .pcs-lazy-load-placeholder { background-color: #1e293b !important; }
+            .pcs-edit-section-link, .edit-page, .pcs-header-inner-right { display: none !important; }
+            ::-webkit-scrollbar { width: 8px; height: 8px; }
+            ::-webkit-scrollbar-track { background: #0b1120; }
+            ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+            ::-webkit-scrollbar-thumb:hover { background: #475569; }
+        `;
+    }
+
+    function getLightThemeCss() {
+        return `
+            :root { color-scheme: light; }
+            html, body {
+                background-color: #ffffff !important;
+                color: #202122 !important;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+                padding-bottom: 4rem !important;
+                line-height: 1.6 !important;
+            }
+            .pcs-edit-section-link, .edit-page, .pcs-header-inner-right { display: none !important; }
+        `;
+    }
+
+    function buildWikiArticleHtml(rawHtml, theme = 'dark') {
+        let html = rawHtml;
+        if (html.includes('<base ')) {
+            html = html.replace(/<base[^>]*>/i, '<base href="https://en.wikipedia.org/wiki/">');
+        } else {
+            html = html.replace('<head>', '<head><base href="https://en.wikipedia.org/wiki/">');
+        }
+        html = html.replace(/href="\/\//g, 'href="https://');
+        html = html.replace(/src="\/\//g, 'src="https://');
+
+        const themeCss = theme === 'light' ? getLightThemeCss() : getDarkThemeCss();
+        const snippet = `<style id="phylogenle-wiki-theme">${themeCss}</style>`;
+        if (html.includes('</head>')) {
+            html = html.replace('</head>', `${snippet}</head>`);
+        } else {
+            html = `${snippet}${html}`;
+        }
+        return html;
+    }
+
+    function updateWikiDrawerTheme() {
+        const isDark = wikiDrawerState.currentTheme === 'dark';
+        if (wikiThemeToggleBtn) {
+            wikiThemeToggleBtn.textContent = isDark ? '🌙' : '☀️';
+            wikiThemeToggleBtn.title = isDark ? 'Switch to Classic Wikipedia Light Mode' : 'Switch to Dark Mode';
+        }
+        if (wikiDrawerIframe && wikiDrawerIframe.contentDocument) {
+            const doc = wikiDrawerIframe.contentDocument;
+            let styleTag = doc.getElementById('phylogenle-wiki-theme');
+            if (!styleTag) {
+                styleTag = doc.createElement('style');
+                styleTag.id = 'phylogenle-wiki-theme';
+                doc.head.appendChild(styleTag);
+            }
+            styleTag.innerHTML = isDark ? getDarkThemeCss() : getLightThemeCss();
+        }
+    }
+
+    let speciesLookupIndex = null;
+    function getSpeciesLookupIndex() {
+        if (speciesLookupIndex) return speciesLookupIndex;
+        speciesLookupIndex = {
+            byCommon: new Map(),
+            byLatin: new Map(),
+            byFull: new Map()
+        };
+        for (const spec of allSpecies) {
+            const m = spec.match(/^(.*?)\s*\((.*?)\)$/);
+            if (m) {
+                speciesLookupIndex.byCommon.set(m[1].trim().toLowerCase(), spec);
+                speciesLookupIndex.byLatin.set(m[2].trim().toLowerCase(), spec);
+            }
+            speciesLookupIndex.byFull.set(spec.toLowerCase(), spec);
+        }
+        return speciesLookupIndex;
+    }
+
+    function findMatchingCatalogSpecies(title) {
+        if (!title || !allSpecies || allSpecies.length === 0) return null;
+        const clean = title.replace(/_/g, ' ').trim().toLowerCase();
+        const index = getSpeciesLookupIndex();
+
+        if (index.byCommon.has(clean)) return index.byCommon.get(clean);
+        if (index.byLatin.has(clean)) return index.byLatin.get(clean);
+        if (index.byFull.has(clean)) return index.byFull.get(clean);
+
+        if (speciesAliases) {
+            for (const [alias, canonical] of Object.entries(speciesAliases)) {
+                if (alias.toLowerCase() === clean) {
+                    const cLower = canonical.toLowerCase();
+                    if (index.byCommon.has(cLower)) return index.byCommon.get(cLower);
+                    if (index.byLatin.has(cLower)) return index.byLatin.get(cLower);
+                    return canonical;
+                }
+            }
+        }
+
+        const withoutParen = clean.replace(/\s*\([^)]*\)$/, '').trim();
+        if (withoutParen && withoutParen !== clean) {
+            if (index.byCommon.has(withoutParen)) return index.byCommon.get(withoutParen);
+            if (index.byLatin.has(withoutParen)) return index.byLatin.get(withoutParen);
+        }
+        return null;
+    }
+
+    function triggerGuessForSpecies(speciesString) {
+        if (!speciesString || isGameOver) return;
+        if (animalInput) {
+            animalInput.value = speciesString;
+            handleGuess();
+        }
+    }
+
+    async function fetchWikiMobileHtml(articleTitle) {
+        const norm = getNormalizedWikiTitle(articleTitle).replace(/ /g, '_');
+        const url = `https://en.wikipedia.org/api/rest_v1/page/mobile-html/${encodeURIComponent(norm)}`;
+
+        try {
+            const resp = await fetch(url);
+            if (resp.ok) {
+                return { ok: true, html: await resp.text(), title: norm };
+            }
+        } catch (e) {
+            // Network or CORS fallback
+        }
+
+        if (articleTitle.includes('(')) {
+            const inside = articleTitle.match(/\((.*?)\)/);
+            if (inside && inside[1]) {
+                const fallbackNorm = inside[1].trim().replace(/ /g, '_');
+                try {
+                    const fResp = await fetch(`https://en.wikipedia.org/api/rest_v1/page/mobile-html/${encodeURIComponent(fallbackNorm)}`);
+                    if (fResp.ok) return { ok: true, html: await fResp.text(), title: fallbackNorm };
+                } catch (e) {}
+            }
+            const outside = articleTitle.split('(')[0].trim().replace(/ /g, '_');
+            if (outside) {
+                try {
+                    const fResp2 = await fetch(`https://en.wikipedia.org/api/rest_v1/page/mobile-html/${encodeURIComponent(outside)}`);
+                    if (fResp2.ok) return { ok: true, html: await fResp2.text(), title: outside };
+                } catch (e) {}
+            }
+        }
+
+        try {
+            const searchResp = await fetch(`https://en.wikipedia.org/w/api.php?action=opensearch&search=${encodeURIComponent(articleTitle)}&limit=1&format=json&origin=*`);
+            if (searchResp.ok) {
+                const searchData = await searchResp.json();
+                if (searchData && searchData[1] && searchData[1][0]) {
+                    const matchedTitle = searchData[1][0].replace(/ /g, '_');
+                    const matchedResp = await fetch(`https://en.wikipedia.org/api/rest_v1/page/mobile-html/${encodeURIComponent(matchedTitle)}`);
+                    if (matchedResp.ok) {
+                        return { ok: true, html: await matchedResp.text(), title: matchedTitle };
+                    }
+                }
+            }
+        } catch (e) {}
+
+        return { ok: false, error: `Wikipedia article "${articleTitle}" could not be found.` };
+    }
+
+    async function loadWikiArticle(title, pushHistory = true, meta = {}) {
+        if (!title) return;
+        const cleanTitle = title.trim();
+        wikiDrawerState.currentTitle = cleanTitle;
+        wikiDrawerState.currentRank = meta.rank || '';
+
+        const displayTitle = cleanTitle.replace(/_/g, ' ');
+        if (wikiDrawerTitle) wikiDrawerTitle.textContent = displayTitle;
+
+        const cladeCommon = meta.commonName || getCladeCommonName(displayTitle);
+        if (wikiDrawerSubtitle) {
+            if (meta.rank && cladeCommon) {
+                wikiDrawerSubtitle.textContent = `${meta.rank} • ${cladeCommon}`;
+            } else if (meta.rank) {
+                wikiDrawerSubtitle.textContent = meta.rank;
+            } else if (cladeCommon) {
+                wikiDrawerSubtitle.textContent = cladeCommon;
+            } else {
+                wikiDrawerSubtitle.textContent = '';
+            }
+        }
+
+        if (wikiExternalBtn) {
+            const norm = getNormalizedWikiTitle(cleanTitle).replace(/ /g, '_');
+            wikiExternalBtn.href = `https://en.wikipedia.org/wiki/${encodeURIComponent(norm)}`;
+        }
+
+        const matchedSpecies = findMatchingCatalogSpecies(cleanTitle);
+        if (wikiGuessBtn) {
+            if (matchedSpecies && !isGameOver) {
+                const shortName = matchedSpecies.split(' (')[0];
+                wikiGuessBtn.classList.remove('hidden');
+                wikiGuessBtn.textContent = `🎯 Guess "${shortName}" in Game`;
+                wikiGuessBtn.onclick = () => {
+                    closeWikiDrawer();
+                    triggerGuessForSpecies(matchedSpecies);
+                };
+            } else {
+                wikiGuessBtn.classList.add('hidden');
+            }
+        }
+
+        if (pushHistory) {
+            if (wikiDrawerState.currentIndex < wikiDrawerState.history.length - 1) {
+                wikiDrawerState.history = wikiDrawerState.history.slice(0, wikiDrawerState.currentIndex + 1);
+            }
+            wikiDrawerState.history.push({ title: cleanTitle, rank: meta.rank || '', commonName: cladeCommon || '' });
+            wikiDrawerState.currentIndex = wikiDrawerState.history.length - 1;
+        }
+
+        if (wikiNavBack) wikiNavBack.disabled = wikiDrawerState.currentIndex <= 0;
+        if (wikiNavForward) wikiNavForward.disabled = wikiDrawerState.currentIndex >= wikiDrawerState.history.length - 1;
+
+        if (wikiDrawerLoading) wikiDrawerLoading.classList.remove('hidden');
+        if (wikiDrawerError) wikiDrawerError.classList.add('hidden');
+
+        try {
+            const res = await fetchWikiMobileHtml(cleanTitle);
+            if (!res.ok) {
+                throw new Error(res.error || `Could not find article for "${cleanTitle}".`);
+            }
+            const enhanced = buildWikiArticleHtml(res.html, wikiDrawerState.currentTheme);
+            if (wikiDrawerIframe) {
+                wikiDrawerIframe.srcdoc = enhanced;
+            }
+        } catch (err) {
+            if (wikiDrawerLoading) wikiDrawerLoading.classList.add('hidden');
+            if (wikiDrawerError) {
+                wikiDrawerError.classList.remove('hidden');
+                if (wikiErrorMessage) {
+                    wikiErrorMessage.textContent = err.message || `Could not load Wikipedia article for "${cleanTitle}".`;
+                }
+            }
+        }
+    }
+
+    function openWikiArticle(title, rank = null, extraCommon = null) {
+        if (!title) return;
+        openWikiDrawer();
+        const commonName = extraCommon || getCladeCommonName(title);
+        loadWikiArticle(title, true, { rank, commonName });
+    }
+
+    // Attach iframe click listener for Wikipedia-game style in-app link navigation
+    if (wikiDrawerIframe) {
+        wikiDrawerIframe.addEventListener('load', () => {
+            if (wikiDrawerLoading) wikiDrawerLoading.classList.add('hidden');
+            try {
+                const doc = wikiDrawerIframe.contentDocument || wikiDrawerIframe.contentWindow?.document;
+                if (!doc) return;
+
+                doc.addEventListener('click', (e) => {
+                    const link = e.target.closest('a');
+                    if (!link) return;
+
+                    const href = link.getAttribute('href');
+                    if (!href) return;
+
+                    if (href.startsWith('#')) return;
+
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    let articleTitle = null;
+                    if (href.startsWith('./')) {
+                        articleTitle = decodeURIComponent(href.slice(2));
+                    } else if (href.startsWith('/wiki/')) {
+                        articleTitle = decodeURIComponent(href.slice(6));
+                    } else if (href.includes('en.wikipedia.org/wiki/')) {
+                        const parts = href.split('en.wikipedia.org/wiki/');
+                        if (parts[1]) {
+                            articleTitle = decodeURIComponent(parts[1].split('#')[0].split('?')[0]);
+                        }
+                    }
+
+                    if (articleTitle) {
+                        const cleanArticle = articleTitle.replace(/_/g, ' ');
+                        if (articleTitle.startsWith('File:') || articleTitle.startsWith('Special:') || articleTitle.startsWith('Help:')) {
+                            window.open(`https://en.wikipedia.org/wiki/${encodeURIComponent(articleTitle)}`, '_blank', 'noopener,noreferrer');
+                        } else {
+                            loadWikiArticle(cleanArticle, true);
+                        }
+                    } else if (link.href && !link.href.startsWith('javascript:')) {
+                        window.open(link.href, '_blank', 'noopener,noreferrer');
+                    }
+                }, true);
+            } catch (err) {
+                console.warn('Could not attach iframe link interceptor:', err);
+            }
+        });
+    }
+
+    // Wikipedia reader navigation & controls
+    if (wikiNavBack) {
+        wikiNavBack.addEventListener('click', () => {
+            if (wikiDrawerState.currentIndex > 0) {
+                wikiDrawerState.currentIndex--;
+                const item = wikiDrawerState.history[wikiDrawerState.currentIndex];
+                loadWikiArticle(item.title, false, { rank: item.rank, commonName: item.commonName });
+            }
+        });
+    }
+
+    if (wikiNavForward) {
+        wikiNavForward.addEventListener('click', () => {
+            if (wikiDrawerState.currentIndex < wikiDrawerState.history.length - 1) {
+                wikiDrawerState.currentIndex++;
+                const item = wikiDrawerState.history[wikiDrawerState.currentIndex];
+                loadWikiArticle(item.title, false, { rank: item.rank, commonName: item.commonName });
+            }
+        });
+    }
+
+    if (wikiNavReload) {
+        wikiNavReload.addEventListener('click', () => {
+            if (wikiDrawerState.currentTitle) {
+                loadWikiArticle(wikiDrawerState.currentTitle, false);
+            }
+        });
+    }
+
+    if (wikiThemeToggleBtn) {
+        wikiThemeToggleBtn.textContent = wikiDrawerState.currentTheme === 'dark' ? '🌙' : '☀️';
+        wikiThemeToggleBtn.addEventListener('click', () => {
+            wikiDrawerState.currentTheme = wikiDrawerState.currentTheme === 'dark' ? 'light' : 'dark';
+            localStorage.setItem('phylogenle_wiki_theme', wikiDrawerState.currentTheme);
+            updateWikiDrawerTheme();
+        });
+    }
+
+    if (wikiCatalogShortcutBtn) {
+        wikiCatalogShortcutBtn.addEventListener('click', () => {
+            closeWikiDrawer();
+            if (wikiDrawerState.currentTitle) {
+                openCatalogAtTaxon(wikiDrawerState.currentTitle, wikiDrawerState.currentRank);
+            } else {
+                openCatalogModal();
+            }
+        });
+    }
+
+    if (wikiDrawerCloseBtn) {
+        wikiDrawerCloseBtn.addEventListener('click', closeWikiDrawer);
+    }
+
+    if (wikiDrawerBackdrop) {
+        wikiDrawerBackdrop.addEventListener('click', closeWikiDrawer);
+    }
+
+    if (wikiErrorRetryBtn) {
+        wikiErrorRetryBtn.addEventListener('click', () => {
+            if (wikiDrawerState.currentTitle) {
+                loadWikiArticle(wikiDrawerState.currentTitle, false);
+            }
+        });
+    }
+
+    if (wikiTooltipReaderBtn) {
+        wikiTooltipReaderBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const targetTaxon = currentTooltipTaxon;
+            hideWikiTooltip();
+            if (targetTaxon) {
+                openWikiArticle(targetTaxon);
             }
         });
     }
@@ -257,18 +727,38 @@ function bootPhylogenle() {
         }
     }
 
+    let cladeCommonNames = {};
+
+    function getCladeCommonName(taxaName) {
+        if (!taxaName || typeof taxaName !== 'string') return null;
+        const clean = taxaName.trim().toLowerCase();
+        return cladeCommonNames[clean] || null;
+    }
+
+    function getTreeCladeLabel(name) {
+        if (!name || name === '?' || name === 'Unknown') return name;
+        const common = getCladeCommonName(name);
+        if (!common) return name;
+        const shortCommon = common.split(' (')[0].split(',')[0].trim();
+        if (shortCommon && shortCommon.toLowerCase() !== name.toLowerCase()) {
+            return `${name} (${shortCommon})`;
+        }
+        return name;
+    }
+
     // Initialize Game
     async function initGame() {
         try {
-            if (allSpecies.length === 0 || !phylogenyTree || !speciesAliases) {
+            if (allSpecies.length === 0 || !phylogenyTree || !speciesAliases || Object.keys(cladeCommonNames).length === 0) {
                 if (guessesContainer && guessesContainer.children.length === 0) {
                     guessesContainer.innerHTML = `<div class="loading-state" style="text-align: center; padding: 2rem; color: var(--text-secondary);"><span style="display:inline-block; font-size: 1.5rem; animation: spin 1.2s linear infinite; margin-bottom: 0.5rem;">🧬</span><br>Loading evolutionary tree of life...</div>`;
                 }
 
-                const [speciesResp, treeResp, aliasesResp] = await Promise.all([
+                const [speciesResp, treeResp, aliasesResp, cladeCommonResp] = await Promise.all([
                     allSpecies.length === 0 ? fetch('data/species_list.json?v=taxa_v1') : Promise.resolve(null),
                     !phylogenyTree ? fetch('data/phylogeny_tree.json?v=taxa_v1') : Promise.resolve(null),
-                    !speciesAliases ? fetch('data/species_aliases.json?v=taxa_v1') : Promise.resolve(null)
+                    !speciesAliases ? fetch('data/species_aliases.json?v=taxa_v1') : Promise.resolve(null),
+                    Object.keys(cladeCommonNames).length === 0 ? fetch('data/clade_common_names.json?v=1').catch(() => null) : Promise.resolve(null)
                 ]);
 
                 if (speciesResp) {
@@ -286,6 +776,15 @@ function bootPhylogenle() {
                     if (aliasesResp.ok) {
                         speciesAliases = await aliasesResp.json();
                         window.speciesAliases = speciesAliases;
+                    }
+                }
+
+                if (cladeCommonResp && cladeCommonResp.ok) {
+                    try {
+                        cladeCommonNames = await cladeCommonResp.json();
+                        window.cladeCommonNames = cladeCommonNames;
+                    } catch (e) {
+                        console.warn('Failed to parse clade common names:', e);
                     }
                 }
             }
@@ -1236,6 +1735,8 @@ function bootPhylogenle() {
         const ordinalStr = getOrdinal(hintNumber || 1);
         const wikiTitle = hint.wikiTitle || hint.name;
         const timeStr = (hint.time === 0 || rank === 'Species') ? "0.0 MYA (Exact)" : (hint.time ? `${hint.time.toFixed(1)} MYA` : "Unknown MYA");
+        const hintCladeCommon = getCladeCommonName(hint.name);
+        const hintCommonDisplay = hintCladeCommon ? ` (${hintCladeCommon})` : '';
 
         const row = document.createElement('div');
         row.className = `guess-row guess-row-hint ${cssClass}`;
@@ -1247,21 +1748,31 @@ function bootPhylogenle() {
                 <span class="hint-used-flag">${ordinalStr} Clue Used</span>
             </div>
             <div class="guess-hint-name taxa-link" data-taxa="${wikiTitle}">
-                ${rank}: <strong>${hint.name}</strong>
+                ${rank}: <strong>${hint.name}</strong>${hintCommonDisplay}
             </div>
             <div class="guess-subrow">
                 <span class="closeness-pill ${cssClass}" title="Revealed ${rank}">
                     ${emoji} ${rank}
                 </span>
                 <span class="feedback-badge feedback-rank taxa-link" data-taxa="${wikiTitle}">
-                    ${rank}: ${hint.name}
+                    ${rank}: ${hint.name}${hintCommonDisplay}
                 </span>
+                <button type="button" class="guess-wiki-btn" title="Open Wikipedia article for ${rank}: ${hint.name}">🌐 Wiki</button>
                 <button type="button" class="guess-catalog-btn" title="Open ${rank}: ${hint.name} in Species Catalog">📖 Catalog</button>
                 <span class="feedback-badge feedback-time" title="Ancestral divergence time for this rank">
                     Diverged: ${timeStr}
                 </span>
             </div>
         `;
+
+        const wikiBtn = row.querySelector('.guess-wiki-btn');
+        if (wikiBtn) {
+            wikiBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                hideWikiTooltip();
+                openWikiArticle(hint.name, rank, hintCladeCommon);
+            });
+        }
 
         const catalogBtn = row.querySelector('.guess-catalog-btn');
         if (catalogBtn) {
@@ -1275,8 +1786,10 @@ function bootPhylogenle() {
         taxaLinks.forEach(el => {
             el.addEventListener('mouseenter', (e) => showWikiTooltip(e, wikiTitle));
             el.addEventListener('mouseleave', hideWikiTooltip);
-            el.addEventListener('click', () => {
-                window.open(`https://en.wikipedia.org/wiki/${encodeURIComponent(wikiTitle)}`, '_blank');
+            el.addEventListener('click', (e) => {
+                e.stopPropagation();
+                hideWikiTooltip();
+                openWikiArticle(wikiTitle, rank, hintCladeCommon);
             });
         });
 
@@ -1460,14 +1973,17 @@ function bootPhylogenle() {
         const timeStr = data.time === 0 ? "0.0 MYA (Match)" : (data.time === -1.0 ? "Unknown (>500 MYA)" : `${data.time.toFixed(1)} MYA`);
         const lcaName = data.lca_name || data.rank;
         const majorName = data.major_name || lcaName;
+        const cladeCommon = getCladeCommonName(majorName) || getCladeCommonName(lcaName);
 
         let rankBadgeText = `${data.rank}: ${lcaName}`;
         if (isMatch || data.rank === 'Species') {
             rankBadgeText = `Species: ${lcaName}`;
         } else if (majorName && majorName !== lcaName && majorName !== 'Unknown' && lcaName !== 'Unknown') {
-            rankBadgeText = `${data.rank}: ${majorName} (${lcaName})`;
+            const commonPart = cladeCommon ? ` (${cladeCommon})` : '';
+            rankBadgeText = `${data.rank}: ${majorName} (${lcaName})${commonPart}`;
         } else if (majorName && majorName !== 'Unknown') {
-            rankBadgeText = `${data.rank}: ${majorName}`;
+            const commonPart = cladeCommon ? ` (${cladeCommon})` : '';
+            rankBadgeText = `${data.rank}: ${majorName}${commonPart}`;
         }
 
         // Primary: Unicode square emoji; Fallback: CSS rank-square-icon
@@ -1477,6 +1993,8 @@ function bootPhylogenle() {
         if (guessedAlias) {
             aliasBadgeHtml = `<span class="guess-alias-badge" style="display: block; font-size: 0.8rem; opacity: 0.82; color: #a5b4fc; margin-top: 2px;">(guessed as "${escapeHtml(guessedAlias)}")</span>`;
         }
+
+        const wikiTargetTaxa = isMatch ? wikiTitle : (majorName && majorName !== 'Unknown' ? majorName : lcaName);
 
         row.innerHTML = `
             <div class="guess-header">
@@ -1488,6 +2006,7 @@ function bootPhylogenle() {
                     ${iconHtml} ${closeness.shortLabel}
                 </span>
                 <span class="feedback-badge feedback-rank ${matchClass} taxa-link" data-taxa="${lcaName}">${rankBadgeText}</span>
+                <button type="button" class="guess-wiki-btn" title="Open Wikipedia article for ${wikiTargetTaxa}">🌐 Wiki</button>
                 <button type="button" class="guess-catalog-btn" title="Open in Species Catalog">📖 Catalog</button>
                 <span class="feedback-badge feedback-time ${matchClass}" title="Estimated evolutionary divergence time">Diverged: ${timeStr}</span>
             </div>
@@ -1496,16 +2015,29 @@ function bootPhylogenle() {
         const nameSpan = row.querySelector('.guess-name');
         nameSpan.addEventListener('mouseenter', (e) => showWikiTooltip(e, wikiTitle));
         nameSpan.addEventListener('mouseleave', hideWikiTooltip);
-        nameSpan.addEventListener('click', () => {
-            window.open(`https://en.wikipedia.org/wiki/${encodeURIComponent(wikiTitle)}`, '_blank');
+        nameSpan.addEventListener('click', (e) => {
+            e.stopPropagation();
+            hideWikiTooltip();
+            openWikiArticle(wikiTitle, 'Species');
         });
 
         const taxaSpan = row.querySelector('.feedback-rank');
         taxaSpan.addEventListener('mouseenter', (e) => showWikiTooltip(e, lcaName));
         taxaSpan.addEventListener('mouseleave', hideWikiTooltip);
-        taxaSpan.addEventListener('click', () => {
-            window.open(`https://en.wikipedia.org/wiki/${encodeURIComponent(lcaName)}`, '_blank');
+        taxaSpan.addEventListener('click', (e) => {
+            e.stopPropagation();
+            hideWikiTooltip();
+            openWikiArticle(lcaName, data.rank, cladeCommon);
         });
+
+        const wikiBtn = row.querySelector('.guess-wiki-btn');
+        if (wikiBtn) {
+            wikiBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                hideWikiTooltip();
+                openWikiArticle(wikiTargetTaxa, isMatch ? 'Species' : data.rank, cladeCommon);
+            });
+        }
 
         const catalogBtn = row.querySelector('.guess-catalog-btn');
         if (catalogBtn) {
@@ -1528,6 +2060,7 @@ function bootPhylogenle() {
         const commonName = species.split(' (')[0];
         const latinMatch = species.match(/\((.*?)\)/);
         const wikiTitle = latinMatch ? latinMatch[1] : commonName;
+        const surrenderCommon = getCladeCommonName(commonName) || getCladeCommonName(wikiTitle);
         const row = document.createElement('div');
         row.className = 'guess-row closeness-surrender';
 
@@ -1546,6 +2079,7 @@ function bootPhylogenle() {
                     ⬜ Revealed
                 </span>
                 <span class="feedback-badge feedback-rank match-exact taxa-link" data-taxa="${commonName}">Target Organism</span>
+                <button type="button" class="guess-wiki-btn" title="Open Wikipedia article for ${commonName}">🌐 Wiki</button>
                 <button type="button" class="guess-catalog-btn" title="Open ${commonName} in Species Catalog">📖 Catalog</button>
                 <span class="feedback-badge feedback-time match-exact">Gave Up</span>
             </div>
@@ -1553,9 +2087,20 @@ function bootPhylogenle() {
         const nameSpan = row.querySelector('.guess-name');
         nameSpan.addEventListener('mouseenter', (e) => showWikiTooltip(e, wikiTitle));
         nameSpan.addEventListener('mouseleave', hideWikiTooltip);
-        nameSpan.addEventListener('click', () => {
-            window.open(`https://en.wikipedia.org/wiki/${encodeURIComponent(wikiTitle)}`, '_blank');
+        nameSpan.addEventListener('click', (e) => {
+            e.stopPropagation();
+            hideWikiTooltip();
+            openWikiArticle(wikiTitle, 'Species', surrenderCommon);
         });
+
+        const wikiBtn = row.querySelector('.guess-wiki-btn');
+        if (wikiBtn) {
+            wikiBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                hideWikiTooltip();
+                openWikiArticle(wikiTitle, 'Species', surrenderCommon);
+            });
+        }
 
         const catalogBtn = row.querySelector('.guess-catalog-btn');
         if (catalogBtn) {
@@ -2258,7 +2803,7 @@ function bootPhylogenle() {
             .style("text-anchor", "middle")
             .style("font-size", `${dynamicFontSize}px`)
             .attr("class", "taxa-link node-label-text")
-            .text(d => `${getNodeDisplayEmoji(d)} ${d.data.name}`)
+            .text(d => `${getNodeDisplayEmoji(d)} ${getTreeCladeLabel(d.data.name)}`)
             .on("mouseenter", function(e, d) {
                 if (!d.data.isMystery || (d.data.isMystery && d.data.name !== "?")) {
                     const query = d.data.wikiTitle || d.data.name;
@@ -2269,7 +2814,8 @@ function bootPhylogenle() {
             .on("click", function(e, d) {
                 if (!d.data.isMystery || (d.data.isMystery && d.data.name !== "?")) {
                     const query = getNormalizedWikiTitle(d.data.wikiTitle || d.data.name);
-                    window.open(`https://en.wikipedia.org/wiki/${encodeURIComponent(query)}`, '_blank');
+                    hideWikiTooltip();
+                    openWikiArticle(query);
                 }
             });
 
@@ -2301,7 +2847,8 @@ function bootPhylogenle() {
             .on("mouseleave", hideWikiTooltip)
             .on("click", function(e) {
                 if (treeContainer.classList.contains("is-dragging")) return;
-                window.open(`https://en.wikipedia.org/wiki/${encodeURIComponent(query)}`, '_blank');
+                hideWikiTooltip();
+                openWikiArticle(query);
             });
         });
 
@@ -3091,6 +3638,10 @@ function bootPhylogenle() {
     // Close modals on Escape key
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') {
+            if (wikiDrawerState && wikiDrawerState.isOpen) {
+                closeWikiDrawer();
+                return;
+            }
             const activeModal = document.querySelector('.modal-backdrop.active');
             if (activeModal) closeModal(activeModal);
         }
@@ -3934,6 +4485,13 @@ function bootPhylogenle() {
         checkURLParams();
         initGame();
     });
+
+    // Window exports for testing and external integrations
+    window.openWikiArticle = openWikiArticle;
+    window.closeWikiDrawer = closeWikiDrawer;
+    window.getCladeCommonName = getCladeCommonName;
+    window.findMatchingCatalogSpecies = findMatchingCatalogSpecies;
+    window.wikiDrawerState = wikiDrawerState;
 
     // Initial load
     checkURLParams();

@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Phylogenle - The Daily Evolutionary Puzzle</title>
     <meta name="description" content="A daily biological puzzle game. Guess the mystery organism by evolutionary divergence time (TMRCA) and taxonomic hierarchy.">
-    <link rel="stylesheet" href="style.css?v=scrollable_guesses_1">
-    <link rel="stylesheet" href="modals.css?v=kofi_header_catalog_1">
+    <link rel="stylesheet" href="style.css?v=wiki_reader_1">
+    <link rel="stylesheet" href="modals.css?v=wiki_reader_1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
@@ -140,11 +140,52 @@
             <div class="wiki-title"></div>
             <div class="wiki-snippet">Loading...</div>
             <div class="wiki-actions">
+                <button id="wiki-tooltip-reader-btn" class="wiki-reader-action-btn" type="button" title="Read full Wikipedia article inside Phylogenle">
+                    🌐 Open in Wikipedia
+                </button>
                 <button id="wiki-catalog-btn" class="wiki-catalog-btn" type="button" title="Find and expand this taxon in the Universal Catalog">
                     📖 Open in Catalog
                 </button>
             </div>
         </div>
+
+        <!-- In-App Wikipedia Reader Drawer (Interactive Wiki Browser) -->
+        <div id="wiki-drawer-backdrop" class="wiki-drawer-backdrop hidden"></div>
+        <aside id="wiki-drawer" class="wiki-drawer hidden" aria-label="In-App Wikipedia Reader">
+            <div class="wiki-drawer-header">
+                <div class="wiki-drawer-nav">
+                    <button type="button" id="wiki-nav-back" class="wiki-nav-btn" title="Go Back (Previous Page)" disabled>◀</button>
+                    <button type="button" id="wiki-nav-forward" class="wiki-nav-btn" title="Go Forward" disabled>▶</button>
+                    <button type="button" id="wiki-nav-reload" class="wiki-nav-btn" title="Reload Article">🔄</button>
+                </div>
+                <div class="wiki-drawer-title-group">
+                    <div class="wiki-drawer-title-row">
+                        <span class="wiki-brand-badge">WIKIPEDIA</span>
+                        <h3 id="wiki-drawer-title" class="wiki-drawer-title">Article</h3>
+                    </div>
+                    <span id="wiki-drawer-subtitle" class="wiki-drawer-subtitle"></span>
+                </div>
+                <div class="wiki-drawer-actions">
+                    <button type="button" id="wiki-guess-btn" class="wiki-action-btn wiki-guess-btn hidden" title="Guess this organism in Phylogenle">🎯 Guess in Game</button>
+                    <button type="button" id="wiki-catalog-shortcut-btn" class="wiki-action-btn" title="Open in Universal Catalog">📖 Catalog</button>
+                    <button type="button" id="wiki-theme-toggle-btn" class="wiki-icon-btn" title="Toggle Light / Dark Wikipedia Theme">🌙</button>
+                    <a id="wiki-external-btn" href="#" target="_blank" rel="noopener noreferrer" class="wiki-icon-btn" title="Open in external browser tab">↗</a>
+                    <button type="button" id="wiki-drawer-close-btn" class="wiki-close-btn" title="Close Wikipedia Reader">✕</button>
+                </div>
+            </div>
+            <div id="wiki-drawer-loading" class="wiki-drawer-loading hidden">
+                <div class="wiki-loading-spinner">🧬</div>
+                <div class="wiki-loading-text">Loading Wikipedia article...</div>
+            </div>
+            <div id="wiki-drawer-error" class="wiki-drawer-error hidden">
+                <div style="font-size: 2rem;">⚠️</div>
+                <p id="wiki-error-message">Could not load Wikipedia article.</p>
+                <button type="button" id="wiki-error-retry-btn" class="primary-btn" style="padding: 0.5rem 1rem; font-size: 0.85rem;">Retry</button>
+            </div>
+            <div class="wiki-iframe-wrapper">
+                <iframe id="wiki-drawer-iframe" class="wiki-drawer-iframe" title="Wikipedia Article"></iframe>
+            </div>
+        </aside>
     </div>
 
     <!-- ==========================================================================
