@@ -26,7 +26,7 @@ const PROFILE_KEY = 'phylogenle_coop_profile_v1';
 const ACTIVE_ROOM_KEY = 'phylogenle_active_coop_room_v1';
 
 // In-memory state
-let currentProfile = loadOrInitProfile();
+let currentProfile = null;
 let activeRoom = null;
 let roomUnsubscribe = null;
 const eventListeners = new Set();
@@ -75,15 +75,21 @@ function loadOrInitProfile() {
         photoUrl: null
     };
 
-    saveProfile(newProfile);
+    try {
+        localStorage.setItem(PROFILE_KEY, JSON.stringify(newProfile));
+    } catch (e) {}
+
     return newProfile;
 }
+
+// Safely initialize profile after loadOrInitProfile is declared
+currentProfile = loadOrInitProfile();
 
 /**
  * Save profile to localStorage and sync with auth if signed in
  */
 export function saveProfile(profile) {
-    currentProfile = { ...currentProfile, ...profile };
+    currentProfile = { ...(currentProfile || {}), ...profile };
     try {
         localStorage.setItem(PROFILE_KEY, JSON.stringify(currentProfile));
     } catch (e) {}

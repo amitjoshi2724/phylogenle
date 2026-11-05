@@ -30,8 +30,9 @@ class TestCooperativeMultiplayer(unittest.TestCase):
         self.assertIn('id="coop-nav-btn"', html)
         self.assertIn("Co-op", html)
 
-        # In-game button directly on the play action bar (next to Guess / Hint / Give Up)
-        self.assertIn('id="in-game-coop-btn"', html)
+        # Header nav and unified modal Co-Op controls
+        self.assertIn('id="coop-nav-btn"', html)
+        self.assertIn('id="coop-create-room-btn"', html)
         self.assertIn("Play with Friends", html)
 
         # Persistent Co-Op Status Bar

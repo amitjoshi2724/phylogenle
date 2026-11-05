@@ -23,7 +23,7 @@
 ### 2. 🤝 Cooperative Real-Time Multiplayer Mode (Redactle-Style) [COMPLETED]
 - **Goal:** Allow friends to join a shared game session via a share link and guess together collaboratively.
 - **Core Features Implemented:**
-  - **In-Game & Header Room Creation:** "Play with Friends" button accessible directly on the in-game action bar (alongside Guess, Hint, Give Up) and in the top navigation bar (`id="coop-nav-btn"`).
+  - **Unified Header Room Creation:** "👥 Co-op / Play with Friends" button accessible directly in the top navigation bar (`id="coop-nav-btn"`), opening the host/join lobby without cluttering or narrowing the in-game guess bar.
   - **Seamless Mid-Game Promotion:** Players can begin solo, click "Play with Friends" mid-game, and instantly convert their active game into a live room (`?room=XYZ-123`) without losing existing guesses, hints, or target species.
   - **Authentication & Guest Mode:** Integrates with Google Auth (`auth.js`) for profile pictures / names, while also supporting guest players with local animal avatar selection and custom nicknames.
   - **Animal & Plant Avatar Palette:** Interactive selector for 18 avatars (🦁, 🦊, 🐺, 🐻, 🐼, 🐨, 🦅, 🦉, 🐸, 🐢, 🐙, 🐬, 🦈, 🦋, 🐝, 🌿, 🍄, 🌵).
@@ -39,7 +39,7 @@
     - `coop.js`: Core ES6 module managing Firestore real-time room operations, state subscription, player identities, and guess/hint submission.
     - `firestore.rules`: Production security rules governing `/coop_rooms/{roomId}` access, field immutability, schema validation, and participant boundaries.
     - `script.js`: Game loop integration, mid-game promotion handler (`promoteSoloGameToCoop`), live board rendering, and multiplayer stats synchronization.
-    - `index.html`: Markup for header Co-op button (`#coop-nav-btn`), action bar button (`#in-game-coop-btn`), status bar (`#coop-status-bar`), and modal (`#coop-modal`).
+    - `index.html`: Markup for header Co-op button (`#coop-nav-btn`), status bar (`#coop-status-bar`), and modal (`#coop-modal`).
     - `style.css` & `modals.css`: Responsive styles for player badges, pulsing indicators, avatar palettes, and lobby cards.
     - `tests/test_coop_multiplayer.py`: Automated unit and integration test suite.
   - **Firestore Schema & Data Model (`coop_rooms/{roomId}`):**
@@ -136,7 +136,7 @@
       - `ROOM_SOLVED`: Triggers end-game sequence, renders victory modal, and records stats.
       - `ROOM_LEFT`: Cleans up local listeners and resets the top status bar.
   - **Mid-Game Solo-to-Co-op Promotion (`promoteSoloGameToCoop`):**
-    - A player who began guessing in solo mode can click `#in-game-coop-btn` mid-game.
+    - A player who began guessing in solo mode can click `👥 Co-op` in the header or `#coop-create-room-btn` in the modal mid-game.
     - The active `guesses`, `revealedHints`, `targetSpecies`, and `currentDateStr` are bundled into the initial room payload.
     - The URL is updated via `history.replaceState` to `?room=XYZ123` without reloading the page, seamlessly promoting the solo session to a live room.
   - **Dual / All-Player Stats Synchronization:**

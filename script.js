@@ -4055,14 +4055,17 @@ function bootPhylogenle() {
         if (!coopStatusBar) return;
         if (!isCoopActive()) {
             coopStatusBar.classList.add('hidden');
+            if (coopNavBtn) coopNavBtn.classList.remove('active');
             return;
         }
         const room = getActiveRoom();
         if (!room) {
             coopStatusBar.classList.add('hidden');
+            if (coopNavBtn) coopNavBtn.classList.remove('active');
             return;
         }
 
+        if (coopNavBtn) coopNavBtn.classList.add('active');
         coopStatusBar.classList.remove('hidden');
         if (coopRoomCodeDisplay) coopRoomCodeDisplay.textContent = room.roomId;
 
@@ -4131,6 +4134,7 @@ function bootPhylogenle() {
         }
 
         try {
+            if (coopCreateRoomBtn) coopCreateRoomBtn.textContent = '⏳ Creating Room...';
             if (inGameCoopBtn) inGameCoopBtn.textContent = '⏳ Creating...';
             const room = await createCoopRoom({
                 targetSpecies,
@@ -4140,10 +4144,13 @@ function bootPhylogenle() {
                 existingGuesses: guesses,
                 existingHints: revealedHints
             });
+            if (coopCreateRoomBtn) coopCreateRoomBtn.textContent = '🤝 Host / Play with Friends';
             if (inGameCoopBtn) inGameCoopBtn.textContent = '🤝 Play with Friends';
             renderCoopStatusBar();
+            renderCoopModal();
             openModal(coopModal);
         } catch (err) {
+            if (coopCreateRoomBtn) coopCreateRoomBtn.textContent = '🤝 Host / Play with Friends';
             if (inGameCoopBtn) inGameCoopBtn.textContent = '🤝 Play with Friends';
             alert(err.message || "Failed to create multiplayer room.");
         }
