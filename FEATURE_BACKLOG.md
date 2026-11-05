@@ -20,18 +20,20 @@
 
 ---
 
-### 2. 🤝 Cooperative Real-Time Multiplayer Mode (Redactle-Style)
+### 2. 🤝 Cooperative Real-Time Multiplayer Mode (Redactle-Style) [COMPLETED]
 - **Goal:** Allow friends to join a shared game session via a share link and guess together collaboratively.
-- **Core Features:**
-  - **Instant Room Creation:** Click "Play with Friends" to generate a short room link (e.g., `phylogenle.com/room/abc-123`).
-  - **Authentication:** Sign in with Google (integrating existing Firebase Auth setup in `auth.js` and `firebase-config.js`).
-  - **Player Avatars:**
-    - Player's Google Profile Picture (PFP).
-    - Or an avatar emoji of their choosing (presenting animal and plant emojis as primary suggestions: 🦁, 🐬, 🦉, 🌿, 🍄, 🐙, 🦊, 🐢).
-  - **Live Guess Feed:** Each guess appears in real-time labeled with the player's name and avatar, updating the phylogenetic tree cooperatively.
+- **Core Features Implemented:**
+  - **In-Game & Header Room Creation:** "Play with Friends" button accessible directly on the in-game action bar (alongside Guess, Hint, Give Up) and in the top navigation bar (`id="coop-nav-btn"`).
+  - **Seamless Mid-Game Promotion:** Players can begin solo, click "Play with Friends" mid-game, and instantly convert their active game into a live room (`?room=XYZ-123`) without losing existing guesses, hints, or target species.
+  - **Authentication & Guest Mode:** Integrates with Google Auth (`auth.js`) for profile pictures / names, while also supporting guest players with local animal avatar selection and custom nicknames.
+  - **Animal & Plant Avatar Palette:** Interactive selector for 18 avatars (🦁, 🦊, 🐺, 🐻, 🐼, 🐨, 🦅, 🦉, 🐸, 🐢, 🐙, 🐬, 🦈, 🦋, 🐝, 🌿, 🍄, 🌵).
+  - **Live Guess & Hint Feed:** Each guess and hint card displays a real-time badge with the author's avatar and name (`.coop-player-tag`), with automatic cladogram tree synchronization.
+  - **Persistent Co-Op Status Bar:** Displays active room code, live pulse indicator, connected participants, one-click link copying, and leave button.
+  - **All-Player Stats Synchronization:** When a co-op game is solved, `recordDailyCompletion` / `recordPracticeCompletion` is automatically invoked on both/all connected players' browsers to update their streaks, win percentage, guess distribution, and cloud backup.
+  - **Hardened Firestore Security Rules:** Authored via `firestore-rules-author` subagent in `firestore.rules`, allowing public read access for room links, schema validation on creation, immutability of core puzzle fields on update, and creator-only deletion.
 - **💬 Amit's Raw Notes:**
   - *(Drop quick thoughts, quirks, or ideas for this item here)*
-  like uk how in spaceship flight you can join a server with a code, and then you see other people joining with their little cursor things, and you can see their names and their little cursors, and you can see them solving the puzzle, and you can see them chatting with each other? something like that but for phylogenle. so basically you copy the link, send it to your friend, and then they join the server with the code, and then you can see them on the phylogenetic tree, and you can see them guessing, and you can see them chatting with each other. except you can't see their names or their cursors or them guessing, you can only see the things that they guess, and you can see the phylogenetic tree updating in real time with their guesses. so yeah, basically just spaceship flight but for phylogenle.
+  like uk how in spaceship flight you can join a server with a code, and then you see other people joining with their little cursor things, and you can see their names and their little cursors, and you can see them solving the puzzle, and you can see them chatting with each other? something like that but for phylogenle. so basically you copy the link, send it to your friend, and then they join the server with the code, and then you can see them on the phylogenetic tree, and you can see them guessing, and you can see them chatting with each other. except you can't see their names or their cursors or them guessing, you can only see the things that they guess, and you can see the phylogenetic tree updating in real time with their guesses. so yeah, basically just spaceship flight online coop but for phylogenle.
 
 ---
 

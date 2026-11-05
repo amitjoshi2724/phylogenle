@@ -33,6 +33,21 @@ import {
     onStorageChange
 } from './storage.js';
 import { getCurrentUser, onAuthChange } from './auth.js'; // Initializes Google Auth singleton & UI
+import { 
+    AVATAR_PALETTE, 
+    getMyPlayerProfile, 
+    saveProfile, 
+    isCoopActive, 
+    getActiveRoom, 
+    createCoopRoom, 
+    joinCoopRoom, 
+    leaveCoopRoom, 
+    submitCoopGuess, 
+    submitCoopHint, 
+    onCoopEvent, 
+    getRoomShareUrl, 
+    copyRoomLink 
+} from './coop.js';
 
 function bootPhylogenle() {
     // DOM Elements
@@ -68,6 +83,32 @@ function bootPhylogenle() {
     const catalogSearchClear = document.getElementById('catalog-search-clear');
     const catalogCladeTabs = document.getElementById('catalog-clade-tabs');
     const catalogContent = document.getElementById('catalog-content');
+
+    // Co-Op Multiplayer DOM Elements
+    const coopModal = document.getElementById('coop-modal');
+    const coopNavBtn = document.getElementById('coop-nav-btn');
+    const inGameCoopBtn = document.getElementById('in-game-coop-btn');
+    const coopStatusBar = document.getElementById('coop-status-bar');
+    const coopRoomCodeDisplay = document.getElementById('coop-room-code-display');
+    const coopParticipantsList = document.getElementById('coop-participants-list');
+    const coopCopyLinkBtn = document.getElementById('coop-copy-link-btn');
+    const coopLeaveRoomBtn = document.getElementById('coop-leave-room-btn');
+    const coopActiveView = document.getElementById('coop-active-view');
+    const coopLobbyView = document.getElementById('coop-lobby-view');
+    const coopModalCode = document.getElementById('coop-modal-code');
+    const coopShareLinkInput = document.getElementById('coop-share-link-input');
+    const coopModalCopyBtn = document.getElementById('coop-modal-copy-btn');
+    const coopCopyFeedback = document.getElementById('coop-copy-feedback');
+    const coopModalPlayersList = document.getElementById('coop-modal-players-list');
+    const coopPlayerCount = document.getElementById('coop-player-count');
+    const coopModalLeaveBtn = document.getElementById('coop-modal-leave-btn');
+    const coopCreateRoomBtn = document.getElementById('coop-create-room-btn');
+    const coopJoinCodeInput = document.getElementById('coop-join-code-input');
+    const coopJoinRoomBtn = document.getElementById('coop-join-room-btn');
+    const coopJoinError = document.getElementById('coop-join-error');
+    const coopPlayerNameInput = document.getElementById('coop-player-name-input');
+    const coopAvatarPalette = document.getElementById('coop-avatar-palette');
+    const coopAuthHint = document.getElementById('coop-auth-hint');
 
     // Game State
     let isUnlimited = false;
@@ -767,9 +808,19 @@ function bootPhylogenle() {
     // Check URL parameters and persisted mode on load
     function checkURLParams() {
         const urlParams = new URLSearchParams(window.location.search);
+        const roomParam = urlParams.get('room') || urlParams.get('coop');
         const modeParam = urlParams.get('mode');
         const dateParam = urlParams.get('date');
         const savedMode = localStorage.getItem('phylogenle_game_mode');
+
+        if (roomParam && !isCoopActive()) {
+            joinCoopRoom(roomParam).then(() => {
+                renderCoopStatusBar();
+                initGame();
+            }).catch(err => {
+                console.warn("Could not auto-join co-op room from URL:", err);
+            });
+        }
 
         if (modeParam === 'unlimited' || modeParam === 'practice') {
             isUnlimited = true;
@@ -883,7 +934,14 @@ function bootPhylogenle() {
                 }
             }
 
-            if (isUnlimited) {
+            if (isCoopActive()) {
+                const coopRoom = getActiveRoom();
+                if (coopRoom) {
+                    targetSpecies = coopRoom.targetSpecies;
+                    targetPresentationName = getTargetPresentationName(targetSpecies, speciesAliases, coopRoom.dateStr || Date.now().toString());
+                    isUnlimited = (coopRoom.gameMode === 'practice');
+                }
+            } else if (isUnlimited) {
                 targetSpecies = allSpecies[Math.floor(Math.random() * allSpecies.length)];
                 targetPresentationName = getTargetPresentationName(targetSpecies, speciesAliases, Date.now() + "_" + Math.random().toString(36).slice(2));
             } else {
@@ -911,6 +969,35 @@ function bootPhylogenle() {
             if (targetAlertContainer) targetAlertContainer.innerHTML = '';
 
             updateModeUI();
+
+            // If in active co-op room, load room guesses, hints, and state
+            if (isCoopActive()) {
+                const coopRoom = getActiveRoom();
+                if (coopRoom) {
+                    renderCoopStatusBar();
+                    if (coopRoom.guesses && Array.isArray(coopRoom.guesses)) {
+                        for (const g of coopRoom.guesses) {
+                            const gKey = g.name.toLowerCase();
+                            guessedSet.add(gKey);
+                            guesses.push(g);
+                            const cmpData = getEvolutionaryComparison(g.name, targetSpecies);
+                            addGuessToBoard(g.name, g.wikiTitle, cmpData || g, g.isMatch, g.guessedAlias, g.player);
+                        }
+                    }
+                    if (coopRoom.hints && Array.isArray(coopRoom.hints)) {
+                        for (let i = 0; i < coopRoom.hints.length; i++) {
+                            const h = coopRoom.hints[i];
+                            revealedHints.push(h);
+                            addHintToBoard(h, i + 1, h.player);
+                        }
+                    }
+                    updateTree();
+                    if (coopRoom.solved) {
+                        finishGame(true, { fromCoop: true, winner: coopRoom.winner });
+                    }
+                    return;
+                }
+            }
 
             // If daily, check if already completed
             if (!isUnlimited) {
@@ -1683,6 +1770,7 @@ function bootPhylogenle() {
 
         const latinNameMatch = validGuess.match(/\((.*?)\)/);
         const wikiTitle = latinNameMatch ? latinNameMatch[1] : validGuess;
+        const myProfile = getMyPlayerProfile();
 
         const guessObj = {
             name: validGuess,
@@ -1695,16 +1783,23 @@ function bootPhylogenle() {
             major_time: data.major_time !== undefined ? data.major_time : data.time,
             tmrca: data.time,
             isMatch: isMatch,
-            timestamp: Date.now()
+            timestamp: Date.now(),
+            player: {
+                id: myProfile.id,
+                name: myProfile.name,
+                avatarEmoji: myProfile.avatarEmoji,
+                photoUrl: myProfile.photoUrl || null
+            }
         };
 
         guesses.push(guessObj);
         if (targetAlertContainer) targetAlertContainer.innerHTML = '';
-        addGuessToBoard(validGuess, wikiTitle, data, isMatch, guessedAlias);
+        addGuessToBoard(validGuess, wikiTitle, data, isMatch, guessedAlias, guessObj.player);
         updateTree();
 
-        // Save active progress if daily
-        if (!isUnlimited) {
+        if (isCoopActive()) {
+            submitCoopGuess(guessObj);
+        } else if (!isUnlimited) {
             saveActiveGuesses(currentDateStr, guesses, targetSpecies);
         }
 
@@ -1822,7 +1917,7 @@ function bootPhylogenle() {
         return n + (s[(v - 20) % 10] || s[v] || s[0]);
     }
 
-    function addHintToBoard(hint, hintNumber) {
+    function addHintToBoard(hint, hintNumber, player = null) {
         if (!guessesContainer) return;
         const rank = hint.rank || 'Taxa';
         const rankLower = rank.toLowerCase();
@@ -1834,6 +1929,16 @@ function bootPhylogenle() {
         const hintCladeCommon = getCladeCommonName(hint.name);
         const hintCommonDisplay = hintCladeCommon ? ` (${hintCladeCommon})` : '';
 
+        const hintPlayer = player || hint.player;
+        let playerBadgeHtml = '';
+        if (hintPlayer && hintPlayer.name) {
+            const myProfile = getMyPlayerProfile();
+            const isMe = (myProfile && (myProfile.id === hintPlayer.id || (myProfile.uid && myProfile.uid === hintPlayer.uid)));
+            const selfClass = isMe ? 'coop-tag-self' : '';
+            const selfSuffix = isMe ? ' (You)' : '';
+            playerBadgeHtml = `<span class="coop-player-tag ${selfClass}" title="Revealed by ${escapeHtml(hintPlayer.name)}${selfSuffix}"><span class="player-avatar-emoji">${hintPlayer.avatarEmoji || '🦁'}</span> ${escapeHtml(hintPlayer.name)}${selfSuffix}</span>`;
+        }
+
         const row = document.createElement('div');
         row.className = `guess-row guess-row-hint ${cssClass}`;
         row.innerHTML = `
@@ -1841,7 +1946,10 @@ function bootPhylogenle() {
                 <span class="guess-hint-title">
                     <span class="hint-lightbulb">💡</span> Revealed Clue
                 </span>
-                <span class="hint-used-flag">${ordinalStr} Clue Used</span>
+                <div style="display: flex; align-items: center; gap: 6px;">
+                    ${playerBadgeHtml}
+                    <span class="hint-used-flag">${ordinalStr} Clue Used</span>
+                </div>
             </div>
             <div class="guess-hint-name taxa-link" data-taxa="${wikiTitle}">
                 ${rank}: <strong>${hint.name}</strong>${hintCommonDisplay}
@@ -1901,13 +2009,23 @@ function bootPhylogenle() {
             return;
         }
 
+        const myProfile = getMyPlayerProfile();
         hint.timestamp = Date.now();
+        hint.player = {
+            id: myProfile.id,
+            name: myProfile.name,
+            avatarEmoji: myProfile.avatarEmoji,
+            photoUrl: myProfile.photoUrl || null
+        };
         revealedHints.push(hint);
-        if (!isUnlimited) {
+
+        if (isCoopActive()) {
+            submitCoopHint(hint);
+        } else if (!isUnlimited) {
             saveActiveHints(currentDateStr, revealedHints, { targetSpecies, puzzleNum });
         }
 
-        addHintToBoard(hint, revealedHints.length);
+        addHintToBoard(hint, revealedHints.length, hint.player);
         updateTree();
     }
 
@@ -2060,7 +2178,7 @@ function bootPhylogenle() {
         };
     }
 
-    function addGuessToBoard(guessName, wikiTitle, data, isMatch, guessedAlias = null) {
+    function addGuessToBoard(guessName, wikiTitle, data, isMatch, guessedAlias = null, player = null) {
         const closeness = getClosenessInfo(data, isMatch);
         const row = document.createElement('div');
         row.className = `guess-row ${closeness.cssClass}`;
@@ -2098,12 +2216,25 @@ function bootPhylogenle() {
             aliasBadgeHtml = `<span class="guess-alias-badge" style="display: block; font-size: 0.8rem; opacity: 0.82; color: #a5b4fc; margin-top: 2px;">(guessed as "${escapeHtml(guessedAlias)}")</span>`;
         }
 
+        const guessPlayer = player || (data && data.player);
+        let playerBadgeHtml = '';
+        if (guessPlayer && guessPlayer.name) {
+            const myProfile = getMyPlayerProfile();
+            const isMe = (myProfile && (myProfile.id === guessPlayer.id || (myProfile.uid && myProfile.uid === guessPlayer.uid)));
+            const selfClass = isMe ? 'coop-tag-self' : '';
+            const selfSuffix = isMe ? ' (You)' : '';
+            playerBadgeHtml = `<span class="coop-player-tag ${selfClass}" title="Guessed by ${escapeHtml(guessPlayer.name)}${selfSuffix}"><span class="player-avatar-emoji">${guessPlayer.avatarEmoji || '🦁'}</span> ${escapeHtml(guessPlayer.name)}${selfSuffix}</span>`;
+        }
+
         const wikiTargetTaxa = isMatch ? wikiTitle : (lcaName && lcaName !== 'Unknown' ? lcaName : majorName);
 
         row.innerHTML = `
             <div class="guess-header">
-                <span class="guess-name ${matchClass} taxa-link">${guessName}</span>
-                ${aliasBadgeHtml}
+                <div>
+                    <span class="guess-name ${matchClass} taxa-link">${guessName}</span>
+                    ${aliasBadgeHtml}
+                </div>
+                ${playerBadgeHtml}
             </div>
             <div class="guess-subrow">
                 <span class="closeness-pill ${closeness.cssClass}" title="${closeness.label}">
@@ -2271,9 +2402,10 @@ function bootPhylogenle() {
         openModal(modal);
     }
 
-    function finishGame(win) {
+    function finishGame(win, { fromCoop = false, winner = null } = {}) {
         isGameOver = true;
-        endTitle.textContent = win ? "You found it! 🏆" : "Organism Revealed 🏳️";
+        const isCoop = fromCoop || isCoopActive();
+        endTitle.textContent = win ? (isCoop ? "Solved Together! 🤝🏆" : "You found it! 🏆") : "Organism Revealed 🏳️";
         endTitle.style.color = win ? "var(--success-color)" : "#f87171";
         const hintCount = revealedHints.length;
         const hintSuffix = hintCount > 0 ? ` (${hintCount} hint${hintCount === 1 ? '' : 's'})` : '';
@@ -2296,6 +2428,9 @@ function bootPhylogenle() {
         }
 
         let aliasInfoHtml = '';
+        if (isCoop && winner && winner.name) {
+            aliasInfoHtml += `<div class="coop-win-tag" style="background: rgba(99, 102, 241, 0.2); border: 1px solid rgba(139, 92, 246, 0.4); border-radius: 8px; padding: 6px 12px; margin-top: 8px; margin-bottom: 6px; color: #c4b5fd; font-weight: 600; display: inline-flex; align-items: center; gap: 6px;"><span style="font-size: 1.1rem;">${winner.avatarEmoji || '🦁'}</span> Winning guess made by <strong>${escapeHtml(winner.name)}</strong>!</div>`;
+        }
         if (targetPresentationName && targetPresentationName.toLowerCase() !== canonicalCommon.toLowerCase()) {
             aliasInfoHtml += `<div style="font-size: 0.85rem; color: #a5b4fc; margin-top: 4px;">Featured round presentation name: <strong>${escapeHtml(targetPresentationName)}</strong></div>`;
         }
@@ -3736,6 +3871,7 @@ function bootPhylogenle() {
         if (modal === archiveModal) renderArchiveModal();
         if (modal === statsModal) renderStatsModal();
         if (modal === catalogModal) openCatalogModal();
+        if (modal === coopModal) renderCoopModal();
     }
 
     function closeModal(modal) {
@@ -3745,6 +3881,260 @@ function bootPhylogenle() {
         }
         modal.classList.remove('active');
     }
+
+    // ==========================================================================
+    // Real-Time Co-Op Multiplayer UI & Event Handlers
+    // ==========================================================================
+    function renderAvatarPalette() {
+        if (!coopAvatarPalette) return;
+        const profile = getMyPlayerProfile();
+        coopAvatarPalette.innerHTML = '';
+        AVATAR_PALETTE.forEach(emoji => {
+            const btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = `coop-avatar-option ${profile.avatarEmoji === emoji ? 'selected' : ''}`;
+            btn.textContent = emoji;
+            btn.title = `Choose ${emoji}`;
+            btn.addEventListener('click', () => {
+                saveProfile({ avatarEmoji: emoji });
+                renderAvatarPalette();
+                renderCoopStatusBar();
+            });
+            coopAvatarPalette.appendChild(btn);
+        });
+    }
+
+    function renderCoopStatusBar() {
+        if (!coopStatusBar) return;
+        if (!isCoopActive()) {
+            coopStatusBar.classList.add('hidden');
+            return;
+        }
+        const room = getActiveRoom();
+        if (!room) {
+            coopStatusBar.classList.add('hidden');
+            return;
+        }
+
+        coopStatusBar.classList.remove('hidden');
+        if (coopRoomCodeDisplay) coopRoomCodeDisplay.textContent = room.roomId;
+
+        if (coopParticipantsList) {
+            coopParticipantsList.innerHTML = '';
+            const participants = Object.values(room.participants || {});
+            const myProfile = getMyPlayerProfile();
+            participants.forEach(p => {
+                const tag = document.createElement('span');
+                const isMe = (p.id === myProfile.id || (p.uid && p.uid === myProfile.uid));
+                tag.className = `coop-player-tag ${isMe ? 'coop-tag-self' : ''}`;
+                tag.innerHTML = `<span class="player-avatar-emoji">${p.avatarEmoji || '🦁'}</span> ${escapeHtml(p.name)}${isMe ? ' (You)' : ''}`;
+                coopParticipantsList.appendChild(tag);
+            });
+        }
+    }
+
+    function renderCoopModal() {
+        if (!coopModal) return;
+        const myProfile = getMyPlayerProfile();
+        if (coopPlayerNameInput) coopPlayerNameInput.value = myProfile.name || '';
+        renderAvatarPalette();
+
+        const currentUser = getCurrentUser();
+        if (coopAuthHint) {
+            if (currentUser) {
+                coopAuthHint.textContent = `Signed in as ${currentUser.displayName || currentUser.email}`;
+            } else {
+                coopAuthHint.textContent = 'Guest Mode (Sign in with Google to sync stats)';
+            }
+        }
+
+        if (isCoopActive()) {
+            if (coopActiveView) coopActiveView.classList.remove('hidden');
+            if (coopLobbyView) coopLobbyView.classList.add('hidden');
+            const room = getActiveRoom();
+            if (room) {
+                if (coopModalCode) coopModalCode.textContent = room.roomId;
+                if (coopShareLinkInput) coopShareLinkInput.value = getRoomShareUrl(room.roomId);
+                if (coopCopyFeedback) coopCopyFeedback.classList.add('hidden');
+
+                if (coopModalPlayersList) {
+                    coopModalPlayersList.innerHTML = '';
+                    const participants = Object.values(room.participants || {});
+                    if (coopPlayerCount) coopPlayerCount.textContent = participants.length;
+                    participants.forEach(p => {
+                        const card = document.createElement('div');
+                        const isMe = (p.id === myProfile.id || (p.uid && p.uid === myProfile.uid));
+                        card.className = 'coop-player-card';
+                        card.innerHTML = `<span class="player-avatar-emoji">${p.avatarEmoji || '🦁'}</span> <span>${escapeHtml(p.name)}${isMe ? ' (You)' : ''}</span>`;
+                        coopModalPlayersList.appendChild(card);
+                    });
+                }
+            }
+        } else {
+            if (coopActiveView) coopActiveView.classList.add('hidden');
+            if (coopLobbyView) coopLobbyView.classList.remove('hidden');
+            if (coopJoinError) coopJoinError.classList.add('hidden');
+        }
+    }
+
+    async function handleInGameCoopClick() {
+        if (isCoopActive()) {
+            openModal(coopModal);
+            return;
+        }
+
+        try {
+            if (inGameCoopBtn) inGameCoopBtn.textContent = '⏳ Creating...';
+            const room = await createCoopRoom({
+                targetSpecies,
+                isUnlimited,
+                dateStr: currentDateStr,
+                puzzleNum,
+                existingGuesses: guesses,
+                existingHints: revealedHints
+            });
+            if (inGameCoopBtn) inGameCoopBtn.textContent = '🤝 Play with Friends';
+            renderCoopStatusBar();
+            openModal(coopModal);
+        } catch (err) {
+            if (inGameCoopBtn) inGameCoopBtn.textContent = '🤝 Play with Friends';
+            alert(err.message || "Failed to create multiplayer room.");
+        }
+    }
+
+    coopNavBtn?.addEventListener('click', () => openModal(coopModal));
+    inGameCoopBtn?.addEventListener('click', handleInGameCoopClick);
+    coopCreateRoomBtn?.addEventListener('click', handleInGameCoopClick);
+
+    coopJoinRoomBtn?.addEventListener('click', async () => {
+        const code = (coopJoinCodeInput ? coopJoinCodeInput.value : '').trim();
+        if (!code) {
+            if (coopJoinError) {
+                coopJoinError.textContent = 'Please enter a 6-character room code.';
+                coopJoinError.classList.remove('hidden');
+            }
+            return;
+        }
+        try {
+            coopJoinRoomBtn.textContent = '⏳ Joining...';
+            if (coopJoinError) coopJoinError.classList.add('hidden');
+            await joinCoopRoom(code);
+            coopJoinRoomBtn.textContent = 'Join';
+            renderCoopStatusBar();
+            renderCoopModal();
+            initGame();
+        } catch (err) {
+            coopJoinRoomBtn.textContent = 'Join';
+            if (coopJoinError) {
+                coopJoinError.textContent = err.message || 'Failed to join room.';
+                coopJoinError.classList.remove('hidden');
+            }
+        }
+    });
+
+    coopModalCopyBtn?.addEventListener('click', async () => {
+        const room = getActiveRoom();
+        if (!room) return;
+        const success = await copyRoomLink(room.roomId);
+        if (success && coopCopyFeedback) {
+            coopCopyFeedback.classList.remove('hidden');
+            setTimeout(() => coopCopyFeedback?.classList.add('hidden'), 3500);
+        }
+    });
+
+    coopCopyLinkBtn?.addEventListener('click', async () => {
+        const room = getActiveRoom();
+        if (!room) return;
+        await copyRoomLink(room.roomId);
+        const originalText = coopCopyLinkBtn.textContent;
+        coopCopyLinkBtn.textContent = '✅ Copied!';
+        setTimeout(() => { if (coopCopyLinkBtn) coopCopyLinkBtn.textContent = originalText; }, 2000);
+    });
+
+    const handleLeave = () => {
+        showInAppConfirm({
+            icon: '🚪',
+            title: 'Leave Co-Op Session?',
+            message: 'Are you sure you want to leave this cooperative session and return to solo mode?',
+            proceedText: 'Leave Room',
+            proceedBg: '#ef4444',
+            onProceed: () => {
+                leaveCoopRoom();
+                closeModal(coopModal);
+                renderCoopStatusBar();
+                initGame();
+            }
+        });
+    };
+
+    coopLeaveRoomBtn?.addEventListener('click', handleLeave);
+    coopModalLeaveBtn?.addEventListener('click', handleLeave);
+
+    coopPlayerNameInput?.addEventListener('input', () => {
+        const val = coopPlayerNameInput.value.trim();
+        if (val) {
+            saveProfile({ name: val });
+            renderCoopStatusBar();
+        }
+    });
+
+    // Subscribe to Co-Op Room events
+    onCoopEvent((event, data) => {
+        if (event === 'ROOM_UPDATE') {
+            renderCoopStatusBar();
+            if (coopModal && coopModal.classList.contains('active')) {
+                renderCoopModal();
+            }
+            // Sync new incoming guesses
+            if (data && data.guesses && Array.isArray(data.guesses)) {
+                let hasNewGuesses = false;
+                for (const g of data.guesses) {
+                    const gKey = g.name.toLowerCase();
+                    if (!guessedSet.has(gKey)) {
+                        guessedSet.add(gKey);
+                        guesses.push(g);
+                        const cmpData = getEvolutionaryComparison(g.name, targetSpecies);
+                        addGuessToBoard(g.name, g.wikiTitle, cmpData || g, g.isMatch, g.guessedAlias, g.player);
+                        hasNewGuesses = true;
+                    }
+                }
+                if (hasNewGuesses) updateTree();
+            }
+            // Sync new incoming hints
+            if (data && data.hints && Array.isArray(data.hints)) {
+                let hasNewHints = false;
+                const existingRanks = new Set(revealedHints.map(h => (h.rank || '').toLowerCase()));
+                for (const h of data.hints) {
+                    const rankKey = (h.rank || '').toLowerCase();
+                    if (!existingRanks.has(rankKey)) {
+                        existingRanks.add(rankKey);
+                        revealedHints.push(h);
+                        addHintToBoard(h, revealedHints.length, h.player);
+                        hasNewHints = true;
+                    }
+                }
+                if (hasNewHints) updateTree();
+            }
+        } else if (event === 'ROOM_SOLVED') {
+            if (!isGameOver) {
+                // Ensure both/all players record stats
+                if (!isUnlimited) {
+                    recordDailyCompletion(currentDateStr, puzzleNum, true, guesses.length, guesses, targetSpecies, revealedHints);
+                    clearActiveGuesses(currentDateStr);
+                } else {
+                    recordPracticeCompletion(true, guesses.length, guesses, targetSpecies, revealedHints);
+                }
+                finishGame(true, { fromCoop: true, winner: data.winner });
+            }
+        } else if (event === 'ROOM_LEFT') {
+            renderCoopStatusBar();
+            if (coopModal && coopModal.classList.contains('active')) {
+                renderCoopModal();
+            }
+        } else if (event === 'ROOM_CREATED' || event === 'ROOM_JOINED') {
+            renderCoopStatusBar();
+        }
+    });
 
     // Persist catalog scroll position continuously
     catalogContent?.addEventListener('scroll', () => {
@@ -4610,6 +5000,12 @@ function bootPhylogenle() {
     window.getCladeCommonName = getCladeCommonName;
     window.findMatchingCatalogSpecies = findMatchingCatalogSpecies;
     window.wikiDrawerState = wikiDrawerState;
+    window.createCoopRoom = createCoopRoom;
+    window.joinCoopRoom = joinCoopRoom;
+    window.leaveCoopRoom = leaveCoopRoom;
+    window.isCoopActive = isCoopActive;
+    window.getActiveRoom = getActiveRoom;
+    window.getMyPlayerProfile = getMyPlayerProfile;
 
     // Initial load
     checkURLParams();

@@ -1,11 +1,165 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
+
+    // ===============================================================
+    // Assumed Data Model
+    // ===============================================================
+    //
+    // Collection: users
+    // Document ID: {userId} (matches Firebase Auth UID)
+    // Fields:
+    //   - phylogenle_stats: map (optional) - aggregate stats (played, won, streaks, distribution)
+    //   - phylogenle_history: map (optional) - ledger of completed daily puzzles keyed by dateStr
+    //   - phylogenle_practice_history: map (optional) - completed practice puzzles
+    //   - phylogenle_active_games: map (optional) - in-progress puzzle states
+    //   - lastUpdated: number (optional) - timestamp of last client sync
+    //
+    // Collection: coop_rooms
+    // Document ID: {roomId} (slug string, e.g. 6-12 chars)
+    // Fields:
+    //   - roomId: string (required, 1-64 chars, immutable, matches document ID)
+    //   - targetSpecies: string (required, 1-250 chars, secret organism, immutable on update)
+    //   - gameMode: string (required, 'daily' | 'practice', immutable on update)
+    //   - dateStr: string (optional, 4-32 chars, puzzle date for daily mode, immutable on update)
+    //   - createdAt: number | timestamp (required, creation time, immutable on update)
+    //   - updatedAt: number | timestamp (required, last updated time)
+    //   - createdBy: map (required, room creator metadata, immutable on update)
+    //       - uid: string (optional, UID of creator if authenticated)
+    //       - name: string (optional, display name <= 100 chars)
+    //       - avatarEmoji: string (optional, <= 32 chars)
+    //       - photoUrl: string (optional, <= 2048 chars)
+    //   - status: string (required, 'active' | 'solved', must be 'active' on create)
+    //   - solved: bool (required, must be false on create)
+    //   - guesses: list of maps (required, max 500 items)
+    //   - hints: list of maps (required, max 100 items)
+    //   - participants: map of participant maps (required, max 100 entries)
+    //   - winner: map | null (optional, details of player who solved the puzzle)
+    //
+    // ===============================================================
+
+    // ===============================================================
+    // Helper Functions
+    // ===============================================================
+
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function isValidCreatedBy(createdBy) {
+      return createdBy is map &&
+        createdBy.keys().hasOnly(['uid', 'name', 'avatarEmoji', 'photoUrl']) &&
+        (
+          // Authenticated: uid must either be omitted, null, or match request.auth.uid
+          (isAuthenticated() && (!('uid' in createdBy) || createdBy.uid == null || createdBy.uid == request.auth.uid)) ||
+          // Guest: uid must be omitted or null (cannot spoof another user's UID)
+          (!isAuthenticated() && (!('uid' in createdBy) || createdBy.uid == null))
+        ) &&
+        (!('name' in createdBy) || createdBy.name == null || (createdBy.name is string && createdBy.name.size() <= 100)) &&
+        (!('avatarEmoji' in createdBy) || createdBy.avatarEmoji == null || (createdBy.avatarEmoji is string && createdBy.avatarEmoji.size() <= 32)) &&
+        (!('photoUrl' in createdBy) || createdBy.photoUrl == null || (createdBy.photoUrl is string && createdBy.photoUrl.size() <= 2048));
+    }
+
+    function isValidRoomCommon(data, roomId) {
+      return data.keys().hasOnly([
+        'roomId', 'targetSpecies', 'gameMode', 'dateStr',
+        'createdAt', 'updatedAt', 'createdBy', 'status',
+        'solved', 'guesses', 'hints', 'participants', 'winner'
+      ]) &&
+      data.keys().hasAll([
+        'roomId', 'targetSpecies', 'gameMode',
+        'createdAt', 'updatedAt', 'createdBy', 'status',
+        'solved', 'guesses', 'hints', 'participants'
+      ]) &&
+      data.roomId is string &&
+      data.roomId == roomId &&
+      data.roomId.size() >= 1 &&
+      data.roomId.size() <= 64 &&
+      data.targetSpecies is string &&
+      data.targetSpecies.size() >= 1 &&
+      data.targetSpecies.size() <= 250 &&
+      data.gameMode is string &&
+      (data.gameMode == 'daily' || data.gameMode == 'practice') &&
+      (!('dateStr' in data) || (data.dateStr is string && data.dateStr.size() >= 4 && data.dateStr.size() <= 32)) &&
+      (!('winner' in data) || data.winner == null || data.winner is map) &&
+      ((data.createdAt is number && data.createdAt > 0) || data.createdAt is timestamp) &&
+      ((data.updatedAt is number && data.updatedAt > 0) || data.updatedAt is timestamp) &&
+      isValidCreatedBy(data.createdBy) &&
+      data.guesses is list &&
+      data.guesses.size() <= 500 &&
+      data.hints is list &&
+      data.hints.size() <= 100 &&
+      data.participants is map &&
+      data.participants.size() <= 100;
+    }
+
+    function isValidRoomCreate(roomId) {
+      let data = request.resource.data;
+      return isValidRoomCommon(data, roomId) &&
+        data.status == 'active' &&
+        data.solved == false;
+    }
+
+    function isValidRoomUpdate(roomId) {
+      let data = request.resource.data;
+      return isValidRoomCommon(data, roomId) &&
+        (data.status == 'active' || data.status == 'solved') &&
+        data.solved is bool &&
+        // Protect immutable fields from modification
+        !request.resource.data.diff(resource.data).affectedKeys().hasAny([
+          'roomId',
+          'targetSpecies',
+          'gameMode',
+          'createdAt',
+          'createdBy',
+          'dateStr'
+        ]) &&
+        data.roomId == resource.data.roomId &&
+        data.targetSpecies == resource.data.targetSpecies &&
+        data.gameMode == resource.data.gameMode &&
+        data.createdAt == resource.data.createdAt &&
+        data.createdBy == resource.data.createdBy &&
+        (!('dateStr' in resource.data) || ('dateStr' in data && data.dateStr == resource.data.dateStr));
+    }
+
+    function isRoomCreator() {
+      return isAuthenticated() &&
+        'createdBy' in resource.data &&
+        resource.data.createdBy is map &&
+        'uid' in resource.data.createdBy &&
+        resource.data.createdBy.uid != null &&
+        resource.data.createdBy.uid == request.auth.uid;
+    }
+
+    // ===============================================================
+    // Collection Rules
+    // ===============================================================
+
+    // User profiles & cross-device game histories
     match /users/{userId} {
       allow read, write: if request.auth != null && request.auth.uid == userId;
       match /{allChildren=**} {
         allow read, write: if request.auth != null && request.auth.uid == userId;
       }
+    }
+
+    // Real-time cooperative multiplayer rooms
+    match /coop_rooms/{roomId} {
+      // Any player (authenticated or guest with link) can read the room state
+      allow read: if true;
+
+      // Creating a new room requires valid schema, active status, and matching roomId
+      allow create: if isValidRoomCreate(roomId);
+
+      // Updating a room allows guesses, hints, participants, status, winner, and updatedAt while keeping core puzzle parameters immutable
+      allow update: if isValidRoomUpdate(roomId);
+
+      // Only the authenticated room creator can delete a room
+      allow delete: if isRoomCreator();
     }
   }
 }

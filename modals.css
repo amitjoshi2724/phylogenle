@@ -2168,3 +2168,312 @@
         width: 100vw;
     }
 }
+
+/* ==========================================================================
+   Co-Op Multiplayer Modal Styles
+   ========================================================================== */
+.coop-nav-btn {
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.18) 0%, rgba(139, 92, 246, 0.14) 100%);
+    border-color: rgba(139, 92, 246, 0.4);
+    color: #c4b5fd;
+}
+
+.coop-nav-btn:hover {
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.3) 0%, rgba(139, 92, 246, 0.25) 100%);
+    border-color: #a78bfa;
+    color: #ffffff;
+}
+
+.coop-modal-dialog {
+    max-width: 540px;
+    width: 92%;
+    background: rgba(15, 23, 42, 0.95);
+    border: 1px solid rgba(139, 92, 246, 0.35);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6), 0 0 30px rgba(99, 102, 241, 0.2);
+}
+
+.coop-modal-title-wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.coop-modal-badge {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 3px 8px;
+    border-radius: 9999px;
+    background: rgba(139, 92, 246, 0.25);
+    border: 1px solid rgba(139, 92, 246, 0.45);
+    color: #c4b5fd;
+}
+
+.coop-modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 1.25rem 1.5rem;
+}
+
+.coop-room-card {
+    padding: 1.25rem;
+    border-radius: 12px;
+    background: rgba(30, 27, 75, 0.4);
+    border: 1px solid rgba(139, 92, 246, 0.3);
+    text-align: center;
+}
+
+.coop-room-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 0.75rem;
+}
+
+.coop-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    letter-spacing: 0.08em;
+}
+
+.coop-code-text {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #a78bfa;
+    letter-spacing: 0.12em;
+    text-shadow: 0 0 16px rgba(167, 139, 250, 0.4);
+}
+
+.coop-room-desc {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.coop-share-input-group {
+    display: flex;
+    gap: 8px;
+}
+
+.coop-share-input-group input {
+    flex: 1;
+    background: rgba(15, 23, 42, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    padding: 0.6rem 0.85rem;
+    color: #ffffff;
+    font-family: ui-monospace, monospace;
+    font-size: 0.85rem;
+}
+
+.coop-copy-feedback {
+    margin-top: 0.6rem;
+    font-size: 0.85rem;
+    color: #86efac;
+    animation: fadeIn 0.2s ease;
+}
+
+.coop-section-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #e0e7ff;
+    letter-spacing: 0.02em;
+    margin-bottom: 0.6rem;
+}
+
+.coop-players-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.coop-player-card {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    background: rgba(30, 27, 75, 0.5);
+    border: 1px solid rgba(139, 92, 246, 0.35);
+    border-radius: 10px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #f8fafc;
+}
+
+.coop-player-card .player-avatar-emoji {
+    font-size: 1.25rem;
+}
+
+.coop-lobby-intro {
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: var(--text-secondary);
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.coop-stats-note {
+    background: rgba(16, 185, 129, 0.12);
+    border: 1px solid rgba(16, 185, 129, 0.35);
+    border-radius: 10px;
+    padding: 8px 12px;
+    color: #a7f3d0;
+    font-size: 0.85rem;
+}
+
+.coop-actions-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 500px) {
+    .coop-actions-split {
+        grid-template-columns: 1fr;
+    }
+}
+
+.coop-card {
+    padding: 1rem;
+    border-radius: 12px;
+    background: rgba(30, 27, 75, 0.35);
+    border: 1px solid rgba(139, 92, 246, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.coop-card h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #e0e7ff;
+    margin-bottom: 0.4rem;
+}
+
+.coop-card p {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    line-height: 1.35;
+}
+
+.coop-join-group {
+    display: flex;
+    gap: 6px;
+}
+
+.coop-join-group input {
+    flex: 1;
+    background: rgba(15, 23, 42, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    padding: 0.55rem 0.75rem;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    font-size: 0.95rem;
+}
+
+.coop-error-msg {
+    color: #fca5a5;
+    font-size: 0.8rem;
+    margin-top: 6px;
+}
+
+.coop-profile-section {
+    padding: 1rem 1.25rem;
+    border-radius: 12px;
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.coop-profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.coop-auth-hint {
+    font-size: 0.78rem;
+    color: #94a3b8;
+}
+
+.coop-profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+}
+
+.coop-name-input-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.coop-name-input-wrap label, .coop-profile-form label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.coop-name-input-wrap input {
+    background: rgba(30, 27, 75, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    padding: 0.55rem 0.85rem;
+    color: #ffffff;
+    font-size: 0.95rem;
+}
+
+.coop-avatar-palette {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 6px;
+    margin-top: 4px;
+}
+
+@media (max-width: 500px) {
+    .coop-avatar-palette {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+.coop-avatar-option {
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    user-select: none;
+}
+
+.coop-avatar-option:hover {
+    background: rgba(139, 92, 246, 0.25);
+    border-color: #a78bfa;
+    transform: scale(1.1);
+}
+
+.coop-avatar-option.selected {
+    background: rgba(139, 92, 246, 0.4);
+    border-color: #c4b5fd;
+    box-shadow: 0 0 12px rgba(167, 139, 250, 0.5);
+    transform: scale(1.1);
+}
+
