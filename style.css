@@ -1331,9 +1331,64 @@ tr.catalog-highlight-target {
     white-space: nowrap;
 }
 
+.player-avatar-img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    vertical-align: middle;
+    border: 1.5px solid rgba(255, 255, 255, 0.4);
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.player-avatar-emoji {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1;
+    vertical-align: middle;
+    flex-shrink: 0;
+}
+
+.coop-player-tag .player-avatar-img {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
 .coop-player-tag .player-avatar-emoji {
     font-size: 0.95rem;
     line-height: 1;
+}
+
+.profile-nav-btn {
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.16) 0%, rgba(99, 102, 241, 0.12) 100%);
+    border-color: rgba(167, 139, 250, 0.4);
+    color: #e0e7ff;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.profile-nav-btn:hover {
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.3) 0%, rgba(99, 102, 241, 0.25) 100%);
+    border-color: #c4b5fd;
+    color: #ffffff;
+    box-shadow: 0 0 12px rgba(139, 92, 246, 0.35);
+}
+
+.header-profile-avatar {
+    font-size: 1.05rem;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-profile-avatar .player-avatar-img {
+    width: 18px;
+    height: 18px;
 }
 
 .coop-player-tag.coop-tag-self {

@@ -34,6 +34,7 @@
                 <button id="stats-modal-btn" class="nav-btn" title="Statistics & Streaks">📊 Stats</button>
                 <button id="help-modal-btn" class="nav-btn" title="How to Play">❓ Help</button>
                 <button id="catalog-nav-btn" class="nav-btn" title="Universal Species Catalog & Taxonomy">📖 Catalog</button>
+                <button id="profile-modal-btn" class="nav-btn profile-nav-btn" title="Player Profile & Avatar"><span id="header-profile-avatar" class="header-profile-avatar">🦁</span> <span id="header-profile-name" class="header-profile-name">Profile</span></button>
                 <div id="kofi-widget-container" class="nav-kofi-container">
                     <script src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
                     <script>
@@ -612,24 +613,89 @@
                             <div id="coop-join-error" class="coop-error-msg hidden"></div>
                         </div>
                     </div>
+
+                    <!-- Lobby Identity Footer (Quick Link to Edit Profile) -->
+                    <div class="coop-lobby-footer glass-panel">
+                        <div class="coop-lobby-identity-preview">
+                            <span class="coop-lobby-preview-label">Playing as:</span>
+                            <span id="coop-lobby-avatar" class="coop-lobby-preview-avatar">🦁</span>
+                            <strong id="coop-lobby-name" class="coop-lobby-preview-name">Player</strong>
+                        </div>
+                        <button type="button" id="coop-open-profile-btn" class="nav-btn coop-profile-shortcut-btn" title="Customize player name or avatar">🎨 Edit Profile</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dedicated Player Profile Modal -->
+    <div id="profile-modal" class="modal-backdrop">
+        <div class="modal-dialog profile-modal-dialog">
+            <div class="modal-header">
+                <div class="profile-modal-title-wrap">
+                    <h3 class="modal-title">🎨 Player Profile</h3>
+                    <span class="profile-modal-badge">Avatar & Name</span>
+                </div>
+                <button class="modal-close-btn" data-close="profile-modal">&times;</button>
+            </div>
+            <div class="modal-body profile-modal-body">
+                <!-- Current Profile Live Preview Card -->
+                <div class="profile-preview-card glass-panel">
+                    <div id="profile-preview-avatar-box" class="profile-preview-avatar-box">
+                        <span id="profile-preview-avatar-display" class="player-avatar-emoji">🦁</span>
+                    </div>
+                    <div class="profile-preview-info">
+                        <div id="profile-preview-name-display" class="profile-preview-name">Player</div>
+                        <div id="profile-preview-auth-status" class="profile-preview-status">Local Player</div>
+                    </div>
                 </div>
 
-                <!-- Player Profile Section (Always accessible) -->
-                <div class="coop-profile-section glass-panel">
-                    <div class="coop-profile-header">
-                        <span class="coop-section-title">🎨 Your Player Profile</span>
-                        <span id="coop-auth-hint" class="coop-auth-hint"></span>
-                    </div>
-                    <div class="coop-profile-form">
-                        <div class="coop-name-input-wrap">
-                            <label for="coop-player-name-input">Display Name:</label>
-                            <input type="text" id="coop-player-name-input" maxlength="25" placeholder="Your name...">
+                <!-- Display Name Input -->
+                <div class="profile-form-group">
+                    <label for="profile-name-input" class="profile-field-label">Display Name:</label>
+                    <input type="text" id="profile-name-input" class="profile-text-input" maxlength="25" placeholder="Enter your display name...">
+                </div>
+
+                <!-- Avatar Selection Choices -->
+                <div class="profile-avatar-section">
+                    <label class="profile-field-label">Avatar Choice:</label>
+
+                    <!-- Option 1: Google Profile Picture (Shown when signed in with Google) -->
+                    <div id="profile-google-card" class="profile-option-card glass-panel hidden">
+                        <div class="profile-option-left">
+                            <img id="profile-google-img" src="" alt="Google Profile" class="player-avatar-img profile-google-thumb">
+                            <div class="profile-option-meta">
+                                <strong>Google Profile Picture</strong>
+                                <span class="profile-subtext">Use the photo from your connected Google account</span>
+                            </div>
                         </div>
-                        <div>
-                            <label>Choose Avatar:</label>
-                            <div id="coop-avatar-palette" class="coop-avatar-palette"></div>
-                        </div>
+                        <button type="button" id="profile-select-google-btn" class="nav-btn profile-select-action-btn">Use Photo</button>
                     </div>
+
+                    <!-- Option 2: Custom Typed or Pasted Emoji -->
+                    <div class="profile-option-card glass-panel">
+                        <div class="profile-custom-emoji-header">
+                            <strong>Custom Emoji</strong>
+                            <span class="profile-subtext">Type or paste any emoji from your keyboard (e.g. 🦖, 🦥, 🌺, 🐉, 🦔, 🍄, 🦄)</span>
+                        </div>
+                        <div class="profile-custom-input-row">
+                            <input type="text" id="profile-custom-emoji-input" class="profile-custom-emoji-input" placeholder="Type or paste any emoji..." maxlength="12">
+                            <button type="button" id="profile-custom-emoji-apply-btn" class="primary-btn">Use Emoji</button>
+                        </div>
+                        <div id="profile-custom-emoji-error" class="profile-error-hint hidden">Please enter a valid emoji character!</div>
+                    </div>
+
+                    <!-- Option 3: Starter Nature Emojis -->
+                    <div class="profile-presets-card glass-panel">
+                        <div class="profile-presets-header">
+                            <strong>Starter Nature Avatars:</strong>
+                        </div>
+                        <div id="profile-preset-palette" class="profile-avatar-palette"></div>
+                    </div>
+                </div>
+
+                <div class="profile-actions-footer">
+                    <button type="button" class="primary-btn modal-close-btn" data-close="profile-modal" style="width: 100%; padding: 0.8rem; font-size: 1rem;">Done</button>
                 </div>
             </div>
         </div>

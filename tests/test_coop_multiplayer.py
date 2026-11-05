@@ -42,15 +42,24 @@ class TestCooperativeMultiplayer(unittest.TestCase):
         self.assertIn('id="coop-copy-link-btn"', html)
         self.assertIn('id="coop-leave-room-btn"', html)
 
-        # Co-Op Modal & Lobby/Active Views
+        # Co-Op Modal: Strictly Host or Join (and Active Room View)
         self.assertIn('id="coop-modal"', html)
         self.assertIn('id="coop-active-view"', html)
         self.assertIn('id="coop-lobby-view"', html)
         self.assertIn('id="coop-create-room-btn"', html)
         self.assertIn('id="coop-join-room-btn"', html)
         self.assertIn('id="coop-join-code-input"', html)
-        self.assertIn('id="coop-avatar-palette"', html)
-        self.assertIn('id="coop-player-name-input"', html)
+        self.assertIn('id="coop-open-profile-btn"', html)
+        # Ensure coop modal lobby is decoupled from profile avatar selection
+        self.assertNotIn('class="coop-profile-section', html)
+
+        # Dedicated Player Profile Modal & Top Nav Button
+        self.assertIn('id="profile-modal-btn"', html)
+        self.assertIn('id="profile-modal"', html)
+        self.assertIn('id="profile-name-input"', html)
+        self.assertIn('id="profile-google-card"', html)
+        self.assertIn('id="profile-custom-emoji-input"', html)
+        self.assertIn('id="profile-preset-palette"', html)
 
     def test_css_contains_coop_button_status_bar_and_modal_styles(self):
         style_css = (ROOT / "style.css").read_text(encoding="utf-8")
@@ -61,12 +70,29 @@ class TestCooperativeMultiplayer(unittest.TestCase):
         self.assertIn(".coop-player-tag", style_css)
         self.assertIn(".coop-status-bar", style_css)
         self.assertIn(".coop-pulse-dot", style_css)
+        self.assertIn(".player-avatar-img", style_css)
+        self.assertIn(".profile-nav-btn", style_css)
 
         # Modal styles in modals.css
         self.assertIn(".coop-modal-dialog", modals_css)
-        self.assertIn(".coop-avatar-palette", modals_css)
-        self.assertIn(".coop-avatar-option", modals_css)
         self.assertIn(".coop-room-card", modals_css)
+        self.assertIn(".profile-modal-dialog", modals_css)
+        self.assertIn(".profile-avatar-palette", modals_css)
+        self.assertIn(".profile-avatar-option", modals_css)
+
+    def test_profile_custom_emoji_and_google_photo_support(self):
+        coop_js = (ROOT / "coop.js").read_text(encoding="utf-8")
+        script_js = (ROOT / "script.js").read_text(encoding="utf-8")
+
+        # coop.js toPlayerBadge and sanitizePlayerMap support
+        self.assertIn("toPlayerBadge", coop_js)
+        self.assertIn("avatarType", coop_js)
+
+        # script.js helper for rendering either image or emoji
+        self.assertIn("function renderPlayerAvatarHtml", script_js)
+        self.assertIn("function extractFirstEmoji", script_js)
+        self.assertIn("player-avatar-img", script_js)
+        self.assertIn("player-avatar-emoji", script_js)
 
     def test_firestore_rules_cover_coop_rooms_and_preserve_user_security(self):
         rules = (ROOT / "firestore.rules").read_text(encoding="utf-8")

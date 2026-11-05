@@ -46,7 +46,8 @@ import {
     submitCoopHint, 
     onCoopEvent, 
     getRoomShareUrl, 
-    copyRoomLink 
+    copyRoomLink,
+    toPlayerBadge
 } from './coop.js';
 import { 
     encodeChallengePayload, 
@@ -113,9 +114,27 @@ function bootPhylogenle() {
     const coopJoinCodeInput = document.getElementById('coop-join-code-input');
     const coopJoinRoomBtn = document.getElementById('coop-join-room-btn');
     const coopJoinError = document.getElementById('coop-join-error');
-    const coopPlayerNameInput = document.getElementById('coop-player-name-input');
-    const coopAvatarPalette = document.getElementById('coop-avatar-palette');
-    const coopAuthHint = document.getElementById('coop-auth-hint');
+    const coopLobbyAvatar = document.getElementById('coop-lobby-avatar');
+    const coopLobbyName = document.getElementById('coop-lobby-name');
+    const coopOpenProfileBtn = document.getElementById('coop-open-profile-btn');
+
+    // Dedicated Player Profile DOM Elements
+    const profileModal = document.getElementById('profile-modal');
+    const profileModalBtn = document.getElementById('profile-modal-btn');
+    const headerProfileAvatar = document.getElementById('header-profile-avatar');
+    const headerProfileName = document.getElementById('header-profile-name');
+    const profilePreviewAvatarBox = document.getElementById('profile-preview-avatar-box');
+    const profilePreviewAvatarDisplay = document.getElementById('profile-preview-avatar-display');
+    const profilePreviewNameDisplay = document.getElementById('profile-preview-name-display');
+    const profilePreviewAuthStatus = document.getElementById('profile-preview-auth-status');
+    const profileNameInput = document.getElementById('profile-name-input');
+    const profileGoogleCard = document.getElementById('profile-google-card');
+    const profileGoogleImg = document.getElementById('profile-google-img');
+    const profileSelectGoogleBtn = document.getElementById('profile-select-google-btn');
+    const profileCustomEmojiInput = document.getElementById('profile-custom-emoji-input');
+    const profileCustomEmojiApplyBtn = document.getElementById('profile-custom-emoji-apply-btn');
+    const profileCustomEmojiError = document.getElementById('profile-custom-emoji-error');
+    const profilePresetPalette = document.getElementById('profile-preset-palette');
 
     // Custom Challenge DOM Elements
     const challengeModal = document.getElementById('challenge-modal');
@@ -170,6 +189,41 @@ function bootPhylogenle() {
             .replace(/>/g, '&gt;')
             .replace(/"/g, '&quot;')
             .replace(/'/g, '&#039;');
+    }
+
+    /**
+     * Render player avatar HTML - handles both Google profile picture image and custom/preset emoji
+     */
+    function renderPlayerAvatarHtml(player) {
+        if (player && (player.avatarType === 'photo' || (!player.avatarEmoji && player.photoUrl)) && Boolean(player.photoUrl)) {
+            return `<img src="${escapeHtml(player.photoUrl)}" alt="${escapeHtml(player.name || 'Player')}" class="player-avatar-img">`;
+        }
+        const emoji = (player && player.avatarEmoji) ? player.avatarEmoji : '🦁';
+        return `<span class="player-avatar-emoji">${escapeHtml(emoji)}</span>`;
+    }
+
+    /**
+     * Extract the first valid emoji from any typed or pasted string (supporting full Unicode grapheme clusters)
+     */
+    function extractFirstEmoji(str) {
+        if (!str) return null;
+        const trimmed = str.trim();
+        if (!trimmed) return null;
+
+        // Try modern Intl.Segmenter for multi-codepoint grapheme cluster matching (e.g. skin tones, ZWJ sequences)
+        if (typeof Intl !== 'undefined' && Intl.Segmenter) {
+            try {
+                const segmenter = new Intl.Segmenter(undefined, { granularity: 'grapheme' });
+                for (const seg of segmenter.segment(trimmed)) {
+                    if (/\p{Extended_Pictographic}/u.test(seg.segment)) {
+                        return seg.segment;
+                    }
+                }
+            } catch (e) {}
+        }
+
+        const match = trimmed.match(/\p{Extended_Pictographic}/u);
+        return match ? match[0] : null;
     }
 
     // Taxon name (lowercase) -> canonical enwiki article title, built from the `wiki_title`
@@ -1914,12 +1968,7 @@ function bootPhylogenle() {
             tmrca: data.time,
             isMatch: isMatch,
             timestamp: Date.now(),
-            player: {
-                id: myProfile.id,
-                name: myProfile.name,
-                avatarEmoji: myProfile.avatarEmoji,
-                photoUrl: myProfile.photoUrl || null
-            }
+            player: toPlayerBadge(myProfile)
         };
 
         guesses.push(guessObj);
@@ -2066,7 +2115,7 @@ function bootPhylogenle() {
             const isMe = (myProfile && (myProfile.id === hintPlayer.id || (myProfile.uid && myProfile.uid === hintPlayer.uid)));
             const selfClass = isMe ? 'coop-tag-self' : '';
             const selfSuffix = isMe ? ' (You)' : '';
-            playerBadgeHtml = `<span class="coop-player-tag ${selfClass}" title="Revealed by ${escapeHtml(hintPlayer.name)}${selfSuffix}"><span class="player-avatar-emoji">${hintPlayer.avatarEmoji || '🦁'}</span> ${escapeHtml(hintPlayer.name)}${selfSuffix}</span>`;
+            playerBadgeHtml = `<span class="coop-player-tag ${selfClass}" title="Revealed by ${escapeHtml(hintPlayer.name)}${selfSuffix}">${renderPlayerAvatarHtml(hintPlayer)} ${escapeHtml(hintPlayer.name)}${selfSuffix}</span>`;
         }
 
         const row = document.createElement('div');
@@ -2141,12 +2190,7 @@ function bootPhylogenle() {
 
         const myProfile = getMyPlayerProfile();
         hint.timestamp = Date.now();
-        hint.player = {
-            id: myProfile.id,
-            name: myProfile.name,
-            avatarEmoji: myProfile.avatarEmoji,
-            photoUrl: myProfile.photoUrl || null
-        };
+        hint.player = toPlayerBadge(myProfile);
         revealedHints.push(hint);
 
         if (isCoopActive()) {
@@ -2353,7 +2397,7 @@ function bootPhylogenle() {
             const isMe = (myProfile && (myProfile.id === guessPlayer.id || (myProfile.uid && myProfile.uid === guessPlayer.uid)));
             const selfClass = isMe ? 'coop-tag-self' : '';
             const selfSuffix = isMe ? ' (You)' : '';
-            playerBadgeHtml = `<span class="coop-player-tag ${selfClass}" title="Guessed by ${escapeHtml(guessPlayer.name)}${selfSuffix}"><span class="player-avatar-emoji">${guessPlayer.avatarEmoji || '🦁'}</span> ${escapeHtml(guessPlayer.name)}${selfSuffix}</span>`;
+            playerBadgeHtml = `<span class="coop-player-tag ${selfClass}" title="Guessed by ${escapeHtml(guessPlayer.name)}${selfSuffix}">${renderPlayerAvatarHtml(guessPlayer)} ${escapeHtml(guessPlayer.name)}${selfSuffix}</span>`;
         }
 
         const wikiTargetTaxa = isMatch ? wikiTitle : (lcaName && lcaName !== 'Unknown' ? lcaName : majorName);
@@ -2559,7 +2603,7 @@ function bootPhylogenle() {
 
         let aliasInfoHtml = '';
         if (isCoop && winner && winner.name) {
-            aliasInfoHtml += `<div class="coop-win-tag" style="background: rgba(99, 102, 241, 0.2); border: 1px solid rgba(139, 92, 246, 0.4); border-radius: 8px; padding: 6px 12px; margin-top: 8px; margin-bottom: 6px; color: #c4b5fd; font-weight: 600; display: inline-flex; align-items: center; gap: 6px;"><span style="font-size: 1.1rem;">${winner.avatarEmoji || '🦁'}</span> Winning guess made by <strong>${escapeHtml(winner.name)}</strong>!</div>`;
+            aliasInfoHtml += `<div class="coop-win-tag" style="background: rgba(99, 102, 241, 0.2); border: 1px solid rgba(139, 92, 246, 0.4); border-radius: 8px; padding: 6px 12px; margin-top: 8px; margin-bottom: 6px; color: #c4b5fd; font-weight: 600; display: inline-flex; align-items: center; gap: 6px;">${renderPlayerAvatarHtml(winner)} Winning guess made by <strong>${escapeHtml(winner.name)}</strong>!</div>`;
         }
         if (targetPresentationName && targetPresentationName.toLowerCase() !== canonicalCommon.toLowerCase()) {
             aliasInfoHtml += `<div style="font-size: 0.85rem; color: #a5b4fc; margin-top: 4px;">Featured round presentation name: <strong>${escapeHtml(targetPresentationName)}</strong></div>`;
@@ -4032,23 +4076,85 @@ function bootPhylogenle() {
     // ==========================================================================
     // Real-Time Co-Op Multiplayer UI & Event Handlers
     // ==========================================================================
-    function renderAvatarPalette() {
-        if (!coopAvatarPalette) return;
+    function updateHeaderProfileBadge() {
         const profile = getMyPlayerProfile();
-        coopAvatarPalette.innerHTML = '';
-        AVATAR_PALETTE.forEach(emoji => {
-            const btn = document.createElement('button');
-            btn.type = 'button';
-            btn.className = `coop-avatar-option ${profile.avatarEmoji === emoji ? 'selected' : ''}`;
-            btn.textContent = emoji;
-            btn.title = `Choose ${emoji}`;
-            btn.addEventListener('click', () => {
-                saveProfile({ avatarEmoji: emoji });
-                renderAvatarPalette();
-                renderCoopStatusBar();
+        if (headerProfileAvatar) {
+            headerProfileAvatar.innerHTML = renderPlayerAvatarHtml(profile);
+        }
+        if (headerProfileName) {
+            headerProfileName.textContent = profile.name || 'Profile';
+        }
+        if (coopLobbyAvatar) {
+            coopLobbyAvatar.innerHTML = renderPlayerAvatarHtml(profile);
+        }
+        if (coopLobbyName) {
+            coopLobbyName.textContent = profile.name || 'Player';
+        }
+    }
+
+    function renderProfileModal() {
+        if (!profileModal) return;
+        const profile = getMyPlayerProfile();
+        const currentUser = getCurrentUser();
+
+        // 1. Current Profile Live Preview Card
+        if (profilePreviewAvatarBox) {
+            profilePreviewAvatarBox.innerHTML = renderPlayerAvatarHtml(profile);
+        }
+        if (profilePreviewNameDisplay) {
+            profilePreviewNameDisplay.textContent = profile.name || 'Player';
+        }
+        if (profilePreviewAuthStatus) {
+            if (currentUser) {
+                profilePreviewAuthStatus.textContent = `Google Account: ${currentUser.displayName || currentUser.email || 'Connected'}`;
+            } else {
+                profilePreviewAuthStatus.textContent = 'Local Player (Sign in with Google to sync stats)';
+            }
+        }
+
+        // 2. Display Name Input
+        if (profileNameInput) {
+            profileNameInput.value = profile.name || '';
+        }
+
+        // 3. Option 1: Google Profile Picture Card
+        if (profileGoogleCard) {
+            if (currentUser && currentUser.photoURL) {
+                profileGoogleCard.classList.remove('hidden');
+                if (profileGoogleImg) profileGoogleImg.src = currentUser.photoURL;
+                const isPhotoActive = (profile.avatarType === 'photo' || (!profile.avatarEmoji && profile.photoUrl));
+                profileGoogleCard.classList.toggle('active-choice', Boolean(isPhotoActive));
+                if (profileSelectGoogleBtn) {
+                    profileSelectGoogleBtn.textContent = isPhotoActive ? '✓ Selected' : 'Use Photo';
+                }
+            } else {
+                profileGoogleCard.classList.add('hidden');
+            }
+        }
+
+        // 4. Option 3: Starter Nature Emojis Palette
+        if (profilePresetPalette) {
+            profilePresetPalette.innerHTML = '';
+            const isEmojiMode = (profile.avatarType !== 'photo');
+            AVATAR_PALETTE.forEach(emoji => {
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                const isSelected = isEmojiMode && profile.avatarEmoji === emoji;
+                btn.className = `profile-avatar-option ${isSelected ? 'selected' : ''}`;
+                btn.textContent = emoji;
+                btn.title = `Choose ${emoji}`;
+                btn.addEventListener('click', () => {
+                    saveProfile({
+                        avatarType: 'emoji',
+                        avatarEmoji: emoji
+                    });
+                    renderProfileModal();
+                    updateHeaderProfileBadge();
+                    renderCoopStatusBar();
+                });
+                profilePresetPalette.appendChild(btn);
             });
-            coopAvatarPalette.appendChild(btn);
-        });
+        }
     }
 
     function renderCoopStatusBar() {
@@ -4077,7 +4183,7 @@ function bootPhylogenle() {
                 const tag = document.createElement('span');
                 const isMe = (p.id === myProfile.id || (p.uid && p.uid === myProfile.uid));
                 tag.className = `coop-player-tag ${isMe ? 'coop-tag-self' : ''}`;
-                tag.innerHTML = `<span class="player-avatar-emoji">${p.avatarEmoji || '🦁'}</span> ${escapeHtml(p.name)}${isMe ? ' (You)' : ''}`;
+                tag.innerHTML = `${renderPlayerAvatarHtml(p)} <span>${escapeHtml(p.name)}${isMe ? ' (You)' : ''}</span>`;
                 coopParticipantsList.appendChild(tag);
             });
         }
@@ -4086,17 +4192,7 @@ function bootPhylogenle() {
     function renderCoopModal() {
         if (!coopModal) return;
         const myProfile = getMyPlayerProfile();
-        if (coopPlayerNameInput) coopPlayerNameInput.value = myProfile.name || '';
-        renderAvatarPalette();
-
-        const currentUser = getCurrentUser();
-        if (coopAuthHint) {
-            if (currentUser) {
-                coopAuthHint.textContent = `Signed in as ${currentUser.displayName || currentUser.email}`;
-            } else {
-                coopAuthHint.textContent = 'Guest Mode (Sign in with Google to sync stats)';
-            }
-        }
+        updateHeaderProfileBadge();
 
         if (isCoopActive()) {
             if (coopActiveView) coopActiveView.classList.remove('hidden');
@@ -4115,7 +4211,7 @@ function bootPhylogenle() {
                         const card = document.createElement('div');
                         const isMe = (p.id === myProfile.id || (p.uid && p.uid === myProfile.uid));
                         card.className = 'coop-player-card';
-                        card.innerHTML = `<span class="player-avatar-emoji">${p.avatarEmoji || '🦁'}</span> <span>${escapeHtml(p.name)}${isMe ? ' (You)' : ''}</span>`;
+                        card.innerHTML = `${renderPlayerAvatarHtml(p)} <span>${escapeHtml(p.name)}${isMe ? ' (You)' : ''}</span>`;
                         coopModalPlayersList.appendChild(card);
                     });
                 }
@@ -4224,16 +4320,86 @@ function bootPhylogenle() {
     coopLeaveRoomBtn?.addEventListener('click', handleLeave);
     coopModalLeaveBtn?.addEventListener('click', handleLeave);
 
-    coopPlayerNameInput?.addEventListener('input', () => {
-        const val = coopPlayerNameInput.value.trim();
+    // Profile Modal Event Handlers
+    profileModalBtn?.addEventListener('click', () => {
+        renderProfileModal();
+        openModal(profileModal);
+    });
+
+    coopOpenProfileBtn?.addEventListener('click', () => {
+        renderProfileModal();
+        openModal(profileModal);
+    });
+
+    profileNameInput?.addEventListener('input', () => {
+        const val = profileNameInput.value.trim();
         if (val) {
             saveProfile({ name: val });
+            updateHeaderProfileBadge();
             renderCoopStatusBar();
+            if (profilePreviewNameDisplay) {
+                profilePreviewNameDisplay.textContent = val;
+            }
+        }
+    });
+
+    profileSelectGoogleBtn?.addEventListener('click', () => {
+        const currentUser = getCurrentUser();
+        if (currentUser && currentUser.photoURL) {
+            saveProfile({
+                avatarType: 'photo',
+                photoUrl: currentUser.photoURL
+            });
+            renderProfileModal();
+            updateHeaderProfileBadge();
+            renderCoopStatusBar();
+        }
+    });
+
+    function handleApplyCustomEmoji() {
+        if (!profileCustomEmojiInput) return;
+        const raw = profileCustomEmojiInput.value;
+        const emoji = extractFirstEmoji(raw);
+        if (emoji) {
+            if (profileCustomEmojiError) profileCustomEmojiError.classList.add('hidden');
+            saveProfile({
+                avatarType: 'emoji',
+                avatarEmoji: emoji
+            });
+            profileCustomEmojiInput.value = '';
+            renderProfileModal();
+            updateHeaderProfileBadge();
+            renderCoopStatusBar();
+        } else {
+            if (profileCustomEmojiError) profileCustomEmojiError.classList.remove('hidden');
+        }
+    }
+
+    profileCustomEmojiApplyBtn?.addEventListener('click', handleApplyCustomEmoji);
+    profileCustomEmojiInput?.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            handleApplyCustomEmoji();
+        }
+    });
+    profileCustomEmojiInput?.addEventListener('input', () => {
+        const val = profileCustomEmojiInput.value.trim();
+        const emoji = extractFirstEmoji(val);
+        if (emoji) {
+            handleApplyCustomEmoji();
         }
     });
 
     // Subscribe to Co-Op Room events
     onCoopEvent((event, data) => {
+        if (event === 'PROFILE_CHANGED') {
+            updateHeaderProfileBadge();
+            renderCoopStatusBar();
+            if (profileModal && profileModal.classList.contains('active')) {
+                renderProfileModal();
+            }
+            return;
+        }
         if (event === 'ROOM_UPDATE') {
             renderCoopStatusBar();
             if (coopModal && coopModal.classList.contains('active')) {
@@ -5479,6 +5645,8 @@ function bootPhylogenle() {
     window.isCoopActive = isCoopActive;
     window.getActiveRoom = getActiveRoom;
     window.getMyPlayerProfile = getMyPlayerProfile;
+    window.renderPlayerAvatarHtml = renderPlayerAvatarHtml;
+    window.extractFirstEmoji = extractFirstEmoji;
     window.encodeChallengePayload = encodeChallengePayload;
     window.decodeChallengePayload = decodeChallengePayload;
     window.resolveWikipediaUrlOrQuery = resolveWikipediaUrlOrQuery;
@@ -5486,6 +5654,7 @@ function bootPhylogenle() {
     window.openChallengeModal = openChallengeModal;
 
     // Initial load
+    updateHeaderProfileBadge();
     checkURLParams();
     initGame();
 }

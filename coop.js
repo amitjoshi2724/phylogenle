@@ -58,6 +58,12 @@ function loadOrInitProfile() {
         if (raw) {
             const parsed = JSON.parse(raw);
             if (parsed && parsed.id && parsed.name) {
+                if (!parsed.avatarType) {
+                    parsed.avatarType = (parsed.photoUrl && !parsed.avatarEmoji) ? 'photo' : 'emoji';
+                }
+                if (!parsed.avatarEmoji) {
+                    parsed.avatarEmoji = AVATAR_PALETTE[0];
+                }
                 return parsed;
             }
         }
@@ -71,6 +77,7 @@ function loadOrInitProfile() {
         id: randomId,
         uid: null,
         name: randomName,
+        avatarType: 'emoji',
         avatarEmoji: randomAvatar,
         photoUrl: null
     };
@@ -104,15 +111,21 @@ export function getMyPlayerProfile() {
 // Automatically sync profile with Google Auth if user signs in
 onAuthChange((user) => {
     if (user) {
-        saveProfile({
+        const updates = {
             uid: user.uid,
-            name: user.displayName || currentProfile.name,
             photoUrl: user.photoURL || null
-        });
+        };
+        if (!currentProfile.name || DEFAULT_ANIMAL_NAMES.includes(currentProfile.name)) {
+            if (user.displayName) {
+                updates.name = user.displayName;
+            }
+        }
+        saveProfile(updates);
     } else {
         saveProfile({
             uid: null,
-            photoUrl: null
+            photoUrl: null,
+            avatarType: (currentProfile && currentProfile.avatarType === 'photo') ? 'emoji' : (currentProfile?.avatarType || 'emoji')
         });
     }
 });
@@ -194,15 +207,37 @@ export function isCoopActive() {
 }
 
 /**
- * Clean player profile map for Firestore rules conformance
+ * Format player badge for room guesses, hints, and participants
+ */
+export function toPlayerBadge(player) {
+    const p = player || getMyPlayerProfile();
+    const isPhoto = (p.avatarType === 'photo' || (!p.avatarEmoji && p.photoUrl)) && Boolean(p.photoUrl);
+    return {
+        id: p.id,
+        uid: p.uid || null,
+        name: p.name || 'Player',
+        avatarType: isPhoto ? 'photo' : 'emoji',
+        avatarEmoji: isPhoto ? '' : (p.avatarEmoji || '🦁'),
+        photoUrl: isPhoto ? String(p.photoUrl).slice(0, 2048) : null
+    };
+}
+
+/**
+ * Clean player profile map for Firestore rules conformance (e.g. createdBy, winner)
  */
 function sanitizePlayerMap(player) {
     if (!player) return null;
     const res = {};
     if (player.uid) res.uid = String(player.uid);
     if (player.name) res.name = String(player.name).slice(0, 100);
-    if (player.avatarEmoji) res.avatarEmoji = String(player.avatarEmoji).slice(0, 32);
-    if (player.photoUrl) res.photoUrl = String(player.photoUrl).slice(0, 2048);
+    const isPhoto = (player.avatarType === 'photo' || (!player.avatarEmoji && player.photoUrl)) && Boolean(player.photoUrl);
+    if (isPhoto) {
+        res.photoUrl = String(player.photoUrl).slice(0, 2048);
+        res.avatarEmoji = '';
+    } else {
+        res.avatarEmoji = String(player.avatarEmoji || '🦁').slice(0, 32);
+        res.photoUrl = null;
+    }
     return res;
 }
 
@@ -219,33 +254,21 @@ export async function createCoopRoom({ targetSpecies, isUnlimited, dateStr, puzz
     const roomId = generateRoomId();
     const myProfile = getMyPlayerProfile();
     const now = Date.now();
+    const creatorBadge = toPlayerBadge(myProfile);
 
     // Map existing guesses and hints to credit the creator
     const formattedGuesses = (existingGuesses || []).map(g => ({
         ...g,
-        player: g.player || {
-            id: myProfile.id,
-            name: myProfile.name,
-            avatarEmoji: myProfile.avatarEmoji,
-            photoUrl: myProfile.photoUrl || null
-        }
+        player: g.player || creatorBadge
     }));
 
     const formattedHints = (existingHints || []).map(h => ({
         ...h,
-        player: h.player || {
-            id: myProfile.id,
-            name: myProfile.name,
-            avatarEmoji: myProfile.avatarEmoji,
-            photoUrl: myProfile.photoUrl || null
-        }
+        player: h.player || creatorBadge
     }));
 
     const participantEntry = {
-        id: myProfile.id,
-        name: myProfile.name,
-        avatarEmoji: myProfile.avatarEmoji,
-        photoUrl: myProfile.photoUrl || null,
+        ...creatorBadge,
         joinedAt: now,
         lastActive: now
     };
@@ -315,10 +338,7 @@ export async function joinCoopRoom(roomId) {
     const updatedParticipants = {
         ...(roomData.participants || {}),
         [myProfile.id]: {
-            id: myProfile.id,
-            name: myProfile.name,
-            avatarEmoji: myProfile.avatarEmoji,
-            photoUrl: myProfile.photoUrl || null,
+            ...toPlayerBadge(myProfile),
             joinedAt: now,
             lastActive: now
         }
@@ -388,12 +408,7 @@ export async function submitCoopGuess(guessObj) {
     const taggedGuess = {
         ...guessObj,
         timestamp: now,
-        player: {
-            id: myProfile.id,
-            name: myProfile.name,
-            avatarEmoji: myProfile.avatarEmoji,
-            photoUrl: myProfile.photoUrl || null
-        }
+        player: toPlayerBadge(myProfile)
     };
 
     const roomRef = fns.doc(db, 'coop_rooms', activeRoom.roomId);
@@ -435,12 +450,7 @@ export async function submitCoopHint(hintObj) {
     const taggedHint = {
         ...hintObj,
         timestamp: now,
-        player: {
-            id: myProfile.id,
-            name: myProfile.name,
-            avatarEmoji: myProfile.avatarEmoji,
-            photoUrl: myProfile.photoUrl || null
-        }
+        player: toPlayerBadge(myProfile)
     };
 
     const roomRef = fns.doc(db, 'coop_rooms', activeRoom.roomId);

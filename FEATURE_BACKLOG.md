@@ -23,10 +23,13 @@
 ### 2. 🤝 Cooperative Real-Time Multiplayer Mode (Redactle-Style) [COMPLETED]
 - **Goal:** Allow friends to join a shared game session via a share link and guess together collaboratively.
 - **Core Features Implemented:**
-  - **Unified Header Room Creation:** "👥 Co-op / Play with Friends" button accessible directly in the top navigation bar (`id="coop-nav-btn"`), opening the host/join lobby without cluttering or narrowing the in-game guess bar.
+  - **Decoupled Co-Op Modal (Strictly Host or Join):** The `#coop-modal` lobby is strictly focused on session joining and hosting (`#coop-create-room-btn` and `#coop-join-room-btn`), keeping the lobby clean and uncluttered. When in a room, it switches to the Active View (Room Code, Share Link, and Connected Players).
+  - **Dedicated Player Profile Modal (`#profile-modal`):** Player customization (display name and avatar) is moved out of the Co-Op dialog into its own dedicated modal, accessible via the top navigation bar (`#profile-modal-btn`), the Google Auth identity dropdown (`#identity-dropdown`), and the Co-Op lobby quick-link footer (`#coop-open-profile-btn`).
+  - **Arbitrary Custom Emoji Picker:** In addition to the 18 starter nature avatars (🦁, 🦊, 🐺, 🐻, 🐼, 🐨, 🦅, 🦉, 🐸, 🐢, 🐙, 🐬, 🦈, 🦋, 🐝, 🌿, 🍄, 🌵), users can type or paste **ANY** arbitrary emoji from their operating system keyboard (e.g. 🦖, 🦥, 🌺, 🐉, 🦔, 🍄, 🦄).
+  - **Google Profile Picture (PFP) Integration:** Authenticated users can choose to use their official Google account photo (`photoURL`) as their avatar badge, rendering seamlessly as a round image across guesses, clues, status bars, and win cards.
+  - **Unified Header Room Creation:** "👥 Co-op / Play with Friends" button accessible directly in the top navigation bar (`id="coop-nav-btn"`), opening the host/join lobby without narrowing or cramping the in-game guess text box (`#animal-input`).
   - **Seamless Mid-Game Promotion:** Players can begin solo, click "Play with Friends" mid-game, and instantly convert their active game into a live room (`?room=XYZ-123`) without losing existing guesses, hints, or target species.
   - **Authentication & Guest Mode:** Integrates with Google Auth (`auth.js`) for profile pictures / names, while also supporting guest players with local animal avatar selection and custom nicknames.
-  - **Animal & Plant Avatar Palette:** Interactive selector for 18 avatars (🦁, 🦊, 🐺, 🐻, 🐼, 🐨, 🦅, 🦉, 🐸, 🐢, 🐙, 🐬, 🦈, 🦋, 🐝, 🌿, 🍄, 🌵).
   - **Live Guess & Hint Feed:** Each guess and hint card displays a real-time badge with the author's avatar and name (`.coop-player-tag`), with automatic cladogram tree synchronization.
   - **Persistent Co-Op Status Bar:** Displays active room code, live pulse indicator, connected participants, one-click link copying, and leave button.
   - **All-Player Stats Synchronization:** When a co-op game is solved, `recordDailyCompletion` / `recordPracticeCompletion` is automatically invoked on both/all connected players' browsers to update their streaks, win percentage, guess distribution, and cloud backup.
@@ -34,14 +37,42 @@
 - **💬 Amit's Raw Notes:**
   - *(Drop quick thoughts, quirks, or ideas for this item here)*
   like uk how in spaceship flight you can join a server with a code, and then you see other people joining with their little cursor things, and you can see their names and their little cursors, and you can see them solving the puzzle, and you can see them chatting with each other? something like that but for phylogenle. so basically you copy the link, send it to your friend, and then they join the server with the code, and then you can see them on the phylogenetic tree, and you can see them guessing, and you can see them chatting with each other. except you can't see their names or their cursors or them guessing, you can only see the things that they guess, and you can see the phylogenetic tree updating in real time with their guesses. so yeah, basically just spaceship flight online coop but for phylogenle.
+  the coop thing should only be either host or join, the player profile avatar choice thingy should be somewhere else. also those starter emojis are good but keep in mind any emoji should be able to be picked, as well as the google pfp
 - **🛠️ Technical Implementation & Architecture Notes:**
   - **Files Created / Modified:**
-    - `coop.js`: Core ES6 module managing Firestore real-time room operations, state subscription, player identities, and guess/hint submission.
+    - `coop.js`: Core ES6 module managing Firestore real-time room operations, state subscription, player identities (`currentProfile`), `toPlayerBadge()` formatter, and guess/hint submission. Resolved Temporal Dead Zone (TDZ) initialization bug.
     - `firestore.rules`: Production security rules governing `/coop_rooms/{roomId}` access, field immutability, schema validation, and participant boundaries.
-    - `script.js`: Game loop integration, mid-game promotion handler (`promoteSoloGameToCoop`), live board rendering, and multiplayer stats synchronization.
-    - `index.html`: Markup for header Co-op button (`#coop-nav-btn`), status bar (`#coop-status-bar`), and modal (`#coop-modal`).
-    - `style.css` & `modals.css`: Responsive styles for player badges, pulsing indicators, avatar palettes, and lobby cards.
-    - `tests/test_coop_multiplayer.py`: Automated unit and integration test suite.
+    - `script.js`: Game loop integration, mid-game promotion handler (`promoteSoloGameToCoop`), live board rendering, `renderPlayerAvatarHtml()` (rendering `<img class="player-avatar-img">` or `<span class="player-avatar-emoji">`), `extractFirstEmoji()` with Unicode grapheme clustering, profile modal management, and multiplayer stats synchronization.
+    - `auth.js`: Google sign-in integration, profile synchronization, and added "Customize Avatar & Name" shortcut in `#identity-dropdown`.
+    - `index.html`: Markup for header Co-op button (`#coop-nav-btn`), Profile button (`#profile-modal-btn`), Host/Join Co-Op modal (`#coop-modal`), dedicated Player Profile modal (`#profile-modal`), and persistent status bar (`#coop-status-bar`).
+    - `style.css` & `modals.css`: Responsive styles for player avatar images, profile live preview card, custom emoji input, starter avatar palette, and lobby cards.
+    - `tests/test_coop_multiplayer.py`: Automated unit and integration test suite covering room lifecycle, profile decoupling, custom emoji parsing, and Google PFP rendering.
+  - **Unicode Emoji Grapheme Segmentation Theory:**
+    - Modern emojis are often composite sequences consisting of multiple Unicode codepoints joined by Zero-Width Joiners (ZWJ, `U+200D`), variation selectors (`U+FE0F`), or skin tone modifiers (Fitzpatrick types, `U+1F3FB`–`U+1F3FF`). Naive JavaScript string operations like `.slice(0, 1)` or `.length` corrupt these compound emojis (e.g. splitting 🧑‍🔬 or 🏳️‍🌈 into broken fragments).
+    - To safely allow users to type or paste **any** emoji from their keyboard, `script.js` uses `Intl.Segmenter` with `{ granularity: 'grapheme' }` paired with Unicode property escapes `\p{Extended_Pictographic}`:
+      ```javascript
+      function extractFirstEmoji(str) {
+          if (!str) return null;
+          const trimmed = str.trim();
+          if (typeof Intl !== 'undefined' && Intl.Segmenter) {
+              const segmenter = new Intl.Segmenter(undefined, { granularity: 'grapheme' });
+              for (const seg of segmenter.segment(trimmed)) {
+                  if (/\p{Extended_Pictographic}/u.test(seg.segment)) {
+                      return seg.segment; // Complete multi-codepoint grapheme cluster
+                  }
+              }
+          }
+          const match = trimmed.match(/\p{Extended_Pictographic}/u);
+          return match ? match[0] : null;
+      }
+      ```
+  - **Dual-Mode Avatar Rendering & Firestore Rules Conformance:**
+    - Firestore rules for `coop_rooms` enforce strict schema constraints on `createdBy`:
+      $$\text{createdBy.keys().hasOnly}(['uid', 'name', 'avatarEmoji', 'photoUrl'])$$
+    - To support both custom emojis and Google photo avatars without violating schema rules:
+      - When using a Google Photo: `photoUrl` is populated ($\le 2048$ chars), and `avatarEmoji` is empty string `""` or null.
+      - When using an Emoji: `avatarEmoji` contains the emoji character ($\le 32$ chars), and `photoUrl` is null.
+      - In `script.js`, `renderPlayerAvatarHtml(player)` inspects these fields to dynamically render either `<img class="player-avatar-img" src="...">` or `<span class="player-avatar-emoji">...</span>`.
   - **Firestore Schema & Data Model (`coop_rooms/{roomId}`):**
     ```typescript
     interface CoopRoomDocument {
