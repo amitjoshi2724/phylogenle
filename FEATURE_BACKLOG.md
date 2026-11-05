@@ -37,12 +37,15 @@
 
 ---
 
-### 3. 🎁 Custom Puzzle Generator ("Challenge a Friend")
+### 3. 🎁 Custom Puzzle Generator ("Challenge a Friend") [COMPLETED]
 - **Goal:** Allow players to pick a specific organism and send a custom puzzle challenge link to a friend.
-- **Core Features:**
-  - **Target Selection:** Search and choose any organism from the catalog—either a specific species (*Peregrine Falcon*, *Atlantic Sand Fiddler Crab*) or a common umbrella taxon (*Barn Owl*, *Fiddler Crab*, *Electric Eel*).
-  - **Secure Link Encoding:** Encode the target ID in the URL hash or query string (e.g., `?custom=...`) using lightweight encryption/obfuscation so inspecting the URL does not spoil the answer.
-  - **Custom Gameplay Screen:** Displays "Custom Puzzle by [Friend]" with standard divergence feedback and a customized victory share banner.
+- **Core Features Implemented:**
+  - **Header & End-Game Triggers:** "🎁 Challenge" button accessible in top navigation (`#challenge-modal-btn`) and "🎁 Challenge a Friend" button on the victory/reveal card (`#end-challenge-friend-btn`), which automatically pre-populates the round's solved mystery organism.
+  - **Organism Search & Direct Wikipedia URL Resolution:** Fast autocomplete over the master species catalog and aliases, plus automatic resolution of pasted Wikipedia URLs (desktop `https://en.wikipedia.org/wiki/...` and mobile `https://en.m.wikipedia.org/wiki/...`) into canonical organisms.
+  - **Obfuscated Salt-Keyed URL Token (`challenge.js`):** Encodes payload into URL parameter `?challenge=c1_...` using a 4-byte randomized salt and deterministic keystream so inspecting the URL or page source never leaks the target answer, and identical organisms produce distinct tokens.
+  - **Custom Challenge Gameplay Screen:** Features top puzzle badge `🎁 CHALLENGE • BY [CREATOR]`, customized challenge banner with friend's message/taunt, and a quick `Exit ✕` button to return to the daily puzzle.
+  - **Customized Share Result:** Custom victory banner ("Challenge Conquered! 🏆") and share snippet containing creator credit and the direct challenge link.
+  - **Automated Test Coverage:** Complete test suite in `tests/test_custom_challenge.py` testing encryption/decryption, Wikipedia URL resolver, DOM elements, and UI wiring.
 - **💬 Amit's Raw Notes:**
   - *(Drop quick thoughts, quirks, or ideas for this item here)*
   yea as long as the encryption is not genuinely readable by a casual human its chill. even textbook rsa is fine right? idk tho u decide
@@ -96,6 +99,6 @@ yea ill j try to ai generate ts. my idea is to maybe have square emojis and the 
 
 - more umbrella taxa? such as collapsing all fiddler crabs into "fiddler crab", all pumas into "puma", etc. i want there to be a good selection of umbrella taxa
 
-- support creation of puzzles to send to a friend or play by urself via wikipedia link (as well as j searching it up urself in the catalog)
+- [x] support creation of puzzles to send to a friend or play by urself via wikipedia link (as well as j searching it up urself in the catalog)
 
 - [x] More intense wikipedia integration, can open the wiki page of any organism within the website itself, instead of having to open a new tab. Facilitates learning and overcomes the mental obstacle of opening a new tab. Connect each species or clade or genus or anything like that to its own wikipedia page. And use this info to display the common name of each taxonomic rank/subclade in the tree and guess list. Uk how theres an 'catalog' button within the guess? Next to it there should be a wikipedia button that opens up a pane within our website for that lca node. It shows the common name of that taxonomic rank/subclade or even species. And that pane should have clickable links to allow the users to explore a bit

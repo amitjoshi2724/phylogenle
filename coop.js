@@ -485,3 +485,4 @@ function updateUrlWithRoom(roomId) {
         window.history.replaceState(null, '', url.pathname + url.search);
     }
 }
+

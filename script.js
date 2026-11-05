@@ -48,6 +48,13 @@ import {
     getRoomShareUrl, 
     copyRoomLink 
 } from './coop.js';
+import { 
+    encodeChallengePayload, 
+    decodeChallengePayload, 
+    resolveWikipediaUrlOrQuery, 
+    getChallengeShareUrl, 
+    copyChallengeLink 
+} from './challenge.js';
 
 function bootPhylogenle() {
     // DOM Elements
@@ -110,8 +117,35 @@ function bootPhylogenle() {
     const coopAvatarPalette = document.getElementById('coop-avatar-palette');
     const coopAuthHint = document.getElementById('coop-auth-hint');
 
+    // Custom Challenge DOM Elements
+    const challengeModal = document.getElementById('challenge-modal');
+    const challengeModalBtn = document.getElementById('challenge-modal-btn');
+    const endChallengeFriendBtn = document.getElementById('end-challenge-friend-btn');
+    const challengeBanner = document.getElementById('challenge-banner');
+    const challengeBannerCreator = document.getElementById('challenge-banner-creator');
+    const challengeBannerMsg = document.getElementById('challenge-banner-msg');
+    const challengeOrganismInput = document.getElementById('challenge-organism-input');
+    const challengeAutocompleteList = document.getElementById('challenge-autocomplete-list');
+    const challengeSelectedBadge = document.getElementById('challenge-selected-organism');
+    const challengeCreatorNameInput = document.getElementById('challenge-creator-name');
+    const challengeHintMsgInput = document.getElementById('challenge-hint-msg');
+    const generateChallengeBtn = document.getElementById('generate-challenge-btn');
+    const challengeResultCard = document.getElementById('challenge-result-card');
+    const challengeShareUrlInput = document.getElementById('challenge-share-url-input');
+    const challengeCopyLinkBtn = document.getElementById('challenge-copy-link-btn');
+    const challengeCopyToast = document.getElementById('challenge-copy-toast');
+    const challengePlayNowBtn = document.getElementById('challenge-play-now-btn');
+    const challengeExitBtn = document.getElementById('challenge-exit-btn');
+
     // Game State
     let isUnlimited = false;
+    let isCustomChallenge = false;
+    let customChallengeTarget = "";
+    let customChallengeCreator = "";
+    let customChallengeMsg = "";
+    let customChallengeRawToken = "";
+    let selectedChallengeTarget = "";
+    let challengeAutocompleteFocus = -1;
     let currentDateStr = getTodayDateStr();
     let puzzleNum = getPuzzleNumber(currentDateStr);
     let allSpecies = [];
@@ -808,10 +842,30 @@ function bootPhylogenle() {
     // Check URL parameters and persisted mode on load
     function checkURLParams() {
         const urlParams = new URLSearchParams(window.location.search);
+        const challengeParam = urlParams.get('challenge') || urlParams.get('custom');
         const roomParam = urlParams.get('room') || urlParams.get('coop');
         const modeParam = urlParams.get('mode');
         const dateParam = urlParams.get('date');
         const savedMode = localStorage.getItem('phylogenle_game_mode');
+
+        if (challengeParam) {
+            const dec = decodeChallengePayload(challengeParam);
+            if (dec && dec.isValid && dec.target) {
+                isCustomChallenge = true;
+                isUnlimited = false;
+                customChallengeTarget = dec.target;
+                customChallengeCreator = dec.creator || '';
+                customChallengeMsg = dec.message || '';
+                customChallengeRawToken = challengeParam;
+                updateModeUI();
+                return;
+            } else {
+                console.warn("Invalid custom challenge token in URL:", dec.error);
+                isCustomChallenge = false;
+            }
+        } else {
+            isCustomChallenge = false;
+        }
 
         if (roomParam && !isCoopActive()) {
             joinCoopRoom(roomParam).then(() => {
@@ -845,6 +899,39 @@ function bootPhylogenle() {
     }
 
     function updateModeUI() {
+        if (isCustomChallenge) {
+            if (modeDailyBtn) {
+                modeDailyBtn.classList.remove('active');
+                modeDailyBtn.setAttribute('aria-checked', 'false');
+            }
+            if (modePracticeBtn) {
+                modePracticeBtn.classList.remove('active');
+                modePracticeBtn.setAttribute('aria-checked', 'false');
+            }
+            if (puzzleBadge) {
+                const creatorUpper = customChallengeCreator ? ` • BY ${customChallengeCreator.toUpperCase()}` : '';
+                puzzleBadge.textContent = `🎁 CHALLENGE${creatorUpper}`;
+            }
+            if (challengeBanner) {
+                challengeBanner.classList.remove('hidden');
+                if (challengeBannerCreator) {
+                    challengeBannerCreator.textContent = customChallengeCreator || 'a Friend';
+                }
+                if (challengeBannerMsg) {
+                    if (customChallengeMsg) {
+                        challengeBannerMsg.textContent = `"${customChallengeMsg}"`;
+                        challengeBannerMsg.classList.remove('hidden');
+                    } else {
+                        challengeBannerMsg.textContent = "Can you deduce this secret organism in as few guesses as possible?";
+                        challengeBannerMsg.classList.remove('hidden');
+                    }
+                }
+            }
+            return;
+        }
+
+        if (challengeBanner) challengeBanner.classList.add('hidden');
+
         if (isUnlimited) {
             if (modeDailyBtn) {
                 modeDailyBtn.classList.remove('active');
@@ -934,7 +1021,14 @@ function bootPhylogenle() {
                 }
             }
 
-            if (isCoopActive()) {
+            if (isCustomChallenge) {
+                let matched = allSpecies.find(s => s.toLowerCase() === customChallengeTarget.toLowerCase());
+                if (!matched) {
+                    matched = resolveWikipediaUrlOrQuery(customChallengeTarget, allSpecies, speciesAliases, phylogenyTree);
+                }
+                targetSpecies = matched || customChallengeTarget;
+                targetPresentationName = getTargetPresentationName(targetSpecies, speciesAliases, 'challenge_' + customChallengeRawToken);
+            } else if (isCoopActive()) {
                 const coopRoom = getActiveRoom();
                 if (coopRoom) {
                     targetSpecies = coopRoom.targetSpecies;
@@ -969,6 +1063,12 @@ function bootPhylogenle() {
             if (targetAlertContainer) targetAlertContainer.innerHTML = '';
 
             updateModeUI();
+
+            if (isCustomChallenge) {
+                // Custom challenges start fresh with the mystery target
+                drawTree({ name: "?", children: [] });
+                return;
+            }
 
             // If in active co-op room, load room guesses, hints, and state
             if (isCoopActive()) {
@@ -2470,7 +2570,10 @@ function bootPhylogenle() {
 
         updateTree();
 
-        if (!isUnlimited) {
+        if (isCustomChallenge) {
+            endTitle.textContent = win ? "Challenge Conquered! 🏆" : "Challenge Revealed 🏳️";
+            recordPracticeCompletion(win, guesses.length, guesses, targetSpecies, revealedHints);
+        } else if (!isUnlimited) {
             recordDailyCompletion(currentDateStr, puzzleNum, win, guesses.length, guesses, targetSpecies, revealedHints);
             clearActiveGuesses(currentDateStr);
             if (win) {
@@ -2495,7 +2598,14 @@ function bootPhylogenle() {
     });
 
     function setGameMode(unlimited) {
-        if (isUnlimited === unlimited) return;
+        if (isCustomChallenge) {
+            isCustomChallenge = false;
+            const url = new URL(window.location);
+            url.searchParams.delete('challenge');
+            url.searchParams.delete('custom');
+            window.history.replaceState(null, '', url.pathname + (url.search ? url.search : ''));
+            if (challengeBanner) challengeBanner.classList.add('hidden');
+        } else if (isUnlimited === unlimited) return;
         isUnlimited = unlimited;
         if (isUnlimited) {
             localStorage.setItem('phylogenle_game_mode', 'practice');
@@ -2519,7 +2629,9 @@ function bootPhylogenle() {
     }
 
     playAgainBtn.addEventListener('click', () => {
-        if (isUnlimited) {
+        if (isCustomChallenge) {
+            setGameMode(true);
+        } else if (isUnlimited) {
             initGame();
         } else {
             setGameMode(true);
@@ -2531,6 +2643,10 @@ function bootPhylogenle() {
     const resetCurrentPuzzleBtn = document.getElementById('reset-current-puzzle-btn');
     if (resetCurrentPuzzleBtn) {
         resetCurrentPuzzleBtn.addEventListener('click', () => {
+            if (isCustomChallenge) {
+                initGame();
+                return;
+            }
             if (isUnlimited) {
                 initGame();
                 return;
@@ -3872,6 +3988,7 @@ function bootPhylogenle() {
         if (modal === statsModal) renderStatsModal();
         if (modal === catalogModal) openCatalogModal();
         if (modal === coopModal) renderCoopModal();
+        if (modal === challengeModal) openChallengeModal();
     }
 
     function closeModal(modal) {
@@ -4135,6 +4252,276 @@ function bootPhylogenle() {
             renderCoopStatusBar();
         }
     });
+
+    // ==========================================================================
+    // Custom Puzzle Generator ("Challenge a Friend") UI & Handlers
+    // ==========================================================================
+    function setChallengeSelectedTarget(organism) {
+        selectedChallengeTarget = organism || "";
+        if (organism && challengeSelectedBadge) {
+            challengeSelectedBadge.innerHTML = `
+                <span>🎯 Selected: <strong>${escapeHtml(organism)}</strong></span>
+                <button type="button" id="challenge-clear-target-btn" style="background: none; border: none; color: #f87171; cursor: pointer; font-size: 1.1rem; padding: 0 4px; line-height: 1;" title="Clear selected organism">✕</button>
+            `;
+            challengeSelectedBadge.classList.remove('hidden');
+            document.getElementById('challenge-clear-target-btn')?.addEventListener('click', (e) => {
+                e.stopPropagation();
+                setChallengeSelectedTarget(null);
+                if (challengeOrganismInput) {
+                    challengeOrganismInput.value = '';
+                    challengeOrganismInput.focus();
+                }
+            });
+            if (challengeOrganismInput) {
+                challengeOrganismInput.value = '';
+            }
+            closeChallengeDropdown();
+        } else if (challengeSelectedBadge) {
+            challengeSelectedBadge.innerHTML = '';
+            challengeSelectedBadge.classList.add('hidden');
+        }
+    }
+
+    function openChallengeModal(preselectedTarget = null) {
+        if (!challengeModal) return;
+        if (challengeResultCard) challengeResultCard.classList.add('hidden');
+        if (challengeCopyToast) challengeCopyToast.classList.add('hidden');
+
+        const myProfile = getMyPlayerProfile();
+        if (challengeCreatorNameInput && !challengeCreatorNameInput.value) {
+            if (myProfile && myProfile.name) {
+                challengeCreatorNameInput.value = myProfile.name;
+            }
+        }
+
+        if (preselectedTarget) {
+            setChallengeSelectedTarget(preselectedTarget);
+        } else {
+            if (!selectedChallengeTarget) {
+                setChallengeSelectedTarget(null);
+            }
+        }
+        closeChallengeDropdown();
+    }
+
+    function renderChallengeAutocomplete(matches) {
+        if (!challengeAutocompleteList) return;
+        challengeAutocompleteList.innerHTML = '';
+        challengeAutocompleteFocus = -1;
+
+        if (!matches || matches.length === 0) {
+            closeChallengeDropdown();
+            return;
+        }
+
+        matches.slice(0, 25).forEach(m => {
+            const li = document.createElement('li');
+            li.className = 'autocomplete-item';
+            li.setAttribute('data-value', m.canonical);
+
+            const common = m.canonical.split(' (')[0];
+            const sciMatch = m.canonical.match(/\((.*?)\)/);
+            const sci = sciMatch ? sciMatch[1] : '';
+            const aliasNote = m.aliasMatched ? ` <span style="font-size: 0.8rem; opacity: 0.75; font-style: italic;">(matched alias: "${escapeHtml(m.aliasMatched)}")</span>` : '';
+
+            li.innerHTML = `<strong>${escapeHtml(common)}</strong> <em>(${escapeHtml(sci)})</em>${aliasNote}`;
+
+            li.addEventListener('click', (e) => {
+                e.preventDefault();
+                setChallengeSelectedTarget(m.canonical);
+            });
+            challengeAutocompleteList.appendChild(li);
+        });
+
+        challengeAutocompleteList.classList.add('active');
+    }
+
+    function closeChallengeDropdown() {
+        if (challengeAutocompleteList) {
+            challengeAutocompleteList.innerHTML = '';
+            challengeAutocompleteList.classList.remove('active');
+        }
+        challengeAutocompleteFocus = -1;
+    }
+
+    function handleChallengeOrganismInput() {
+        if (!challengeOrganismInput) return;
+        const raw = challengeOrganismInput.value.trim();
+
+        if (!raw) {
+            closeChallengeDropdown();
+            return;
+        }
+
+        // If user pasted or typed a Wikipedia URL, resolve it immediately!
+        if (raw.includes('wikipedia.org') || raw.startsWith('http://') || raw.startsWith('https://')) {
+            const resolved = resolveWikipediaUrlOrQuery(raw, allSpecies, speciesAliases, phylogenyTree);
+            if (resolved) {
+                setChallengeSelectedTarget(resolved);
+                return;
+            }
+        }
+
+        // Search catalog and aliases
+        const queryLower = raw.toLowerCase();
+        const matches = [];
+        const seen = new Set();
+
+        // Exact or prefix matches in allSpecies
+        for (const sp of allSpecies) {
+            const spLower = sp.toLowerCase();
+            const commonLower = sp.split(' (')[0].toLowerCase();
+            if (commonLower.startsWith(queryLower) || spLower.startsWith(queryLower)) {
+                if (!seen.has(sp)) {
+                    seen.add(sp);
+                    matches.push({ canonical: sp, score: 1 });
+                }
+            }
+        }
+
+        // Check speciesAliases
+        if (speciesAliases) {
+            for (const [alias, canonical] of Object.entries(speciesAliases)) {
+                if (alias.toLowerCase().startsWith(queryLower)) {
+                    const matchedSp = allSpecies.find(s => s.toLowerCase() === canonical.toLowerCase());
+                    if (matchedSp && !seen.has(matchedSp)) {
+                        seen.add(matchedSp);
+                        matches.push({ canonical: matchedSp, aliasMatched: alias, score: 2 });
+                    }
+                }
+            }
+        }
+
+        // Substring matches in allSpecies
+        if (matches.length < 25) {
+            for (const sp of allSpecies) {
+                const spLower = sp.toLowerCase();
+                if (spLower.includes(queryLower) && !seen.has(sp)) {
+                    seen.add(sp);
+                    matches.push({ canonical: sp, score: 3 });
+                }
+            }
+        }
+
+        renderChallengeAutocomplete(matches);
+    }
+
+    challengeOrganismInput?.addEventListener('input', handleChallengeOrganismInput);
+    challengeOrganismInput?.addEventListener('focus', handleChallengeOrganismInput);
+
+    challengeOrganismInput?.addEventListener('keydown', (e) => {
+        if (!challengeAutocompleteList || !challengeAutocompleteList.classList.contains('active')) return;
+        const items = challengeAutocompleteList.getElementsByClassName('autocomplete-item');
+        if (!items || items.length === 0) return;
+
+        if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            challengeAutocompleteFocus++;
+            if (challengeAutocompleteFocus >= items.length) challengeAutocompleteFocus = 0;
+            updateChallengeActiveItem(items);
+        } else if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            challengeAutocompleteFocus--;
+            if (challengeAutocompleteFocus < 0) challengeAutocompleteFocus = items.length - 1;
+            updateChallengeActiveItem(items);
+        } else if (e.key === 'Enter') {
+            e.preventDefault();
+            if (challengeAutocompleteFocus > -1 && items[challengeAutocompleteFocus]) {
+                const val = items[challengeAutocompleteFocus].getAttribute('data-value');
+                if (val) setChallengeSelectedTarget(val);
+            }
+        } else if (e.key === 'Escape') {
+            closeChallengeDropdown();
+        }
+    });
+
+    function updateChallengeActiveItem(items) {
+        for (let i = 0; i < items.length; i++) {
+            items[i].classList.remove('autocomplete-active');
+        }
+        if (challengeAutocompleteFocus > -1 && items[challengeAutocompleteFocus]) {
+            items[challengeAutocompleteFocus].classList.add('autocomplete-active');
+            items[challengeAutocompleteFocus].scrollIntoView({ block: 'nearest' });
+        }
+    }
+
+    document.addEventListener('click', (e) => {
+        if (challengeOrganismInput && challengeAutocompleteList) {
+            if (!challengeOrganismInput.contains(e.target) && !challengeAutocompleteList.contains(e.target)) {
+                closeChallengeDropdown();
+            }
+        }
+    });
+
+    generateChallengeBtn?.addEventListener('click', () => {
+        let target = selectedChallengeTarget;
+        if (!target && challengeOrganismInput) {
+            const raw = challengeOrganismInput.value.trim();
+            if (raw) {
+                target = resolveWikipediaUrlOrQuery(raw, allSpecies, speciesAliases, phylogenyTree);
+                if (target) {
+                    setChallengeSelectedTarget(target);
+                }
+            }
+        }
+
+        if (!target) {
+            alert("Please search and select an organism from the catalog, or paste a valid Wikipedia link.");
+            challengeOrganismInput?.focus();
+            return;
+        }
+
+        const creator = (challengeCreatorNameInput ? challengeCreatorNameInput.value : '').trim();
+        const message = (challengeHintMsgInput ? challengeHintMsgInput.value : '').trim();
+
+        try {
+            const token = encodeChallengePayload({
+                target,
+                creator,
+                message
+            });
+            const shareUrl = getChallengeShareUrl(token);
+
+            if (challengeShareUrlInput) {
+                challengeShareUrlInput.value = shareUrl;
+            }
+            if (challengeResultCard) {
+                challengeResultCard.classList.remove('hidden');
+                challengeResultCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+        } catch (err) {
+            alert("Error creating challenge: " + err.message);
+        }
+    });
+
+    challengeCopyLinkBtn?.addEventListener('click', async () => {
+        if (!challengeShareUrlInput || !challengeShareUrlInput.value) return;
+        const success = await copyChallengeLink(challengeShareUrlInput.value);
+        if (challengeCopyToast) {
+            challengeCopyToast.textContent = success ? "Copied to clipboard! Send it to your friend. 📋" : "Link ready to copy from box.";
+            challengeCopyToast.classList.remove('hidden');
+            setTimeout(() => challengeCopyToast?.classList.add('hidden'), 3500);
+        }
+        const originalText = challengeCopyLinkBtn.textContent;
+        challengeCopyLinkBtn.textContent = '✅ Copied!';
+        setTimeout(() => { if (challengeCopyLinkBtn) challengeCopyLinkBtn.textContent = originalText; }, 2000);
+    });
+
+    challengePlayNowBtn?.addEventListener('click', () => {
+        if (!challengeShareUrlInput || !challengeShareUrlInput.value) return;
+        closeModal(challengeModal);
+        const url = new URL(challengeShareUrlInput.value);
+        window.history.pushState(null, '', url.pathname + url.search);
+        checkURLParams();
+        initGame();
+    });
+
+    challengeModalBtn?.addEventListener('click', () => openModal(challengeModal));
+    endChallengeFriendBtn?.addEventListener('click', () => {
+        openChallengeModal(targetSpecies);
+        openModal(challengeModal);
+    });
+    challengeExitBtn?.addEventListener('click', () => setGameMode(false));
 
     // Persist catalog scroll position continuously
     catalogContent?.addEventListener('scroll', () => {
@@ -4970,10 +5357,21 @@ function bootPhylogenle() {
             ? `Solved in ${count} guess${count === 1 ? '' : 'es'}${hintText}!`
             : `Revealed${hintText}`;
 
-        const shareText = `Phylogenle ${modeLabel} 🧬\n` +
-            `${statusText}\n` +
-            `${emojis}\n` +
-            `https://amitjoshi2724.github.io/phylogenle/`;
+        let shareText = '';
+        if (isCustomChallenge) {
+            const creatorLine = customChallengeCreator ? ` • By ${customChallengeCreator}` : '';
+            const challengeUrl = getChallengeShareUrl(customChallengeRawToken);
+            shareText = `Phylogenle Challenge 🎁${creatorLine}\n` +
+                `${statusText}\n` +
+                `${emojis}\n` +
+                `${challengeUrl}`;
+        } else {
+            const modeLabel = isUnlimited ? "Practice" : `#${puzzleNum}`;
+            shareText = `Phylogenle ${modeLabel} 🧬\n` +
+                `${statusText}\n` +
+                `${emojis}\n` +
+                `https://amitjoshi2724.github.io/phylogenle/`;
+        }
 
         if (navigator.clipboard) {
             navigator.clipboard.writeText(shareText).then(() => {
@@ -5006,6 +5404,11 @@ function bootPhylogenle() {
     window.isCoopActive = isCoopActive;
     window.getActiveRoom = getActiveRoom;
     window.getMyPlayerProfile = getMyPlayerProfile;
+    window.encodeChallengePayload = encodeChallengePayload;
+    window.decodeChallengePayload = decodeChallengePayload;
+    window.resolveWikipediaUrlOrQuery = resolveWikipediaUrlOrQuery;
+    window.getChallengeShareUrl = getChallengeShareUrl;
+    window.openChallengeModal = openChallengeModal;
 
     // Initial load
     checkURLParams();

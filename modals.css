@@ -2477,3 +2477,145 @@
     transform: scale(1.1);
 }
 
+/* ==========================================================================
+   Custom Challenge Modal ("Challenge a Friend") Styles
+   ========================================================================== */
+.challenge-nav-btn {
+    background: linear-gradient(135deg, rgba(236, 72, 153, 0.18) 0%, rgba(219, 39, 119, 0.14) 100%);
+    border-color: rgba(244, 114, 182, 0.4);
+    color: #fbcfe8;
+}
+
+.challenge-nav-btn:hover {
+    background: linear-gradient(135deg, rgba(236, 72, 153, 0.3) 0%, rgba(219, 39, 119, 0.25) 100%);
+    border-color: #f472b6;
+    color: #ffffff;
+    box-shadow: 0 0 12px rgba(236, 72, 153, 0.35);
+}
+
+.challenge-modal-dialog {
+    max-width: 520px;
+    width: 92%;
+    background: rgba(15, 23, 42, 0.95);
+    border: 1px solid rgba(244, 114, 182, 0.35);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6), 0 0 30px rgba(236, 72, 153, 0.18);
+}
+
+.challenge-modal-title-wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.challenge-modal-badge {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 3px 8px;
+    border-radius: 9999px;
+    background: rgba(236, 72, 153, 0.25);
+    border: 1px solid rgba(244, 114, 182, 0.45);
+    color: #fbcfe8;
+}
+
+.challenge-modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1.15rem;
+    padding: 1.25rem 1.5rem;
+}
+
+.challenge-intro {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.45;
+}
+
+.challenge-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.challenge-form-group label {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #cbd5e1;
+}
+
+.challenge-form-group input {
+    background: rgba(30, 27, 75, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    padding: 0.6rem 0.85rem;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-family: inherit;
+    transition: border-color 0.2s ease;
+}
+
+.challenge-form-group input:focus {
+    border-color: #f472b6;
+    outline: none;
+    box-shadow: 0 0 10px rgba(244, 114, 182, 0.25);
+}
+
+.challenge-selected-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(16, 185, 129, 0.18);
+    border: 1px solid rgba(16, 185, 129, 0.4);
+    color: #a7f3d0;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 4px;
+    animation: fadeIn 0.2s ease;
+}
+
+.challenge-result-card {
+    padding: 1.15rem;
+    border-radius: 12px;
+    background: rgba(30, 27, 75, 0.5);
+    border: 1px solid rgba(244, 114, 182, 0.35);
+    animation: fadeIn 0.3s ease;
+}
+
+.challenge-result-header {
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: #fbcfe8;
+    margin-bottom: 0.65rem;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.challenge-share-group {
+    display: flex;
+    gap: 8px;
+}
+
+.challenge-share-group input {
+    flex: 1;
+    background: rgba(15, 23, 42, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    padding: 0.55rem 0.8rem;
+    color: #ffffff;
+    font-family: ui-monospace, monospace;
+    font-size: 0.82rem;
+}
+
+.challenge-copy-toast {
+    margin-top: 0.5rem;
+    font-size: 0.82rem;
+    color: #86efac;
+    animation: fadeIn 0.2s ease;
+}
+
+

@@ -1436,4 +1436,79 @@ tr.catalog-highlight-target {
     color: #ffffff;
 }
 
+/* ==========================================================================
+   Custom Challenge Banner & Action Styles
+   ========================================================================== */
+.challenge-banner {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0.85rem 1.2rem;
+    margin-bottom: 1.25rem;
+    border-radius: 14px;
+    background: linear-gradient(135deg, rgba(131, 24, 67, 0.4) 0%, rgba(30, 27, 75, 0.55) 100%);
+    border: 1px solid rgba(244, 114, 182, 0.4);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+    animation: fadeIn 0.3s ease;
+}
+
+.challenge-banner-icon {
+    font-size: 1.8rem;
+    line-height: 1;
+    filter: drop-shadow(0 0 8px rgba(244, 114, 182, 0.5));
+}
+
+.challenge-banner-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #fbcfe8;
+}
+
+.challenge-banner-title strong {
+    color: #ffffff;
+}
+
+.challenge-banner-msg {
+    font-size: 0.85rem;
+    color: #f1f5f9;
+    margin-top: 2px;
+    font-style: italic;
+    opacity: 0.95;
+}
+
+.challenge-exit-btn {
+    margin-left: auto;
+    background: rgba(244, 114, 182, 0.15);
+    border: 1px solid rgba(244, 114, 182, 0.4);
+    border-radius: 6px;
+    color: #fbcfe8;
+    cursor: pointer;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.challenge-exit-btn:hover {
+    background: rgba(244, 114, 182, 0.35);
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(244, 114, 182, 0.3);
+}
+
+.challenge-action-btn {
+    background: linear-gradient(135deg, rgba(236, 72, 153, 0.22) 0%, rgba(219, 39, 119, 0.3) 100%);
+    border: 1px solid rgba(244, 114, 182, 0.5);
+    color: #fbcfe8;
+    transition: all 0.25s ease;
+}
+
+.challenge-action-btn:hover {
+    background: linear-gradient(135deg, rgba(236, 72, 153, 0.38) 0%, rgba(219, 39, 119, 0.48) 100%);
+    color: #ffffff;
+    box-shadow: 0 0 16px rgba(236, 72, 153, 0.35);
+    transform: translateY(-1px);
+}
+
+
 
