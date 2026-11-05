@@ -674,9 +674,14 @@
                     <input type="text" id="challenge-hint-msg" placeholder="e.g. Bet you can't solve this under 8 guesses!" maxlength="120">
                 </div>
 
-                <button id="generate-challenge-btn" class="primary-btn challenge-generate-btn" style="width: 100%; padding: 0.85rem; font-size: 1.05rem;">
-                    ✨ Generate Challenge Link
-                </button>
+                <div class="challenge-actions-row" style="display: flex; gap: 10px;">
+                    <button id="generate-challenge-btn" class="primary-btn challenge-generate-btn" style="flex: 1.2; padding: 0.85rem; font-size: 1rem;">
+                        ✨ Link for Friend
+                    </button>
+                    <button id="challenge-play-direct-btn" class="nav-btn challenge-direct-play-btn" style="flex: 1; padding: 0.85rem; font-size: 1rem; background: rgba(99, 102, 241, 0.2); border-color: rgba(139, 92, 246, 0.5); color: #c4b5fd;">
+                        ▶️ Play Solo
+                    </button>
+                </div>
 
                 <!-- Generated Link View -->
                 <div id="challenge-result-card" class="challenge-result-card glass-panel hidden">

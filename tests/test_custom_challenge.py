@@ -134,6 +134,7 @@ class TestCustomChallenge(unittest.TestCase):
         self.assertIn('id="challenge-creator-name"', html)
         self.assertIn('id="challenge-hint-msg"', html)
         self.assertIn('id="generate-challenge-btn"', html)
+        self.assertIn('id="challenge-play-direct-btn"', html)
         self.assertIn('id="challenge-result-card"', html)
         self.assertIn('id="challenge-share-url-input"', html)
         self.assertIn('id="challenge-copy-link-btn"', html)
@@ -169,9 +170,10 @@ class TestCustomChallenge(unittest.TestCase):
         self.assertIn("getChallengeShareUrl", script_js)
         self.assertIn("copyChallengeLink", script_js)
 
-        # URL param detection for challenge / custom
+        # URL param detection for challenge / custom / direct wiki & organism
         self.assertIn("urlParams.get('challenge')", script_js)
         self.assertIn("urlParams.get('custom')", script_js)
+        self.assertIn("urlParams.get('wiki')", script_js)
 
         # Challenge modal and UI handlers
         self.assertIn("function setChallengeSelectedTarget", script_js)
@@ -179,6 +181,7 @@ class TestCustomChallenge(unittest.TestCase):
         self.assertIn("function renderChallengeAutocomplete", script_js)
         self.assertIn("handleChallengeOrganismInput", script_js)
         self.assertIn("generateChallengeBtn", script_js)
+        self.assertIn("challengePlayDirectBtn", script_js)
         self.assertIn("challengeCopyLinkBtn", script_js)
         self.assertIn("challengePlayNowBtn", script_js)
         self.assertIn("challengeModalBtn", script_js)
@@ -192,3 +195,4 @@ class TestCustomChallenge(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+

@@ -130,6 +130,7 @@ function bootPhylogenle() {
     const challengeCreatorNameInput = document.getElementById('challenge-creator-name');
     const challengeHintMsgInput = document.getElementById('challenge-hint-msg');
     const generateChallengeBtn = document.getElementById('generate-challenge-btn');
+    const challengePlayDirectBtn = document.getElementById('challenge-play-direct-btn');
     const challengeResultCard = document.getElementById('challenge-result-card');
     const challengeShareUrlInput = document.getElementById('challenge-share-url-input');
     const challengeCopyLinkBtn = document.getElementById('challenge-copy-link-btn');
@@ -864,6 +865,35 @@ function bootPhylogenle() {
                 isCustomChallenge = false;
             }
         } else {
+            const wikiParam = urlParams.get('wiki');
+            const directTargetParam = urlParams.get('organism') || urlParams.get('target');
+            if (wikiParam || directTargetParam) {
+                const rawInput = wikiParam || directTargetParam;
+                try {
+                    const token = encodeChallengePayload({
+                        target: rawInput,
+                        creator: '',
+                        message: ''
+                    });
+                    const cleanUrl = new URL(window.location);
+                    cleanUrl.searchParams.delete('wiki');
+                    cleanUrl.searchParams.delete('organism');
+                    cleanUrl.searchParams.delete('target');
+                    cleanUrl.searchParams.set('challenge', token);
+                    window.history.replaceState(null, '', cleanUrl.pathname + cleanUrl.search);
+
+                    isCustomChallenge = true;
+                    isUnlimited = false;
+                    customChallengeTarget = rawInput;
+                    customChallengeCreator = '';
+                    customChallengeMsg = '';
+                    customChallengeRawToken = token;
+                    updateModeUI();
+                    return;
+                } catch (e) {
+                    console.warn("Could not encode direct target URL param:", e);
+                }
+            }
             isCustomChallenge = false;
         }
 
@@ -4491,6 +4521,44 @@ function bootPhylogenle() {
             }
         } catch (err) {
             alert("Error creating challenge: " + err.message);
+        }
+    });
+
+    challengePlayDirectBtn?.addEventListener('click', () => {
+        let target = selectedChallengeTarget;
+        if (!target && challengeOrganismInput) {
+            const raw = challengeOrganismInput.value.trim();
+            if (raw) {
+                target = resolveWikipediaUrlOrQuery(raw, allSpecies, speciesAliases, phylogenyTree);
+                if (target) {
+                    setChallengeSelectedTarget(target);
+                }
+            }
+        }
+
+        if (!target) {
+            alert("Please search and select an organism from the catalog, or paste a valid Wikipedia link.");
+            challengeOrganismInput?.focus();
+            return;
+        }
+
+        try {
+            const token = encodeChallengePayload({
+                target,
+                creator: 'Solo',
+                message: ''
+            });
+            closeModal(challengeModal);
+            const url = new URL(window.location);
+            url.searchParams.delete('wiki');
+            url.searchParams.delete('organism');
+            url.searchParams.delete('target');
+            url.searchParams.set('challenge', token);
+            window.history.pushState(null, '', url.pathname + url.search);
+            checkURLParams();
+            initGame();
+        } catch (err) {
+            alert("Error launching puzzle: " + err.message);
         }
     });
 
