@@ -36,12 +36,12 @@
   like uk how in spaceship flight you can join a server with a code, and then you see other people joining with their little cursor things, and you can see their names and their little cursors, and you can see them solving the puzzle, and you can see them chatting with each other? something like that but for phylogenle. so basically you copy the link, send it to your friend, and then they join the server with the code, and then you can see them on the phylogenetic tree, and you can see them guessing, and you can see them chatting with each other. except you can't see their names or their cursors or them guessing, you can only see the things that they guess, and you can see the phylogenetic tree updating in real time with their guesses. so yeah, basically just spaceship flight online coop but for phylogenle.
 - **🛠️ Technical Implementation & Architecture Notes:**
   - **Files Created / Modified:**
-    - [`coop.js`](file:///Users/amitjoshi2724/Desktop/phylogenle/coop.js): Core ES6 module managing Firestore real-time room operations, state subscription, player identities, and guess/hint submission.
-    - [`firestore.rules`](file:///Users/amitjoshi2724/Desktop/phylogenle/firestore.rules): Production security rules governing `/coop_rooms/{roomId}` access, field immutability, schema validation, and participant boundaries.
-    - [`script.js`](file:///Users/amitjoshi2724/Desktop/phylogenle/script.js): Game loop integration, mid-game promotion handler (`promoteSoloGameToCoop`), live board rendering, and multiplayer stats synchronization.
-    - [`index.html`](file:///Users/amitjoshi2724/Desktop/phylogenle/index.html): Markup for header Co-op button (`#coop-nav-btn`), action bar button (`#in-game-coop-btn`), status bar (`#coop-status-bar`), and modal (`#coop-modal`).
-    - [`style.css`](file:///Users/amitjoshi2724/Desktop/phylogenle/style.css) & [`modals.css`](file:///Users/amitjoshi2724/Desktop/phylogenle/modals.css): Responsive styles for player badges, pulsing indicators, avatar palettes, and lobby cards.
-    - [`tests/test_coop_multiplayer.py`](file:///Users/amitjoshi2724/Desktop/phylogenle/tests/test_coop_multiplayer.py): Automated unit and integration test suite.
+    - `coop.js`: Core ES6 module managing Firestore real-time room operations, state subscription, player identities, and guess/hint submission.
+    - `firestore.rules`: Production security rules governing `/coop_rooms/{roomId}` access, field immutability, schema validation, and participant boundaries.
+    - `script.js`: Game loop integration, mid-game promotion handler (`promoteSoloGameToCoop`), live board rendering, and multiplayer stats synchronization.
+    - `index.html`: Markup for header Co-op button (`#coop-nav-btn`), action bar button (`#in-game-coop-btn`), status bar (`#coop-status-bar`), and modal (`#coop-modal`).
+    - `style.css` & `modals.css`: Responsive styles for player badges, pulsing indicators, avatar palettes, and lobby cards.
+    - `tests/test_coop_multiplayer.py`: Automated unit and integration test suite.
   - **Firestore Schema & Data Model (`coop_rooms/{roomId}`):**
     ```typescript
     interface CoopRoomDocument {
@@ -119,46 +119,52 @@
   yea as long as the encryption is not genuinely readable by a casual human its chill. even textbook rsa is fine right? idk tho u decide
 - **🛠️ Technical Implementation & Architecture Notes:**
   - **Files Created / Modified:**
-    - [`challenge.js`](file:///Users/amitjoshi2724/Desktop/phylogenle/challenge.js): Core module handling salt-keyed keystream encryption/decryption, Wikipedia link resolution, and URL formatting.
-    - [`script.js`](file:///Users/amitjoshi2724/Desktop/phylogenle/script.js): Game controller handling `?challenge=`, `?custom=`, `?wiki=`, and `?organism=` URL routing, custom challenge modal autocomplete, and share formatting.
-    - [`index.html`](file:///Users/amitjoshi2724/Desktop/phylogenle/index.html): Custom Challenge modal (`#challenge-modal`), in-game banner (`#challenge-banner`), nav trigger (`#challenge-modal-btn`), and end panel button (`#end-challenge-friend-btn`).
-    - [`style.css`](file:///Users/amitjoshi2724/Desktop/phylogenle/style.css) & [`modals.css`](file:///Users/amitjoshi2724/Desktop/phylogenle/modals.css): Styling for challenge banner, modal dialog, autocomplete dropdown, action buttons, and exit pill.
-    - [`tests/test_custom_challenge.py`](file:///Users/amitjoshi2724/Desktop/phylogenle/tests/test_custom_challenge.py): Comprehensive test suite covering encryption/decryption, salt randomization, Wikipedia URL parsing, HTML elements, and UI events.
+    - `challenge.js`: Core module handling salt-keyed keystream encryption/decryption, Wikipedia link resolution, and URL formatting.
+    - `script.js`: Game controller handling `?challenge=`, `?custom=`, `?wiki=`, and `?organism=` URL routing, custom challenge modal autocomplete, and share formatting.
+    - `index.html`: Custom Challenge modal (`#challenge-modal`), in-game banner (`#challenge-banner`), nav trigger (`#challenge-modal-btn`), and end panel button (`#end-challenge-friend-btn`).
+    - `style.css` & `modals.css`: Styling for challenge banner, modal dialog, autocomplete dropdown, action buttons, and exit pill.
+    - `tests/test_custom_challenge.py`: Comprehensive test suite covering encryption/decryption, salt randomization, Wikipedia URL parsing, HTML elements, and UI events.
+  - **🎓 Theory & Concept: What is a "Salt" and Why Do We Need It?**
+    - **The Core Problem:**
+      - If you want to send a secret organism (like `"Honey badger"`) in a URL link so your friend's browser can calculate divergence distances, you have to transmit that information somehow.
+      - If you use plain text (`?target=Honey badger`), anyone looking at the link immediately has the puzzle spoiled.
+      - If you use standard Base64 encoding, anyone who recognizes the letters or pastes it into any decoder sees `"Honey badger"` immediately.
+      - What if we used a fixed cipher or hash? If `"Honey badger"` *always* turns into `XYZ123`, then every time you challenge a friend to Honey badger, the URL will be `XYZ123`. A player can simply memorize or look up `XYZ123` to instantly know the answer before making a single guess! This is known as a **precomputed dictionary attack** (or rainbow table).
+    - **What "Salt" Means (The Intuitive Metaphor):**
+      - In cooking, salt is a small random ingredient you sprinkle into a dish.
+      - In cryptography, a **"Salt"** is simply a random chunk of unpredictable data (in our case, a 4-byte random number generated on the spot) combined with the secret data *before* encrypting it.
+      - Because the salt is freshly randomized every single time you click "Generate Link":
+        - Round 1 (Salt = `349821`): `"Honey badger"` $\to$ `c1_8b77lfqsWYUk...`
+        - Round 2 (Salt = `981240`): `"Honey badger"` $\to$ `c1_Ds5Ff0ew1pJU...`
+      - Even though the secret organism is identical, the two generated URLs look 100% completely different! There is zero pattern between them, and nobody can build a cheat sheet of URLs.
+    - **How Does the Receiver Decrypt It?**
+      - The salt does *not* need to be kept secret—it just needs to be random!
+      - We attach the 4-byte salt to the very front of the encrypted token.
+      - When your friend opens the link, their browser reads those first 4 bytes to find out what salt was used, re-generates the exact matching keystream, and unscrambles the organism name.
   - **Obfuscated Keystream Encryption Algorithm & Constants:**
-    - **Purpose:** Prevent players or recipients from inspecting the URL query parameter (`?challenge=...`) or browser devtools to spoil the mystery organism, while executing entirely client-side without external dependencies.
     - **Constants & Versioning:**
-      - Version Prefix: `c1_` (enables backwards-compatible protocol upgrades).
+      - Version Prefix: `c1_` (enables backwards-compatible protocol upgrades in future versions).
       - Mixing Constant: `SECRET_KEY_HASH = 0x85ebca6b`.
-      - PRNG Constant: `0x6D2B79F5` (Goldman-ratio multiplier).
-    - **4-Byte Randomized Salt:**
-      - Every generated link draws a random 32-bit unsigned integer: `salt = (Math.floor(Math.random() * 0xFFFFFFFF) >>> 0)`.
-      - **Result:** Two challenge links generated for the exact same target organism produce completely different, unguessable strings (`c1_8b77lfqs...` vs `c1_Ds5Ff0ew...`).
-    - **Keystream Generator (SplitMix32-derived):**
-      ```javascript
-      function createKeystream(salt, length) {
-          let s = ((salt ^ SECRET_KEY_HASH) >>> 0);
-          const stream = new Uint8Array(length);
-          for (let i = 0; i < length; i++) {
-              s = (s + 0x6D2B79F5) >>> 0;
-              let t = Math.imul(s ^ (s >>> 15), 1 | s);
-              t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
-              stream[i] = ((t ^ (t >>> 14)) >>> 0) & 0xFF;
-          }
-          return stream;
-      }
-      ```
-    - **Payload Structure & XOR Cipher:**
-      - Payload object: `{ t: targetSpecies, c: creatorName, m: customMessage, v: 1 }`.
-      - Serialized to UTF-8 byte array $P$ of length $L$.
-      - Keystream $K$ of length $L$ is generated from `salt`.
-      - Ciphertext byte $C_i = P_i \oplus K_i$ for $i \in [0, L-1]$.
-      - Final byte array: `[salt_byte_0, salt_byte_1, salt_byte_2, salt_byte_3, C_0, C_1, ..., C_{L-1}]`.
-      - Encoded to URL-safe Base64 (`+` $\to$ `-`, `/` $\to$ `_`, stripped trailing `=`) prefixed with `c1_`.
-    - **Decryption:**
-      - Reads `c1_` prefix, decodes URL-safe Base64 into bytes.
-      - Extracts first 4 bytes as the original 32-bit `salt`.
-      - Recreates identical deterministic keystream $K$ from `salt`.
-      - Recovers original JSON bytes via $P_i = C_i \oplus K_i$, decodes UTF-8 string, and parses JSON.
+      - PRNG Multiplier: `0x6D2B79F5` (fractional part of the golden ratio $2^{32} \cdot (\sqrt{5}-1)/2$, standard in SplitMix32 for maximum bit diffusion).
+    - **4-Byte Randomized Salt Generation:**
+      - Drawn via: `salt = (Math.floor(Math.random() * 0xFFFFFFFF) >>> 0)`.
+    - **How the Keystream & XOR Work ($P \oplus K = C$ and $C \oplus K = P$):**
+      - A **keystream** is an endless stream of pseudo-random bytes generated from the salt.
+      - **XOR ($\oplus$)** has a magical mathematical property: **If you XOR a number with a key, and then XOR it with the same key again, you get the original number back!**
+        - Example: Letter `'A'` (binary `01000001`) $\oplus$ Key byte (`10110010`) = Cipher byte (`11110011`).
+        - Take Cipher byte (`11110011`) $\oplus$ Key byte (`10110010`) = Letter `'A'` (`01000001`)!
+      - So the generator produces one keystream byte for each character of the JSON payload `{ t: "Honey badger", c: "Amit", m: "Beat my score!" }`.
+      - Masking them byte-by-byte creates the ciphertext.
+    - **Step-by-Step Walkthrough:**
+      1. Player picks `"Honey badger"`.
+      2. App creates JSON payload: `{"t":"Honey badger","c":"Amit","m":"Beat this!","v":1}`.
+      3. App converts this string into raw UTF-8 bytes (length $L$).
+      4. App generates a fresh 4-byte random `salt`.
+      5. The PRNG uses `salt ^ SECRET_KEY_HASH` to produce $L$ keystream bytes.
+      6. Each payload byte is XOR'd with its matching keystream byte.
+      7. The 4 salt bytes are placed at the front, followed by the XOR'd bytes.
+      8. The entire byte array is encoded into URL-safe Base64 (`+` $\to$ `-`, `/` $\to$ `_`, trailing `=` removed) and prefixed with `c1_`.
+      9. Your friend clicks the link: their browser strips `c1_`, decodes the Base64, extracts the 4 salt bytes, regenerates the identical keystream, XORs the ciphertext bytes, and instantly recovers the original JSON!
   - **Wikipedia URL & Query Resolver (`resolveWikipediaUrlOrQuery`):**
     - Strips URL schemes, domain (`en.wikipedia.org` or `en.m.wikipedia.org`), path prefixes (`/wiki/`), anchor hashes (`#...`), and query parameters (`?veaction=...`).
     - Decodes URI encoding (`%20`, `%C3%A9`) and replaces underscores with spaces.
@@ -221,7 +227,7 @@ yea ill j try to ai generate ts. my idea is to maybe have square emojis and the 
 
 - [x] fix readme to show that the target organism is not necessarily a species, sometimes genus or family or even order
   - **🛠️ Technical Fix & Implementation Summary:**
-    - **Files Modified:** [`README.md`](file:///Users/amitjoshi2724/Desktop/phylogenle/README.md) (Lines 16, 42–45).
+    - **Files Modified:** `README.md` (Lines 16, 42–45).
     - **Documentation Clarification:** Added a dedicated callout block (`[!NOTE]`) detailing that mystery targets in Phylogenle are not restricted to individual species binomials (*Panthera leo*), but frequently encompass iconic higher-rank **umbrella taxa** including **Genera** (*Cygnus* / Swan, *Macropus* / Kangaroo, *Amphiprion* / Clownfish), **Families** (*Trochilidae* / Hummingbirds, *Theraphosidae* / Tarantulas), **Orders** (*Siluriformes* / Catfish, *Lophiiformes* / Anglerfish), and **Classes** (*Cubozoa* / Box Jellyfish).
     - **Scoring Invariant Documented:** Clarified that when an umbrella taxon is the secret target, guessing **any** subordinate species or sub-clade within that group scores as an exact match (`0.0 MYA`).
     - **In-App Taxonomic Notice:** Documented the post-round disclosure card (`.genus-notice-box` in `script.js`) that automatically alerts players whenever the solved target organism was a higher-order taxon.
@@ -229,9 +235,9 @@ yea ill j try to ai generate ts. my idea is to maybe have square emojis and the 
 - [x] alias overrides; sometimes the most common name for a species is not the shortest, so it wasn't selected as the main common name. allow me to manually set the common name for things for example honey badger instead of ratel. I will be the one to come up w these overrides just get the functionality in place for me to do so.
   - **🛠️ Technical Fix & Implementation Summary:**
     - **Files Created / Modified:**
-      - [`set_common_name_override.py`](file:///Users/amitjoshi2724/Desktop/phylogenle/set_common_name_override.py): Production CLI utility to inspect, apply, and revert common name overrides.
-      - [`data/species_common_name_overrides.json`](file:///Users/amitjoshi2724/Desktop/phylogenle/data/species_common_name_overrides.json): Persistent source-of-truth JSON dictionary mapping scientific names to manual common names (`{ "Mellivora capensis": "Honey Badger" }`).
-      - [`tests/test_common_name_overrides.py`](file:///Users/amitjoshi2724/Desktop/phylogenle/tests/test_common_name_overrides.py): Test suite verifying CLI argument parsing, dry-run safety, and data integrity.
+      - `set_common_name_override.py`: Production CLI utility to inspect, apply, and revert common name overrides.
+      - `data/species_common_name_overrides.json`: Persistent source-of-truth JSON dictionary mapping scientific names to manual common names (`{ "Mellivora capensis": "Honey Badger" }`).
+      - `tests/test_common_name_overrides.py`: Test suite verifying CLI argument parsing, dry-run safety, and data integrity.
     - **Atomic Multi-Dataset Synchronization:** Running `set_common_name_override.py --apply` atomically updates 6 project files without breaking cladogram references or PRNG seeds:
       1. `data/species_taxonomy_catalog.json`: Updates the organism's `common` and `display` strings.
       2. `data/species_list.json`: Updates the canonical search and autocomplete display entry.
@@ -265,7 +271,7 @@ yea ill j try to ai generate ts. my idea is to maybe have square emojis and the 
 
 - [x] support creation of puzzles to send to a friend or play by urself via wikipedia link (as well as j searching it up urself in the catalog)
   - **🛠️ Technical Fix & Implementation Summary:**
-    - **Files Created / Modified:** [`challenge.js`](file:///Users/amitjoshi2724/Desktop/phylogenle/challenge.js), [`script.js`](file:///Users/amitjoshi2724/Desktop/phylogenle/script.js), [`index.html`](file:///Users/amitjoshi2724/Desktop/phylogenle/index.html), [`tests/test_custom_challenge.py`](file:///Users/amitjoshi2724/Desktop/phylogenle/tests/test_custom_challenge.py).
+    - **Files Created / Modified:** `challenge.js`, `script.js`, `index.html`, `tests/test_custom_challenge.py`.
     - **Integration Architecture:** Solved in tandem with Backlog Item #3.
     - **Dual Player Flow:**
       - **Send to Friend:** Clicking `✨ Link for Friend` in `#challenge-modal` encrypts the organism into an obfuscated token (`?challenge=c1_...`) with random 4-byte salt and provides a one-click clipboard copy card.
@@ -278,14 +284,14 @@ yea ill j try to ai generate ts. my idea is to maybe have square emojis and the 
 - [x] More intense wikipedia integration, can open the wiki page of any organism within the website itself, instead of having to open a new tab. Facilitates learning and overcomes the mental obstacle of opening a new tab. Connect each species or clade or genus or anything like that to its own wikipedia page. And use this info to display the common name of each taxonomic rank/subclade in the tree and guess list. Uk how theres an 'catalog' button within the guess? Next to it there should be a wikipedia button that opens up a pane within our website for that lca node. It shows the common name of that taxonomic rank/subclade or even species. And that pane should have clickable links to allow the users to explore a bit
   - **🛠️ Technical Fix & Implementation Summary:**
     - **Files Created / Modified:**
-      - [`wikimedia_taxonomy_pipeline.py`](file:///Users/amitjoshi2724/Desktop/phylogenle/wikimedia_taxonomy_pipeline.py): Unified pipeline connecting all catalog species (Steps 1–4) and all non-species tree nodes (Steps 5–7) to canonical Wikimedia articles and verified vernacular names.
-      - [`sync_tree_wikipedia_and_common_names.py`](file:///Users/amitjoshi2724/Desktop/phylogenle/sync_tree_wikipedia_and_common_names.py): Standalone algorithmic resolver querying MediaWiki REST/SPARQL APIs in 50-item batches with redirect chain following and NCBI Taxdump integration.
-      - [`data/clade_common_names.json`](file:///Users/amitjoshi2724/Desktop/phylogenle/data/clade_common_names.json): Generated dictionary mapping clade names to verified biological common names.
-      - [`data/phylogeny_tree.json`](file:///Users/amitjoshi2724/Desktop/phylogenle/data/phylogeny_tree.json): Attached `wiki_title` and `common_name` directly to tree nodes.
-      - [`index.html`](file:///Users/amitjoshi2724/Desktop/phylogenle/index.html): Built sliding Wikipedia side drawer (`#wiki-drawer`) with header navigation, retry boundaries, theme toggle, and external link buttons.
-      - [`script.js`](file:///Users/amitjoshi2724/Desktop/phylogenle/script.js): Iframe sandboxing (`sandbox="allow-scripts allow-same-origin allow-popups"`), fast MediaWiki REST summary fallback (`https://en.wikipedia.org/api/rest_v1/page/summary/...`), clade label augmentation in D3 cladogram, and drawer buttons on guess cards.
-      - [`style.css`](file:///Users/amitjoshi2724/Desktop/phylogenle/style.css): Sliding drawer animations, responsive mobile viewport constraints, and dark/light iframe theme overrides.
-      - [`tests/test_sync_script.py`](file:///Users/amitjoshi2724/Desktop/phylogenle/tests/test_sync_script.py) & [`tests/test_wiki_integration.py`](file:///Users/amitjoshi2724/Desktop/phylogenle/tests/test_wiki_integration.py): Test suites verifying API batch queries, redirect resolution, iframe security attributes, and UI drawer behavior.
+      - `wikimedia_taxonomy_pipeline.py`: Unified pipeline connecting all catalog species (Steps 1–4) and all non-species tree nodes (Steps 5–7) to canonical Wikimedia articles and verified vernacular names.
+      - `sync_tree_wikipedia_and_common_names.py`: Standalone algorithmic resolver querying MediaWiki REST/SPARQL APIs in 50-item batches with redirect chain following and NCBI Taxdump integration.
+      - `data/clade_common_names.json`: Generated dictionary mapping clade names to verified biological common names.
+      - `data/phylogeny_tree.json`: Attached `wiki_title` and `common_name` directly to tree nodes.
+      - `index.html`: Built sliding Wikipedia side drawer (`#wiki-drawer`) with header navigation, retry boundaries, theme toggle, and external link buttons.
+      - `script.js`: Iframe sandboxing (`sandbox="allow-scripts allow-same-origin allow-popups"`), fast MediaWiki REST summary fallback (`https://en.wikipedia.org/api/rest_v1/page/summary/...`), clade label augmentation in D3 cladogram, and drawer buttons on guess cards.
+      - `style.css`: Sliding drawer animations, responsive mobile viewport constraints, and dark/light iframe theme overrides.
+      - `tests/test_sync_script.py` & `tests/test_wiki_integration.py`: Test suites verifying API batch queries, redirect resolution, iframe security attributes, and UI drawer behavior.
     - **Algorithmic Disambiguation & Anti-Poisoning Architecture:**
       - Completely replaces ad-hoc or LLM guesswork with strict, verifiable joins:
         1. Exact NCBI taxid join: Wikidata item where P685 (NCBI Taxon ID) matches node taxid.
