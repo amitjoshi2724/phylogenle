@@ -1,8 +1,9 @@
 """
-Unit test for sync_tree_wikipedia_and_common_names.py and generated data artifacts
+Unit test for wikimedia_taxonomy_pipeline.py, sync_tree_wikipedia_and_common_names.py, and generated data artifacts
 """
 
 import unittest
+import sys
 import os
 import json
 import subprocess
@@ -10,18 +11,35 @@ import subprocess
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-class TestSyncTreeScript(unittest.TestCase):
-    def test_script_exists_and_is_executable(self):
+class TestTaxonomyPipelineScripts(unittest.TestCase):
+    def test_original_rank_species_popularity_preserved(self):
+        script_path = os.path.join(REPO_ROOT, "rank_species_popularity.py")
+        self.assertTrue(os.path.exists(script_path), "rank_species_popularity.py must be preserved intact")
+
+    def test_sync_script_exists_and_is_executable(self):
         script_path = os.path.join(REPO_ROOT, "sync_tree_wikipedia_and_common_names.py")
         self.assertTrue(os.path.exists(script_path), "sync_tree_wikipedia_and_common_names.py should exist")
         self.assertTrue(os.access(script_path, os.X_OK), "Script should be executable")
 
-    def test_cli_dry_run_offline(self):
-        script_path = os.path.join(REPO_ROOT, "sync_tree_wikipedia_and_common_names.py")
-        res = subprocess.run([sys.executable if "sys" in globals() else "python3", script_path, "--offline", "--dry-run"],
+    def test_unified_wikimedia_taxonomy_pipeline_exists_and_is_executable(self):
+        script_path = os.path.join(REPO_ROOT, "wikimedia_taxonomy_pipeline.py")
+        self.assertTrue(os.path.exists(script_path), "wikimedia_taxonomy_pipeline.py should exist")
+        self.assertTrue(os.access(script_path, os.X_OK), "Script should be executable")
+
+    def test_unified_pipeline_cli_help(self):
+        script_path = os.path.join(REPO_ROOT, "wikimedia_taxonomy_pipeline.py")
+        res = subprocess.run([sys.executable, script_path, "--help"],
+                             capture_output=True, text=True)
+        self.assertEqual(res.returncode, 0, f"--help failed with: {res.stderr}")
+        self.assertIn("--tree-only", res.stdout)
+        self.assertIn("--offline", res.stdout)
+
+    def test_unified_pipeline_cli_dry_run_offline(self):
+        script_path = os.path.join(REPO_ROOT, "wikimedia_taxonomy_pipeline.py")
+        res = subprocess.run([sys.executable, script_path, "--tree-only", "--offline", "--dry-run"],
                              capture_output=True, text=True)
         self.assertEqual(res.returncode, 0, f"Script failed with: {res.stderr}")
-        self.assertIn("Pipeline complete", res.stdout)
+        self.assertIn("Step 7: Exporting", res.stdout)
 
     def test_tree_nodes_have_wiki_title_and_common_name(self):
         tree_path = os.path.join(REPO_ROOT, "data", "phylogeny_tree.json")

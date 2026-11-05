@@ -96,6 +96,20 @@ function bootPhylogenle() {
             .replace(/'/g, '&#039;');
     }
 
+    // Taxon name (lowercase) -> canonical enwiki article title, built from the `wiki_title`
+    // fields that wikimedia_taxonomy_pipeline.py (Step 7) writes onto phylogeny_tree.json nodes.
+    let wikiTitleByTaxonName = new Map();
+
+    function buildWikiTitleIndex() {
+        wikiTitleByTaxonName = new Map();
+        if (!phylogenyTree || !phylogenyTree.nodes) return;
+        for (const node of Object.values(phylogenyTree.nodes)) {
+            if (node && node.name && node.wiki_title) {
+                wikiTitleByTaxonName.set(node.name.trim().toLowerCase(), node.wiki_title);
+            }
+        }
+    }
+
     // Wikipedia Normalization Helper
     function getNormalizedWikiTitle(title) {
         if (!title) return '';
@@ -104,7 +118,7 @@ function bootPhylogenle() {
         if (lower === 'root' || lower === 'root (luca)' || lower === 'cellular organisms' || lower === 'luca' || lower === 'life') {
             return 'Last_universal_common_ancestor';
         }
-        return clean;
+        return wikiTitleByTaxonName.get(lower) || clean;
     }
 
     // Catalog state
@@ -835,9 +849,9 @@ function bootPhylogenle() {
 
                 const [speciesResp, treeResp, aliasesResp, cladeCommonResp] = await Promise.all([
                     allSpecies.length === 0 ? fetch('data/species_list.json?v=taxa_v1') : Promise.resolve(null),
-                    !phylogenyTree ? fetch('data/phylogeny_tree.json?v=taxa_v1') : Promise.resolve(null),
+                    !phylogenyTree ? fetch('data/phylogeny_tree.json?v=taxa_v2') : Promise.resolve(null),
                     !speciesAliases ? fetch('data/species_aliases.json?v=taxa_v1') : Promise.resolve(null),
-                    Object.keys(cladeCommonNames).length === 0 ? fetch('data/clade_common_names.json?v=1').catch(() => null) : Promise.resolve(null)
+                    Object.keys(cladeCommonNames).length === 0 ? fetch('data/clade_common_names.json?v=2').catch(() => null) : Promise.resolve(null)
                 ]);
 
                 if (speciesResp) {
@@ -849,6 +863,7 @@ function bootPhylogenle() {
                     if (!treeResp.ok) throw new Error(`HTTP ${treeResp.status} loading phylogeny tree`);
                     phylogenyTree = await treeResp.json();
                     buildCatalogCladeIndex();
+                    buildWikiTitleIndex();
                 }
 
                 if (aliasesResp) {
@@ -979,6 +994,7 @@ function bootPhylogenle() {
                                 rank: g.lca_rank,
                                 lca_name: g.lca_name,
                                 major_name: g.major_name || g.lca_name,
+                                major_rank: g.major_rank || g.lca_rank,
                                 time: g.tmrca
                             }, g.isMatch, g.guessedAlias);
                         } else {
@@ -1080,6 +1096,7 @@ function bootPhylogenle() {
                         rank: g.lca_rank,
                         lca_name: g.lca_name,
                         major_name: g.major_name || g.lca_name,
+                        major_rank: g.major_rank || g.lca_rank,
                         time: g.tmrca
                     }, g.isMatch, g.guessedAlias);
                 } else {
