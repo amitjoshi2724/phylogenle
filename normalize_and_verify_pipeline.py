@@ -32,6 +32,7 @@ SPECIES_LIST_PATH = os.path.join(BASE_DIR, "data", "species_list.json")
 TREE_PATH = os.path.join(BASE_DIR, "data", "phylogeny_tree.json")
 CACHE_PATH = os.path.join(BASE_DIR, "data", "wikimedia_popularity_cache.json")
 ALIASES_PATH = os.path.join(BASE_DIR, "data", "species_aliases.json")
+OVERRIDES_PATH = os.path.join(BASE_DIR, "data", "species_common_name_overrides.json")
 SCRIPT_JS_PATH = os.path.join(BASE_DIR, "script.js")
 CHECK_344_PATH = os.path.join(BASE_DIR, "check_original_344_in_top1k.py")
 SYNONYM_MAP_PATH = os.path.join(BASE_DIR, "data", "consolidated_synonyms.json")
@@ -196,6 +197,19 @@ def main():
                     c_rec["swiki"] = d_rec["swiki"]
                     c_rec["qid"] = d_rec["qid"]
 
+    # Load manual common name overrides if defined
+    overrides = {}
+    if os.path.exists(OVERRIDES_PATH):
+        try:
+            with open(OVERRIDES_PATH, "r", encoding="utf-8") as f:
+                raw_ov = json.load(f)
+                for k, v in raw_ov.items():
+                    val = v.get("common", "").strip() if isinstance(v, dict) else str(v).strip()
+                    if val:
+                        overrides[k.strip()] = val
+        except Exception as e:
+            print(f"Warning: could not read overrides from {OVERRIDES_PATH}: {e}")
+
     # Build consolidated catalog and record synonym aliases
     new_catalog = []
     seen_scis = set()
@@ -210,7 +224,9 @@ def main():
             continue
         seen_scis.add(sci)
 
-        if sci in COMMON_NAME_CORRECTIONS:
+        if sci in overrides:
+            s["common"] = overrides[sci]
+        elif sci in COMMON_NAME_CORRECTIONS:
             s["common"] = COMMON_NAME_CORRECTIONS[sci]
 
         comm = (s.get("common") or "").strip()

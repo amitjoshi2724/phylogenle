@@ -72,6 +72,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CATALOG_PATH = os.path.join(BASE_DIR, "data", "species_taxonomy_catalog.json")
 CACHE_PATH = os.path.join(BASE_DIR, "data", "wikimedia_popularity_cache.json")
 ALIASES_PATH = os.path.join(BASE_DIR, "data", "species_aliases.json")
+OVERRIDES_PATH = os.path.join(BASE_DIR, "data", "species_common_name_overrides.json")
 DOCS_DIR = os.path.join(BASE_DIR, "docs")
 CSV_PATH = os.path.join(DOCS_DIR, "species_popularity_rankings.csv")
 SWIKI_CSV_PATH = os.path.join(DOCS_DIR, "species_ranking_by_swiki.csv")
@@ -744,12 +745,29 @@ def compile_ranking_csvs(species_data, cache):
             clean_formatted = format_title_case(clean_a)
             sci_to_aliases.setdefault(target_sci, set()).add(clean_formatted)
 
+    # Load manual common name overrides if defined
+    overrides = {}
+    if os.path.exists(OVERRIDES_PATH):
+        try:
+            with open(OVERRIDES_PATH, "r", encoding="utf-8") as f:
+                raw_ov = json.load(f)
+                for k, v in raw_ov.items():
+                    val = v.get("common", "").strip() if isinstance(v, dict) else str(v).strip()
+                    if val:
+                        overrides[k.strip().lower()] = val
+        except Exception as e:
+            print(f"Warning: could not read overrides from {OVERRIDES_PATH}: {e}")
+
     # Group catalog entries by scientific name to eliminate duplicate common name rows
     total_species = len(species_data)
     species_by_sci = {}
     for s in species_data:
         sci = s["scientific"]
         comm = (s.get("common") or "").strip()
+        sci_low = sci.lower()
+        if sci_low in overrides:
+            comm = overrides[sci_low]
+
         if sci not in species_by_sci:
             species_by_sci[sci] = {
                 "common": comm,
@@ -765,7 +783,9 @@ def compile_ranking_csvs(species_data, cache):
             if comm:
                 species_by_sci[sci]["all_commons"].add(comm)
                 curr = species_by_sci[sci]["common"]
-                if not curr or len(comm) < len(curr):
+                if sci_low in overrides:
+                    species_by_sci[sci]["common"] = overrides[sci_low]
+                elif not curr or len(comm) < len(curr):
                     species_by_sci[sci]["common"] = comm
 
     print(f"Aggregated {total_species:,} catalog entries into {len(species_by_sci):,} unique biological species.")
