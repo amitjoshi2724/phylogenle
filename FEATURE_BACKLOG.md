@@ -79,6 +79,30 @@
       winner: { id: string; name: string; avatarEmoji: string; } | null;
     }
     ```
+  - **🎓 Theory & Concept: How Does Serverless Real-Time Multiplayer Work?**
+    - **The Traditional Problem (Why Not a Custom Game Server?):**
+      - Traditionally, multiplayer games run a dedicated Node.js or Python server running 24/7 with WebSockets.
+      - **The Drawbacks:** High server hosting costs, maintenance headaches, connection drops when servers reboot, and scaling bottlenecks if hundreds of players join simultaneously.
+    - **The Serverless Document Store Solution (Firestore Real-Time Snapshots):**
+      - Instead of hosting our own server, we treat a single Cloud Firestore document (`coop_rooms/{roomId}`) as the single source of truth.
+      - **What is a Snapshot Listener (`onSnapshot`)?** Google's client SDK maintains a persistent, multiplexed HTTP/2 or WebSocket connection to Google Cloud. Whenever *Player A* writes a guess to the document, Google's infrastructure detects the document mutation and pushes the updated JSON payload to *Player B* in under 50 milliseconds!
+      - We get real-time multiplayer without maintaining or paying for a single backend server.
+    - **Differential State Synchronization (Zero Jitter & No Flashing):**
+      - If we completely re-rendered the UI every time a new guess arrived from another player, the screen would flash, scroll positions would reset, and animations would stutter.
+      - **Differential Diffing:** When a room update arrives, the client compares the incoming `guesses` array against the local `guessedSet`. It only animates and renders the *new* guesses that just arrived, keeping the cladogram smooth and responsive.
+    - **How Mid-Game Promotion Works Without Data Loss:**
+      - If you're 6 guesses into today's daily puzzle and get stuck, you don't want to start over just to invite a friend.
+      - When you click "Play with Friends" mid-game:
+        1. The client bundles your active guesses, revealed hints, and target organism.
+        2. It creates a new room document in Firestore with that existing state.
+        3. It updates your browser URL to `?room=XYZ123` via `history.replaceState` (no page reload).
+        4. When your friend opens the link, their browser fetches that document, instantly reconstructs your 6 guesses and cladogram tree, and you continue playing together seamlessly from that exact moment.
+    - **Security & Cheat Prevention (Why `firestore.rules` Matter):**
+      - In a browser game, anyone could open Chrome DevTools and attempt to overwrite the database document with `{ targetSpecies: "Dog", solved: true }`.
+      - **Security Invariants Enforced at the Cloud Boundary:**
+        - **Immutability:** The database rejects any update where `targetSpecies`, `roomId`, `dateStr`, or `createdAt` differs from the existing document.
+        - **Append-Only:** Guesses can only be added to the end of the list; you cannot alter or delete past guesses.
+        - **Winner Verification:** A player cannot mark themselves as the winner unless the game was previously unsolved and the transition is valid.
   - **Live Sync & Snapshot Listener Protocol:**
     - `subscribeToRoom(roomId)` binds an `onSnapshot` listener to the Firestore document.
     - Emits internal events via `onCoopEvent(callback)`:
@@ -292,6 +316,27 @@ yea ill j try to ai generate ts. my idea is to maybe have square emojis and the 
       - `script.js`: Iframe sandboxing (`sandbox="allow-scripts allow-same-origin allow-popups"`), fast MediaWiki REST summary fallback (`https://en.wikipedia.org/api/rest_v1/page/summary/...`), clade label augmentation in D3 cladogram, and drawer buttons on guess cards.
       - `style.css`: Sliding drawer animations, responsive mobile viewport constraints, and dark/light iframe theme overrides.
       - `tests/test_sync_script.py` & `tests/test_wiki_integration.py`: Test suites verifying API batch queries, redirect resolution, iframe security attributes, and UI drawer behavior.
+    - **🎓 Theory & Concept: Why LLMs Fail for Biological Names & How the 3-Way Join Works:**
+      - **The Problem with LLMs (Why We Refuse to Ask an AI for Common Names):**
+        - LLMs are statistical text generators, not scientific authorities. When asked for common names across 29,748 species and thousands of intermediate clades:
+          - They hallucinate pleasant-sounding fake common names for obscure beetles or fungi that have no vernacular names in the real world.
+          - They are inconsistent across runs (calling *Mellivora capensis* "Honey-badger" on Monday, "Ratel" on Tuesday, and "African badger" on Wednesday).
+          - They cannot be methodically verified or audited.
+      - **The 3-Way Authoritative Database Join:**
+        - To guarantee 100% scientific credibility, we connect three authoritative global databases:
+          1. **NCBI Taxonomy (`taxdump.tar.gz`):** The biological ground truth compiled by the US National Institutes of Health. Every organism and clade has a permanent integer TaxID (e.g., *Homo sapiens* = `9606`).
+          2. **Wikidata Knowledge Graph:** A machine-readable database where every biological concept has a unique Q-ID (e.g., *Mammalia* = `Q7377`). It explicitly maps properties: `P685` (NCBI Taxon ID), `P225` (Scientific Name), and `P1843` (Verified English Common Name).
+          3. **English Wikipedia (MediaWiki):** The human encyclopedia containing curated articles.
+        - **The Join Algorithm:**
+          - If a tree node has NCBI TaxID `7377`, we ask Wikidata: *"Which item has `P685 == 7377`?"* $\to$ Matches `Q7377` with zero ambiguity.
+          - This completely prevents **homonym collisions** (e.g., where a plant genus and a spider genus share the exact same Latin name *Erica*).
+      - **Redirect Chains & MediaWiki Resolution:**
+        - On Wikipedia, scientists and editors often set up redirects: searching for `Mammalia` redirects to `Mammal`; searching for `Clupeocephala` redirects to `Teleost`.
+        - If an app naively checks `https://en.wikipedia.org/wiki/Mammalia`, it might break or miss the actual common name. Our pipeline queries the MediaWiki API in batches of 50, automatically follows redirect hops to the canonical page, and confirms the final article is actually biological.
+      - **The In-App Drawer Security Sandbox:**
+        - Embedding external web pages directly into an app can be a security hazard if not isolated.
+        - We use an `<iframe>` with strict sandbox restrictions: `sandbox="allow-scripts allow-same-origin allow-popups"`.
+        - This allows Wikipedia to run its interactive navigation while strictly forbidding it from accessing Phylogenle's `localStorage`, cookies, or game state.
     - **Algorithmic Disambiguation & Anti-Poisoning Architecture:**
       - Completely replaces ad-hoc or LLM guesswork with strict, verifiable joins:
         1. Exact NCBI taxid join: Wikidata item where P685 (NCBI Taxon ID) matches node taxid.
