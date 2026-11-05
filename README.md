@@ -11,6 +11,9 @@ Developed by **Amit Joshi** ([@amitjoshi2724](https://github.com/amitjoshi2724))
 ## 📖 Table of Contents
 1. [What is Phylogenle?](#-what-is-phylogenle)
 2. [How to Play & Core Mechanics](#-how-to-play--core-mechanics)
+   - [Divergence Time (MYA)](#1-divergence-time-diverged--mya)
+   - [Lowest Common Ancestor (LCA)](#2-lowest-common-ancestor-shared-taxonomic-clade-)
+   - [Umbrella Taxa & Multi-Rank Targets (Species, Genus, Family, Order)](#3-umbrella-taxa--higher-rank-targets-species-genus-family-or-order)
 3. [The 8-Tier Taxonomic Color & Emoji System](#-the-8-tier-taxonomic-color--emoji-system)
 4. [Game Modes: Daily vs. Practice](#-game-modes-daily-vs-practice)
 5. [Interactive Gameplay Features](#-interactive-gameplay-features)
@@ -34,7 +37,11 @@ Developed by **Amit Joshi** ([@amitjoshi2724](https://github.com/amitjoshi2724))
 
 **Phylogenle** is an educational, daily deductive puzzle game that brings real-world evolutionary biology and phylogenetic cladistics into an interactive Wordle-style format. 
 
-Instead of guessing five-letter words or geographical coordinates, players deduce a **mystery organism** chosen from an extensive catalog of **29,748 species spanning all domains of life**—animals (mammals, birds, reptiles, amphibians, fishes, invertebrates), land plants, fungi, bacteria, protists, and viruses.
+Instead of guessing five-letter words or geographical coordinates, players deduce a **mystery organism** chosen from an extensive catalog of **29,748 taxa spanning all domains of life**—animals (mammals, birds, reptiles, amphibians, fishes, invertebrates), land plants, fungi, bacteria, protists, and viruses.
+
+> [!NOTE]
+> **The Target Organism Is Not Necessarily a Species!**  
+> In natural language and real-world biology, many iconic organisms are recognized at higher taxonomic ranks rather than individual species binomials. In Phylogenle, a puzzle's secret organism can be an individual **Species** (e.g., *Panthera leo* / Lion), but it can also be an **umbrella taxon** representing an entire **Genus** (e.g., *Cygnus* / Swan, *Macropus* / Kangaroo, *Amphiprion* / Clownfish), a **Family** (e.g., *Trochilidae* / Hummingbirds, *Theraphosidae* / Tarantulas, *Phocoenidae* / Porpoises), an **Order** (e.g., *Siluriformes* / Catfish, *Lophiiformes* / Anglerfish, *Caudata* / Salamanders), or even a **Class** (e.g., *Cubozoa* / Box Jellyfish). If the secret is an umbrella group, guessing **any** species or subordinate taxon belonging to that group scores as a winning match (`0.0 MYA`)!
 
 With each guess, Phylogenle calculates the exact molecular divergence time and the Lowest Common Ancestor (LCA) shared between your guess and the secret organism, giving you scientific clues to navigate the Tree of Life.
 
@@ -66,6 +73,15 @@ Whenever you submit a guess, Phylogenle computes two real-world evolutionary met
   - `Genus: Panthera`
   - `Species: Panthera leo (Match!)`
 
+### 3. Umbrella Taxa & Higher-Rank Targets (Species, Genus, Family, or Order)
+People frequently speak about broader animal and plant groups in everyday language (e.g., *"Catfish"*, *"Hummingbird"*, *"Wombat"*, *"Swan"*). Phylogenle natively accommodates this by allowing target organisms at multiple taxonomic ranks:
+
+- **Matching a Species Target:** When the target is an individual species (e.g. **Flatjaw Minnow** / *Tampichthys mandibularis* or **Lion** / *Panthera leo*), you deduce that specific species.
+- **Matching a Genus Target:** When the target is a genus (e.g. **Swan** / *Cygnus*, **Goose** / *Anser*, **Pelican** / *Pelecanus*, **Barracuda** / *Sphyraena*), guessing **either** the general umbrella entry *"Swan"* **or any specific species in that genus** (such as *Mute Swan*, *Trumpeter Swan*, or *Black Swan*) immediately triggers a winning match (`0.0 MYA`)!
+- **Matching a Family Target:** When the target is a family (e.g. **Hummingbird** / *Trochilidae*, **Tarantula** / *Theraphosidae*, **Piranha** / *Serrasalmidae*, **Wombat** / *Vombatidae*, **Moray Eel** / *Muraenidae*), guessing the family itself **or any member species or genus in that family** counts as an exact match (`0.0 MYA`)!
+- **Matching an Order Target:** When the target is an order (e.g. **Catfish** / *Siluriformes*, **Anglerfish** / *Lophiiformes*, **Salamander** / *Caudata*, **Mantis Shrimp** / *Stomatopoda*), guessing the order **or any fish/amphibian/crustacean in that order** counts as an exact match (`0.0 MYA`)!
+- **Adaptive Victory Badges:** The winning badge reflects the target's true biological rank—e.g. `[🟩 ORDER (MATCH)] Order: Siluriformes` or `[🟩 FAMILY (MATCH)] Family: Trochilidae`—so you always know the exact level of the organism you just solved.
+
 ---
 
 ## 🎨 The 8-Tier Taxonomic Color & Emoji System
@@ -80,7 +96,7 @@ Phylogenle maps the 8 standard Linnaean biological ranks to a high-contrast, int
 
 | Rank Level | Emoji | Badge Color | Hex Code | Typical Divergence | Meaning & Examples |
 | :--- | :---: | :--- | :---: | :---: | :--- |
-| **🟩 Species** | `🟩` | **Emerald Green** | `#10b981` | **0.0 MYA** | **Target Match!** You correctly deduced the mystery organism. |
+| **🟩 Match (Species, Genus, Family, Order)** | `🟩` | **Emerald Green** | `#10b981` | **0.0 MYA** | **Target Match!** You correctly deduced the mystery organism, whether an individual species or higher umbrella rank (genus, family, order). |
 | **🟨 Genus** | `🟨` | **Golden Yellow** | `#eab308` | **~1 – 15 MYA** | **Sister species in same genus** (e.g. *Panthera*: Lion vs. Tiger; *Canis*: Wolf vs. Coyote). |
 | **🟧 Family** | `🟧` | **Vibrant Orange** | `#f97316` | **~15 – 45 MYA** | **Same family** (e.g. *Felidae*: Lion vs. Cheetah; *Canidae*: Dog vs. Red Fox). |
 | **🟥 Order** | `🟥` | **Crimson Red** | `#ef4444` | **~45 – 100 MYA** | **Same order** (e.g. *Carnivora*: Dog vs. Grizzly Bear; *Primates*: Human vs. Lemur). |
@@ -142,14 +158,15 @@ As you make guesses, Phylogenle dynamically constructs an interactive evolutiona
 
 ### 2. Progressive Taxonomic Hint System
 Stuck on a tricky puzzle? Phylogenle provides a graduated hint button (`💡 Need a Hint?`):
-- **Step-by-step rank reveals:** Rather than spoiling the species immediately, each hint reveals the next most specific taxonomic rank of the secret organism:
+- **Step-by-step rank reveals:** Rather than spoiling the answer immediately, each hint reveals the next most specific taxonomic rank of the secret organism:
   - *Hint 1:* Reveals **Kingdom** (e.g. `Kingdom: Animalia`)
   - *Hint 2:* Reveals **Phylum** (e.g. `Phylum: Chordata`)
   - *Hint 3:* Reveals **Class** (e.g. `Class: Mammalia`)
   - *Hint 4:* Reveals **Order** (e.g. `Order: Carnivora`)
   - *Hint 5:* Reveals **Family** (e.g. `Family: Felidae`)
   - *Hint 6:* Reveals **Genus** (e.g. `Genus: Panthera`)
-- Hints help narrow your search space while preserving the fun of deducing the exact species.
+- **Adapts to Umbrella Targets:** If the mystery organism is an umbrella taxon (e.g. the Order *Siluriformes* / Catfish or Family *Trochilidae* / Hummingbirds), hints stop once that rank is revealed, immediately guiding you to the winning group without seeking a non-existent subordinate species.
+- Hints help narrow your search space while preserving the fun of deducing the secret organism.
 
 ### 3. In-App Universal Species Catalog (29,748 Species)
 Accessible via the bottom bar or modal button, the in-app catalog lets players explore every valid organism:

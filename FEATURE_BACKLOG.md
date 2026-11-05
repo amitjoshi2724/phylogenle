@@ -88,12 +88,10 @@ yea ill j try to ai generate ts. my idea is to maybe have square emojis and the 
 
 <!-- 👇 DROP YOUR RAW RAMBLINGS / BRAIN DUMPS BELOW THIS LINE 👇 -->
 
-- fix readme to show that the target organism is not necessarily a species, sometimes genus or family or even order
+- [x] fix readme to show that the target organism is not necessarily a species, sometimes genus or family or even order
 
 - alias overrides; sometimes the most common name for a species is not the shortest, so it wasn't selected as the main common name
 
 - more umbrella taxa? such as collapsing all fiddler crabs into "fiddler crab", all pumas into "puma", etc. i want there to be a good selection of umbrella taxa
 
 - support creation of puzzles to send to a friend or play by urself via wikipedia link (as well as j searching it up urself in the catalog)
-
-- more intense wikipedia integration, can open the wiki page of any organism within the website itself, instead of having to open a new tab. facilitates learning and overcomes the mental obstacle of opening a new tab. connect each species or clade or genus or anything like that to its own wikipedia page. and use this info to display the common name of each taxonomic rank/subclade in the tree and guess list. uk how theres an "catalog" button within the guess? next to it there should be a wikipedia button that opens up a pane within our website for that lca node. it shows the common name of that taxonomic rank/subclade or even species. and that pane should have clickable links to allow the users to explore a bit
