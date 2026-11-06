@@ -4299,7 +4299,13 @@ function bootPhylogenle() {
         } catch (err) {
             if (coopCreateRoomBtn) coopCreateRoomBtn.textContent = '🤝 Host / Play with Friends';
             if (inGameCoopBtn) inGameCoopBtn.textContent = '🤝 Play with Friends';
-            alert(err.message || "Failed to create multiplayer room.");
+            console.error("Multiplayer room creation error:", err);
+            const msg = (err.message || "").toLowerCase();
+            if (msg.includes("permission") || msg.includes("insufficient")) {
+                alert("Multiplayer permissions error: The updated security rules for coop_rooms have not been deployed in your Firebase Console yet. Please paste and publish firestore.rules in the Firebase Console (Firestore Database > Rules) to enable co-op rooms.");
+            } else {
+                alert(err.message || "Failed to create multiplayer room.");
+            }
         }
     }
 
@@ -4326,8 +4332,14 @@ function bootPhylogenle() {
             initGame();
         } catch (err) {
             coopJoinRoomBtn.textContent = 'Join';
+            console.error("Multiplayer join error:", err);
+            const msg = (err.message || "").toLowerCase();
             if (coopJoinError) {
-                coopJoinError.textContent = err.message || 'Failed to join room.';
+                if (msg.includes("permission") || msg.includes("insufficient")) {
+                    coopJoinError.textContent = 'Multiplayer permissions error: Please publish the updated firestore.rules in Firebase Console.';
+                } else {
+                    coopJoinError.textContent = err.message || 'Failed to join room.';
+                }
                 coopJoinError.classList.remove('hidden');
             }
         }

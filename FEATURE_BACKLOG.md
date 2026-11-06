@@ -88,6 +88,15 @@
          }
          ```
       3. Bumped script module versioning in `index.html` (`script.js?v=settings_20261105`) to guarantee complete cache invalidation.
+  - **Firestore Security Rules Deployment & Permission Error Resolution:**
+    - *The Bug:* Clicking "Host / Play with Friends" threw an alert: `Missing or insufficient permissions.`
+    - *Root Cause Analysis:*
+      1. **Unpublished Cloud Rules:** In October, the Firebase project was initialized with rules strictly for `/users/{userId}`. The newly authored rules for `/coop_rooms/{roomId}` in `firestore.rules` were saved to the git repository, but were never published to Google's live Firestore cloud servers. Firestore's default security model denies all writes to any document path that lacks an explicit matching rule.
+      2. **Client Identity Synchronization:** In `coop.js`, `sanitizePlayerMap()` previously read `player.uid` from `localStorage`. If a guest player previously had a Google session cached in `localStorage` but was currently unauthenticated in the active Firebase Auth SDK session (`request.auth == null`), the client attempted to write a document with `createdBy.uid != null`. This tripped rule `(!isAuthenticated() && (!('uid' in createdBy) || createdBy.uid == null))`, generating a permissions denial.
+    - *The Fix:*
+      1. Hardened `sanitizePlayerMap()` in `coop.js` to strictly verify authentication with `getCurrentUser()?.uid` before attaching `uid` to `createdBy`.
+      2. Upgraded client-side error handling in `script.js` (`handleInGameCoopClick` and room join handler) to detect permission errors and inform the developer to publish `firestore.rules`.
+      3. Documented deployment steps for publishing `firestore.rules` via the Firebase Console or Firebase CLI.
   - **Unicode Emoji Grapheme Segmentation Theory:**
     - Modern emojis are often composite sequences consisting of multiple Unicode codepoints joined by Zero-Width Joiners (ZWJ, `U+200D`), variation selectors (`U+FE0F`), or skin tone modifiers (Fitzpatrick types, `U+1F3FB`–`U+1F3FF`). Naive JavaScript string operations like `.slice(0, 1)` or `.length` corrupt these compound emojis (e.g. splitting 🧑‍🔬 or 🏳️‍🌈 into broken fragments).
     - To safely allow users to type or paste **any** emoji from their keyboard, `script.js` uses `Intl.Segmenter` with `{ granularity: 'grapheme' }` paired with Unicode property escapes `\p{Extended_Pictographic}`:

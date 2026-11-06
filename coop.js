@@ -233,8 +233,11 @@ export function toPlayerBadge(player) {
  */
 function sanitizePlayerMap(player) {
     if (!player) return null;
+    const currentUser = getCurrentUser();
     const res = {};
-    if (player.uid) res.uid = String(player.uid);
+    if (currentUser && currentUser.uid) {
+        res.uid = String(currentUser.uid);
+    }
     if (player.name) res.name = String(player.name).slice(0, 100);
     const isPhoto = (player.avatarType === 'photo' || (!player.avatarEmoji && player.photoUrl)) && Boolean(player.photoUrl);
     if (isPhoto) {
