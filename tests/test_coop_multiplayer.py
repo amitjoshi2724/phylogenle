@@ -53,13 +53,19 @@ class TestCooperativeMultiplayer(unittest.TestCase):
         # Ensure coop modal lobby is decoupled from profile avatar selection
         self.assertNotIn('class="coop-profile-section', html)
 
-        # Dedicated Player Profile Modal & Top Nav Button
-        self.assertIn('id="profile-modal-btn"', html)
-        self.assertIn('id="profile-modal"', html)
+        # Dedicated Settings Modal & Top Nav Button
+        self.assertIn('id="settings-modal-btn"', html)
+        self.assertIn('id="settings-modal"', html)
         self.assertIn('id="profile-name-input"', html)
         self.assertIn('id="profile-google-card"', html)
         self.assertIn('id="profile-custom-emoji-input"', html)
         self.assertIn('id="profile-preset-palette"', html)
+
+        # Header mode bar contains segmented toggle and archive button
+        self.assertIn('class="header-mode-bar"', html)
+        self.assertIn('id="mode-daily-btn"', html)
+        self.assertIn('id="mode-practice-btn"', html)
+        self.assertIn('id="archive-modal-btn"', html)
 
     def test_css_contains_coop_button_status_bar_and_modal_styles(self):
         style_css = (ROOT / "style.css").read_text(encoding="utf-8")
@@ -71,14 +77,15 @@ class TestCooperativeMultiplayer(unittest.TestCase):
         self.assertIn(".coop-status-bar", style_css)
         self.assertIn(".coop-pulse-dot", style_css)
         self.assertIn(".player-avatar-img", style_css)
-        self.assertIn(".profile-nav-btn", style_css)
+        self.assertIn(".settings-nav-btn", style_css)
 
         # Modal styles in modals.css
         self.assertIn(".coop-modal-dialog", modals_css)
         self.assertIn(".coop-room-card", modals_css)
-        self.assertIn(".profile-modal-dialog", modals_css)
+        self.assertIn(".settings-modal-dialog", modals_css)
         self.assertIn(".profile-avatar-palette", modals_css)
         self.assertIn(".profile-avatar-option", modals_css)
+        self.assertIn(".header-mode-bar", modals_css)
 
     def test_profile_custom_emoji_and_google_photo_support(self):
         coop_js = (ROOT / "coop.js").read_text(encoding="utf-8")

@@ -141,6 +141,37 @@
 }
 
 /* Segmented Mode Toggle */
+.header-mode-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 0.85rem;
+    margin-bottom: 0.4rem;
+    flex-wrap: wrap;
+}
+
+.header-archive-btn {
+    padding: 0.45rem 0.95rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    color: var(--text-secondary);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-archive-btn:hover {
+    color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.22);
+    transform: translateY(-1px);
+}
+
 .mode-segmented-toggle {
     display: inline-flex;
     align-items: center;
@@ -2681,8 +2712,9 @@
 }
 
 /* ==========================================================================
-   Dedicated Player Profile Modal Styles
+   Dedicated Settings & Player Profile Modal Styles
    ========================================================================== */
+.settings-modal-dialog,
 .profile-modal-dialog {
     max-width: 480px;
     width: 92%;
@@ -2691,12 +2723,14 @@
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 30px rgba(139, 92, 246, 0.2);
 }
 
+.settings-modal-title-wrap,
 .profile-modal-title-wrap {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
+.settings-modal-badge,
 .profile-modal-badge {
     background: rgba(139, 92, 246, 0.2);
     border: 1px solid rgba(167, 139, 250, 0.4);

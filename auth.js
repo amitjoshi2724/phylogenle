@@ -182,7 +182,7 @@ export function renderAuthUI(user) {
                 e.stopPropagation();
                 if (dropdown) dropdown.classList.remove('active');
                 if (userInfoBtn) userInfoBtn.setAttribute('aria-expanded', 'false');
-                const profileBtn = document.getElementById('profile-modal-btn');
+                const profileBtn = document.getElementById('settings-modal-btn') || document.getElementById('profile-modal-btn');
                 if (profileBtn) profileBtn.click();
             });
         }

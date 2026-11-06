@@ -96,6 +96,9 @@ currentProfile = loadOrInitProfile();
  * Save profile to localStorage and sync with auth if signed in
  */
 export function saveProfile(profile) {
+    if (!currentProfile) {
+        currentProfile = loadOrInitProfile();
+    }
     currentProfile = { ...(currentProfile || {}), ...profile };
     try {
         localStorage.setItem(PROFILE_KEY, JSON.stringify(currentProfile));
@@ -105,6 +108,9 @@ export function saveProfile(profile) {
 }
 
 export function getMyPlayerProfile() {
+    if (!currentProfile) {
+        currentProfile = loadOrInitProfile();
+    }
     return { ...currentProfile };
 }
 

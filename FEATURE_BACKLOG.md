@@ -38,15 +38,56 @@
   - *(Drop quick thoughts, quirks, or ideas for this item here)*
   like uk how in spaceship flight you can join a server with a code, and then you see other people joining with their little cursor things, and you can see their names and their little cursors, and you can see them solving the puzzle, and you can see them chatting with each other? something like that but for phylogenle. so basically you copy the link, send it to your friend, and then they join the server with the code, and then you can see them on the phylogenetic tree, and you can see them guessing, and you can see them chatting with each other. except you can't see their names or their cursors or them guessing, you can only see the things that they guess, and you can see the phylogenetic tree updating in real time with their guesses. so yeah, basically just spaceship flight online coop but for phylogenle.
   the coop thing should only be either host or join, the player profile avatar choice thingy should be somewhere else. also those starter emojis are good but keep in mind any emoji should be able to be picked, as well as the google pfp
+  clunky and gay. the avatar really only matters in multiplayer mode so just make a settings button where you can adjust that shit. also even without that the top bar is getting crowded. move the daily practice archive shit to the main phylogenle label area
 - **🛠️ Technical Implementation & Architecture Notes:**
   - **Files Created / Modified:**
-    - `coop.js`: Core ES6 module managing Firestore real-time room operations, state subscription, player identities (`currentProfile`), `toPlayerBadge()` formatter, and guess/hint submission. Resolved Temporal Dead Zone (TDZ) initialization bug.
+    - `coop.js`: Core ES6 module managing Firestore real-time room operations, state subscription, player identities (`currentProfile`), `toPlayerBadge()` formatter, defensive profile retrieval (`getMyPlayerProfile`, `saveProfile`), and guess/hint submission.
     - `firestore.rules`: Production security rules governing `/coop_rooms/{roomId}` access, field immutability, schema validation, and participant boundaries.
-    - `script.js`: Game loop integration, mid-game promotion handler (`promoteSoloGameToCoop`), live board rendering, `renderPlayerAvatarHtml()` (rendering `<img class="player-avatar-img">` or `<span class="player-avatar-emoji">`), `extractFirstEmoji()` with Unicode grapheme clustering, profile modal management, and multiplayer stats synchronization.
-    - `auth.js`: Google sign-in integration, profile synchronization, and added "Customize Avatar & Name" shortcut in `#identity-dropdown`.
-    - `index.html`: Markup for header Co-op button (`#coop-nav-btn`), Profile button (`#profile-modal-btn`), Host/Join Co-Op modal (`#coop-modal`), dedicated Player Profile modal (`#profile-modal`), and persistent status bar (`#coop-status-bar`).
-    - `style.css` & `modals.css`: Responsive styles for player avatar images, profile live preview card, custom emoji input, starter avatar palette, and lobby cards.
-    - `tests/test_coop_multiplayer.py`: Automated unit and integration test suite covering room lifecycle, profile decoupling, custom emoji parsing, and Google PFP rendering.
+    - `script.js`: Game loop integration, mid-game promotion handler (`promoteSoloGameToCoop`), live board rendering, `renderPlayerAvatarHtml()` (rendering `<img class="player-avatar-img">` or `<span class="player-avatar-emoji">`), `extractFirstEmoji()` with Unicode grapheme clustering, settings modal management (`#settings-modal`), and multiplayer stats synchronization.
+    - `auth.js`: Google sign-in integration, profile synchronization, and updated profile navigation click handler to route to `#settings-modal-btn`.
+    - `index.html`: Optimized top navbar (removed redundant profile button and segmented mode toggle, added `⚙️ Settings` button `#settings-modal-btn`), relocated `[📅 Daily | 🧬 Practice]` toggle and `📅 Archive` into `<header>` within `.header-mode-bar`, added proactive service worker uninstaller in `<head>`, and updated modal markup to `#settings-modal`.
+    - `style.css` & `modals.css`: Added responsive styles for `.header-mode-bar`, `.header-archive-btn`, `.settings-nav-btn`, and `.settings-modal-dialog`.
+    - `tests/test_coop_multiplayer.py`: Automated unit and integration test suite covering room lifecycle, settings modal decoupling, header mode bar migration, custom emoji parsing, and Google PFP rendering.
+  - **Top Navbar Optimization & Header Mode Bar Migration:**
+    - *The Problem:* The top navbar was congested with 11+ buttons. When a user signed in via Google Auth, two identical profile buttons (`[ (photo) Amit Joshi ]` and `[ (photo) Amit Joshi ▼ ]`) flanked the Ko-fi widget. Furthermore, player avatars only have functional relevance in cooperative multiplayer sessions; they do not belong in the primary top navbar during solo play.
+    - *The Redesign:*
+      1. Relocated the Daily/Practice segmented toggle (`.mode-segmented-toggle`) and the past puzzles archive button (`#archive-modal-btn`) out of the top navbar and directly into the main `<header>` area underneath `<h1>PHYLOGENLE</h1>` and the subtitle, centered within `.header-mode-bar`.
+      2. Replaced the redundant profile button in `.top-navbar` with a clean `⚙️ Settings` button (`#settings-modal-btn`).
+      3. Updated `#profile-modal` to `#settings-modal` ("⚙️ Settings - Multiplayer Identity & Preferences") to house player nickname, Google PFP toggle, arbitrary custom emoji input, and starter nature avatar palettes.
+  - **Service Worker Interception & Temporal Dead Zone (TDZ) Fix:**
+    - *The Bug:* Browser console reported:
+      ```text
+      Uncaught (in promise) NetworkError: Failed to execute 'put' on 'Cache': Cache.put() encountered a network error sw.js:1
+      Uncaught ReferenceError: Cannot access 'currentProfile' before initialization
+          at saveProfile (coop.js:86:5)
+          at loadOrInitProfile (coop.js:78:5)
+          at coop.js:29:22
+      ```
+    - *Root Cause Analysis:*
+      1. **Rogue Service Worker Scope:** Phylogenle does not register a service worker. However, when developers test multiple web projects on the same localhost origin (e.g., `http://localhost:3000/` or `http://localhost:5000/`), an active service worker from a previously run project remains registered in the browser. When opening Phylogenle, that rogue service worker intercepted all network requests.
+      2. **`Cache.put()` Network Failure:** The rogue service worker's fetch handler attempted blind `cache.put(event.request, response.clone())`. On CORS preflight requests, Firestore WebSockets, or aborted network connections, `Cache.put()` threw an unhandled `NetworkError`.
+      3. **Stale Cache Interception & TDZ:** The rogue service worker served an outdated cached copy of `coop.js` from before commit `f6222c9`. In that stale script, line 29 declared `let currentProfile = loadOrInitProfile()`. During `loadOrInitProfile()`, it invoked `saveProfile(newProfile)`, which tried to read `currentProfile` before JavaScript engine completed its initialization statement. In JavaScript, `let` and `const` variables are hoisted into a *Temporal Dead Zone* (TDZ) where accessing them prior to assignment causes a fatal `ReferenceError`.
+    - *The Solution:*
+      1. In `index.html`, added an unregister hook at the top of `<head>` to automatically detect and unregister any rogue service workers lingering on the origin:
+         ```javascript
+         if ('serviceWorker' in navigator) {
+             navigator.serviceWorker.getRegistrations().then(registrations => {
+                 for (const registration of registrations) {
+                     registration.unregister();
+                 }
+             }).catch(() => {});
+         }
+         ```
+      2. In `coop.js`, hardened `currentProfile` initialization with defensive lazy loading so it can never be accessed uninitialized:
+         ```javascript
+         let currentProfile = null;
+         ...
+         export function getMyPlayerProfile() {
+             if (!currentProfile) currentProfile = loadOrInitProfile();
+             return { ...currentProfile };
+         }
+         ```
+      3. Bumped script module versioning in `index.html` (`script.js?v=settings_20261105`) to guarantee complete cache invalidation.
   - **Unicode Emoji Grapheme Segmentation Theory:**
     - Modern emojis are often composite sequences consisting of multiple Unicode codepoints joined by Zero-Width Joiners (ZWJ, `U+200D`), variation selectors (`U+FE0F`), or skin tone modifiers (Fitzpatrick types, `U+1F3FB`–`U+1F3FF`). Naive JavaScript string operations like `.slice(0, 1)` or `.length` corrupt these compound emojis (e.g. splitting 🧑‍🔬 or 🏳️‍🌈 into broken fragments).
     - To safely allow users to type or paste **any** emoji from their keyboard, `script.js` uses `Intl.Segmenter` with `{ granularity: 'grapheme' }` paired with Unicode property escapes `\p{Extended_Pictographic}`:

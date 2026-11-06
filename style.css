@@ -1393,6 +1393,7 @@ tr.catalog-highlight-target {
     line-height: 1;
 }
 
+.settings-nav-btn,
 .profile-nav-btn {
     background: linear-gradient(135deg, rgba(139, 92, 246, 0.16) 0%, rgba(99, 102, 241, 0.12) 100%);
     border-color: rgba(167, 139, 250, 0.4);
@@ -1402,6 +1403,7 @@ tr.catalog-highlight-target {
     gap: 6px;
 }
 
+.settings-nav-btn:hover,
 .profile-nav-btn:hover {
     background: linear-gradient(135deg, rgba(139, 92, 246, 0.3) 0%, rgba(99, 102, 241, 0.25) 100%);
     border-color: #c4b5fd;

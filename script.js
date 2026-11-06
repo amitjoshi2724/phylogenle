@@ -118,9 +118,11 @@ function bootPhylogenle() {
     const coopLobbyName = document.getElementById('coop-lobby-name');
     const coopOpenProfileBtn = document.getElementById('coop-open-profile-btn');
 
-    // Dedicated Player Profile DOM Elements
-    const profileModal = document.getElementById('profile-modal');
-    const profileModalBtn = document.getElementById('profile-modal-btn');
+    // Dedicated Settings & Player Profile DOM Elements
+    const profileModal = document.getElementById('settings-modal') || document.getElementById('profile-modal');
+    const profileModalBtn = document.getElementById('settings-modal-btn') || document.getElementById('profile-modal-btn');
+    const settingsModal = profileModal;
+    const settingsModalBtn = profileModalBtn;
     const headerProfileAvatar = document.getElementById('header-profile-avatar');
     const headerProfileName = document.getElementById('header-profile-name');
     const profilePreviewAvatarBox = document.getElementById('profile-preview-avatar-box');
