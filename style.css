@@ -523,17 +523,29 @@ input[type="text"]:focus {
     border: 1px solid var(--accent-color);
     border-radius: 8px;
     padding: 1rem;
-    width: 300px;
+    width: 320px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.5);
     z-index: 1000;
-    pointer-events: none; /* so it doesn't interrupt mouse interactions */
-    transition: opacity 0.2s;
+    pointer-events: auto; /* Fully clickable and interactive */
+    transition: opacity 0.15s ease;
+}
+
+/* Invisible hit-area bridge connecting trigger node to tooltip */
+.wiki-tooltip::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    z-index: -1;
+    pointer-events: auto;
 }
 
 .wiki-tooltip.hidden {
     opacity: 0;
-    pointer-events: none;
-    display: none;
+    pointer-events: none !important;
+    display: none !important;
 }
 
 .wiki-title {
@@ -561,26 +573,40 @@ input[type="text"]:focus {
 }
 
 .wiki-actions {
-    margin-top: 0.65rem;
-    padding-top: 0.5rem;
+    margin-top: 0.75rem;
+    padding-top: 0.6rem;
     border-top: 1px solid var(--glass-border);
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.wiki-actions button {
+    cursor: pointer;
+    pointer-events: auto;
+    user-select: none;
 }
 
 .wiki-catalog-btn {
+    flex: 1;
+    min-width: 120px;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
     gap: 0.35rem;
     background: linear-gradient(135deg, rgba(96, 165, 250, 0.18), rgba(59, 130, 246, 0.32));
     border: 1px solid rgba(96, 165, 250, 0.45);
     color: #93c5fd;
     font-size: 0.8rem;
     font-weight: 600;
-    padding: 0.35rem 0.75rem;
+    padding: 0.45rem 0.75rem;
     border-radius: 6px;
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    white-space: nowrap;
 }
 
 .wiki-catalog-btn:hover {
@@ -663,6 +689,8 @@ tr.catalog-highlight-target {
 }
 
 .wiki-reader-action-btn {
+    flex: 1;
+    min-width: 120px;
     background: linear-gradient(135deg, rgba(99, 102, 241, 0.25), rgba(79, 70, 229, 0.4));
     border: 1px solid rgba(129, 140, 248, 0.45);
     color: #e0e7ff;
@@ -674,7 +702,10 @@ tr.catalog-highlight-target {
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
     gap: 5px;
+    white-space: nowrap;
 }
 
 .wiki-reader-action-btn:hover {

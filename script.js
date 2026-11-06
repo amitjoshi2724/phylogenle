@@ -269,39 +269,87 @@ function bootPhylogenle() {
     const wikiTitle = wikiTooltip ? wikiTooltip.querySelector('.wiki-title') : null;
     const wikiSnippet = wikiTooltip ? wikiTooltip.querySelector('.wiki-snippet') : null;
     const wikiCatalogBtn = document.getElementById('wiki-catalog-btn');
-    let tooltipTimeout;
+    const wikiTooltipReaderBtn = document.getElementById('wiki-tooltip-reader-btn');
+    let tooltipHideTimeout = null;
+    let isHoveringTooltip = false;
+    let isHoveringNode = false;
     let currentTooltipTaxon = '';
+
+    function cancelTooltipHide() {
+        if (tooltipHideTimeout) {
+            clearTimeout(tooltipHideTimeout);
+            tooltipHideTimeout = null;
+        }
+    }
+
+    function scheduleHideWikiTooltip(delay = 600) {
+        cancelTooltipHide();
+        tooltipHideTimeout = setTimeout(() => {
+            if (!isHoveringTooltip && !isHoveringNode && wikiTooltip) {
+                wikiTooltip.classList.add('hidden');
+                wikiTooltip.style.pointerEvents = 'none';
+            }
+        }, delay);
+    }
+
+    function hideWikiTooltip() {
+        isHoveringNode = false;
+        scheduleHideWikiTooltip(600);
+    }
+
+    function hideWikiTooltipImmediate() {
+        isHoveringNode = false;
+        isHoveringTooltip = false;
+        cancelTooltipHide();
+        if (wikiTooltip) {
+            wikiTooltip.classList.add('hidden');
+            wikiTooltip.style.pointerEvents = 'none';
+        }
+    }
 
     async function showWikiTooltip(e, rankName) {
         if (!wikiTooltip) return;
-        clearTimeout(tooltipTimeout);
+        // If the user is currently inside the tooltip clicking buttons, don't overwrite it
+        if (isHoveringTooltip && currentTooltipTaxon === rankName) return;
+
+        isHoveringNode = true;
+        cancelTooltipHide();
         currentTooltipTaxon = rankName || '';
         wikiTooltip.classList.remove('hidden');
-        
-        let left = e.pageX + 10;
-        let top = e.pageY + 10;
-        
-        if (left + 320 > window.innerWidth) {
-            left = Math.max(10, window.innerWidth - 330);
+        wikiTooltip.style.pointerEvents = 'auto';
+
+        const tooltipWidth = 320;
+        const tooltipHeight = 220;
+        let left = e.pageX + 12;
+        let top = e.pageY + 12;
+
+        // Prevent horizontal clipping (flip to left of cursor if near right edge)
+        if (left + tooltipWidth > window.innerWidth - 16) {
+            left = Math.max(16, e.pageX - tooltipWidth - 12);
         }
-        
+
+        // Prevent vertical clipping (flip above cursor if near bottom edge)
+        const viewportBottom = window.scrollY + window.innerHeight;
+        if (top + tooltipHeight > viewportBottom - 16) {
+            top = Math.max(window.scrollY + 16, e.pageY - tooltipHeight - 12);
+        }
+
         wikiTooltip.style.left = left + 'px';
         wikiTooltip.style.top = top + 'px';
-        wikiTooltip.style.pointerEvents = 'auto';
 
         const normQuery = getNormalizedWikiTitle(rankName);
         const lowerName = (rankName || '').trim().toLowerCase();
         const displayTitle = (lowerName === 'root' || lowerName === 'root (luca)' || lowerName === 'cellular organisms' || lowerName === 'luca')
             ? 'Root (LUCA)'
             : rankName;
-        
+
         if (wikiTitle) {
             wikiTitle.innerHTML = `<span class="wiki-title-link" role="button" tabindex="0" title="Read full Wikipedia article inside Phylogenle" style="cursor: pointer; text-decoration: underline;">${displayTitle} &#8594;</span>`;
             const linkEl = wikiTitle.querySelector('.wiki-title-link');
             if (linkEl) {
                 linkEl.addEventListener('click', (ev) => {
                     ev.preventDefault();
-                    hideWikiTooltip();
+                    hideWikiTooltipImmediate();
                     openWikiArticle(normQuery);
                 });
             }
@@ -327,24 +375,22 @@ function bootPhylogenle() {
         }
     }
 
-    function hideWikiTooltip() {
-        if (!wikiTooltip) return;
-        tooltipTimeout = setTimeout(() => {
-            wikiTooltip.classList.add('hidden');
-            wikiTooltip.style.pointerEvents = 'none';
-        }, 350);
-    }
-
     if (wikiTooltip) {
-        wikiTooltip.addEventListener('mouseenter', () => clearTimeout(tooltipTimeout));
-        wikiTooltip.addEventListener('mouseleave', hideWikiTooltip);
+        wikiTooltip.addEventListener('mouseenter', () => {
+            isHoveringTooltip = true;
+            cancelTooltipHide();
+        });
+        wikiTooltip.addEventListener('mouseleave', () => {
+            isHoveringTooltip = false;
+            scheduleHideWikiTooltip(500);
+        });
     }
 
     if (wikiCatalogBtn) {
         wikiCatalogBtn.addEventListener('click', (e) => {
             e.stopPropagation();
             const targetTaxon = currentTooltipTaxon;
-            hideWikiTooltip();
+            hideWikiTooltipImmediate();
             if (targetTaxon) {
                 openCatalogAtTaxon(targetTaxon);
             } else {
@@ -352,6 +398,32 @@ function bootPhylogenle() {
             }
         });
     }
+
+    if (wikiTooltipReaderBtn) {
+        wikiTooltipReaderBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const targetTaxon = currentTooltipTaxon;
+            hideWikiTooltipImmediate();
+            if (targetTaxon) {
+                openWikiArticle(targetTaxon);
+            }
+        });
+    }
+
+    // Dismiss tooltip on click outside or Escape
+    document.addEventListener('click', (e) => {
+        if (wikiTooltip && !wikiTooltip.classList.contains('hidden')) {
+            if (!wikiTooltip.contains(e.target) && !e.target.closest('.taxa-clickable') && !e.target.closest('.taxa-link')) {
+                hideWikiTooltipImmediate();
+            }
+        }
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && (!wikiDrawerState || !wikiDrawerState.isOpen) && wikiTooltip && !wikiTooltip.classList.contains('hidden')) {
+            hideWikiTooltipImmediate();
+        }
+    });
 
     // Wikipedia In-App Reader Drawer Elements & State
     const wikiDrawer = document.getElementById('wiki-drawer');
@@ -371,7 +443,6 @@ function bootPhylogenle() {
     const wikiDrawerError = document.getElementById('wiki-drawer-error');
     const wikiErrorMessage = document.getElementById('wiki-error-message');
     const wikiErrorRetryBtn = document.getElementById('wiki-error-retry-btn');
-    const wikiTooltipReaderBtn = document.getElementById('wiki-tooltip-reader-btn');
 
     let wikiDrawerState = {
         isOpen: false,
@@ -879,17 +950,6 @@ function bootPhylogenle() {
         wikiErrorRetryBtn.addEventListener('click', () => {
             if (wikiDrawerState.currentTitle) {
                 loadWikiArticle(wikiDrawerState.currentTitle, false);
-            }
-        });
-    }
-
-    if (wikiTooltipReaderBtn) {
-        wikiTooltipReaderBtn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            const targetTaxon = currentTooltipTaxon;
-            hideWikiTooltip();
-            if (targetTaxon) {
-                openWikiArticle(targetTaxon);
             }
         });
     }
@@ -3246,21 +3306,7 @@ function bootPhylogenle() {
             .style("text-anchor", "middle")
             .style("font-size", `${dynamicFontSize}px`)
             .attr("class", "taxa-link node-label-text")
-            .text(d => `${getNodeDisplayEmoji(d)} ${getTreeCladeLabel(d.data.name)}`)
-            .on("mouseenter", function(e, d) {
-                if (!d.data.isMystery || (d.data.isMystery && d.data.name !== "?")) {
-                    const query = d.data.wikiTitle || d.data.name;
-                    showWikiTooltip(e, query);
-                }
-            })
-            .on("mouseleave", hideWikiTooltip)
-            .on("click", function(e, d) {
-                if (!d.data.isMystery || (d.data.isMystery && d.data.name !== "?")) {
-                    const query = getNormalizedWikiTitle(d.data.wikiTitle || d.data.name);
-                    hideWikiTooltip();
-                    openWikiArticle(query);
-                }
-            });
+            .text(d => `${getNodeDisplayEmoji(d)} ${getTreeCladeLabel(d.data.name)}`);
 
         // Size background rects dynamically according to measured text width
         node.each(function() {
@@ -3285,12 +3331,15 @@ function bootPhylogenle() {
             gEl.classed("taxa-clickable", true);
 
             gEl.on("mouseenter", function(e) {
+                if (isHoveringTooltip) return;
                 showWikiTooltip(e, rawQuery);
             })
-            .on("mouseleave", hideWikiTooltip)
+            .on("mouseleave", function() {
+                hideWikiTooltip();
+            })
             .on("click", function(e) {
                 if (treeContainer.classList.contains("is-dragging")) return;
-                hideWikiTooltip();
+                hideWikiTooltipImmediate();
                 openWikiArticle(query);
             });
         });

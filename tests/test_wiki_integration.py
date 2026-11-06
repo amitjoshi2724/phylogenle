@@ -105,6 +105,26 @@ class TestWikiIntegration(unittest.TestCase):
         self.assertIn("e.key === 'Escape'", code)
         self.assertIn("wikiDrawerState.isOpen", code, "Escape should close wiki drawer when open")
 
+    def test_wiki_tooltip_interactive_hover_persistence_and_buffer(self):
+        style_path = os.path.join(REPO_ROOT, 'style.css')
+        with open(style_path, 'r', encoding='utf-8') as f:
+            style_css = f.read()
+
+        script_path = os.path.join(REPO_ROOT, 'script.js')
+        with open(script_path, 'r', encoding='utf-8') as f:
+            script_js = f.read()
+
+        # Tooltip must be interactive and have an invisible hover bridge
+        self.assertIn('.wiki-tooltip::before', style_css, "style.css should define invisible bridge for tooltip hover")
+        self.assertIn('pointer-events: auto', style_css, "style.css should grant pointer-events: auto to interactive tooltip")
+
+        # script.js must track hovering state and prevent prematurely hiding while moving to buttons
+        self.assertIn('isHoveringTooltip', script_js, "script.js should track tooltip hover state")
+        self.assertIn('scheduleHideWikiTooltip', script_js, "script.js should use generous hide delay")
+        self.assertIn('cancelTooltipHide', script_js, "script.js should cancel hide timer on hover")
+        self.assertIn('hideWikiTooltipImmediate', script_js, "script.js should support immediate dismissal on action click")
+        self.assertIn('if (isHoveringTooltip) return;', script_js, "script.js should not hijack tooltip while user is interacting with it")
+
 
 if __name__ == '__main__':
     unittest.main()

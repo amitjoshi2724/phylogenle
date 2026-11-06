@@ -445,8 +445,13 @@ yea ill j try to ai generate ts. my idea is to maybe have square emojis and the 
         2. MediaWiki article title when verified as a vernacular name of the exact taxon (e.g. *Aves* $\to$ "Bird", *Anura* $\to$ "Frog").
         3. NCBI `taxdump/names.dmp`: GenBank common name $>$ common name $>$ BLAST name.
       - Transient network errors are never poisoned as "no article" (cached as `None` or `error` for safe retry).
-    - **In-Game UX:**
+    - **In-Game UX & Interactive Tooltip Bridge:**
       - Guess cards include a dedicated 📖 Wikipedia button next to the Catalog button, opening the drawer directly to that LCA node's article.
       - D3 Cladogram nodes display verified common names alongside scientific clades (e.g., `Aves (Birds)`, `Cetacea (Whales & Dolphins)`).
+      - **Interactive Hovercard Safe-Zone Bridge:** Solved the common UI bug where hovering over tree nodes and moving towards action buttons caused the tooltip to disappear prematurely:
+        - Added an invisible $20\text{px}$ hitbox buffer (`.wiki-tooltip::before`) that bridges the gap between tree nodes and the tooltip, guaranteeing that the cursor enters the tooltip's interactive boundary immediately upon leaving the node.
+        - Replaced brittle $350\text{ms}$ timer with explicit hover state tracking (`isHoveringTooltip`, `isHoveringNode`) and a generous $600\text{ms}$ grace period.
+        - Removed duplicate event listeners on SVG child `<text>` elements so crossing the text-to-rect boundary within a node never triggers premature `mouseleave`.
+        - Clamped tooltip positioning to prevent off-screen viewport clipping, and set `.wiki-tooltip` to `pointer-events: auto` for reliable clicking of both "🌐 Open in Wikipedia" and "📖 Open in Catalog".
     - **Verification & Terminal Tests:**
       - Run: `python3 -m unittest tests/test_sync_script.py tests/test_wiki_integration.py`
